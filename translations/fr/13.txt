@@ -1,0 +1,419 @@
+#0782
+Q: Quel danger menace le conducteur qui tourne à droite, pendant le virage ?
+1: Aucun problème : piétons et deux-roues ne s'engageront pas à droite du véhicule qui tourne, à cause du grand écart.
+2: Aucun danger : tous les usagers connaissent la loi et savent qu'on ne se place pas à droite d'un véhicule qui tourne à droite.
+3: Pendant le virage, un deux-roues peut s'engager à sa droite.
+4: Aucun danger n'est possible pendant le virage, car la loi permet le virage simultané d'un deux-roues et d'un autre véhicule.
+
+#0783
+Q: Dans quel cas une voiture particulière peut-elle tourner à droite ailleurs que depuis la voie de droite ?
+1: Sur une chaussée où plus d'une voie est marquée pour tourner à droite.
+2: Quand la circulation est très faible.
+3: Dans aucun cas : la loi ne le permet qu'aux véhicules lourds et longs.
+4: Le virage est permis aux véhicules plus rapides que ceux de la voie de droite.
+
+#0784
+Q: Comment un conducteur tourne-t-il à gauche d'une chaussée à double sens (A) vers une chaussée à sens unique (B) ?
+1: De la voie 1 vers la voie 5.
+2: De la voie 2 vers la voie 5.
+3: De la voie 2 vers n'importe laquelle des voies 5, 6 ou 7.
+4: De la voie 1 ou de la voie 2 vers n'importe laquelle des voies 5, 6 ou 7.
+
+#0785
+Q: Que signifie ce panneau ?
+1: Contournez l'obstacle par la droite.
+2: Allez uniquement à droite.
+3: Voie spéciale réservée aux transports en commun.
+4: Passez sur la voie voisine de droite lorsque les conditions de circulation le permettent.
+
+#0786
+Q: Qu'ont en commun ces panneaux ?
+1: Ils ne sont placés que sur des chantiers.
+2: Ils ne sont placés que sur voie rapide.
+3: Ils ne sont placés qu'en agglomération.
+4: Ils ne sont placés que hors agglomération.
+
+#0787
+Q: Quelle est la longueur maximale autorisée par la loi pour l'autobus de la photo ?
+1: 15,50 mètres.
+2: 13,75 mètres.
+3: 14,10 mètres.
+4: 18,75 mètres.
+
+#0788
+Q: Vous approchez d'un tronçon de route précédé du panneau 308. Un véhicule venant en face est déjà entré par l'entrée opposée du tronçon. Que faites-vous ?
+1: Allumez vos feux et entrez dans le tronçon : la priorité est à vous.
+2: Klaxonnez longuement et entrez dans le tronçon.
+3: Attendez qu'il sorte du tronçon, puis passez.
+4: Entrez normalement dans le tronçon et essayez de croiser le véhicule d'en face.
+
+#0789
+Q: Vous arrivez à une intersection qui n'est pas libre :
+1: Si le feu est vert, vous pouvez entrer même si l'intersection n'est pas libre.
+2: Arrêtez-vous avant l'intersection et attendez qu'elle se libère.
+3: On peut tourner à gauche même si l'intersection n'est pas libre.
+4: Entrez prudemment dans l'intersection et attendez-y qu'elle se libère.
+
+#0790
+Q: Un policier vous verbalise pour « déport de voie » alors qu'aucune voie n'est marquée sur la chaussée. A-t-il raison ?
+1: Non. On ne peut pas « dévier » d'une voie qui n'est pas marquée.
+2: Non. S'il n'y a pas de voie marquée, on peut rouler sur n'importe quelle partie de la chaussée.
+3: Non. La loi permet de quitter sa voie sans aucune limite.
+4: Oui. Une « voie » peut être marquée ou non marquée.
+
+#0791
+Q: Quand est-il permis de tourner à gauche depuis une chaussée à sens unique ailleurs que depuis la voie de gauche ?
+1: Le virage est interdit.
+2: Un tel virage est permis lorsque deux voies ou plus sont marquées pour tourner à gauche.
+3: Un tel virage n'est permis qu'à une intersection à feux.
+4: C'est permis uniquement d'une chaussée à sens unique vers une chaussée à sens unique.
+
+#0792
+Q: Le conducteur peut-il franchir une ligne continue pour faire demi-tour ?
+1: Non.
+2: Oui, à condition de ne pas gêner la circulation.
+3: Oui, lorsque l'intersection devant vous est bloquée.
+4: Oui, lorsque la chaussée comporte au moins deux voies dans chaque sens.
+
+#0793
+Q: Qu'est-ce qu'un « demi-tour » ?
+1: Un virage à l'issue duquel le conducteur repart en sens inverse, vers l'endroit d'où il venait.
+2: Tout virage qui n'est pas à angle droit est un demi-tour.
+3: Un virage où le conducteur effectue une rotation de 360 degrés.
+4: Uniquement un virage où le conducteur roule dans un giratoire et revient sur la route d'où il venait.
+
+#0794
+Q: Quels sont les dangers d'un demi-tour ?
+1: Retarder les véhicules qui arrivent de derrière ou de devant.
+2: Risque de collision avec les véhicules qui arrivent en face ou de derrière.
+3: Provoquer des freinages brusques du véhicule qui approche.
+4: Toutes les réponses sont exactes.
+
+#0795
+Q: Choisissez l'affirmation exacte : la loi interdit au conducteur de faire demi-tour par la gauche :
+1: là où le véhicule n'est pas visible d'un autre conducteur qui approche de n'importe quel côté.
+2: quand un panneau interdit le demi-tour.
+3: quand il approche d'un sommet de côte raide ou d'un virage.
+4: Toutes les réponses sont exactes.
+
+#0796
+Q: D'après la photo, est-il permis de faire demi-tour ?
+1: Oui, si l'on peut terminer le virage en une seule manœuvre.
+2: Oui, depuis le côté gauche de la chaussée.
+3: Non.
+4: Oui, à condition de tourner prudemment sans gêner la circulation.
+
+#0797
+Q: Que doit toujours faire le conducteur avant de faire demi-tour par la gauche ?
+1: S'assurer que le demi-tour est permis et qu'il ne gêne pas la circulation.
+2: S'assurer d'être sur le bon rapport et que les phares sont allumés.
+3: Signaler avec les quatre clignotants pour avertir de son intention.
+4: Se placer à droite de la chaussée d'où il tourne.
+
+#0798
+Q: Qui est responsable de la sécurité pendant une marche arrière ?
+1: Le conducteur.
+2: Le propriétaire du véhicule, même s'il ne conduit pas à ce moment-là.
+3: La personne qui guide le conducteur pendant la marche arrière.
+4: Toutes les personnes qui se trouvent près du véhicule qui recule.
+
+#0799
+Q: Quel est le principal danger en marche arrière ?
+1: La présence d'usagers dans les « angles morts » et le risque de les heurter.
+2: Un dommage à la direction, car le volant agit à l'inverse de la marche avant.
+3: Un dommage aux pneus en approchant d'un trottoir ou d'objets tranchants.
+4: L'impossibilité de contrôler une vitesse lente et régulière à cause de la limitation des rapports.
+
+#0800
+Q: Qu'est-ce qu'un « angle mort » ?
+1: La zone autour du véhicule que le conducteur ne voit que dans les rétroviseurs.
+2: Une zone autour du véhicule où le conducteur ne peut pas voir ni repérer ce qui s'y trouve.
+3: La distance que le conducteur doit garder avec un autre véhicule en marche arrière.
+4: La zone non revêtue autour du véhicule.
+
+#0801
+Q: Quel est le meilleur moyen de réduire les dangers de la marche arrière ?
+1: Faire descendre tous les passagers pendant la marche arrière.
+2: Rouler vite et terminer la marche arrière le plus rapidement possible.
+3: Allumer les feux du véhicule.
+4: Regarder correctement et continuellement tout autour, et rouler lentement.
+
+#0802
+Q: Qu'est-ce qu'une vitesse raisonnable en conduisant ?
+1: Toute vitesse à laquelle le conducteur maîtrise parfaitement son véhicule.
+2: Toute vitesse à laquelle roule un conducteur raisonnable.
+3: Une vitesse légale adaptée à l'état de la route, à l'environnement et à la circulation, et à laquelle le conducteur maîtrise parfaitement son véhicule.
+4: Toute vitesse fixée à la discrétion d'un conducteur raisonnable.
+
+#0803
+Q: Quand la vitesse raisonnable peut-elle être supérieure à la vitesse maximale autorisée ?
+1: En dépassant un véhicule qui roule à la vitesse maximale autorisée.
+2: Jamais : une telle situation est illégale.
+3: En dépassant un véhicule stationné au bord de la route.
+4: En dépassant un véhicule qui roule sur la route.
+
+#0804
+Q: Quels sont les dangers de la conduite à grande vitesse ?
+1: Une usure rapide du moteur.
+2: Des dégâts graves aux pneus avant et à la direction.
+3: Il n'y a aucun danger à rouler à grande vitesse.
+4: Une moindre possibilité de s'arrêter à temps pour éviter un accident, voire de perdre le contrôle du véhicule.
+
+#0805
+Q: Quel est l'avantage de rouler à faible vitesse dans des situations dangereuses ?
+1: La distance de réaction sera plus longue et suffira pour s'arrêter.
+2: Les distances de réaction, de freinage et d'arrêt sont plus longues, donc la sécurité s'améliore.
+3: Les distances de réaction, de freinage et d'arrêt sont toutes plus courtes.
+4: Le temps de réaction sera plus long et le conducteur aura le temps de bien décider.
+
+#0806
+Q: Quel est l'effet d'une grande vitesse lors d'un accident de la route ?
+1: Elle allonge le temps de réaction et améliore ainsi la sécurité.
+2: Elle raccourcit beaucoup le temps de réaction du conducteur et améliore la sécurité.
+3: Elle provoque un choc plus violent et des dommages et blessures plus graves.
+4: Une grande vitesse n'a aucun effet sur le résultat de l'accident.
+
+#0807
+Q: Que signifie « conduire à une vitesse raisonnable » ?
+1: Tenir compte de l'état de la route et de la circulation de façon à garder à tout moment une maîtrise totale du véhicule.
+2: Rouler à une vitesse semblable à celle des autres conducteurs alentour.
+3: Rouler de façon à pouvoir aussi faire d'autres activités non indispensables à la conduite.
+4: Rouler à la vitesse voulue par le conducteur, à condition de ne pas dépasser la vitesse maximale fixée par la loi.
+
+#0808
+Q: À quel problème est confronté le conducteur qui roule à grande vitesse ?
+1: Le temps dont il dispose pour réagir correctement aux événements de la route est très réduit.
+2: Aucun problème : une étude a prouvé qu'une très grande vitesse favorise une conduite calme et sereine.
+3: Son temps de réaction s'allonge beaucoup.
+4: Son temps de réaction diminue, ce qui est dangereux pour sa conduite.
+
+#0809
+Q: Quel est le lien entre la vitesse et la distance d'arrêt du véhicule ?
+1: Aucun lien : la distance d'arrêt est constante.
+2: Plus la vitesse est élevée, plus la distance d'arrêt diminue.
+3: Plus la vitesse est basse, plus la distance d'arrêt augmente.
+4: Quand la vitesse est plus élevée, la distance d'arrêt du véhicule augmente.
+
+#0810
+Q: Qu'est-ce que la « distance d'arrêt » d'un véhicule ?
+1: La distance parcourue depuis le moment où le conducteur perçoit le danger devant lui jusqu'à l'arrêt du véhicule.
+2: La distance parcourue depuis le moment où le conducteur réagit au danger jusqu'au moment où il appuie sur la pédale de frein.
+3: La distance nécessaire pour s'arrêter à une vitesse donnée.
+4: La distance parcourue depuis le début du freinage jusqu'à l'arrêt du véhicule.
+
+#0811
+Q: De quoi la distance d'arrêt se compose-t-elle ?
+1: De la moyenne de la distance de freinage et de la distance de réaction du conducteur.
+2: De la somme de la distance de réaction et de la distance de freinage.
+3: De la somme de la distance de freinage et de l'écart avec le véhicule de devant.
+4: De la somme de la distance de décision et de la distance d'exécution d'un conducteur raisonnable.
+
+#0812
+Q: La distance de réaction du conducteur est la distance parcourue par le véhicule :
+1: depuis que le conducteur appuie sur le frein jusqu'à l'arrêt complet.
+2: depuis que le conducteur perçoit le danger devant lui jusqu'à l'arrêt complet.
+3: depuis le début de la réaction jusqu'à la fin du freinage.
+4: depuis que le conducteur perçoit le danger devant lui jusqu'au moment où il commence à agir en réaction.
+
+#0813
+Q: La distance de freinage du véhicule est la distance parcourue :
+1: depuis que le conducteur perçoit le danger devant lui jusqu'au moment où il commence à appuyer sur le frein.
+2: depuis que le conducteur appuie sur le frein jusqu'à l'arrêt complet du véhicule.
+3: depuis que le conducteur perçoit le danger devant lui jusqu'à l'arrêt complet.
+4: depuis la détection du danger jusqu'au début du freinage.
+
+#0814
+Q: Garder ses distances avec le véhicule qui précède est nécessaire :
+1: pour éviter un choc avant-arrière lorsque le véhicule de devant s'arrête ou ralentit.
+2: pour rouler sur la bonne voie et à la bonne vitesse.
+3: uniquement à grande vitesse et par temps de tempête.
+4: uniquement lorsque le conducteur est très fatigué et que ses réactions sont trop lentes.
+
+#0815
+Q: Quelle distance gardons-nous avec le véhicule qui roule devant nous ?
+1: Une distance qui empêche les autres véhicules de s'y glisser.
+2: Toute distance qui permet de voir les roues arrière du véhicule de devant en roulant.
+3: La distance exigée par la loi, qui permet d'éviter un accident à tout moment, compte tenu de tous les facteurs.
+4: Toute distance qui permet de bien voir ce qui se passe devant le véhicule qui nous précède, à tout moment.
+
+#0816
+Q: Quel est l'effet de la distance de sécurité sur le champ de vision du conducteur ?
+1: La distance n'influe sur le champ de vision qu'en cas de circulation dense (« bouchons »).
+2: Garder ses distances n'a aucun rapport avec le champ de vision du conducteur.
+3: Garder ses distances n'influe sur le champ de vision qu'à grande vitesse et par temps de tempête.
+4: Plus on garde de distance avec le véhicule de devant, meilleur est le champ de vision.
+
+#0817
+Q: Quel est l'effet d'une distance de sécurité adaptée avec le véhicule qui précède sur la consommation de carburant et l'usure du véhicule ?
+1: Garder une distance adaptée implique un usage constant des freins, d'où une usure rapide des freins.
+2: Plus la distance avec le véhicule de devant est faible, moins les freins s'usent et moins on consomme.
+3: Garder une distance adaptée ne sert qu'à éviter les accidents, sans effet sur l'usure ni la consommation.
+4: Garder une distance adaptée réduit l'usure des freins et la consommation de carburant du moteur.
+
+#0818
+Q: Qu'est-ce qui caractérise une conduite où l'on garde une distance adaptée avec le véhicule qui précède ?
+1: Une telle conduite encourage les autres conducteurs à s'insérer dans l'espace gardé devant.
+2: Garder ses distances n'a aucun effet sur le caractère de la conduite.
+3: Une conduite plus calme et moins stressante, qui ne fatigue pas et prévient les dangers.
+4: Une conduite qui oblige à réajuster la distance en permanence selon le terrain, et qui fatigue le conducteur.
+
+#0819
+Q: Que doit toujours faire le conducteur lorsqu'un autre véhicule le suit de trop près ?
+1: Appuyer brusquement et sans relâche sur la pédale de frein.
+2: Accélérer immédiatement, s'enfuir vers l'avant et augmenter la distance derrière lui.
+3: S'assurer que la distance qu'il garde devant lui permet un freinage modéré, pour éviter le risque d'être percuté par l'arrière.
+4: Rien : le conducteur de derrière est toujours fautif en cas d'accident.
+
+#0820
+Q: Quelle est la méthode éprouvée et recommandée pour garder une distance adaptée avec le véhicule qui nous précède ?
+1: Estimer une distance raisonnable entre nous et le véhicule de devant.
+2: La méthode du comptage « des deux secondes ».
+3: Essayer de conduire comme les conducteurs des voies voisines, à droite et à gauche.
+4: La méthode de la longueur des voitures et de la cylindrée.
+
+#0821
+Q: Quand devons-nous garder une distance plus grande que d'habitude avec le véhicule qui nous précède ?
+1: En roulant à basse vitesse en agglomération.
+2: Jamais : une distance de deux secondes suffit toujours.
+3: Quand la visibilité est mauvaise, sur chaussée glissante ou lorsque nous sommes fatigués.
+4: Quand nous suivons des camions ou d'autres véhicules lourds.
+
+#0822
+Q: Quand est-il permis de dépasser plus d'un véhicule en une seule manœuvre ?
+1: Jamais : la loi oblige à dépasser un seul véhicule à la fois et à revenir sur la voie de droite.
+2: C'est permis uniquement sur une route droite et plate, interdit sur toute autre route.
+3: C'est permis uniquement pour dépasser de petits véhicules, interdit pour de gros véhicules.
+4: Quand le dépassement n'est pas interdit et que la distance libre est suffisante pour le terminer sans risque.
+
+#0823
+Q: Il est interdit de commencer un dépassement sans vérifier :
+1: S'il y a un accotement au bord de la route ?
+2: Quelle est l'amende pour dépassement interdit ?
+3: Si l'assurance couvre les dommages en cas d'accident ?
+4: Est-il permis ? Pourrai-je le terminer en sécurité, sans aucun doute ?
+
+#0824
+Q: L'une des conditions qui justifient de dépasser un véhicule qui roule est :
+1: Le retard causé au véhicule qui dépasse par la lenteur du véhicule de devant.
+2: Il n'y a aucune condition qui justifie un dépassement.
+3: Une différence de vitesse importante entre le véhicule qui dépasse et le véhicule dépassé.
+4: Le véhicule dépassé roule moins vite que la vitesse maximale autorisée par la loi.
+
+#0825
+Q: Choisissez l'affirmation exacte :
+1: Garder une distance adaptée permet à un véhicule qui dépasse de s'insérer dans l'espace de devant.
+2: Garder ses distances n'est exigé que lorsque le conducteur est très fatigué et que ses réactions sont trop lentes.
+3: Garder ses distances n'est exigé qu'à grande vitesse, ou quand devant se trouve un véhicule lourd ou un autobus.
+4: Garder ses distances évite une surcharge qui abîme l'infrastructure routière.
+
+#0826
+Q: Vous dépassez un autre véhicule sur une route à double sens et deux voies :
+1: Ne vous inquiétez pas : le véhicule dépassé doit se déporter à droite pour faciliter votre dépassement.
+2: Ce dépassement dure en général 30 secondes.
+3: Vous risquez de voir surgir un véhicule sur la voie opposée.
+4: Vous avez commis une infraction ! La loi interdit un tel dépassement.
+
+#0827
+Q: Comment attirer l'attention du conducteur du véhicule que vous dépassez, hors agglomération ?
+1: Vous pouvez klaxonner brièvement avant de le dépasser, si c'est nécessaire.
+2: Allumez les feux de position en plein jour, si c'est nécessaire.
+3: Signalez-le avec les quatre clignotants du véhicule, si c'est nécessaire.
+4: Klaxonnez pendant tout le dépassement. Il est important qu'il ne vous ignore pas.
+
+#0828
+Q: Vous roulez sur une chaussée à sens unique à deux voies et tentez de dépasser le véhicule qui vous précède. Le principal danger en se déportant à gauche est :
+1: de franchir une ligne continue.
+2: de gêner le véhicule qui roule derrière vous sur votre voie.
+3: qu'un véhicule roulant en sens inverse arrive sur la voie de gauche.
+4: de gêner un véhicule qui roule sur la voie de gauche.
+
+#0829
+Q: Quand est-il permis de passer un autre véhicule par sa droite ?
+1: Quand je peux terminer le dépassement vite.
+2: Quand la voie de droite est libre, que je suis pressé et que le véhicule dépassé roule lentement.
+3: Quand il y a plusieurs voies dans mon sens de circulation.
+4: Quand l'autre véhicule roule sur une voie réservée au virage à gauche et met son clignotant à gauche.
+
+#0830
+Q: Qu'est-ce qu'un véhicule hybride ?
+1: Un véhicule équipé de deux moteurs classiques.
+2: Un véhicule équipé d'un moteur électrique en plus du moteur classique.
+3: Un véhicule équipé, en plus du moteur, d'un moteur solaire (alimenté par le soleil).
+4: Un véhicule équipé de deux moteurs électriques à la place du moteur classique.
+
+#0831
+Q: Quelles actions devez-vous accomplir avant de vous engager volontairement sur l'accotement hors agglomération ?
+1: Ralentir et actionner les quatre clignotants du véhicule.
+2: Regarder, surtout vers l'arrière, mettre le clignotant et ralentir en douceur.
+3: Ralentir et braquer vers l'accotement le plus vite possible.
+4: À part mettre le clignotant à temps, rien d'autre n'est nécessaire.
+
+#0832
+Q: Quelles sont les conditions les plus importantes pour s'engager en sécurité sur l'accotement ?
+1: Que l'accotement et la chaussée soient à la même hauteur et que l'accotement soit assez large.
+2: Qu'il n'y ait pas de marquage de couleur sur l'accotement.
+3: La seule condition importante est qu'il soit permis de s'arrêter sur l'accotement.
+4: Que l'accotement soit revêtu d'asphalte ou de béton.
+
+#0833
+Q: Quelle est la bonne façon de s'engager volontairement sur un accotement plus bas que la chaussée ?
+1: Descendre vite sur l'accotement, puis réduire progressivement la vitesse.
+2: Ralentir le véhicule à basse vitesse et descendre progressivement sur l'accotement.
+3: Il n'y a pas de « bonne façon » : il est interdit de descendre sur un accotement plus bas.
+4: Descendre vite sur l'accotement et s'arrêter sur une très courte distance.
+
+#0834
+Q: Où immobilisez-vous votre véhicule après vous être engagé sur l'accotement en cas de besoin ?
+1: Le plus loin possible du bord de la chaussée.
+2: À au plus 40 cm du bord de la chaussée.
+3: Les deux roues droites sur l'accotement et les deux roues gauches sur la chaussée.
+4: Au-delà du fossé attenant au bord de la chaussée.
+
+#0835
+Q: Quelles actions préalables le conducteur doit-il effectuer pour remonter de l'accotement sur la chaussée ?
+1: Mettre le véhicule en biais et actionner les feux de détresse.
+2: Mettre le signal adapté et remonter le plus vite possible.
+3: Contrôler la circulation sur la chaussée, mettre le signal adapté et remonter en douceur.
+4: Remonter en biais sur la chaussée le plus vite possible.
+
+#0836
+Q: Quelle est la première étape pour remonter de l'accotement sur la chaussée ?
+1: Braquer pour remonter sur la chaussée avec un angle de 45 degrés.
+2: Mettre le clignotant.
+3: Accélérer jusqu'à la vitesse des véhicules de la chaussée.
+4: Se rapprocher du bord de la chaussée depuis l'accotement.
+
+#0837
+Q: Quelle raison justifie une sortie imprévue de la chaussée vers l'accotement ?
+1: Une panne de la climatisation du véhicule.
+2: L'arrêt d'un autre véhicule sur la voie opposée sans signal adapté.
+3: La sonnerie du téléphone portable du véhicule.
+4: L'apparition d'un élément surprenant et gênant sur la voie du conducteur.
+
+#0838
+Q: Quel est le danger de freiner lors d'une sortie imprévue de la chaussée vers l'accotement ?
+1: Une perte de contrôle (tête-à-queue) du véhicule due au freinage sur des surfaces (chaussée, accotement) aux coefficients d'adhérence différents.
+2: Une perte de contrôle du véhicule sur la chaussée due au blocage des roues avant.
+3: L'impossibilité de diriger le véhicule à cause d'un usage excessif des freins.
+4: L'impossibilité de diriger le véhicule à cause d'une pression excessive des pneus.
+
+#0839
+Q: Quelles sont les caractéristiques d'une route de montagne ?
+1: Des chaussées larges et non marquées.
+2: Les routes de montagne ne sont jamais revêtues.
+3: Chaussée étroite, lacets, virages serrés et pentes raides.
+4: Beaucoup de piétons et d'animaux.
+
+#0840
+Q: Quels sont les dangers à prévoir en conduisant sur une route de montagne ?
+1: Le desserrage d'une roue à cause de la pente raide.
+2: La perte de capacité de freinage et la collision frontale ; la sortie de route.
+3: La surchauffe des pneus.
+4: La surchauffe du moteur due à un usage excessif des freins.
+
+#0841
+Q: Comment réduire au minimum le risque de perdre ses freins sur une route de montagne ?
+1: Il faut peu utiliser les freins et rester sur un rapport élevé.
+2: Ne pas changer de rapport tout au long de la route de montagne.
+3: Il vaut mieux utiliser les freins sans profiter du frein moteur.
+4: Il faut rouler sur un rapport adapté (bas) et utiliser peu les freins.

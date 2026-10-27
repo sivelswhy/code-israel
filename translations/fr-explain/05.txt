@@ -1,0 +1,219 @@
+#0301
+E: Ce n'est pas le type de boisson qui compte, mais la quantité d'alcool absorbée : une canette de bière et un petit verre de whisky contiennent à peu près la même quantité d'alcool et ont un effet comparable sur la conduite.
+
+#0302
+E: La bière est une boisson alcoolisée comme les autres ; son effet sur la conduite est semblable. C'est le taux d'alcool dans le sang qui détermine si l'on est « ivre » au sens de la loi.
+R: P64ב(א)
+
+#0303
+E: La loi interdit expressément de conduire sous l'influence de stupéfiants. Est même considéré comme « ivre » celui qui a dans le corps un stupéfiant ou ses dérivés.
+R: T26(2); P64ב(א)
+
+#0304
+E: Un véhicule qui perd de l'huile ou émet une fumée anormale est dans un état qui peut mettre en danger les usagers : il est interdit de le conduire.
+R: T27(א)
+
+#0305
+E: Le test à l'éthylomètre est une preuve recevable : la loi définit justement l'ivresse par la concentration d'alcool mesurée dans l'air expiré ou dans le sang.
+R: P64ב(א)
+
+#0306
+E: Un policier peut exiger une prise de sang s'il soupçonne raisonnablement que le conducteur est sous l'emprise de l'alcool ou de stupéfiants.
+R: P64ב(א)
+
+#0307
+E: Il est interdit de refuser un contrôle demandé par un policier (souffle, sang, urine ou salive) ; refuser revient à être considéré comme conducteur ivre.
+R: P64ד(א)
+
+#0308
+E: Dès que le taux d'alcool dépasse le seuil légal, le conducteur est « ivre » au sens de la loi, qu'il en ressente ou non les effets et même sans autre infraction.
+R: P64ב(א)
+
+#0309
+E: Mélanger ou non les boissons ne change rien : seul compte le taux d'alcool dans le sang par rapport au seuil légal.
+R: P64ב(א)
+
+#0310
+E: Les panneaux « Stop » (302, octogone) et « Cédez le passage » (301, triangle pointe en bas) ont une forme unique pour être reconnus même de dos, sous la neige ou la boue, ou par mauvaise visibilité.
+
+#0311
+E: L'alcool ralentit le temps de réaction : on freine plus tard, on réagit plus lentement aux imprévus.
+
+#0312
+E: L'alcool altère le jugement et donne un faux sentiment d'assurance : le conducteur sous-estime le danger et prend plus de risques.
+
+#0313
+E: L'alcool perturbe la coordination des mouvements (mains, pieds, regard), indispensable pour conduire.
+
+#0314
+E: À forte dose, l'alcool rétrécit le champ de vision (« effet tunnel ») et dégrade la vision périphérique : on ne voit plus ce qui arrive sur les côtés.
+
+#0315
+E: Sous l'effet de l'alcool, l'œil met plus de temps à récupérer après un éblouissement (phares en face).
+
+#0316
+E: L'alcool réduit l'acuité visuelle chez tous les conducteurs, de jour comme de nuit.
+
+#0317
+E: L'alcool fausse l'évaluation des distances et des vitesses, ce qui rend les dépassements et les insertions dangereux.
+
+#0318
+E: L'alcool est un dépresseur du système nerveux : il provoque la somnolence, à toute heure.
+
+#0319
+E: L'alcool est une substance dépressive : il ralentit le cerveau et donc les réflexes, même si le conducteur se sent « en forme ».
+
+#0320
+E: Les « cales de sécurité » (triangles qui empêchent le véhicule de rouler) sont obligatoires sur les véhicules à moteur de plus de 5 000 kg, sauf les autobus. En pente, il faut les placer sous les roues arrière.
+R: T1:נעלי בטחון; T74(ד)
+
+#0321
+E: Selon la banque officielle, la longueur totale autorisée d'un véhicule utilitaire de plus de 12 000 kg est de 12 mètres.
+
+#0322
+E: Dans un véhicule utilitaire de plus de 3 500 kg sans carrosserie réglementaire, on transporte au plus 6 passagers en plus de ceux assis à côté du conducteur.
+R: T84(ב)
+
+#0323
+E: Le changement d'adresse se déclare au ministère de l'Intérieur (registre de la population), qui transmet l'information.
+R: T13(א1)
+
+#0324
+E: Le ralentisseur doit être actionné sur un tronçon précédé d'un panneau signalant une descente dangereuse.
+R: T159(ב)
+
+#0325
+E: Un policier qui constate un chargement trop lourd peut remettre un avis d'interdiction d'utilisation du véhicule pour 30 jours (selon la banque officielle).
+R: P57א
+
+#0326
+E: Le conducteur et le propriétaire répondent tous deux du chargement : ils ne doivent pas transporter ni laisser transporter un chargement si le véhicule n'est pas adapté et si le chargement n'est pas stable et bien réparti.
+R: T85(א)
+
+#0327
+E: On ne peut obtenir ni renouveler un permis si l'on est frappé d'une interdiction (suspension) ou si l'on présente des problèmes de santé qui mettent en danger soi-même et les autres.
+R: T174(2)
+
+#0328
+E: Le permis de catégorie 1 couvre les tracteurs (et les engins mobiles, chariots élévateurs, etc.).
+R: T179
+
+#0329
+E: Le permis B couvre les véhicules à moteur jusqu'à 3 500 kg de poids total autorisé et 8 passagers en plus du conducteur.
+R: T180(א)(1)
+
+#0330
+E: Selon la banque officielle, le titulaire du permis B peut tracter avec un véhicule autorisé une remorque d'au plus 1 500 kg de poids total autorisé.
+
+#0331
+E: Conduire un véhicule d'urgence ou de dépannage exige une autorisation spéciale de l'Autorité des permis (expérience, âge, formation).
+R: T190
+
+#0332
+E: La loi impose de ralentir, voire de s'arrêter, chaque fois qu'un danger menace des usagers de la route ou des biens.
+R: T52
+
+#0333
+E: L'âge minimum pour le permis B est de 17 ans (16 ans est l'âge du permis 1 et de certaines motos, avec accord des parents).
+
+#0334
+E: Le permis de catégorie 1 peut être obtenu dès 16 ans, avec l'accord écrit d'un parent ou tuteur avant 17 ans.
+R: T188(א)
+
+#0335
+E: L'Autorité des permis peut suspendre ou retirer un permis pour des raisons de compétence de conduite (conducteur dangereux) ou d'aptitude médicale.
+R: P56; P51
+
+#0336
+E: L'Autorité des permis peut, par décision écrite, obliger un titulaire de permis à suivre une formation de conduite.
+R: P54
+
+#0337
+E: Une maladie cardiaque ou un trouble du système nerveux, des os, de la vue ou de l'audition doit être signalé immédiatement à l'Autorité des permis.
+R: T13(ב)
+
+#0338
+E: Le triangle de signalisation est obligatoire chaque fois qu'on doit immobiliser le véhicule sur la route, pas seulement en cas de panne.
+R: T70(א)
+
+#0339
+E: Le permis d'un nouveau conducteur est valable deux ans (période « de base » de nouveau conducteur).
+R: P12א(א)
+
+#0340
+E: Réponse attendue à l'examen : plaque « Attention, véhicule large » à l'avant et feux d'encombrement pendant la période d'éclairage, pour une machine agricole de plus de 340 cm. Le règlement actuel applique déjà cette obligation à partir de 250 cm de large.
+R: T279(ג)(4)
+
+#0341
+E: Le transfert de propriété n'est enregistré que si toutes les taxes et redevances sont payées, toute saisie ou tout gage levé, et qu'aucune autre restriction ne pèse sur le véhicule.
+R: T271(א)
+
+#0342
+E: Le propriétaire enregistré et l'acheteur sont tous deux responsables de l'enregistrement du changement de propriétaire.
+R: T271(א)
+
+#0343
+E: Le propriétaire qui cesse d'utiliser son véhicule pendant plus d'un mois doit le signaler à l'Autorité des permis.
+R: T290
+
+#0344
+E: Un véhicule immatriculé en Israël porte deux plaques, une à l'avant et une à l'arrière (une seule, à l'arrière, pour les motos et remorques).
+R: T300(א)
+
+#0345
+E: Un contrôleur de l'Autorité des permis ou un policier muni d'une carte de contrôleur de la circulation peut à tout moment convoquer un véhicule à un contrôle et le contrôler.
+R: T307(א)
+
+#0346
+E: S'il juge le véhicule dangereux, le contrôleur ou le policier habilité remet au conducteur un avis d'interdiction d'utilisation et peut lui retirer la carte grise.
+R: T308(א)
+
+#0347
+E: Aucun feu supplémentaire ne peut être installé sans l'autorisation de l'Autorité des permis.
+R: T350(א)
+
+#0348
+E: Un véhicule à moteur (sauf véhicule lent) doit être équipé d'un compteur de vitesse indiquant la vitesse dans toutes les conditions : il doit fonctionner en permanence.
+R: T360; T27(ב)
+
+#0349
+E: Le panneau barré d'une bande noire indique la FIN de la zone de station de taxis. Une barre oblique noire sur un panneau signifie toujours « fin de… ».
+
+#0350
+E: Une chaussée à sens unique est une chaussée où la circulation n'est permise que dans un seul sens.
+R: T1:כביש חד־סטרי
+
+#0351
+E: La « période d'éclairage » est la nuit et tout autre moment où la visibilité est mauvaise.
+R: T1:זמן תאורה
+
+#0352
+E: L'extincteur est obligatoire dans tous les véhicules, sauf les véhicules privés, les tracteurs, les motos et les tricycles à moteur.
+R: T370
+
+#0353
+E: Réponse de la banque officielle : poubelle d'un modèle agréé par l'Autorité des permis. Attention, le règlement actuel n'impose expressément la poubelle que dans les autobus (près de chaque porte).
+R: T483א
+
+#0354
+E: Tout écran visible du conducteur doit être coupé pendant la marche, sauf les écrans de contrôle et de navigation (GPS) du véhicule.
+R: T28א
+
+#0355
+E: Seul le panneau « Stop » (302) impose toujours l'arrêt. Le 301 impose de céder le passage (s'arrêter seulement si nécessaire), le 124 signale une route latérale, le 102 un virage.
+
+#0356
+E: Le panneau 101 « chaussée déformée » invite à adapter sa conduite à l'état de la chaussée. Le 147 signale des tracteurs, le 139 un Stop plus loin, le 114 une intersection.
+
+#0357
+E: Sur une chaussée à double sens, on contourne un obstacle par la droite, sauf si un panneau indique de passer à gauche.
+R: T39(א)
+
+#0358
+E: Le panneau 622 (carré bleu à flèches) annonce que le nombre de voies diminue. Le 109 signale seulement que la chaussée se rétrécit ; le 145 une circulation à double sens ; le 308 une priorité dans un passage étroit.
+
+#0359
+E: Le panneau 416 interdit l'accès aux véhicules dont la HAUTEUR (chargement compris) dépasse celle indiquée. Le 417 concerne la LARGEUR. Ne les confondez pas : la flèche verticale = hauteur, horizontale = largeur.
+
+#0360
+E: Le panneau 118 (chevrons noir et blanc) est placé en face, dans l'intersection en T. Avant l'intersection, on annonce celle-ci par le panneau 117 (intersection en T).

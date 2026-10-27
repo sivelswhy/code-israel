@@ -1,0 +1,235 @@
+#0241
+E: Dans un véhicule remorqué, personne d'autre ne doit se trouver, sauf la personne qui le conduit (lorsque le véhicule remorqué doit être conduit par un titulaire du permis).
+R: T90(ז)
+
+#0242
+E: Avec 12 à 22 points, l'Autorité des permis convoque le conducteur à une formation de conduite (« conduite correcte ») et lui impose un examen. Au-delà, les mesures deviennent plus lourdes (suspension).
+R: P69א(ב)
+
+#0243
+E: On ne remorque qu'un seul véhicule à la fois, sauf autorisation de l'Autorité des permis.
+R: T91(ו)
+
+#0244
+E: Le stationnement en épi n'est permis que là où l'autorité locale l'a autorisé et marqué au sol.
+R: T75
+
+#0245
+E: Une remorque agricole dispensée d'immatriculation ne peut être tractée que par un tracteur (ou un véhicule utilitaire de plus de 2 200 kg, ou sur autorisation).
+R: T91(א)
+
+#0246
+E: Le feu orange clignotant (photo) ne règle pas la priorité : on ralentit, on laisse terminer la traversée aux piétons et on applique les règles de priorité et les panneaux de l'intersection.
+R: T64(ה); T22(ב)
+
+#0247
+E: Un véhicule d'urgence appartient à la liste légale (ambulance, police, Tsahal, pompiers, véhicule agréé…) ET émet une lumière clignotante et un signal sonore. Sans gyrophare ni sirène, ce n'est pas un véhicule d'urgence au sens de la loi.
+R: T1:רכב ביטחון
+
+#0248
+E: À l'approche d'un véhicule d'urgence, on lui cède le passage, on se serre immédiatement le plus à droite possible, à l'écart des intersections, et on s'arrête jusqu'à son passage.
+R: T93(א)(1)
+
+#0249
+E: Il est interdit de suivre un véhicule d'urgence à moins de 100 mètres.
+R: T93(ב)
+
+#0250
+E: C'est le conducteur qui ne doit pas conduire un véhicule faisant un bruit anormal dû à un défaut, à un manque d'entretien ou à un chargement mal arrimé.
+R: T157(א)
+
+#0251
+E: Le conducteur doit avoir avec lui, pendant la conduite, les documents délivrés pour le véhicule (carte grise), même s'il n'en est pas le propriétaire.
+R: T9(א)(3)
+
+#0252
+E: Il est interdit d'utiliser un véhicule dont l'éclairage n'est pas installé et en état de marche. Aucune panne d'éclairage n'est tolérée, même de jour.
+R: T96
+
+#0253
+E: En agglomération, on n'allume les feux de route que si la route n'est pas suffisamment éclairée, et sans éblouir les autres.
+R: T98; T99(א)
+
+#0254
+E: On passe en feux de croisement quand on roule vers un véhicule qui arrive en face (sur la même route ou une route voisine) et qu'on risque de l'éblouir.
+R: T99(א)(1)
+
+#0255
+E: On passe en feux de croisement aussi quand on suit un véhicule et que les feux de route éclairent son arrière (ils éblouiraient le conducteur dans ses rétroviseurs).
+R: T99(א)(3)
+
+#0256
+E: On passe également en feux de croisement lorsque le véhicule s'arrête.
+R: T99(א)(2)
+
+#0257
+E: Si un véhicule apparaît en face pendant le dépassement, il faut ralentir, renoncer et revenir rapidement à droite. Un dépassement n'est permis que si la route est libre sur une distance suffisante, et ce n'est plus le cas.
+R: T47(ד)
+
+#0258
+E: La vitesse maximale reste la même pendant un dépassement. Si l'on ne peut pas dépasser sans excès de vitesse, on ne dépasse pas.
+R: T54(א)
+
+#0259
+E: Le projecteur ne s'utilise que véhicule à l'arrêt, sans être dirigé vers un autre véhicule ni dans l'axe de la route (sauf véhicules de sécurité et de Tsahal en mission).
+R: T107(א); T107(ג)
+
+#0260
+E: Les feux de brouillard ne s'allument qu'en cas de brouillard, de pluie battante ou de neige. Sinon ils éblouissent.
+R: T107(ד)
+
+#0261
+E: Le feu de recul (blanc) ne s'allume qu'en marche arrière.
+R: T107(ה)
+
+#0262
+E: Un véhicule de 210 cm de large ou plus, immobilisé sur la chaussée pendant la période d'éclairage, doit avoir ses feux d'encombrement et son feu arrière allumés — sauf si l'éclairage de la route permet de bien le voir.
+R: T100(א)(2); T100(ב)(1)
+
+#0263
+E: Un véhicule de 210 cm de large ou plus doit rouler avec ses feux d'encombrement allumés pendant la période d'éclairage.
+R: T97(ד)
+
+#0264
+E: Quand une infraction est photographiée, on considère que c'est le propriétaire qui conduisait, sauf s'il prouve qui conduisait (ou à qui il avait confié le véhicule).
+R: P27ב(א)
+
+#0265
+E: Le piéton obligé de marcher sur la chaussée se tient près du bord gauche, face à la circulation qui arrive : il voit les véhicules venir et peut s'écarter.
+R: T109(א)
+
+#0266
+E: Pendant les trois premiers mois du permis, le nouveau conducteur doit être accompagné (puis, pendant trois mois de plus, la nuit entre 21 h et 6 h).
+R: P12א1(ד)
+
+#0267
+E: L'accompagnement concerne le nouveau conducteur de voiture (et de poids lourd léger C1, selon la banque officielle). La loi actuelle le rattache aux « jeunes nouveaux conducteurs » de moins de 24 ans.
+R: P12א1(ד)
+
+#0268
+E: Jusqu'à 21 ans, le nouveau conducteur sorti de la période d'accompagnement ne peut transporter plus de deux passagers, sauf si un accompagnateur est assis à côté de lui.
+R: P12א2
+
+#0269
+E: Avec 36 points ou plus, l'Autorité des permis suspend le permis pour trois mois et impose un examen théorique.
+R: P69א(ב)
+
+#0270
+E: Certaines infractions graves (dont le dépassement illégal) empêchent le nouveau conducteur d'obtenir son permis définitif : sa période de « nouveau conducteur » est prolongée et il doit repasser des examens.
+R: P12א(ד)
+
+#0271
+E: La conduite sous l'emprise de l'alcool ou de stupéfiants fait partie de ces infractions graves : le permis de nouveau conducteur n'est pas converti en permis ordinaire.
+R: P12א(ד)
+
+#0272
+E: Le cycliste roule le plus près possible du bord droit de la chaussée.
+R: T128
+
+#0273
+E: Les véhicules au GPL ne stationnent que dans les parkings où c'est permis, selon les règles du ministère de l'Environnement (le gaz est plus lourd que l'air et peut s'accumuler dans les parkings souterrains).
+
+#0274
+E: Après un accident avec blessé, le conducteur impliqué s'arrête et ne déplace pas son véhicule, sauf si un policier l'autorise ou s'il faut l'utiliser pour secourir les blessés : sa position sert à l'enquête.
+R: T144(א)(1); T144(ב)
+
+#0275
+E: Le conducteur impliqué doit éviter tout dommage supplémentaire au blessé, lui porter les premiers secours selon sa formation, appeler les secours (ambulance, police, pompiers) et attendre leur arrivée.
+R: T144(א)(2)
+
+#0276
+E: Il doit donner son nom, son adresse, le numéro de son permis, le numéro d'immatriculation du véhicule et le nom et l'adresse du propriétaire.
+R: T144(א)(3)
+
+#0277
+E: Accident avec dégâts matériels seulement : on dégage tout de suite la chaussée si les véhicules gênent la circulation, puis on échange ses coordonnées.
+R: T145(א); T145(ב)
+
+#0278
+E: Si le véhicule ou le bien endommagé est sans surveillance : on laisse un mot bien visible avec ses coordonnées, et on prévient le poste de police le plus proche dans les 24 heures.
+R: T145(ג)
+
+#0279
+E: L'avis à la police n'est pas nécessaire si l'on a déjà donné ses coordonnées à un policier présent sur place et que l'on connaît son nom ou son matricule.
+R: T145(ג)(2)
+
+#0280
+E: Tout conducteur qui passe sur les lieux d'un accident où se trouve un blessé doit s'arrêter et faire tout ce qu'il peut pour le secourir (premiers secours, appel des secours).
+R: T146; T144(א)(2)
+
+#0281
+E: Selon la banque officielle, le dépassement est interdit de 50 m avant l'entrée d'un tunnel à 50 m après sa sortie. Le règlement actuel interdit aussi l'arrêt dans cette même zone de 50 m.
+R: T72(א)(11)
+
+#0282
+E: Il est interdit de laisser sur la route un objet susceptible de gêner ou de mettre en danger les usagers ou leurs véhicules, et de jeter quoi que ce soit d'un véhicule.
+R: T161(ב)
+
+#0283
+E: Un véhicule en panne doit être dégagé de la route le plus vite possible ; la banque officielle fixe un délai maximal de 24 heures.
+R: T69(ה)
+
+#0284
+E: Il est interdit de conduire un véhicule qui fait un bruit anormal (défaut, manque d'entretien, chargement mal arrimé).
+R: T157(א)
+
+#0285
+E: Descendre au point mort prive le véhicule du frein moteur et surcharge les freins. Il faut toujours garder un rapport engagé, adapté à la pente.
+R: T159(ב)
+
+#0286
+E: En descente, un rapport doit être engagé (et adapté à la pente) pour profiter du frein moteur.
+R: T159(ב)
+
+#0287
+E: Le ralentisseur doit être actionné quand le véhicule en est équipé et qu'un panneau signale une descente dangereuse.
+R: T159(ב)
+
+#0288
+E: Il est interdit de faire le plein (ou d'ouvrir le bouchon du réservoir) tant que le moteur tourne, près d'une flamme ou de quelqu'un qui fume.
+R: T160(1); T160(2)
+
+#0289
+E: Pour un autobus ou tout véhicule transportant plus de 11 personnes, il est interdit de faire le plein tant que des passagers sont à bord.
+R: T160(3)
+
+#0290
+E: Le propriétaire est présumé responsable de l'infraction commise avec son véhicule, sauf s'il prouve qui conduisait ou à qui il avait confié le véhicule.
+R: P27ב(א)
+
+#0291
+E: Celui qui pousse ou déplace un véhicule à la force de ses bras est considéré comme son conducteur : les règles du conducteur s'appliquent à lui.
+
+#0292
+E: Selon la banque officielle, la hauteur maximale du chargement pour un véhicule de 8 000 à 15 000 kg est de 4 mètres au-dessus du sol (au-delà, risque pour les ponts et les câbles).
+
+#0293
+E: Pour un véhicule de plus de 15 000 kg, un chargement peut dépasser à l'avant ou à l'arrière s'il est d'un seul tenant et que le dépassement ne dépasse pas le tiers de la longueur du plateau.
+
+#0294
+E: À un arrêt de bus, seuls les véhicules privés peuvent stationner le samedi et les jours fériés, et seulement si le panneau de l'arrêt l'autorise.
+R: T72(ד)
+
+#0295
+E: Il est interdit de conduire sous l'influence de l'alcool ou de stupéfiants, sans aucune exception.
+R: T26(2)
+
+#0296
+E: Une personne ivre ne peut pas être accompagnatrice d'un nouveau conducteur : la loi précise qu'on n'est pas considéré comme accompagnateur quand on est ivre.
+R: P12א1(ז)
+
+#0297
+E: Un policier peut à tout moment demander au conducteur de souffler dans un éthylotest ; il n'a besoin ni de mandat ni de soupçon particulier pour ce test.
+R: P64ב(א)
+
+#0298
+E: L'éthylotest mesure l'alcool dans l'air expiré, ce qui renseigne sur la concentration d'alcool dans le sang.
+R: P64ב(א)
+
+#0299
+E: Refuser de donner un échantillon (souffle, sang, urine) à la demande d'un policier équivaut à avoir commis l'infraction de conduite en état d'ivresse.
+R: P64ד(א)
+
+#0300
+E: Celui qui refuse le contrôle d'alcoolémie est traité comme s'il conduisait en état d'ivresse.
+R: P64ד(א)

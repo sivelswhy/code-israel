@@ -1,0 +1,206 @@
+#0601
+E: La photo montre un autocar à trois essieux. Selon la banque officielle, sa longueur maximale autorisée est de 15 mètres (13,5 m pour un autobus à deux essieux).
+
+#0602
+E: Panneau de service : le sapin et la maison indiquent une auberge de jeunesse.
+
+#0603
+E: La tente indique un terrain de camping ou une aire de bivouac.
+
+#0604
+E: Le 401 (rond blanc bordé de rouge, vide) : route fermée à tous les véhicules, dans les deux sens.
+
+#0605
+E: Un numéro blanc sur fond bleu, dans un cadre en forme d'écusson, désigne une voie rapide (ici la route 1). Les routes ordinaires ont leur numéro sur fond vert ou blanc.
+
+#0606
+E: Les panneaux de danger sont en général des triangles pointe en haut, bordés de rouge. Seul le « Cédez le passage » (301) est un triangle pointe en bas.
+
+#0607
+E: Le 613 (panneau au-dessus des voies) indique ce que permet chaque voie à la prochaine intersection : choisissez votre voie à l'avance.
+R: T36(ד)
+
+#0608
+E: Rouge + orange ensemble (702) : restez arrêté, mais préparez-vous à démarrer dès que le vert apparaîtra.
+R: T64(ה)
+
+#0609
+E: Bordures rouge et jaune : tout arrêt est interdit, sauf pour les véhicules qu'un panneau autorise (par exemple les bus à un arrêt).
+
+#0610
+E: Le 423 (panneau barré avec un camion et une voiture) : fin de l'interdiction de dépasser pour les poids lourds.
+
+#0611
+E: Sur chaussée mouillée, l'adhérence diminue : le risque de dérapage, voire de tonneau, augmente avec la vitesse. Il faut donc ralentir, pas accélérer.
+R: T51
+
+#0612
+E: Un véhicule de transport scolaire est un autobus privé ou un véhicule de transport public conçu et agréé pour cela (inscrit sur sa carte grise).
+R: T1:רכב להסעת תלמידים
+
+#0613
+E: Dans un véhicule de transport scolaire ordinaire, les enfants montent et descendent uniquement par la porte avant droite, sous les yeux du conducteur.
+R: T83
+
+#0614
+E: Le transport scolaire est le transport rémunéré d'enfants vers l'école ou une activité organisée (et retour), hors lignes régulières.
+R: T1:הסעת תלמידים
+
+#0615
+E: Il est interdit de transporter des enfants debout dans un transport scolaire.
+R: T83(ב1)
+
+#0616
+E: Dans un tunnel, il faut allumer les feux avant (feux de croisement) pour voir et être vu ; on n'y dépasse pas et on évite de changer de voie.
+R: T97(ה)
+
+#0617
+E: Le 227 (vélo blanc dans un rond bleu) : piste réservée aux vélos.
+
+#0618
+E: Ce panneau d'interdiction s'applique jusqu'à la prochaine intersection, sauf indication contraire.
+
+#0619
+E: Un véhicule de visite transporte des touristes (jusqu'à 8 passagers) : il faut un permis de transport de personnes D1 ou D.
+R: T1:רכב סיור
+
+#0620
+E: Le conducteur d'un véhicule de visite doit être un guide touristique agréé par le ministère du Tourisme et avoir un permis D1 ou D.
+
+#0621
+E: Place réservée au véhicule de la personne handicapée dont la carte est indiquée sur le panneau ; les autres véhicules ne peuvent pas y stationner.
+R: T72(א)(16)
+
+#0622
+E: Le 619 : le nombre de voies augmente (une voie s'ajoute).
+
+#0623
+E: Le 621 : le nombre de voies diminue (une voie se termine) ; préparez-vous à vous insérer.
+R: T64(ו)
+
+#0624
+E: Fourchette et couteau : restaurant.
+
+#0625
+E: La tasse : buvette ou café.
+
+#0626
+E: La loi impose de ralentir dans une descente raide ou longue.
+R: T52(8)
+
+#0627
+E: Le 627 : stationnement sur le trottoir permis, selon le marquage, aux véhicules jusqu'à 2 200 kg, en laissant un passage aux piétons.
+
+#0628
+E: Le 220 (personnage, voiture et enfant qui joue) : zone résidentielle.
+R: T1:רחוב משולב
+
+#0629
+E: Dans une zone résidentielle, la vitesse est limitée à 30 km/h.
+R: T54(ב)
+
+#0630
+E: Le 221 (panneau barré) : fin de la zone résidentielle.
+
+#0631
+E: Le 222 (30 dans un carré bleu) : zone de circulation apaisée, vitesse limitée à 30 km/h.
+R: T54(ב)
+
+#0632
+E: Le 223 (barré) : fin de la zone de circulation apaisée.
+
+#0633
+E: Une double ligne discontinue jaune délimite une voie réservée aux transports en commun.
+
+#0634
+E: La ligne discontinue blanche marque l'axe de la chaussée ou la séparation entre deux voies ; on peut la franchir quand c'est sûr.
+
+#0635
+E: Deux rangées de carrés blancs en travers de la chaussée : passage pour cyclistes.
+
+#0636
+E: On roule à droite de la ligne continue et on ne la franchit pas.
+R: T36(ג)
+
+#0637
+E: La double ligne continue ne se franchit jamais : on reste à sa droite.
+R: T36(ג)
+
+#0638
+E: Le 224 : voie cyclable à sens unique.
+
+#0639
+E: Le marquage 805 (tirets serrés) annonce une double ligne continue : revenez sur votre voie avant qu'elle commence.
+
+#0640
+E: Ligne continue + ligne discontinue : seul le conducteur qui a la ligne discontinue de son côté (à sa droite) peut franchir.
+R: T36(ג)
+
+#0641
+E: Le véhicule indiqué a la ligne CONTINUE de son côté : il roule à droite et ne franchit pas.
+R: T36(ג)
+
+#0642
+E: Ici la ligne discontinue est de votre côté (à droite de la continue) : vous pouvez franchir les lignes, si c'est sûr.
+R: T36(ג)
+
+#0643
+E: La ligne jaune continue marque le bord de la chaussée là où il n'y a pas de bordure : au-delà, c'est l'accotement.
+
+#0644
+E: Les flèches obliques et la ligne qui s'écarte annoncent que la voie de gauche change d'affectation : elle devient voie de virage à gauche.
+
+#0645
+E: Les flèches indiquent que, depuis cette voie, on peut aller tout droit ou à gauche.
+R: T36(ד)
+
+#0646
+E: On tourne à gauche depuis la voie de gauche, celle marquée d'une flèche vers la gauche.
+R: T36(ד); T43(א)
+
+#0647
+E: La large ligne blanche en travers est une ligne d'arrêt : on s'y arrête quand l'arrêt est obligatoire (Stop, feu, passage à niveau, policier).
+R: T1:קו עצירה
+
+#0648
+E: On s'arrête avant la ligne d'arrêt quand on doit s'arrêter ; elle n'impose pas l'arrêt à elle seule.
+R: T1:קו עצירה; T64(ד)
+
+#0649
+E: Les bandes blanches parallèles (« zèbre ») marquent un passage pour piétons.
+R: T1:מעבר חציה
+
+#0650
+E: Ce sont les feux réservés aux transports en commun (barres et points blancs). La banque officielle indique que le 709 suit le 708.
+
+#0651
+E: Une flèche vers la gauche tracée dans votre voie signifie que cette voie oblige à tourner à gauche à la prochaine intersection.
+R: T36(ד)
+
+#0652
+E: Une flèche JAUNE est réservée aux transports en commun : seuls eux peuvent continuer tout droit depuis cette voie.
+
+#0653
+E: Jusqu'à 21 ans, le nouveau conducteur ne peut transporter plus de deux passagers, sauf si un accompagnateur est assis à côté de lui. La photo montre un permis de conduire israélien.
+R: P12א2
+
+#0654
+E: La distance de freinage commence au moment où l'on appuie sur le frein et se termine à l'arrêt complet. Ajoutée à la distance de réaction, elle donne la distance d'arrêt.
+
+#0655
+E: Le feu de brouillard arrière ne s'allume que si les feux avant sont allumés.
+
+#0656
+E: Les zones hachurées blanches sont des îlots peints : on ne roule pas dessus.
+
+#0657
+E: Bordures bleu et blanc : stationnement autorisé selon les règles fixées par la municipalité (souvent payant).
+
+#0658
+E: Bordures rouge et blanc : arrêt et stationnement interdits, sauf pour un taxi qui prend ou dépose des passagers.
+
+#0659
+E: Un rectangle barré d'une croix peint au sol marque un emplacement où le stationnement est interdit.
+
+#0660
+E: Distance d'arrêt = distance de réaction + distance de freinage. Elle est donc toujours plus grande que la distance de freinage seule.

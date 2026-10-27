@@ -1,0 +1,181 @@
+#1022
+E: Un panneau qui transmet un message obligatoire absent du tableau de signalisation est un panneau d'avertissement, d'obligation ou d'interdiction « hors tableau » : il a pourtant valeur de signalisation.
+
+#1023
+E: Une lentille brisée disperse mal le faisceau : l'éclairage est mal réglé et les conducteurs venant en face sont éblouis.
+
+#1024
+E: La roue de secours se gonfle à la pression indiquée par le constructeur du véhicule, comme les autres roues (souvent un peu plus pour une roue de secours galette : voir le manuel).
+
+#1025
+E: La pression correcte est celle que prescrit le constructeur, indiquée dans le manuel et sur l'étiquette collée dans le véhicule, et non le confort ou l'avis d'un garage.
+
+#1026
+E: Un pneu sous-gonflé s'use plus vite (bords) et chauffe ; la tenue de route et la stabilité du véhicule sont dégradées.
+
+#1027
+E: Un pneu trop gonflé touche la route par le centre seulement : usure irrégulière, durée de vie réduite et adhérence moindre.
+
+#1028
+E: La pression recommandée figure dans le manuel du constructeur ou de l'importateur (et sur l'étiquette dans le véhicule), pas dans les papiers du véhicule.
+
+#1029
+E: Un pneu sous-gonflé se déforme davantage en roulant : il chauffe excessivement, ce qui peut aller jusqu'à l'éclatement.
+
+#1030
+E: La résistance au roulement augmente avec un pneu sous-gonflé : la consommation de carburant monte, et donc la pollution de l'air.
+
+#1031
+E: La dimension des pneus est celle prévue par le constructeur du véhicule, pas celle du fabricant de pneus ni l'avis du monteur.
+
+#1032
+E: Seule la dimension fixée par le constructeur et inscrite sur le permis du véhicule est autorisée.
+
+#1033
+E: Après un changement de roue, resserrez les écrous une fois le véhicule redescendu du cric, puis de nouveau après environ 50 km : ils peuvent se desserrer.
+
+#1034
+E: Le niveau d'huile se contrôle avec la jauge, moteur froid et arrêté, véhicule sur sol horizontal, pour que l'huile ait eu le temps de redescendre dans le carter.
+
+#1035
+E: Changer la dimension des pneus modifie la sécurité et la conformité du véhicule : cela exige l'autorisation préalable de l'autorité des permis du ministère des Transports.
+
+#1036
+E: Le panneau indique la fin de la zone de routes urbaines (début de route non urbaine) : les règles de vitesse et de circulation hors agglomération s'appliquent.
+
+#1037
+E: L'extincteur se remplace après tout usage, même partiel, ou si son manomètre indique une pression trop basse ; il ne se remplace pas sur un calendrier fixe.
+
+#1038
+E: Il faut mesurer la pression à froid : en roulant, l'air chauffe et la pression monte, ce qui fausserait la lecture.
+
+#1039
+E: Les gaz brûlés (dont le monoxyde de carbone) peuvent pénétrer dans l'habitacle et provoquer malaise, perte de conscience, voire la mort.
+
+#1040
+E: Les gaz d'échappement s'accumulent dans un parking fermé mal aéré : ne laissez pas le moteur tourner longtemps.
+
+#1041
+E: Adapter le rapport de vitesse aux conditions de route et éviter les fortes accélérations réduit la consommation.
+
+#1042
+E: Un moteur et des systèmes bien entretenus brûlent mieux le carburant et émettent moins de gaz polluants.
+
+#1043
+E: Les vapeurs de carburant sont inflammables : une étincelle, avec le moteur en marche, peut les enflammer. Coupez toujours le moteur pour faire le plein.
+
+#1044
+E: Avant de démarrer, le frein de stationnement doit être serré, pour que le véhicule ne bouge pas au démarrage.
+
+#1045
+E: Le frein de stationnement immobilise le véhicule à l'arrêt, pour qu'il ne roule pas ni ne dévale une pente.
+
+#1046
+E: La pollution des gaz d'échappement est contrôlée lors du contrôle technique annuel au centre de contrôle.
+
+#1047
+E: Une roue avant moins gonflée oppose plus de résistance : le véhicule et le volant sont tirés du côté de la roue la plus dégonflée.
+
+#1048
+E: Un défaut de géométrie ou de réglage du système de direction provoque une usure irrégulière des pneus avant.
+
+#1049
+E: Un volant qui tire d'un côté est souvent le signe d'une pression trop basse dans l'une des roues avant.
+
+#1050
+E: On desserre d'abord légèrement les écrous, véhicule encore au sol (la roue ne tourne pas), puis on lève au cric et on les retire complètement.
+
+#1051
+E: La pression requise figure sur une étiquette collée dans le véhicule (montant de porte, trappe de carburant) et dans le manuel du constructeur.
+
+#1052
+E: Le tableau de bord regroupe les indicateurs et les voyants : il permet de surveiller les systèmes du véhicule.
+
+#1053
+E: Le panneau 405 interdit l'accès de la route à tous les véhicules (route fermée à la circulation) : ni la moto ni la voiture ne doivent donc s'y trouver.
+
+#1054
+E: Avant de partir, vérifiez qu'aucun voyant d'alerte du tableau de bord n'est allumé (hors voyants normalement allumés au démarrage qui s'éteignent).
+
+#1055
+E: Un défaut de direction ou de freins est un risque vital : arrêtez immédiatement de rouler et faites réparer le véhicule.
+
+#1056
+E: Les défauts de sécurité ne se réparent que par un professionnel qualifié dans un garage agréé.
+
+#1057
+E: L'entretien préventif est un entretien régulier et planifié, qui prévient les pannes en gardant le véhicule et ses systèmes en bon état.
+
+#1058
+E: La fréquence d'entretien est celle que recommande le constructeur dans le carnet d'entretien.
+
+#1059
+E: Une conduite souple, sans accélérations brutales, économise le carburant.
+
+#1060
+E: Après une flaque profonde, les freins mouillés freinent mal : roulez lentement en freinant légèrement jusqu'à ce qu'ils sèchent.
+
+#1061
+E: Les gaz d'échappement contiennent du monoxyde de carbone, toxique : ne faites jamais tourner le moteur dans un lieu fermé.
+
+#1062
+E: C'est l'embrayage qui connecte ou déconnecte le moteur et la boîte de vitesses.
+
+#1063
+E: Il faut toujours serrer le frein de stationnement en garant le véhicule, quelle que soit la pente ou la météo.
+
+#1064
+E: Le GPS peut détourner l'attention du conducteur de la route : programmez-le avant de partir ou à l'arrêt.
+
+#1065
+E: Le GPS (navigateur) donne la position du véhicule et guide le conducteur vers sa destination.
+
+#1066
+E: Placez le cric à l'endroit indiqué par le constructeur ou à un autre point solide et sûr, près de la roue à changer.
+
+#1067
+E: Le frein de stationnement peut servir de frein de secours, avec une capacité de freinage limitée.
+
+#1068
+E: La pression se vérifie soi-même avec un manomètre, sans avoir besoin d'un garage ni d'un monteur de pneus.
+
+#1069
+E: Le voyant de réserve de carburant n'oblige pas à s'arrêter immédiatement (il prévient qu'il faut faire le plein bientôt), contrairement aux voyants de température, de freins ou de pression d'huile.
+
+#1070
+E: L'autorisation de ligne réglemente le service sur la ligne (fréquence, horaires, arrêts, tracé), pas seulement le prix ou les caractéristiques du véhicule.
+
+#1071
+E: Un siège bien réglé permet de maîtriser les commandes et d'améliorer le champ de vision.
+
+#1072
+E: Réglez la position du siège, l'angle du dossier et la position du volant pour une position confortable et sûre.
+
+#1073
+E: Ce panneau indique le numéro de la route principale sur laquelle vous roulez ou que vous approchez.
+
+#1074
+E: Dans le brouillard, roulez lentement, à une vitesse adaptée à la visibilité réelle ; les feux de route éblouissent dans le brouillard. Les antibrouillards ne s'utilisent qu'en cas de brouillard, de pluie battante ou de neige.
+R: T107(ד)
+
+#1075
+E: Des vitres sales gênent la vision libre du conducteur, surtout contre le soleil ou la nuit.
+
+#1076
+E: Un rétroviseur panoramique (convexe) donne un large champ de vision, mais ne reflète pas avec exactitude la distance des objets : ils paraissent plus loin qu'ils ne le sont.
+
+#1077
+E: Avant de lever le véhicule : empêchez-le de bouger (frein de stationnement, cales) et desserrez d'abord légèrement les écrous des roues, tant que la roue touche le sol.
+
+#1078
+E: Ce panneau de présignalisation des destinations annonce une intersection sur une route non urbaine.
+
+#1079
+E: Si le moteur surchauffe, arrêtez-vous et laissez-le tourner à régime moyen pour qu'il refroidisse ; s'il ne refroidit pas, coupez-le.
+
+#1080
+E: Les contrôles courants : niveaux des liquides et huiles, pression des pneus, et bon fonctionnement des feux et des essuie-glaces.
+
+#1081
+E: Le conducteur contrôle l'huile moteur, le liquide de refroidissement, le liquide de frein et le liquide lave-glace.
+

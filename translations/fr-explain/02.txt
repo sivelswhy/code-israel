@@ -1,0 +1,237 @@
+#0121
+E: Quand deux véhicules se croisent sur une chaussée trop étroite, les deux conducteurs doivent ralentir et se serrer le plus possible vers le bord, voire au-delà si nécessaire, pour éviter la collision. Aucun n'a de priorité liée à sa taille.
+R: T46(א)
+
+#0122
+E: Sur une route en pente, si l'un des deux doit s'arrêter, c'est le véhicule qui descend : il est plus facile de redémarrer en descente qu'en montée.
+R: T46(ב)
+
+#0123
+E: En règle générale, on ne dépasse que par la gauche, que le véhicule dépassé soit sur la même voie ou sur une autre.
+R: T47(א)
+
+#0124
+E: Passer par la droite est permis notamment quand l'autre véhicule est sur une voie réservée au virage à gauche, ou qu'il s'apprête à tourner à gauche et l'a signalé.
+R: T47(ב)(1)
+
+#0125
+E: Le véhicule qui circule sur une voie réservée aux transports en commun peut passer à droite des véhicules des autres voies. Rouler plus vite ou voir l'autre mettre son clignotant à droite n'autorise pas à dépasser par la droite.
+R: T47(ב)(3)
+
+#0126
+E: Un véhicule placé sur une voie réservée au virage à gauche peut être passé par sa droite : c'est l'une des exceptions prévues par la loi.
+R: T47(ב)(1)
+
+#0127
+E: Les mesures du système de points (formation, examens, suspension) sont des mesures administratives, prises en plus de la peine éventuellement prononcée par le tribunal pour l'infraction.
+R: P69א(ב)
+
+#0128
+E: Sur une voie réservée au virage à droite, on peut passer à droite des véhicules des voies voisines. Un véhicule lent sur la voie de gauche ne vous autorise pas à le dépasser par la droite.
+R: T47(ב)(4)
+
+#0129
+E: On ne dépasse que si la route est libre sur une distance suffisante pour effectuer le dépassement et continuer en sécurité, sans gêner ni mettre en danger personne.
+R: T47(ד)
+
+#0130
+E: Il est interdit de dépasser ou de tenter de dépasser lorsque la visibilité est mauvaise ou le champ de vision obstrué ou réduit.
+R: T47(ה)(1)
+
+#0131
+E: Le dépassement est interdit à l'approche d'un passage à niveau (depuis le panneau qui l'annonce jusqu'après le passage), même si aucun train n'est visible.
+R: T47(ה)(2)
+
+#0132
+E: Sur la photo, un passage pour piétons. À l'approche d'un passage pour piétons signalé, il est interdit de dépasser ou de tenter de dépasser jusqu'à l'avoir franchi : un piéton masqué par le véhicule dépassé pourrait surgir.
+R: T47(ה)(3)
+
+#0133
+E: Avec une seule voie par sens, il est interdit de dépasser dans l'intersection ou de ne pas terminer le dépassement avant d'y arriver. Exception : on peut dépasser un deux-roues (ou un animal), en respectant les autres règles.
+R: T47(ה)(4); T47(ו)(2)
+
+#0134
+E: Il est interdit de dépasser, ou de passer à côté, d'un véhicule arrêté avant une intersection, un passage pour piétons ou un passage à niveau : il s'est peut-être arrêté pour laisser passer quelqu'un que vous ne voyez pas.
+R: T47(ז)
+
+#0135
+E: Le conducteur dépassé doit se serrer vers le bord de la chaussée et ne pas accélérer tant que l'autre ne l'a pas dépassé.
+R: T48(א)
+
+#0136
+E: Un véhicule à moteur contraint de rouler lentement à cause de sa charge ou de la pente doit se serrer à droite et rouler sur l'accotement s'il est asphalté et libre, pour se laisser dépasser.
+R: T48(ג)
+
+#0137
+E: La loi n'impose pas un nombre de mètres : il faut garder une distance qui permette de s'arrêter à tout moment et d'éviter un accident, compte tenu des vitesses, de l'état de la route, de la visibilité et de la circulation.
+R: T49(א)
+
+#0138
+E: Le minimum légal derrière un véhicule sur la même voie est d'une seconde de trajet (la distance parcourue en une seconde à votre vitesse). On recommande davantage, mais la question porte sur le minimum fixé par la loi.
+R: T49(ב)
+
+#0139
+E: Une vitesse raisonnable tient compte de toutes les circonstances (route, circulation, visibilité) et garde la maîtrise totale du véhicule — et elle ne dépasse jamais la limite légale.
+R: T51; T54(א)
+
+#0140
+E: Il faut ralentir, voire s'arrêter, chaque fois qu'un danger menace des usagers de la route ou des biens, y compris votre propre véhicule.
+R: T52
+
+#0141
+E: Parmi les cas où la loi impose de ralentir : une route encombrée, une visibilité réduite et les virages serrés.
+R: T52(2); T52(3); T52(4)
+
+#0142
+E: Sur la photo, un passage pour piétons devant vous. La loi impose de ralentir à l'approche d'un passage pour piétons, même si personne ne traverse encore.
+R: T52(6)
+
+#0143
+E: Ralentir est obligatoire quand on croise ou dépasse des animaux, qui peuvent réagir de façon imprévisible.
+R: T52(11)
+
+#0144
+E: Sur la photo, des piétons marchent au bord de la chaussée. Il faut ralentir à cause du danger prévisible pour ces usagers.
+R: T52
+
+#0145
+E: Le freinage brusque n'est permis que pour éviter un accident qu'on ne peut éviter autrement, ou si la sécurité de la circulation l'exige absolument.
+R: T53
+
+#0146
+E: Le freinage d'essai est permis à condition d'avoir pris toutes les précautions et de s'être assuré qu'il ne met en danger ni ne gêne aucun véhicule.
+R: T53
+
+#0147
+E: L'illustration montre le panneau de voie rapide (216) et un panneau de vitesse minimale (218, ici 55 km/h). Seuls les véhicules à moteur autorisés et capables de rouler au moins à la vitesse indiquée peuvent y entrer.
+R: T54(א)
+
+#0148
+E: Le quad ne doit pas dépasser 40 km/h, quelle que soit la route.
+R: T39ג(ב)
+
+#0149
+E: Le contrôle technique (« test ») est annuel, ou selon toute autre périodicité fixée par la loi pour certains véhicules.
+
+#0150
+E: Le tableau des vitesses du règlement fixe 110 km/h sur voie rapide pour une voiture, sauf panneau indiquant une autre vitesse.
+R: T54(א)
+
+#0151
+E: Hors agglomération, sur une route avec terre-plein construit, la limite pour une voiture est de 90 km/h, sauf panneau contraire.
+R: T54(א)
+
+#0152
+E: Sans panneau : 50 km/h en agglomération et 80 km/h hors agglomération (90 avec terre-plein construit, 110 sur voie rapide).
+R: T54(א)
+
+#0153
+E: Le panneau rond à bord rouge portant un nombre (426) fixe une vitesse maximale : interdiction de dépasser 40 km/h. Ce n'est pas une vitesse minimale.
+
+#0154
+E: Dans une zone résidentielle (et dans une zone de circulation apaisée), la vitesse est limitée à 30 km/h. La photo montre le panneau 220 à l'entrée de la zone.
+R: T54(ב)
+
+#0155
+E: À l'approche d'un passage à niveau, il faut ralentir assez pour pouvoir s'arrêter avant la voie ferrée et s'assurer de pouvoir la franchir sans arrêt ni incident.
+R: T55(א)
+
+#0156
+E: L'obligation de ralentir s'applique même quand le passage à niveau est protégé par une barrière ou des feux — et même s'ils ne fonctionnent pas.
+R: T55(א); T55(ב)
+
+#0157
+E: Il faut s'arrêter avant la ligne d'arrêt ; à défaut, avant la barrière ; à défaut, à au moins quatre mètres du rail le plus proche.
+R: T56(א)
+
+#0158
+E: Sur la photo, un train approche du passage à niveau. Quand un train est en vue, s'entend ou émet un signal, on s'arrête et on attend qu'il soit passé.
+R: T56(א)(1)
+
+#0159
+E: Devant un panneau « Stop » placé avant un passage à niveau, on s'arrête, on éteint la radio, on ouvre la vitre la plus proche, puis on regarde et on écoute des deux côtés avant de repartir.
+R: T56(ב)
+
+#0160
+E: Sur la photo, la barrière est en mouvement. Tant que la barrière bouge (dans un sens ou dans l'autre) ou est baissée, il faut s'arrêter et ne pas continuer.
+R: T56(א)(4)
+
+#0161
+E: On doit s'arrêter avant un passage à niveau quand un train est en vue, s'entend ou émet un signal d'avertissement (et aussi devant un panneau Stop, un signal d'avertissement ou une barrière qui bouge).
+R: T56(א)
+
+#0162
+E: Le déclenchement d'un signal d'avertissement oblige à s'arrêter et à attendre qu'il cesse, même si aucun train n'est encore visible.
+R: T56(א)(3)
+
+#0163
+E: Le clignotant est obligatoire chaque fois qu'on s'apprête à démarrer, tourner ou changer de voie, assez tôt pour avertir les autres.
+R: T58(א); T59(א)
+
+#0164
+E: Tout changement de voie doit être signalé avant de le commencer, et le clignotant reste actif jusqu'à la fin de la manœuvre.
+R: T58(א)(2); T58(ב)
+
+#0165
+E: La loi ne fixe pas une distance en mètres : le signal doit être donné à temps et d'assez loin pour que les autres usagers le voient.
+R: T58(א)
+
+#0166
+E: L'arrêt du véhicule se signale par les feux stop.
+R: T59(א)(2)
+
+#0167
+E: Si les clignotants ou les feux stop sont en panne, le conducteur doit signaler avec le bras.
+R: T59(ב)
+
+#0168
+E: En cas de panne des clignotants, on signale avec le bras, selon les gestes prévus par la loi (par le côté conducteur, donc le bras gauche).
+R: T59(ב)
+
+#0169
+E: Lorsque le conducteur qui vous précède signale une manœuvre, vous devez ralentir, être prudent et même vous arrêter si nécessaire pour qu'il puisse l'effectuer sans gêne.
+R: T61
+
+#0170
+E: Le coup de klaxon ne doit être ni plus long ni plus répété que nécessaire.
+R: T63(א)
+
+#0171
+E: En agglomération, on ne klaxonne que pour prévenir un danger imminent qu'on ne peut éviter autrement.
+R: T63(ג)
+
+#0172
+E: La « route » comprend tout l'espace ouvert au public : chaussée, accotements, trottoirs… Sur l'illustration, c'est le numéro 2 qui désigne toute la largeur de la route.
+R: P1:דרך
+
+#0173
+E: En sortant d'une propriété, avant de monter sur le trottoir ou l'accotement, il faut ralentir, voire s'arrêter, pour laisser passer les piétons en sécurité.
+R: T64(ב)(1)
+
+#0174
+E: En sortant d'une propriété pour entrer sur la route, on ralentit et on cède le passage aux véhicules qui approchent sur cette chaussée. Une telle sortie n'est pas une intersection.
+R: T64(ב)(2); T1:צומת
+
+#0175
+E: Sans panneau, on cède le passage aux véhicules venant de droite ; en tournant à gauche, il faut en plus céder le passage au véhicule venant en face.
+R: T64(א)(1); T64(א)(2)
+
+#0176
+E: Sur le plan, les deux flèches bleues de la rue A indiquent un seul sens de circulation : c'est la rue A qui est à sens unique.
+R: T1:כביש חד־סטרי
+
+#0177
+E: En sortant d'une propriété ou d'une station-service, il faut ralentir, voire s'arrêter, pour laisser passer les piétons en sécurité avant de franchir le trottoir.
+R: T64(ב)(1)
+
+#0178
+E: En sortant d'une propriété, d'une station-service ou d'un accès privé, on cède le passage aux piétons du trottoir puis aux véhicules qui approchent sur la chaussée.
+R: T64(ב)
+
+#0179
+E: Sur la photo, un panneau « Cédez le passage » (301) au débouché sur une route. Il faut ralentir et, si nécessaire, s'arrêter pour laisser passer les véhicules de la route transversale.
+R: T64(ג)
+
+#0180
+E: Sur la photo, une bretelle d'insertion avec un panneau « Cédez le passage » : on rejoint une chaussée où la circulation vient de la gauche, il faut donc lui céder le passage. S'arrêter n'est pas obligatoire si la voie est libre.
+R: T64(ג)

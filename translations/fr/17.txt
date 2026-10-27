@@ -1,0 +1,420 @@
+#1022
+Q: Quelle est la signification de ce panneau ?
+1: Un panneau à message obligatoire pour lequel il n'existe pas de panneau dans le tableau de signalisation.
+2: Un panneau d'information de forme rectangulaire.
+3: Un panneau d'avertissement, d'obligation ou d'interdiction destiné uniquement aux transports en commun.
+4: Une pancarte servant à toutes sortes de messages non contraignants.
+
+#1023
+Q: La lentille d'un phare avant du véhicule s'est brisée. Quelle en sera la conséquence ?
+1: Une décharge accélérée de la batterie.
+2: Une mauvaise mise au point du faisceau lumineux et une gêne pour les autres conducteurs.
+3: L'éblouissement du conducteur lui-même.
+4: Un refroidissement excessif de l'ampoule du phare.
+
+#1024
+Q: À quelle pression faut-il gonfler la roue de secours du véhicule ?
+1: À une pression égale à la plus basse des pressions des roues du véhicule.
+2: À la pression moyenne de toutes les roues du véhicule.
+3: À la pression fixée par le constructeur.
+4: La pression de la roue de secours n'a aucune importance.
+
+#1025
+Q: Quelle doit être la pression d'air dans les pneus du véhicule ?
+1: La pression conforme aux instructions du constructeur du véhicule.
+2: La pression des pneus n'a pas beaucoup d'importance.
+3: La pression conforme aux instructions du garage ou du centre de contrôle technique.
+4: Celle qui permet la conduite la plus confortable.
+
+#1026
+Q: Une pression d'air trop basse dans les pneus entraîne :
+1: Une usure accrue de la boîte de vitesses.
+2: Une usure rapide du volant.
+3: Une usure accélérée des pneus et une perte de stabilité du véhicule.
+4: Seulement un bruit de roulement accru à grande vitesse.
+
+#1027
+Q: Une pression d'air trop élevée dans les pneus :
+1: Rendra plus difficile pour le conducteur de tourner le volant.
+2: Provoque une usure irrégulière des pneus et raccourcit leur durée de vie.
+3: Provoque une usure rapide du volant.
+4: Contribue à allonger la durée de vie du pneu et à réduire la consommation de carburant.
+
+#1028
+Q: Où trouve-t-on l'information sur la bonne pression des pneus du véhicule ?
+1: Uniquement dans un garage agréé.
+2: Dans le permis du véhicule (carte grise).
+3: Auprès de l'assureur du véhicule.
+4: Dans le manuel du véhicule fourni par le constructeur ou l'importateur.
+
+#1029
+Q: Une pression d'air trop basse dans les pneus entraîne :
+1: Une direction facile à manœuvrer.
+2: Une faible consommation de carburant.
+3: Un échauffement excessif des pneus.
+4: Une usure rapide du système de freinage.
+
+#1030
+Q: Une pression d'air trop basse dans les pneus entraîne :
+1: Rien : une basse pression des pneus n'a aucun effet sur la conduite.
+2: Une hausse de la consommation de carburant et de la pollution de l'air.
+3: Une conduite plus silencieuse.
+4: Un volant facile à manœuvrer.
+
+#1031
+Q: La bonne dimension des pneus du véhicule est :
+1: Celle fixée par le constructeur du véhicule.
+2: Celle fixée par le fabricant des pneus.
+3: Celle que recommande le professionnel du magasin de pneus (le monteur de pneus).
+4: Celle qui paraît la mieux adaptée au véhicule.
+
+#1032
+Q: Quelle dimension de pneu est autorisée sur un véhicule ?
+1: N'importe laquelle, pourvu que tous les pneus du véhicule aient la même dimension.
+2: Celle fixée par le constructeur du véhicule et inscrite sur le permis du véhicule.
+3: Celle fixée par le fabricant des pneus.
+4: Celle approuvée par un garage agréé de réparation de véhicules.
+
+#1033
+Q: Que faut-il faire après avoir changé une roue ?
+1: Donner un léger coup de pied au pneu pour un contrôle général (de l'état du pneu et de sa capacité de coup de pied).
+2: Resserrer les écrous (boulons) de la roue après avoir descendu le véhicule du cric, et le refaire après 50 km de route.
+3: Vérifier la température du pneu avant le trajet suivant.
+4: Aucune action particulière n'est nécessaire.
+
+#1034
+Q: Quand et comment vérifie-t-on le niveau d'huile du moteur ?
+1: Le moment et la manière de vérifier l'huile moteur n'ont pas d'importance.
+2: Il n'y a aucun besoin de vérifier le niveau d'huile du moteur.
+3: Moteur froid, à l'arrêt et sur une surface horizontale.
+4: Moteur en marche, chaud et sur une surface plane.
+
+#1035
+Q: Est-il permis de remplacer les pneus du véhicule par des pneus d'une autre dimension ?
+1: En aucun cas il ne faut modifier la dimension des pneus du véhicule.
+2: C'est permis uniquement avec l'autorisation préalable de l'autorité des permis du ministère des Transports.
+3: C'est permis, à condition de remplacer tous les pneus du véhicule par des pneus neufs, tous d'une même autre dimension souhaitée par le conducteur.
+4: C'est permis si l'assureur approuve la modification.
+
+#1036
+Q: Quelle est la signification de ce panneau ?
+1: Fin de la zone de routes urbaines.
+2: Fin de la zone de routes non urbaines.
+3: Fin de la zone où le stationnement des véhicules utilitaires est interdit.
+4: Fin de l'endroit ou du tronçon où le stationnement est autorisé sur la chaussée ou sur le trottoir.
+
+#1037
+Q: Quand faut-il remplacer l'extincteur du véhicule ?
+1: Lorsqu'il a été utilisé (en totalité ou en partie) ou lorsque son manomètre indique une pression interne basse.
+2: À chaque deuxième contrôle technique, c'est-à-dire tous les deux ans.
+3: Chaque année, avant le contrôle technique du véhicule.
+4: Lorsqu'on n'entend plus le mouvement de la substance dans l'extincteur.
+
+#1038
+Q: Quand faut-il vérifier la pression d'air des pneus ?
+1: Lorsque les pneus sont froids.
+2: Lorsque les pneus sont chauds.
+3: Seulement avant un entretien périodique.
+4: Une fois par an.
+
+#1039
+Q: Quels sont les dangers de rouler avec un véhicule dont le système d'échappement du moteur fuit ?
+1: L'entrée de gaz brûlés dans l'habitacle, qui provoque un engourdissement des sens.
+2: Il n'y a aucun danger à rouler avec un système d'échappement qui fuit.
+3: L'échauffement du moteur.
+4: Des dommages aux véhicules voisins.
+
+#1040
+Q: À quoi faut-il veiller en stationnant dans un parking fermé ?
+1: À rien. Le stationnement dans un parking fermé ne connaît aucune restriction.
+2: Il ne faut pas laisser le moteur tourner plus d'une demi-heure d'affilée.
+3: Il faut éviter de laisser le moteur tourner longtemps, en raison du manque d'aération du parking.
+4: Il faut veiller à ce que le moteur continue de tourner au moins 20 minutes après l'arrêt du véhicule, jusqu'à son refroidissement.
+
+#1041
+Q: Comment réduire la consommation de carburant du véhicule ?
+1: En faisant le plein d'un carburant d'indice d'octane inférieur à celui qui est nécessaire.
+2: En adaptant le rapport de vitesse aux conditions de la route et en évitant les fortes accélérations du moteur.
+3: En multipliant autant que possible les fortes accélérations du moteur.
+4: En veillant à rouler sur le rapport le plus bas.
+
+#1042
+Q: Comment peut-on réduire la pollution de l'air due aux gaz d'échappement du véhicule ?
+1: Par un entretien régulier du moteur du véhicule et de ses autres systèmes.
+2: En gardant propres le moteur du véhicule et le compartiment moteur.
+3: On ne peut pas réduire la pollution. C'est une donnée fixe du véhicule.
+4: En rinçant le réservoir de carburant du véhicule une fois par mois.
+
+#1043
+Q: Quel est le danger de faire le plein du véhicule moteur en marche ?
+1: Un moteur en marche pendant le ravitaillement augmente la consommation de carburant.
+2: Une surchauffe du moteur peut enflammer le carburant.
+3: Il n'y a aucun danger à laisser le moteur tourner pendant le ravitaillement.
+4: L'inflammation des vapeurs de carburant par une étincelle.
+
+#1044
+Q: À quoi le conducteur doit-il veiller avant de démarrer le moteur ?
+1: Que le frein auxiliaire (de stationnement) soit desserré.
+2: Qu'aucune personne ne se tienne près du véhicule.
+3: Que le réservoir approprié contienne une quantité suffisante de liquide lave-glace.
+4: Que le frein auxiliaire (de stationnement) soit serré.
+
+#1045
+Q: Quel est le rôle du frein auxiliaire (de stationnement) du véhicule ?
+1: Garantir que le véhicule ne bouge pas et ne dévale pas pendant le stationnement.
+2: S'assurer de l'arrêt devant un feu rouge.
+3: Son usage réduit l'usure des freins de service (frein à pied).
+4: Augmenter la puissance de freinage des freins.
+
+#1046
+Q: Quand est-on tenu de faire contrôler la pollution de l'air émise par le véhicule ?
+1: Une fois tous les six mois, dans le garage qui entretient le véhicule.
+2: Lors du contrôle technique annuel du véhicule (test) dans un centre de contrôle.
+3: Une fois par mois, dans n'importe quel garage spécialisé en électricité automobile.
+4: Les véhicules ne polluent pas l'air ; il n'y a donc aucun besoin de contrôle.
+
+#1047
+Q: Quel danger présente une pression d'air basse dans l'une des roues avant ?
+1: Elle peut faire dévier le véhicule du côté de la roue dont la pression est la plus basse.
+2: Aucun danger tant que la pression des pneus est au moins le quart de la pression requise.
+3: Elle peut tirer le volant du côté de la roue dont la pression est la plus élevée.
+4: Aucun danger. La pression des pneus avant n'a aucune importance.
+
+#1048
+Q: Quel système du véhicule peut provoquer une usure irrégulière des pneus avant ?
+1: Le système de direction.
+2: Le système de climatisation.
+3: Le système électrique.
+4: Le système de freinage.
+
+#1049
+Q: Une rotation involontaire (« traction ») du volant d'un côté pendant la conduite peut être causée par :
+1: Une panne du moteur du véhicule.
+2: Uniquement une panne du système de freinage.
+3: Une pression d'air basse dans l'une des roues avant.
+4: Une pression d'air basse dans les deux roues arrière.
+
+#1050
+Q: Quel est le bon ordre des opérations pour changer une roue du véhicule ?
+1: Desserrer deux écrous, lever le véhicule au cric, puis desserrer complètement les autres écrous.
+2: Desserrer légèrement les écrous/boulons, lever le véhicule au cric, puis desserrer complètement tous les écrous/boulons.
+3: Lever le véhicule au cric, puis desserrer complètement les écrous.
+4: Desserrer complètement les écrous, puis lever le véhicule au cric.
+
+#1051
+Q: La pression d'air requise dans les pneus du véhicule :
+1: Est inscrite sur l'attestation d'assurance.
+2: Est inscrite dans la police d'assurance.
+3: Est inscrite sur une étiquette collée dans le véhicule.
+4: Est inscrite sur le permis du véhicule.
+
+#1052
+Q: Quel est le rôle du tableau de bord du véhicule ?
+1: Offrir une protection supplémentaire aux occupants en cas de choc frontal.
+2: Commander le système audio de l'habitacle et changer de station de radio.
+3: Permettre de contrôler les différents systèmes du véhicule et d'en recevoir des informations.
+4: Réguler les systèmes du moteur et éviter l'usure des pneus.
+
+#1053
+Q: Le panneau 405 est placé sur la route, et sur cette route une moto dépasse une voiture particulière :
+1: Selon le panneau, il est totalement interdit de dépasser en circulant.
+2: Selon le panneau, il est interdit aux deux de se trouver sur cette route.
+3: Selon le panneau, il est interdit à une voiture particulière de dépasser une moto.
+4: Selon le panneau, il est interdit à une moto de dépasser une voiture particulière.
+
+#1054
+Q: Que doit vérifier le conducteur avant de commencer à rouler ?
+1: Qu'aucun des voyants d'alerte du tableau de bord n'est allumé.
+2: Uniquement le niveau du liquide lave-glace et le bon fonctionnement de l'éclairage.
+3: Le conducteur n'a qu'à conduire. Toutes les vérifications doivent se faire au garage.
+4: La pression d'air du moteur, la propreté des vitres et le bon fonctionnement de la climatisation.
+
+#1055
+Q: Que fait le conducteur qui découvre en roulant un défaut de sécurité de la direction ou des freins ?
+1: Il interrompt immédiatement la conduite du véhicule.
+2: Il poursuit prudemment sa route jusqu'au garage le plus proche.
+3: Il localise l'origine du problème et essaie de le surmonter en roulant.
+4: Si l'origine de la panne est dans le système d'allumage ou de carburant, il arrête de rouler ; sinon il continue.
+
+#1056
+Q: Qui est autorisé à réparer les défauts de sécurité d'un véhicule ?
+1: Tout conducteur, pourvu qu'il suive les instructions du constructeur.
+2: Tout conducteur ayant des connaissances et de l'expérience en mécanique automobile ou une bonne connaissance du véhicule.
+3: Seulement un professionnel qualifié dans un garage agréé.
+4: Tout professionnel dans n'importe quel garage de réparation de véhicules.
+
+#1057
+Q: Qu'est-ce que l'« entretien préventif » d'un véhicule ?
+1: Un entretien qui empêche le véhicule de rouler correctement.
+2: Un entretien qui empêche de conduire à une vitesse excessive.
+3: Un entretien laissé à l'appréciation du conducteur, destiné à prévenir les accidents.
+4: Un entretien régulier et planifié, qui préserve le bon état du véhicule et de ses systèmes.
+
+#1058
+Q: Quelle est la bonne fréquence d'entretien du véhicule ?
+1: Celle que recommande le propriétaire du garage qui entretient le véhicule.
+2: La fréquence est fixée selon les besoins et le rythme d'apparition des pannes du véhicule.
+3: Celle que recommande le constructeur du véhicule.
+4: Celle que recommande la compagnie d'assurance.
+
+#1059
+Q: À quoi contribue une conduite souple, sans accélérations brutales du moteur ?
+1: À prolonger le trajet plus que nécessaire.
+2: À économiser le carburant du moteur.
+3: À économiser l'huile du moteur.
+4: À économiser l'électricité du véhicule.
+
+#1060
+Q: Après avoir roulé dans une flaque d'eau profonde, le conducteur doit :
+1: Rouler vite pour sécher les freins.
+2: Ne rien faire. Il n'y a aucun lien entre l'eau et le système de freinage.
+3: Faire remorquer le véhicule jusqu'au garage le plus proche.
+4: Rouler lentement jusqu'à ce que les freins sèchent et retrouvent leur fonctionnement normal.
+
+#1061
+Q: Pourquoi faut-il éviter de faire tourner le moteur du véhicule dans un lieu fermé ?
+1: Pour éviter que le moteur ne surchauffe, faute d'aération suffisante.
+2: Il n'y a pas à l'éviter. Peu importe que le moteur tourne dans un lieu fermé ou ouvert.
+3: Parce qu'on ne peut pas faire tourner le moteur dans un lieu fermé.
+4: Parce que les gaz brûlés émis par le moteur sont toxiques pour l'homme.
+
+#1062
+Q: Quel composant (pièce) du véhicule connecte ou déconnecte le mouvement de rotation du moteur vers la boîte de vitesses ?
+1: La batterie.
+2: Les roues.
+3: L'embrayage.
+4: Le ventilateur.
+
+#1063
+Q: Quand on gare le véhicule, il faut serrer le frein auxiliaire (de stationnement) :
+1: Uniquement en stationnant dans une forte descente.
+2: Toujours.
+3: Uniquement en stationnant en côte.
+4: Uniquement sur route mouillée.
+
+#1064
+Q: Quel est le danger d'utiliser un GPS en conduisant ?
+1: La distraction du conducteur, dont l'attention quitte la route.
+2: Une décharge rapide de la batterie du véhicule.
+3: Un dérèglement des systèmes de gestion du moteur.
+4: Aucun danger à utiliser un GPS en conduisant. C'est seulement utile.
+
+#1065
+Q: Qu'est-ce qu'un GPS dans un véhicule ?
+1: Un sous-système du système de direction qui en augmente l'efficacité.
+2: Un système qui fournit des informations sur la position du véhicule et aide le conducteur à atteindre sa destination.
+3: Un système qui vérifie le bon fonctionnement des systèmes informatisés du véhicule.
+4: Un système qui mesure la consommation de carburant du véhicule.
+
+#1066
+Q: Où placez-vous le cric quand vous voulez changer une roue du véhicule ?
+1: À l'endroit le plus commode pour le conducteur.
+2: L'emplacement n'a aucune importance.
+3: À l'endroit indiqué par le constructeur ou à un autre endroit sûr, près de la roue à changer.
+4: Le plus près possible de l'arrière du véhicule.
+
+#1067
+Q: Le frein auxiliaire (de stationnement) sert :
+1: À réduire l'usure du système de freinage.
+2: Aussi de frein de secours (mais sa capacité est limitée).
+3: À aider le conducteur en marche arrière.
+4: À freiner le véhicule dans une descente.
+
+#1068
+Q: Pour vérifier que la pression d'air des pneus est la bonne :
+1: Il faut s'adresser à un monteur de pneus agréé, car lui seul est autorisé à vérifier la pression des pneus.
+2: On contrôle la pression avec un manomètre.
+3: Il suffit de les regarder et de décider.
+4: Il faut s'adresser à un garage agréé, car lui seul est autorisé à vérifier la pression des pneus.
+
+#1069
+Q: Quel voyant d'alerte, lorsqu'il s'allume, n'oblige pas à s'arrêter et à cesser de rouler ?
+1: Le voyant de température du moteur.
+2: Le voyant de jauge de carburant du réservoir.
+3: Le voyant de panne des freins.
+4: Le voyant de basse pression d'huile du moteur.
+
+#1070
+Q: L'autorisation de ligne pour l'exploitation d'un autobus réglemente :
+1: Uniquement le prix du trajet sur la ligne de service.
+2: Les caractéristiques de l'autobus et sa taille.
+3: Le service sur la ligne.
+4: Uniquement le tracé de la ligne sur laquelle l'autobus est inscrit.
+
+#1071
+Q: Pourquoi le conducteur doit-il ajuster sa position assise avant de commencer à conduire ?
+1: Pour éviter les douleurs aux jambes causées par une position assise prolongée sur le siège du conducteur.
+2: Pour bien maîtriser les commandes du véhicule et améliorer le champ de vision.
+3: Pour atteindre plus facilement la radio ou le téléphone portable en conduisant.
+4: Aucun réglage n'est nécessaire. L'ajustement de la position assise ne concerne que les femmes enceintes.
+
+#1072
+Q: Pour assurer une position assise confortable et sûre dans le véhicule, il faut régler :
+1: Les appuie-têtes et la position des pédales.
+2: La position du siège et l'orientation de l'air des bouches d'aération.
+3: La position du siège, l'angle du dossier et la position du volant.
+4: Les rétroviseurs et les stations de radio.
+
+#1073
+Q: Quelle est la signification de ce panneau ?
+1: La distance jusqu'à la route la plus proche (en km).
+2: Le numéro d'une route principale.
+3: Le numéro d'une voie rapide.
+4: La distance jusqu'à la prochaine intersection (en km).
+
+#1074
+Q: Lorsqu'il y a du brouillard, en plus des feux antibrouillard :
+1: Il est conseillé de rouler lentement, en fonction du champ de vision réel.
+2: Il est conseillé de rouler en feux de route.
+3: Il est conseillé de rouler vite, en feux de route.
+4: Il est obligatoire de rouler avec les feux de détresse clignotants.
+
+#1075
+Q: Comment des vitres sales influencent-elles la sécurité ?
+1: Des vitres sales gênent la vision libre du conducteur.
+2: Un véhicule sale met en danger et pollue son environnement immédiat.
+3: La saleté peut endommager les systèmes de sécurité du véhicule.
+4: Un véhicule propre aide à améliorer la concentration et le bien-être général du conducteur.
+
+#1076
+Q: Un rétroviseur panoramique :
+1: Est surtout nécessaire aux conducteurs de grande taille.
+2: Est difficile à régler.
+3: Ne reflète pas avec exactitude la distance des objets qui y apparaissent.
+4: Est très cher.
+
+#1077
+Q: Quelles mesures de sécurité faut-il prendre avant de lever le véhicule avec un cric ?
+1: Empêcher le véhicule de bouger (avec le frein auxiliaire (de stationnement) et en calant les roues), et desserrer d'abord les écrous/boulons de la roue.
+2: Seulement s'assurer que le sol sur lequel se trouve le véhicule est plan et horizontal.
+3: Lever d'abord le véhicule par un autre coin pour vérifier le bon état du cric.
+4: Mettre le levier de vitesses au point mort et desserrer le frein auxiliaire (de stationnement).
+
+#1078
+Q: Quelle est la signification de ce panneau ?
+1: Présignalisation des destinations avant une intersection sur une voie rapide.
+2: Présignalisation des destinations avant une intersection sur une route non urbaine.
+3: Présignalisation de la sortie des destinations sur une route urbaine.
+4: Présignalisation des destinations avant un échangeur sur une route urbaine.
+
+#1079
+Q: Comment agissez-vous si le voyant de température du moteur indique une température supérieure à la normale ?
+1: Vous coupez le moteur, éloignez les passagers des lieux et appelez à l'aide.
+2: Vous continuez à rouler lentement pour obtenir une forte ventilation qui refroidira le moteur.
+3: Vous continuez à rouler vite pour obtenir une forte ventilation qui refroidira le moteur.
+4: Vous vous arrêtez et laissez tourner le moteur à régime moyen pour qu'il refroidisse. S'il ne refroidit pas, vous coupez le moteur.
+
+#1080
+Q: Quels sont les contrôles courants que le conducteur doit effectuer sur le véhicule ?
+1: Le contrôle des papiers du véhicule.
+2: Le contrôle du dernier kilométrage du véhicule.
+3: Le contrôle des liquides et huiles, de la pression des pneus et du bon fonctionnement des feux et des essuie-glaces.
+4: Le contrôle des vitres, du coffre et du bon fonctionnement des feux et des essuie-glaces.
+
+#1081
+Q: Quels types de liquides le conducteur doit-il contrôler dans le véhicule ?
+1: Le niveau d'huile de l'embrayage et le niveau d'huile du moteur.
+2: Le niveau du liquide de frein et la quantité de gaz de la climatisation.
+3: Le niveau d'huile de direction et le niveau d'huile de la boîte d'embrayage.
+4: Les niveaux de : huile moteur, liquide de refroidissement, liquide de frein et liquide lave-glace.
+

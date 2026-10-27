@@ -1,0 +1,419 @@
+#0661
+Q: Que signifie ce marquage au sol ?
+1: Ralentissez ! Chaussée déformée devant vous.
+2: Attention : ouvriers sur la chaussée.
+3: Emplacement d'arrêt pour un type de véhicule particulier, là où il n'y a pas d'encoche (de baie).
+4: Zone de stationnement pour voitures particulières.
+
+#0662
+Q: Que signifie ce marquage au sol (à un endroit avec une encoche et des bordures) ?
+1: L'arrêt est permis à un type de véhicule particulier, indiqué sur le panneau placé à cet endroit.
+2: Emplacement de stationnement pour deux-roues.
+3: Endroit où l'arrêt n'est permis qu'aux véhicules non motorisés.
+4: L'arrêt dans la zone marquée est permis à tous les types de véhicules.
+
+#0663
+Q: Que signifie ce marquage au sol ?
+1: Emplacements de stationnement et d'arrêt réservés aux deux-roues.
+2: Emplacements d'arrêt réservés aux véhicules non motorisés.
+3: Zone où le stationnement est interdit à tout véhicule.
+4: Emplacements de stationnement : on ne peut stationner que selon le marquage.
+
+#0664
+Q: Que signifie le feu allumé ?
+1: Arrêtez-vous un instant, cédez le passage et repartez prudemment.
+2: Si l'intersection est libre, on peut la traverser prudemment sans s'arrêter.
+3: Feu rouge : arrêtez-vous, sauf si vous ne pouvez pas le faire en sécurité.
+4: Feu rouge : arrêtez-vous.
+
+#0665
+Q: Que signifie le feu allumé ?
+1: Continuez : le feu vert va apparaître.
+2: Arrêtez-vous ; ne repartez pas tant que le rouge est allumé.
+3: Accélérez avant l'intersection pour passer avant que le feu ne change.
+4: Vous pouvez continuer après avoir vérifié que l'intersection est libre.
+
+#0666
+Q: Que signifie le feu allumé ?
+1: Vous pouvez avancer si l'intersection est libre.
+2: Démarrez quand l'orange apparaît.
+3: Attendez et ne passez pas avant l'apparition de l'orange.
+4: Ne continuez que lorsque le feu commence à clignoter.
+
+#0667
+Q: Que signifie le feu allumé (orange fixe) ?
+1: Arrêtez-vous avant l'intersection, sauf si vous ne pouvez pas le faire en sécurité.
+2: Préparez-vous à démarrer : le feu va passer au vert.
+3: Continuez : le feu va passer au vert.
+4: Vous pouvez aller tout droit, à droite et à gauche.
+
+#0668
+Q: Comment faut-il agir lorsque le feu orange clignote ?
+1: S'arrêter à l'endroit habituel et attendre le vert.
+2: S'arrêter dans l'intersection et attendre le vert.
+3: Ignorer le feu et continuer : tout va bien.
+4: Avancer prudemment et appliquer les panneaux placés à l'intersection.
+
+#0669
+Q: Que signifie la flèche verte allumée sur le feu ?
+1: Traversez et dégagez rapidement l'intersection dans la direction de votre choix.
+2: Vous pouvez continuer, mais seulement dans le sens de la flèche.
+3: Le virage dans le sens de la flèche n'est permis qu'aux véhicules de transport public.
+4: Avancez uniquement tout droit ou à droite.
+
+#0670
+Q: Que signifie ce signal ?
+1: Virage en épingle à gauche ou à droite.
+2: Insérez-vous dans la circulation de la voie voisine, à droite ou à gauche.
+3: Voie fermée : il est interdit de rouler sur la voie au-dessus de laquelle il est placé.
+4: Travaux : suivez la flèche qui vous concerne.
+
+#0671
+Q: Le risque de dérapage sur chaussée mouillée est d'autant plus grand :
+1: que les pneus sont usés.
+2: que les rainures des pneus sont profondes.
+3: que le véhicule est lourd.
+4: que la pression des pneus est élevée.
+
+#0672
+Q: Comment agissez-vous lorsque ce feu orange clignote ?
+1: Avancez prudemment et laissez les piétons traverser la chaussée en sécurité.
+2: Arrêtez-vous et ne repartez pas tant que l'orange clignotant est allumé.
+3: Ignorez-le : il ne concerne que les piétons.
+4: Arrêtez-vous toujours avant le passage pour piétons, même s'il n'y a personne.
+
+#0673
+Q: Que signifie ce feu (rouges clignotant en alternance) ?
+1: Accélérez avant le passage.
+2: Feu spécial avant un passage à niveau : arrêtez-vous avant le passage et ne repartez pas tant que le rouge clignote.
+3: Arrêtez-vous avant l'intersection à feux.
+4: Préparez-vous à vous arrêter avant l'intersection à feux.
+
+#0674
+Q: Comment faut-il agir lorsque les feux rouges de la photo clignotent ?
+1: Avancez : on peut aller tout droit quand la route est libre.
+2: On peut continuer tout droit prudemment après s'être arrêté.
+3: Traversez le passage lentement.
+4: Arrêtez-vous toujours avant le passage à niveau, et ne repartez pas tant que les feux clignotent.
+
+#0675
+Q: Que signifie ce signal ?
+1: Chaussée à sens unique devant vous.
+2: Vous avez la priorité sur la route devant vous.
+3: Il est permis de rouler sur cette voie.
+4: Il est interdit de rouler sur cette voie.
+
+#0676
+Q: Que signifie ce signal ?
+1: Il est permis de rouler sur cette voie.
+2: Il n'est permis de rouler sur cette voie que la nuit.
+3: Passez sur la voie de gauche.
+4: Il est interdit de rouler sur cette voie.
+
+#0677
+Q: Que signifie ce signal ?
+1: Intersection en croix devant vous.
+2: Interdiction de passer sur la voie voisine, à droite ou à gauche ; il faut rester sur cette voie.
+3: Cette voie est réservée aux deux-roues.
+4: Il est interdit de rouler sur cette voie.
+
+#0678
+Q: Que signifie ce signal lorsqu'il est placé au-dessus de votre voie ?
+1: Il est interdit de rouler sur cette voie.
+2: La circulation est interdite aux véhicules venant en face.
+3: Intersection en croix devant vous.
+4: Cette voie est réservée aux transports en commun.
+
+#0679
+Q: Comment agissez-vous lorsque vous voyez ce signal (photo) au-dessus de votre voie ?
+1: Arrêtez-vous avant la voie ferrée jusqu'au passage du train.
+2: N'entrez pas sur cette voie et ne continuez pas à y rouler.
+3: Ralentissez avant le passage à niveau ; si un train approche, arrêtez-vous.
+4: Ralentissez avant le passage à niveau et franchissez la voie ferrée sans vous attarder.
+
+#0680
+Q: Que signifie ce panneau ?
+1: Barrière avant un passage à niveau.
+2: Arrêt et stationnement interdits, sauf aux autobus.
+3: Stationnement payant par ticket.
+4: Arrêt bref permis, stationnement interdit.
+
+#0681
+Q: Comment devez-vous agir en approchant d'une barrière baissée (horizontale) ?
+1: Vous devez vous arrêter et couper le moteur.
+2: Arrêt et stationnement interdits : contournez la barrière par la droite.
+3: Vous devez vous arrêter devant elle et ne pas continuer.
+4: Vous devez continuer prudemment en contournant la barrière ou en passant dessous.
+
+#0682
+Q: Que signifie le marquage noir et blanc au bord de la chaussée ?
+1: Stationnement réglementé par la municipalité.
+2: Il fait ressortir la présence de trottoirs et d'îlots construits près de la chaussée.
+3: Emplacement d'arrêt et de stationnement avant un passage à niveau.
+4: Tout arrêt et tout stationnement sont interdits.
+
+#0683
+Q: Que signifie ce panneau ?
+1: Balises de guidage : fin de la route.
+2: Signalisation d'un passage étroit ou d'un obstacle.
+3: Pont large devant vous.
+4: La chaussée s'élargit.
+
+#0684
+Q: Comment doit agir le conducteur qui approche de ce panneau ?
+1: Contourner le panneau par la droite ou par la gauche et continuer tout droit.
+2: Ralentir là où des travaux ont lieu, puis continuer.
+3: S'arrêter avant le panneau, puis tourner à droite ou à gauche.
+4: Ralentir avant l'intersection et ne continuer que dans les directions indiquées par les flèches du panneau.
+
+#0685
+Q: Que signifie ce panneau ?
+1: Intersection en croix devant vous.
+2: Intersection en T à gauche.
+3: On ne peut aller qu'à gauche.
+4: Voie sans issue à droite.
+
+#0686
+Q: Que signifie ce panneau ?
+1: Travaux sur la route.
+2: Attention, ralentisseurs devant vous.
+3: Attention, chaussée déformée devant vous.
+4: Piétons devant vous.
+
+#0687
+Q: Lorsqu'on stationne, il faut serrer le frein de stationnement (frein à main) :
+1: uniquement sur chaussée mouillée.
+2: uniquement dans une descente raide.
+3: toujours.
+4: uniquement dans une montée.
+
+#0688
+Q: Les pneus montés sur un même essieu doivent être :
+1: toujours de la même date de fabrication.
+2: de dimensions identiques, conformes aux instructions du constructeur.
+3: de la même couleur.
+4: du même fabricant.
+
+#0689
+Q: La fonction principale du frein de stationnement (frein à main) est :
+1: aucune ; il ne faut jamais l'utiliser.
+2: d'aider les nouveaux conducteurs à freiner en descente.
+3: d'augmenter la puissance de freinage du frein de service (au pied).
+4: d'empêcher le véhicule de bouger lorsqu'il est stationné.
+
+#0690
+Q: Que signifie le panneau placé devant vous ?
+1: Signalisation d'une glissière de sécurité.
+2: Barrière de passage à niveau devant vous, dans un chantier.
+3: Passage à niveau à 300 mètres.
+4: Balises de guidage et d'avertissement au bord de la route.
+
+#0691
+Q: Lorsque les panneaux ou le marquage au sol sont de couleur orange :
+1: ce sont des panneaux temporaires, uniquement hors agglomération, valables trois mois au plus.
+2: ils signalent des tronçons dangereux pour lesquels il n'existe pas de panneau particulier.
+3: ils signalent un chantier sur la route.
+4: leur couleur spéciale les fait ressortir par mauvais temps.
+
+#0692
+Q: Vous appuyez sur la pédale de frein et sentez que le frein de service (au pied) ne fonctionne pas. Que faites-vous ?
+1: J'essaie de freiner en appuyant sur la pédale d'embrayage.
+2: J'essaie de freiner avec le frein de stationnement (frein à main).
+3: Je klaxonne et j'allume mes feux pour avertir le conducteur devant moi.
+4: Je braque vite à droite pour freiner le véhicule en changeant la direction des roues.
+
+#0693
+Q: Où vous arrêtez-vous lorsque le feu de l'intersection devant vous est rouge ?
+1: Toujours là où la visibilité est la meilleure.
+2: Après la ligne d'arrêt ; sans ligne d'arrêt, avant la limite de l'intersection.
+3: Après le passage pour piétons ; sans passage, là où la visibilité est la meilleure.
+4: Avant la ligne d'arrêt ; sans ligne d'arrêt, avant le passage pour piétons.
+
+#0694
+Q: Que signifie ce panneau ?
+1: Le stationnement des véhicules utilitaires de plus de 10 000 kg (poids total autorisé) est interdit dans la zone à l'entrée de laquelle il est placé.
+2: Le stationnement des véhicules utilitaires de plus de 4 000 kg est interdit dans la zone à l'entrée de laquelle il est placé.
+3: Le stationnement de tout véhicule utilitaire est interdit dans la zone à l'entrée de laquelle il est placé.
+4: Le stationnement des véhicules utilitaires de plus de 8 000 kg est interdit.
+
+#0695
+Q: Jusqu'où s'applique ce panneau ?
+1: Jusqu'au panneau interdisant l'accès aux véhicules jusqu'à 10 000 kg.
+2: Jusqu'au panneau qui l'annule.
+3: Jusqu'à la prochaine intersection.
+4: Jusqu'au prochain feu.
+
+#0696
+Q: Quels équipements réduisent la gravité des blessures des passagers lors d'un accident ?
+1: Les ceintures de sécurité, les appuie-tête et les airbags.
+2: Les feux de brouillard et les sièges orthopédiques.
+3: Les essuie-glaces arrière et les appuie-tête.
+4: Les pédales de frein et d'embrayage.
+
+#0697
+Q: Vous conduisez le véhicule 3. À qui devez-vous céder le passage ?
+1: À la voiture rouge (2), puis à la voiture bleue (1).
+2: À la voiture bleue (1).
+3: À personne : tous les autres doivent vous céder le passage (3).
+4: À la voiture rouge (2).
+
+#0698
+Q: Devez-vous céder le passage au cycliste ?
+1: Non, on ne cède pas le passage aux vélos.
+2: Non, la priorité appartient au véhicule qui continue tout droit.
+3: Non, un véhicule non motorisé cède le passage à un véhicule à moteur.
+4: Oui, car le cycliste (1) vient de droite.
+
+#0699
+Q: Vous conduisez le véhicule 3. À qui cédez-vous le passage ?
+1: Uniquement au motocycliste (1).
+2: Au motocycliste (1) et au cycliste (2).
+3: À personne : vous (3) avez la priorité sur la route droite.
+4: Uniquement au cycliste (2).
+
+#0700
+Q: L'intersection devant vous n'a pas de panneau. Dans quel ordre les véhicules arrivés en même temps y entrent-ils selon les règles de priorité ?
+1: Vous d'abord (3), puis la voiture rouge (2), et la voiture verte (1) en dernier.
+2: La voiture verte (1), puis vous (3), et la voiture rouge (2) en dernier.
+3: C'est simple : le premier arrivé passe en dernier.
+4: La voiture verte (1) d'abord, puis la rouge (2), et vous (3) en dernier.
+
+#0701
+Q: Vous conduisez le véhicule 3. Dans quel ordre les véhicules arrivés en même temps entrent-ils dans cette intersection sans panneau ?
+1: Vous d'abord (3), le camion-poubelle ensuite (1) et la voiture particulière en dernier (2).
+2: Vous d'abord (3), la voiture particulière ensuite (2) et le camion-poubelle en dernier (1).
+3: La voiture particulière d'abord (2), vous ensuite (3) et le camion-poubelle en dernier (1).
+4: Le camion-poubelle d'abord (1), la voiture particulière ensuite (2) et vous en dernier (3).
+
+#0702
+Q: Vous conduisez le véhicule 3. Qui entre en premier dans l'intersection selon les règles de priorité (pas de panneau) ?
+1: Votre véhicule (3).
+2: Le cycliste (1).
+3: Le motocycliste (2).
+4: La loi ne règle pas cette situation.
+
+#0703
+Q: Vous conduisez le véhicule 3. Dans quel ordre les véhicules entrent-ils dans l'intersection selon les règles de priorité ?
+1: La voiture rouge d'abord (1), puis le vélo (2).
+2: Le cycliste d'abord (2), puis la voiture rouge (1).
+3: Le cycliste d'abord (2), puis votre véhicule (3).
+4: Votre véhicule d'abord (3), puis la voiture rouge (1).
+
+#0704
+Q: Vous conduisez le véhicule 3. Dans quel ordre les véhicules entrent-ils dans l'intersection selon les règles de priorité ?
+1: Le véhicule qui va tout droit entre en premier.
+2: Le motocycliste (2), la voiture bleue (1), puis votre véhicule (3).
+3: La voiture bleue (1), le motocycliste (2), puis votre véhicule (3).
+4: Votre véhicule (3), le motocycliste (2), puis la voiture bleue (1).
+
+#0705
+Q: Je conduis le véhicule 3. Dans quel ordre entre-t-on dans l'intersection selon les règles de priorité (le véhicule rouge n'est pas un véhicule d'urgence) ?
+1: Le véhicule rouge (2), mon véhicule (3), le cycliste (1).
+2: Le cycliste (1), le véhicule rouge (2), mon véhicule (3).
+3: Mon véhicule (3), le véhicule rouge (2), le cycliste (1).
+4: Mon véhicule (3), le cycliste (1), le véhicule rouge (2).
+
+#0706
+Q: Devez-vous (véhicule 3) céder le passage au cycliste (2) dans le giratoire ?
+1: Non, car le cycliste cède toujours le passage aux autres véhicules.
+2: Oui, toujours.
+3: Non, les règles de priorité du giratoire ne s'appliquent pas aux cyclistes.
+4: Non, cela dépend de votre bonne volonté.
+
+#0707
+Q: Comment agissez-vous (véhicule 3) dans ce virage ?
+1: Avancez : vous (3) avez la priorité à l'intersection.
+2: Cédez le passage aux deux véhicules (1 et 2).
+3: Cédez le passage à la voiture verte (1).
+4: Cédez le passage à la voiture rouge (2).
+
+#0708
+Q: Comment agissez-vous (véhicule 3) à l'approche de l'intersection (le véhicule rouge n'est pas un véhicule d'urgence) ?
+1: Vous (3) avez la priorité, car vous traversez en ligne droite.
+2: Entrez dans l'intersection avant le camion-poubelle (2), qui doit vous céder le passage (vous venez de sa droite).
+3: Cédez le passage au tracteur (1) et au camion (2) qui croisent votre route.
+4: Cédez le passage uniquement au tracteur qui vient de droite (1).
+
+#0709
+Q: Comment agissez-vous (véhicule 3) à cette intersection ?
+1: Cédez le passage au motocycliste (2) et au bus jaune (1).
+2: Avancez prudemment : les conducteurs des véhicules 1 et 2 doivent vous céder le passage.
+3: Cédez le passage uniquement à la moto (2).
+4: Cédez le passage uniquement au bus jaune (1).
+
+#0710
+Q: Comment agissez-vous (véhicule 3) à cette intersection ?
+1: Cédez le passage au motocycliste (1).
+2: Vous (3) avez la priorité sur les autres véhicules.
+3: Le premier arrivé à l'intersection y entre.
+4: Cédez le passage à la voiture rouge (2).
+
+#0711
+Q: Vous conduisez le véhicule 3. À qui cédez-vous le passage ?
+1: À personne : vous (3) avez la priorité.
+2: Au motocycliste (1) et à l'autobus (2).
+3: Uniquement à l'autobus (2).
+4: Au véhicule le plus proche de l'intersection.
+
+#0712
+Q: Quel véhicule doit entrer en premier dans l'intersection ?
+1: Le bus jaune (1).
+2: Le véhicule qui tourne à gauche (3).
+3: Le véhicule le plus proche de l'intersection.
+4: Le cycliste (2).
+
+#0714
+Q: Vous conduisez le véhicule 2. Comment agissez-vous dans cette situation ?
+1: Entrez dans l'intersection en même temps que la voiture rouge (1).
+2: Continuez normalement : la voiture rouge (1) tourne à gauche et doit donc vous céder le passage.
+3: Continuez (2) : vous êtes sur la route principale.
+4: Cédez le passage à la voiture rouge (1).
+
+#0715
+Q: Comment agissez-vous (véhicule 2) à cette intersection ?
+1: Attendez et laissez passer la voiture jaune (1) devant vous.
+2: Arrêtez-vous (2) avant d'entrer dans l'intersection et observez la circulation et la signalisation.
+3: Continuez prudemment, en gardant le contact visuel avec la voiture jaune (1) : elle doit vous céder le passage.
+4: Cédez le passage à la voiture jaune (1), car elle vient de votre droite.
+
+#0716
+Q: Selon la loi, dans quel ordre les véhicules entrent-ils dans l'intersection ?
+1: Le tracteur (2) entre toujours en dernier.
+2: Vous, qui tournez à gauche (3), puis le tracteur (2), puis la voiture bleue (1).
+3: Le véhicule qui tourne à gauche (3), la voiture bleue (1), puis le tracteur (2).
+4: Le tracteur (2), vous qui tournez à gauche (3), puis la voiture bleue (1).
+
+#0717
+Q: Selon la loi, dans quel ordre les véhicules entrent-ils dans l'intersection ?
+1: La voiture rouge (1), la moto (2), puis votre véhicule (3).
+2: La moto (2), votre véhicule (3), puis la voiture rouge (1).
+3: La voiture rouge (1), votre véhicule (3), puis la moto (2).
+4: La moto (2), la voiture rouge (1), puis votre véhicule (3).
+
+#0718
+Q: Comment agissez-vous à cette intersection (le véhicule rouge n'est pas un véhicule d'urgence) ?
+1: Cédez le passage à la voiture particulière (1).
+2: Cédez le passage à la voiture particulière (1) et au camion (2).
+3: Entrez (3) dans l'intersection : vous avez la priorité.
+4: Laissez passer le gros véhicule (2) : la priorité appartient toujours au plus gros véhicule.
+
+#0719
+Q: Comment agissez-vous (véhicule 3) à cette intersection, selon la loi bien sûr ?
+1: Cédez le passage à la voiture jaune (2).
+2: Passez prudemment : les deux conducteurs doivent vous (3) céder le passage.
+3: Cédez le passage à la voiture bleue (1).
+4: Cédez le passage aux deux véhicules (1 et 2).
+
+#0720
+Q: Comment agissez-vous à cette intersection ?
+1: Klaxonnez pour avertir le motocycliste et continuez.
+2: Cédez le passage au motocycliste.
+3: Continuez tout droit en lui faisant un appel de phares.
+4: Continuez : le motocycliste doit vous céder le passage.
+
+#0721
+Q: Sur l'illustration :
+1: Vous (2) avez toujours la priorité, car vous venez de droite.
+2: Vous (2) avez toujours la priorité.
+3: Le conducteur de la voiture rouge (1) doit vous céder le passage.
+4: Vous devez céder le passage à la voiture rouge (1) qui est dans le giratoire.

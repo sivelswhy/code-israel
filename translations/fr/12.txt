@@ -1,0 +1,419 @@
+#0722
+Q: Lorsqu'un véhicule est contraint de s'arrêter hors agglomération et que le conducteur ou un passager s'apprête à en sortir :
+1: Le conducteur doit mettre un gilet en sortant, uniquement s'il y a d'autres véhicules sur la route.
+2: La première personne qui sort du véhicule doit mettre un gilet fluorescent homologué en sortant.
+3: L'obligation de mettre le gilet ne pèse que sur le conducteur, pas sur une autre personne qui sort du véhicule.
+4: Il n'y a aucune obligation ; le gilet n'est obligatoire qu'en agglomération.
+
+#0723
+Q: Quelle est l'obligation du conducteur d'un véhicule qui fait descendre des enfants lors d'un transport scolaire ?
+1: Repartir tout de suite après la descente des élèves, pour qu'ils traversent la route en sécurité.
+2: Attendre et s'assurer que tous les élèves descendus se sont éloignés du véhicule.
+3: S'assurer que tout le monde descend par la porte arrière.
+4: Attendre l'arrivée d'un policier qui aidera les élèves à traverser.
+
+#0724
+Q: Vous conduisez le véhicule (3). Dans quel ordre les véhicules entrent-ils dans l'intersection devant vous ?
+1: Le véhicule de gauche passera d'abord (2), puis celui de droite (1), et enfin vous (3).
+2: Le véhicule de droite (1), vous ensuite (3), puis le véhicule de gauche (2).
+3: Vous d'abord (3), puis le véhicule de gauche (2), et enfin celui de droite (1).
+4: Vous d'abord (3), puis le véhicule de droite (1), et enfin celui de gauche (2).
+
+#0725
+Q: Comment agissez-vous (véhicule 3) en tournant à droite à l'intersection devant vous ?
+1: Dépassez vite et prudemment le cycliste (1) ; il attendra.
+2: Klaxonnez fort pour que le cycliste (1) vous laisse terminer votre virage à droite.
+3: Entrez (3) au centre de l'intersection, pour éviter que la voiture bleue (2) ne heurte le vélo (1).
+4: Laissez le cycliste (1) continuer sa route et tournez à droite derrière lui.
+
+#0726
+Q: Comment devez-vous conduire sur la route devant vous ?
+1: Roulez sur l'une des deux voies de droite.
+2: Après les panneaux, vous pouvez utiliser toutes les voies.
+3: Roulez uniquement sur la voie de droite.
+4: Arrêtez-vous sous la flèche verte.
+
+#0727
+Q: Quelle est la voie à utiliser pour tourner à gauche ?
+1: La voie de gauche.
+2: La voie de droite, toujours.
+3: La voie la plus libre.
+4: Peu importe la voie.
+
+#0728
+Q: Lequel des trois véhicules n'est pas sur la bonne voie, selon le panneau ?
+1: La camionnette violette (3).
+2: Tous les trois roulent conformément à la loi.
+3: La voiture claire (particulière) (1).
+4: Le véhicule de pompiers (2).
+
+#0729
+Q: Comment devez-vous conduire sur la route devant vous ?
+1: Passez sur la voie voisine de droite.
+2: Utilisez la voie la plus rapide.
+3: Continuez sur votre voie.
+4: Arrêtez-vous jusqu'à ce que la flèche passe au vert.
+
+#0730
+Q: Quels sont les avantages de regarder loin devant soi ?
+1: Cela permet au conducteur de faire d'autres choses en même temps que de conduire tout droit.
+2: Il n'y en a aucun ; seul le regard sur les côtés aide le conducteur.
+3: Il n'y a aucun avantage : ce qui se passe près du véhicule est ce qui compte.
+4: Cela permet de planifier la conduite selon l'état de la route et d'éviter les surprises venant des autres usagers.
+
+#0731
+Q: Comment éviter les situations dangereuses au démarrage, lorsqu'on s'insère dans la circulation ?
+1: On s'engage vite sur la voie où la circulation s'écoule, ce qui évite le danger.
+2: On roule en biais et plus vite, ce qui évite le danger lors de l'insertion.
+3: On actionne tous les feux de détresse, ce qui avertit les autres conducteurs et évite le danger.
+4: On met le clignotant adapté, on regarde dans toutes les directions et on attend, avant de démarrer, de ne gêner personne.
+
+#0732
+Q: Vous montez dans le véhicule. Que devez-vous faire d'abord, avant de démarrer ?
+1: Vérifier que vous avez des clés de rechange du véhicule.
+2: Vérifier que le frein de stationnement est serré et régler le siège du conducteur.
+3: Régler le siège du passager avant pour faciliter l'entrée d'un passager par la droite.
+4: Démarrer le moteur et régler le siège pour conduire en sécurité.
+
+#0733
+Q: Quel est l'ordre des gestes que doit faire le conducteur avant de ralentir ?
+1: Tourner la tête vers l'arrière, appuyer sur le frein pour ralentir, puis jeter un coup d'œil dans les rétroviseurs.
+2: Appuyer fort sur la pédale de frein pour prévenir le conducteur de derrière qu'on ralentit.
+3: Regarder dans les rétroviseurs, lever le pied de l'accélérateur, puis utiliser les freins ou les rapports.
+4: Faire signe avec la main au conducteur de derrière, regarder dans les rétroviseurs pour voir sa réaction, puis ralentir.
+
+#0734
+Q: Où doit-on garder le gilet fluorescent dans le véhicule (sauf à moto) ?
+1: Dans le compartiment moteur.
+2: Dans le coffre.
+3: Dans l'habitacle, au poste du conducteur.
+4: Près de la roue de secours.
+
+#0735
+Q: Quels sont les facteurs qui influencent le conducteur pour monter ou descendre un rapport ?
+1: La décision de monter ou descendre un rapport ne dépend que de la distance parcourue.
+2: Dans une montée, la question de monter ou descendre un rapport ne se pose pas.
+3: La vitesse maximale autorisée sur ce tronçon de route.
+4: La vitesse du véhicule, compte tenu de la circulation, de l'état de la route et de la visibilité.
+
+#0736
+Q: Que doit d'abord vérifier le conducteur avant de conduire un véhicule qu'il ne connaît pas ?
+1: L'identité du propriétaire et que le véhicule n'est pas volé.
+2: Que les entretiens périodiques ont été faits à temps.
+3: Qu'il maîtrise la conduite et l'utilisation du véhicule.
+4: Qu'il y a des outils, une roue de secours en bon état, un triangle de signalisation et un compresseur.
+
+#0737
+Q: Comment sécurise-t-on un véhicule stationné équipé d'une boîte automatique (hors boîte robotisée) ?
+1: On met le levier sur P et on serre le frein de stationnement.
+2: On met le levier sur la première (1) et on serre le frein de stationnement.
+3: On met le levier sur la marche arrière (R) et on serre le frein de stationnement.
+4: On met le levier au point mort (N) et on serre le frein de stationnement.
+
+#0738
+Q: Que doit faire le conducteur avant de déplacer le levier de la boîte automatique pour démarrer ?
+1: Relâcher la pédale d'embrayage pour relier le moteur à la boîte de vitesses.
+2: Appuyer sur l'accélérateur pour partir immédiatement.
+3: Desserrer le frein de stationnement pour déverrouiller le levier.
+4: Appuyer sur la pédale de frein, pour empêcher le véhicule de bouger.
+
+#0739
+Q: Que doit faire le conducteur d'un véhicule à boîte automatique avant de desserrer le frein de stationnement pour partir ?
+1: Appuyer sur la pédale de frein, pour empêcher le véhicule de bouger.
+2: Appuyer sur le bouton de verrouillage du levier en position stationnement (P).
+3: Passer le levier de la position stationnement (P) au point mort (N).
+4: Passer le levier au point mort (N).
+
+#0740
+Q: Comment conduisez-vous un véhicule à boîte automatique dans une descente raide et continue ?
+1: Ralentissez par intermittence avec le frein et passez un rapport inférieur selon la pente.
+2: Passez un rapport élevé selon la pente et appuyez en continu sur le frein pour continuer à ralentir.
+3: Dans une descente raide et continue, utilisez uniquement les freins, sans adapter le rapport.
+4: Dans une descente raide et continue, arrêtez le véhicule, engagez un rapport adapté et repartez.
+
+#0741
+Q: Comment démarrez-vous le moteur d'un véhicule à boîte automatique ?
+1: Vérifiez que le frein de stationnement est serré et que le levier est sur P ou N.
+2: Vérifiez que le levier est sur D et que le frein de stationnement est desserré.
+3: Vérifiez que le levier est sur R et que le frein de stationnement est desserré.
+4: Peu importe la position ; veillez seulement que le frein de stationnement ne soit pas desserré.
+
+#0742
+Q: Comment rétrograde-t-on dans une montée avec une boîte automatique, sans utiliser le levier ?
+1: En appuyant progressivement sur l'accélérateur, jusqu'au résultat voulu.
+2: En appuyant fort et vite sur l'accélérateur (« kick-down ») ou en actionnant un commutateur électrique prévu à cet effet.
+3: En appuyant fort sur la pédale de frein.
+4: En levant le pied de l'accélérateur, sans donner de gaz, pour obtenir la vitesse voulue.
+
+#0743
+Q: Pour passer de la position stationnement P à la position de marche R ou D, avec une boîte automatique, vous devez :
+1: appuyer sur la pédale de frein ; le rapport s'engage automatiquement.
+2: appuyer sur la pédale de frein et sur le bouton de verrouillage, puis placer le levier en position de marche.
+3: appuyer sur le bouton de verrouillage ; le rapport s'engage automatiquement.
+4: appuyer sur la pédale d'embrayage et placer le levier.
+
+#0744
+Q: Lorsque vous roulez en descente sur une route étroite, vous devez céder le passage à un véhicule qui monte dans les cas suivants :
+1: Uniquement si le poids du véhicule qui monte dépasse quatre tonnes.
+2: Uniquement en agglomération.
+3: Uniquement si un panneau de descente dangereuse est placé.
+4: Lorsque le tronçon étroit ne permet pas le passage des deux véhicules en même temps.
+
+#0745
+Q: Pourquoi est-il important de rouler à droite de la chaussée ?
+1: Cela permet aux passagers de sortir facilement du véhicule.
+2: Cela permet de s'aider de la ligne jaune pour rouler droit.
+3: Rouler à droite n'a d'importance que sur une chaussée à sens unique.
+4: Pour garder un écart avec la circulation venant en face et réduire le risque de collision frontale.
+
+#0746
+Q: Quel est l'avantage de rouler à droite de la chaussée ?
+1: Cela aide à s'échapper rapidement et immédiatement vers l'accotement en cas de danger.
+2: Rouler à droite n'a aucun avantage, sauf sur une chaussée à sens unique.
+3: Cela permet de réduire la distance de réaction en cas de danger immédiat.
+4: Cela permet de rester dans la limite autorisée : 40 cm du bord de la chaussée.
+
+#0747
+Q: Selon la loi, vous êtes arrêté devant une intersection au feu rouge, et un véhicule d'urgence derrière vous klaxonne en sirène avec ses feux clignotants :
+1: Vous devez monter sur le trottoir pour lui laisser le passage.
+2: Il vous est interdit d'entrer dans l'intersection au feu rouge.
+3: Vous pouvez entrer dans l'intersection même au rouge.
+4: Vous devez entrer dans l'intersection au rouge.
+
+#0748
+Q: Quel est l'avantage de rouler à droite de la chaussée ?
+1: Il n'y a aucun avantage à rester à droite en conduisant.
+2: On voit plus facilement la circulation venant en face.
+3: Cela permet d'allonger le temps de réaction lors d'un dépassement.
+4: On ne gêne pas le véhicule qui vous dépasse, qui peut le faire en sécurité.
+
+#0749
+Q: Comment rouler à droite de la chaussée influe-t-il sur le champ de vision des autres conducteurs ?
+1: Rouler à droite améliore le champ de vision des conducteurs qui vous suivent.
+2: Il n'y a aucun rapport entre rouler à droite et le champ de vision.
+3: Rouler à droite réduit l'angle de vision des conducteurs qui vous suivent.
+4: Aucun effet : un bon champ de vision n'existe qu'en gardant une distance double de celle exigée.
+
+#0750
+Q: Quel est l'avantage de rouler à droite de la chaussée ?
+1: Cela empêche le véhicule derrière vous de vous dépasser.
+2: Rouler à droite n'a aucun avantage, sauf sur une chaussée à sens unique.
+3: Rester dans la limite autorisée, qui ne dépasse pas 40 cm du bord de la chaussée.
+4: Vous créez une marge de sécurité entre vous et le véhicule qui vient en face.
+
+#0751
+Q: Vous approchez d'un tunnel précédé du panneau ci-contre et voulez dépasser un véhicule lent devant vous :
+1: Il est interdit de dépasser ou de tenter de dépasser dans le tunnel et dans les 50 mètres avant et après le tunnel.
+2: Il est interdit de dépasser ou de tenter de dépasser dans les 250 mètres avant le tunnel.
+3: On peut aussi dépasser dans le tunnel s'il est suffisamment éclairé.
+4: Il est interdit de dépasser ou de tenter de dépasser dans les 100 mètres avant le tunnel.
+
+#0752
+Q: Dans quelles situations ne roulons-nous pas à droite de la chaussée ?
+1: À l'approche d'une intersection.
+2: En dépassant un véhicule.
+3: Avant un giratoire.
+4: En tournant à droite.
+
+#0753
+Q: Dans quels cas ne roulons-nous pas à l'extrême droite de la voie de droite ?
+1: En tournant à gauche depuis une chaussée à double sens.
+2: Avant un giratoire.
+3: À l'approche d'une intersection.
+4: Dans un virage à droite où il n'y a qu'une seule voie dans notre sens.
+
+#0754
+Q: Dans quel cas ne roulons-nous pas sur la voie de droite ?
+1: Lorsqu'un véhicule devant nous signale son intention de démarrer du côté gauche de la chaussée.
+2: Pendant que nous dépassons un véhicule.
+3: Lorsqu'un autre véhicule nous dépasse par la gauche sur une chaussée à deux voies.
+4: Lorsque nous passons un autre véhicule par sa droite.
+
+#0755
+Q: Dans quels cas ne roulons-nous pas, avec une voiture particulière, sur la voie de droite ?
+1: Lorsqu'un autre véhicule situé à gauche de la chaussée signale son intention de démarrer.
+2: Lorsqu'un autre véhicule nous dépasse par la gauche.
+3: Lorsque la voie de droite est réservée à une autre catégorie d'usagers (par exemple une voie de transport public).
+4: Lorsque nous passons un autre véhicule par sa droite.
+
+#0756
+Q: Vous roulez sur une route à deux voies dans votre sens :
+1: Peu importe la voie, tant qu'il n'y a pas de danger pour la circulation.
+2: Vous devez rouler sur la voie de droite, sauf si vous dépassez ou tournez à gauche.
+3: Vous pouvez toujours rouler uniquement sur la voie de gauche.
+4: La voie de droite ou de gauche est permise selon le type de véhicule.
+
+#0757
+Q: Est-il permis de stationner en agglomération un véhicule transportant des matières dangereuses de plus de 3 500 kg ?
+1: Oui, mais seulement à plus de 400 mètres d'un bâtiment public et d'un bâtiment d'habitation.
+2: Oui, seulement quand les citernes sont vides.
+3: Il est totalement interdit de stationner un tel véhicule en agglomération.
+4: Oui, à condition que personne ne fume près de lui.
+
+#0758
+Q: Qu'est-ce qu'une voie de circulation ?
+1: Une chaussée réservée aux véhicules à moteur uniquement.
+2: Tout marquage de deux lignes parallèles sur la chaussée.
+3: Une partie de la largeur d'une chaussée suffisante pour une file de véhicules, à l'exclusion des deux-roues.
+4: Un passage dans une voie privée où la circulation des véhicules est interdite.
+
+#0759
+Q: Que signifie ce panneau ?
+1: La chaussée se rétrécit.
+2: Fin d'un tronçon de route de montagne.
+3: Cône de guidage ou de signalisation d'un obstacle sur un chantier.
+4: Il marque une aire d'arrêt pour repos des conducteurs ; il faut allumer un feu jaune ou rouge clignotant.
+
+#0760
+Q: Quels sont les dangers d'un changement de voie brusque ?
+1: Que le déport dure longtemps.
+2: Que le déport retarde de nombreux conducteurs.
+3: Qu'à cause du déport, vous vous retrouviez sur une voie où vous n'avez pas le droit d'être.
+4: Le risque de heurter un véhicule que vous n'aviez pas vu avant de vous déporter.
+
+#0761
+Q: Que faut-il pour changer de voie sans gêner ni mettre en danger ?
+1: Il suffit de s'assurer d'avoir mis le clignotant pendant le changement.
+2: Il faut communiquer avec les autres conducteurs et signaler trois km avant le changement.
+3: Signaler à temps et d'assez loin, regarder tout autour et dans les rétroviseurs avant de commencer le changement.
+4: Il faut mettre le clignotant et les phares pendant le changement.
+
+#0762
+Q: Quelle est la bonne façon de changer de voie ?
+1: Le changement doit se faire en biais très court, le plus vite possible.
+2: Le changement se fait en deux étapes : le déport, puis le signal de la main.
+3: Le changement se fait en deux étapes : le déport, puis la communication avec les autres conducteurs.
+4: Vérifier et regarder dans les rétroviseurs, contrôler la voie visée, signaler, s'assurer que le passage est possible, puis se déporter en douceur (en biais) d'une voie à l'autre.
+
+#0763
+Q: Comment change-t-on de voie ?
+1: On se rapproche autant que possible de la voie voulue, et quand aucun véhicule ne nous suit, on met le clignotant et on se déporte en biais court.
+2: On se déporte vite, en biais court et avec audace, en s'assurant d'avoir mis le clignotant.
+3: On met le clignotant et on se déporte en biais court vers la voie visée.
+4: Le changement se fait après vérification, en tenant compte de la position et de la vitesse des autres véhicules sur la voie visée.
+
+#0764
+Q: Quand est-il permis de stationner du côté gauche de la chaussée ?
+1: Sur toute chaussée à sens unique.
+2: Sur toute chaussée, à condition de se déporter à gauche avec prudence.
+3: Uniquement sur une chaussée à sens unique qui ne fait pas partie d'une route divisée par un terre-plein.
+4: Sur toute route en agglomération.
+
+#0765
+Q: « Garder ses distances avec le véhicule qui précède influe sur la consommation de carburant et l'usure du véhicule » : vrai ou faux ?
+1: Faux. Garder une distance adaptée use les freins.
+2: Vrai. Garder ses distances évite l'usure des freins et une consommation excessive due aux accélérations et freinages fréquents.
+3: Faux. Réguler la distance avec les freins et l'accélérateur est important pour la vigilance du conducteur.
+4: Faux. La distance n'a aucun effet sur l'usure du véhicule ni sur la consommation de carburant.
+
+#0766
+Q: Quel est l'ordre des gestes pour s'arrêter ou stationner ?
+1: Vérifier si c'est permis, regarder tout autour et ralentir prudemment.
+2: L'ordre des gestes avant le stationnement n'a pas d'importance.
+3: Ralentir, se déporter, s'arrêter et signaler.
+4: L'ordre n'a pas d'importance ; seule compte la prudence.
+
+#0767
+Q: Comment doit agir le conducteur lorsqu'un véhicule d'urgence apparaît derrière lui ?
+1: Ralentir et se serrer à droite, s'il n'y a qu'une seule voie.
+2: Aucune action n'est nécessaire lorsque le véhicule d'urgence approche par l'arrière.
+3: Ralentir et laisser passer le véhicule d'urgence.
+4: S'arrêter à droite de la chaussée, à l'écart de l'intersection, et laisser passer le véhicule d'urgence.
+
+#0768
+Q: Quand faut-il signaler lorsqu'on s'apprête à se déporter pour dépasser ?
+1: Il n'y a pas d'obligation de signaler si aucun autre véhicule n'est à proximité.
+2: Il faut signaler à une distance raisonnable avant de commencer à se déporter pour dépasser.
+3: Il faut signaler au moins cinq mètres avant de quitter la voie.
+4: Il faut d'abord changer de voie, puis signaler.
+
+#0769
+Q: Quel est le principal problème du conducteur qui approche d'une intersection ?
+1: Le principal problème est de traverser vite l'intersection.
+2: La vitesse maximale autorisée change dans l'intersection.
+3: La quantité de tâches à accomplir en peu de temps, en même temps.
+4: Une partie de l'intersection est toujours réservée aux transports en commun.
+
+#0770
+Q: Comment le conducteur fait-il face à la multitude de tâches à l'approche d'une intersection ?
+1: Il avertit les autres usagers de son approche (par un coup de klaxon et un signal lumineux).
+2: Il ignore les autres usagers, surtout ceux plus petits que lui.
+3: Il accélère pour raccourcir la durée de traversée.
+4: Il ralentit avant l'intersection, regarde tout autour et évite toute activité autre que la conduite.
+
+#0771
+Q: Comment la multiplicité des panneaux placés avant une intersection influe-t-elle sur la réaction du conducteur ?
+1: Elle fait réfléchir le conducteur plus vite dans l'intersection.
+2: Le conducteur doit ralentir pour repérer les panneaux et en comprendre le sens.
+3: La multiplicité des panneaux n'influe pas sur le comportement du conducteur à l'approche de l'intersection.
+4: Elle trouble toujours le conducteur.
+
+#0772
+Q: Pour terminer un dépassement en sécurité, celui qui dépasse doit :
+1: toujours dépasser lentement et patiemment.
+2: dépasser uniquement lorsqu'un panneau indique que c'est permis.
+3: ne commencer à dépasser que si la route est libre sur une distance suffisante et s'assurer pendant tout le dépassement qu'elle reste libre.
+4: dépasser à une vitesse supérieure à la limite, pour dégager la route.
+
+#0773
+Q: Rue Herzl, quatre places de stationnement consécutives sont réservées aux personnes handicapées. Toutes sont libres en ce moment :
+1: Un véhicule sans la carte de stationnement indiquée peut s'y garer un instant si le conducteur reste dans le véhicule.
+2: Un véhicule sans la carte de stationnement indiquée peut s'y garer tant que la moitié au moins des places réservées sont libres.
+3: Un véhicule sans la carte de stationnement indiquée ne peut pas s'y garer, même si toutes les places réservées sont libres.
+4: Un véhicule sans la carte indiquée peut s'y garer peu de temps, à condition de laisser un numéro de téléphone où le joindre à tout moment.
+
+#0774
+Q: Quel est le principal risque lorsqu'on approche d'une intersection sur chaussée mouillée ?
+1: Le véhicule risque de glisser dans l'intersection à cause de la chaussée mouillée.
+2: Il y a plus de piétons sur la route les jours de pluie.
+3: On ne voit pas le marquage au sol sur chaussée mouillée.
+4: Sur chaussée mouillée, il n'y a aucun risque pour les véhicules.
+
+#0775
+Q: Comment le comportement des piétons influe-t-il sur le conducteur dans la zone d'une intersection ?
+1: Le conducteur doit anticiper un comportement dangereux possible des piétons dans la zone de l'intersection.
+2: Le piéton occupe longtemps le passage et retarde la circulation.
+3: Le piéton n'a pas d'influence notable sur le conducteur.
+4: La principale complication d'une intersection apparaît quand les piétons s'entassent sur le trottoir.
+
+#0776
+Q: Quels sont les dangers et problèmes particuliers du franchissement des intersections ?
+1: Le franchissement dure longtemps et les conducteurs s'énervent.
+2: Les véhicules qui arrivent de directions différentes ne posent aucun problème ; seuls les piétons en posent.
+3: Les dangers et problèmes particuliers n'existent qu'aux intersections à feux.
+4: De nombreux points de rencontre entre les véhicules, avec des mouvements différents, à travers l'intersection.
+
+#0777
+Q: Qui peut rouler sur l'accotement ?
+1: Seules les voitures particulières et les motos, et seulement pour céder le passage aux autobus.
+2: Les véhicules non motorisés, ainsi que les tracteurs et les véhicules lents.
+3: Seuls les taxis, pour dépasser les véhicules arrêtés à l'intersection.
+4: Personne n'a le droit d'utiliser l'accotement.
+
+#0778
+Q: Indiquez l'affirmation exacte sur le comportement des piétons près d'une intersection :
+1: L'intersection est l'endroit le plus dangereux de la route, car les conducteurs tiennent trop peu compte des piétons, et seulement des feux.
+2: En traversant sur le passage pour piétons, le piéton n'a pas à tenir compte des conducteurs qui approchent de l'intersection.
+3: L'endroit le plus sûr pour traverser est le passage pour piétons proche de l'intersection, car le conducteur doit y ralentir.
+4: Il n'y a aucun danger pour les piétons près de l'intersection.
+
+#0779
+Q: Quelle est la première chose que font les conducteurs dans l'ordre des gestes pour franchir une intersection ?
+1: Regarder au-delà de l'intersection pour repérer les voies d'entrée des sens opposés et la circulation qui s'y trouve.
+2: Contrôler et repérer les voies après l'intersection, surtout dans leur sens de marche.
+3: Entrer dans l'intersection.
+4: S'assurer que l'intersection est libre et qu'on peut la traverser entièrement en sécurité.
+
+#0780
+Q: Une personne handicapée, paraplégique, roule en ville, pressée, vers un examen médical fixé de longue date :
+1: Il lui est interdit de rouler sur une voie réservée aux transports en commun et de dépasser la vitesse maximale.
+2: Elle peut dépasser la vitesse maximale, mais seulement sur une voie de transports en commun.
+3: Elle peut rouler sur une voie de transports en commun, mais il lui est interdit de dépasser la vitesse maximale.
+4: Elle peut dépasser la vitesse maximale.
+
+#0781
+Q: Quel est le principe le plus important pour tourner à droite à une intersection ?
+1: S'éloigner du bord droit de la chaussée.
+2: Commencer et terminer le virage près du bord droit de la chaussée.
+3: Tourner le plus loin possible du trottoir de droite.
+4: Entrer dans l'intersection et en sortir en décrivant un large arc vers le milieu de la chaussée.

@@ -1,0 +1,113 @@
+#T64(ה)
+F: Le conducteur d’un véhicule qui s’approche d’une intersection où la circulation est réglée par un feu tricolore obéira aux signaux du feu et n’entrera dans l’intersection qu’une fois le feu vert allumé. Si le feu jaune clignote, le conducteur ralentira et, si nécessaire, arrêtera même son véhicule pour permettre à un piéton de terminer sa traversée en sécurité, et cédera la priorité à tout autre véhicule qui entre dans l’intersection depuis une autre chaussée ou qui arrive à l’intersection.
+
+#T65
+F: Le conducteur d’un véhicule n’entrera pas dans une intersection ou dans un passage à niveau s’il n’est pas en mesure de le traverser et de poursuivre sa route sans gêne, même si le signal de circulation (feu tricolore) autorise l’entrée dans l’intersection ou le passage.
+
+#T58(א)(1)
+F: [Le conducteur doit signaler son intention lorsqu’il] se prépare à se mettre en mouvement ou à tourner son véhicule.
+
+#T67(א)
+F: Le conducteur d’un véhicule qui s’approche d’un passage pour piétons où des piétons traversent leur permettra de terminer la traversée en sécurité et, si nécessaire, arrêtera son véhicule à cette fin.
+
+#T67(ב)
+F: Un passage pour piétons divisé par un séparateur est considéré comme formant, pour chacune de ses parties, un passage distinct.
+
+#T68
+F: Sur une chaussée bloquée ou où il ne reste de place que pour la circulation dans un seul sens, l’usager de la route obéira à l’indication donnée par un policier, un signaleur ou un panneau. S’il n’y en a pas, l’usager dont la voie est bloquée cédera la priorité à celui qui vient en face.
+
+#T71(1)
+F: [Nul n’arrêtera, ne mettra à l’arrêt, ne stationnera ni ne laissera un véhicule immobile de manière] à gêner ou retarder la circulation.
+
+#T72(א)
+F: Nul n’arrêtera un véhicule, ne l’immobilisera, ne le stationnera ni ne le laissera à l’arrêt, en tout ou en partie, dans l’un des endroits suivants, sauf pour éviter un accident, pour respecter une disposition de ce Règlement, ou si un panneau l’indique autrement :
+(1) sur le côté gauche de la route, sauf si la chaussée est à sens unique, ou à contresens ; pour ce paragraphe, une chaussée faisant partie d’une route divisée par un séparateur n’est pas considérée comme une chaussée à sens unique ;
+(2) sur une piste cyclable signalée par un panneau, étant entendu qu’il est permis d’arrêter, d’immobiliser ou de stationner des vélos sur un trottoir ou une piste de ce type s’il n’en résulte pas de gêne pour la circulation ;
+(2a) sur un trottoir, sauf à un endroit aménagé pour l’immobilisation et le stationnement de véhicules selon un règlement municipal pris en vertu de l’article 77 de l’Ordonnance, à condition qu’un passage reste libre pour les piétons ;
+(2b) sur une route avant laquelle le panneau 401 est placé ;
+(3) à l’intérieur d’une intersection ou à moins de douze mètres de celle-ci, sauf sur un tronçon que l’autorité de signalisation a signalé, par un panneau ou un marquage sur les bordures, comme autorisant le stationnement ;
+(4) à l’entrée d’un terrain destiné aux véhicules, sauf pour faire monter ou descendre des passagers ;
+(5) (supprimé) ;
+(6) à l’intérieur d’un passage pour piétons ou à moins de douze mètres avant celui-ci ;
+(7) à moins de douze mètres avant une ligne d’arrêt ;
+(8) dans l’emprise de la route, de vingt mètres avant le rail le plus proche d’un passage à niveau jusqu’à vingt mètres après le passage ;
+(9) sur une chaussée, accotement compris, où il n’existe dans le sens de la marche qu’une seule voie marquée d’une ligne de séparation continue ;
+(10) à côté d’un autre véhicule arrêté ou stationné sur le bord de la route ;
+(11) sur un pont, dans un tunnel ou à moins de 50 mètres avant ou après ;
+(12) dans une voie réservée aux transports en commun et dans l’emprise d’un arrêt d’autobus défini par un marquage sur la chaussée, et à défaut de marquage, à moins de vingt mètres avant et vingt mètres après le panneau « arrêt d’autobus », des deux côtés de la route ; toutefois, il est permis d’arrêter, d’immobiliser ou de stationner un véhicule du côté de la route opposé au marquage ou au panneau si la largeur de la chaussée à cet endroit est de douze mètres ou plus ;
+(13) le long d’une barrière de sécurité pour piétons au bord de la chaussée, sauf si un panneau l’indique autrement ;
+(14) dans l’emprise d’une station de taxis signalée par un panneau placé ou marqué, sauf pour faire monter ou descendre des passagers ;
+(15) près d’un panneau marquant un arrêt de transport de soldats, sauf pour faire monter ou descendre des soldats ;
+(16) près du panneau 437 en violation des instructions du panneau, ou près du panneau 437 sous lequel est placé, contigu, un panneau 439 indiquant les références du véhicule d’une personne handicapée déterminée, si le véhicule n’est pas celui dont les références figurent sur ce panneau ; si le panneau indique certains jours ou heures, la disposition ne s’applique que les jours ou aux heures indiqués.
+
+#T159(ב)
+F: Lorsqu’un panneau avertissant d’une descente dangereuse est placé sur la route, nul ne conduira un véhicule à moteur dans cette descente autrement qu’avec un rapport inférieur adapté au type de véhicule, compte tenu de la pente et de la longueur de la descente.
+
+#T69(א)
+F: Le conducteur d’un véhicule sur une route non urbaine, signalée par un panneau d’information comme route principale ou régionale, n’arrêtera pas son véhicule, ne l’immobilisera pas, ne le stationnera pas et ne le laissera pas à l’arrêt sur la chaussée ou sur l’accotement, qu’il soit surveillé ou non.
+
+#T69(ב)
+F: Les dispositions du paragraphe (a) ne s’appliquent pas :
+(1) à la montée ou à la descente de passagers sur l’accotement ;
+(2) aux opérations de sauvetage de blessés ou d’un véhicule en panne ;
+(3) à l’exécution de travaux publics lorsqu’il n’est pas possible de les exécuter autrement, dans la mesure nécessaire à ces travaux sur l’accotement ;
+(4) à un véhicule de l’armée arrêté pour accomplir une mission militaire.
+
+#T69(ג)
+F: Sur une voie rapide, il est interdit de faire monter ou descendre des passagers, ou d’arrêter, d’immobiliser ou de stationner un véhicule, en tout point situé entre les clôtures qui fixent les limites de l’emprise de la route, sauf indication contraire.
+
+#T70(א)
+F: Lorsqu’il a fallu arrêter un véhicule et le laisser à l’arrêt sur la route, le conducteur placera un triangle de signalisation, conformément à l’article 367, visible par le conducteur d’un véhicule arrivant derrière lui à une distance d’au moins 100 mètres.
+
+#T71
+F: Nul n’arrêtera un véhicule, ne l’immobilisera, ne le stationnera ni ne le laissera à l’arrêt de manière :
+(1) à gêner ou retarder la circulation ;
+(2) à cacher un panneau, en tout ou en partie, à la vue des usagers de la route.
+
+#T72(א)(1)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] sur le côté gauche de la route, sauf si la chaussée est à sens unique, ou à contresens ; une chaussée faisant partie d’une route divisée par un séparateur n’est pas considérée comme une chaussée à sens unique.
+
+#T72(א)(2א)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] sur un trottoir, sauf à un endroit aménagé pour l’immobilisation et le stationnement de véhicules selon un règlement municipal pris en vertu de l’article 77 de l’Ordonnance, à condition qu’un passage reste libre pour les piétons.
+
+#T72(א)(3)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] à l’intérieur d’une intersection ou à moins de douze mètres de celle-ci, sauf sur un tronçon que l’autorité de signalisation a signalé, par un panneau ou un marquage sur les bordures, comme autorisant le stationnement.
+
+#T72(א)(6)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] à l’intérieur d’un passage pour piétons ou à moins de douze mètres avant celui-ci.
+
+#T72(א)(7)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] à moins de douze mètres avant une ligne d’arrêt.
+
+#T72(א)(8)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] dans l’emprise de la route, de vingt mètres avant le rail le plus proche d’un passage à niveau jusqu’à vingt mètres après le passage.
+
+#T72(א)(9)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] sur une chaussée, accotement compris, où il n’existe dans le sens de la marche qu’une seule voie marquée d’une ligne de séparation continue.
+
+#T72(א)(10)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] à côté d’un autre véhicule arrêté ou stationné sur le bord de la route.
+
+#T72(א)(11)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] sur un pont, dans un tunnel ou à moins de 50 mètres avant ou après.
+
+#T72(א)(12)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] dans une voie réservée aux transports en commun et dans l’emprise d’un arrêt d’autobus défini par un marquage sur la chaussée ; à défaut de marquage, à moins de vingt mètres avant et vingt mètres après le panneau « arrêt d’autobus », des deux côtés de la route. Toutefois, il est permis d’arrêter, d’immobiliser ou de stationner un véhicule du côté de la route opposé au marquage ou au panneau si la largeur de la chaussée à cet endroit est de douze mètres ou plus.
+
+#T72(א)(13)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] le long d’une barrière de sécurité pour piétons au bord de la chaussée, sauf si un panneau l’indique autrement.
+
+#T72(א)(14)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] dans l’emprise d’une station de taxis signalée par un panneau placé ou marqué, sauf pour faire monter ou descendre des passagers.
+
+#T72(א)(16)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] près du panneau 437 en violation des instructions du panneau, ou près du panneau 437 sous lequel est placé, contigu, un panneau 439 indiquant les références du véhicule d’une personne handicapée déterminée, si le véhicule n’est pas celui dont les références figurent sur ce panneau. Si le panneau indique certains jours ou heures, la disposition ne s’applique que les jours ou aux heures indiqués.
+
+#T74(א)
+F: Nul ne stationnera ni n’immobilisera un véhicule sans avoir pris les précautions nécessaires pour s’assurer que le véhicule ne bougera pas et ne roulera pas en l’absence de conducteur.
+
+#T74(ב)
+F: Nul ne stationnera ni n’immobilisera un véhicule sans surveillance sans avoir arrêté le moteur et le dispositif d’allumage, retiré la clé de contact et serré les freins destinés au freinage permanent.
+
+#T74(ג)
+F: Le conducteur d’un véhicule ne l’immobilisera, ne le stationnera ni ne le laissera à l’arrêt sur une route en pente sans avoir correctement freiné ses roues. Si un véhicule à moteur est en descente, le conducteur braquera les roues avant vers la bordure ou le bord de la chaussée le plus proche et enclenchera la marche arrière. S’il est en montée, il braquera les roues avant vers la chaussée lorsqu’il y a des bordures, ou vers le bord de la chaussée s’il n’y en a pas, et enclenchera une vitesse avant. Dans un véhicule à boîte automatique, le conducteur enclenchera la position de stationnement.

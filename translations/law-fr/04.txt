@@ -1,0 +1,103 @@
+#T52(3)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] lorsque la visibilité sur la route est limitée pour une raison quelconque.
+
+#T52(4)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] à l’entrée de virages serrés et pendant leur traversée.
+
+#T52(6)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] à l’approche d’un passage pour piétons.
+
+#T52(11)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] en croisant ou en dépassant des animaux.
+
+#T53
+F: Le conducteur d’un véhicule ne freinera pas brusquement, sauf pour éviter un accident impossible à éviter autrement ou si c’est indispensable pour la sécurité de la circulation. Cet article ne s’applique pas au freinage destiné à essayer les freins du véhicule, à condition que l’essai ne soit fait qu’après avoir pris toutes les précautions nécessaires et s’être assuré qu’il ne risque ni de mettre en danger ni de gêner un véhicule circulant sur la route.
+
+#T39ג(ב)
+F: La vitesse d’un quad ne dépassera pas 40 km/h.
+
+#T54(ב)
+F: Malgré le paragraphe (a), nul ne conduira dans une rue partagée ou dans une zone de modération de la circulation à une vitesse supérieure à 30 km/h.
+
+#T55(א)
+F: Le conducteur d’un véhicule qui s’approche d’un passage à niveau (le passage) ralentira jusqu’à pouvoir s’arrêter sur place avant la voie ferrée, et prendra toutes les mesures pour assurer son passage sans retard ni incident.
+
+#T55(ב)
+F: Les dispositions du paragraphe (a) s’appliquent au conducteur qui s’approche d’un passage protégé par une barrière ou signalé par un feu, une cloche ou d’autres moyens d’avertissement, même lorsque la barrière ou le signal d’avertissement ne fonctionne pas.
+
+#T56(א)
+F: Dans les circonstances suivantes, le conducteur d’un véhicule qui s’approche d’un passage à niveau doit arrêter son véhicule avant la ligne d’arrêt ; à défaut de ligne d’arrêt, avant la barrière la plus proche ; à défaut de barrière, à une distance d’au moins quatre mètres avant le rail le plus proche. Il ne poursuivra sa route qu’une fois la barrière ouverte ou le signal d’avertissement éteint ; à défaut de barrière ou de signal, après le passage du véhicule circulant sur la voie ferrée (le train). Les circonstances sont :
+(1) un train qui approche est visible, audible ou émet un signal d’avertissement ;
+(2) un panneau ordonnant l’arrêt est placé avant le passage ;
+(3) un signal annonçant l’approche d’un train est donné, par un drapeau, par un feu rouge clignotant installé près d’un panneau indiquant l’emplacement du passage, ou de toute autre manière ;
+(4) la barrière avant le passage bloque la route ou une partie de celle-ci, ou commence à bouger pour la fermer ou l’ouvrir.
+
+#T56(א)(1)
+F: [Le conducteur doit s’arrêter avant le passage à niveau lorsque] un train qui approche est visible, audible ou émet un signal d’avertissement.
+
+#T56(ב)
+F: Le conducteur d’un véhicule qui s’arrête avant un passage à niveau dans les circonstances du paragraphe (a)(2) agira comme suit :
+(1) il éteindra la radio, le téléviseur ou le lecteur de cassettes qui fonctionne dans son véhicule ;
+(2) il ouvrira la vitre du véhicule la plus proche de lui, et dans un autobus aussi la porte avant ;
+(3) il écoutera et regardera dans les deux directions le long de la voie pour s’assurer qu’aucun train n’approche et qu’aucun signal d’approche d’un train n’est donné, et ne poursuivra sa route qu’après s’en être assuré.
+
+#T56(א)(4)
+F: [Le conducteur doit s’arrêter avant le passage à niveau lorsque] la barrière avant le passage bloque la route ou une partie de celle-ci, ou commence à bouger pour la fermer ou l’ouvrir.
+
+#T56(א)(3)
+F: [Le conducteur doit s’arrêter avant le passage à niveau lorsque] un signal annonçant l’approche d’un train est donné, par un drapeau, par un feu rouge clignotant installé près d’un panneau indiquant l’emplacement du passage, ou de toute autre manière.
+
+#T58(א)
+F: Le conducteur d’un véhicule qui fait l’une des choses suivantes doit signaler son intention :
+(1) se préparer à se mettre en mouvement ou à tourner son véhicule ;
+(2) avoir l’intention de quitter sa voie de circulation ;
+(3) arrêter son véhicule.
+
+#T59(א)
+F: Le signal prévu à l’article 58(a) est donné comme suit :
+(1) pour les points (1) et (2) : par un clignotant (indicateur de direction) ;
+(2) pour le point (3) : par le feu de freinage.
+
+#T58(א)(2)
+F: [Le conducteur doit signaler son intention lorsqu’il] a l’intention de quitter sa voie de circulation.
+
+#T58(ב)
+F: Le conducteur d’un véhicule qui a donné un signal conformément au paragraphe (a) cessera de le donner dès qu’il a terminé la manœuvre pour laquelle le signal a été donné.
+
+#T59(א)(2)
+F: Pour l’arrêt du véhicule, le signal est donné par le feu de freinage.
+
+#T59(ב)
+F: Si les dispositifs de signalisation mentionnés au paragraphe (a) sont en panne, ou si le véhicule n’en possède pas, le conducteur donnera le signal de la main.
+
+#T61
+F: Lorsque le conducteur d’un véhicule roulant sur la chaussée a donné un signal conformément à l’article 60, tout conducteur qui le suit doit ralentir, conduire avec prudence et s’arrêter si nécessaire, afin de permettre au conducteur du véhicule qui le précède de tourner, de dévier, de ralentir ou de s’arrêter sans gêne.
+
+#T63(א)
+F: Un signal de klaxon ne sera pas plus long ni plus répété que ce que les circonstances exigent.
+
+#T63(ג)
+F: Sur une route urbaine, nul ne fera retentir d’avertisseur sonore sauf pour donner un signal d’avertissement afin d’éviter un danger imminent qu’on ne peut éviter autrement.
+
+#T64(ב)(1)
+F: [Le conducteur qui sort d’une propriété ou de tout lieu qui n’est pas une route et va entrer sur une route] ralentira et même s’arrêtera, si nécessaire, pour permettre aux piétons de passer en sécurité avant de monter sur le trottoir ou l’accotement.
+
+#T64(ב)(2)
+F: [Le conducteur qui sort d’une propriété ou de tout lieu qui n’est pas une route et va entrer sur une route] ralentira et cédera la priorité aux véhicules qui approchent sur cette chaussée avant d’y entrer.
+
+#T64(א)(1)
+F: Lorsque plusieurs véhicules s’approchent d’une intersection de côtés différents, le conducteur d’un véhicule cède la priorité aux véhicules venant de droite.
+
+#T64(א)(2)
+F: Le conducteur d’un véhicule qui s’approche d’une intersection, ou s’y trouve, et s’apprête à tourner à gauche ou à faire demi-tour par la gauche, cède la priorité au véhicule venant en face qui se trouve dans l’intersection ou près de celle-ci, sans préjudice du point (1).
+
+#T64(ב)
+F: Le conducteur d’un véhicule qui sort d’une propriété, d’une voie d’accès à une maison, d’une station-service, d’une station de service, d’un parking pour véhicules et lieux semblables, ou de tout endroit qui n’est pas une route, et s’apprête à entrer sur une route ou à la traverser :
+(1) ralentira et même s’arrêtera, si nécessaire, pour permettre aux piétons de passer en sécurité avant de monter sur le trottoir ou l’accotement ;
+(2) ralentira et cédera la priorité aux véhicules qui approchent sur cette chaussée avant d’y entrer.
+
+#T64(ג)
+F: Le conducteur d’un véhicule qui s’approche, sur une chaussée, d’une intersection ou d’une jonction de chaussées, avant laquelle est placé un panneau indiquant de céder la priorité à la circulation de la route transversale, ralentira et, si nécessaire, arrêtera son véhicule pour céder la priorité à un autre véhicule qui approche ou entre dans l’intersection ou la jonction depuis une autre chaussée.
+
+#T64(ד)
+F: Le conducteur d’un véhicule qui s’approche d’une intersection avant laquelle est placé un panneau indiquant l’obligation de s’arrêter s’arrêtera à un endroit d’où il peut voir la circulation de la route transversale, et, si une ligne d’arrêt est marquée, avant la ligne d’arrêt, et cédera la priorité à tout autre véhicule qui approche ou entre dans l’intersection depuis une autre chaussée.

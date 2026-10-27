@@ -1,0 +1,116 @@
+#T1:שול הדרך
+F: « Accotement » : la zone, là où il n’y a pas de trottoir, contiguë au bord de la chaussée, jusqu’à une largeur de quatre mètres ou jusqu’au bord d’un fossé de drainage lorsque la paroi du fossé se trouve à moins de quatre mètres du bord de la chaussée.
+
+#T40(א)
+F: Le conducteur d’un véhicule ne quittera pas sa voie de circulation si cela risque de provoquer une gêne ou un danger.
+
+#T41
+F: Le conducteur d’un véhicule ne tournera à droite ou à gauche en roulant ou en démarrant, et ne s’écartera de sa trajectoire, qu’à une vitesse raisonnable et dans la mesure où il peut le faire en sécurité, sans gêner la circulation et sans mettre en danger personne ni aucun bien.
+
+#T42
+F: Le conducteur d’un véhicule qui a l’intention de tourner à droite ne tournera que s’il se trouve aussi près que possible du bord droit de la chaussée et qu’aucun autre véhicule en mouvement ne se trouve sur son côté droit, et il tournera à droite en prenant un virage serré, sauf indication contraire marquée sur la chaussée.
+
+#T43
+F: (a) Le conducteur d’un véhicule qui a l’intention de tourner à gauche commencera son virage :
+(1) depuis une chaussée à sens unique : lorsque son véhicule se trouve du côté gauche de la chaussée ;
+(2) depuis une chaussée à double sens : lorsque son véhicule se trouve aussi près que possible du milieu de la chaussée, à condition de ne pas gêner la circulation venant de toute autre direction ;
+(3) depuis une chaussée à double sens comportant deux voies ou plus : depuis la voie la plus à gauche dans le sens de la marche.
+(b) Le conducteur d’un véhicule qui tourne à gauche entrera dans la chaussée où il tourne :
+(1) sur une chaussée à sens unique : dans la voie la plus à gauche dans le sens de la marche ;
+(2) sur une chaussée à double sens comportant une seule voie dans le sens de la marche : en décrivant un large arc vers le côté droit de la chaussée ;
+(3) sur une chaussée à double sens comportant deux voies ou plus : dans la voie la plus à gauche dans le sens de la marche.
+(c) Les dispositions de cet article ne s’appliquent pas si la chaussée porte un marquage différent.
+
+#T43(א)(3)
+F: Le conducteur qui tourne à gauche depuis une chaussée à double sens comportant deux voies ou plus part de la voie la plus à gauche dans le sens de la marche.
+
+#T43(ב)
+F: Le conducteur d’un véhicule qui tourne à gauche entrera dans la chaussée où il tourne :
+(1) sur une chaussée à sens unique : dans la voie la plus à gauche dans le sens de la marche ;
+(2) sur une chaussée à double sens comportant une seule voie dans le sens de la marche : en décrivant un large arc vers le côté droit de la chaussée ;
+(3) sur une chaussée à double sens comportant deux voies ou plus : dans la voie la plus à gauche dans le sens de la marche.
+
+#T44(א)
+F: Le conducteur ne tournera pas son véhicule pour faire demi-tour et rouler en sens inverse (demi-tour) sauf dans des circonstances où il n’y a ni gêne pour la circulation ni danger pour les usagers de la route. Il ne le fera pas à l’approche d’une courbe ou d’un sommet de côte raide, ni à un endroit où son véhicule n’est pas visible d’un conducteur qui s’approche de n’importe quel côté.
+
+#T44(ב)
+F: Sous réserve du paragraphe (a), il est permis de faire demi-tour par la gauche depuis une voie de tourne-à-gauche et depuis toute autre voie où n’a été placé aucun panneau ou marquage interdisant le demi-tour. Pour ce paragraphe, un panneau ou marquage qui oblige à rouler dans une seule direction déterminée, autre que tourner à gauche ou faire demi-tour, est considéré comme un panneau ou marquage interdisant le demi-tour.
+
+#T46(א)
+F: Deux véhicules venant de sens opposés sur une chaussée qui n’est pas assez large pour le passage libre des deux réduiront leur vitesse et se rangeront autant que possible vers le bord de la chaussée, et si nécessaire même au-delà du bord de la chaussée, jusqu’à être à l’abri d’une collision.
+
+#T46(ב)
+F: Si les véhicules se rencontrent ainsi sur une route en pente raide et que les circonstances obligent l’un d’eux à s’arrêter, c’est le véhicule qui descend qui doit s’arrêter.
+
+#T47(א)
+F: Le conducteur d’un véhicule ne dépassera un autre véhicule sur la chaussée, que celui-ci soit ou non dans la même voie, que par la gauche.
+
+#T47(ב)(1)
+F: [Le dépassement par la droite est permis lorsque] le conducteur de l’autre véhicule se trouve dans une voie réservée au virage à gauche ou a l’intention de tourner à gauche et l’a signalé.
+
+#T47(ב)(3)
+F: [Le dépassement par la droite est permis lorsque] le conducteur du véhicule roule dans une voie réservée aux transports en commun.
+
+#P69א(ב)
+F: Le ministre peut fixer par règlement, avec l’approbation de la commission de l’Économie de la Knesset, des mesures correctives imposées au titulaire d’un permis de conduire dont des points ont été inscrits selon le système de points, notamment des examens médicaux, des examens, de l’information, de la formation et la déchéance du droit de détenir un permis de conduire.
+
+#T47(ב)(4)
+F: [Le dépassement par la droite est permis lorsque] le conducteur du véhicule roule dans une voie réservée uniquement au virage à droite.
+
+#T47(ה)(1)
+F: [Le dépassement est interdit lorsque] la visibilité est réduite ou que le champ de vision est bloqué ou limité.
+
+#T47(ה)(2)
+F: [Le dépassement est interdit lorsque] on se trouve après le panneau A-30 avant un passage à niveau, et jusqu’après le passage à niveau.
+
+#T47(ה)(3)
+F: [Le dépassement est interdit lorsque] on s’approche d’un passage pour piétons marqué sur la chaussée ou indiqué par un panneau signalant l’emplacement d’un passage pour piétons, et jusqu’à l’avoir dépassé.
+
+#T47(ה)(4)
+F: [Le dépassement est interdit lorsque] on passe à l’intérieur d’une intersection, ou que l’on ne termine pas le dépassement avant d’arriver à l’intersection.
+
+#T47(ו)(2)
+F: [L’interdiction de dépasser ne s’applique pas pour] le dépassement d’animaux, d’un véhicule à deux roues ou d’un véhicule tracté par une bête, à condition que le dépassement respecte les autres dispositions de ce Règlement.
+
+#T47(ז)
+F: Le conducteur d’un véhicule ne dépassera ni ne contournera un véhicule qui s’est arrêté avant une intersection, avant un passage pour piétons ou avant un passage à niveau afin de respecter les dispositions de cette partie.
+
+#T48(א)
+F: Le conducteur d’un véhicule que l’on dépasse déportera son véhicule autant que possible vers le bord de la chaussée pour permettre au véhicule qui dépasse de le faire en sécurité, et n’augmentera pas sa vitesse tant que le véhicule qui dépasse ne l’a pas passé.
+
+#T48(ג)
+F: Le conducteur d’un véhicule à moteur qui, en raison de sa charge ou de la pente de la route, est contraint de rouler à vitesse réduite et retarde les véhicules qui le suivent, doit se ranger et rouler sur l’accotement lorsque celui-ci est stabilisé en asphalte et libre, afin de permettre aux véhicules qui le suivent de le dépasser. Toutefois, cette obligation ne s’applique pas si le panneau 501 est placé sur l’accotement.
+
+#T49(א)
+F: Nul ne conduira un véhicule derrière un autre véhicule sans garder un espacement permettant d’arrêter son véhicule à tout moment et d’éviter un accident, compte tenu de la vitesse des deux véhicules, de l’état de la route, de la visibilité et de la circulation.
+
+#T49(ב)
+F: Sans préjudice du paragraphe (a), nul ne conduira un véhicule derrière un autre véhicule qui roule devant lui dans la même voie sans garder un intervalle de temps d’au moins une seconde, pour parcourir, à sa vitesse du moment, la distance qui sépare les deux véhicules.
+
+#T51
+F: Nul ne conduira un véhicule autrement qu’à une vitesse raisonnable, compte tenu de toutes les circonstances et des conditions de la route et de la circulation, de manière à garder la maîtrise totale du véhicule.
+
+#T54(א)
+F: Nul ne conduira un véhicule sur une route à une vitesse supérieure à celle fixée dans le tableau suivant (le tableau des vitesses maximales de l’article 54). Pour un véhicule à moteur ordinaire, hors cas particuliers : route urbaine 50 km/h ; route non urbaine 80 km/h ; route non urbaine avec séparateur construit 90 km/h ; voie rapide 110 km/h ; avec des valeurs différentes lorsqu’un panneau 426 ou 426פ indique une limite.
+
+#T52
+F: Sous réserve de l’article 51, le conducteur d’un véhicule doit ralentir et, si nécessaire, même s’arrêter, chaque fois qu’un danger est prévisible pour les usagers de la route ou pour des biens, y compris son propre véhicule, et en particulier dans les cas suivants :
+(1) à l’intérieur de zones bâties habitées et sur les tronçons de route bordés de maisons où circulent des piétons ;
+(2) sur une route qui n’est pas libre ;
+(3) lorsque la visibilité sur la route est limitée pour une raison quelconque ;
+(4) à l’entrée et pendant la traversée de virages serrés ;
+(5) près d’un groupe d’enfants ou d’un rassemblement ;
+(6) à l’approche d’un passage pour piétons ;
+(7) à l’approche d’un sommet de côte ou d’un endroit où le champ de vision est limité ;
+(8) dans une descente raide ou longue ;
+(9) à l’approche d’un pont étroit et lors de sa traversée ;
+(10) en croisant ou dépassant un groupe de personnes marchant en rang ;
+(11) en croisant ou dépassant des animaux ;
+(12) à l’approche d’un autobus arrêté à un arrêt, et en le dépassant ;
+(13) à l’approche d’un autobus, d’un car d’excursion ou d’un véhicule commercial transportant des enfants et signalé comme tel, arrêté pour faire monter ou descendre des enfants, et en le dépassant ;
+(14) dans une rue partagée ;
+(15) dans une zone de modération de la circulation ;
+(16) dans un tunnel.
+
+#T52(2)
+F: Le conducteur doit ralentir, et si nécessaire s’arrêter, sur une route qui n’est pas libre.

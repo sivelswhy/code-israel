@@ -1,0 +1,419 @@
+#0842
+Q: Comment éviter une collision frontale en conduisant sur une route de montagne étroite et sinueuse ?
+1: Il faut rouler sur un rapport élevé et peu utiliser les freins, pour éviter de perdre la capacité de freinage.
+2: Il faut rouler près de la ligne médiane.
+3: On ralentit et on klaxonne longuement avant chaque virage.
+4: On roule à l'extrême droite de la chaussée, on allume les feux et on adapte la vitesse aux conditions de la route.
+
+#0843
+Q: Comment un véhicule se met-il à déraper sur la chaussée ?
+1: Le moteur du véhicule est usé et ne peut pas stabiliser le véhicule.
+2: À cause d'un usage excessif des changements de rapport.
+3: Les forces de freinage ou l'inertie l'emportent sur l'adhérence du pneu sur la chaussée.
+4: Quand l'embrayage et la boîte de vitesses s'usent rapidement.
+
+#0844
+Q: Quelle force naturelle s'exerce sur le véhicule lors d'un freinage ou d'un ralentissement ?
+1: Aucune force naturelle ne s'exerce sur le véhicule pendant un freinage ou un ralentissement.
+2: L'inertie : la force qui fait continuer le véhicule dans son mouvement.
+3: La force centrifuge : la force qui s'exerce sur le véhicule dans les virages.
+4: La portance : la force qui tire le véhicule vers le haut.
+
+#0845
+Q: Quelle force naturelle tend à pousser le véhicule vers l'extérieur d'un virage ?
+1: La pesanteur.
+2: Les forces naturelles ne s'exercent pas sur le véhicule dans les virages.
+3: La force centrifuge.
+4: L'inertie.
+
+#0846
+Q: Quels sont les facteurs qui influencent le dérapage d'un véhicule ?
+1: Tout ce qui empêche le contact direct entre le pneu et la chaussée : eau, huile, boue, gravillons, etc.
+2: Tout facteur qui influence la vigilance du conducteur.
+3: L'âge élevé du véhicule.
+4: Les conditions de visibilité sur la route.
+
+#0847
+Q: Quelles sont les causes du dérapage d'un véhicule sur la chaussée ?
+1: La fatigue du conducteur.
+2: Un freinage inadapté, la présence sur la chaussée d'éléments (agents) de dérapage.
+3: Des pneus non usés provoquent le dérapage.
+4: Une chaussée à fort coefficient de frottement.
+
+#0848
+Q: Quel est le danger immédiat d'un dérapage en conduisant ?
+1: La perte de la direction et la perte de contrôle du véhicule.
+2: L'échauffement et l'usure des pneus.
+3: L'échauffement et l'usure des freins.
+4: L'arrêt de l'embrayage et des roues motrices.
+
+#0849
+Q: Comment peut-on atténuer un dérapage du véhicule sur la route ?
+1: Par une direction correcte et un usage correct et contrôlé des freins.
+2: En braquant fortement à droite puis à gauche pour stabiliser le véhicule.
+3: En tenant fermement le volant des deux mains.
+4: En appuyant fort et longtemps sur le frein.
+
+#0850
+Q: Comment évite-t-on un dérapage du véhicule sur la route ?
+1: En tenant fermement le volant des deux mains et en roulant à une vitesse semblable à celle des autres véhicules.
+2: En appuyant fort et longtemps sur la pédale de frein.
+3: En braquant à droite pour stabiliser le véhicule.
+4: En roulant à une vitesse raisonnable et en utilisant les freins de façon correcte et contrôlée.
+
+#0851
+Q: Quels sont les problèmes particuliers auxquels le conducteur fait face de nuit ?
+1: Champ (portée) de vision limité, éblouissement, estimations de distance erronées.
+2: Un mauvais fonctionnement du conducteur dû à l'éclairage extérieur.
+3: De nombreux véhicules autour de lui la nuit.
+4: Une baisse de puissance du moteur due à l'éclairage.
+
+#0852
+Q: Comment agissez-vous de nuit lorsque le véhicule qui vient en face vous éblouit ?
+1: Ralentissez, serrez à droite et regardez la ligne jaune ou le bord droit de la chaussée.
+2: Arrêtez-vous à droite et allumez les feux de position jusqu'au passage du véhicule.
+3: Allumez les feux de route pour améliorer votre champ de vision.
+4: Klaxonnez fort pour prévenir le conducteur d'en face qu'il vous éblouit.
+
+#0853
+Q: Comment réduire le problème de l'arrêt à portée des feux du véhicule lorsqu'on roule de nuit ?
+1: En allumant les feux de route qui éclairent au loin et en roulant plus vite en conséquence.
+2: En utilisant le feu de brouillard arrière, qui renforce le faisceau lumineux.
+3: En adaptant à tout moment la vitesse à la portée de vision.
+4: En utilisant un projecteur supplémentaire pour repérer les obstacles sur la route.
+
+#0854
+Q: Comment réduire le problème de l'éblouissement par un véhicule qui vient en face ?
+1: En réglant le rétroviseur intérieur en position « nuit ».
+2: En évitant de regarder la lumière éblouissante, en ralentissant et en roulant à droite.
+3: En réglant correctement le faisceau des phares et en faisant des appels de phares au conducteur d'en face.
+4: En actionnant les essuie-glaces.
+
+#0855
+Q: Quels sont les dangers de la conduite continue pendant de nombreuses heures ?
+1: La puissance du moteur baisse, et avec elle la capacité de freinage.
+2: L'échauffement et l'usure accélérée des pneus avant.
+3: Il n'y a aucun danger à conduire pendant de nombreuses heures pour un conducteur en bonne santé.
+4: La fatigue et la tendance du conducteur à s'endormir.
+
+#0856
+Q: Comment vaincre le problème de la fatigue au volant ?
+1: On accélère pour raccourcir le trajet et arriver tôt à la maison.
+2: Par un repos suffisant avant de partir et des pauses de repos et de détente pendant la conduite.
+3: Grâce au café noir, qui résout tout.
+4: Une courte pause et un repas copieux dissiperont la fatigue pour longtemps.
+
+#0857
+Q: Une courte pause de détente pendant la conduite peut-elle dissiper la fatigue ?
+1: Oui. Une courte pause supprimera complètement la fatigue.
+2: Oui, pour une courte période.
+3: Oui. Une pause de quelques minutes permet de conduire sans interruption pendant de nombreuses heures.
+4: Non. Une courte pause n'est pas du tout efficace contre la fatigue.
+
+#0858
+Q: De quel côté le conducteur s'approche-t-il de son véhicule avant d'y monter ?
+1: Par l'avant du véhicule, face à la circulation.
+2: La direction d'approche n'a pas d'importance, car les autres conducteurs ne doivent pas mettre en danger celui qui monte dans son véhicule.
+3: Par l'arrière du véhicule, dos à la circulation, et par la porte droite : il n'y a pas de danger de ce côté.
+4: Par l'arrière du véhicule, dos à la circulation.
+
+#0859
+Q: Quels sont les premiers gestes à faire après être monté dans le véhicule, avant de partir ?
+1: Vérifier la position du levier de vitesses.
+2: Démarrer et faire chauffer le véhicule.
+3: Régler le siège, le volant, les rétroviseurs et les appuie-tête.
+4: Attacher les ceintures de sécurité.
+
+#0860
+Q: Que devons-nous voir dans le rétroviseur intérieur ?
+1: La vue arrière et ses « angles morts ».
+2: L'environnement visible par la lunette arrière et, autant que possible, de ses deux côtés.
+3: La vue de la droite et de la gauche du véhicule.
+4: Les occupants des sièges arrière.
+
+#0861
+Q: Que devons-nous voir dans les rétroviseurs extérieurs (latéraux) du véhicule ?
+1: La roue arrière et la zone devant elle.
+2: Tout véhicule en mouvement à droite de notre véhicule.
+3: Tout véhicule à gauche de notre véhicule, ainsi que les piétons.
+4: Le bord de la carrosserie et la route sur les côtés du véhicule.
+
+#0862
+Q: Que devons-nous vérifier avant de conduire un véhicule ?
+1: Que nous maîtrisons sa conduite et son utilisation.
+2: Que l'entretien courant a été fait.
+3: Qu'il y a des ampoules et des fusibles de rechange.
+4: Que le carburant et les huiles sont du type adapté au bon fonctionnement du véhicule.
+
+#0863
+Q: Que devons-nous contrôler et vérifier avant de démarrer le moteur ?
+1: Frein de stationnement desserré, levier au premier rapport et embrayage enfoncé.
+2: Frein de stationnement serré, levier en première (en automatique : D) et embrayage enfoncé.
+3: Frein de service enfoncé, frein de stationnement serré, levier au point mort (N) et embrayage enfoncé (en automatique : position P).
+4: Frein de stationnement desserré, levier au point mort (en automatique : N) et embrayage enfoncé.
+
+#0864
+Q: Comment évite-t-on un danger au démarrage ?
+1: En observant correctement la route et la circulation avant de bouger.
+2: En reculant vite.
+3: En démarrant vite et en s'insérant rapidement dans la circulation.
+4: En signalant dès le début du départ.
+
+#0865
+Q: Quelle est la bonne façon de contrôler la route pour s'insérer lorsqu'on démarre ?
+1: Regarder devant, le plus loin possible.
+2: Regarder dans les rétroviseurs et tourner la tête dans la direction où l'on va s'engager.
+3: Chercher les panneaux qui indiquent nos destinations.
+4: Regarder dans le rétroviseur intérieur et s'assurer qu'il n'y a pas de véhicule derrière nous.
+
+#0866
+Q: Suffit-il de signaler lorsqu'on démarre ?
+1: Oui. La loi nous oblige à signaler en démarrant. L'obligation de prudence pèse sur les autres usagers.
+2: Oui. Au démarrage, le signal suffit. On aura le temps de regarder en s'insérant.
+3: Non. Le signal ne donne aucun droit : il faut aussi bien regarder.
+4: Oui. Les gestes superflus, en plus du signal exigé, font perdre un temps précieux et créent des tensions inutiles.
+
+#0867
+Q: Quelles sont les conditions pour rouler en ligne droite sans zigzaguer ?
+1: Rester à droite de la route en gardant un écart constant avec la ligne jaune de droite.
+2: Se concentrer sur le point le plus lointain que l'on puisse atteindre du regard.
+3: Regarder la ligne de séparation et garder un écart constant avec elle.
+4: Suivre en permanence la ligne jaune qui borde la chaussée.
+
+#0868
+Q: Quels sont les avantages de regarder loin devant ?
+1: La direction vers l'avant est la seule qui compte pour le conducteur ; il faut donc regarder droit devant.
+2: Cela permet de faire d'autres choses en même temps, par exemple chercher une adresse sur le GPS.
+3: Regarder au loin augmente la distance de freinage et la sécurité.
+4: Recueillir toutes les informations pour planifier la conduite selon l'état de la route et éviter les surprises.
+
+#0869
+Q: Bien connaître les différents équipements du poste de conduite permet au conducteur, en roulant :
+1: de rien : cela n'a d'autre avantage que de connaître les équipements.
+2: de se concentrer au maximum sur la circulation et la route.
+3: de manipuler les équipements du véhicule à l'aveugle.
+4: de les actionner automatiquement, sans réfléchir.
+
+#0870
+Q: Un bon réglage du siège du conducteur :
+1: permet de bien voir la route et de conduire facilement, confortablement et sans fatigue.
+2: est fait par le constructeur à la fabrication, et aucun autre réglage n'est nécessaire.
+3: permet de supprimer les « angles morts » en marche arrière.
+4: est un geste important à faire à chaque entretien périodique du véhicule.
+
+#0871
+Q: Quel geste est important avant d'appuyer sur le frein pour ralentir ou s'arrêter ?
+1: Passer un rapport inférieur.
+2: Appuyer sur l'embrayage, pour réduire la consommation de carburant.
+3: Jeter un coup d'œil dans les rétroviseurs pour vérifier la présence d'un véhicule derrière.
+4: Signaler et braquer vers l'accotement, pour éviter d'être percuté par l'arrière.
+
+#0872
+Q: Quelle importance a une bonne prise en main du volant pour le contrôle et la stabilité du véhicule ?
+1: Une bonne prise du volant n'est importante que sur les véhicules grands et lourds, camions et autobus.
+2: Une bonne prise du volant permet un braquage précis, nécessaire pour une direction précise en permanence.
+3: Sur un véhicule récent, la façon de tenir le volant n'importe que dans les virages serrés.
+4: La façon de tenir le volant n'importe que dans les virages serrés à grande vitesse.
+
+#0873
+Q: Dans un véhicule à boîte manuelle, il est important d'adapter le rapport :
+1: pour préserver la durée de vie des pneus.
+2: uniquement sur un vieux véhicule.
+3: pour déterminer la vitesse de roulage.
+4: uniquement dans les longues descentes.
+
+#0874
+Q: Quel est le bon ordre des gestes pour réduire la vitesse du véhicule ?
+1: Ralentir en appuyant sur l'embrayage et passer un rapport supérieur.
+2: Rétrograder et appuyer sur l'embrayage.
+3: L'ordre des gestes n'a pas d'importance pour ralentir.
+4: Ralentir, puis passer un rapport inférieur.
+
+#0875
+Q: Quelles sont les limites du conducteur en marche arrière ?
+1: Un champ de vision réduit et une manipulation moins commode du véhicule.
+2: Un conducteur expérimenté n'a aucune limite en marche arrière.
+3: La marche arrière dure plus longtemps.
+4: Une allure rapide et la nécessité d'actionner de nombreux équipements compliquent le contrôle du système de freinage.
+
+#0876
+Q: Quelle doit être l'allure en marche arrière ?
+1: Toujours lente.
+2: En descente, lente ; en montée, rapide.
+3: Véhicule lourd : lent ; véhicule léger : rapide.
+4: De jour, rapide ; de nuit, lente.
+
+#0877
+Q: Qu'impose toujours la marche arrière ?
+1: L'activation d'un avertisseur sonore extérieur de recul sur tous les types de véhicules, y compris les voitures particulières.
+2: De rouler sur un rapport bas adapté aux conditions de la route, uniquement dans une descente raide.
+3: La prudence et des mesures pour éviter tout danger, dommage, dérangement ou gêne.
+4: De placer un guide à un endroit où le conducteur le voit.
+
+#0878
+Q: La voiture argentée (1) sort d'une place en marche arrière. Comment réagissez-vous ?
+1: Ralentissez et préparez-vous à vous arrêter (2).
+2: Déportez-vous sur la voie opposée et continuez normalement.
+3: Klaxonnez, faites un appel de phares et continuez.
+4: Bloquez la voie de la voiture argentée et laissez sortir la voiture rouge.
+
+#0879
+Q: Que fait le conducteur du véhicule lorsqu'il s'apprête à tourner à droite ?
+1: Il klaxonne et poursuit son virage sans autre précaution. L'obligation de prudence pèse sur le cycliste.
+2: Il arrête son véhicule avant le virage et attend que le cycliste lui fasse signe de passer.
+3: Il tient compte de la possibilité que le cycliste se trouve à sa droite pendant le virage, et prend des mesures pour ne pas le heurter.
+4: Le conducteur doit planifier son virage selon la loi, sans tenir compte du cycliste.
+
+#0880
+Q: Votre voie est bloquée par la voiture argentée en stationnement en double file (entourée d'un cercle). Que devez-vous faire ?
+1: Faites un appel de phares au véhicule qui arrive en face et déportez-vous vite sur la voie opposée, avant qu'il n'arrive.
+2: Ralentissez et laissez passer sans gêne le véhicule qui vient en face, avant de contourner le stationnement en double file.
+3: Arrêtez-vous derrière la voiture argentée et attendez un policier ou un inspecteur.
+4: Dépassez la voiture argentée par l'espace qui reste entre elle et le véhicule qui vient en face.
+
+#0881
+Q: Comment doit agir le conducteur qui sort d'un chemin de terre et s'apprête à entrer sur la route revêtue ?
+1: Laisser les véhicules qui roulent sur la route revêtue, à droite et à gauche, continuer sans les gêner, puis s'engager.
+2: Klaxonner, faire un appel de phares et entrer sur la route revêtue.
+3: Entrer sur la route revêtue : le véhicule qui sort d'un chemin de terre est prioritaire sur ceux de la route revêtue.
+4: Laisser la circulation qui vient de sa droite continuer sans la gêner, puis s'engager.
+
+#0882
+Q: D'après la photo, est-il permis de se déporter sur la voie opposée ?
+1: Oui. Regarder dans le rétroviseur permet de se déporter sur la voie opposée, car personne ne roule derrière.
+2: Oui. Mettre le clignotant dispense de regarder dans le rétroviseur.
+3: Non, à cause de la double ligne continue tracée sur la chaussée.
+4: Oui, le conducteur a déjà regardé dans le rétroviseur et personne n'arrive derrière lui.
+
+#0883
+Q: Comment un fort vent latéral influencera-t-il la marche du camion haut ?
+1: Le vent n'a pas d'effet sur un véhicule lourd.
+2: Le vent tend à dévier le camion, et le conducteur devra ralentir et contrer la force latérale qui cherche à le déporter.
+3: Il n'aura aucun effet. Un camion à vide n'est pas sensible à la force des vents latéraux qui soufflent sur lui.
+4: Il n'aura aucun effet. Un véhicule de marchandises chargé lourdement n'est pas du tout sensible aux vents latéraux.
+
+#0884
+Q: Comment l'écart entre les véhicules influe-t-il sur le déroulement du dépassement ?
+1: Plus on se rapproche du véhicule de devant, plus la distance de dépassement sera courte et sûre.
+2: Plus on se rapproche du véhicule de devant, plus le déport lors du dépassement sera sûr.
+3: L'écart entre les véhicules n'a pas d'effet sur la sécurité du dépassement.
+4: Un faible écart réduit le champ de vision et augmente le risque du dépassement.
+
+#0885
+Q: Combien de véhicules y a-t-il devant vous, d'après les indices ?
+1: On ne peut pas savoir, d'après la photo, combien de véhicules sont devant vous.
+2: Les indices de la photo ne renseignent pas sur le nombre de véhicules devant.
+3: Deux véhicules devant vous. En plus de la voiture argentée, il y a une silhouette devant elle.
+4: D'après la photo, seule la voiture argentée roule devant vous.
+
+#0886
+Q: Dans un véhicule hybride :
+1: Le freinage est plus difficile, à cause du second moteur.
+2: Les pneus s'usent plus que sur un véhicule ordinaire, à cause du second moteur.
+3: La consommation de carburant est plus élevée que sur un véhicule ordinaire, à cause du second moteur.
+4: La consommation de carburant est plus faible que sur un véhicule ordinaire.
+
+#0887
+Q: Vous voyez que la voiture argentée qui vous dépasse s'apprête à se rabattre sur la voie de droite :
+1: Vous devez la laisser se rabattre en sécurité et sans gêne.
+2: Klaxonnez au conducteur qui se rabat, pour l'avertir et le dissuader.
+3: Accélérez sur la voie de droite et dépassez-le avant qu'il ne se rabatte.
+4: Déportez-vous sur la voie de gauche et dépassez le véhicule de devant.
+
+#0888
+Q: Comment le conducteur de la voiture argentée doit-il agir selon la photo ?
+1: Ralentir et laisser le véhicule qui sort de la place s'insérer dans la circulation.
+2: Klaxonner fort et continuer sur la voie de droite, car le conducteur qui sort est en tort.
+3: Accélérer et passer sur la voie de gauche.
+4: Klaxonner et continuer sans changer de position ni de vitesse.
+
+#0889
+Q: Comment le conducteur de la voiture argentée doit-il réagir quand le conducteur de la voiture foncée veut se garer en marche arrière entre deux véhicules le long du trottoir ?
+1: Ralentir, voire s'arrêter, et laisser le conducteur de la voiture foncée terminer son stationnement.
+2: Se rapprocher de la voiture foncée, klaxonner et la dépasser vite.
+3: Entrer lui-même dans la place et ne pas laisser le conducteur de la voiture foncée se garer.
+4: Continuer normalement, comme s'il n'avait pas perçu les intentions du conducteur de la voiture foncée.
+
+#0890
+Q: À quoi sert l'accotement sur une voie rapide ?
+1: C'est un endroit pour stationner et s'arrêter afin de se reposer quand on est fatigué.
+2: Un endroit où s'arrêter pour téléphoner au portable.
+3: C'est une voie qui sert à dépasser un véhicule lent roulant illégalement sur la voie de droite.
+4: Un endroit d'échappatoire en cas de danger.
+
+#0891
+Q: Le demi-tour est permis :
+1: depuis n'importe quelle voie, sauf si un panneau l'interdit.
+2: quand il y a une ligne blanche continue.
+3: uniquement à une intersection à feux où le virage à gauche est permis.
+4: uniquement à une intersection sans feux où le virage à gauche est permis.
+
+#0892
+Q: Quels dangers faut-il prendre en compte sur la route devant vous ?
+1: Les véhicules sont garés collés les uns aux autres et ne permettent pas le passage des piétons.
+2: Il n'y a aucun danger sur la route devant vous.
+3: L'apparition de piétons ou d'enfants entre les voitures en stationnement.
+4: Un policier de la circulation verbalise les conducteurs garés à droite de la chaussée.
+
+#0893
+Q: Un conducteur approche d'un passage pour piétons marqué sur la chaussée. Il n'y a personne sur le passage. Le conducteur doit donc :
+1: ralentir et s'assurer qu'aucun piéton n'est près du passage.
+2: franchir vite le passage, sans avoir à ralentir.
+3: accélérer et traverser avant l'arrivée de piétons.
+4: klaxonner, accélérer et franchir vite le passage.
+
+#0894
+Q: Une moto ou un tricycle à moteur peut-il rouler à côté d'une autre moto sur la même voie ?
+1: C'est permis en agglomération uniquement.
+2: Seulement pour dépasser ou pour passer légalement un autre véhicule.
+3: C'est interdit dans tous les cas, même pendant un dépassement.
+4: C'est permis uniquement sur voie rapide, sur la même voie.
+
+#0895
+Q: D'après la photo, qu'est-ce qui perturbe le champ de vision ?
+1: La perturbation de la photo est inévitable et la cause importe peu.
+2: C'est le brouillard qui perturbe le champ de vision.
+3: La perturbation du champ de vision ne vient que de l'éblouissement par un autre véhicule venant en face.
+4: La perturbation est due à un écart trop faible entre les deux véhicules.
+
+#0896
+Q: Sur la photo, la réaction des conducteurs face au véhicule qui sort du stationnement n'est pas claire. Comment le conducteur du camion doit-il réagir ?
+1: Arrêter son véhicule et laisser l'autre véhicule continuer.
+2: Continuer et ignorer l'autre véhicule qui sort, car le droit de passage appartient au camion.
+3: Ralentir jusqu'à s'arrêter, pour s'assurer du comportement sûr des conducteurs devant lui.
+4: Continuer et klaxonner longuement pour avertir de l'approche du camion.
+
+#0897
+Q: Un conducteur tourne à droite et des piétons traversent sa voie sur le passage pour piétons. Que doit-il faire ?
+1: Klaxonner aux piétons et continuer dans l'intersection.
+2: Ralentir, voire s'arrêter, et laisser les piétons traverser sur le passage.
+3: Continuer, car les véhicules sont prioritaires dans les intersections, et les piétons doivent donc attendre.
+4: Continuer dans l'intersection, sans tenir compte des piétons.
+
+#0898
+Q: Vous conduisez un véhicule qui approche par l'arrière du cycliste de la photo. Quel danger représente le cycliste ?
+1: Le cycliste peut descendre sur la chaussée ou trébucher et tomber sur la chaussée.
+2: Le cycliste est un adulte et ne représente aucun danger.
+3: Le cycliste utilise le trottoir et le vélo ne représente donc aucun danger.
+4: Aucun danger. Dépassez vite le cycliste.
+
+#0899
+Q: Comment agissez-vous lorsque le camion de la photo se rabat sur votre voie ?
+1: Restez sur la voie de gauche et accélérez.
+2: Accélérez et ne le laissez pas s'insérer.
+3: Passez sur la voie de droite pour continuer.
+4: Laissez-le entrer sur la voie sans le gêner.
+
+#0900
+Q: Lequel des véhicules de la photo n'est pas correctement stationné ?
+1: Ni l'un ni l'autre ne stationne conformément à la loi.
+2: Le véhicule stationné avec le passage pour piétons devant lui.
+3: Le véhicule stationné avec le passage pour piétons derrière lui.
+4: Les deux véhicules sont stationnés conformément à la loi.
+
+#0901
+Q: Vous roulez sur une route à circulation dense. Comment assurer une conduite sûre ?
+1: Pour rouler en sécurité dans ces conditions, il faut coller au véhicule de devant.
+2: Pour rouler en sécurité dans ces conditions, il suffit de garder une distance suffisante devant.
+3: Veillez à regarder tout autour, gardez une distance de tous les côtés et roulez à une vitesse raisonnable.
+4: Roulez normalement. Pas besoin d'une attention particulière à la sécurité en cas de circulation dense.

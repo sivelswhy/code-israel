@@ -1,0 +1,193 @@
+#1442
+E: Un véhicule composé est un tracteur routier auquel est attelé un semi-remorque.
+R: T1:רכב מורכב
+
+#1443
+E: Un véhicule articulé est un véhicule à moteur auquel est attelée une remorque à l'arrière.
+R: T1:רכב מחובר
+
+#1444
+E: Quand la visibilité est mauvaise, il est interdit de dépasser sur route à double sens.
+R: T47
+
+#1445
+E: Il est interdit à un tracteur d'entrer sur une voie rapide.
+
+#1446
+E: La longueur totale est la distance entre le point le plus avancé à l'avant et le point le plus reculé à l'arrière du véhicule.
+R: T1:אורך כולל
+
+#1447
+E: Il est interdit de dépasser un véhicule qui dépasse pour un autobus (hors minibus), un véhicule utilitaire et un véhicule de travail de plus de 3 500 kg.
+R: T47(ח)
+
+#1448
+E: Sur route à deux voies ou plus dans le même sens, un véhicule utilitaire ou de travail de plus de 10 000 kg entre dans l'intersection par la voie la plus à droite.
+R: T36(ה)
+
+#1449
+E: Le conducteur tenu de porter des instruments optiques doit avoir dans le véhicule une paire supplémentaire.
+
+#1450
+E: Toute obligation ou interdiction applicable à un véhicule utilitaire s'applique aussi à un véhicule de transport de marchandises.
+
+#1451
+E: Le tachygraphe enregistre sur un disque le temps, la distance, la vitesse et les heures de travail du conducteur.
+
+#1452
+E: Le véhicule utilitaire sert ou est destiné à servir au transport de marchandises contre rémunération, à l'activité et au commerce de son propriétaire.
+
+#1453
+E: Le chauffeur de taxi tenu de porter des lunettes doit avoir dans le véhicule une paire supplémentaire pendant la conduite.
+
+#1454
+E: Sans licence de transporteur, on ne peut fournir des services de transport avec un véhicule utilitaire de 10 000 kg ou plus.
+
+#1455
+E: La licence de transporteur est obligatoire pour qui fournit des services de transport avec un véhicule utilitaire de 10 000 kg ou plus.
+
+#1456
+E: La licence de transporteur est délivrée pour une année.
+
+#1457
+E: Selon cette loi, est utilitaire un véhicule de 10 000 kg ou plus, et tout véhicule transportant des matières dangereuses quel que soit son poids.
+
+#1458
+E: Le conducteur d'un minibus public tenu de porter des lunettes doit en avoir une paire supplémentaire pendant la conduite.
+
+#1459
+E: Dans une longue descente raide, enclenchez un rapport bas dès le début de la descente.
+
+#1460
+E: Changer de rapport dans une descente raide est dangereux : le rapport peut ne pas s'enclencher et le véhicule rester au point mort.
+
+#1461
+E: Après avoir attelé une remorque ou un semi-remorque, vérifiez la réaction des freins au début du trajet.
+
+#1462
+E: Dans une descente raide, roulez sur un rapport bas approprié et actionnez les mécanismes de ralentissement du véhicule.
+
+#1463
+E: Un système de freinage pneumatique a dans la cabine un voyant d'alerte, un avertisseur sonore et un manomètre d'air.
+
+#1464
+E: La stabilité dans un virage dépend de la vitesse, du rayon du virage et de la hauteur du centre de gravité.
+
+#1465
+E: Tout taxi doit avoir un système antiblocage des roues ABS.
+
+#1466
+E: Plus le centre de gravité est haut, moins le véhicule est stable dans les virages et les courbes.
+
+#1467
+E: Le panneau 209 interdit le demi-tour par la gauche.
+
+#1468
+E: La date de fabrication du pneu est gravée sur le pneu lui-même.
+
+#1469
+E: On attelle le semi-remorque en reculant, le tracteur et le semi-remorque étant en ligne droite.
+
+#1470
+E: Sur route glissante, un véhicule articulé risque la position « L » (jackknife) : un grand angle se forme entre le semi-remorque et le tracteur.
+
+#1471
+E: Un véhicule utilitaire jusqu'à 3 500 kg est limité à 80 km/h sur route non urbaine sans terre-plein construit.
+R: T54
+
+#1472
+E: On peut garer un autobus de ligne conformément à l'autorisation de la ligne, si l'autorité l'a fixé.
+
+#1473
+E: Un véhicule de plus de 12 000 kg est limité à 50 km/h en agglomération, même si un panneau permet plus.
+R: T54
+
+#1474
+E: La charge d'un véhicule de transport de marchandises ne dépasse pas celle inscrite sur le permis du véhicule.
+
+#1475
+E: Un semi-remorque est une remorque construite de telle façon que sa partie avant repose sur un tracteur routier.
+R: T1:נתמך
+
+#1476
+E: Le sable réduit le frottement entre les pneus et la route et peut faire déraper le véhicule.
+
+#1477
+E: Le panneau 227 autorise l'entrée aux vélos.
+
+#1478
+E: On ne transporte un conteneur que si le permis du véhicule indique qu'il est autorisé à transporter des conteneurs.
+
+#1479
+E: Un véhicule utilitaire de 12 000 kg ou plus doit avoir sur sa face arrière deux plaques rectangulaires rouges/blanches.
+
+#1480
+E: La force centrifuge agit sur le véhicule qui roule dans des virages et des courbes.
+
+#1481
+E: On réduit la force centrifuge en réduisant la vitesse dans les virages et les courbes.
+
+#1482
+E: Le conducteur ne commence son travail qu'après un repos consécutif d'au moins sept heures.
+R: T168(1)
+
+#1483
+E: Le rapport bas permet de s'aider du moteur pour maintenir une vitesse basse et constante, sans trop utiliser les freins qui chaufferaient.
+
+#1484
+E: Pendant un dépassement, il est interdit de dépasser la vitesse maximale autorisée.
+
+#1485
+E: Les feux de détresse sont tous les indicateurs de direction lorsqu'ils clignotent ensemble.
+
+#1486
+E: La vitesse maximale d'une voiture particulière en agglomération est de 50 km/h.
+R: T54
+
+#1487
+E: Le conducteur ne peut pas dépasser la vitesse maximale autorisée pendant un dépassement.
+R: T54
+
+#1488
+E: Avec un avis d'interdiction d'usage, il est interdit de circuler, sauf pour aller au garage le plus proche selon le formulaire de retrait.
+
+#1489
+E: La distance de réaction dépend du temps de réaction du conducteur et de la vitesse du véhicule.
+
+#1490
+E: La distance de réaction est parcourue depuis que le conducteur remarque le danger jusqu'à ce qu'il commence l'action décidée.
+
+#1491
+E: La distance d'arrêt (réaction + freinage) est toujours plus grande que la distance de freinage.
+
+#1492
+E: Tenez compte du déport possible vers la gauche du véhicule qui signale à gauche, et laissez-le le faire.
+
+#1493
+E: Quand la visibilité est limitée, ralentissez, adaptez la vitesse et allumez les feux de croisement.
+
+#1494
+E: Seul celui qui y a été formé et a reçu une autorisation du ministère des Transports peut transporter des matières dangereuses.
+
+#1495
+E: Le conducteur et le véhicule doivent avoir des autorisations de l'autorité des permis pour transporter des matières dangereuses.
+
+#1496
+E: Laissez un avis écrit avec vos coordonnées, celles de votre véhicule et de votre assurance, et faites un rapport à la police dans les 24 heures.
+
+#1497
+E: Plus on roule vite, plus la distance d'arrêt après l'appui sur le frein augmente.
+
+#1498
+E: Pour couper la liaison entre le moteur et les roues, on appuie sur la pédale d'embrayage.
+
+#1499
+E: Avant de lever le véhicule, assurez-vous par tous les moyens qu'il ne bougera pas (frein de stationnement, cales).
+
+#1500
+E: L'assurance tiers couvre les dommages causés au véhicule d'autrui.
+
+#1501
+E: La profondeur des rainures d'un pneu en contact avec la route, roue de secours comprise, ne doit pas être inférieure à 2 mm.
+R: T322(ג)
+

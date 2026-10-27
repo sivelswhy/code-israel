@@ -1,0 +1,193 @@
+#1742
+E: Le demi-tour est permis depuis n'importe quelle voie, sauf si un panneau l'interdit.
+
+#1743
+E: Avec une ligne continue et, à sa gauche, une ligne discontinue, il est interdit de franchir les lignes.
+
+#1744
+E: L'ESP corrige les erreurs du conducteur au freinage et aide à augmenter la stabilité du véhicule.
+
+#1745
+E: Une ligne blanche continue permet de dépasser un véhicule roulant sur l'accotement, à condition de ne pas la franchir.
+
+#1746
+E: Seuls un véhicule non motorisé, un tracteur et un véhicule lent qui retardent la circulation peuvent rouler sur l'accotement.
+
+#1747
+E: Il est interdit de dépasser avant un passage piéton, dans tous les cas.
+R: T47
+
+#1748
+E: Il est interdit de garer un véhicule dans une zone de 12 mètres avant un passage piéton.
+
+#1749
+E: Le contrôleur des transports est l'autorité compétente pour délivrer une licence d'exploitation d'un autobus.
+
+#1750
+E: Le feu jaune fixe annonce le feu rouge : préparez-vous à vous arrêter ou dégagez l'intersection où vous êtes entré.
+
+#1751
+E: Même au vert, il ne faut pas entrer dans une intersection bloquée par des véhicules.
+
+#1752
+E: Sur route étroite, les deux véhicules se déportent autant que possible vers la droite et descendent même sur l'accotement.
+
+#1753
+E: Il est interdit de stationner ou d'arrêter un véhicule à moins de 20 mètres d'un passage à niveau, avant et après.
+
+#1754
+E: La caméra de recul détecte l'angle mort qui se forme derrière le véhicule.
+
+#1755
+E: La vitesse maximale en agglomération pour une voiture particulière est de 50 km/h.
+R: T54
+
+#1756
+E: Avec un panneau avant un passage à niveau, il est interdit de dépasser le véhicule lent jusqu'à la traversée du passage.
+R: T47
+
+#1757
+E: Avec une ligne de séparation continue entre les deux voies, l'arrêt et le stationnement sont interdits, même sur l'accotement.
+
+#1758
+E: À l'approche d'écoles et d'aires de jeux, ralentissez et augmentez la vigilance.
+R: T52
+
+#1759
+E: Un autobus sur la voie de transport public peut dépasser un véhicule qui dépasse.
+R: T47(ח)
+
+#1760
+E: Le panneau 615 placé au-dessus de la voie indique des destinations hors de la ville.
+
+#1761
+E: Un panneau « stop » à droite d'une route à sens unique s'applique aux deux voies : arrêtez-vous sur chacune.
+
+#1762
+E: Il est interdit de dépasser un véhicule arrêté avant un passage à niveau.
+R: T47(ז)
+
+#1763
+E: Le panneau portatif d'un membre des patrouilles de sécurité routière est un panneau légal : le conducteur doit lui obéir.
+
+#1764
+E: Le conducteur qui sort d'une station-service cède le passage à tout véhicule qui approche sur la route, de toute direction.
+R: T64(ב)
+
+#1765
+E: Le bord supérieur de l'appuie-tête doit être aligné avec le sommet de la tête du conducteur.
+
+#1766
+E: Il est interdit d'arrêter, de garer ou d'immobiliser un véhicule dans un passage piéton ou à moins de 12 mètres avant lui.
+
+#1767
+E: Le véhicule qui roule sur la voie de transport public peut passer un autre véhicule par sa droite.
+
+#1768
+E: Le conducteur doit se comporter de façon à ne pas porter atteinte au droit d'autrui à l'usage plein de la route.
+
+#1769
+E: Le passage piéton est signalé par les panneaux 811 et 306.
+
+#1770
+E: Une bétonnière est un véhicule de transport de marchandises.
+
+#1771
+E: La hauteur maximale d'une charge sur un véhicule de transport de véhicules à trois plateaux est de 4,80 mètres.
+
+#1772
+E: Un marquage fait conformément à la loi sur la route est toujours considéré comme un panneau.
+
+#1773
+E: La première pluie rend la route glissante à cause de la poussière et de la saleté accumulées dessus.
+
+#1774
+E: Les antibrouillards ne s'utilisent que sous une pluie battante, dans le brouillard ou sous la neige.
+R: T107(ד)
+
+#1775
+E: L'autorité des permis, le tribunal et la police d'Israël peuvent retirer un permis de conduire.
+
+#1776
+E: Il est interdit de rouler sur un terre-plein.
+
+#1777
+E: On peut faire une réparation légère sur la route sans gêner les usagers, et sans laisser le véhicule plus de 24 heures.
+
+#1778
+E: Au contrôle technique annuel, on inscrit le nombre de kilomètres parcourus selon le compteur kilométrique.
+
+#1779
+E: En tournant à gauche à une intersection sans panneau, cédez toujours le passage au véhicule qui vient en face.
+R: T64(א)(2)
+
+#1780
+E: Face à une charrette, avec une ligne continue entre les voies, continuez derrière elle lentement.
+
+#1781
+E: On passe un îlot de circulation par sa droite, sauf si un panneau indique autre chose.
+
+#1782
+E: Sur un tronçon étroit et raide, c'est le véhicule qui descend qui s'arrête et laisse passer celui qui monte.
+
+#1783
+E: Le demi-tour est permis quand il ne gêne pas la circulation et qu'aucun panneau ou marquage ne l'interdit.
+
+#1784
+E: Il est interdit de dépasser avant une crête quand le champ de vision est limité ou bouché.
+R: T47
+
+#1785
+E: Il est interdit de dépasser avant un passage piéton à tout moment et sur toute route.
+R: T47
+
+#1786
+E: L'autobus articulé doit avoir des autocollants rectangulaires sur la paroi arrière.
+
+#1787
+E: Le feu vert clignotant annonce le feu jaune fixe.
+
+#1788
+E: L'autorité des permis peut retarder le renouvellement du permis si l'amende a été infligée pour une infraction routière.
+
+#1789
+E: On vérifie l'huile du moteur avant le démarrage du moteur et sur un sol horizontal.
+
+#1790
+E: La drogue et l'alcool altèrent tous deux la capacité de jugement du conducteur.
+
+#1791
+E: Le risque de dérapage existe surtout à la première pluie ou quand il y a de la boue ou de l'huile sur la route.
+
+#1792
+E: Aucune de ces situations n'est permise : feux défectueux, absence d'essuie-glaces et pneus usés sont interdits.
+
+#1793
+E: Un minibus est destiné à transporter jusqu'à 16 passagers, en plus du conducteur.
+R: T1:אוטובוס זעיר
+
+#1794
+E: Le poids total autorisé d'un minibus public ne dépasse pas 5 000 kg.
+R: T1:אוטובוס זעיר
+
+#1795
+E: Un conducteur ne peut rouler sur le trottoir dans sa longueur que s'il est en train de nettoyer le trottoir.
+
+#1796
+E: Un passager de moto doit avoir ses deux jambes de part et d'autre de la moto.
+
+#1797
+E: Il est obligatoire de ralentir à l'entrée d'un tunnel et en y roulant.
+
+#1798
+E: Il est obligatoire de ralentir dans une zone de modération de la circulation.
+
+#1799
+E: Le véhicule de la photo est un véhicule composé à cabine au-dessus du moteur, de 16,50 mètres au plus.
+
+#1800
+E: La hauteur maximale d'un véhicule de transport de véhicules à deux plateaux, avec sa charge, est de 4,40 mètres.
+
+#1801
+E: Le panneau ס-130 signifie borne de recharge pour véhicule électrique.
+

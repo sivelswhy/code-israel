@@ -1,0 +1,420 @@
+#1202
+Q: Le conducteur d'un autobus peut-il refuser de laisser monter une poussette d'enfant ?
+1: Le conducteur doit toujours laisser monter une poussette.
+2: Oui, s'il n'y a pas de place pour la poussette à cause de l'affluence de passagers.
+3: Oui, quand il n'y a pas de place dans la soute de l'autobus.
+4: Oui, mais seulement une poussette pour un seul bébé (pas une poussette jumeaux).
+
+#1203
+Q: Est-il obligatoire d'installer dans l'autobus un avertisseur sonore de marche arrière ?
+1: Oui. Il faut installer un avertisseur qui se déclenche automatiquement à l'enclenchement de la marche arrière.
+2: Non, ce n'est pas obligatoire.
+3: Obligatoire uniquement dans un minibus public.
+4: Obligatoire uniquement dans un taxi.
+
+#1204
+Q: Quel panneau indique le nombre de kilomètres sur la route ?
+1: 630
+2: 612
+3: 611
+4: 629
+
+#1205
+Q: Une des exigences concernant l'équipement obligatoire d'un véhicule agréé pour le transport d'élèves est :
+1: Des feux clignotants, qui s'allument à chaque arrêt du véhicule.
+2: Des feux clignotants, qui s'allument chaque fois que les feux de détresse sont allumés.
+3: Des feux clignotants, qui doivent clignoter pendant tout le transport des élèves.
+4: Des feux clignotants spéciaux à l'avant et à l'arrière, qui s'allument à l'ouverture des portes.
+
+#1206
+Q: Comment signale-t-on un autobus qui doit obligatoirement stationner la nuit sur une route non urbaine ?
+1: Par un triangle de signalisation visible pour ceux qui arrivent derrière à au moins 100 mètres, et par l'allumage des feux de détresse de l'autobus.
+2: Il n'y a pas d'obligation de signalisation, mais il doit être remorqué immédiatement.
+3: Il sera signalé comme tout autre véhicule.
+4: Par un triangle de signalisation visible à 50 mètres et par un feu jaune clignotant visible à 100 mètres.
+
+#1207
+Q: Quand est-il obligatoire d'éclairer l'intérieur de l'autobus ?
+1: Pendant les heures d'éclairage.
+2: Pendant les heures d'éclairage – mais on peut n'allumer que près de la porte arrière.
+3: L'allumage de la lumière dans l'allée pendant les heures d'éclairage est laissé à l'appréciation du conducteur.
+4: Pendant 24 heures.
+
+#1208
+Q: Qui est responsable de la propreté intérieure de l'autobus ?
+1: Le régulateur de la société d'autobus.
+2: Le propriétaire du véhicule.
+3: Le détenteur du véhicule.
+4: Le conducteur de l'autobus.
+
+#1209
+Q: Est-il permis de fumer dans un autobus ?
+1: Permis – uniquement dans la partie arrière de l'autobus.
+2: Permis – uniquement en zone de routes urbaines.
+3: Permis – seulement quand la climatisation de l'autobus est arrêtée.
+4: Interdit – et il est même obligatoire d'afficher un panneau d'interdiction de fumer dans l'autobus.
+
+#1210
+Q: Circuler sur la voie réservée aux transports en commun est aussi permis au véhicule :
+1: D'une personne handicapée – même si elle n'est pas dans le véhicule.
+2: De toute personne handicapée possédant une vignette ordinaire de handicapé.
+3: D'une personne handicapée titulaire de la vignette de handicapé paralysé des jambes (fauteuil roulant).
+4: D'une personne handicapée titulaire d'une vignette de handicapé délivrée par le constructeur du véhicule.
+
+#1211
+Q: Le véhicule d'une personne handicapée (titulaire de la vignette de paralysé des jambes) peut circuler sur la voie réservée aux transports en commun :
+1: Même si c'est un accompagnant du handicapé qui conduit.
+2: Même quand la personne handicapée n'est pas dans le véhicule.
+3: Uniquement pour aller au garage.
+4: Uniquement quand la personne handicapée est celle qui conduit.
+
+#1212
+Q: Faut-il obéir aux instructions du personnel de service pendant un trajet en autobus ?
+1: Non, il n'y a pas d'obligation d'obéir au personnel de service.
+2: Non, il faut obéir seulement à un policier en uniforme.
+3: Oui, il faut obéir aux instructions du personnel de service.
+4: Non, il faut obéir seulement à un policier ou à un inspecteur municipal.
+
+#1213
+Q: Quelle est l'obligation du conducteur d'autobus en arrivant au terminus ?
+1: Il ne quitte l'autobus qu'après la descente du dernier passager.
+2: Il quitte l'autobus immédiatement après avoir coupé le moteur.
+3: Il quitte l'autobus, pourvu qu'il ne coupe pas la climatisation.
+4: Il annonce le terminus et peut quitter l'autobus immédiatement, sans attendre.
+
+#1214
+Q: Où installe-t-on le rétroviseur panoramique à l'intérieur de l'autobus ?
+1: À l'avant, de sorte que le conducteur puisse voir tous les passagers de l'autobus.
+2: Au milieu, de sorte que le conducteur puisse voir tous les passagers de l'autobus.
+3: Un rétroviseur panoramique n'est pas nécessaire : l'autobus a assez de rétroviseurs.
+4: À l'arrière, de sorte que le conducteur puisse voir tous les passagers de l'autobus.
+
+#1215
+Q: Est-il permis de transporter dans un autobus des explosifs ou une autre matière inflammable ?
+1: On ne peut faire entrer dans l'autobus que des réservoirs de carburant protégés selon la norme.
+2: On peut faire entrer dans l'autobus des explosifs ou des matières inflammables, à condition qu'ils soient protégés selon la norme.
+3: C'est permis – à la place de passagers sur la banquette arrière de l'autobus.
+4: C'est interdit.
+
+#1216
+Q: Un « véhicule de transport d'élèves » est :
+1: Tout véhicule qui transporte des élèves.
+2: Un autobus privé ou un véhicule public servant au transport d'élèves.
+3: Tout autobus inscrit dans une société de transport.
+4: Tout autobus et véhicule public sur une ligne de service.
+
+#1217
+Q: À qui faut-il remettre les objets perdus et trouvés dans un véhicule public ?
+1: À la police ou à un autre organisme selon l'arrangement fixé à l'avance avec le titulaire de la ligne de service.
+2: Au régulateur de la station de taxis de cette ligne de service.
+3: Au régulateur de la gare routière de cette ligne de service.
+4: À personne. Il faut trouver le propriétaire de l'objet perdu et le lui rendre.
+
+#1218
+Q: Est-il permis de faire descendre des passagers sur une voie rapide ?
+1: C'est permis.
+2: C'est permis, pendant les heures d'éclairage seulement.
+3: C'est interdit.
+4: C'est permis, mais seulement sur l'accotement et de jour.
+
+#1219
+Q: Quelle est la signification de ce panneau ?
+1: Rétrécissement temporaire de la chaussée devant vous.
+2: Vous pouvez augmenter votre vitesse, car vous avez atteint la sortie du tunnel.
+3: Attention, un grand fossé devant vous.
+4: Un tunnel sur la route devant vous.
+
+#1220
+Q: Le « transport d'élèves » en autobus est :
+1: Le transport d'enfants jusqu'à 16 ans.
+2: Tout transport d'enfants ou d'étudiants.
+3: Le transport d'enfants vers l'école ou vers une activité organisée de celle-ci, hors ligne de service.
+4: Tout transport d'enfants en autobus, même en ligne de service.
+
+#1221
+Q: Où installe-t-on les poubelles dans un taxi ?
+1: Près des portes, à gauche.
+2: Près du siège du conducteur et près du siège arrière.
+3: Près de chaque vitre du taxi.
+4: De part et d'autre des sièges arrière.
+
+#1222
+Q: Quand le conducteur doit-il allumer la « boîte » en position « libre » dans un taxi ?
+1: Seulement de jour et quand il y a des passagers dans le taxi.
+2: Seulement les jours de fête.
+3: Dans toute situation où il n'y a pas de passagers dans le taxi.
+4: Seulement en hiver et quand il y a des passagers dans le taxi.
+
+#1223
+Q: Qui est responsable de l'affichage des instructions de course et du tarif dans le taxi ?
+1: Le conducteur doit afficher les instructions du tableau, la notice et le prix fixés par l'autorité des permis.
+2: Le propriétaire et le conducteur sont responsables de l'affichage des instructions du tableau, de la notice et du prix fixé par le contrôleur des transports.
+3: Le propriétaire doit afficher les instructions du tableau, la notice et le prix fixés par l'autorité des permis.
+4: Le régulateur et le conducteur.
+
+#1224
+Q: Où s'arrête le conducteur d'un autobus circulant sur une ligne de service ?
+1: N'importe où près de la destination d'un passager qui le demande, mais seulement sur l'accotement.
+2: À tous les arrêts situés sur la route, à condition qu'ils soient ceux du prestataire de service.
+3: Aux arrêts approuvés par le contrôleur des transports dans l'autorisation de la ligne.
+4: N'importe où un passager lui demande de s'arrêter.
+
+#1225
+Q: Le permis d'un minibus privé indique qu'on peut y transporter jusqu'à 16 passagers en plus du conducteur. Un titulaire de permis de catégorie B, combien de passagers peut-il transporter dans ce minibus ?
+1: 8 passagers, en plus du conducteur.
+2: 14 passagers, conducteur compris.
+3: 12 passagers, en plus du conducteur.
+4: 18 passagers, en plus du conducteur.
+
+#1226
+Q: Qui est autorisé à réparer ou à étalonner un compteur de taxi ?
+1: Une personne que l'autorité a agréée comme prestataire de services agréé.
+2: Seul le fabricant du compteur peut réparer le compteur.
+3: Le constructeur du véhicule uniquement.
+4: Un électricien agréé.
+
+#1227
+Q: Où le chauffeur de taxi peut-il s'arrêter pour faire monter et descendre des passagers sur une route urbaine ?
+1: Uniquement à une station de taxis.
+2: Seulement aux endroits prévus et marqués à cet effet.
+3: N'importe où, y compris à un arrêt d'autobus.
+4: Partout où le stationnement est autorisé et aussi le long des bordures peintes en rouge et blanc, à condition que le taxi ne gêne pas la circulation.
+
+#1228
+Q: Le chauffeur de taxi peut-il faire une course de tournée ?
+1: Oui, tout chauffeur de taxi le peut.
+2: Oui. Tout chauffeur de taxi inscrit dans une station de taxis reconnue le peut.
+3: Oui, à condition d'avoir une autorisation du ministère du Tourisme.
+4: Oui, à condition d'être inscrit dans une agence de voyages.
+
+#1229
+Q: Où sont réservées les places pour agents de sécurité dans un autobus de ligne ?
+1: Sur un trajet non urbain – les deux sièges avant de part et d'autre de l'allée.
+2: Le siège double derrière la cloison du conducteur.
+3: Dans un autobus urbain – face à la porte arrière.
+4: Le siège après la porte avant et le siège après la porte arrière.
+
+#1230
+Q: Quelle est la longueur maximale autorisée d'un autobus à deux essieux ?
+1: 15,5 mètres ; et autobus articulé – 18,75 mètres.
+2: 13,5 mètres.
+3: 13 mètres ; et autobus articulé – 18 mètres.
+4: Il n'y a pas de limite, mais la longueur du porte-à-faux arrière ne dépassera pas trois mètres et demi.
+
+#1231
+Q: Quelle est la règle pour le transport de colis dans un autobus ?
+1: On peut transporter des colis s'ils ne gênent pas les passagers et ne leur causent pas de dommage.
+2: On peut transporter une marchandise liée au gagne-pain du passager.
+3: On peut transporter des colis lorsque le titulaire de la licence a décidé de consacrer la moitié de l'autobus au transport de marchandises.
+4: On peut transporter des colis contenant des matières dangereuses, pourvu qu'ils soient bien emballés et placés dans la soute de l'autobus.
+
+#1232
+Q: Un autobus est-il un lieu public au sens de la loi interdisant de fumer dans les lieux publics ?
+1: Seulement quand il y a plus de 15 passagers.
+2: Oui, mais seulement quand il y a plus de dix passagers.
+3: Non.
+4: Oui.
+
+#1233
+Q: Quel autobus doit avoir un ralentisseur de vitesse (retarder) ?
+1: Tout autobus autorisé à transporter 20 passagers ou plus.
+2: Tout autobus équipé d'un tachygraphe.
+3: Tout autobus dans lequel un ralentisseur a été installé à la fabrication.
+4: Un autobus dont le poids total est de 10 000 kg ou plus.
+
+#1234
+Q: Qu'est-ce que le chapeau d'identification (la « boîte ») sur un taxi ?
+1: Une boîte servant à ranger la trousse de premiers secours.
+2: Un dispositif sur le toit du taxi servant à l'identifier, doté d'un éclairage.
+3: Un dispositif qui enregistre sur un disque les données du trajet de l'autobus.
+4: Une boîte dans laquelle est installé le compteur du taxi et qui doit être éclairée pendant la course du taxi.
+
+#1235
+Q: Le conducteur d'un autobus peut-il rouler alors que l'une de ses portes est ouverte ?
+1: La conduite est permise, mais seulement quand l'autobus est vide de passagers.
+2: La conduite est permise, mais seulement quand le système de climatisation est défectueux.
+3: Il est interdit de rouler avec une porte ouverte.
+4: La conduite est permise, mais seulement quand l'autobus approche d'un passage à niveau.
+
+#1236
+Q: Un passager est-il tenu de céder à une personne handicapée la place qui lui est destinée dans un autobus où les places assises ont été marquées et réservées à l'avance ?
+1: Oui.
+2: Oui. La place d'une personne handicapée est toujours garantie.
+3: Oui – seulement dans une course spéciale.
+4: Non.
+
+#1237
+Q: Quelle est la signification de ce panneau ?
+1: Une descente raide de 2 500 mètres de long commence maintenant.
+2: Dans 2 500 mètres commencera une montée raide.
+3: Une descente raide commence environ 2 500 mètres devant vous.
+4: Fin d'un tronçon de descente de 2 500 mètres de long.
+
+#1238
+Q: La définition d'un « autobus » est :
+1: Un véhicule à moteur destiné à transporter des passagers contre rémunération sur les lignes de service indiquées sur le permis du véhicule uniquement.
+2: Un véhicule à moteur destiné à transporter huit passagers ou plus, en plus du conducteur, et indiqué comme autobus sur le permis du véhicule.
+3: Un véhicule à moteur destiné à transporter huit passagers, en plus du conducteur, et ayant un permis de véhicule valide.
+4: Tout véhicule autorisé à transporter plus de dix élèves.
+
+#1239
+Q: Le chauffeur de taxi peut-il fumer dans le taxi pendant la course ?
+1: Oui – dans une course spéciale uniquement.
+2: Non.
+3: Oui, à condition que tous les passagers y consentent.
+4: Oui, à condition que la climatisation soit arrêtée et les vitres ouvertes.
+
+#1240
+Q: Comment agit le conducteur d'autobus lorsqu'une bagarre éclate entre les passagers dans son véhicule ?
+1: Il rebrousse chemin vers la station de départ.
+2: Il ignore et poursuit sa route.
+3: Il conduit l'autobus au poste de police le plus proche ou s'adresse à un policier qu'il croise.
+4: Il arrête le véhicule et s'éloigne de l'autobus.
+
+#1241
+Q: Quel véhicule doit avoir un kit de sauvetage ?
+1: Uniquement le taxi et le véhicule du désert.
+2: Uniquement l'excursionniste (tiyoulit) et l'autobus de ligne interurbaine.
+3: Toute tiyoulit et tout autobus doivent avoir un kit de sauvetage.
+4: Uniquement l'autobus en course de tournée.
+
+#1242
+Q: Dans quel délai faut-il étalonner le compteur d'un taxi si la taille des pneus ou celle de pièces de la transmission a été modifiée ?
+1: 24 heures.
+2: Une semaine à compter de la fin de la réparation.
+3: Dans les 48 heures.
+4: Pas plus de six mois avant la date du réglage périodique du compteur.
+
+#1243
+Q: Dans quel type de véhicule l'éclairage intérieur doit-il fonctionner pendant les « heures d'éclairage » ?
+1: Dans l'autobus.
+2: Dans le taxi.
+3: Dans aucun type de véhicule : il ne faut pas allumer l'éclairage intérieur, car la lumière se reflète dans le pare-brise et gêne le conducteur.
+4: Dans tout véhicule utilitaire transportant des passagers contre rémunération.
+
+#1244
+Q: Le conducteur d'autobus peut-il fumer pendant la course ?
+1: Non.
+2: Non – sauf lors d'une course de tournée quand les passagers ne sont pas citoyens de l'État et avec leur accord.
+3: Oui. Le conducteur est séparé des autres passagers et peut donc fumer à tout moment.
+4: Non, sauf lors d'une course de tournée.
+
+#1245
+Q: Que risque un passager qui n'a pas présenté de titre de transport à la demande du contrôleur pendant le trajet ?
+1: Le passager n'a commis aucune infraction. C'est le conducteur qui n'a pas perçu le prix du transport qui a enfreint la loi.
+2: Il paiera un prix de transport double.
+3: Le contrôleur peut le faire descendre de l'autobus.
+4: Il paiera le prix du transport et une amende selon le type de course.
+
+#1246
+Q: Quand le conducteur ou le contrôleur n'autorisera-t-il pas un passager à monter dans l'autobus ?
+1: Quand il demande à voyager sur la distance d'un seul arrêt.
+2: Quand il a un billet de 100 ₪ et que le prix du trajet n'est que de 12 ₪.
+3: Quand le passager porte aux pieds un engin servant à glisser ou à patiner.
+4: Quand il veut faire monter un chien ou un autre animal.
+
+#1247
+Q: Un taxi destiné aux courses spéciales peut-il faire une course de service ?
+1: C'est interdit en toute circonstance.
+2: C'est permis – par l'intermédiaire d'une société titulaire d'une licence pour cette ligne de service, et avec l'autorisation écrite de cette société.
+3: Oui. Tout taxi peut faire une course de service.
+4: C'est permis si la course du taxi se termine loin de sa station – pour éviter une course à vide.
+
+#1248
+Q: Quelle est la règle concernant le transport d'un fauteuil roulant dans un taxi ?
+1: La station de service fixe les conditions de transport du fauteuil et son prix.
+2: On ne perçoit aucun prix pour le transport du fauteuil, mais le chauffeur peut refuser d'en transporter plus d'un.
+3: C'est permis, mais le prix du transport du fauteuil sera la moitié du prix normal de la course.
+4: Le contrôleur des transports fixe le prix du transport du fauteuil roulant et les conditions de transport.
+
+#1249
+Q: Quelles sont les conditions d'exploitation d'un taxi à l'aéroport Ben Gourion ?
+1: Tout chauffeur de taxi peut transporter des passagers depuis l'aéroport Ben Gourion.
+2: Il n'y a pas d'autorisation de transporter des passagers depuis l'aéroport Ben Gourion, sauf en coordonnant précisément les horaires avec eux.
+3: Le taxi n'opère qu'en coordination avec le passager qui a besoin du transport, y compris les heures de décollage et d'atterrissage.
+4: Seul un taxi ayant une autorisation de l'autorité peut opérer à l'aéroport, et seulement selon les conditions de l'autorisation, y compris la mise en attente et le stationnement du taxi.
+
+#1250
+Q: L'autorité peut-elle suspendre la licence de transport d'un taxi ?
+1: Oui. L'autorité peut le faire, mais seulement sur ordre d'un tribunal.
+2: Non, seul un tribunal peut suspendre la licence du taxi.
+3: Oui, elle le peut, si le titulaire de la licence ne s'est pas présenté au lieu et à l'heure où l'autorité l'a convoqué.
+4: Non. L'autorité ne peut suspendre aucune licence.
+
+#1251
+Q: À quelle condition le conducteur d'un autobus autorise-t-il le transport d'une marchandise ?
+1: Si la marchandise est liée au gagne-pain du passager.
+2: Si la marchandise est dans un emballage de sécurité.
+3: Quand la marchandise ne gêne pas les passagers et ne leur cause pas de dommage.
+4: Si la marchandise est une seule unité de trois mètres de long au plus.
+
+#1252
+Q: Les dispositions du règlement applicables aux passagers d'autobus s'appliquent-elles aussi aux passagers de taxis ?
+1: Oui, mais uniquement sur un trajet non urbain.
+2: Oui, mais uniquement sur les courses de service.
+3: Oui.
+4: Non.
+
+#1253
+Q: Qui fixe le prix du transport en taxi ?
+1: Le ministre des Transports – par arrêté de contrôle des denrées et des services.
+2: L'organisation nationale des chauffeurs de taxi.
+3: Le contrôleur des transports – par arrêté spécial.
+4: Le directeur de l'autorité des permis.
+
+#1254
+Q: Qui fixe le prix du transport pour une course spéciale en taxi ?
+1: L'organisation nationale des chauffeurs de taxi.
+2: Le ministre des Transports.
+3: Le ministre de l'Industrie, du Commerce et de l'Emploi.
+4: Le ministre des Finances – par arrêté spécial.
+
+#1255
+Q: Quel supplément s'ajoute à une course de service en taxi entre 23h31 et 04h59 ?
+1: 50 pour cent.
+2: 25 pour cent.
+3: 12,5 pour cent.
+4: 18 pour cent.
+
+#1256
+Q: Quel organisme autorise et effectue le transfert de propriété d'une licence d'exploitation de taxi ?
+1: L'autorité des permis.
+2: Le contrôleur des transports.
+3: L'autorité des transports publics et des chemins de fer.
+4: Le transfert de propriété d'une licence de service ne nécessite pas d'autorisation – cela contredit la liberté d'occupation.
+
+#1257
+Q: L'arrêt est-il permis à un taxi pour faire monter ou descendre des passagers dans la zone du panneau devant vous ?
+1: Oui, mais seulement sur route urbaine et à condition de ne pas gêner la circulation.
+2: Non.
+3: Oui, mais seulement la nuit.
+4: Oui, quand un panneau indique un arrêt d'autobus.
+
+#1258
+Q: L'entrée est-elle permise à un autobus d'auto-école lorsque le panneau devant vous est placé ?
+1: Oui, sauf un véhicule dont le poids total dépasse 10 000 kg.
+2: Oui.
+3: Non.
+4: Non, sauf les autobus des sociétés d'autobus ayant obtenu une autorisation de la mairie.
+
+#1259
+Q: L'entrée de la route où ce panneau est placé est-elle permise à un autobus sans passagers ?
+1: Non, car il n'a pas le nombre de passagers exigé par le panneau.
+2: Oui, car la circulation est permise à tous les véhicules.
+3: Non, car un autobus sans passagers n'est pas utilisé comme autobus.
+4: Oui.
+
+#1260
+Q: L'entrée de la route où ce panneau est placé est-elle permise à un taxi sans passagers ?
+1: Oui, car le panneau permet l'entrée à tout véhicule.
+2: Non, car un taxi sans passagers n'est pas utilisé comme taxi.
+3: Oui.
+4: Non, car il n'a pas le nombre de passagers exigé par le panneau.
+
+#1261
+Q: L'entrée de la route où ce panneau est placé est-elle permise à un minibus ?
+1: Non, car il n'a pas le nombre de passagers exigé par le panneau.
+2: Oui.
+3: Oui, car le panneau permet l'entrée à tout véhicule.
+4: Non, car un minibus n'est pas un autobus.
+

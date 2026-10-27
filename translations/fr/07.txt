@@ -1,0 +1,419 @@
+#0421
+Q: Comment faut-il se comporter sur le tronçon où ce panneau est placé ?
+1: Ralentir et appliquer les règles de priorité et les panneaux placés à l'intersection.
+2: Traverser l'intersection rapidement en surveillant les véhicules qui arrivent de droite.
+3: S'arrêter dans tous les cas avant l'intersection et ne passer que si elle est libre.
+4: Ralentir et céder le passage uniquement aux véhicules venant de droite.
+
+#0422
+Q: Ce panneau est placé sur la route devant vous. Impose-t-il de céder le passage ?
+1: Oui. À l'intersection où il est placé, la priorité appartient aux véhicules qui continuent tout droit.
+2: Non. Seules les règles de priorité de la loi ou les panneaux placés à l'intersection déterminent qui doit céder le passage.
+3: Non. À l'intersection où il est placé, seuls les véhicules de transport public ont la priorité.
+4: Oui. À l'intersection où il est placé, on cède le passage uniquement aux véhicules venant de droite.
+
+#0423
+Q: Que signifie ce panneau ?
+1: Panneau d'information : intersection décalée vers la droite.
+2: À l'intersection, allez uniquement à droite.
+3: Panneau interdisant de tourner à droite.
+4: Intersection en T à droite.
+
+#0424
+Q: Comment faut-il se comporter sur le tronçon où ce panneau est placé ?
+1: Celui qui va tout droit continue en s'assurant que les véhicules qui approchent lui cèdent le passage.
+2: Il faut toujours s'arrêter avant l'intersection et céder le passage aux véhicules venant de droite qui veulent tourner à gauche.
+3: Il faut ralentir et céder le passage aux véhicules qui arrivent en face.
+4: Il faut appliquer les règles de priorité et les panneaux placés à l'intersection.
+
+#0425
+Q: Le panneau placé devant vous précise-t-il les règles de priorité ?
+1: Oui. À l'intersection où il est placé, seuls les véhicules de transport public ont la priorité.
+2: Non. Ce sont les règles de priorité de la loi ou les panneaux placés à l'intersection qui déterminent qui doit céder le passage.
+3: Non. Les règles de priorité dépendent de la densité de la circulation.
+4: Oui. À l'intersection où il est placé, seuls les véhicules qui continuent tout droit ont la priorité.
+
+#0426
+Q: Que signifie ce panneau ?
+1: Intersection en T devant vous.
+2: Voie sans issue devant vous.
+3: Cédez le passage aux véhicules de la route transversale.
+4: Panneau d'obligation : allez uniquement à droite.
+
+#0427
+Q: Où ce panneau est-il placé ?
+1: Dans l'intersection.
+2: Après l'intersection.
+3: À une distance raisonnable avant l'intersection.
+4: L'emplacement du panneau n'a pas d'importance.
+
+#0428
+Q: Que signifie ce panneau ?
+1: Intersections en T : d'abord à droite, puis à gauche.
+2: Intersection en T à gauche puis intersection en T à droite devant vous.
+3: Avertissement d'un virage serré à droite suivi d'un virage serré à gauche.
+4: Cédez le passage au véhicule venant de droite, puis à celui venant de gauche.
+
+#0429
+Q: Le panneau placé devant vous précise-t-il les règles de priorité ?
+1: Non. Seules les règles de priorité de la loi ou les panneaux placés à l'intersection déterminent qui doit céder le passage.
+2: Oui. Selon ce panneau, on cède le passage uniquement au véhicule venant de droite.
+3: Oui. On cède le passage aux véhicules venant de droite et de gauche.
+4: Oui. Vous avez la priorité, car vous êtes sur la route principale.
+
+#0430
+Q: Que signifie ce panneau ?
+1: Contournez le giratoire par la gauche.
+2: Carrefour giratoire devant vous.
+3: Les conducteurs qui sont dans le giratoire doivent vous céder le passage quand vous y entrez.
+4: Pas de priorité au prochain carrefour.
+
+#0431
+Q: Comment conduisez-vous selon ce panneau ?
+1: Entrez prudemment dans le giratoire, car vous avez la priorité.
+2: Ralentissez avant le giratoire et préparez-vous à devoir vous arrêter.
+3: Faites attention à la circulation venant de droite dans le giratoire.
+4: Arrêtez-vous avant d'entrer dans le giratoire, puis traversez-le rapidement.
+
+#0432
+Q: Que signifie ce panneau ?
+1: Panneau mobile devant vous.
+2: Attention, feux tricolores devant vous.
+3: Continuez à la même vitesse.
+4: Accélérez pour dégager l'intersection.
+
+#0433
+Q: Comment conduisez-vous selon ce panneau ?
+1: Arrêtez-vous toujours avant l'intersection à feux.
+2: Ignorez-le : il ne concerne que les conducteurs de véhicules de transport public.
+3: Continuez prudemment et agissez selon la couleur du feu.
+4: Accélérez lorsque le panneau affiche l'orange.
+
+#0434
+Q: Que signifie ce panneau ?
+1: Cédez le passage à la circulation de la route qui vous rejoint par la droite.
+2: Une route latérale rejoint par la droite la chaussée prioritaire (on peut tourner vers la route latérale).
+3: Vous approchez de l'endroit où une route latérale vous rejoint par la droite (on ne peut pas tourner vers elle) ; ceux qui y circulent doivent vous céder le passage.
+4: Intersection en croix devant vous.
+
+#0435
+Q: Comment conduisez-vous selon ce panneau ?
+1: Changez de voie pour laisser s'insérer les véhicules venant de droite.
+2: Cédez le passage aux véhicules qui s'insèrent par la droite.
+3: Continuez votre route en surveillant les véhicules qui vous rejoignent par la gauche ; ils doivent vous céder le passage.
+4: Ralentissez et cédez le passage aux véhicules qui s'insèrent par la droite.
+
+#0436
+Q: Que signifie ce panneau ?
+1: Vous rejoignez une chaussée venant de gauche : cédez le passage et ne tournez pas à gauche.
+2: Il faut toujours s'arrêter et céder le passage à la circulation qui vous rejoint par la droite.
+3: Intersection en T ; on peut tourner vers la route latérale.
+4: Voie sans issue devant vous ; l'entrée y est interdite.
+
+#0437
+Q: Comment conduisez-vous selon ce panneau ?
+1: Vous êtes sur une voie d'accélération : insérez-vous rapidement dans le flot de véhicules de la route où vous entrez.
+2: Accélérez : les véhicules de la route où vous entrez doivent vous céder le passage.
+3: Cédez le passage et insérez-vous prudemment dans la circulation de la route à votre gauche.
+4: Cédez le passage aux véhicules de la route transversale, dans les deux sens.
+
+#0438
+Q: Ce panneau concerne-t-il la priorité ?
+1: Non. C'est un panneau de danger qui ne remplace pas les panneaux de priorité.
+2: Non. Seuls les panneaux d'obligation imposent de céder le passage.
+3: Non. Ce panneau fait partie des panneaux d'obligation et n'impose pas de céder le passage.
+4: Oui. Vous devez céder le passage aux véhicules de la route devant vous.
+
+#0439
+Q: Que signifie ce panneau ?
+1: Attention, ouvriers sur la chaussée.
+2: Attention, risque de dérapage.
+3: Attention ! Gardez vos distances.
+4: Embouteillage devant vous (panneau lumineux).
+
+#0440
+Q: Comment conduisez-vous selon ce panneau ?
+1: Préparez-vous à ralentir, surveillez l'embouteillage et adaptez votre conduite à la circulation et à l'état de la route.
+2: Accélérez et dépassez les véhicules qui roulent lentement.
+3: Suivez les instructions des ouvriers et avancez selon le marquage.
+4: Continuez votre route en surveillant le comportement des véhicules à votre droite.
+
+#0441
+Q: Que signifie ce panneau ?
+1: Passage à niveau.
+2: Passage à niveau à plusieurs voies ferrées.
+3: Panneau de danger avant une gare.
+4: Panneau de danger à 500 mètres d'un passage à niveau.
+
+#0442
+Q: Comment conduisez-vous selon ce panneau ?
+1: En approchant de la voie ferrée, klaxonnez, ouvrez la vitre et écoutez le bruit du train.
+2: Arrêtez-vous toujours avant la voie ferrée, regardez à droite et à gauche, puis continuez.
+3: Ralentissez de façon à pouvoir vous arrêter avant la voie ferrée.
+4: Traversez rapidement la voie ferrée.
+
+#0443
+Q: Qu'impose ce panneau ?
+1: Céder le passage à la circulation de la route transversale devant vous.
+2: S'arrêter et recevoir la priorité de la circulation de la route transversale.
+3: Céder le passage uniquement aux véhicules venant de droite.
+4: Les conducteurs de la route transversale doivent vous céder le passage.
+
+#0444
+Q: La vitesse raisonnable sur une voie rapide est :
+1: une vitesse qui n'est jamais inférieure à la vitesse maximale autorisée.
+2: la vitesse qui vous donne la plus grande autonomie, à condition de ne pas dépasser la vitesse maximale.
+3: une vitesse qui tient compte de la circulation et ne dépasse pas la vitesse maximale autorisée sur cette route.
+4: la vitesse que choisit le conducteur, à condition de ne pas dépasser la vitesse maximale.
+
+#0445
+Q: Que signifie ce panneau ?
+1: Gare de trains de voyageurs.
+2: Attention ! Trolleybus devant vous.
+3: Attention ! Un tramway (train léger) traverse la route devant vous, dans les deux sens.
+4: Attention ! Passage à niveau.
+
+#0446
+Q: Comment conduisez-vous selon ce panneau ?
+1: Ralentissez et respectez les règles de priorité dans la zone de traversée.
+2: Conduisez prudemment ; il est interdit de traverser la voie d'un tramway.
+3: Arrêtez-vous et cédez le passage au tramway.
+4: Roulez normalement : vous avez la priorité dans la zone de traversée.
+
+#0447
+Q: Vous roulez sur une chaussée. À votre gauche est tracée une ligne continue, et à gauche de celle-ci une ligne discontinue :
+1: Vous pouvez franchir les lignes, mais le véhicule venant en face ne le peut pas.
+2: Vous pouvez franchir les lignes avec deux roues seulement.
+3: Il vous est interdit de franchir la ligne de séparation.
+4: Vous pouvez franchir les lignes avec prudence.
+
+#0448
+Q: Comment conduisez-vous selon ce panneau ?
+1: Passez un rapport bas, à cause d'une descente dangereuse.
+2: Arrêtez-vous et prenez un autre itinéraire.
+3: Préparez-vous à freiner, à vous déporter ou à vous arrêter, à cause de chutes de pierres.
+4: Accélérez pour ne pas être touché par les chutes de pierres.
+
+#0449
+Q: Que signifie ce panneau ?
+1: Passage à niveau devant vous (à environ 300 mètres).
+2: Passage à niveau devant vous (à environ 30 mètres).
+3: Passage à niveau devant vous (à environ 100 mètres).
+4: Passage à niveau devant vous (à environ 150 mètres).
+
+#0450
+Q: Comment conduisez-vous selon ce panneau ?
+1: Arrêtez-vous à deux mètres de la voie ferrée pour vérifier si un train approche.
+2: Accélérez et traversez vite la voie ferrée.
+3: Ralentissez et préparez-vous à devoir vous arrêter avant la voie ferrée.
+4: Si vous voyez les phares d'un train, arrêtez-vous à 30 mètres de la voie ferrée.
+
+#0451
+Q: Que signifie ce panneau ?
+1: Approche d'un passage à niveau, à environ 250 mètres.
+2: Approche d'un passage à niveau, à environ 200 mètres.
+3: Approche d'un passage à niveau, à environ 70 mètres.
+4: Arrêt interdit dans les 120 mètres avant la voie ferrée.
+
+#0452
+Q: Comment conduisez-vous selon ce panneau ?
+1: Arrêtez-vous à 12 mètres de la voie ferrée pour vérifier si un train approche.
+2: Si vous voyez les phares d'un train, arrêtez-vous à 20 mètres du passage.
+3: Ralentissez et préparez-vous à un éventuel arrêt avant le passage.
+4: Accélérez et traversez vite la voie ferrée.
+
+#0453
+Q: Que signifie ce panneau ?
+1: Approche d'un passage à niveau, à environ 100 mètres.
+2: Si vous voyez les phares d'un train, arrêtez-vous à six mètres de la voie ferrée.
+3: Approche d'un passage à niveau, à environ 250 mètres.
+4: Approche d'un passage à niveau, à environ 170 mètres.
+
+#0454
+Q: Comment conduisez-vous selon ce panneau ?
+1: Ralentissez et préparez-vous à vous arrêter avant le passage à niveau si nécessaire.
+2: Ralentissez et arrêtez-vous : voie ferrée à 50 mètres.
+3: Approche d'un passage à niveau, à environ 250 mètres.
+4: Arrêtez-vous toujours à un mètre du passage à niveau.
+
+#0455
+Q: Que signifie ce panneau ?
+1: Le dépassement est interdit depuis ce panneau jusqu'après le passage à niveau.
+2: Accélérez et traversez la voie ferrée le plus vite possible ; terminez le dépassement après le passage.
+3: Si vous voyez les phares d'un train, arrêtez-vous à 20 mètres de la voie ferrée et ne tentez pas de dépasser.
+4: Arrêtez-vous à au moins un mètre de la voie ferrée pour vérifier qu'aucun véhicule ne tente de vous dépasser.
+
+#0456
+Q: Que signifie ce panneau ?
+1: Emplacement d'un passage à niveau : une seule voie ferrée.
+2: Emplacement d'un passage à niveau : deux voies ferrées.
+3: Intersection en croix devant vous.
+4: Chantier sur la chaussée.
+
+#0457
+Q: Comment conduisez-vous selon ce panneau ?
+1: Ralentissez de façon à pouvoir vous arrêter avant le passage.
+2: Préparez-vous à vous arrêter avant l'intersection.
+3: Quand les feux de la barrière clignotent, accélérez et franchissez le croisement.
+4: Arrêtez-vous dans tous les cas avant la voie ferrée.
+
+#0458
+Q: Comment faut-il conduire depuis ce panneau jusqu'après la voie ferrée ?
+1: Céder le passage à la circulation venant en sens inverse.
+2: S'arrêter après le panneau et regarder à gauche et à droite.
+3: Ralentir et franchir la voie ferrée d'une traite, sans s'attarder ; ne jamais s'arrêter sur les rails.
+4: Franchir la voie ferrée rapidement.
+
+#0459
+Q: Que signifie ce panneau ?
+1: Vous approchez d'une gare.
+2: Emplacement d'un passage à niveau : plusieurs voies ferrées.
+3: Attention ! Barrière de passage à niveau.
+4: Emplacement d'un passage à niveau ; trains dans les deux sens.
+
+#0460
+Q: Comment faut-il conduire depuis ce panneau jusqu'après la voie ferrée ?
+1: S'arrêter et attendre les instructions d'un agent ou signaleur.
+2: Ralentir, vérifier qu'on peut franchir les voies d'une traite sans s'arrêter ; ne pas s'arrêter sur les rails.
+3: Ralentir et s'arrêter avant la voie ferrée jusqu'au passage du train.
+4: Franchir la voie ferrée rapidement.
+
+#0461
+Q: Que signifie ce panneau ?
+1: Panneau « Cédez le passage » plus loin.
+2: Priorité dans le giratoire devant vous.
+3: Carrefour giratoire devant vous, à 150 mètres.
+4: Panneau « Stop » plus loin.
+
+#0462
+Q: Quel panneau sera placé à l'intersection après le panneau 139 de l'illustration ?
+1: 302
+2: 301
+3: 303
+4: 307
+
+#0463
+Q: Comment conduisez-vous selon ce panneau ?
+1: Préparez-vous à arrêter votre véhicule dans environ 300 mètres.
+2: Préparez-vous à vous arrêter plus loin : l'arrêt y est obligatoire.
+3: Arrêtez-vous avant le panneau.
+4: Cédez le passage au véhicule qui se trouve dans le giratoire.
+
+#0464
+Q: Que signifie ce panneau ?
+1: Voie sans issue.
+2: Descente dangereuse.
+3: Montée raide.
+4: Montée dangereuse.
+
+#0465
+Q: Comment faut-il conduire selon ce panneau ?
+1: Ralentir et passer un rapport bas ; éviter d'utiliser les freins de façon prolongée.
+2: Accélérer et passer un rapport élevé.
+3: Utiliser uniquement les freins.
+4: Accélérer dans la montée en passant un rapport élevé.
+
+#0466
+Q: Que signifie ce panneau ?
+1: Chaussée glissante (risque de dérapage).
+2: Virage à gauche puis à droite.
+3: Roulez bien au centre de la chaussée.
+4: Chaussée déformée.
+
+#0467
+Q: Comment conduisez-vous selon ce panneau ?
+1: Roulez vite sur la voie de droite.
+2: Passez un rapport élevé.
+3: Ralentissez en douceur et évitez les freinages brusques et les virages serrés.
+4: Roulez sur la voie de droite et dépassez rapidement.
+
+#0468
+Q: Que signifie ce panneau ?
+1: Attention ! Enfants à proximité.
+2: Attention ! Chemin pour piétons.
+3: Passage réservé aux enfants.
+4: Passage pour piétons devant vous.
+
+#0469
+Q: Comment conduisez-vous selon ce panneau ?
+1: Arrêtez-vous toujours et laissez les enfants et les personnes âgées atteindre le passage et traverser en sécurité.
+2: Ralentissez et faites attention aux piétons qui traversent sur le passage devant vous.
+3: Arrêtez-vous et laissez les enfants qui traversent terminer leur traversée.
+4: Continuez même si des piétons traversent.
+
+#0470
+Q: Quel panneau suivra le panneau 135 de l'illustration ?
+1: 226
+2: 901
+3: 413
+4: 306
+
+#0471
+Q: Que signifie ce panneau ?
+1: Passage réservé aux enfants.
+2: Piétons à proximité.
+3: Enfants à proximité.
+4: Chemin pour piétons.
+
+#0472
+Q: Comment conduisez-vous selon ce panneau ?
+1: Cédez le passage à la circulation venant en sens inverse.
+2: Ralentissez et soyez prêt à freiner ou à vous déporter à cause des piétons présents.
+3: Klaxonnez longuement avant le panneau.
+4: Accélérez et franchissez rapidement l'endroit.
+
+#0473
+Q: Que signifie ce panneau ?
+1: Vous devez céder le passage au conducteur venant en face.
+2: Circulation à double sens sur la chaussée devant vous.
+3: Vous avez la priorité sur la circulation venant en sens inverse.
+4: Entrée en agglomération.
+
+#0474
+Q: Comment conduisez-vous selon ce panneau ?
+1: Accélérez sur le tronçon étroit.
+2: Restez sur la voie de droite, car le dépassement est interdit.
+3: Serrez à droite de la chaussée et surveillez la circulation venant en sens inverse.
+4: Conduisez normalement : ceux qui viennent en face doivent vous céder le passage.
+
+#0475
+Q: Que signifie ce panneau ?
+1: Attention ! Descente dangereuse.
+2: Cédez le passage à tous les véhicules.
+3: Attention, radar de vitesse devant vous.
+4: Endroit dangereux pour lequel il n'existe pas de panneau particulier.
+
+#0476
+Q: Comment conduisez-vous selon ce panneau ?
+1: Cédez le passage aux véhicules et aux piétons.
+2: Franchissez rapidement le tronçon.
+3: Ralentissez et soyez très prudent ; préparez-vous à un éventuel freinage d'urgence.
+4: Ralentissez et passez au point mort.
+
+#0477
+Q: Un panneau de forme ronde est en général :
+1: un panneau d'information.
+2: un panneau de direction.
+3: un panneau d'obligation ou d'interdiction.
+4: un panneau de danger.
+
+#0478
+Q: Qui est responsable à tout moment du bon état du véhicule ?
+1: Le propriétaire enregistré et le conducteur.
+2: La compagnie d'assurance.
+3: Le constructeur ou l'importateur du véhicule.
+4: Le bureau des permis.
+
+#0479
+Q: Un véhicule vous dépasse quand soudain un autre véhicule arrive en face. Vous devez :
+1: klaxonner pour avertir le conducteur qui dépasse.
+2: vous serrer le plus possible à droite et ne pas accélérer.
+3: vous arrêter immédiatement et complètement sur la voie de droite.
+4: accélérer pour sortir de la zone de danger.
+
+#0480
+Q: Près d'un groupe d'enfants, le conducteur doit :
+1: ralentir, être prêt à s'arrêter et s'arrêter si nécessaire.
+2: s'arrêter complètement tant que les enfants sont près de la chaussée.
+3: continuer à vitesse normale si les trottoirs sont larges.
+4: continuer à vitesse normale en klaxonnant pour avertir.

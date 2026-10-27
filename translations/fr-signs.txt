@@ -1,0 +1,203 @@
+# Signification des panneaux (tableau officiel israélien de 2010, numérotation de la banque de questions).
+# Source hébraïque : Wikipédia hébreu « תמרורים בישראל », reprenant le texte du tableau officiel.
+# Format : numéro | catégorie | signification en français
+101 | Danger | Chaussée déformée.
+102 | Danger | Virage serré à droite.
+103 | Danger | Virage serré à gauche.
+104 | Danger | Virage à droite puis à gauche.
+105 | Danger | Virage à gauche puis à droite.
+106 | Danger | Route sinueuse.
+107 | Danger | Virage serré (à gauche) : suivez la direction des flèches du panneau et passez devant le panneau.
+108 | Danger | Virage serré (à droite) : suivez la direction des flèches du panneau et passez devant le panneau.
+109 | Danger | Chaussée rétrécie des deux côtés.
+110 | Danger | Chaussée rétrécie par la droite.
+111 | Danger | Chaussée rétrécie par la gauche.
+112 | Danger | Passage étroit ou obstacle. Placé d'un seul côté de la route, il signale un obstacle de ce côté ; les bandes obliques descendent vers le centre de la voie voisine.
+113 | Danger | Hauteur limitée : passage d'une hauteur inférieure à 4,80 m.
+114 | Danger | Intersection en croix.
+115 | Danger | Intersection en T à droite.
+116 | Danger | Intersection en T à gauche.
+117 | Danger | Intersection en T.
+118 | Danger | Intersection en T : suivez les directions des flèches du panneau et passez devant le panneau.
+119 | Danger | Intersection en T à droite puis à gauche.
+120 | Danger | Intersection en T à gauche puis à droite.
+121 | Danger | Carrefour giratoire.
+122 | Danger | Feux tricolores.
+123 | Danger | Une route latérale venant de droite rejoint la chaussée prioritaire ; pas de virage possible vers la route latérale.
+124 | Danger | Une route latérale venant de gauche rejoint la chaussée prioritaire ; pas de virage possible vers la route latérale.
+125 | Danger | Vous rejoignez une chaussée prioritaire venant de droite ; pas de virage à droite.
+126 | Danger | Vous rejoignez une chaussée prioritaire venant de gauche ; pas de virage à gauche.
+127 | Danger | Embouteillage devant vous.
+127פ | Danger | Embouteillage devant vous (panneau à message variable).
+128 | Danger | Traversée d'un tramway (train léger).
+129 | Danger | Passage à niveau.
+130 | Danger | Passage à niveau à environ 300 mètres.
+131 | Danger | Passage à niveau à environ 200 mètres.
+132 | Danger | Passage à niveau à environ 100 mètres.
+133 | Danger | Emplacement du passage à niveau : une seule voie ferrée.
+134 | Danger | Emplacement du passage à niveau : plusieurs voies ferrées.
+135 | Danger | Passage pour piétons à proximité.
+136 | Danger | Piétons à proximité.
+137 | Danger | Cyclistes à proximité.
+138 | Danger | Tunnel.
+139 | Danger | Panneau « Stop » (302) plus loin sur la route.
+140 | Danger | Descente dangereuse.
+141 | Danger | Chaussée glissante (risque de dérapage).
+142 | Danger | Chute de pierres par la droite.
+143 | Danger | Chute de pierres par la gauche.
+144 | Danger | Ralentisseurs.
+145 | Danger | Circulation à double sens.
+146 | Danger | Animaux.
+147 | Danger | Traversée d'engins de chantier ou de tracteurs.
+148 | Danger | Balises de guidage au bord de la chaussée : catadioptre carré = côté droit de la chaussée ; deux catadioptres ronds = côté gauche.
+149 | Danger | Balise de guidage ou de séparation, noir et blanc ou jaune et blanc.
+150 | Danger | Endroit dangereux pour lequel il n'existe pas de panneau particulier.
+151 | Danger | Accident.
+152 | Danger | Vent latéral.
+153 | Danger | Passage à gué (traversée d'eau).
+201 | Obligation | Allez tout droit ou à droite. Une flèche jaune indique la direction réservée aux transports en commun (panneau 501). Le demi-tour à droite est permis sauf interdiction par un autre panneau.
+202 | Obligation | Allez tout droit ou à gauche. Une flèche jaune indique la direction réservée aux transports en commun (panneau 501). Le demi-tour à gauche est permis sauf interdiction par un autre panneau.
+203 | Obligation | Allez tout droit (ou dans le sens de la flèche si elle est oblique). Le demi-tour est interdit.
+204 | Obligation | Tournez à droite avant le panneau. Placé au-dessus d'un feu, le feu règle le mouvement autorisé. Le demi-tour à droite est permis sauf interdiction.
+205 | Obligation | Tournez à gauche avant le panneau. Placé au-dessus d'un feu, le feu règle le mouvement autorisé. Le demi-tour à gauche est permis sauf interdiction.
+206 | Obligation | Tournez à droite après le panneau. Le demi-tour à droite est permis sauf interdiction.
+207 | Obligation | Tournez à gauche après le panneau. Le demi-tour à gauche est permis sauf interdiction.
+208 | Obligation | Tournez à droite ou à gauche. Le demi-tour est permis sauf interdiction par un autre panneau.
+209 | Obligation | Allez tout droit ou faites demi-tour par la droite ; le demi-tour par la gauche est interdit.
+210 | Obligation | Allez tout droit ou faites demi-tour par la gauche ; le demi-tour par la droite est interdit.
+211 | Obligation | Faites demi-tour par la droite.
+212 | Obligation | Faites demi-tour par la gauche.
+213 | Obligation | Contournez l'endroit signalé par la droite ou par la gauche.
+214 | Obligation | Contournez l'endroit signalé par la droite.
+215 | Obligation | Contournez l'endroit signalé par la gauche.
+216 | Obligation | Entrée d'une voie rapide : interdite aux piétons, vélos, charrettes à bras, animaux et à tout véhicule incapable ou non autorisé de rouler à au moins 60 km/h (ou à la vitesse du panneau 218 placé avant l'entrée).
+217 | Obligation | Fin de la voie rapide.
+218 | Obligation | Route réservée aux véhicules à moteur capables et autorisés de rouler au moins à la vitesse indiquée (km/h).
+219 | Obligation | Route réservée aux véhicules à moteur.
+220 | Obligation | Zone résidentielle (rue partagée).
+221 | Obligation | Fin de la zone résidentielle.
+222 | Obligation | Zone de circulation apaisée.
+223 | Obligation | Fin de la zone de circulation apaisée.
+224 | Obligation | Voie cyclable à sens unique : circulation uniquement dans le sens indiqué par le marquage 804.
+225 | Obligation | Fin de la voie cyclable.
+226 | Obligation | Chemin réservé aux piétons.
+227 | Obligation | Piste cyclable.
+228 | Obligation | Chemin partagé entre piétons et cyclistes.
+229 | Obligation | Chemin séparé pour les piétons et piste séparée pour les cyclistes.
+230 | Obligation | Route ou voie à péage : circulation permise à qui paie le péage. Exonérés : autobus, véhicule transportant au moins le nombre de personnes indiqué, véhicule allant au parking-relais attenant, ou qui dépose/prend des passagers sans continuer, si c'est indiqué.
+231 | Obligation | Fin de la route ou de la voie à péage.
+301 | Priorité | Cédez le passage à la circulation sur la route transversale, y compris sur la voie ferrée.
+302 | Priorité | Stop ! Arrêtez-vous et cédez le passage à la circulation sur la route transversale, y compris sur la voie ferrée.
+303 | Priorité | Carrefour giratoire : cédez le passage à la circulation qui croise votre route dans le giratoire ou sur la voie ferrée ; contournez le centre du giratoire par la droite.
+304 | Priorité | Stop ! (panneau mobile).
+305 | Priorité | Avancez avec prudence (panneau mobile).
+306 | Priorité | Cédez le passage aux piétons qui traversent.
+307 | Priorité | Dans le passage étroit, cédez le passage à la circulation venant en sens inverse.
+308 | Priorité | Dans le passage étroit, vous avez la priorité sur la circulation venant en sens inverse.
+309 | Priorité | Vous êtes sur une route prioritaire.
+310 | Priorité | Fin de la route prioritaire.
+401 | Interdiction | Route fermée à tous les véhicules dans les deux sens. Placé au-dessus d'un feu : interdiction d'aller tout droit.
+402 | Interdiction | Accès interdit à tout véhicule (sens interdit).
+403 | Interdiction | Barrière : la route est fermée. Si un panneau indique une direction, on ne peut avancer que dans cette direction.
+404 | Interdiction | Barrière avant un passage à niveau : quand elle descend, monte ou est horizontale, arrêtez-vous devant et ne continuez pas.
+405 | Interdiction | Accès interdit à tout véhicule à moteur.
+406 | Interdiction | Accès interdit aux véhicules utilitaires dont le poids total autorisé dépasse le tonnage indiqué.
+407 | Interdiction | Accès interdit aux véhicules transportant des matières dangereuses soumises à signalisation (sauf livraison de carburant et de gaz).
+408 | Interdiction | Accès interdit aux véhicules à moteur, sauf les deux-roues.
+409 | Interdiction | Accès interdit aux motos.
+410 | Interdiction | Accès interdit aux engins de chantier et aux tracteurs.
+411 | Interdiction | Accès interdit aux animaux.
+412 | Interdiction | Accès interdit aux vélos.
+413 | Interdiction | Accès interdit aux piétons.
+414 | Interdiction | Accès interdit aux usagers représentés (piétons, engins de chantier, tracteurs, animaux, vélos), trois au maximum.
+415 | Interdiction | Accès interdit à tout véhicule dont le poids total autorisé dépasse le tonnage indiqué.
+416 | Interdiction | Accès interdit aux véhicules dont la hauteur, chargement compris, dépasse le nombre de mètres indiqué.
+417 | Interdiction | Accès interdit aux véhicules dont la largeur, chargement compris, dépasse le nombre de mètres indiqué.
+418 | Interdiction | Zone interdite aux leçons de conduite.
+419 | Interdiction | Fin de la zone interdite aux leçons de conduite.
+420 | Interdiction | Interdiction de dépasser ou de passer un véhicule à moteur de plus de deux roues roulant dans le même sens.
+421 | Interdiction | Fin de l'interdiction de dépasser.
+422 | Interdiction | Interdiction aux véhicules de plus de 4 tonnes (poids total autorisé) de dépasser ou de passer un véhicule à moteur de plus de deux roues roulant dans le même sens.
+423 | Interdiction | Fin de l'interdiction de dépasser (pour les véhicules de plus de 4 tonnes).
+424 | Interdiction | Entrée en agglomération (zone de routes urbaines).
+425 | Interdiction | Sortie d'agglomération (fin de la zone de routes urbaines).
+426 | Interdiction | Vitesse particulière : interdiction de rouler à plus de la vitesse indiquée (km/h).
+427 | Interdiction | Fin de la limitation de vitesse particulière.
+428 | Interdiction | Interdiction de tourner à droite à la prochaine intersection. Au-dessus d'un feu : virage et demi-tour interdits.
+429 | Interdiction | Interdiction de tourner à gauche à la prochaine intersection. Au-dessus d'un feu : virage et demi-tour interdits.
+430 | Interdiction | Interdiction de faire demi-tour par la droite à la prochaine intersection.
+431 | Interdiction | Interdiction de faire demi-tour par la gauche à la prochaine intersection.
+432 | Interdiction | Stationnement interdit du côté de la route où le panneau est placé (l'arrêt reste permis).
+433 | Interdiction | Arrêt et stationnement interdits du côté de la route où le panneau est placé, sauf si l'arrêt est nécessaire pour respecter la loi.
+434 | Interdiction | Fin de la section où s'appliquent les panneaux 432 et 433.
+435 | Interdiction | Zone de stationnement interdite aux véhicules de plus de 10 000 kg (poids total autorisé).
+436 | Interdiction | Fin de la zone de stationnement interdite aux véhicules utilitaires de plus de 10 000 kg.
+437 | Interdiction | Stationnement réservé au véhicule d'une personne handicapée portant la carte de handicapé originale valide, lorsqu'il sert à la personne à qui la carte a été délivrée.
+438 | Interdiction | Stop ! Contrôle des douanes.
+439 | Interdiction | Panneau d'obligation pour un message qui n'a pas de panneau propre ; placé sous un autre panneau, il complète celui-ci.
+440 | Interdiction | Zone interdite aux véhicules polluants (loi sur l'air pur), selon l'arrêté municipal local.
+441 | Interdiction | Fin de la zone interdite aux véhicules polluants.
+504 | Transports en commun | Circulation permise à tous dans le sens de la flèche blanche ; les véhicules autorisés par le panneau 501 peuvent aussi circuler en sens inverse.
+505 | Transports en commun | Arrêt de bus (transports publics et lignes régulières). L'arrêt se fait selon les indications du panneau.
+601 | Information | Nom de l'échangeur ou de l'intersection (blanc sur fond bleu sur voie rapide, blanc sur fond vert ailleurs).
+602 | Information | Direction des destinations au-dessus des voies avant un échangeur, hors agglomération.
+607 | Information | Direction de sortie uniquement, à l'échangeur suivant.
+608 | Information | Lieu de sortie de la route.
+610 | Information | Destinations sur la route devant vous ; le nombre indique la distance en kilomètres.
+613 | Information | Affectation des voies (flèches) avant l'intersection ; flèche jaune = voie réservée aux transports en commun.
+616 | Information | Indication des directions au-dessus des voies avant une intersection en agglomération.
+617 | Information | Indicateur de direction à une intersection ou un échangeur.
+618 | Information | Chaussée à sens unique : circulation uniquement dans le sens de la flèche.
+619 | Information | Changement du nombre de voies : le nombre de voies augmente par la droite.
+620 | Information | Changement du nombre de voies : le nombre de voies augmente par la gauche.
+621 | Information | Changement du nombre de voies : le nombre de voies diminue par la droite.
+622 | Information | Changement du nombre de voies : le nombre de voies diminue par la gauche.
+623 | Information | Voie sans issue.
+624 | Information | Voie sans issue à droite.
+625 | Information | Voie sans issue à gauche.
+626 | Information | Stationnement autorisé (sauf aux arrêts de bus ou de tramway, et sauf interdiction par un autre panneau). Un type de véhicule indiqué dessous limite le stationnement à ce type.
+627 | Information | Stationnement autorisé sur le trottoir pour les véhicules jusqu'à 2 200 kg, selon le marquage et en laissant un passage raisonnable aux piétons et aux fauteuils roulants.
+628 | Information | Fin de la zone de stationnement autorisé (panneaux 626 ou 627).
+629 | Information | Panneau d'avertissement ou d'information pour un message sans panneau propre ; placé sous un autre panneau, il le complète.
+629פ | Information | Panneau d'avertissement ou d'information pour un message sans panneau propre (version à message variable).
+630 | Information | Le panneau au-dessus s'applique à la distance indiquée (en mètres).
+631 | Information | Le panneau au-dessus s'applique sur la longueur indiquée (en mètres).
+632 | Information | Le message du panneau au-dessus s'applique après le virage, dans la direction de la flèche.
+633 | Information | Tunnel.
+634 | Information | Fin du tunnel.
+635 | Information | Risque d'incendie.
+636 | Information | Chaussée à sens unique pour les véhicules à moteur ; les vélos peuvent circuler dans les deux sens.
+637 | Information | Aire d'arrêt d'urgence.
+701 | Feux | Feu rouge : arrêtez-vous avant la ligne d'arrêt (ou le passage pour piétons, ou près du feu) ; interdiction de les franchir ou d'entrer dans l'intersection tant que le rouge est allumé.
+702 | Feux | Rouge et orange ensemble : restez arrêté jusqu'au vert et préparez-vous à démarrer.
+703 | Feux | Feu vert : avancez (tout droit, à droite, à gauche ou demi-tour, sauf panneau contraire). Vert clignotant : le vert se termine et l'orange va s'allumer.
+705 | Feux | Feu orange : arrêtez-vous comme au rouge ; si vous ne pouvez plus vous arrêter en sécurité ou êtes déjà engagé, terminez la traversée et dégagez l'intersection.
+706 | Feux | Orange clignotant : avancez avec prudence en respectant les règles ; près d'un passage pour piétons ou cyclistes, laissez-les traverser.
+718 | Feux | Piéton rouge immobile : ne commencez pas à traverser ; si vous êtes sur la chaussée, dégagez-la immédiatement.
+719 | Feux | Piéton vert : vous pouvez traverser avec prudence.
+720 | Feux | Vélo rouge : ne commencez pas à traverser ; si vous êtes sur la chaussée, dégagez-la. (Vélo vert, 721 : traversée permise avec prudence.)
+723פ | Feux | Voie fermée : interdiction de circuler sur la voie au-dessus de laquelle il est placé.
+724פ | Feux | Voie ouverte : circulation permise sur la voie au-dessus de laquelle il est placé.
+805 | Marquage | Ligne discontinue serrée blanche : annonce une double ligne continue ; regagnez la voie de droite avant qu'elle commence.
+901 | Chantier | Chantier sur la route ; suivez le marquage orange s'il y en a un.
+902 | Chantier | Fin du chantier.
+903 | Chantier | Virage serré (chantier) : ralentissez et suivez uniquement la direction des flèches.
+904 | Chantier | Intersection en T (chantier) : ralentissez et suivez uniquement les directions des flèches.
+905 | Chantier | Chaussée rétrécie des deux côtés (chantier).
+906 | Chantier | Chaussée rétrécie par la droite (chantier).
+907 | Chantier | Chaussée rétrécie par la gauche (chantier).
+908 | Chantier | Passage étroit ou obstacle (chantier).
+909 | Chantier | Circulation à double sens (chantier).
+910 | Chantier | Le nombre de voies augmente par la droite (chantier).
+911 | Chantier | Le nombre de voies augmente par la gauche (chantier).
+912 | Chantier | Le nombre de voies diminue par la droite (chantier).
+913 | Chantier | Le nombre de voies diminue par la gauche (chantier).
+914 | Chantier | Déviation de la circulation.
+915 | Chantier | Panneau de chantier pour un message sans panneau propre ; placé sous un autre panneau, il le complète.
+916 | Chantier | Le panneau au-dessus s'applique à la distance indiquée (en mètres).
+917 | Chantier | Le panneau au-dessus s'applique sur la longueur indiquée (en mètres).
+929 | Chantier | Barrière : la route est fermée ; si une direction est indiquée, avancez seulement dans cette direction.
+935 | Chantier | Aire d'arrêt d'urgence dans un chantier.
+819 | Marquage | Marquage au sol de stationnement en épi (non parallèle au trottoir) : stationnement autorisé selon les lignes tracées.
+821 | Marquage | Marquage d'un ralentisseur (dos-d'âne) sur la chaussée.
+817 | Marquage | Bordures peintes en bleu et blanc : stationnement autorisé selon les règles fixées par la municipalité (souvent payant).

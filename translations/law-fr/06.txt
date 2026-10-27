@@ -1,0 +1,111 @@
+#T74(ג1)
+F: Malgré le paragraphe (c), pour un véhicule dont le constructeur a fixé des instructions d’immobilisation et de stationnement, le conducteur agira selon les instructions du constructeur.
+
+#T75
+F: Celui qui arrête, immobilise ou stationne un véhicule sur une chaussée où cela est permis le placera parallèlement au bord de la chaussée, qu’il y ait ou non des bordures, les roues les plus proches de la bordure ou du bord de la chaussée se trouvant à pas plus de quarante centimètres de celle-ci, sauf si l’autorité locale de signalisation a autorisé sur cette chaussée le stationnement en épi ou en bataille et l’a marqué à cet effet.
+
+#T80(ב)
+F: Nul n’ouvrira la portière d’un véhicule, et le conducteur ne laissera personne ouvrir la sienne, tant que le véhicule est en mouvement.
+
+#T81
+F: Nul, hormis le conducteur, ne montera dans un véhicule ni n’en descendra, et le conducteur ou le responsable du véhicule ne laissera personne y monter ou en descendre, sauf :
+(1) lorsque le véhicule est à l’arrêt ;
+(2) par le côté droit du véhicule lorsqu’il est arrêté du côté droit de la route ;
+(3) par le côté gauche du véhicule lorsqu’il est arrêté légalement du côté gauche de la route ; toutefois, la personne assise à côté du conducteur peut sortir par le côté droit du véhicule après avoir pris les précautions nécessaires ;
+(4) à l’endroit destiné à la montée et à la descente, si le véhicule en comporte un.
+
+#T81(1)
+F: [On ne monte dans un véhicule et on n’en descend que] lorsque le véhicule est à l’arrêt.
+
+#T82(א)
+F: Le conducteur d’un véhicule à moteur qui transporte une autre personne à côté de lui ne la fera asseoir qu’à sa droite si le volant est à gauche, ou à sa gauche si le volant est à droite, et ne transportera pas plus d’une personne à côté de lui, sauf autorisation de l’autorité d’immatriculation et conformément aux conditions de l’autorisation.
+
+#T72(ד)
+F: Malgré le paragraphe (a)(12), le stationnement est permis à un arrêt d’autobus les samedis et les jours de fête d’Israël si le panneau 439 autorisant le stationnement les samedis et jours de fête d’Israël y est placé.
+
+#T83ג(6)
+F: [Sont dispensés de l’obligation de porter la ceinture de sécurité :] le conducteur d’un véhicule pendant la marche arrière.
+
+#T84(ב)
+F: Nul ne transportera, ni ne permettra à autrui de transporter, dans un véhicule des types indiqués dans la colonne A du tableau, un nombre de passagers supérieur à celui indiqué en face de ce type de véhicule dans la colonne B du tableau.
+
+#T85(א)
+F: Nul ne transportera de marchandise dans un véhicule ou sur un véhicule, et le propriétaire du véhicule ou celui qui en a le contrôle ne laissera ni n’autorisera le transport d’une marchandise dans ou sur un véhicule, sauf si la structure du véhicule, dans toutes ses parties et accessoires, convient au transport de la marchandise en sécurité et lorsque :
+(1) la marchandise ne dépasse pas :
+(a) hors des parois latérales ni ne les écarte ; à défaut de parois, hors des côtés du plancher destiné à la marchandise ; à défaut de plancher, hors de la largeur totale du véhicule ;
+(b) de plus d’un mètre le point le plus extrême de la partie avant et arrière du véhicule tel que fixé par le constructeur, étant entendu que lorsque la marchandise dépasse jusqu’à un mètre de la partie avant ou arrière du véhicule, elle constitue une seule unité de longueur, et s’il y a deux unités, la longueur de chacune ne sera pas inférieure à 6 mètres ;
+(2) la marchandise est disposée de manière que :
+(a) sa hauteur, du sol jusqu’au point le plus haut de la marchandise, ne dépasse pas :
+1. 2,50 m pour un véhicule dont le poids total autorisé va jusqu’à 1 500 kg ;
+2. 3,00 m pour un véhicule dont le poids total autorisé va de 1 501 kg à 3 500 kg ;
+3. 3,50 m pour un véhicule dont le poids total autorisé va de 3 501 kg à 8 000 kg ;
+4. 4,00 m pour un véhicule dont le poids total autorisé dépasse 8 000 kg ;
+(b) la marchandise ou sa bâche ne bloque ni ne limite le champ de vision du conducteur vers l’avant et sur les côtés, ne cache pas au conducteur les rétroviseurs, sauf lorsque le véhicule qui transporte la marchandise est accompagné en permanence d’un autre véhicule, et ne bloque pas l’entrée et la sortie de la cabine du conducteur ;
+(c) la marchandise ou sa bâche ne cache pas aux autres usagers de la route les feux, les plaques d’immatriculation, les clignotants ou les catadioptres du véhicule, ni aucun autre marquage de sécurité ;
+(3) la répartition du poids de la marchandise du véhicule et son arrimage permettent de la transporter en sécurité et avec stabilité ;
+(4) la marchandise, sa bâche et le couvercle du véhicule sont solidement fixés de manière à ne pas tomber ni se desserrer à cause de la marche ou du vent ; dans un véhicule de catégorie N2, N3 et O, à l’exception d’un remorque agricole, la marchandise est arrimée au véhicule conformément à la norme israélienne SI 6395 – partie 1 – « Arrimage des charges dans les véhicules commerciaux : méthodes et exigences, de décembre 2015 », telle qu’en vigueur, dont une copie est à la disposition du public à la division des véhicules et services d’entretien du ministère ainsi que sur le site de l’Institut des normes (norme d’arrimage des charges) ;
+(5) le poids total du véhicule et de la marchandise transportée ne dépasse pas le poids total autorisé ni la charge autorisée selon la carte grise, et la charge sur les essieux ne dépasse pas la charge maximale fixée par ce Règlement ou par le constructeur, selon la plus basse ;
+(6) (supprimé).
+
+#T90(ז)
+F: Dans un véhicule remorqué ne se trouvera personne, à l’exception du conducteur visé au paragraphe (d).
+
+#T91(ו)
+F: Nul ne remorquera plus d’un véhicule, sauf autorisation de l’autorité d’immatriculation.
+
+#T91(א)
+F: Nul ne remorquera une machine tractée dispensée d’immatriculation et de licence autrement qu’avec un tracteur ou un véhicule commercial dont le poids total autorisé dépasse 2 200 kg, ou avec une autorisation de l’autorité d’immatriculation.
+
+#T93(א)(1)
+F: Les conducteurs de véhicules et les personnes qui conduisent des animaux cèdent la priorité au véhicule de sécurité (ambulance, police, pompiers, armée, etc., sirène et feu clignotant en marche), déportent aussitôt leur véhicule ou l’animal vers l’endroit le plus proche possible du bord droit de la chaussée et éloigné d’une intersection, et s’y arrêtent jusqu’à ce que le véhicule de sécurité soit passé.
+
+#T93(ב)
+F: Nul ne conduira un véhicule derrière un véhicule de sécurité (ambulance, police, pompiers…) sans garder une distance d’au moins cent mètres. Cette disposition ne s’applique pas au conducteur d’un autre véhicule de sécurité ni d’un véhicule lié à ce moment aux missions du véhicule de sécurité.
+
+#T157(א)
+F: Nul ne conduira un véhicule qui émet un bruit anormal provenant d’un défaut du véhicule, d’un manque d’entretien de celui-ci ou d’une de ses parties, ou d’un mauvais arrimage de la charge qu’il porte.
+
+#T9(א)(3)
+F: Le conducteur doit avoir avec lui tout document délivré conformément à la loi concernant sa conduite ou le véhicule qu’il conduit.
+
+#T96
+F: Nul n’utilisera un véhicule dont le système d’éclairage n’est pas correctement installé et en état de fonctionner.
+
+#T98
+F: Sur une route urbaine, le conducteur n’allumera pas les feux de route des phares avant, sauf si la route n’est pas convenablement éclairée.
+
+#T99(א)
+F: Le conducteur d’un véhicule à moteur dont les phares éclairent en feux de route passera en feux de croisement dans chacun des cas suivants :
+(1) il roule à la rencontre d’un autre véhicule sur la même route jusqu’à ce que cet autre véhicule l’ait croisé, ou il roule à la rencontre d’un autre véhicule se trouvant sur une route voisine et risque d’éblouir son conducteur ;
+(2) il s’arrête ;
+(3) il roule derrière un autre véhicule et son faisceau de feux de route éclaire l’arrière du véhicule qui le précède. Il est toutefois permis de faire un bref signal par appel de phares pour avertir le conducteur du véhicule qui précède de son intention de le dépasser ou de le doubler, à condition de ne pas signaler ainsi s’il risque d’éblouir le conducteur d’un autre véhicule qui vient en face.
+
+#T99(א)(1)
+F: [Le conducteur passe en feux de croisement lorsqu’]il roule à la rencontre d’un autre véhicule sur la même route jusqu’à ce que cet autre véhicule l’ait croisé, ou lorsqu’il roule à la rencontre d’un autre véhicule se trouvant sur une route voisine et risque d’éblouir son conducteur.
+
+#T99(א)(3)
+F: [Le conducteur passe en feux de croisement lorsqu’]il roule derrière un autre véhicule et que son faisceau de feux de route éclaire l’arrière du véhicule qui le précède. Il est toutefois permis de faire un bref signal par appel de phares pour avertir le conducteur du véhicule qui précède de son intention de le dépasser ou de le doubler, à condition de ne pas signaler ainsi s’il risque d’éblouir le conducteur d’un autre véhicule qui vient en face.
+
+#T99(א)(2)
+F: [Le conducteur passe en feux de croisement lorsqu’]il s’arrête.
+
+#T107(א)
+F: Nul n’utilisera de projecteur sur la route, sauf pour réparer le véhicule ou chercher un endroit.
+
+#T107(ג)
+F: Nul n’utilisera de projecteur sauf lorsque le véhicule est à l’arrêt et que sa lumière n’est pas dirigée le long de la route ni vers le visage d’un autre véhicule.
+
+#T107(ד)
+F: Lorsque des feux de brouillard ont été installés dans un véhicule conformément aux articles 347 et 347A, on ne peut les allumer qu’en cas de brouillard, de forte pluie ou de neige.
+
+#T107(ה)
+F: Nul n’utilisera le feu de recul, sauf pendant la marche arrière.
+
+#T100(א)(2)
+F: [Pour un véhicule à l’arrêt, sont allumés :] dans un véhicule dont la largeur totale est de 210 cm ou plus, les feux de position latéraux ainsi que le feu arrière.
+
+#T100(ב)(1)
+F: [Il n’est pas obligatoire d’éclairer un véhicule à l’arrêt] qui se trouve sur une route dont l’éclairage permet aux usagers de la route de le distinguer à une distance raisonnable.
+
+#T97(ד)
+F: Nul ne conduira un véhicule dont la largeur totale est de 210 cm ou plus, sauf si, en plus de ce que prévoit le paragraphe (a), les feux de position latéraux sont allumés.

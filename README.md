@@ -1,0 +1,52 @@
+# Code Israël
+
+Entraînement en français à l'examen théorique du permis de conduire israélien, à partir de la banque
+de questions officielle du ministère des Transports (1 802 questions).
+
+Application **non officielle**, sans publicité, sans compte, sans API externe : tout fonctionne sur
+l'appareil.
+
+## Ce que fait l'app
+
+- Examen blanc au format officiel : 30 questions, 40 minutes, 4 erreurs maximum.
+- Entraînement par thème, questions ratées, questions jamais vues, favoris.
+- Revue des 20 derniers examens, question par question.
+- Chaque question a une explication en français, reliée aux articles du règlement de la circulation.
+- Lexique des panneaux avec leur signification.
+- Assistant qui répond à partir des textes officiels, avec un modèle de langage local (WebLLM / Qwen sur le
+  web ; Apple Foundation Models ou Qwen via MLX sur iPhone).
+- Installable sur l'écran d'accueil et utilisable hors ligne (PWA).
+
+## Lancer
+
+```
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # site statique dans dist/, avec service worker
+```
+
+L'app iPhone (SwiftUI) est dans `ios/`, voir [ios/README.md](ios/README.md).
+
+## Données
+
+Les scripts de `scripts/` (Python, à lancer avec `python3 -I` depuis la racine) fabriquent les fichiers de
+`public/data` :
+
+- `build-data.py` : banque officielle (XML de data.gov.il) vers `data/official/`.
+- `fetch-images.py` : images des questions.
+- `translations/` : retraduction française depuis l'hébreu, explications et extraits de loi traduits.
+- `merge-fr.py` : assemble le tout et refuse toute référence de loi introuvable.
+- `build-signs.py`, `parse-law.py` : panneaux et texte de loi.
+
+## Sources
+
+- Questions et images : ministère des Transports d'Israël, via data.gov.il (CC BY).
+- Règlement de la circulation et ordonnance : texte hébreu de Wikisource. Il n'existe pas de traduction
+  officielle ; les extraits français sont des traductions de ce projet, **sans valeur juridique**.
+- Panneaux : Wikimedia Commons et Wikipédia en hébreu.
+
+La banque de questions est en retard sur la loi actuelle à certains endroits (par exemple les seuils de
+poids de certains véhicules). Les explications indiquent la réponse attendue à l'examen, puis le texte en
+vigueur.
+
+Aucune licence n'est encore définie pour le code de ce dépôt.

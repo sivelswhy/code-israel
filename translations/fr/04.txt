@@ -1,0 +1,419 @@
+#0241
+Q: Des personnes autres que le conducteur peuvent-elles se trouver dans un véhicule pendant qu'il est remorqué ?
+1: Non.
+2: Oui, à condition d'avoir attaché leur ceinture de sécurité.
+3: Oui, une personne comme accompagnateur.
+4: Les passagers qui étaient dans le véhicule au moment de la panne peuvent y rester.
+
+#0242
+Q: Selon le système de points, un conducteur qui a accumulé entre 12 et 22 points :
+1: sera envoyé passer un examen médical et un examen théorique (« théoria »).
+2: verra son permis de conduire suspendu pendant 30 jours.
+3: sera convoqué à une formation de conduite correcte et devra passer un examen.
+4: devra passer un examen théorique et verra son permis suspendu.
+
+#0243
+Q: Combien de véhicules un véhicule à moteur peut-il remorquer à la fois ?
+1: Deux, sauf autorisation différente de l'Autorité des permis.
+2: Deux, à condition que leur longueur totale ne dépasse pas 15 mètres.
+3: Un, sauf autorisation différente de l'Autorité des permis.
+4: Un seul, sans possibilité d'en autoriser davantage.
+
+#0244
+Q: Le stationnement en épi sur la chaussée :
+1: est interdit, sauf pour les scooters et les motos.
+2: est permis lorsqu'un marquage spécial le prévoit.
+3: n'est permis que sur une chaussée large.
+4: est interdit, sauf pour les véhicules de trois mètres et demi de long ou moins.
+
+#0245
+Q: Quel véhicule peut tracter une remorque agricole dispensée d'immatriculation et de permis de circulation ?
+1: Un tracteur.
+2: Uniquement un tracteur utilitaire.
+3: Un véhicule utilitaire dont le poids total autorisé dépasse 12 000 kg.
+4: Uniquement un quad.
+
+#0246
+Q: Comment agissez-vous à l'approche d'une intersection dont le feu clignote à l'orange ?
+1: Vous avez la priorité sur les piétons du passage pour piétons : continuez normalement vers l'intersection.
+2: Ralentir et appliquer les règles de priorité et les panneaux placés à l'intersection.
+3: Ralentir et céder le passage au véhicule venant en face.
+4: S'arrêter jusqu'à ce que le feu passe au vert.
+
+#0247
+Q: Qu'est-ce qu'un « véhicule d'urgence » ?
+1: Uniquement une ambulance du Magen David Adom.
+2: Uniquement un véhicule de pompiers.
+3: Une ambulance du Magen David Adom ou une autre ambulance agréée, un véhicule de police, un véhicule de pompiers ou tout autre véhicule agréé comme véhicule d'urgence, qui émet une lumière clignotante et un signal sonore d'alarme.
+4: Tout véhicule de la police israélienne.
+
+#0248
+Q: Comment doit se comporter le conducteur qui aperçoit un « véhicule d'urgence » ?
+1: Se placer derrière le véhicule d'urgence et garder une distance constante de deux secondes.
+2: Monter sur le trottoir et s'y arrêter.
+3: Se serrer le plus possible contre le bord droit de la chaussée, céder le passage au véhicule d'urgence et s'arrêter à l'écart de l'intersection.
+4: Ralentir, se serrer à droite et continuer normalement.
+
+#0249
+Q: Lorsque vous roulez derrière un « véhicule d'urgence », vous devez :
+1: rester à au moins 100 mètres derrière lui.
+2: rester à au moins 150 mètres derrière lui.
+3: rester à au moins 200 mètres derrière lui.
+4: rester à au moins 50 mètres derrière lui.
+
+#0250
+Q: Qui est responsable du bruit excessif d'un véhicule ?
+1: Le constructeur du véhicule.
+2: Le propriétaire du véhicule.
+3: Le conducteur du véhicule.
+4: Le garage qui entretient le véhicule.
+
+#0251
+Q: Qui doit avoir la carte grise du véhicule sur lui ?
+1: La compagnie qui assure le véhicule.
+2: Le conducteur pendant la conduite, même s'il n'est pas le propriétaire.
+3: Le garage qui entretient régulièrement le véhicule.
+4: Le propriétaire, même lorsqu'il ne conduit pas.
+
+#0252
+Q: Est-il permis de conduire un véhicule dont l'éclairage est défectueux ?
+1: Oui, si un seul feu ne fonctionne pas.
+2: Oui, mais seulement de jour.
+3: Oui, si la panne concerne les feux de position.
+4: Non.
+
+#0253
+Q: Est-il permis de rouler en agglomération avec les feux de route allumés ?
+1: Non.
+2: Oui, mais seulement de jour.
+3: Non, sauf si la route n'est pas suffisamment éclairée et qu'il n'y a pas de risque d'éblouissement.
+4: Oui.
+
+#0254
+Q: Dans quels cas le conducteur d'un véhicule à moteur doit-il passer en feux de croisement ?
+1: Lorsqu'il roule à la rencontre d'un autre véhicule circulant sur la même route ou sur une route voisine.
+2: Uniquement dans une descente raide.
+3: Lorsque le véhicule qui le suit tourne à droite.
+4: Lorsque le véhicule venant en face tourne à droite.
+
+#0255
+Q: Dans quels cas le conducteur d'un véhicule à moteur doit-il passer en feux de croisement ?
+1: Lorsqu'il suit un autre véhicule avec ses feux de brouillard allumés en même temps que ses feux de route.
+2: Lorsqu'il suit un autre véhicule et que le faisceau de ses feux de route éclaire l'arrière du véhicule qui le précède.
+3: Uniquement dans un tunnel.
+4: Lorsque ses feux de brouillard sont aussi allumés.
+
+#0256
+Q: Dans quels cas le conducteur d'un véhicule à moteur doit-il passer en feux de croisement ?
+1: En cherchant une place de stationnement.
+2: En entrant dans une propriété.
+3: En marche arrière.
+4: Lorsque le véhicule est à l'arrêt.
+
+#0257
+Q: Vous avez commencé à dépasser sur une longue route droite à double sens. En plein dépassement, un véhicule apparaît face à vous sur la même voie :
+1: Faire un appel de phares au conducteur d'en face et terminer le dépassement comme prévu.
+2: Ralentir, interrompre le dépassement et revenir rapidement sur la voie de droite.
+3: Klaxonner et terminer normalement le dépassement : vous étiez là avant lui.
+4: Vous déporter à gauche, libérer la voie et rouler sur l'accotement gauche.
+
+#0258
+Q: Est-il permis de dépasser la vitesse maximale autorisée pendant un dépassement ?
+1: Oui, mais seulement sur une voie rapide.
+2: Oui, mais seulement pour dépasser une moto.
+3: Non.
+4: Oui, mais seulement hors agglomération.
+
+#0259
+Q: À quelle condition peut-on utiliser un projecteur sur la route ?
+1: Uniquement pour des raisons de sécurité et pendant la période d'éclairage.
+2: Uniquement lors de patrouilles de véhicules de sécurité le long des clôtures.
+3: Jamais, sauf pour les véhicules de pompiers.
+4: Uniquement à l'arrêt, et à condition que le projecteur ne soit dirigé ni vers un autre véhicule ni dans l'axe de la route.
+
+#0260
+Q: Quand est-il permis d'allumer les « feux de brouillard » ?
+1: Uniquement sur une voie rapide.
+2: Uniquement quand il pleut.
+3: Uniquement en cas de brouillard, de pluie battante ou de neige.
+4: Uniquement en marche arrière.
+
+#0261
+Q: Quand est-il permis d'utiliser le « feu de recul » ?
+1: Par brouillard ou pluie battante.
+2: En stationnant dans un parking couvert.
+3: Uniquement en marche arrière, la marche arrière engagée.
+4: Lorsque la visibilité est mauvaise, quelle qu'en soit la raison.
+
+#0262
+Q: Comment faut-il immobiliser ou laisser sur la route, pendant la « période d'éclairage », un véhicule de plus de 210 cm de large ?
+1: Avec les feux d'encombrement allumés et la lampe portative clignotante.
+2: Avec les feux d'encombrement et le feu arrière allumés, sauf si l'éclairage ambiant permet de voir le véhicule.
+3: Il faut actionner les quatre clignotants et la lampe portative et placer un triangle de signalisation.
+4: La loi ne prévoit rien pour ce cas, seulement pour les véhicules de 280 cm de large et plus.
+
+#0263
+Q: Dans un véhicule d'une largeur totale de 210 cm ou plus, équipé de feux d'encombrement comme l'exige la loi :
+1: Le conducteur doit allumer les feux d'encombrement pendant la « période d'éclairage ».
+2: On peut conduire à tout moment, même si les feux d'encombrement ne fonctionnent pas.
+3: Le conducteur n'est pas tenu d'allumer les feux d'encombrement pendant la « période d'éclairage ».
+4: Le conducteur ne doit allumer les feux d'encombrement que hors agglomération.
+
+#0264
+Q: Un véhicule a été photographié légalement en train de commettre une infraction. Qui est responsable de l'infraction ?
+1: Le conducteur et le passager assis à côté de lui.
+2: Le propriétaire du véhicule, sauf s'il prouve que le véhicule était conduit par une autre personne et indique qui.
+3: Peu importe, l'essentiel est que l'amende soit payée.
+4: L'employeur du conducteur.
+
+#0265
+Q: Si un piéton est obligé de marcher sur la chaussée, de quel côté doit-il marcher ?
+1: Près du trottoir de gauche.
+2: Près du bord gauche de la chaussée, face à la circulation.
+3: Près du bord droit de la chaussée.
+4: Près de l'accotement droit.
+
+#0266
+Q: La période d'accompagnement d'un « nouveau conducteur » de voiture particulière est de :
+1: deux ans à compter de l'obtention du premier permis.
+2: trois mois à compter de l'obtention du premier permis.
+3: deux mois à compter de l'obtention du premier permis.
+4: La période d'accompagnement n'est pas limitée dans le temps.
+
+#0267
+Q: Qui doit être accompagné en tant que « nouveau conducteur » lorsqu'il conduit une voiture particulière ?
+1: Toute personne qui obtient pour la première fois le permis voiture et qui n'a pas plus de 24 ans.
+2: Toute personne qui obtient pour la première fois le permis voiture et qui n'a pas plus de 30 ans.
+3: Toute personne qui obtient pour la première fois le permis voiture ou le permis poids lourd léger de catégorie C1.
+4: Toute personne qui obtient pour la première fois le permis voiture et qui n'a pas plus de 21 ans.
+
+#0268
+Q: Un « nouveau conducteur » de moins de 21 ans ne peut pas transporter dans son véhicule :
+1: plus de quatre passagers en plus de lui-même, sauf si un accompagnateur est assis à côté de lui.
+2: plus d'un passager en plus de lui-même.
+3: plus de deux passagers en plus de lui-même, sauf si un accompagnateur est assis à côté de lui sur le siège avant.
+4: plus de trois passagers en plus de lui-même, sauf si un accompagnateur est assis à côté de lui.
+
+#0269
+Q: Un conducteur qui a accumulé 36 points ou plus :
+1: L'Autorité des permis suspendra son permis pendant trois mois et il devra passer un examen théorique.
+2: Selon le système de points, l'Autorité des permis n'est pas habilitée à suspendre son permis.
+3: L'Autorité des permis peut recommander au tribunal de lui retirer son permis définitivement.
+4: Seul un tribunal peut suspendre son permis.
+
+#0270
+Q: Le permis d'un « nouveau conducteur » ne sera pas converti en permis ordinaire s'il a été condamné par un tribunal pour :
+1: conduite d'un véhicule à moteur sans assurance valide.
+2: non-arrêt à un panneau « Cédez le passage à la circulation sur la route transversale ».
+3: non-apposition de la plaque « nouveau conducteur » sur la lunette arrière.
+4: dépassement illégal.
+
+#0271
+Q: Le permis d'un « nouveau conducteur » ne sera pas converti en permis ordinaire s'il a été condamné par un tribunal pour :
+1: circulation avec un véhicule à moteur sans assurance valide.
+2: non-arrêt à une intersection où se trouve un panneau « Cédez le passage à la circulation sur la route transversale ».
+3: non-installation d'un triangle de signalisation alors que le véhicule était immobilisé sur la route à cause d'une panne.
+4: conduite d'un véhicule à moteur sous l'emprise de l'alcool ou de stupéfiants.
+
+#0272
+Q: Sur quelle partie de la chaussée un cycliste doit-il rouler ?
+1: Le plus près possible du bord droit.
+2: Là où circulent tous les autres véhicules.
+3: Le plus près possible du bord gauche, face à la circulation.
+4: Nulle part : le vélo est totalement interdit sur la chaussée.
+
+#0273
+Q: Où est-il permis de stationner un véhicule fonctionnant au GPL (gaz de pétrole liquéfié) ?
+1: Dans les parkings autorisés aux véhicules au GPL selon les instructions de l'importateur du véhicule.
+2: Dans les parkings autorisés aux véhicules au GPL selon les instructions du ministère de l'Environnement.
+3: Dans les parkings ordinaires autorisés aux véhicules à essence.
+4: Uniquement dans les parkings autorisés aux voitures particulières.
+
+#0274
+Q: Comment doit agir le conducteur d'un véhicule impliqué dans un accident de la route ayant fait un blessé ?
+1: Dégager la chaussée et prévenir la police de l'accident.
+2: Ne pas déplacer son véhicule, sauf sur ordre d'un policier ou s'il faut l'utiliser pour évacuer des blessés.
+3: Dégager son véhicule pour ne pas gêner la circulation et appeler les secours.
+4: Dégager son véhicule s'il n'est pas responsable de l'accident ; la responsabilité incombera ensuite à l'autre personne impliquée.
+
+#0275
+Q: Que doit faire le conducteur d'un véhicule impliqué dans un accident de la route avec des blessés ?
+1: Se rendre au poste de police pour y donner ses coordonnées.
+2: Porter aux blessés les secours appropriés selon ses capacités et sa formation, appeler les secours et attendre sur place leur arrivée.
+3: Déclarer l'accident à la police dans les 72 heures.
+4: Échanger ses coordonnées avec les autres personnes impliquées ; il n'est alors pas nécessaire de prévenir la police.
+
+#0276
+Q: Quelles informations doit fournir le conducteur d'un véhicule impliqué dans un accident de la route avec des blessés ?
+1: Son nom, son numéro de carte d'identité et son numéro de téléphone.
+2: Uniquement le numéro de son permis de conduire et le numéro d'immatriculation du véhicule.
+3: Aucune, si les plaques d'immatriculation du véhicule sont intactes et lisibles.
+4: Son nom, son adresse, le numéro de son permis de conduire, le numéro d'immatriculation du véhicule et le nom de son propriétaire.
+
+#0277
+Q: Comment doivent agir les personnes impliquées dans un accident de la route n'ayant causé que des dégâts matériels ?
+1: Dégager immédiatement les véhicules de la chaussée et échanger leurs coordonnées.
+2: Prévenir la police et attendre ses instructions.
+3: Échanger leurs coordonnées et attendre les secours sans déplacer aucun véhicule.
+4: Appeler les secours et attendre sur les lieux sans déplacer aucun véhicule.
+
+#0278
+Q: Comment doit agir le conducteur qui a heurté un véhicule ou un autre bien en l'absence de son propriétaire ?
+1: Laisser ses coordonnées bien en vue et prévenir le poste de police le plus proche dans les 24 heures.
+2: Quitter rapidement les lieux et signaler l'incident plus tard.
+3: Laisser son véhicule sur les lieux de l'accident, sans le déplacer, et attendre l'expert de la police.
+4: Signaler l'incident au poste de police le plus proche et attendre le policier qui mènera l'enquête.
+
+#0279
+Q: Quand n'est-il pas obligatoire de prévenir la police après avoir heurté un véhicule ou un bien dont le propriétaire était absent ?
+1: Lorsque le choc est léger et que les dégâts au véhicule ou au bien sont peu importants.
+2: Lorsqu'on déclare l'incident à la compagnie d'assurance dans le délai fixé par la loi.
+3: Lorsqu'on fait venir un expert automobile reconnu à cet effet par la police.
+4: Lorsqu'un policier se trouve sur les lieux et qu'il a été informé des détails de l'incident.
+
+#0280
+Q: Que doit faire le conducteur qui passe sur les lieux d'un accident de la route avec des blessés ?
+1: S'arrêter au bord de la route, aider à dégager les véhicules de la chaussée et permettre à la circulation de s'écouler librement.
+2: Continuer sa route sans s'attarder.
+3: S'arrêter sur les lieux de l'accident, porter secours aux blessés selon ses capacités et sa formation, et appeler les secours.
+4: S'arrêter au bord de la route et signaler l'accident avec un triangle de signalisation visible à 50 mètres.
+
+#0281
+Q: À quelle distance d'un tunnel le dépassement est-il interdit ?
+1: Il n'y a aucune restriction de dépassement aux abords d'un tunnel.
+2: De 50 mètres avant l'entrée du tunnel jusqu'à 50 mètres après sa sortie.
+3: De l'entrée du tunnel jusqu'à sa sortie.
+4: De 100 mètres avant l'entrée du tunnel jusqu'à 100 mètres après sa sortie.
+
+#0282
+Q: Que dit la loi sur le fait de déposer ou de laisser des objets sur la route ?
+1: Il est interdit de déposer ou de laisser sur la route un objet susceptible de gêner ou de mettre en danger les usagers de la route ou leurs véhicules.
+2: On peut laisser n'importe quel objet sur la route, à condition de le signaler par un catadioptre pendant la « période d'éclairage ».
+3: Les objets laissés sur la route doivent être enlevés dans les 12 heures.
+4: C'est permis, mais il faut signaler immédiatement au ministère de l'Environnement tout objet déposé sur la route.
+
+#0283
+Q: Combien de temps peut-on laisser un véhicule en panne sur la route ou dans un lieu public ?
+1: Il faut l'enlever au plus vite, et au plus tard dans les 48 heures.
+2: Le temps de le réparer, sans dépasser 72 heures.
+3: Jusqu'à l'arrivée d'un véhicule de dépannage, sans dépasser une semaine.
+4: Il faut l'enlever au plus vite, et au plus tard dans les 24 heures.
+
+#0284
+Q: Que devez-vous faire si votre véhicule fait un bruit excessif ?
+1: On peut conduire un véhicule qui fait un bruit excessif hors agglomération.
+2: On peut conduire sans restriction un véhicule qui fait un bruit excessif.
+3: Il ne faut pas conduire un véhicule qui fait un bruit excessif.
+4: On peut conduire un véhicule qui fait un bruit excessif avec l'autorisation de la municipalité.
+
+#0285
+Q: Dans quels cas est-il permis de descendre une pente au point mort ?
+1: Hors agglomération, dans les descentes douces, pour économiser du carburant.
+2: Dans une descente douce sans risque de surchauffe des freins, pour économiser du carburant.
+3: Les véhicules de transport public, autobus et taxis peuvent passer au point mort en descente, uniquement hors agglomération.
+4: Jamais. En descente, un rapport doit toujours être engagé.
+
+#0286
+Q: Comment devons-nous conduire en descente ?
+1: En nous assurant qu'un rapport est engagé.
+2: Sur un rapport élevé, en appuyant en continu sur la pédale de frein pour plus de sécurité.
+3: Au point mort, pour économiser du carburant.
+4: Une vitesse engagée, en appuyant en continu sur la pédale d'embrayage.
+
+#0287
+Q: Dans quelles conditions doit-on actionner le ralentisseur en descente ?
+1: Lorsqu'un panneau signale un risque de dérapage.
+2: Lorsque le véhicule est équipé d'un ralentisseur et qu'un panneau signale une descente dangereuse.
+3: Lorsque la pente dépasse 6 % et que la descente fait plus d'un kilomètre.
+4: Si le véhicule est équipé d'un ralentisseur, il faut l'actionner à chaque trajet, même sur le plat.
+
+#0288
+Q: Est-il permis de faire le plein moteur en marche ?
+1: Non, c'est strictement interdit.
+2: Oui, en libre-service.
+3: Oui, lorsque le véhicule est garé près d'un poste d'incendie.
+4: Oui, s'il y a un extincteur dans le véhicule.
+
+#0289
+Q: Selon la loi, pour faire le plein d'un véhicule transportant plus de 11 passagers :
+1: On peut faire le plein lorsque le véhicule est garé près d'un poste d'incendie.
+2: On peut faire le plein à condition qu'un extincteur se trouve près du véhicule.
+3: Il est interdit de faire le plein tant qu'il y a des passagers à bord.
+4: Le libre-service est autorisé.
+
+#0290
+Q: Quelle est la responsabilité du propriétaire d'un véhicule pour une infraction commise avec son véhicule ?
+1: Même si le véhicule a été volé, le propriétaire en est responsable.
+2: Il n'a aucune responsabilité s'il ne conduisait pas.
+3: Sa responsabilité est totale, sauf s'il prouve qui conduisait à ce moment-là.
+4: Il n'est responsable que s'il se trouvait dans le véhicule pendant qu'une autre personne conduisait.
+
+#0291
+Q: Quel est le statut d'une personne qui déplace un véhicule à la force de ses bras ?
+1: Une personne sans permis peut déplacer ainsi uniquement une voiture particulière.
+2: Une personne sans permis peut déplacer ainsi uniquement un deux-roues.
+3: Elle a le même statut que le conducteur du véhicule.
+4: Une personne sans permis peut déplacer ainsi uniquement un quad.
+
+#0292
+Q: Quelle est la hauteur maximale au-dessus du sol d'un chargement transporté par un véhicule dont le poids total autorisé est compris entre 8 000 et 15 000 kg ?
+1: Trois mètres.
+2: Il n'y a pas de limite de hauteur.
+3: Quatre mètres.
+4: 4,80 mètres.
+
+#0293
+Q: Un chargement peut-il dépasser à l'avant ou à l'arrière d'un véhicule dont le poids total autorisé dépasse 15 000 kg ?
+1: Oui, à l'arrière, sans limite de longueur.
+2: Non, sauf avec l'autorisation d'un officier de police.
+3: Oui, à condition que le chargement soit d'une seule pièce et que le dépassement ne dépasse pas le tiers de la longueur du plateau de chargement.
+4: Uniquement en largeur, à condition d'afficher une plaque « Attention, chargement large ».
+
+#0294
+Q: Qui peut stationner à un arrêt de bus, en dehors de l'autobus lui-même ?
+1: Tous les types de véhicules, la nuit, selon les indications du panneau placé à l'arrêt.
+2: Les véhicules privés, uniquement le samedi (shabbat) et les jours fériés, selon les indications du panneau placé à l'arrêt.
+3: Les véhicules privés, la nuit, selon les indications du panneau placé à l'arrêt.
+4: Les motos, uniquement le samedi et les jours fériés, selon les indications du panneau placé à l'arrêt.
+
+#0295
+Q: Est-il permis de conduire sous l'emprise de stupéfiants ou d'alcool ?
+1: Oui, uniquement sur ordonnance médicale.
+2: Non, c'est totalement interdit.
+3: Oui, pour un court trajet jusqu'à la maison.
+4: Oui, uniquement pour aller recevoir des soins médicaux.
+
+#0296
+Q: L'accompagnateur d'un « nouveau conducteur » peut-il être sous l'emprise de l'alcool ?
+1: Oui. L'accompagnateur ne conduit pas, son ivresse n'a donc pas d'importance.
+2: Non. Une personne sous l'emprise de l'alcool ne peut pas accompagner un nouveau conducteur.
+3: Oui, à condition qu'une heure se soit écoulée depuis sa dernière boisson.
+4: Oui, s'il a plus de 26 ans.
+
+#0297
+Q: Un policier peut-il exiger d'un conducteur qu'il se soumette à un « contrôle d'alcoolémie » ?
+1: Non. Un policier ne peut l'exiger que sur ordonnance d'un tribunal.
+2: Oui. Le policier peut demander à un conducteur de se soumettre à un contrôle d'alcoolémie à tout moment.
+3: Oui, mais seulement s'il soupçonne raisonnablement que l'état de santé du conducteur n'est pas bon.
+4: Non. Un policier ne peut exiger aucun contrôle, sauf un éthylotest.
+
+#0298
+Q: Qu'est-ce qu'un « éthylotest » (test de l'haleine) ?
+1: Un test d'effort qui mesure la quantité d'air entrant dans les poumons du conducteur pendant la conduite.
+2: Un test où l'on souffle dans un appareil qui renseigne sur le volume pulmonaire.
+3: Un examen effectué par le médecin de famille d'un candidat au permis, à la demande de l'Autorité des permis.
+4: Un test de l'air expiré dans un appareil qui renseigne sur la concentration d'alcool dans le sang de la personne contrôlée.
+
+#0299
+Q: Un policier a arrêté un véhicule sur la route et demande au conducteur de souffler dans un éthylotest. Le conducteur doit-il obéir ?
+1: Oui, sinon il sera considéré comme ivre.
+2: Oui, mais seulement après minuit.
+3: Non, il n'y est pas obligé.
+4: Oui, mais seulement à la sortie d'un bar.
+
+#0300
+Q: Qu'encourt le conducteur qui refuse de se soumettre à un contrôle d'alcoolémie à la demande d'un policier ?
+1: Il sera considéré comme conduisant en état d'ivresse.
+2: Une suspension ferme du permis d'au moins deux ans et une suspension avec sursis à vie.
+3: Une suspension ferme du permis d'au moins cinq ans.
+4: Le maintien de son permis sera subordonné à un contrôle d'alcoolémie.

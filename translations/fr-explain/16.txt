@@ -1,0 +1,214 @@
+#0962
+E: Le panneau 125 vous prévient qu'une route latérale vous rejoint par la droite : vous êtes sur la route prioritaire, les véhicules qui s'insèrent doivent vous céder le passage, mais restez très attentif.
+R: T64(ג)
+
+#0963
+E: Sur voie rapide, la vitesse maximale d'une voiture est de 110 km/h (sauf panneau contraire). La photo montre l'entrée d'une voie à péage (panneau 426 à 110).
+R: T54(א)
+
+#0964
+E: Le panneau jaune est un panneau de signalisation légal (panneau complémentaire de la voie à péage : « garder les plaques propres ») : il a force de panneau de la route.
+R: T22(א)
+
+#0965
+E: Le panneau 203 (flèche vers le haut) impose d'aller tout droit uniquement.
+R: T22(א)
+
+#0966
+E: La flèche jaune indique le sens réservé aux transports en commun : eux seuls peuvent aller tout droit.
+
+#0967
+E: Le champ de vision limité interdit le dépassement (double ligne continue) et la vitesse est limitée à 90 km/h.
+R: T47(ה)(1)
+
+#0968
+E: En approchant d'un véhicule arrêté sur l'accotement, ralentissez : son conducteur peut s'insérer brusquement sur la chaussée.
+R: T52
+
+#0969
+E: La voiture blanche commence à s'insérer : ralentissez, car elle risque de se jeter sur votre voie.
+R: T52
+
+#0970
+E: Derrière un véhicule lourd en côte ou sur route sinueuse : gardez vos distances et roulez lentement et patiemment, sans coller.
+R: T49(א)
+
+#0971
+E: Dans le virage serré à champ de vision bouché : rouler sur un rapport bas et serrer à droite.
+R: T52(4); T35
+
+#0972
+E: La ligne continue est tracée à cause du champ de vision limité devant : le dépassement y est dangereux.
+R: T36(ג); T47(ה)(1)
+
+#0973
+E: Le panneau « Cédez le passage » est du côté de la voiture argentée (2) : elle doit céder le passage à la voiture blanche (1) qui est déjà dans l'intersection.
+R: T64(ג)
+
+#0974
+E: Même au vert, soyez attentif : un piéton peut surgir d'entre les véhicules en stationnement.
+R: T52(1)
+
+#0975
+E: Près d'un accident ou de personnes sur la chaussée : ralentissez jusqu'à pouvoir vous arrêter et cédez le passage à la circulation qui vient en face.
+R: T52
+
+#0976
+E: Le panneau (308/307) donne la priorité à l'un des deux sens dans le passage étroit : le véhicule éloigné, venant en sens inverse, doit céder le passage.
+R: T46(א)
+
+#0977
+E: Un conteneur à ordures masque la vue à droite : ralentissez et préparez-vous à vous arrêter, car un piéton peut surgir.
+R: T52(7)
+
+#0978
+E: Rouge + orange : les conducteurs arrêtés se préparent à démarrer à l'apparition du vert.
+R: T64(ה)
+
+#0979
+E: Dans un virage serré, chaque véhicule reste à droite de la chaussée : c'est la position correcte, comme sur la photo.
+R: T35
+
+#0980
+E: La voiture blanche coupe le virage près de l'axe de la chaussée : elle empiète sur la voie opposée et met en danger les véhicules qui arrivent en face.
+R: T35
+
+#0981
+E: Le camion ne reste pas à droite : il met en danger tout véhicule venant en face. Dans un virage on reste à droite, même sans autre véhicule en vue.
+R: T35
+
+#0982
+E: Le conducteur ne reste pas à droite de la chaussée et s'expose à une collision frontale.
+R: T35
+
+#0983
+E: Le panneau « route sans accotement » (629) signale qu'il n'y a pas d'échappatoire : ralentissez et soyez très attentif.
+R: T52
+
+#0984
+E: En entrant dans une succession de virages : rester à droite, entrer prudemment et se préparer à rétrograder (descente).
+R: T35; T52(4)
+
+#0985
+E: Le conducteur du camion-citerne ne roule pas à droite de la chaussée, alors qu'il est dans un virage : il se met en danger.
+R: T35
+
+#0986
+E: Le freinage vient du frottement entre le disque de frein et les plaquettes, qui transforme l'énergie de mouvement en chaleur.
+
+#0987
+E: Abuser des freins les fait surchauffer : leur efficacité baisse (fading).
+
+#0988
+E: Dans une longue descente raide, on profite du frein moteur en passant un rapport plus bas, et on s'aide en partie des freins par intermittence.
+R: T159(ב)
+
+#0989
+E: L'échauffement des freins réduit fortement leur efficacité.
+
+#0990
+E: Des freins qui chauffent trop se reconnaissent à un freinage plus faible et à une odeur de brûlé.
+
+#0991
+E: Si les freins ont trop chauffé : arrêtez-vous et attendez qu'ils refroidissent.
+
+#0992
+E: L'ABS empêche le blocage des roues au freinage : on garde le contrôle et la direction du véhicule.
+
+#0993
+E: Des roues bloquées n'ont plus d'adhérence latérale : le véhicule perd sa capacité de direction (il glisse tout droit).
+
+#0994
+E: Le blocage des roues est l'arrêt de leur rotation pendant la conduite, à cause d'un freinage fort et continu.
+
+#0995
+E: Le démarreur fait tourner le moteur pour le faire démarrer.
+
+#0996
+E: On vérifie le système de freinage hydraulique en contrôlant le niveau du liquide de frein, l'efficacité du freinage et en écoutant les bruits et vibrations.
+
+#0997
+E: Le frein de stationnement n'agit que sur certaines roues et sa puissance est faible : on ne l'utilise que pour stationner, pas pour freiner.
+R: T74(ב)
+
+#0998
+E: Il est interdit de rouler la nuit avec un phare avant en panne : il faut faire réparer avant de repartir (on ne voit pas et on n'est pas vu).
+R: T96
+
+#0999
+E: En cas de panne du freinage, cessez de rouler immédiatement et faites remorquer le véhicule : on ne continue pas à compter sur un frein de secours.
+R: T27(א)
+
+#1000
+E: Dans une longue descente, on engage un rapport bas pour utiliser le frein moteur.
+R: T159(ב)
+
+#1001
+E: L'ABS conserve les capacités de direction et de manœuvre du véhicule même lors d'un freinage d'urgence.
+
+#1002
+E: L'ESP réduit le risque de dérapage en freinant certaines roues et en réduisant la puissance du moteur.
+
+#1003
+E: L'ESP actionne les freins de chaque roue séparément et contrôle la puissance du moteur pour redresser le véhicule.
+
+#1004
+E: C'est l'ESP (contrôle électronique de stabilité) qui stabilise le véhicule en cas de dérapage ou de risque de retournement.
+
+#1005
+E: Les pare-chocs absorbent l'énergie du choc : ils réduisent les dégâts et les blessures lors d'un accident.
+
+#1006
+E: Sur une route inondée : rapport bas et allure lente, pour garder le moteur à un régime élevé et éviter les éclaboussures dans l'admission.
+R: T51
+
+#1007
+E: Le panneau 602 (blanc sur bleu ou vert) donne les destinations au-dessus des voies, avant un échangeur hors agglomération ou sur voie rapide. Bleu = voie rapide ; vert = route ordinaire.
+
+#1008
+E: Un accessoire rigide et saillant peut blesser le conducteur ou les passagers en cas d'accident.
+
+#1009
+E: Sans ceinture, l'airbag peut blesser gravement l'occupant qui est projeté trop près : airbag et ceinture sont complémentaires.
+R: T83ב(א)
+
+#1010
+E: Même avec des airbags, la ceinture doit toujours être attachée dès que le véhicule roule.
+R: T83ב(א)
+
+#1011
+E: Le SRS est le système d'airbags gonflables : il atténue les blessures des occupants lors d'une collision.
+
+#1012
+E: Un dossier trop incliné vers l'arrière diminue l'efficacité de la ceinture (risque de glisser dessous).
+
+#1013
+E: L'appuie-tête limite le mouvement de la tête vers l'arrière (coup du lapin) lors d'un choc par l'arrière.
+
+#1014
+E: C'est l'appuie-tête qui réduit le mouvement de la tête vers l'arrière lors d'une collision.
+
+#1015
+E: Des essuie-glaces défectueux réduisent la visibilité et peuvent rayer le pare-brise.
+R: T27(ד)
+
+#1016
+E: Le moteur influe sur la sécurité : sa puissance aide à s'extraire d'une situation d'urgence (accélérer pour éviter un obstacle).
+
+#1017
+E: Une conduite modérée et une bonne pression de gonflage prolongent la durée de vie des pneus.
+
+#1018
+E: On vérifie la pression des pneus avant de rouler, pneus froids : la chaleur fait augmenter la pression.
+
+#1019
+E: Quand une ampoule ne s'allume pas : vérifier l'ampoule et le fusible qui lui est relié.
+R: T96
+
+#1020
+E: Un voyant de clignotant qui clignote trop vite indique qu'au moins une ampoule de clignotant est grillée ou défectueuse.
+R: T96
+
+#1021
+E: Pour remplacer une ampoule, on choisit celle indiquée par le constructeur.
+R: T96

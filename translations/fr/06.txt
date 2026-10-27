@@ -1,0 +1,419 @@
+#0361
+Q: Quel panneau avertit qu'une autre chaussée rejoint celle sur laquelle vous roulez ?
+1: 307
+2: 145
+3: 124
+4: 620
+
+#0362
+Q: Quel panneau ou marquage sera placé après le panneau 144 ?
+1: 806
+2: 821
+3: 513
+4: 101
+
+#0363
+Q: Qu'ont en commun les deux panneaux ci-contre ?
+1: Le panneau 144 est toujours placé avant le panneau 101.
+2: Tous deux recommandent au conducteur de ralentir et de redoubler de vigilance.
+3: Le panneau 101 est toujours placé avant le panneau 144.
+4: Tous deux font partie des panneaux d'information et signalent l'état de la chaussée.
+
+#0364
+Q: Le permis d'un nouveau conducteur ne sera pas converti en permis ordinaire s'il a été condamné par un tribunal pour :
+1: non-arrêt à la ligne d'arrêt près d'un feu.
+2: non-apposition de la plaque « nouveau conducteur » sur la lunette arrière.
+3: conduite d'un véhicule à moteur sans assurance valide.
+4: non-respect d'un feu rouge ou refus de priorité.
+
+#0365
+Q: Quel panneau annonce une intersection en T à droite ?
+1: 205
+2: 115
+3: 208
+4: 119
+
+#0366
+Q: Les mesures administratives imposées par l'Autorité des permis dans le cadre du système de points :
+1: ne sont que des recommandations ; seul un tribunal peut imposer des mesures.
+2: remplacent la condamnation pour l'infraction routière.
+3: s'ajoutent à toute peine prononcée par le tribunal contre le conducteur pour des infractions routières.
+4: n'incluent pas la suspension du permis (seul un officier de police peut suspendre un permis).
+
+#0367
+Q: Quel panneau annonce une intersection équipée de feux ?
+1: 702
+2: 122
+3: 114
+4: 705
+
+#0368
+Q: Quel panneau signifie « piétons à proximité » ?
+1: 136
+2: 135
+3: 226
+4: 306
+
+#0369
+Q: Voici le panneau 303. Quel panneau est parfois placé avant lui ?
+1: 114
+2: 145
+3: 122
+4: 121
+
+#0370
+Q: Voici le panneau 126. Quel panneau est placé sur la route que vous rejoignez ?
+1: 123
+2: 301
+3: 115
+4: 310
+
+#0371
+Q: Quel panneau trouve-t-on à environ 300 mètres d'un passage à niveau ?
+1: 128
+2: 134
+3: 130
+4: 133
+
+#0372
+Q: Quel panneau constitue le dernier avertissement avant un passage à niveau ?
+1: 132
+2: 131
+3: 133
+4: 128
+
+#0373
+Q: À l'entrée d'un tronçon de route se trouve le panneau 618. Quel panneau figurera à l'entrée de l'autre extrémité de ce tronçon ?
+1: 308
+2: 402
+3: 307
+4: 401
+
+#0374
+Q: Quel panneau indique l'emplacement d'un passage à niveau à une seule voie ferrée ?
+1: 130
+2: 134
+3: 128
+4: 133
+
+#0375
+Q: Quel panneau sera placé sur la route après le panneau 135 ?
+1: 226
+2: 220
+3: 136
+4: 306
+
+#0376
+Q: Quel panneau indique l'emplacement d'un passage pour piétons ?
+1: 226
+2: 306
+3: 220
+4: 136
+
+#0377
+Q: Quel panneau de danger est parfois placé avant le panneau 302 ?
+1: 135
+2: 139
+3: 150
+4: 301
+
+#0378
+Q: Quel panneau de danger annonce une circulation à double sens ?
+1: 618
+2: 145
+3: 620
+4: 308
+
+#0379
+Q: Selon la loi, combien de temps les points de pénalité d'un conducteur restent-ils valables ?
+1: Deux ans à compter de l'infraction, lorsque le conducteur a jusqu'à 20 points.
+2: Aucune durée n'est fixée ; le règlement ne parle pas de période d'accumulation.
+3: Six ans à compter de l'infraction, lorsque le conducteur a moins de 12 points.
+4: Indéfiniment : avec le nouveau système de points, les points ne sont jamais effacés.
+
+#0380
+Q: Lequel de ces panneaux n'autorise pas le demi-tour par la gauche ?
+1: 202
+2: 203
+3: 205
+4: Tous ces panneaux interdisent le demi-tour.
+
+#0381
+Q: Que faites-vous lorsque vous voyez ce panneau ?
+1: Vous avez la priorité sur la circulation venant en face.
+2: Il est interdit de faire marche arrière sur le tronçon devant vous.
+3: Vous devez être prudent et serrer à droite, car la circulation devient à double sens.
+4: Vous devez céder le passage à la circulation venant en face.
+
+#0382
+Q: Quel panneau impose de contourner l'endroit signalé uniquement par la gauche ?
+1: 123
+2: 214
+3: 215
+4: 213
+
+#0383
+Q: Quel panneau sera placé en plus du panneau 216 ?
+1: 424
+2: 218
+3: 407
+4: 418
+
+#0384
+Q: Quelle est la différence entre ces panneaux ?
+1: Il n'y a aucune différence.
+2: Le panneau 135 annonce un passage pour piétons ; le panneau 306 indique l'emplacement du passage.
+3: Le panneau 306 annonce un passage pour piétons ; le panneau 135 indique l'emplacement du passage.
+4: Le panneau 135 est placé hors agglomération ; le panneau 306 sur voie rapide.
+
+#0385
+Q: Que signifie ce panneau ?
+1: Vous arrivez à la fin du tronçon à vitesse particulière.
+2: Vous arrivez sur un tronçon où le stationnement est permis des deux côtés.
+3: Vous arrivez sur un tronçon où les véhicules rapides doivent rouler à droite et les véhicules lents à gauche.
+4: Vous arrivez sur un tronçon où la vitesse maximale passe temporairement de 50 à 30 km/h.
+
+#0386
+Q: Que signifie ce panneau ?
+1: Interdiction aux camions de dépasser les voitures particulières.
+2: Interdiction aux voitures particulières de dépasser les camions.
+3: Fin du tronçon où s'applique la restriction de dépassement.
+4: Interdiction de dépasser un autobus.
+
+#0387
+Q: Quel panneau impose de céder le passage dans un carrefour giratoire ?
+1: 307
+2: 303
+3: 121
+4: 301
+
+#0388
+Q: Une zone de circulation apaisée est une zone :
+1: où la vitesse maximale est de 30 km/h et qui est signalée par un panneau.
+2: où la vitesse maximale est de 25 km/h et qui est signalée par un panneau.
+3: où la vitesse maximale est de 40 km/h et qui est signalée par un panneau.
+4: réservée aux véhicules lents.
+
+#0389
+Q: Est-il permis de stationner le long d'une barrière de sécurité pour piétons ?
+1: Oui, pour peu de temps.
+2: Non, sauf si un panneau indique le contraire.
+3: Oui, s'il n'y a pas de piétons le long de la barrière.
+4: Oui, seulement pour faire monter ou descendre des passagers.
+
+#0390
+Q: Le panneau 308 est placé à l'entrée d'un tronçon. Quel panneau sera placé pour ceux qui arrivent en sens inverse ?
+1: 622
+2: 145
+3: 307
+4: 504
+
+#0391
+Q: Quel panneau verrez-vous probablement avant le panneau 305 ?
+1: 438
+2: 304
+3: 302
+4: 402
+
+#0392
+Q: Si un panneau « Stop » est placé avant un passage à niveau, le conducteur doit :
+1: éteindre la radio, allumer les phares, écouter et regarder le long de la voie ferrée.
+2: arrêter son véhicule, éteindre la radio, ouvrir la vitre à côté de lui, écouter et regarder le long de la voie ferrée.
+3: passer au point mort, éteindre la radio, écouter et regarder le long de la voie ferrée.
+4: arrêter le véhicule, couper le moteur, éteindre la radio et allumer les phares.
+
+#0393
+Q: L'arrêt et le stationnement sont interdits au bord de la route. Quel panneau sera placé à cet endroit ?
+1: 434
+2: 433
+3: 817
+4: 432
+
+#0394
+Q: Après lequel de ces panneaux le dépassement est-il interdit (sur environ 100 mètres) ?
+1: 307
+2: 130
+3: 135
+4: 132
+
+#0395
+Q: Quel panneau interdit de tourner à gauche pour entrer dans une station-service ?
+1: 428
+2: 205
+3: 429
+4: 431
+
+#0396
+Q: Lequel de ces panneaux ne cesse pas de s'appliquer à la prochaine intersection ?
+1: 424
+2: 426
+3: 432
+4: 504
+
+#0397
+Q: Le panneau 401 est placé à l'entrée d'une route. Quel panneau sera placé à l'entrée de l'autre extrémité de cette route ?
+1: 402
+2: 618
+3: 307
+4: 401
+
+#0398
+Q: Le permis d'un nouveau conducteur ne sera pas converti en permis ordinaire mais prolongé de deux ans comme permis de nouveau conducteur s'il a été condamné pour :
+1: non-arrêt à un panneau « Cédez le passage ».
+2: non-apposition de la plaque « nouveau conducteur » sur la lunette arrière.
+3: conduite d'un véhicule à moteur sans assurance valide.
+4: non-arrêt avant un passage à niveau alors que les circonstances l'imposaient.
+
+#0399
+Q: Un conducteur peut-il envoyer un SMS avec son téléphone pendant qu'il conduit ?
+1: Il peut en lire, mais pas en envoyer.
+2: C'est totalement interdit, inadmissible et dangereux.
+3: Il peut en envoyer et en lire, à condition de le faire prudemment.
+4: Il peut en envoyer, mais pas en lire.
+
+#0400
+Q: Quel panneau autorise le stationnement sur le trottoir ?
+1: 432
+2: 627
+3: 626
+4: 435
+
+#0401
+Q: Le but d'un panneau d'information est :
+1: de fournir des informations sur des lieux et des directions.
+2: d'indiquer aux conducteurs comment se comporter.
+3: d'avertir les usagers de dangers proches sur la route.
+4: d'établir des interdictions.
+
+#0402
+Q: Quel marquage autorise un stationnement qui n'est pas parallèle au trottoir ?
+1: 815
+2: 819
+3: 513
+4: 512
+
+#0403
+Q: Quel panneau placé avant une intersection impose de céder le passage ?
+1: 310
+2: 308
+3: 504
+4: 301
+
+#0404
+Q: Quel panneau impose de s'arrêter et de céder le passage aux véhicules venant de toutes les directions ?
+1: 302
+2: 309
+3: 308
+4: 303
+
+#0405
+Q: Quel signal apparaîtra après le signal 705 ?
+1: 701
+2: 122
+3: 703
+4: 702
+
+#0406
+Q: Quel signal apparaîtra après le signal 701 ?
+1: 703
+2: 705
+3: 702
+4: 122
+
+#0407
+Q: Que signifie ce panneau ?
+1: Travaux sur la chaussée.
+2: Chaussée déformée.
+3: Route de montagne.
+4: Ralentisseurs devant vous.
+
+#0408
+Q: Comment devez-vous conduire lorsque le panneau de la photo est placé devant vous ?
+1: Accélérez, cela évitera les secousses du véhicule.
+2: Roulez sur un rapport bas : vous êtes sur une route de montagne.
+3: Obéissez aux ordres des agents des Travaux publics.
+4: Adaptez votre vitesse à l'état de la route ; ne négligez pas une chaussée déformée.
+
+#0409
+Q: Que signifie ce panneau ?
+1: Allez uniquement à gauche.
+2: Demi-tour autorisé.
+3: Route sinueuse.
+4: Virage serré à droite.
+
+#0410
+Q: Comment conduisez-vous selon ce panneau ?
+1: Ralentissez avant d'entrer dans le virage et accélérez progressivement vers la sortie.
+2: Klaxonnez avant d'entrer dans le virage.
+3: Entrez vite dans le virage et sortez-en lentement.
+4: Roulez normalement ; les vitesses d'entrée et de sortie du virage n'ont pas d'importance.
+
+#0411
+Q: Que signifie ce panneau ?
+1: Virage à droite puis à gauche.
+2: Virage en épingle à cheveux devant vous.
+3: Route étroite et sinueuse devant vous.
+4: Route sinueuse devant vous.
+
+#0412
+Q: Comment conduisez-vous selon ce panneau ?
+1: Roulez au milieu de la chaussée et mettez le clignotant avant chaque virage.
+2: Accélérez pour franchir l'endroit plus vite.
+3: Ralentissez et passez à gauche de la route dans le virage à gauche.
+4: Adaptez votre vitesse à l'état de la route et roulez bien à l'extrême droite de la chaussée.
+
+#0413
+Q: Que signifie ce panneau ?
+1: Route sinueuse.
+2: Panneau d'obligation : virage en épingle à cheveux.
+3: Virage à droite puis à gauche devant vous.
+4: Descente dangereuse devant vous.
+
+#0414
+Q: Que signifie ce panneau ?
+1: Embouteillage devant vous.
+2: Le nombre de voies diminue.
+3: La chaussée se rétrécit par la droite.
+4: Pont étroit devant vous.
+
+#0415
+Q: Comment conduisez-vous selon ce panneau ?
+1: Continuez normalement : vous avez la priorité sur la circulation venant en face.
+2: Ralentissez, serrez à droite et restez attentif à la circulation venant en face.
+3: Cédez le passage dans le passage étroit.
+4: Mettez le clignotant à gauche et passez prudemment sur la voie de gauche en regardant dans les rétroviseurs.
+
+#0416
+Q: Que signifie ce panneau ?
+1: Attention, chute de pierres.
+2: Attention, ralentisseurs devant vous.
+3: Travaux sur la route.
+4: Fouilles archéologiques devant vous.
+
+#0417
+Q: Comment conduisez-vous selon ce panneau ?
+1: Vous devez obtenir une autorisation de passage de l'entreprise de travaux.
+2: Ralentissez et obéissez aux ordres des ouvriers et à tous les panneaux du chantier.
+3: Conduisez prudemment : chaussée déformée devant vous.
+4: Franchissez rapidement l'endroit sans gêner les ouvriers.
+
+#0418
+Q: Que signifie ce panneau ?
+1: Entrée d'un tunnel.
+2: Chaussée étroite et basse.
+3: Hauteur limitée : accès interdit aux véhicules dont la hauteur, chargement compris, dépasse celle indiquée.
+4: Barrière devant vous.
+
+#0419
+Q: Que signifie ce panneau ?
+1: Fin de la voie cyclable.
+2: Attention, cyclistes sur la route.
+3: Voie cyclable à sens unique.
+4: Piste réservée aux vélos.
+
+#0420
+Q: Que signifie ce panneau ?
+1: Emplacement d'un passage à niveau.
+2: Jonction sur une voie rapide.
+3: Intersection en T devant vous.
+4: Intersection en croix.

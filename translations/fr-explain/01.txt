@@ -1,0 +1,237 @@
+#0061
+E: Un policier qui s'est identifié par sa carte professionnelle est assimilé à un policier en uniforme : il faut lui obéir, même si son ordre contredit un panneau.
+R: T23(א)(1); T23(ב)
+
+#0062
+E: L'inspecteur municipal habilité et en uniforme fait partie des personnes auxquelles on doit obéir en matière de circulation : ses ordres et signaux pour réguler le trafic s'imposent.
+R: T23(א)(1); T23(א)(2)
+
+#0063
+E: Un agent en uniforme chargé des travaux de la route (Netivei Israël ou municipalité) peut régler la circulation là où des travaux de construction ou d'entretien de la chaussée ont lieu : on doit lui obéir à cet endroit.
+R: T23(א)(1א); T23(א)(2)
+
+#0064
+E: Le policier militaire en uniforme figure dans la liste des personnes dont on doit suivre les ordres et les signaux, exactement comme un policier civil.
+R: T23(א)(1); T23(א)(2)
+
+#0065
+E: L'obéissance au policier est obligatoire même si son ordre ou son signal contredit les règles ou les panneaux, sans exception pour le « Stop » ou le « Sens interdit ». Il faut néanmoins rester très prudent.
+R: T23(ב)
+
+#0066
+E: Même règle que pour un policier civil : les ordres d'un policier militaire en uniforme priment sur les panneaux, sans exception.
+R: T23(א)(1); T23(ב)
+
+#0067
+E: L'inspecteur municipal habilité est sur la même liste que le policier : ses ordres s'imposent même s'ils contredisent les panneaux.
+R: T23(א)(1); T23(ב)
+
+#0068
+E: Un panneau mobile installé sur la route par la police est considéré comme un panneau placé légalement, quel qu'il soit.
+R: T23(ג)
+
+#0069
+E: Les feux priment sur tout panneau de priorité, sauf le feu orange clignotant. Un panneau ne prime donc jamais sur un feu en fonctionnement normal.
+R: T22(ב)
+
+#0070
+E: Avoir le permis de la bonne catégorie ne suffit pas : il est interdit de conduire un véhicule si l'on ne maîtrise pas sa conduite et son fonctionnement.
+R: T25; P10(א)
+
+#0071
+E: Personne ne doit conduire dans un état qui risque de mettre en danger les autres usagers : fatigue, maladie, alcool, médicaments, état psychologique…
+R: T26
+
+#0072
+E: Il est interdit de conduire sous l'influence de substances qui altèrent la conduite, ou dans un état qui empêche de conduire avec une sécurité raisonnable. Aucun délai fixe ne rend la conduite « autorisée ».
+R: T26
+
+#0073
+E: Il est interdit de conduire un véhicule dans un état qui peut mettre en danger les usagers, ou qui prive le conducteur de sa maîtrise. Aucune panne n'est « tolérée ».
+R: T27(א); T27(ג)
+
+#0074
+E: La loi interdit de conduire lorsque la vue de la route par le pare-brise (ou les vitres avant et latérales) est réduite, sauf réduction négligeable.
+R: T27(ד)
+
+#0075
+E: Les deux mains restent sur le volant ou le guidon tant que le véhicule roule. On peut en retirer une seulement pour assurer le bon fonctionnement du véhicule ou respecter les règles (changer de vitesse, mettre le clignotant…).
+R: T28(א)
+
+#0076
+E: En roulant, il est interdit de tenir un téléphone ; on ne peut l'utiliser qu'avec un dispositif mains libres. Envoyer ou lire un SMS est aussi interdit.
+R: T28(ב)
+
+#0077
+E: Si le permis mentionne l'obligation de porter des lunettes ou des lentilles, ou si vous les avez utilisées au test de vue, vous devez les porter à chaque fois que vous conduisez.
+R: T30
+
+#0078
+E: Dans une zone résidentielle, le conducteur doit laisser les piétons et les enfants qui jouent poursuivre leurs activités, et ne continuer que s'il est sûr de ne pas les mettre en danger.
+R: T31(ב)
+
+#0079
+E: Là où il existe une chaussée, les véhicules ne doivent circuler que sur la chaussée (sauf exceptions prévues, par exemple un panneau qui ouvre l'accotement).
+R: T33(א)
+
+#0080
+E: Réponse de la banque officielle : un cycliste peut emprunter la voie réservée aux transports en commun lorsqu'elle est sur le côté droit de la chaussée — conformément à la règle qui oblige les cyclistes à rouler le plus à droite possible.
+R: T35
+
+#0081
+E: Sur toute chaussée, même à sens unique, le conducteur doit rouler autant que possible à l'extrême droite de la chaussée ou de la voie destinée à son type de véhicule.
+R: T35
+
+#0082
+E: La chaussée est la partie de la route destinée à la circulation des véhicules. Sur l'illustration, c'est la zone désignée par le numéro 3.
+R: T1:כביש
+
+#0083
+E: Le terre-plein n'est pas une place de stationnement : on ne peut ni le franchir ni y immobiliser un véhicule, sauf si un panneau l'autorise et à l'endroit indiqué.
+R: T36(ב); T1:שטח הפרדה
+
+#0084
+E: Sur une route divisée par un terre-plein, chaque côté est une chaussée à sens unique ; on circule à droite du terre-plein, sans le franchir, sauf indication contraire.
+R: T36(א); T36(ב)
+
+#0085
+E: Sur une chaussée divisée par une ligne continue, on roule à droite de la ligne et on ne la franchit pas — sauf si une ligne discontinue est tracée juste à côté, de votre côté.
+R: T36(ג)
+
+#0086
+E: Il est interdit de circuler à contresens sur une chaussée à sens unique. Seuls un véhicule d'urgence en service ou l'ordre d'un policier (qui prime sur les règles) font exception.
+R: T37; T23(ב)
+
+#0087
+E: On peut rouler sur un trottoir uniquement pour le traverser afin d'entrer dans une propriété ou d'en sortir.
+R: T38(א)
+
+#0088
+E: Le conducteur d'un tracteur ou d'un véhicule lent doit se serrer à droite, et même rouler sur l'accotement si c'est nécessaire et possible, pour laisser passer la circulation qui le suit.
+R: T38(ב)
+
+#0089
+E: Sur une chaussée à double sens, on contourne un obstacle fixe (bâtiment, poteau, îlot, zone fermée) par la droite, sauf panneau indiquant de passer à gauche.
+R: T39(א)
+
+#0090
+E: Sur une chaussée à sens unique, on peut contourner l'obstacle par la droite ou par la gauche, sauf si un panneau impose le côté.
+R: T39(ב)
+
+#0091
+E: Réponse attendue à l'examen : véhicule médical spécial (inscrit comme tel sur la carte grise) jusqu'à 4 000 kg. Attention : l'article 180(5) actuellement en vigueur autorise ce véhicule jusqu'à 5 000 kg et 8 passagers. À l'examen, retenez 4 000 kg.
+R: T180(5)
+
+#0092
+E: Un permis qui n'a pas été valide pendant plus d'un an ne peut être renouvelé que si son titulaire réussit les contrôles et examens exigés par l'Autorité des permis.
+
+#0093
+E: Selon le tableau officiel de la signalisation, le feu vert clignote trois fois avant de passer à l'orange : c'est le signal que le feu va changer.
+
+#0094
+E: Un quad ne peut rouler sur la chaussée que pour la traverser, ou sur les chaussées situées dans un moshav ou un kibboutz. Il circule sinon sur les chemins de terre.
+R: T39ג(א)
+
+#0095
+E: L'avis d'interdiction d'utilisation est remis au conducteur par un contrôleur ou un policier habilité (ou un expert automobile après un accident) lorsque le véhicule risque de mettre en danger la circulation.
+R: T308(א); T308(ב)
+
+#0096
+E: Le conducteur d'un quad ne peut prendre un passager que si l'Autorité des permis l'a autorisé et que cette autorisation figure sur la carte grise.
+R: T39ג(ג)
+
+#0097
+E: Sur un quad, le conducteur et chaque passager doivent porter un casque homologué, couvrant les oreilles et attaché par une jugulaire.
+R: T39ג(ד)
+
+#0098
+E: Le conducteur d'un tracteur utilitaire ne peut prendre un passager qu'avec une autorisation de l'Autorité des permis, inscrite sur la carte grise.
+R: T39ד(א)
+
+#0099
+E: La vitesse d'un tracteur utilitaire ne doit pas dépasser 40 km/h, sur toutes les routes.
+R: T39ד(ב)
+
+#0100
+E: Dans un tracteur utilitaire, le conducteur et chaque passager doivent attacher leur ceinture de sécurité, quelle que soit la route.
+R: T39ד(ג)
+
+#0101
+E: Une voie est une bande de la chaussée assez large pour une file de véhicules, souvent délimitée par un marquage. Sur l'illustration, c'est le numéro 6.
+R: T1:נתיב
+
+#0102
+E: Le terre-plein sépare la route dans sa longueur. Sur l'illustration, il porte le numéro 4.
+R: T1:שטח הפרדה
+
+#0103
+E: L'accotement est la bande située en bordure de la chaussée. Sur l'illustration, il porte le numéro 7.
+R: T1:שול הדרך
+
+#0104
+E: La circulation à contresens sur une chaussée à sens unique est interdite. Seul un véhicule d'urgence en mission (gyrophare et sirène) peut s'en affranchir.
+R: T37; T1:רכב ביטחון
+
+#0105
+E: On ne quitte sa voie que si cela ne risque pas de créer une gêne ou un danger. Le clignotant et les rétroviseurs sont nécessaires, mais ne suffisent pas.
+R: T40(א)
+
+#0106
+E: Dévier de sa trajectoire n'est permis qu'à vitesse raisonnable et en sécurité, sans gêner la circulation ni mettre en danger personne.
+R: T41
+
+#0107
+E: Pour tourner à droite, il faut être le plus près possible du bord droit de la chaussée, sans véhicule à sa droite, et tourner court vers la voie de droite de la chaussée où l'on s'engage, à vitesse raisonnable et en sécurité.
+R: T42; T41
+
+#0108
+E: On tourne à droite depuis la voie la plus à droite et en tournant court, c'est-à-dire vers la voie de droite de la rue où l'on entre : ici de la voie 7 vers la voie 6 uniquement.
+R: T42
+
+#0109
+E: Le règlement exige, pour tourner à droite, qu'aucun véhicule ne circule à votre droite : c'est donc ce qu'il faut vérifier avant de tourner.
+R: T42
+
+#0110
+E: Appliquez les règles de virage et les panneaux de l'illustration : tourner depuis la voie appropriée vers la voie appropriée de la rue d'arrivée (ici de 2 vers 3).
+R: T42; T43
+
+#0111
+E: Pour tourner à gauche d'une chaussée à double sens à plusieurs voies, on part de la voie la plus à gauche et on entre dans la voie la plus à gauche de la chaussée d'arrivée, sauf marquage contraire (ici de 2 vers 4).
+R: T43(א)(3); T43(ב)
+
+#0112
+E: Le virage se fait depuis la voie la plus à gauche vers la voie qui convient dans la rue d'arrivée, selon la règle du virage à gauche et les panneaux de l'illustration (ici de 2 vers 5).
+R: T43
+
+#0113
+E: Le virage à gauche se fait depuis la voie la plus à gauche (2) vers la voie la plus à gauche de la chaussée d'arrivée (4).
+R: T43(א)(3); T43(ב)
+
+#0114
+E: Pour tourner à droite, on part de la voie de droite (1) et on tourne court vers la voie la plus proche du bord droit (3).
+R: T42
+
+#0115
+E: Le virage se fait depuis la voie la plus proche du côté où l'on tourne (1) vers la voie correspondante de la rue d'arrivée (4), selon les panneaux de l'illustration.
+R: T42; T43
+
+#0116
+E: Le virage de la rue C vers la rue A se fait depuis la voie 5 vers la voie 4, en respectant la règle de la voie de départ et de la voie d'arrivée.
+R: T42; T43
+
+#0117
+E: Le demi-tour est permis lorsqu'il ne gêne pas la circulation et ne met personne en danger, et qu'aucun panneau ni marquage ne l'interdit.
+R: T44(א); T44(ב)
+
+#0118
+E: Il est interdit de faire demi-tour à l'approche d'un virage ou d'un sommet de côte, et partout où votre véhicule n'est pas visible d'un conducteur qui approche de n'importe quel côté.
+R: T44(א)
+
+#0119
+E: Le demi-tour à gauche se fait depuis la voie de présélection à gauche ou depuis toute voie où aucun panneau ni marquage ne l'interdit. Une flèche « tout droit » vaut interdiction de demi-tour.
+R: T44(ב)
+
+#0120
+E: La marche arrière est permise si elle est nécessaire, dans la mesure du nécessaire, et après avoir pris les précautions pour éviter tout danger, dommage, dérangement ou gêne.
+R: T45

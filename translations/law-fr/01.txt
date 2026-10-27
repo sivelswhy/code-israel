@@ -1,0 +1,117 @@
+#T1:רחוב משולב
+F: « Rue partagée » : route destinée aux jeux d’enfants, aux piétons et aux véhicules, et à l’entrée de laquelle est placé un panneau indiquant une rue partagée.
+
+#T1:מרכב אחוד
+F: « Carrosserie intégrée » : carrosserie rigide montée sur le véhicule lors de sa fabrication, qu’elle soit fixée au châssis (composite body) ou qu’il s’agisse d’une carrosserie autoporteuse (chassisless frame body), dont l’habitacle a été conçu par le constructeur pour comprendre une cabine de conducteur, des sièges de passagers et un plateau de chargement intérieur pour la marchandise.
+
+#T1:רכב איטי
+F: « Véhicule lent » : véhicule à moteur pour lequel l’autorité d’immatriculation a fixé, sur sa carte grise ou dans le Règlement, une vitesse maximale ne dépassant pas 40 km/h.
+
+#T1:רכב ביטחון
+F: « Véhicule de sécurité » (véhicule d’urgence : ambulance, police, armée, pompiers, etc.) : chacun des véhicules suivants, lorsqu’il émet une lumière clignotante par un feu spécial et fait retentir une sirène d’alarme :
+(1) une ambulance du Magen David Adom, ou une ambulance autorisée à fournir des soins médicaux urgents par le directeur du ministère de la Santé ou en son nom ;
+(2) une moto de premiers secours autorisée à fournir des soins médicaux urgents par le directeur du ministère de la Santé ou en son nom ;
+(3) un véhicule de la police d’Israël ;
+(4) un véhicule de l’armée de défense d’Israël ;
+(5) un véhicule utilisé par l’administration pénitentiaire pour l’un des usages suivants (véhicule opérationnel de l’administration pénitentiaire) :
+(a) des missions opérationnelles, à condition qu’il ait l’autorisation du commissaire des prisons ou de son représentant ;
+(b) l’escorte de détenus ou de prisonniers ;
+(6) un véhicule de lutte contre les incendies ;
+(7) un véhicule de police mixte, à condition qu’un policier s’y trouve ;
+(8) un véhicule déterminé que l’autorité d’immatriculation a autorisé à cet effet.
+
+#P44א(א)
+F: Lorsqu’une personne est condamnée pour une infraction à un règlement pris en vertu de l’Ordonnance, qui interdit le transport rémunéré de passagers dans un véhicule privé ou commercial, ou la location d’un véhicule privé ou commercial à cette fin, ou l’octroi d’une autorisation de transport de ce type dans un véhicule privé ou commercial (infraction de transport), le tribunal peut, en plus de toute autre peine, retirer au titulaire du permis du véhicule utilisé pour l’infraction le droit de détenir un permis pour un type de véhicule donné ou pour un véhicule déterminé, de façon définitive ou pour une période donnée.
+
+#T1:רכב מיושן
+F: « Véhicule ancien » :
+(1) un véhicule, à l’exception d’un tracteur, d’une remorque et d’un autobus, dont l’âge a atteint dix-neuf ans depuis l’année de fabrication à la date de renouvellement de sa licence ;
+(2) un autobus dont l’âge a atteint quinze ans depuis l’année de fabrication à la date de renouvellement de sa licence.
+
+#T1:רכב נוסעים פרטי
+F: « Voiture particulière de tourisme » : véhicule à moteur privé destiné au transport de passagers, dont la carte grise porte la classification principale M1.
+
+#T308(ד)
+F: Nul n’utilisera un véhicule pour lequel un avis d’interdiction d’usage a été remis, sauf pour aller le faire réparer ou remplir les conditions qui y sont indiquées, et pour l’amener au service des immatriculations en vue d’un nouveau contrôle, et ce dans la mesure où un tel usage a été permis dans l’avis remis.
+
+#T1:שביל
+F: « Chemin » : route ou partie de route qui n’est pas une chaussée et qui est réservée à une catégorie d’usagers de la route.
+
+#T45
+F: Le conducteur d’un véhicule ne fera marche arrière que si c’est nécessaire, dans la mesure nécessaire, et après avoir pris les mesures requises par les circonstances pour éviter :
+(1) un danger ou un dommage ;
+(2) une gêne ou une entrave.
+
+#T80(א)
+F: Nul n’ouvrira la portière d’un véhicule sans avoir pris toutes les précautions nécessaires pour assurer la sécurité des usagers de la route.
+
+#T1:שטח הפרדה בנוי
+F: « Séparateur construit » : espace de séparation qui divise la route dans sa longueur au moyen d’un dispositif surélevé par rapport à la chaussée, comme une bordure surélevée, une glissière de sécurité ou de la végétation.
+
+#T83א:מושב בטיחות
+F: « Siège de sécurité » : siège destiné au transport d’enfants dans un véhicule, fixé au véhicule par une ceinture de sécurité, équipé de sangles destinées à y attacher l’enfant, et conforme à la norme précisée au point 4 de la partie C de la deuxième annexe.
+
+#T83א:מושב מגביה
+F: « Rehausseur » : siège destiné au transport d’enfants dans un véhicule, l’enfant qui y est assis étant attaché par la ceinture de sécurité du véhicule, et conforme à la norme précisée au point 4 de la partie C de la deuxième annexe.
+(b) Nul ne transportera, sur le siège avant d’un véhicule à moteur, ou sur le siège arrière d’un véhicule à moteur dont l’année de fabrication est 1983 ou postérieure (à l’exception d’un autobus qui n’est pas un minibus privé, d’un taxi et d’une moto) :
+(1) un enfant de moins de 3 ans, s’il n’est pas attaché dans un siège de sécurité adapté à sa taille et à son poids ;
+(2) un enfant de 3 ans révolus et de moins de huit ans, s’il n’est pas attaché dans un siège de sécurité ou sur un rehausseur adapté à sa taille et à son poids.
+(c) Nul ne transportera dans un véhicule visé au paragraphe (b) un enfant de moins d’un an, sauf si le dos du siège de sécurité est tourné vers l’avant du véhicule.
+(d) Nul ne transportera un enfant dans un siège de sécurité ou sur un rehausseur à un endroit où se trouve devant lui un airbag, sauf si son mécanisme de déclenchement a été désactivé.
+
+#P1:רכב מנועי
+F: « Véhicule à moteur » : véhicule propulsé par une force mécanique de quelque forme que ce soit, y compris un tricycle à moteur et une moto avec side-car ou remorque ou sans eux, à l’exclusion d’un véhicule tracté par un véhicule à moteur.
+
+#T9(א)
+F: Nul ne conduira un véhicule s’il n’a pas avec lui tous les éléments suivants :
+(1) au moins un des moyens d’identification suivants :
+(a) une carte d’identité délivrée en vertu de la loi sur le registre de la population de 1965 ;
+(b) un passeport israélien valable délivré en vertu de la loi sur les passeports de 1952 ;
+(c) un permis de conduire valable délivré en vertu de l’Ordonnance, comportant la photo de son titulaire ;
+(d) pour celui qui remplit les conditions prévues à l’article 567 ou 567A : un permis de conduire étranger au sens de l’article 562 ;
+(2) une attestation d’assurance au sens de l’Ordonnance sur l’assurance des véhicules à moteur [nouvelle version] de 1970 ;
+(3) tout document délivré conformément à la loi concernant la conduite de cette personne ou le véhicule qu’elle conduit ;
+(4) toute liste de conditions établie conformément à la loi concernant la conduite de cette personne ou le véhicule qu’elle conduit ;
+(5) (abrogé).
+
+#P69א(א)
+F: Le ministre, avec l’accord du ministre de la Justice et l’approbation de la commission de l’Économie de la Knesset, peut fixer par règlement un système d’enregistrement de points pour les infractions routières dont a été condamné un titulaire de permis de conduire (système de points), et fixer le type d’infractions et le nombre de points inscrits au passif du titulaire pour chaque infraction dont il est condamné.
+
+#T9(ג)
+F: Chacun conservera à tout moment les documents visés par cet article en état propre et lisible.
+
+#T9א(א)
+F: Un nouveau conducteur au sens de l’article 12A de l’Ordonnance ne conduira pas une voiture particulière de tourisme ou un véhicule commercial intégré dont le poids total autorisé ne dépasse pas 3 500 kg, sans qu’une étiquette conforme à la deuxième annexe (dans cet article : l’étiquette) soit apposée sur la vitre arrière du véhicule, dans son bord inférieur, de façon à être vue du conducteur qui le suit.
+
+#P12א(א)
+F: Celui à qui un permis de conduire est délivré et qui n’avait pas auparavant de permis autre qu’un permis de conduire une moto, un tracteur ou une machine mobile, sera un nouveau conducteur pendant deux ans à compter de la date de délivrance (dans cette section : la période de base), ou pendant des périodes supplémentaires conformément aux dispositions de cet article. La validité du permis de conduire délivré à un nouveau conducteur est de deux ans.
+
+#T11
+F: Celui qui n’y est pas habilité ne modifiera aucune mention d’un document, par écriture, tracé, effacement, brouillage, ajout ou de toute autre manière, et ne détiendra pas un document ainsi modifié.
+
+#T13(א)
+F: Le titulaire d’un document informera l’autorité de tout changement survenu dans l’une des mentions inscrites au document et, à sa demande, lui remettra le document pour y faire inscrire le changement. Si l’autorité envoie au titulaire un nouveau document comportant les changements, le titulaire rendra l’ancien document à l’autorité.
+
+#T13(ב)
+F: Le titulaire d’un permis de conduire chez qui sont découvertes des maladies cardiaques ou des limitations du système nerveux, des os, de la vue ou de l’ouïe, en informera immédiatement l’autorité d’immatriculation par lettre recommandée.
+
+#T22(ב)
+F: Les signaux donnés par un feu tricolore, à l’exception du feu jaune clignotant, l’emportent sur tout panneau fixant une priorité.
+
+#T23(א)(1)
+F: L’usager de la route doit se conformer aux instructions données par un policier en uniforme, un policier qui s’est identifié par sa carte de nomination, une personne de la défense civile (Haga) en service officiel effectif pour la police d’Israël et en uniforme ou portant un autre signe d’identification extérieur visible agréé, un policier militaire en uniforme, ou un agent de surveillance municipal en uniforme, employé d’une autorité locale, habilité par le commandant de district ou le chef de la division de la circulation de la police d’Israël après une formation adéquate (dans cet article : agent municipal).
+
+#T23(ב)
+F: L’obligation de se conformer aux instructions ou signaux précités s’applique même si l’instruction ou le signal est contraire au Règlement, aux panneaux ou à d’autres instructions générales sur l’organisation de la circulation données par une autorité compétente.
+
+#T23(א)(2)
+F: L’usager de la route doit se conformer aux signaux donnés par un policier en uniforme, un policier militaire en uniforme, un agent municipal, un employé de la société Netivei Israel, ou un employé de Netivei Israel en uniforme.
+
+#T23(א)(1א)
+F: L’usager de la route doit se conformer aux instructions données par un employé en uniforme d’une autorité locale de signalisation, ou en son nom, habilité à cet effet par le commandant de district ou le chef de la division de la circulation de la police d’Israël après une formation adéquate, pour diriger la circulation à un endroit où l’autorité locale de signalisation effectue des travaux de construction ou d’entretien d’une route située dans son territoire.
+
+#T23(ג)
+F: Un panneau mobile placé sur la route par un policier est considéré comme un panneau placé légalement.
+
+#T25
+F: Nul ne conduira un véhicule s’il ne sait pas le manœuvrer et l’utiliser.

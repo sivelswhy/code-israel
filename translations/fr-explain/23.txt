@@ -1,0 +1,187 @@
+#1382
+E: Le panneau indique la fin de la zone d'une station de taxis.
+
+#1383
+E: À l'approche d'une crête ou d'un champ de vision bouché, ralentissez et adaptez votre vitesse à la visibilité.
+R: T52
+
+#1384
+E: À partir du 1er novembre, un véhicule utilitaire de plus de 10 000 kg doit avoir l'attestation du contrôle d'hiver ou du contrôle technique annuel passé en août ou après.
+
+#1385
+E: Les véhicules utilitaires de 16 000 kg ou plus doivent faire contrôler le système de freinage au moins tous les six mois.
+
+#1386
+E: L'essieu est un axe ou un système d'axes monté en travers du véhicule et portant les roues.
+
+#1387
+E: Le panneau 404 signifie « barrière avant un passage à niveau ».
+
+#1388
+E: Le poids total par essieu est le poids que toutes les roues d'un même essieu exercent ensemble sur la route.
+
+#1389
+E: Même les médicaments sans ordonnance peuvent altérer la vigilance et nuire à la conduite : lisez la notice.
+
+#1390
+E: Le panneau 505 indique un arrêt d'autobus public, le 506 une gare de train local.
+
+#1391
+E: Le numéro 14 désigne l'empattement (distance entre les essieux) sur la photo.
+
+#1392
+E: Un véhicule de transport de marchandises est un véhicule à moteur qui sert ou est destiné par sa construction à transporter des marchandises.
+
+#1393
+E: La manutention de la charge (arrimage, chargement, déchargement) compte comme temps de conduite selon la loi.
+R: T168
+
+#1394
+E: Celui qui a la maîtrise du véhicule ne permet pas qu'on le conduise plus longtemps que les heures de travail fixées par la loi.
+R: T168
+
+#1395
+E: En descente, un rapport doit toujours être enclenché et engagé : on ne roule pas au point mort.
+
+#1396
+E: Le ralentisseur de vitesse est obligatoire en descente quand un panneau avertit d'une descente dangereuse.
+
+#1397
+E: Dans toute descente raide, il est obligatoire de rouler sur un rapport bas approprié.
+
+#1398
+E: Il est interdit d'arrêter un véhicule sur voie rapide, sauf sur l'accotement en cas de panne qui empêche de continuer.
+
+#1399
+E: Un sentier est une route ou une partie de route qui n'est pas une chaussée, réservée à un type déterminé d'usagers.
+
+#1400
+E: Un véhicule d'au moins 210 cm de large doit allumer ses feux de gabarit pendant les heures d'éclairage.
+
+#1401
+E: Il est interdit de conduire si l'une des roues du semi-remorque ou de la remorque ne touche pas la chaussée.
+
+#1402
+E: Pour tracter plus d'une remorque, il faut l'autorisation de l'autorité des permis.
+
+#1403
+E: Le stationnement à un arrêt d'autobus les samedis et jours de fête n'est permis qu'aux voitures particulières, selon le panneau.
+
+#1404
+E: Une voiture particulière de 1 520 kg peut tracter une remorque de 750 kg au plus.
+
+#1405
+E: Ce qui est inscrit sur la lettre de voiture fait preuve du poids de la charge.
+
+#1406
+E: Si le poids dépasse ce qui est permis, les frais de pesée retombent sur le conducteur.
+
+#1407
+E: Un policier peut ordonner au conducteur d'amener le véhicule à la pesée à l'endroit le plus proche possible.
+
+#1408
+E: Un policier peut interrompre la marche du véhicule jusqu'à ce que la charge soit déchargée ou que l'affaire soit réglée.
+
+#1409
+E: Une charge qui dépasse hors du véhicule doit être signalée à tout moment, même à l'arrêt.
+
+#1410
+E: Une charge qui dépasse hors du véhicule en marche doit être signalée à tout moment.
+
+#1411
+E: À l'avant, la charge se signale par un triangle réfléchissant blanc ; à l'arrière, par un triangle blanc à bords rouges réfléchissants.
+
+#1412
+E: Seule une entreprise de transport agréée peut transporter des matières dangereuses.
+
+#1413
+E: Les cendres volantes et le ciment en vrac ne se transportent que dans un véhicule destiné à cet effet.
+
+#1414
+E: Dans un véhicule sans cabine séparée, une cloison doit séparer et protéger les passagers d'un choc de la charge.
+
+#1415
+E: La caisse mobile est un réservoir, une caisse ou un autre moyen conçu pour être chargé et déchargé par un cric mobile.
+
+#1416
+E: Le cric mobile est un dispositif monté à demeure sur le véhicule pour lever ou abaisser une caisse mobile.
+
+#1417
+E: Après un tronçon inondé, roulez lentement en appuyant légèrement par intermittence sur le frein jusqu'à retrouver un freinage normal.
+
+#1418
+E: Un conteneur est un réservoir ou une caisse d'expédition arrimable par un dispositif twist-lock, de 250 cm de large au plus.
+
+#1419
+E: Un conteneur de plus de 610 cm ne se transporte que sur un semi-remorque, conformément au permis du véhicule.
+
+#1420
+E: Un conteneur ne doit en aucun cas dépasser de l'arrière du véhicule.
+
+#1421
+E: Il est interdit de transporter un conteneur dans un véhicule sans dispositifs de verrouillage rotatifs.
+
+#1422
+E: L'éclairage périphérique est un système de feux jaunes disposés autour de la charge hors gabarit à 100 cm au plus les uns des autres.
+
+#1423
+E: Le véhicule d'accompagnement porte des panneaux « Attention charge hors gabarit » à l'avant et à l'arrière du véhicule chargé, et un feu jaune clignotant au-dessus de la cabine.
+
+#1424
+E: Le véhicule d'accompagnement roule à une distance qui maintient le contact visuel entre les deux conducteurs à tout moment.
+
+#1425
+E: Sur route à double sens, l'accompagnateur roule devant ; sur route à sens unique, derrière.
+
+#1426
+E: Un tracteur doit avoir un avertisseur de marche arrière.
+
+#1427
+E: Une charge en vrac ne doit pas dépasser la hauteur des parois ou des échelles installées conformément à la loi.
+
+#1428
+E: La hauteur maximale d'un véhicule de 15 000 kg ou moins, avec sa charge, est de quatre mètres.
+
+#1429
+E: La charge doit être placée et arrimée de manière à ne pas tomber du véhicule.
+
+#1430
+E: Un véhicule utilitaire de plus de 3 500 kg transportant 11 passagers ou plus porte un panneau « Passagers » à l'avant et à l'arrière.
+
+#1431
+E: Dans un tel véhicule, on peut transporter six passagers en plus de ceux à côté du conducteur.
+
+#1432
+E: Un véhicule chargé de matière dangereuse ne se gare pas à moins de 400 mètres d'un immeuble d'habitation ou d'un bâtiment public.
+
+#1433
+E: En côte, tournez les roues avant vers le milieu de la route, enclenchez une vitesse avant et placez des cales derrière les roues arrière.
+R: T74(ד)
+
+#1434
+E: La nuit, le stationnement d'un tel véhicule est interdit dans une zone où un panneau de l'autorité locale l'interdit.
+
+#1435
+E: Il faut toujours placer un triangle de signalisation et aussi une lampe portative ou actionner les quatre feux de détresse.
+R: T70
+
+#1436
+E: Il est interdit d'immobiliser ou de garer sur la route un véhicule de plus de 2,50 mètres de large.
+
+#1437
+E: Un semi-remorque détaché de son tracteur ou une remorque détachée ne doit pas être laissé à l'arrêt sur la route.
+
+#1438
+E: Un véhicule utilitaire de 12 000 kg ou plus ne peut pas dépasser 80 km/h sur route non urbaine.
+R: T54
+
+#1439
+E: Un véhicule utilitaire ou de travail de 12 000 kg est limité à 50 km/h en agglomération, malgré un panneau à 70 km/h.
+R: T54
+
+#1440
+E: Le conducteur d'un véhicule à moteur obligé de rouler lentement, ce qui retarde la circulation derrière lui, doit rouler sur l'accotement asphalté et libre pour permettre le dépassement.
+
+#1441
+E: Le véhicule hors gabarit qui ne peut être dépassé ralentit, descend si besoin sur l'accotement, s'arrête, et laisse les véhicules derrière lui le dépasser en sécurité.
+

@@ -1,0 +1,420 @@
+#1742
+Q: Le demi-tour est permis :
+1: Uniquement à une intersection sans feux.
+2: Quand il y a une ligne blanche continue.
+3: Depuis n'importe quelle voie, sauf si un panneau l'interdit.
+4: Uniquement à une intersection avec feux.
+
+#1743
+Q: Si sur la route sont marquées une ligne de séparation continue et, à sa gauche, une ligne discontinue :
+1: C'est impossible : une ligne discontinue ne peut apparaître qu'à droite d'une ligne de séparation continue.
+2: Il est interdit de franchir les lignes.
+3: Une ligne continue avec une ligne discontinue à sa gauche est un terre-plein.
+4: On peut franchir la ligne continue pour dépasser uniquement.
+
+#1744
+Q: Qu'est-ce que le système électronique de contrôle de stabilité du véhicule, ESP ?
+1: Un système qui empêche le blocage des roues du véhicule lors d'un freinage d'urgence, et préserve ainsi la direction du véhicule.
+2: Un système qui corrige les erreurs de freinage du conducteur et aide à augmenter la stabilité du véhicule.
+3: Un système qui empêche une panne du système de direction du véhicule.
+4: Un système qui empêche une panne du système de freinage du véhicule.
+
+#1745
+Q: Une ligne de séparation blanche continue marquée sur la route permet-elle de dépasser un véhicule qui roule conformément à la loi sur l'accotement ?
+1: Non, il est interdit de dépasser.
+2: Oui, à condition que le véhicule dépassé soit une moto.
+3: Oui, à condition que le véhicule qui dépasse ne franchisse pas la ligne blanche continue.
+4: Oui, seulement si le véhicule qui dépasse est un véhicule lent.
+
+#1746
+Q: Les accotements ne sont pas destinés à la circulation des véhicules, sauf :
+1: Un véhicule non motorisé, un tracteur et un véhicule lent, qui retardent la circulation derrière eux.
+2: Un taxi – pour dépasser des véhicules.
+3: Aucune exception : il est interdit à tout véhicule de rouler sur les accotements.
+4: Une voiture particulière et une moto – pour céder le passage aux autobus.
+
+#1747
+Q: Il est interdit de dépasser avant un passage piéton :
+1: Seulement sur route non urbaine.
+2: Seulement quand le panneau « passage piéton devant vous » est placé.
+3: Seulement sur route urbaine à double sens.
+4: Dans tous les cas.
+
+#1748
+Q: Il est interdit de garer un véhicule dans une zone de :
+1: 12 mètres avant un passage piéton.
+2: 15 mètres après l'intersection.
+3: 15 mètres après une ligne d'arrêt.
+4: 30 mètres après un passage à niveau.
+
+#1749
+Q: Quelle est l'autorité compétente pour délivrer une licence d'exploitation d'un autobus ?
+1: Le contrôleur des transports.
+2: Le directeur de la division des véhicules du ministère des Transports.
+3: L'inspecteur général de la police d'Israël.
+4: L'autorité de permis du district.
+
+#1750
+Q: Quand le feu jaune fixe (non clignotant) est allumé seul au feu de signalisation :
+1: C'est le signe que le feu vert fixe (non clignotant) va apparaître immédiatement et qu'on pourra continuer.
+2: C'est le signe que le feu rouge va apparaître immédiatement. Il faut se préparer à s'arrêter ou dégager aussitôt l'intersection où l'on est entré.
+3: C'est le signe que le feu jaune clignotant va apparaître immédiatement. Il faut accélérer et dégager aussitôt l'intersection.
+4: C'est le signe que le feu vert clignotant va apparaître immédiatement. Il faut accélérer et dégager aussitôt l'intersection.
+
+#1751
+Q: Au feu de signalisation, le feu vert est allumé mais l'intersection est bloquée par des véhicules :
+1: Il faut entrer dans l'intersection comme l'indique le feu vert.
+2: Il est permis d'entrer dans l'intersection dans tous les cas.
+3: Il faut entrer dans l'intersection et la traverser vite.
+4: Il ne faut pas entrer dans l'intersection quand elle est bloquée.
+
+#1752
+Q: Sur une route étroite, quand deux véhicules venant de sens opposés ne peuvent pas passer en même temps :
+1: Le véhicule rapide a la priorité.
+2: Celui qui arrive le premier a la priorité.
+3: Le véhicule qui transporte plus de huit passagers a la priorité.
+4: Les deux véhicules doivent se déporter autant que possible vers la droite et même descendre sur l'accotement.
+
+#1753
+Q: Il est interdit de stationner ou d'arrêter un véhicule sur la route avant un passage à niveau et après lui à une distance de :
+1: Au moins 30 mètres.
+2: Au moins 50 mètres.
+3: Au moins 25 mètres.
+4: Au moins 20 mètres.
+
+#1754
+Q: Dans un véhicule équipé d'une caméra de recul :
+1: La caméra détecte l'angle mort qui se forme derrière le véhicule.
+2: La caméra détecte l'angle mort qui se forme derrière le véhicule en roulant en avant seulement.
+3: La caméra détecte l'angle mort qui se forme devant le véhicule.
+4: La caméra détecte l'angle mort qui se forme tout autour du véhicule.
+
+#1755
+Q: La vitesse maximale autorisée sur route urbaine pour une voiture particulière (sauf indication contraire d'un panneau) est :
+1: Jusqu'à 40 km/h.
+2: 50 km/h sur route à sens unique ; jusqu'à 60 km/h sur route à double sens.
+3: 50 km/h.
+4: 80 km/h.
+
+#1756
+Q: Un panneau est placé à environ 100 mètres avant un passage à niveau et devant vous roule un véhicule lent :
+1: Vous pouvez dépasser le véhicule seulement quand la vitesse ne dépasse pas 35 km/h.
+2: Il vous est interdit de dépasser le véhicule jusqu'à la traversée du passage.
+3: Vous pouvez dépasser le véhicule avant même le passage.
+4: Vous pouvez dépasser le véhicule seulement quand la route en face est libre.
+
+#1757
+Q: Sur un tronçon de route à double sens avec une voie par sens, séparées par une ligne de séparation continue :
+1: Il n'y a pas de restriction d'arrêt et de stationnement, sauf si un panneau approprié est placé.
+2: L'arrêt et le stationnement sont interdits, même sur l'accotement.
+3: L'arrêt est permis aux autobus uniquement.
+4: L'arrêt et le stationnement sont permis uniquement parallèlement au trottoir.
+
+#1758
+Q: Comment doit agir le conducteur d'un véhicule qui approche d'écoles et d'aires de jeux ?
+1: Il ralentit et augmente sa vigilance.
+2: Il évite d'entrer dans la rue, sauf la nuit.
+3: Il klaxonne en permanence pour avertir les enfants de ne pas sauter sur la route.
+4: Il continue de rouler normalement mais fait attention aux passages piétons seulement.
+
+#1759
+Q: Un autobus qui roule sur la voie destinée aux transports en commun peut-il dépasser un véhicule qui dépasse ?
+1: Il le peut, seulement quand le véhicule qui dépasse est un véhicule de transport de marchandises.
+2: Il le peut, seulement sur route non urbaine.
+3: Il le peut.
+4: Il le peut, s'il n'y a pas de passagers dans l'autobus.
+
+#1760
+Q: Lequel de ces panneaux est placé au-dessus de la voie et indique des destinations hors de la ville ?
+1: 613
+2: 615
+3: 617
+4: 616
+
+#1761
+Q: Un panneau « stop » placé sur le côté droit d'une route à sens unique à deux voies signifie :
+1: Arrêtez-vous seulement si vous êtes sur la voie de gauche.
+2: Arrêtez-vous seulement si vous comptez tourner à gauche.
+3: Arrêtez-vous sur chacune des deux voies.
+4: Arrêtez-vous seulement si vous êtes sur la voie de droite.
+
+#1762
+Q: Un véhicule arrêté avant un passage à niveau :
+1: On peut le dépasser quand le passage à niveau a une barrière.
+2: Il est interdit de le dépasser.
+3: On peut le dépasser s'il n'y a pas de ligne de séparation continue.
+4: On peut le dépasser si la largeur de la route dépasse six mètres.
+
+#1763
+Q: Un panneau portatif tenu par un membre des patrouilles de sécurité routière (Zeha"v) oblige-t-il le conducteur à obéir sur la route ?
+1: Non, car ses dimensions sont plus petites que celles des panneaux ordinaires.
+2: Non, le panneau n'est pas obligatoire. Il est une simple recommandation.
+3: Non, car il n'a pas été approuvé par le bureau des permis.
+4: Oui, c'est un panneau légal et le conducteur doit lui obéir.
+
+#1764
+Q: Le conducteur d'un véhicule qui sort d'une station-service doit céder le passage :
+1: Uniquement au véhicule qui roule à grande vitesse.
+2: À tout véhicule qui approche sur la route, de quelque direction que ce soit.
+3: Uniquement au véhicule venant de droite.
+4: Uniquement au véhicule venant de gauche.
+
+#1765
+Q: Quelle est la bonne manière de régler l'appuie-tête du véhicule ?
+1: Le fixer à la position la plus basse possible.
+2: Le bord supérieur de l'appuie-tête sera aligné avec le sommet de la tête du conducteur.
+3: Le bord supérieur de l'appuie-tête sera aligné avec la ligne inférieure de la nuque du conducteur.
+4: Le bord inférieur de l'appuie-tête sera aligné avec le sommet de la tête du conducteur.
+
+#1766
+Q: Il est interdit d'arrêter, de garer ou d'immobiliser un véhicule dans un passage piéton ou avant lui dans une zone de :
+1: 20 mètres de lui.
+2: 15 mètres de lui.
+3: 12 mètres de lui.
+4: 24 mètres de lui.
+
+#1767
+Q: Quel véhicule peut passer devant un autre véhicule par sa droite ?
+1: Tout véhicule, quand la largeur de la route dépasse six mètres.
+2: Tout véhicule, quand la largeur de la route dépasse 12 mètres.
+3: Uniquement un véhicule lent sur route urbaine.
+4: Le véhicule qui roule sur la voie destinée aux transports en commun.
+
+#1768
+Q: Quelle est la phrase correcte ?
+1: Un propriétaire de véhicule peut se réserver la place de stationnement près de son lieu de travail.
+2: Le conducteur qui approche d'un passage piéton n'est pas tenu de ralentir dans tous les cas.
+3: L'obligation de prudence exige de rouler lentement dans tous les cas.
+4: Le conducteur doit se comporter de façon à ne pas porter atteinte au droit d'autrui à l'usage plein de la route.
+
+#1769
+Q: Comment un passage piéton est-il signalé ?
+1: 413, 226
+2: 811, 306
+3: 136, 135
+4: 901, 707
+
+#1770
+Q: Une bétonnière est :
+1: Un véhicule spécialisé.
+2: Un véhicule tout-terrain.
+3: Un véhicule de transport de marchandises.
+4: Il n'y a pas de définition pour une bétonnière.
+
+#1771
+Q: Un véhicule de transport de véhicules (« movilit ») a trois plateaux superposés. Quelle est la hauteur maximale de la charge qu'on peut y transporter ?
+1: 4,20 mètres.
+2: 5,00 mètres.
+3: 4,80 mètres.
+4: 5,20 mètres.
+
+#1772
+Q: Un marquage sur la route fait conformément à la loi est-il considéré comme un panneau ?
+1: Seulement si sa couleur est blanche.
+2: Seulement dans une route urbaine.
+3: Seulement si un autre panneau est placé à côté.
+4: Toujours.
+
+#1773
+Q: Pourquoi la « première pluie » est-elle dangereuse pour les conducteurs ?
+1: La « première pluie » ne diffère pas d'une pluie ordinaire, donc il n'y a pas de différence de risque.
+2: La « première pluie » rend la route glissante à cause de la poussière et de la saleté accumulées dessus.
+3: La « première pluie » n'est dangereuse qu'à cause du vent qui tend à dévier le véhicule de sa trajectoire.
+4: La « première pluie » améliore l'adhérence des pneus sur la route et provoque une usure rapide des pneus.
+
+#1774
+Q: Quand est-il permis d'utiliser les antibrouillards ?
+1: Seulement en hiver.
+2: Quand le conducteur estime qu'il est bon d'allumer l'antibrouillard.
+3: Seulement sous une pluie battante, dans le brouillard ou sous la neige.
+4: Seulement dans l'obscurité.
+
+#1775
+Q: Qui a le pouvoir de retirer un permis de conduire ?
+1: Le tribunal et la police d'Israël seulement.
+2: L'autorité des permis et le tribunal seulement.
+3: Le tribunal, la police d'Israël, l'institut médical de sécurité routière.
+4: L'autorité des permis, le tribunal, la police d'Israël.
+
+#1776
+Q: Est-il permis de rouler sur un terre-plein ?
+1: C'est permis, quand le terre-plein est revêtu.
+2: C'est permis, à condition de rouler prudemment et lentement.
+3: C'est interdit.
+4: C'est permis, uniquement pour le traverser.
+
+#1777
+Q: Est-il permis de réparer un véhicule sur la route ?
+1: On peut réparer un véhicule sur la route, mais il ne faut pas le laisser à l'endroit plus de 12 heures.
+2: Seulement si la réparation concerne le système électrique.
+3: On peut faire une réparation légère, à condition de ne pas gêner les usagers de la route, et ne pas laisser le véhicule à l'endroit plus de 24 heures.
+4: Seulement si l'endroit est proche d'un garage.
+
+#1778
+Q: Lors du contrôle technique annuel du véhicule au centre de contrôle, sera inscrit :
+1: Le nombre de ceintures de sécurité du véhicule.
+2: Le nombre de kilomètres parcourus par le véhicule selon le compteur kilométrique.
+3: Le nombre d'infractions routières commises avec le véhicule.
+4: Le nombre d'appuie-têtes du véhicule.
+
+#1779
+Q: Quand vous allez tourner à gauche à une intersection sans panneau, vous devez céder le passage au véhicule qui vient en face :
+1: Seulement quand le véhicule d'en face tourne à droite.
+2: Seulement quand le véhicule d'en face continue tout droit.
+3: Toujours.
+4: Seulement quand le véhicule d'en face tourne à gauche.
+
+#1780
+Q: Vous roulez sur une route étroite à double sens, marquée d'une ligne de séparation continue entre les deux voies. Devant vous roule une charrette attelée à un cheval et en face il n'y a pas de circulation. Comment agirez-vous ?
+1: Continuez à rouler lentement derrière la charrette.
+2: Dépassez la charrette même au-delà de la ligne marquée, pour ne pas retarder la circulation.
+3: Essayez de dépasser la charrette par la droite, sur l'accotement.
+4: Dépassez la charrette selon toutes les règles de dépassement si la route devant vous est libre.
+
+#1781
+Q: Vous roulez sur une route à double sens et sur la route est marqué un « îlot de circulation ». Vous devez le passer :
+1: Toujours du côté où la circulation est plus dense.
+2: Toujours du côté où la circulation est moins dense.
+3: Toujours par sa gauche.
+4: Par sa droite, sauf si un panneau indique autre chose.
+
+#1782
+Q: Deux véhicules approchent du nord et du sud d'un tronçon de route étroit et raide qui ne permet le passage que d'un seul véhicule :
+1: Il faut céder le passage à un véhicule utilitaire de plus de quatre tonnes.
+2: Le véhicule qui monte s'arrête.
+3: Le véhicule qui descend s'arrête et laisse passer le véhicule qui monte.
+4: Les deux véhicules doivent descendre sur l'accotement.
+
+#1783
+Q: Lorsqu'un panneau interdit de tourner à gauche à une intersection :
+1: Le demi-tour par la gauche n'est permis que si une flèche dirigée vers la droite est marquée sur la voie.
+2: Toutes les réponses sont correctes.
+3: Le demi-tour par la gauche n'est permis qu'aux voitures particulières.
+4: On peut faire demi-tour quand il n'y a pas de gêne pour la circulation et qu'aucun panneau ou marquage n'interdit le demi-tour.
+
+#1784
+Q: Il est interdit de dépasser sur une route raide avant une crête :
+1: Quand le champ de vision est limité ou bouché.
+2: Mais le dépassement est permis si le poids de votre voiture dépasse 4 000 kg.
+3: Seulement quand le panneau « danger général » est placé.
+4: Seulement quand un panneau interdisant le dépassement est placé, mais le dépassement est permis de jour seulement.
+
+#1785
+Q: Avant un passage piéton, il est interdit de dépasser :
+1: Seulement si le panneau « passage piéton devant vous » est placé.
+2: Seulement s'il y a un panneau bleu « emplacement de passage piéton ».
+3: Seulement sur route urbaine à deux voies. Dans tous les autres cas, on peut dépasser.
+4: À tout moment et sur toute route.
+
+#1786
+Q: Selon la loi, l'autobus articulé :
+1: Doit avoir des autocollants rectangulaires sur la paroi arrière de l'autobus.
+2: Doit avoir deux bandes réfléchissantes portant la mention « gardez vos distances ».
+3: Doit avoir des autocollants et aussi des bandes sur la paroi arrière de l'autobus.
+4: Doit avoir deux bandes sur la paroi arrière de l'autobus, de 4 × 100 cm.
+
+#1787
+Q: Vous approchez d'une intersection alors que le feu vert clignote :
+1: Attention ! Immédiatement après apparaîtra le feu jaune fixe (non clignotant).
+2: Attention ! Immédiatement après apparaîtront le feu jaune avec le feu vert fixe (non clignotant).
+3: Attention ! Immédiatement après apparaîtront le feu jaune avec le feu rouge.
+4: Attention ! Immédiatement après apparaîtra le feu jaune clignotant (non fixe).
+
+#1788
+Q: L'autorité des permis (bureau des permis) peut-elle retarder le renouvellement du permis de conduire d'un titulaire redevable d'une amende ?
+1: Non. Le bureau des permis ne peut retarder le renouvellement d'un permis de conduire sans l'accord du titulaire.
+2: Oui. Elle peut le retarder pour toute amende infligée par n'importe quel organisme gouvernemental.
+3: Oui. Le bureau des permis peut le retarder à condition que l'amende comprenne aussi l'inscription de points dans le système de points de la circulation.
+4: Oui, à condition que l'amende ait été infligée pour une infraction routière.
+
+#1789
+Q: Quel est le bon moment pour vérifier l'huile du moteur ?
+1: Après le démarrage du moteur et sur un sol plat.
+2: Avant le démarrage du moteur et sur un sol horizontal.
+3: Après le démarrage du moteur le matin.
+4: À la fin du trajet et sur un sol plat.
+
+#1790
+Q: Y a-t-il un lien entre la capacité de jugement du conducteur et la consommation de drogues et d'alcool ?
+1: Oui. Les deux altèrent la capacité de jugement du conducteur.
+2: L'alcool altère la capacité de jugement du conducteur ; les drogues ne l'altèrent pas.
+3: Les drogues altèrent la capacité de jugement du conducteur ; l'alcool non.
+4: Non. Aucun des deux n'altère la capacité de jugement du conducteur.
+
+#1791
+Q: Le risque de dérapage du véhicule existe surtout :
+1: Par temps de brouillard.
+2: Sur route sèche et chaude.
+3: À la première pluie ou quand il y a de la boue ou de l'huile sur la route.
+4: Sur une route étroite en côte raide.
+
+#1792
+Q: La loi permet de rouler aux heures de jour en été :
+1: Toutes les réponses sont fausses.
+2: Quand les feux du véhicule ne sont pas en état.
+3: Sans essuie-glaces du tout.
+4: Avec des pneus dont la profondeur des rainures est inférieure à un mm.
+
+#1793
+Q: Un minibus est destiné à transporter jusqu'à :
+1: 16 passagers, en plus du conducteur.
+2: 16 passagers, conducteur compris.
+3: 12 passagers, en plus du conducteur.
+4: Huit passagers, en plus du conducteur.
+
+#1794
+Q: Le poids total autorisé d'un minibus public :
+1: N'est pas limité par la loi.
+2: Ne dépassera pas 4 000 kg.
+3: Ne dépassera pas 6 000 kg.
+4: Ne dépassera pas 5 000 kg.
+
+#1795
+Q: Le conducteur d'un véhicule (autre qu'un scooter de mobilité) peut-il rouler sur le trottoir dans sa longueur ?
+1: Il le peut, seulement s'il conduit une moto.
+2: Il le peut, à condition de nettoyer le trottoir pendant qu'il roule.
+3: Il le peut, seulement s'il conduit un véhicule non motorisé.
+4: Il le peut, seulement s'il conduit un véhicule avec une remorque.
+
+#1796
+Q: Est-il permis de transporter un passager sur une moto lorsque ses jambes sont posées d'un seul côté de la moto ?
+1: C'est permis, sur route urbaine.
+2: C'est interdit. On ne peut transporter un passager sur la moto que si ses deux jambes sont de part et d'autre de la moto.
+3: C'est permis – une passagère seulement.
+4: C'est permis, sur route non urbaine.
+
+#1797
+Q: Il est obligatoire de ralentir le véhicule :
+1: En roulant sur une route non urbaine avec un terre-plein marqué sur la route.
+2: En roulant sur une route non urbaine avec un terre-plein construit.
+3: En roulant sur une route non urbaine.
+4: À l'entrée d'un tunnel et en y roulant.
+
+#1798
+Q: Où est-il obligatoire de ralentir le véhicule ?
+1: En roulant sur une route non urbaine.
+2: Dans une zone de modération de la circulation.
+3: En roulant sur une route non urbaine avec un terre-plein construit.
+4: En roulant sur les routes principales.
+
+#1799
+Q: Quel type de véhicule voit-on sur la photo et quelle est sa longueur maximale autorisée par la loi ?
+1: Un véhicule composé à cabine au-dessus du moteur ; longueur totale maximale autorisée – 16,50 mètres.
+2: Un véhicule articulé à cabine au-dessus du moteur ; longueur totale maximale autorisée – 16,50 mètres.
+3: Un véhicule composé à cabine au-dessus du moteur ; longueur totale maximale autorisée – 17,60 mètres.
+4: Un véhicule articulé à cabine au-dessus du moteur ; longueur totale maximale autorisée – 17,60 mètres.
+
+#1800
+Q: Un véhicule destiné au transport de véhicules (« movilit ») a deux plateaux. Quelle est la hauteur maximale autorisée du véhicule avec sa charge ?
+1: 4,40 mètres.
+2: 4,80 mètres.
+3: 4,00 mètres.
+4: 4,50 mètres.
+
+#1801
+Q: Quel panneau signifie borne de recharge pour véhicule électrique ?
+1: ס-130
+2: ס-55
+3: ס-31
+4: ס-131
+

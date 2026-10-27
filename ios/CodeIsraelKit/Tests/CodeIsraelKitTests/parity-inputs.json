@@ -1,0 +1,375 @@
+{
+ "queries": [
+  "c'est quoi la vitesse max en ville",
+  "je peux rouler à combien sur l'autoroute",
+  "et si je suis en camion c'est pareil ?",
+  "je peux doubler par la droite ?",
+  "y'a un truc pour les gosses dans la voiture ?",
+  "jusqu'à quel âge le siège bébé",
+  "je peux répondre au tel en conduisant",
+  "c'est quoi la différence entre stop et cédez le passage",
+  "qui passe en premier à un carrefour sans panneau",
+  "j'ai le droit de boire un verre avant de conduire",
+  "combien de temps je suis jeune conducteur",
+  "je peux prendre des potes en voiture quand je viens d'avoir le permis",
+  "que faire si je tombe en panne sur la route",
+  "je dois mettre le triangle où",
+  "la ceinture elle est obligatoire derrière aussi",
+  "on peut se garer sur le trottoir",
+  "combien de mètres avant un passage piéton je peux me garer",
+  "c'est quoi la ligne blanche continue",
+  "je peux faire demi-tour n'importe où",
+  "j'ai grillé un feu rouge qu'est-ce que je risque",
+  "c'est quoi le panneau triangle rouge avec un point d'exclamation",
+  "quand est-ce que je mets les feux de route",
+  "je dois allumer les phares dans les tunnels",
+  "j'ai eu un accrochage sans blessé je fais quoi",
+  "y'a un blessé après un accident je fais quoi en premier",
+  "les points du permis ça marche comment",
+  "je peux conduire sans mes papiers",
+  "à quelle distance je dois rester de la voiture devant",
+  "quand est-ce que je dois ralentir",
+  "le train arrive au passage à niveau je fais quoi",
+  "les ambulances elles ont priorité",
+  "je klaxonne quand j'ai envie ?",
+  "pourquoi je dois pas rouler à gauche",
+  "qu'est-ce qui se passe si je roule sans permis",
+  "mon pote me prête sa voiture sans permis c'est grave",
+  "c'est quoi un rond-point et qui a la priorité dedans",
+  "j'ai quel âge pour passer le permis moto",
+  "faut mettre un gilet jaune",
+  "quelle est la durée max de conduite pour un chauffeur de bus",
+  "la capitale de la France",
+  "c'est combien la limite de vitesse sur une route de campagne",
+  "je roule à 120 sur l'autoroute c'est ok",
+  "le gars derrière moi me colle au cul il a le droit",
+  "je peux me garer en double file deux minutes",
+  "on peut s'arrêter sur la bande d'arrêt d'urgence pour téléphoner",
+  "je peux mettre mon gamin devant",
+  "mon petit de 5 ans il doit être sur quoi",
+  "à partir de quel âge on peut conduire un scooter",
+  "faut mettre le casque en moto même pour un trajet court",
+  "je dois mettre mon clignotant à chaque fois",
+  "c'est quoi la priorité à droite",
+  "un piéton traverse hors des clous je fais quoi",
+  "le feu est orange je passe ou je freine",
+  "j'ai crevé qu'est-ce que je fais",
+  "combien de passagers je peux avoir dans ma voiture",
+  "les pneus lisses c'est interdit",
+  "je peux écouter de la musique à fond en conduisant",
+  "comment je dois garer ma voiture en côte",
+  "je peux ouvrir la portière quand je veux",
+  "je peux faire marche arrière sur l'autoroute",
+  "c'est quoi la zone 30",
+  "quand est-ce que la police peut me retirer le permis",
+  "j'ai bu deux bières je peux conduire",
+  "les médicaments et la conduite",
+  "combien de temps je peux laisser ma voiture en panne",
+  "je dois klaxonner en ville la nuit",
+  "quel est le panneau stop",
+  "c'est quoi une voie de bus",
+  "je suis nouveau conducteur de quel âge j'ai le droit de conduire de nuit",
+  "un tracteur peut aller sur l'autoroute",
+  "c'est quoi le taux d'alcool autorisé",
+  "c'est quoi le seuil d'alcool pour un jeune conducteur",
+  "combien d'alcool je peux avoir dans le sang",
+  "si je refuse de souffler qu'est-ce qui se passe",
+  "vitesse max en ville",
+  "quel âge pour le permis moto",
+  "quand puis-je dépasser par la droite",
+  "distance de sécurité entre deux voitures",
+  "que signifie le panneau 432",
+  "panneau 302",
+  "combien de points avant de perdre le permis",
+  "un nouveau conducteur peut conduire la nuit",
+  "casque obligatoire en moto",
+  "taux d'alcool autorisé pour un jeune conducteur",
+  "stationner à moins de 12 mètres d'un passage piéton"
+ ],
+ "answers": [
+  {
+   "query": "c'est quoi la vitesse max en ville",
+   "answer": "La vitesse maximale autorisée pour une voiture particulière sur route urbaine (en l’absence de panneau contraire) est de 50 km/h.  \nRèglement de la circulation, art. 54 (1) : route urbaine 50 km/h."
+  },
+  {
+   "query": "je peux rouler à combien sur l'autoroute",
+   "answer": "Sur une voie rapide, la vitesse maximale pour un véhicule à moteur ordinaire est de 110 km/h. Ce chiffre est fixé par le Règlement de la circulation, art. 54(a). Il s'applique sauf lorsque un panneau 426 ou 426פ indique une limite différente."
+  },
+  {
+   "query": "et si je suis en camion c'est pareil ?",
+   "answer": "Si vous êtes en camion, le panneau 423 (barré avec un camion) signifie la fin du tronçon où le dépassement est interdit. Règlement de la circulation, art. 47(d). Vous ne pouvez pas dépasser d'autres véhicules dans ce tronçon, y compris les autres camions."
+  },
+  {
+   "query": "je peux doubler par la droite ?",
+   "answer": "Vous pouvez doubler par la droite seulement lorsqu’un véhicule circule sur une voie réservée au virage à droite.  \nRèglement de la circulation, art. 47(b)(4)."
+  },
+  {
+   "query": "y'a un truc pour les gosses dans la voiture ?",
+   "answer": "Oui, il y a des règles pour transporter des enfants en voiture. Un enfant de moins de 8 ans doit être attaché dans un siège de sécurité ou un rehausseur, fixé au véhicule. Le « rehausseur » est un siège destiné au transport d’enfants dans un véhicule, l’enfant qui y est assis étant attaché par la ceinture de sécurité du véhicule (Règlement de la circulation, art. 83A)."
+  },
+  {
+   "query": "jusqu'à quel âge le siège bébé",
+   "answer": "Le siège bébé est obligatoire jusqu’à l’âge de 3 ans.  \nRèglement de la circulation, art. 83A (1) : « un enfant de moins de 3 ans, s’il n’est pas attaché dans un siège de sécurité adapté à sa taille et à son poids »."
+  },
+  {
+   "query": "je peux répondre au tel en conduisant",
+   "answer": "Il est interdit de tenir un téléphone portable en conduisant. On ne peut l’utiliser qu’avec un dispositif mains libres. Envoyer ou lire un SMS est aussi interdit. Règlement de la circulation, art. 28(b)."
+  },
+  {
+   "query": "c'est quoi la différence entre stop et cédez le passage",
+   "answer": "La différence entre « stop » et « céder le passage » est que « stop » impose un arrêt obligatoire, tandis que « céder le passage » ne nécessite pas d’arrêt.  \n\nLe panneau 302 (Stop) exige de s’arrêter avant la ligne d’arrêt ou au croisement, puis de céder la priorité à tous les véhicules venant de toutes directions.  \n\nL’article 64(d) précise que le conducteur doit s’arrêter et céder la priorité à tout véhicule qui approche ou entre dans l’intersection depuis une autre chaussée.  \n\nLe « céder le passage » implique d’attendre sans arrêt, selon l’article 1 (définitions)."
+  },
+  {
+   "query": "qui passe en premier à un carrefour sans panneau",
+   "answer": "Le véhicule venant de droite passe en premier. Règlement de la circulation, art. 64(a)(1)."
+  },
+  {
+   "query": "j'ai le droit de boire un verre avant de conduire",
+   "answer": "Non. Une personne est considérée comme ivre si la concentration d’alcool dans son corps dépasse 240 microgrammes par litre d’air expiré ou 50 milligrammes pour -100 millilitres de sang. Boire un verre avant de conduire peut entraîner une concentration d’alcool supérieure à ce seuil. Règlement de la circulation, art. 169B(c)."
+  },
+  {
+   "query": "combien de temps je suis jeune conducteur",
+   "answer": "Vous êtes jeune conducteur jusqu’à l’âge de 24 ans. Cela s’applique aux personnes qui obtiennent pour la première fois le permis de conduire de voiture ou le permis poids lourd léger de catégorie C1. Cette période est définie dans l'Ordonnance de la circulation, art. 12A1(d)."
+  },
+  {
+   "query": "je peux prendre des potes en voiture quand je viens d'avoir le permis",
+   "answer": "Lorsqu’un conducteur obtient pour la première fois son permis de conduire, il doit être accompagné si ce est un jeune nouveau conducteur de moins de 24 ans. Ce règlement s’applique à la voiture particulière. Aucune autorisation préalable n’est requise, mais l’accompagnement est obligatoire selon l'Ordonnance de la circulation, art. 12A1(d)."
+  },
+  {
+   "query": "que faire si je tombe en panne sur la route",
+   "answer": "Il faut s’arrêter. Il est interdit de continuer à rouler tant que le phare est en panne.  \nUn véhicule en panne doit être dégagé de la route le plus vite possible ; la banque officielle fixe un délai maximal de 24 heures.  \nLe conducteur doit porter un gilet fluorescent dès sa sortie."
+  },
+  {
+   "query": "je dois mettre le triangle où",
+   "answer": "Le triangle de signalisation doit être placé à une distance d’au moins 100 mètres du véhicule immobilisé, visible par le conducteur d’un véhicule arrivant derrière lui.  \nC’est obligatoire chaque fois qu’on immobilise un véhicule sur la route.  \nRèglement de la circulation, art. 70(a)."
+  },
+  {
+   "query": "la ceinture elle est obligatoire derrière aussi",
+   "answer": "Oui, la ceinture est obligatoire pour les passagers assis à l’arrière. Le règlement interdit de voyager sans ceinture de sécurité. Règlement de la circulation, art. 83B(a) : nul ne voyagera dans un véhicule équipé de ceintures si le conducteur et les passagers n’ont pas attaché leur ceinture."
+  },
+  {
+   "query": "on peut se garer sur le trottoir",
+   "answer": "On ne peut pas se garer sur le trottoir. Le stationnement sur un trottoir est interdit, sauf aux endroits aménagés à cet effet et signalés par un panneau. Cela découle du Règlement de la circulation, art. 72(a)(2a)."
+  },
+  {
+   "query": "combien de mètres avant un passage piéton je peux me garer",
+   "answer": "Vous pouvez vous garer à moins de 12 mètres avant un passage piéton. C’est interdit.  \nRèglement de la circulation, art. 72(a)(6) : il est interdit de stationner à moins de douze mètres avant un passage pour piétons."
+  },
+  {
+   "query": "c'est quoi la ligne blanche continue",
+   "answer": "La ligne blanche continue est une ligne de séparation continue marquée au sol. Elle sépare les voies de circulation. On roule à droite de cette ligne et on ne la franchit pas. Elle interdit de rouler à gauche. C’est une règle du Règlement de la circulation, art. 36(c)."
+  },
+  {
+   "query": "je peux faire demi-tour n'importe où",
+   "answer": "Le demi-tour est permis depuis n’importe quelle voie, sauf si un panneau l’interdit.  \nRèglement de la circulation, art. 44(b).  \nCela signifie que vous pouvez faire demi-tour partout, à condition qu’il n’y ait pas un panneau interdisant ce geste."
+  },
+  {
+   "query": "j'ai grillé un feu rouge qu'est-ce que je risque",
+   "answer": "Si vous avez brûlé un feu rouge, vous êtes condamné pour une infraction grave. Selon l’Ordonnance de la circulation, art. 12A(d), le nouveau conducteur reste « nouveau conducteur » deux ans de plus et doit repasser des examens. Ce risque s'applique à toute condamnation pour non-respect d’un feu rouge ou refus de priorité."
+  },
+  {
+   "query": "c'est quoi le panneau triangle rouge avec un point d'exclamation",
+   "answer": "Panneau 150 (triangle avec un point d’exclamation) : signale un danger pour lequel il n’existe pas de panneau particulier ; un panneau complémentaire précise souvent lequel."
+  },
+  {
+   "query": "quand est-ce que je mets les feux de route",
+   "answer": "Vous mettez les feux de route lorsque la route n’est pas suffisamment éclairée et qu’il n’y a pas de risque d’éblouissement. Cela s’applique en agglomération selon le Règlement de la circulation, art. 98. Vous devez aussi passer en feux de croisement si vous roulez à la rencontre d’un autre véhicule sur la même route ou une route voisine, selon l'art. 99(a)(1)."
+  },
+  {
+   "query": "je dois allumer les phares dans les tunnels",
+   "answer": "Lorsque vous roulez dans un tunnel signalé par le panneau 633, vous devez allumer vos feux avant. Cela est prévus par le Règlement de la circulation, art. 97(e) : nul ne conduira à l’entrée d’un tunnel marqué par le panneau 439 « Tunnel – allumer les feux », sauf si les phares avant et les feux arrière sont allumés."
+  },
+  {
+   "query": "j'ai eu un accrochage sans blessé je fais quoi",
+   "answer": "Si vous avez eu un accrochage sans blessé, vous devez arrêter votre véhicule sur les lieux de l’accident et dégager la chaussée pour permettre à la circulation de s’écouler librement. Vous n’avez pas besoin d’appeler les secours ni de signaler l’accident si aucun dommage n’est causé.  \n\nRèglement de la circulation, art. 146 : Le conducteur doit s’arrêter et ne poursuivre sa route que si le lieu de l’accident n’a pas causé de blessures ou de dommages importants."
+  },
+  {
+   "query": "y'a un blessé après un accident je fais quoi en premier",
+   "answer": "En cas d'accident avec blessé, le conducteur doit s’arrêter sur les lieux de l’accident, porter secours aux blessés selon ses capacités et sa formation, et appeler les secours. C’est obligatoire par le Règlement de la circulation, art. 146. Il ne poursuit pas sa route avant d’avoir fait tout ce qui est en son pouvoir pour apporter au blessé toute l’aide nécessaire."
+  },
+  {
+   "query": "les points du permis ça marche comment",
+   "answer": "Les points d’un conducteur sont valables deux ans à compter de l’infraction, lorsque le conducteur a jusqu’à 20 points. Le système est réglementé par l’Ordonnance de la circulation, art. 69A(a). L’Autorité des permis peut obliger un conducteur à passer des examens ou à suspendre son permis s’il accumule des points. Les points sont inscrits dans le passif du titulaire pour chaque infraction condamnée."
+  },
+  {
+   "query": "je peux conduire sans mes papiers",
+   "answer": "Non. Le conducteur doit avoir sur lui, pendant la conduite, le permis de conduire, la carte grise, l’attestation d’assurance obligatoire et tout autre document délivré conformément à la loi, en cours de validité. Cela est prévu par le Règlement de la circulation, art. 9(a)(3). Il ne peut pas conduire sans ces documents."
+  },
+  {
+   "query": "à quelle distance je dois rester de la voiture devant",
+   "answer": "Vous devez garder un intervalle de temps d’au moins une seconde, pour parcourir, à sa vitesse du moment, la distance qui sépare les deux véhicules. Cela correspond au Règlement de la circulation, art. 49(b)."
+  },
+  {
+   "query": "quand est-ce que je dois ralentir",
+   "answer": "Vous devez ralentir chaque fois qu’un danger est à prévoir.  \nRèglement de la circulation, art. 52 : Sous réserve de l’article 51, le conducteur d’un véhicule doit ralentir et, si nécessaire, même s’arrêter, chaque fois qu’un danger est…  \n\nVous devez aussi ralentir dans une descente raide ou longue.  \nRèglement de la circulation, art. 52(8) : [Le conducteur doit ralentir, et si nécessaire s’arrêter,] dans une descente raide ou longue.  \n\nVous devez ralentir sur une route qui n’est pas libre.  \nRèglement de la circulation, art. 52(2) : Le conducteur doit ralentir, et si nécessaire s’arrêter, sur une route qui n’est pas libre."
+  },
+  {
+   "query": "le train arrive au passage à niveau je fais quoi",
+   "answer": "Le train arrive au passage à niveau. Vous devez vous arrêter avant le passage à niveau.  \nRèglement de la circulation, art. 56(a)(1) : Le conducteur doit s’arrêter avant le passage à niveau lorsque un train qui approche est visible, audible ou émet un signal d’avertissement."
+  },
+  {
+   "query": "les ambulances elles ont priorité",
+   "answer": "Les ambulances ont priorité uniquement si elles émettent un gyrophare et un signal sonore d’alarme. Le véhicule rouge (2) n’est pas un véhicule d’urgence car il ne présente ni gyrophare ni sirène. Selon le Règlement de la circulation, art. 1, les véhicules d’urgence doivent émettre une lumière clignotante et un signal sonore. Sans ces éléments, aucun priorité n’est accordée."
+  },
+  {
+   "query": "je klaxonne quand j'ai envie ?",
+   "answer": "Je n'ai pas trouvé cette information dans les sources.  \nPour reformuler : est-ce que klaxonner est permis selon votre désir, sans danger imminent ?"
+  },
+  {
+   "query": "pourquoi je dois pas rouler à gauche",
+   "answer": "Vous ne devez pas rouler à gauche sur une route à deux voies dans votre sens car le Règlement de la circulation, art. 35, exige que vous utilisiez autant que possible le côté droit extrême de la chaussée. Cela s’applique même sur une chaussée à sens unique. Le déplacement à gauche peut gêner un véhicule déjà circulant sur la voie de gauche (art. 40(a))."
+  },
+  {
+   "query": "qu'est-ce qui se passe si je roule sans permis",
+   "answer": "Si vous roulez sans permis, vous n’avez pas le droit de conduire un véhicule. C’est une infraction routière. Le tribunal peut infliger la suspension du permis, une peine de prison, une amende et d’autres peines prévues par la loi.  \nOrdonnance de la circulation, art. 10(a) : Nul ne conduira un véhicule à moteur s’il n’est titulaire d’un permis de conduire valable pour ce type de véhicule…"
+  },
+  {
+   "query": "mon pote me prête sa voiture sans permis c'est grave",
+   "answer": "Le propriétaire d’un véhicule, ou celui qui en a le contrôle, ne doit pas autoriser une personne sans permis valide à conduire ce véhicule. S’il le fait en connaissance de cause, il encourt jusqu’à trois ans de prison (Ordonnance de la circulation, art. 36B(c)).  \nOui, c’est grave."
+  },
+  {
+   "query": "c'est quoi un rond-point et qui a la priorité dedans",
+   "answer": "Un rond-point est un carrefour giratoire.  \nLe panneau 303 impose de céder le passage aux véhicules déjà dans le rond-point ou sur la voie ferrée.  \nSelon le Règlement de la circulation, art. 64(g), le conducteur qui s’approche d’un rond-point cède la priorité au véhicule qui se trouve dans le rond-point."
+  },
+  {
+   "query": "j'ai quel âge pour passer le permis moto",
+   "answer": "L’âge minimum pour obtenir un permis de conduire pour une moto est de 16 ans, avec l’accord des parents.  \nC’est l’âge du permis 1, mentionné dans l'explication de la question n°0333.  \nAucune source ne précise explicitement l’âge pour le permis moto, mais le permis 1 est délivré à 16 ans avec accord parental."
+  },
+  {
+   "query": "faut mettre un gilet jaune",
+   "answer": "La première personne qui sort du véhicule doit mettre un gilet fluorescent homologué en sortant. Ce gilet doit se trouver dans la cabine du conducteur du véhicule, sauf sur une moto. Le gilet est obligatoire hors agglomération lorsqu’un véhicule s’arrête et qu’une personne descend."
+  },
+  {
+   "query": "quelle est la durée max de conduite pour un chauffeur de bus",
+   "answer": "La durée maximale de conduite pour un chauffeur de bus est de 9 heures, sauf s’il interrompt sa conduite pendant au moins une heure après 6 heures de conduite consécutives, au plus tard après 8 heures 30 minutes de conduite consécutives.  \nC’est prévu dans le Règlement de la circulation, art. 168(4)."
+  },
+  {
+   "query": "c'est combien la limite de vitesse sur une route de campagne",
+   "answer": "Sur une route de campagne, hors agglomération, la vitesse maximale autorisée pour une voiture particulière est de 80 km/h, sauf panneau contraire ou route avec terre-plein construit.  \nRèglement de la circulation, art. 54(a)."
+  },
+  {
+   "query": "je roule à 120 sur l'autoroute c'est ok",
+   "answer": "Sur une voie rapide, la vitesse maximale pour une voiture est de 110 km/h, sauf panneau contraire. Le plafond de 120 km/h ne s'applique pas à une voie rapide sans panneau indiquant cette limite. Vous ne pouvez donc pas rouler à 120 km/h sur l'autoroute."
+  },
+  {
+   "query": "le gars derrière moi me colle au cul il a le droit",
+   "answer": "Derrière un véhicule lourd, on doit garder ses distances et rouler lentement et patiemment. Le conducteur qui collerait au véhicule lourd ne respecte pas le Règlement de la circulation, art. 49(a). Il n’a pas le droit de coller."
+  },
+  {
+   "query": "je peux me garer en double file deux minutes",
+   "answer": "Il est interdit d’immobiliser un véhicule à côté d’un autre véhicule stationné au bord de la route. Cela constitue un arrêt en double file, totalement interdit (Règlement de la circulation, art. 72(a)(10)).  \nVous ne pouvez pas vous garer en double file, quel que soit le temps."
+  },
+  {
+   "query": "on peut s'arrêter sur la bande d'arrêt d'urgence pour téléphoner",
+   "answer": "Je n'ai pas trouvé cette information dans les sources. Pourriez-vous reformuler la question ?"
+  },
+  {
+   "query": "je peux mettre mon gamin devant",
+   "answer": "Non. Selon le Règlement de la circulation, art. 83A(c) : Nul ne transportera dans un véhicule un enfant de moins d’un an, sauf si le dos du siège de sécurité est tourné vers l’avant du véhicule."
+  },
+  {
+   "query": "mon petit de 5 ans il doit être sur quoi",
+   "answer": "Un enfant de trois ans révolus et de moins de huit ans doit être attaché dans un siège de sécurité ou un rehausseur adapté à sa taille et à son poids.  \nRèglement de la circulation, art. 83A (2)."
+  },
+  {
+   "query": "à partir de quel âge on peut conduire un scooter",
+   "answer": "Les sources ne mentionnent pas explicitement à partir de quel âge on peut conduire un scooter.  \nLa seule information sur l’âge est pour le permis B : 17 ans.  \nPour les scooters, aucune règle n’est donnée dans les sources.  \nJe n'ai pas trouvé cette information dans les sources.  \nVoulez-vous que je reformule la question ?"
+  },
+  {
+   "query": "je dois mettre mon clignotant à chaque fois",
+   "answer": "Vous devez mettre votre clignotant lorsque vous vous apprêtez à démarrer, à tourner ou à changer de voie. C’est obligatoire selon le Règlement de la circulation, art. 58(a). Le clignotant doit être activé assez tôt pour avertir les autres usagers."
+  },
+  {
+   "query": "c'est quoi la priorité à droite",
+   "answer": "La priorité à droite signifie que le conducteur cède le passage aux véhicules venant de droite.  \nC’est prévu par le Règlement de la circulation, art. 64(a)(1) : « Lorsque plusieurs véhicules s’approchent d’une intersection de côtés différents, le conducteur d’un véhicule cède la priorité aux véhicules venant de droite. »  \nAinsi, un cycliste ou un autre véhicule venant de droite a la priorité."
+  },
+  {
+   "query": "un piéton traverse hors des clous je fais quoi",
+   "answer": "Ralentissez, préparez-vous à vous arrêter et laissez le piéton dégager la route sans danger.  \nC’est ce que dit l’Explication de la question n° 0917.  \nLe Règlement de la circulation, art. 52 précise que le conducteur doit ralentir et, si nécessaire, s’arrêter quand un danger est à l’intérieur de zones bâties habitées où circulent des piétons."
+  },
+  {
+   "query": "le feu est orange je passe ou je freine",
+   "answer": "Le feu orange signifie que vous devez freiner. Aucune source ne précise l'action à entreprendre avec un feu orange, mais la réponse officielle n° 0608 indique que le rouge et orange ensemble exigent de rester arrêté. Or, le feu orange seul n’est pas explicitement défini dans les sources. Je n'ai pas trouvé cette information dans les sources."
+  },
+  {
+   "query": "combien de passagers je peux avoir dans ma voiture",
+   "answer": "Dans votre voiture particulière de tourisme, vous pouvez transporter jusqu’à huit passagers en plus du conducteur, si le nombre ne dépasse pas ce seuil indiqué sur la carte grise. C’est défini par le Règlement de la circulation, art. 84(b)(2)."
+  },
+  {
+   "query": "les pneus lisses c'est interdit",
+   "answer": "Les pneus lisses sont interdits. Règlement de la circulation, art. 322(c) : Sur un pneu pneumatique, y compris celui de la roue de secours, l’épaisseur de la bande de roulement ou la profondeur des rainures du pneu, en contact avec la route, ne sera pas inférieure à 2 mm. Les pneus lisses n’ont pas de rainures et ne répondent pas à cette exigence."
+  },
+  {
+   "query": "je peux écouter de la musique à fond en conduisant",
+   "answer": "Le Règlement de la circulation, art. 56(b), ne mentionne pas l’écoute de musique. Aucune source ne permet de conclure que c’est permis ou interdit. Je n'ai pas trouvé cette information dans les sources.  \nReformulation : Est-ce que le règlement autorise l'écoute de musique à fond en conduisant ?"
+  },
+  {
+   "query": "comment je dois garer ma voiture en côte",
+   "answer": "Quand on gare le véhicule, il faut serrer le frein auxiliaire (de stationnement) toujours.  \nRèglement de la circulation, art. 1063 : Il faut toujours serrer le frein de stationnement en garant le véhicule, quelle que soit la pente ou la météo."
+  },
+  {
+   "query": "je peux ouvrir la portière quand je veux",
+   "answer": "Il est interdit d’ouvrir une portière lorsque le véhicule roule. Le conducteur ne doit pas ouvrir de portière ni laisser quiconque l’ouvrir tant que le véhicule est en mouvement. Règlement de la circulation, art. 80(b).  \nVous ne pouvez pas ouvrir la portière quand vous voulez si le véhicule roule."
+  },
+  {
+   "query": "je peux faire marche arrière sur l'autoroute",
+   "answer": "Le feu de recul ne s’allume qu’en marche arrière et seulement tant que la marche arrière est enclenchée. Le Règlement de la circulation, art. 107(e), interdit l’utilisation du feu de recul sauf pendant la marche arrière. La marche arrière est interdite sur l’autoroute selon les règles de circulation. Aucune source ne permet une marche arrière sur l'autoroute."
+  },
+  {
+   "query": "c'est quoi la zone 30",
+   "answer": "Une zone 30 est une zone de circulation apaisée ou une rue partagée, où la vitesse maximale est limitée à 30 km/h. Elle est signalée par un panneau. Selon le Règlement de la circulation, art. 54(b), nul ne conduira dans une rue partagée ou dans une zone de modération de la circulation à une vitesse supérieure à 30 km/h."
+  },
+  {
+   "query": "quand est-ce que la police peut me retirer le permis",
+   "answer": "La police peut vous retirer votre permis si vous avez commis une infraction figurant dans la quatrième annexe de l’ordonnance, ou si votre infraction a causé un accident mortel. Selon l’Ordonnance de la circulation, art. 47(e)(3), pour une telle infraction, elle peut vous retirer le permis pendant 30 jours. Pour un accident avec décès, elle doit le retirer pendant 90 jours."
+  },
+  {
+   "query": "j'ai bu deux bières je peux conduire",
+   "answer": "La concentration d’alcool dans le sang est ce qui détermine si l’on est ivre. Deux bières peuvent entraîner un taux d’alcool supérieur au seuil légal (240 microgrammes par litre d’air expiré ou 50 milligrammes pour 100 millilitres de sang). Ainsi, si le taux dépasse ce seuil, on est considéré comme ivre. Règlement de la circulation, art. 169B(c). Vous ne pouvez pas conduire si vous êtes ivre."
+  },
+  {
+   "query": "les médicaments et la conduite",
+   "answer": "Même les médicaments sans ordonnance peuvent altérer la vigilance et nuire à la conduite. Il est interdit de conduire sous l’influence de substances qui altèrent la conduite ou dans un état empêchant une conduite avec sécurité raisonnable. Règlement de la circulation, art. 26(3)."
+  },
+  {
+   "query": "combien de temps je peux laisser ma voiture en panne",
+   "answer": "Vous pouvez laisser votre voiture en panne au plus tard dans les 24 heures.  \nRèglement de la circulation, art. 69(e)."
+  },
+  {
+   "query": "je dois klaxonner en ville la nuit",
+   "answer": "En agglomération, il est permis de klaxonner uniquement pour éviter un danger imminent qui ne peut être évité autrement. Ce principe s’applique jour et nuit. Aucune règle ne permet de klaxonner en ville la nuit sans danger immédiat. Règlement de la circulation, art. 63(c)."
+  },
+  {
+   "query": "quel est le panneau stop",
+   "answer": "Le panneau « Stop » est le panneau 302. Il prescrit d’arrêter et de céder le passage. Le conducteur s’arrête à un endroit d’où il peut voir la circulation de la route transversale, et céde la priorité à tout autre véhicule qui approche ou entre dans l’intersection depuis une autre chaussée (Règlement de la circulation, art. 64(d))."
+  },
+  {
+   "query": "c'est quoi une voie de bus",
+   "answer": "Une voie de bus est une voie réservée aux autobus, taxis et véhicules transportant au moins 4 personnes, comme indiqué dans le panneau 501. Cette information est tirée de l'explication de la question n°0531 du Règlement de la circulation, art. 64(c) et art. 54."
+  },
+  {
+   "query": "je suis nouveau conducteur de quel âge j'ai le droit de conduire de nuit",
+   "answer": "Un jeune nouveau conducteur peut conduire de nuit à partir de 24 ans.  \nOrdonnance de la circulation, art. 12A1(d)(2) : pendant les trois mois suivant la fin de la période mentionnée au point (1), et s’il a reçu une autorisation de conduire supplémentaire visée au paragraphe (b)(2), aussi longtemps que cette autorisation est valable.  \n« Heures de nuit » désignent les heures comprises entre 21 h 00 et 6 h 00.  \n\nLa période d’accompagnement commence à l’obtention du permis, mais la conduite de nuit n’est pas interdite avant 24 ans.  \nL’âge minimal pour conduire de nuit est donc 24 ans."
+  },
+  {
+   "query": "un tracteur peut aller sur l'autoroute",
+   "answer": "Je n'ai pas trouvé cette information dans les sources."
+  },
+  {
+   "query": "c'est quoi le taux d'alcool autorisé",
+   "answer": "Le taux d’alcool autorisé est de 240 microgrammes d’alcool par litre d’air expiré ou de 50 milligrammes d’alcool pour 100 millilitres de sang. C’est le seuil fixé par le Règlement de la circulation, art. 169A."
+  },
+  {
+   "query": "c'est quoi le seuil d'alcool pour un jeune conducteur",
+   "answer": "Je n'ai pas trouvé cette information dans les sources."
+  },
+  {
+   "query": "combien d'alcool je peux avoir dans le sang",
+   "answer": "Vous pouvez avoir jusqu'à 50 milligrammes d’alcool pour 100 millilitres de sang. C’est le seuil légal pour un conducteur ordinaire. Si vous en avez plus, vous êtes considéré comme ivre.  \nRèglement de la circulation, art. 169A."
+  },
+  {
+   "query": "si je refuse de souffler qu'est-ce qui se passe",
+   "answer": "Si vous refusez de souffler, vous êtes considéré comme ayant commis une infraction à l’article 62(3) de l’Ordonnance de la circulation. Vous êtes considéré comme conduisant en état d’ivresse. Référence : Ordonnance de la circulation, art. 64D(a)."
+  }
+ ]
+}

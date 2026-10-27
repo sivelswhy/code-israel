@@ -1,0 +1,231 @@
+#0722
+E: Hors agglomération, la première personne qui sort du véhicule arrêté doit enfiler un gilet fluorescent homologué ; si l'un des occupants le porte déjà en sortant, les autres sont dispensés. Le gilet doit toujours se trouver dans l'habitacle, à portée du conducteur.
+R: P65ב(ג)
+
+#0723
+E: Après la descente des élèves, le conducteur doit attendre qu'ils se soient éloignés du véhicule avant de repartir : repartir trop tôt est un danger pour les enfants qui traversent.
+R: T83(ב2)
+
+#0724
+E: Sans panneau, on cède le passage à celui qui vient de sa droite. Vous (3) avez le véhicule 1 à droite et le véhicule 2 à gauche : le 1 passe d'abord, puis vous, puis le 2.
+R: T64(א)(1)
+
+#0725
+E: Le cycliste (1) traverse l'intersection devant vous : en tournant à droite, laissez-le continuer et tournez derrière lui. Ne le dépassez pas dans l'intersection et ne le pressez pas au klaxon.
+R: T64(א)(1); T21(ב)
+
+#0726
+E: Le panneau lumineux au-dessus des voies (croix rouges sur les voies de gauche, flèches vertes sur celles de droite) ferme les deux voies de gauche : vous devez rouler sur l'une des deux voies de droite.
+R: T22(א)
+
+#0727
+E: Pour tourner à gauche, on se place sur la voie de gauche de son sens de circulation.
+R: T43(א)
+
+#0728
+E: Sur l'îlot, le panneau 214 (flèche bleue oblique vers la droite) impose de le contourner par la DROITE. La voiture claire (1) passe à gauche de l'îlot : elle n'est pas dans la bonne voie. Le camion de pompiers (2) et la camionnette (3) passent à droite.
+R: T39(א)
+
+#0729
+E: Les croix rouges sur les voies de gauche et la flèche oblique indiquent que ces voies sont fermées : passez sur la voie voisine de droite.
+R: T22(א)
+
+#0730
+E: Regarder loin devant permet d'anticiper : on adapte sa conduite à la route (virage, ralentissement) et on évite d'être surpris par les autres usagers.
+R: T51
+
+#0731
+E: Pour s'insérer sans danger : signaler avec le clignotant, regarder dans toutes les directions et attendre jusqu'à ne gêner personne avant de démarrer.
+R: T41; T58(א)
+
+#0732
+E: Avant de démarrer, on vérifie que le frein de stationnement est serré, puis on règle son siège (et rétroviseurs, ceinture) : on ne règle jamais son siège en roulant.
+R: T74(ב)
+
+#0733
+E: Pour ralentir : regarder dans les rétroviseurs, lever le pied de l'accélérateur, puis freiner ou rétrograder. Ainsi le frein moteur commence à agir avant le freinage.
+R: T52
+
+#0734
+E: Le gilet fluorescent doit être gardé dans l'habitacle, au poste du conducteur, pour qu'on puisse l'enfiler avant de sortir du véhicule.
+R: P65ב(ב)
+
+#0735
+E: On change de rapport selon la vitesse du véhicule, tenant compte de la circulation, de l'état de la route et de la visibilité (et de la pente).
+R: T51
+
+#0736
+E: Avant de conduire un véhicule inconnu, on vérifie qu'on sait l'utiliser : commandes, feux, boîte, freins.
+R: T25
+
+#0737
+E: En stationnement avec une boîte automatique : levier sur P (parking) et frein de stationnement serré.
+R: T74(ב)
+
+#0738
+E: Avant de bouger le levier de la boîte automatique pour partir : appuyer sur le frein, pour que le véhicule ne parte pas tout seul dès qu'on engage un rapport.
+
+#0739
+E: Même principe : avant de desserrer le frein de stationnement, on garde le pied sur le frein de service pour que le véhicule ne bouge pas.
+
+#0740
+E: En descente raide avec une boîte automatique : ralentissez par intermittence au frein et passez un rapport inférieur adapté à la pente (frein moteur), sans freiner en continu.
+R: T159(ב)
+
+#0741
+E: On démarre le moteur d'une boîte automatique avec le frein de stationnement serré et le levier sur P (ou N) ; le démarrage en D ou R est impossible.
+
+#0742
+E: Le « kick-down » (appui franc et rapide sur l'accélérateur) fait rétrograder la boîte automatique sans toucher au levier, utile pour accélérer dans une montée.
+
+#0743
+E: Pour quitter P : appuyer sur le frein et sur le bouton de verrouillage du levier, puis engager D ou R. Sinon le levier reste bloqué.
+
+#0744
+E: En descente sur une route étroite, vous cédez le passage à celui qui monte quand le passage ne permet pas de croiser à deux : c'est le descendant qui s'arrête.
+R: T46(ב)
+
+#0745
+E: Rouler à droite crée un écart avec la circulation venant en face et réduit le risque de collision frontale.
+R: T35
+
+#0746
+E: Rouler à droite offre une échappatoire immédiate vers l'accotement en cas de danger.
+R: T35
+
+#0747
+E: Même devant un véhicule d'urgence qui klaxonne derrière vous, il est interdit d'entrer dans l'intersection au rouge (seul le véhicule d'urgence peut le faire, en ralentissant). Rangez-vous à droite si c'est possible sans franchir le feu.
+R: T93(א)(1); T94(2)
+
+#0748
+E: Rouler à droite permet aux véhicules plus rapides de vous dépasser en sécurité.
+R: T35; T48(א)
+
+#0749
+E: Rouler à droite améliore la visibilité de ceux qui vous suivent : ils voient la route devant et peuvent dépasser en sécurité.
+R: T35
+
+#0750
+E: Rouler à droite crée une marge de sécurité entre vous et la circulation venant en face.
+R: T35
+
+#0751
+E: Selon la banque officielle, on ne dépasse pas dans le tunnel ni à moins de 50 mètres avant et après (panneau 138 ou 633).
+R: T72(א)(11)
+
+#0752
+E: On ne roule pas à droite quand on dépasse : le dépassement se fait par la gauche.
+R: T47(א)
+
+#0753
+E: Pour tourner à gauche depuis une chaussée à double sens, on se place près du milieu de la chaussée, pas à l'extrême droite.
+R: T43(א)(2)
+
+#0754
+E: Pendant qu'on dépasse, on est sur la voie de gauche : on ne roule pas sur la voie de droite.
+R: T47(א)
+
+#0755
+E: On ne roule pas sur la voie de droite quand celle-ci est réservée à d'autres usagers (par exemple une voie de transport public).
+R: T35; T34
+
+#0756
+E: Sur une route à deux voies dans votre sens, vous roulez à droite, sauf pour dépasser ou tourner à gauche.
+R: T35
+
+#0757
+E: Selon la banque officielle, un véhicule de plus de 3 500 kg transportant des matières dangereuses ne peut stationner en agglomération qu'à plus de 400 mètres de tout bâtiment public ou d'habitation.
+
+#0758
+E: La voie (nétiv) est la partie de la largeur de la chaussée suffisante pour une file de véhicules, deux-roues exclus.
+R: T1:נתיב
+
+#0759
+E: Le cône orange et noir guide ou signale un obstacle sur un chantier.
+
+#0760
+E: Un changement de voie brusque peut vous faire heurter un véhicule que vous n'aviez pas vu.
+R: T40(א)
+
+#0761
+E: Pour changer de voie : signaler à temps et d'assez loin, regarder tout autour et dans les rétroviseurs, puis se déporter.
+R: T58(א); T40(א)
+
+#0762
+E: Ordre correct : contrôler (rétroviseurs), regarder la voie visée, signaler, s'assurer que le passage est possible, puis se déporter en douceur, en biais.
+R: T40(א); T58(א)
+
+#0763
+E: Changer de voie se fait après vérification, en tenant compte de la position et de la vitesse des véhicules de la voie visée.
+R: T40(א)
+
+#0764
+E: Le stationnement à gauche n'est permis que sur une chaussée à sens unique qui ne fait pas partie d'une route divisée par un terre-plein.
+R: T72(א)(1)
+
+#0765
+E: Garder ses distances évite les accélérations et freinages fréquents : moins d'usure des freins, moins de carburant consommé.
+R: T49(א)
+
+#0766
+E: Pour s'arrêter ou stationner : vérifier que c'est permis, regarder tout autour, puis ralentir prudemment.
+R: T72; T52
+
+#0767
+E: Devant un véhicule d'urgence derrière vous : s'arrêter à droite de la chaussée, à l'écart de l'intersection, et le laisser passer.
+R: T93(א)(1)
+
+#0768
+E: On signale à une distance raisonnable AVANT de se déporter pour dépasser.
+R: T58(א)
+
+#0769
+E: Le principal problème à l'approche d'une intersection est la charge de tâches simultanées en peu de temps : observer, signaler, choisir sa voie, évaluer la priorité.
+R: T64(א)
+
+#0770
+E: Pour gérer cette charge : ralentir avant l'intersection, regarder autour de soi, et ne rien faire d'autre que conduire.
+R: T52; T28(ב)
+
+#0771
+E: Un grand nombre de panneaux avant une intersection oblige à ralentir pour les repérer et comprendre leur sens.
+R: T51
+
+#0772
+E: Dépasser en sécurité : commencer seulement si la route est libre sur une distance suffisante, et vérifier tout au long du dépassement qu'elle le reste.
+R: T47(ד)
+
+#0773
+E: Une place réservée à une personne handicapée ne peut être utilisée que par un véhicule portant la carte indiquée, même un instant et même si toutes les places réservées sont libres.
+R: T72(א)(16)
+
+#0774
+E: Sur chaussée mouillée, l'allongement de la distance de freinage fait craindre un glissement jusque dans l'intersection.
+R: T52
+
+#0775
+E: Près d'une intersection, le conducteur doit anticiper un comportement dangereux possible des piétons (traversée imprévue, enfants qui courent).
+R: T52(6); T67(א)
+
+#0776
+E: Les intersections concentrent de nombreux points de rencontre entre des véhicules aux mouvements différents (tout droit, virages) : c'est ce qui crée le danger.
+
+#0777
+E: Seuls les véhicules non motorisés, les tracteurs et les véhicules lents doivent (et peuvent) rouler sur l'accotement pour se laisser dépasser.
+R: T38(ב)
+
+#0778
+E: Le passage pour piétons proche d'une intersection est l'endroit de traversée le plus sûr, car les conducteurs y ralentissent.
+R: T52(6); T67(א)
+
+#0779
+E: Avant de traverser une intersection, on s'assure d'abord qu'elle est libre et qu'on pourra la franchir entièrement sans s'arrêter.
+R: T65
+
+#0780
+E: Une personne handicapée titulaire de la carte peut rouler sur une voie de transport public, mais pas dépasser la vitesse maximale.
+R: P71א1(א); T54(א)
+
+#0781
+E: Pour tourner à droite : commencer et terminer le virage près du bord droit de la chaussée, en tournant court.
+R: T42

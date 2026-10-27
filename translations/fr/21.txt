@@ -1,0 +1,420 @@
+#1262
+Q: Quelle est la signification du panneau placé sur la route devant vous ?
+1: Un endroit pour faire descendre et monter des passagers de taxi, mais sans attente.
+2: Un endroit pour faire descendre et monter des passagers d'un véhicule public, sans attente.
+3: Un endroit pour faire descendre et monter des passagers de taxi, y compris l'attente de ceux-ci.
+4: Un endroit où il est interdit de faire descendre et monter des passagers de taxi.
+
+#1263
+Q: Est-il permis de faire monter des passagers dans un véhicule autre qu'un taxi dans la zone de ce panneau ?
+1: Oui. L'arrêt est permis aux taxis et aux autobus – mais pas à un autre véhicule.
+2: Oui. L'endroit est signalé pour la montée et la descente des passagers de taxi et des passagers d'autobus de ligne.
+3: Oui, le samedi uniquement.
+4: Non. L'endroit est signalé pour la montée et la descente des passagers de taxi uniquement.
+
+#1264
+Q: Le stationnement dans la zone de ce panneau est-il permis à un taxi dont le poids total est de 2 500 kg ?
+1: Oui, mais seulement le week-end.
+2: Oui.
+3: Non.
+4: Oui – de 21h00 à 05h30 les jours ouvrables uniquement.
+
+#1265
+Q: Le stationnement dans la zone de ce panneau est-il permis à un zoutobus ?
+1: Non.
+2: Oui.
+3: Oui – de 21h00 à 05h30, les jours ouvrables uniquement.
+4: Oui, seulement le week-end.
+
+#1266
+Q: Le stationnement dans la zone de ce panneau est-il permis à un minibus public dont le poids total est de 3 300 kg ?
+1: Oui.
+2: Oui – de 21h00 à 05h30, les jours ouvrables uniquement.
+3: Oui, mais seulement le week-end.
+4: Non.
+
+#1267
+Q: Le stationnement dans la zone de ce panneau est-il permis à un minibus privé dont le poids total est de 2 700 kg ?
+1: Oui.
+2: Non.
+3: Oui – de 21h00 à 05h30, les jours ouvrables uniquement.
+4: Oui, mais seulement le week-end.
+
+#1268
+Q: Le stationnement dans la zone de ce panneau est-il permis à tout autobus dont le poids total est de 4 500 kg ?
+1: Non.
+2: Oui.
+3: Oui – de 21h00 à 05h30, les jours ouvrables uniquement.
+4: Oui, mais seulement le week-end.
+
+#1269
+Q: La circulation sur la voie marquée comme voie de transport public est-elle permise à un taxi sans passagers ?
+1: Oui, sur route urbaine et à condition de ne pas gêner la circulation.
+2: Non.
+3: Oui, mais seulement les samedis et jours de fête.
+4: Oui.
+
+#1270
+Q: La circulation sur la voie marquée pour les transports publics est-elle permise à un minibus public sans passagers ?
+1: Oui, mais seulement les samedis et jours de fête.
+2: Oui, mais de 21h00 à 05h39, les jours ouvrables.
+3: Oui.
+4: Non.
+
+#1271
+Q: La circulation sur la voie marquée comme voie de transport public est-elle permise à un taxi avec passagers ?
+1: Oui, mais seulement les samedis et jours de fête.
+2: Non.
+3: Oui, mais seulement aux heures de pointe, de 06h00 à 09h00.
+4: Oui.
+
+#1272
+Q: La circulation sur la voie marquée comme voie de transport public est-elle permise à un minibus privé ?
+1: Oui.
+2: Non.
+3: Oui, seulement les samedis et jours de fête.
+4: Oui, mais seulement de 21h01 à 05h30, les jours ouvrables.
+
+#1273
+Q: Quelles opérations le conducteur doit-il faire avant de monter dans l'autobus, selon la loi ?
+1: Un contrôle de sûreté et un contrôle de sécurité.
+2: Uniquement vérifier la présence d'usagers de la route dans les environs immédiats.
+3: Nettoyer les rétroviseurs et la lunette arrière.
+4: Nettoyer les rétroviseurs, la lunette arrière et le pare-brise.
+
+#1274
+Q: Que doit vérifier le conducteur d'autobus avant de démarrer l'autobus ?
+1: Les affaires des passagers avec un détecteur de métaux.
+2: S'il y a des usagers de la route dans les « angles morts ».
+3: Le niveau d'huile de la direction.
+4: S'il a des titres de transport appropriés.
+
+#1275
+Q: Que doit vérifier le conducteur après la montée des passagers et avant le début du trajet en autobus ?
+1: Que chaque passager a payé intégralement le prix du trajet.
+2: Que les portes de l'autobus sont fermées.
+3: Que sa tenue et son apparence sont correctes.
+4: Que tous les passagers sont assis sur les sièges.
+
+#1276
+Q: Quel panneau n'interdit pas le stationnement la nuit d'un véhicule utilitaire dont le poids total autorisé dépasse 10 000 kg ?
+1: 432
+2: 433
+3: 435
+4: 436
+
+#1277
+Q: Quels sont les dangers d'un freinage brusque en conduisant un autobus ?
+1: Un échauffement excessif des freins.
+2: Un dérapage et un renversement dans les côtes.
+3: Un dommage causé par un véhicule en stationnement.
+4: Des blessures aux passagers de l'autobus.
+
+#1278
+Q: Quel panneau avertit le conducteur qu'il approche d'un tunnel ?
+1: 633
+2: 634
+3: 127 bis
+4: 138
+
+#1279
+Q: Selon la loi, le semi-remorque (« nitmakh », élément d'un « véhicule composé ») :
+1: Doit avoir des autocollants et aussi des bandes sur la paroi arrière.
+2: Doit avoir deux bandes sur la paroi arrière.
+3: Doit avoir deux bandes réfléchissantes portant la mention « gardez vos distances ».
+4: Doit avoir des autocollants sur la paroi arrière.
+
+#1280
+Q: La montée des élèves dans l'autobus de transport d'élèves et leur descente se font :
+1: Uniquement par la porte avant droite.
+2: Montée – par la porte avant. Descente – par la porte arrière.
+3: Par la porte avant et par la porte arrière.
+4: Uniquement par la porte arrière.
+
+#1281
+Q: La montée des élèves dans un minibus public de transport d'élèves et leur descente se font :
+1: Par la porte avant droite ou par une autre porte à l'avant du véhicule.
+2: Par n'importe quelle porte du véhicule.
+3: Uniquement par la porte arrière.
+4: Uniquement par la porte avant droite, quand il y a deux portes à l'avant du véhicule.
+
+#1282
+Q: Il ne faut pas transporter d'élèves dans un véhicule de transport d'élèves :
+1: Assis.
+2: Sauf accompagnés d'un moniteur.
+3: Debout.
+4: Sauf quand tous sont assis et face à l'avant, vers le conducteur.
+
+#1283
+Q: Le triangle de signalisation est un équipement obligatoire :
+1: Dans les autobus uniquement.
+2: Dans les véhicules à deux roues uniquement.
+3: Dans les véhicules utilitaires uniquement.
+4: Dans tout véhicule à moteur, remorques et semi-remorques compris, sauf la moto.
+
+#1284
+Q: Le conducteur d'un véhicule qui roule près d'un groupe d'enfants doit :
+1: Continuer à la vitesse normale, à condition de klaxonner par intermittence pour avertir.
+2: Continuer à la vitesse normale, si le groupe d'enfants est accompagné d'un enseignant ou d'un moniteur.
+3: S'arrêter complètement tant que les enfants sont près de la route.
+4: Ralentir, et si nécessaire aussi arrêter le véhicule.
+
+#1285
+Q: Quel type de véhicule de « police municipale » peut émettre une lumière bleue et une lumière jaune clignotante ?
+1: Une ambulance.
+2: Un véhicule de police combiné.
+3: Un véhicule de pompiers.
+4: Un véhicule de dépannage.
+
+#1286
+Q: À quel endroit du véhicule l'extincteur doit-il se trouver ?
+1: À un endroit visible, d'accès facile pour une utilisation rapide.
+2: Près du réservoir de carburant, dans un lieu fermé et verrouillé.
+3: Près de la batterie, dans un lieu fermé et verrouillé.
+4: Sur le toit du véhicule, de façon à être d'accès facile pour une utilisation rapide.
+
+#1287
+Q: Comment assurer une consommation de carburant économique du véhicule ?
+1: En conduisant sur un rapport approprié et à des vitesses modérées jusqu'à 90 km/h.
+2: En conduisant sur un rapport bas et à des vitesses de plus de 120 km/h, sans accélérations ni décélérations brutales.
+3: En roulant au point mort (neutre) dans les descentes – autant que possible.
+4: En conduisant sur un rapport bas et à des vitesses de plus de 90 km/h.
+
+#1288
+Q: La réduction de la consommation de carburant du véhicule est possible :
+1: En roulant à la vitesse la plus élevée possible et en réduisant le poids excessif du véhicule.
+2: En roulant à la vitesse la plus basse possible, en réduisant le poids excessif du véhicule et en roulant au point mort (neutre) dans les descentes.
+3: En conduisant avec souplesse, à la vitesse autorisée et sur le rapport le plus bas.
+4: En conduisant avec souplesse, sans dépasser la vitesse maximale autorisée et en veillant à la bonne pression d'air des pneus.
+
+#1289
+Q: L'entretien régulier du véhicule selon les instructions du constructeur :
+1: Réduira la consommation de carburant et l'usure du véhicule.
+2: N'est nécessaire que si l'on roule beaucoup avec le véhicule.
+3: Supprime le besoin du contrôle technique annuel.
+4: N'est pas du tout exigé pour un véhicule récent.
+
+#1290
+Q: Une des différences entre un véhicule à boîte de vitesses manuelle et un véhicule à boîte automatique est que :
+1: Un véhicule à boîte manuelle est plus bruyant.
+2: Dans un véhicule à boîte manuelle, l'accélération possible est plus faible.
+3: Dans un véhicule à boîte manuelle, il n'y a pas de pédale d'embrayage.
+4: Dans un véhicule à boîte manuelle, la consommation de carburant est généralement plus faible.
+
+#1291
+Q: La capacité de maîtriser le véhicule pour éviter un accident :
+1: S'améliore à mesure que la vitesse augmente.
+2: Dépend de la taille des pneus.
+3: Ne dépend pas du tout de la vitesse.
+4: Est d'autant plus grande que la vitesse de conduite est plus faible.
+
+#1292
+Q: Comment agit le conducteur qui approche d'un tronçon de route où il y a de l'huile ?
+1: Il ralentit progressivement autant que possible et ne freine pas fort.
+2: Il augmente sa vitesse et n'appuie pas sur la pédale de frein.
+3: Il tourne le volant alternativement à droite et à gauche en roulant sur l'huile.
+4: Il continue de rouler normalement, car l'huile aide à augmenter le frottement entre les pneus et la route.
+
+#1293
+Q: Comment agit le conducteur lorsqu'il y a des nids-de-poule et des fissures sur la route ?
+1: Il veille autant que possible à rouler au milieu de la route.
+2: Il continue à conduire normalement.
+3: Il augmente sa vitesse et roule sur l'accotement.
+4: Il ralentit et adapte sa vitesse aux conditions de la route.
+
+#1294
+Q: Un policier peut arrêter un véhicule pour le contrôler en raison :
+1: D'un écart involontaire du véhicule hors de sa voie.
+2: De sa volonté de vérifier que la consommation de carburant du véhicule correspond aux données du constructeur.
+3: De sa volonté de vérifier que la consommation d'huile du véhicule correspond aux données du constructeur.
+4: Du niveau de pollution de l'air émise par le moteur du véhicule.
+
+#1295
+Q: Un policier peut délivrer un avis d'interdiction d'usage à un véhicule si :
+1: Le véhicule pollue l'air au-delà de ce qui est permis.
+2: La consommation de carburant du véhicule dépasse la mesure fixée par le constructeur.
+3: La pression d'air des pneus est inférieure à la moitié de la pression requise.
+4: La consommation d'huile du véhicule est excessive.
+
+#1296
+Q: Dans quelles conditions est-il le plus utile d'allumer les feux même de jour ?
+1: Quand le soleil est derrière le conducteur.
+2: Quand le soleil est à gauche de la trajectoire.
+3: Quand le soleil est à droite de la trajectoire.
+4: Quand le soleil est face au conducteur.
+
+#1297
+Q: Comment agit un conducteur si un véhicule arrive soudain en face de lui sur sa voie ?
+1: Il ralentit, se déporte autant que possible vers la droite et descend aussi sur l'accotement – si nécessaire.
+2: Il allume les feux de route pour signaler au conducteur d'en face de revenir sur sa voie.
+3: Il se déporte à gauche et roule sur la voie opposée, maintenant libre.
+4: Il klaxonne et fait signe au conducteur d'en face de revenir sur sa voie.
+
+#1298
+Q: Des phares avant mal réglés :
+1: N'éclairent pas la route comme l'exige la loi.
+2: Augmentent la vigilance du conducteur – surtout la nuit.
+3: Provoquent l'éblouissement du conducteur lui-même dans l'obscurité.
+4: N'influencent pas la conduite dans l'obscurité, ni en bien ni en mal.
+
+#1299
+Q: Jusqu'à quelle largeur totale un dépassement de la charge est-il permis pour un véhicule utilitaire dont le poids total autorisé dépasse 15 000 kg ?
+1: Jusqu'à une largeur de charge de 3,40 mètres, quand la charge est une seule unité.
+2: Jusqu'à une largeur de charge de 2,50 mètres, quand la charge est une seule unité.
+3: Jusqu'à une largeur de charge de 2,60 mètres, quand la charge est une seule unité.
+4: Jusqu'à une largeur de charge de 2,10 mètres, quand la charge est une seule unité.
+
+#1300
+Q: Quand faut-il avoir l'autorisation d'un officier de police pour transporter une charge longue ?
+1: Quand la longueur du véhicule avec sa charge dépasse 20 mètres.
+2: Quand la longueur de la charge dépasse 15 mètres.
+3: Il n'y a pas d'obligation d'avoir l'autorisation d'un officier de police pour un tel transport.
+4: Cette autorisation n'est obligatoire que pour le transport de matières dangereuses.
+
+#1301
+Q: La largeur d'un véhicule de transport de marchandises (sauf un véhicule à carrosserie frigorifique) ne dépassera pas :
+1: 2,10 mètres.
+2: 2,80 mètres.
+3: 3,50 mètres.
+4: 2,55 mètres.
+
+#1302
+Q: Un véhicule qui transporte une charge est signalé par le panneau « Attention charge large » quand :
+1: La largeur de la charge est inférieure à 2,40 mètres.
+2: La largeur de la charge dépasse 1,80 mètre.
+3: La largeur de la charge dépasse 2,50 mètres.
+4: La largeur de la charge dépasse 2,10 mètres.
+
+#1303
+Q: Quand le conducteur d'un véhicule de plus de 6 000 kg doit-il faire une pause d'une demi-heure ?
+1: Après cinq heures de conduite consécutives.
+2: Après six heures de conduite consécutives.
+3: Au cours de quatre heures de conduite consécutives.
+4: Après quatre heures et demie de conduite consécutives.
+
+#1304
+Q: Quelle est la longueur maximale autorisée d'un véhicule articulé (ensemble) ?
+1: 15,65 mètres.
+2: 25,00 mètres.
+3: 20,00 mètres.
+4: 18,75 mètres.
+
+#1305
+Q: Quelle est la longueur maximale autorisée d'un véhicule de transport de marchandises à trois essieux ?
+1: 12,00 mètres.
+2: 15,30 mètres.
+3: 11,30 mètres.
+4: 11,00 mètres.
+
+#1306
+Q: Quelle est la longueur maximale autorisée d'un véhicule de transport de marchandises à deux essieux ?
+1: 15,30 mètres.
+2: 11,00 mètres.
+3: 12,00 mètres.
+4: 11,30 mètres.
+
+#1307
+Q: Quelle est la signification de ce panneau ?
+1: Un lieu de stationnement approuvé pour un véhicule public.
+2: Vous approchez d'une gare de train local.
+3: Le centre-ville, le centre de la localité ou le centre de la zone.
+4: Attention, un lieu approuvé pour un stand de tir.
+
+#1308
+Q: Que signifie la « charge autorisée » pour un véhicule de transport de marchandises ?
+1: Le poids total autorisé du véhicule.
+2: Le poids maximal en kg qu'il est permis de charger sur le véhicule.
+3: Le poids à vide du véhicule.
+4: Le poids du véhicule avec le poids de la charge.
+
+#1309
+Q: Quel est le dépassement maximal autorisé de la longueur de la charge à l'arrière, pour un véhicule utilitaire dont le poids total autorisé dépasse 15 000 kg ?
+1: Jusqu'à un mètre à l'avant et jusqu'à un mètre à l'arrière seulement.
+2: Un tiers de la longueur du plateau de chargement – et seulement quand la charge est une seule unité.
+3: Un tiers de la longueur du plateau de chargement à l'avant et aussi à l'arrière – pour une charge divisée en deux.
+4: Un tiers de la longueur du plateau de chargement à l'avant et aussi à l'arrière – et seulement quand la charge est une seule unité.
+
+#1310
+Q: Quel est le poids total autorisé d'un semi-remorque à deux essieux ou plus destiné au transport d'un conteneur ?
+1: Pas moins de 30 000 kg.
+2: Pas moins de 29 000 kg.
+3: Pas plus de 28 000 kg.
+4: Pas moins de 25 000 kg.
+
+#1311
+Q: Que doit faire un conducteur dont l'état de santé a changé ?
+1: Informer le bureau des permis, mais seulement s'il s'agit d'un accident de la route.
+2: Informer immédiatement le ministère de la Santé.
+3: Informer immédiatement le bureau des permis par lettre recommandée.
+4: En informer l'autorité des permis dans les 15 jours.
+
+#1312
+Q: Quelle est la largeur de charge dont le transport nécessite l'autorisation d'un officier de police ?
+1: Une largeur de charge jusqu'à 3,20 mètres.
+2: Une largeur de charge jusqu'à 3,30 mètres.
+3: Une largeur de charge supérieure à 3,40 mètres.
+4: Une largeur de charge jusqu'à 3,00 mètres.
+
+#1313
+Q: Quelle est la hauteur totale (au-dessus du sol) d'une charge dont le transport nécessite l'autorisation d'un officier de police ?
+1: Moins de 4,20 mètres.
+2: Plus de 4,80 mètres.
+3: Plus de 4,00 mètres.
+4: Plus de 3,80 mètres.
+
+#1314
+Q: Quelle est la hauteur maximale d'une charge formant une seule unité qu'il est permis de transporter dans un véhicule utilitaire de plus de 15 000 kg (sans autorisation d'un officier de police) ?
+1: 4,20 mètres.
+2: 3,50 mètres.
+3: 3,80 mètres.
+4: 4,80 mètres.
+
+#1315
+Q: Quelle est la hauteur maximale d'une charge qu'il est permis de transporter dans un véhicule utilitaire de 8 000 kg à 15 000 kg ?
+1: 4,00 mètres.
+2: 3,50 mètres.
+3: 3,80 mètres.
+4: 3,00 mètres.
+
+#1316
+Q: Quand devez-vous allumer un feu clignotant jaune au-dessus de la cabine du conducteur ?
+1: Quand vous conduisez un véhicule qui transporte une charge plus large que le véhicule.
+2: Quand la longueur de la charge ou du véhicule dépasse 20,00 mètres.
+3: Quand vous conduisez un véhicule dont le poids autorisé dépasse 15 000 kg.
+4: Quand vous conduisez un véhicule articulé.
+
+#1317
+Q: Aucun permis de véhicule n'est délivré ni renouvelé pour un autobus :
+1: Au bout de 15 ans à compter de son année de fabrication.
+2: Au bout de huit ans à compter de son année de fabrication.
+3: Au bout de 20 ans à compter de son année de fabrication.
+4: Au bout de dix ans à compter de son année de fabrication.
+
+#1318
+Q: Vous roulez sur une route à sens unique, sur la voie de gauche. Le conducteur de la voie de droite devant vous a ralenti à cause d'un piéton qui a commencé à traverser de droite à gauche. Vous êtes proche du passage piéton, donc :
+1: Continuez à rouler normalement : c'est au piéton de s'assurer de ne pas se mettre en danger ni de vous gêner.
+2: Ralentissez et laissez le piéton terminer sa traversée.
+3: Klaxonnez et avertissez le piéton, et passez vite devant lui.
+4: Accélérez et passez vite le passage piéton avant que le piéton n'arrive.
+
+#1319
+Q: Combien de jours de repos par an revient-il au conducteur d'un véhicule utilitaire dont le poids total autorisé dépasse 6 000 kg ?
+1: Au moins 31 jours.
+2: Au moins 52 jours.
+3: Selon la convention collective de travail.
+4: Au moins deux jours par mois.
+
+#1320
+Q: Quel conducteur doit se reposer au moins sept heures consécutives avant de commencer sa journée de travail ?
+1: Celui qui conduit un véhicule public et un véhicule utilitaire de plus de 6 000 kg de poids total autorisé qui transporte ou est autorisé à transporter 11 passagers ou plus.
+2: Tout titulaire d'un permis de conduire de catégorie B.
+3: Tout titulaire d'un permis de conduire de catégorie 1.
+4: Les conducteurs qui transportent des matières dangereuses.
+
+#1321
+Q: Quelle est la signification du panneau ?
+1: Feu orange clignotant – avertit de l'approche d'un passage à niveau.
+2: Feu orange fixe (non clignotant) – avertit de l'approche d'une fusion de routes.
+3: Feu orange fixe (non clignotant) – lorsque le feu de signalisation est hors service.
+4: Feu orange clignotant sur un chantier routier.
+

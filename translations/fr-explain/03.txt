@@ -1,0 +1,235 @@
+#0181
+E: Le panneau « Stop » (302, visible sur la photo) impose deux choses : s'arrêter complètement, PUIS céder le passage à tout véhicule qui entre dans l'intersection ou qui en approche par une autre chaussée. S'arrêter sans céder le passage ou céder le passage sans s'arrêter est une faute.
+R: T64(ד)
+
+#0182
+E: Sur l'illustration, une ligne d'arrêt est tracée au sol. Quand elle existe, on s'arrête juste avant elle — ni au poteau du panneau, ni après le passage pour piétons.
+R: T64(ד)
+
+#0183
+E: Ici, il n'y a pas de ligne d'arrêt. On s'arrête alors à l'endroit d'où l'on voit la circulation de la route transversale, sans entrer dans l'intersection.
+R: T64(ד)
+
+#0184
+E: C'est le panneau « Stop » (302) : arrêt obligatoire puis priorité à la circulation de la route transversale. Un arrêt « pour la forme » suivi d'un départ sans laisser passer ne suffit pas.
+R: T64(ד)
+
+#0185
+E: Sur la photo, le feu est rouge. Au feu rouge, on s'arrête avant l'intersection et on n'y entre pas. Le feu prime sur les panneaux de priorité.
+R: T64(ה); T22(ב)
+
+#0186
+E: L'illustration montre un feu orange clignotant (706) : le feu ne règle plus la circulation. On ralentit, on s'arrête si nécessaire, et on applique les règles de priorité et les panneaux de l'intersection.
+R: T64(ה); T22(ב)
+
+#0187
+E: On ne franchit un passage à niveau que s'il est libre, la barrière levée, et si l'on peut le traverser entièrement sans s'arrêter dessus.
+R: T65; T56(א)(4)
+
+#0188
+E: Sur la photo, une voiture arrêtée sur l'accotement. Pour repartir, on signale son intention et on s'assure de pouvoir s'insérer sans mettre en danger personne ; la circulation n'a pas à vous céder le passage.
+R: T58(א)(1); T41
+
+#0189
+E: Quand des piétons traversent sur le passage, le conducteur doit leur permettre de terminer leur traversée en sécurité, et s'arrêter si nécessaire. Klaxonner ou passer devant ou derrière eux est interdit.
+R: T67(א)
+
+#0190
+E: Un passage pour piétons coupé par un terre-plein compte comme deux passages distincts. Sur la photo, chaque moitié de la traversée est donc un passage à part entière.
+R: T67(ב)
+
+#0191
+E: Quand la chaussée est bloquée, on obéit aux indications d'un policier, d'un agent de signalisation ou d'un panneau. Sans indication, celui dont la voie est bloquée cède le passage à ceux qui viennent en face.
+R: T68
+
+#0192
+E: Si c'est votre voie qui est bloquée et que rien ne règle le passage, vous devez céder le passage aux véhicules venant en sens inverse.
+R: T68
+
+#0193
+E: En agglomération, on peut s'arrêter ou stationner sur la chaussée ou l'accotement si ni la loi ni un panneau ne l'interdit, et à condition de ne pas gêner la circulation.
+R: T71(1); T72(א)
+
+#0194
+E: Dans une longue descente, on engage un rapport inférieur adapté à la pente : le frein moteur retient le véhicule et évite la surchauffe des freins. Le règlement l'impose quand un panneau signale une descente dangereuse.
+R: T159(ב)
+
+#0195
+E: Sur une route principale hors agglomération, il est interdit de s'arrêter ou de stationner sur la chaussée et l'accotement. Exceptions : notamment les véhicules qui effectuent des travaux publics et les véhicules de Tsahal en mission.
+R: T69(א); T69(ב)
+
+#0196
+E: Le panneau montre une voie rapide. Sur une voie rapide, il est interdit de faire monter ou descendre des passagers, ainsi que de s'arrêter ou de stationner, sauf indication contraire.
+R: T69(ג)
+
+#0197
+E: Sur une voie rapide (panneau 216), l'arrêt, l'immobilisation et le stationnement sont interdits partout entre les clôtures de la route, sauf signalisation contraire.
+R: T69(ג)
+
+#0198
+E: Un véhicule immobilisé par nécessité sur la route doit être signalé par un triangle visible à au moins 100 mètres par le conducteur qui arrive derrière.
+R: T70(א)
+
+#0199
+E: Il est interdit de s'arrêter ou de stationner d'une façon qui gêne ou retarde la circulation, ou qui masque un panneau.
+R: T71
+
+#0200
+E: Sur une chaussée à double sens, il est interdit de s'arrêter ou de stationner du côté gauche (à contresens).
+R: T72(א)(1)
+
+#0201
+E: Le stationnement sur le trottoir est interdit, sauf aux endroits aménagés selon un arrêté municipal et signalés, à condition de laisser un passage aux piétons.
+R: T72(א)(2א)
+
+#0202
+E: Il est interdit de stationner dans une intersection ou à moins de 12 mètres, sauf sur un tronçon signalé par l'autorité de signalisation (panneau ou bordure peinte).
+R: T72(א)(3)
+
+#0203
+E: Même règle : interdiction à moins de 12 mètres de l'intersection, sauf autorisation de l'autorité de signalisation par panneau ou marquage.
+R: T72(א)(3)
+
+#0204
+E: Il ne faut pas immobiliser un véhicule à moins de deux mètres d'une bouche d'incendie, pour que les pompiers puissent y accéder en cas d'urgence.
+
+#0205
+E: L'interdiction couvre le passage pour piétons lui-même et les 12 mètres qui le précèdent : un véhicule arrêté là masquerait les piétons aux conducteurs qui arrivent. Après le passage, il n'y a pas d'interdiction particulière.
+R: T72(א)(6)
+
+#0206
+E: La loi interdit l'arrêt sur le passage et dans les 12 mètres AVANT lui. Après le passage, on peut s'arrêter (si rien d'autre ne l'interdit).
+R: T72(א)(6)
+
+#0207
+E: Sur l'illustration, une ligne d'arrêt avant l'intersection. Il est interdit de s'arrêter ou de stationner dans les 12 mètres qui précèdent une ligne d'arrêt.
+R: T72(א)(7)
+
+#0208
+E: Il est interdit de s'arrêter ou de stationner de 20 mètres avant le rail le plus proche jusqu'à 20 mètres après le passage à niveau.
+R: T72(א)(8)
+
+#0209
+E: Sur une chaussée qui n'a qu'une voie dans votre sens, délimitée par une ligne continue, il est interdit de s'arrêter, y compris sur l'accotement.
+R: T72(א)(9)
+
+#0210
+E: Sur la photo, une voiture arrêtée à côté d'une autre stationnée au bord : c'est l'arrêt en double file, totalement interdit.
+R: T72(א)(10)
+
+#0211
+E: Sur la photo, un pont. L'arrêt est interdit sur un pont, dans un tunnel et dans les 50 mètres avant ou après.
+R: T72(א)(11)
+
+#0212
+E: Sans marquage au sol, il est interdit de s'arrêter de 20 mètres avant le panneau d'arrêt de bus à 20 mètres après, des deux côtés de la route.
+R: T72(א)(12)
+
+#0213
+E: On peut s'arrêter en face d'un arrêt de bus si la chaussée est assez large à cet endroit (au moins 12 mètres selon la banque officielle), pour ne pas bloquer le bus.
+R: T72(א)(12)
+
+#0214
+E: Sur l'illustration, des barrières de sécurité pour piétons. Il est interdit de s'arrêter le long de ces barrières, sauf panneau contraire : les piétons ne peuvent pas s'écarter.
+R: T72(א)(13)
+
+#0215
+E: Le panneau indique une station de taxis. Les autres véhicules ne peuvent s'y arrêter que pour faire monter ou descendre des passagers — la banque officielle retient la descente.
+R: T72(א)(14)
+
+#0216
+E: Le panneau représente une place réservée aux véhicules de personnes handicapées (437). Seul un véhicule de personne handicapée muni de la carte indiquée peut s'y arrêter.
+R: T72(א)(16)
+
+#0217
+E: Avant de quitter un véhicule stationné, il faut prendre les précautions pour qu'il ne puisse pas bouger en l'absence du conducteur.
+R: T74(א)
+
+#0218
+E: Un véhicule laissé sans surveillance doit avoir le moteur coupé, la clé retirée du contact et le frein de stationnement serré.
+R: T74(ב)
+
+#0219
+E: En descente : frein à main serré, roues avant braquées vers la bordure (ou le bord de la chaussée) et marche arrière engagée — sauf instructions différentes du constructeur (boîte automatique).
+R: T74(ג); T74(ג1)
+
+#0220
+E: Le système de points permet à l'Autorité des permis d'imposer des mesures à un conducteur qui accumule des points : examens, formation, et jusqu'à la suspension du permis.
+R: P69א(ב)
+
+#0221
+E: On immobilise un véhicule parallèlement au bord de la chaussée, sauf là où un stationnement en épi est autorisé et marqué.
+R: T75
+
+#0222
+E: Le stationnement en épi n'est permis que si l'autorité locale l'a autorisé et marqué au sol, et en respectant ce marquage.
+R: T75
+
+#0223
+E: Les roues les plus proches de la bordure doivent être à 40 cm au plus de celle-ci (ou du bord de la chaussée).
+R: T75
+
+#0224
+E: Il est interdit de circuler avec une partie du corps hors du véhicule (bras, tête…), sauf à moto, où le corps est forcément « dehors ».
+
+#0225
+E: Sur la photo, une voiture roule portière ouverte. Il est interdit d'ouvrir une portière, ou de laisser l'ouvrir, tant que le véhicule roule.
+R: T80(ב)
+
+#0226
+E: Le conducteur ne doit pas ouvrir de portière ni laisser quiconque l'ouvrir tant que le véhicule est en mouvement.
+R: T80(ב)
+
+#0227
+E: On monte et on descend du côté du trottoir. Exceptions : le conducteur ; et, si le véhicule stationne légalement à gauche, ceux qui sont à côté du conducteur.
+R: T81
+
+#0228
+E: On ne monte dans un véhicule ou on n'en descend que lorsqu'il est à l'arrêt.
+R: T81(1)
+
+#0229
+E: À côté du conducteur, on ne peut transporter qu'une seule personne, sauf autorisation de l'Autorité des permis (inscrite sur la carte grise).
+R: T82(א)
+
+#0230
+E: Un enfant de moins de 8 ans doit être attaché dans un siège de sécurité ou un rehausseur adapté à sa taille et à son poids, fixé au véhicule.
+R: T83א:מושב בטיחות; T83א:מושב מגביה
+
+#0231
+E: L'illustration montre un siège de sécurité. Avant 3 ans, l'enfant doit être attaché dans un siège de sécurité adapté à sa taille et à son poids.
+R: T83א:מושב בטיחות
+
+#0232
+E: De 3 à 8 ans : siège de sécurité OU rehausseur, adaptés à la taille et au poids de l'enfant.
+R: T83א:מושב מגביה
+
+#0233
+E: Un bébé de moins d'un an voyage dans un siège de sécurité installé dos à la route (le dos du siège tourné vers l'avant du véhicule), ce qui protège sa nuque en cas de choc.
+
+#0234
+E: Le stationnement à un arrêt de bus est permis le samedi et les jours fériés uniquement si un panneau complémentaire l'autorise — et seulement pour les véhicules privés selon ce panneau.
+R: T72(ד)
+
+#0235
+E: Le conducteur et tous les passagers doivent attacher leur ceinture dans tout véhicule équipé de ceintures de sécurité.
+R: T83ב(א)
+
+#0236
+E: Le conducteur est dispensé de ceinture pendant une marche arrière (pour pouvoir se retourner).
+R: T83ג(6)
+
+#0237
+E: En cas de condamnation pour une infraction routière, le tribunal peut prononcer la suspension du permis, la prison, une amende et les autres peines prévues par la loi.
+
+#0238
+E: Dans un véhicule utilitaire monocorps jusqu'à 3 500 kg, on transporte au plus le nombre de passagers inscrit sur la carte grise, sans dépasser 8 passagers en plus du conducteur.
+R: T84(ב)
+
+#0239
+E: Le transport de passagers contre rémunération dans une voiture particulière est interdit, quelles que soient les circonstances.
+R: P44א(א)
+
+#0240
+E: Une voiture particulière peut transporter un chargement dans l'habitacle, dans le coffre ou sur une galerie de toit, à condition que le chargement soit transporté en toute sécurité.
+R: T85(א)

@@ -1,0 +1,6 @@
+#1802
+E: Le panneau ס-131 signifie station d'échange de batterie pour véhicule électrique.
+
+#1803
+E: Le panneau 151 signifie accident sur la route devant vous.
+

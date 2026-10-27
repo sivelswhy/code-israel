@@ -1,0 +1,419 @@
+#0181
+Q: Comment agissez-vous à l'approche d'une intersection précédée d'un panneau « Stop » ?
+1: Vous ne devez vous arrêter que si un policier l'ordonne.
+2: Vous ne devez vous arrêter que si des véhicules arrivent de droite sur la route transversale.
+3: Céder le passage aux (autres) véhicules qui entrent dans l'intersection ou qui en approchent par une autre chaussée.
+4: S'arrêter et céder le passage aux véhicules qui entrent dans l'intersection ou qui en approchent par une autre chaussée.
+
+#0182
+Q: Où faut-il s'arrêter d'après la photo ?
+1: Avant le poteau qui porte le panneau.
+2: Avant la ligne d'arrêt, tout près d'elle.
+3: L'endroit importe peu, du moment qu'on s'arrête avant d'entrer dans l'intersection.
+4: Après le passage pour piétons, mais avant l'intersection.
+
+#0183
+Q: Où vous arrêtez-vous d'après la photo ?
+1: À un endroit d'où vous voyez la circulation sur la route transversale (sans entrer dans l'intersection).
+2: Avant le poteau qui porte le panneau.
+3: Avant le passage pour piétons, dans tous les cas.
+4: Au moins dix mètres avant l'intersection.
+
+#0184
+Q: Que prescrit ce panneau ?
+1: Ralentir et céder le passage.
+2: Céder le passage (sans obligation de s'arrêter).
+3: S'arrêter et céder le passage.
+4: S'arrêter un instant, vérifier la circulation et repartir.
+
+#0185
+Q: Comment agissez-vous dans la situation montrée sur la photo ?
+1: Céder le passage à la circulation sur la route transversale.
+2: Il ne faut pas tenir compte du feu, mais seulement des panneaux.
+3: S'arrêter avant l'intersection et ne pas y entrer.
+4: S'arrêter avant l'intersection, puis continuer sans interruption.
+
+#0186
+Q: Comment agissez-vous à l'approche d'une intersection dont le feu clignote à l'orange ?
+1: S'arrêter dans tous les cas avant le passage pour piétons.
+2: Accélérer avant que le feu ne passe au rouge.
+3: Ralentir, voire s'arrêter si nécessaire, selon la circulation environnante.
+4: Ralentir et céder le passage uniquement aux véhicules venant de gauche.
+
+#0187
+Q: À quelles conditions est-il permis de traverser une voie ferrée ?
+1: Lorsqu'un panneau « Stop » ou un feu rouge se trouve dans votre sens de circulation.
+2: Après avoir cédé le passage aux véhicules qui s'éloignent du passage à niveau, sans les gêner.
+3: Lorsque la barrière commence à se lever.
+4: Lorsque le passage est libre, que la barrière est levée et que la traversée peut se faire entièrement en sécurité.
+
+#0188
+Q: Vous vous apprêtez à repartir après un arrêt ou un stationnement au bord de la chaussée. Comment agissez-vous ?
+1: Vous devez signaler avec le bras gauche et vous insérer rapidement dans le flot de circulation.
+2: Vous devez signaler votre intention et vous assurer de pouvoir vous insérer dans la circulation sans mettre en danger les autres usagers.
+3: Vous devez mettre le clignotant avant de démarrer, puis vous engager vivement sur la chaussée.
+4: Mettre le clignotant à gauche et partir : l'autre véhicule doit vous céder le passage.
+
+#0189
+Q: Comment agissez-vous à l'approche d'un passage pour piétons où des piétons traversent ?
+1: Ralentir, klaxonner et avertir les piétons que vous allez continuer.
+2: Toujours ralentir, voire s'arrêter si nécessaire, et permettre aux piétons de terminer leur traversée en sécurité.
+3: Accélérer et passer devant ou derrière les piétons, sans les mettre en danger.
+4: S'arrêter et céder le passage uniquement aux piétons qui traversent de gauche à droite.
+
+#0190
+Q: Comment faut-il considérer un passage pour piétons coupé par un terre-plein ?
+1: Un passage pour piétons coupé par un terre-plein est considéré comme deux passages distincts.
+2: Il n'y a aucune différence entre un passage coupé et un passage non coupé : tous deux comptent pour un seul passage.
+3: Un passage pour piétons coupé par un terre-plein est un seul long passage.
+4: On ne le considère comme deux passages que s'ils sont séparés par un espace vert.
+
+#0191
+Q: Comment agissez-vous si votre voie de circulation est bloquée ?
+1: Obéir aux signaux d'un policier, d'un agent de signalisation ou d'un panneau.
+2: Contourner l'obstacle uniquement par la droite : le véhicule venant en face vous cédera le passage.
+3: Rouler prudemment sans tenir compte des panneaux placés à cet endroit.
+4: Contourner vivement l'obstacle par la droite ou par la gauche.
+
+#0192
+Q: Comment faut-il agir lorsque votre voie de circulation est bloquée ?
+1: Céder le passage au véhicule venant en sens inverse.
+2: Avancer ! La priorité sur la route devant vous vous appartient.
+3: Utiliser le trottoir pour passer, s'il est libre.
+4: Klaxonner et contourner l'obstacle devant vous.
+
+#0193
+Q: En agglomération, est-il permis de s'arrêter, d'immobiliser ou de stationner un véhicule sur la chaussée ou sur l'accotement ?
+1: Oui, à condition que le véhicule reste sous surveillance.
+2: Oui, lorsque ni la loi ni un panneau ne l'interdisent et que cela ne gêne pas la circulation.
+3: Oui, toujours.
+4: Il est interdit de stationner sur l'accotement dans tous les cas.
+
+#0194
+Q: Un conducteur descend une longue pente hors agglomération :
+1: Il doit passer un rapport élevé pour terminer la descente plus vite.
+2: Il doit engager un rapport inférieur adapté à la pente.
+3: Il doit freiner toutes les quelques secondes pour ne pas aller trop vite.
+4: Il doit rouler au point mort.
+
+#0195
+Q: Quel véhicule peut s'arrêter ou être immobilisé sur l'accotement d'une route hors agglomération signalée comme route principale ?
+1: Un engin de chantier ou un tracteur.
+2: Un véhicule qui vend des fruits et légumes aux passants.
+3: Un ensemble tracteur et remorque ou tracteur et semi-remorque d'une largeur maximale de trois mètres.
+4: Un véhicule effectuant des travaux publics et un véhicule de Tsahal, pour l'accomplissement de leur mission.
+
+#0196
+Q: Est-il permis de faire monter ou descendre des passagers sur une voie rapide ?
+1: Oui, à condition que l'accotement soit large.
+2: Uniquement pour les véhicules de transport public.
+3: Uniquement de jour.
+4: Non, c'est totalement interdit.
+
+#0197
+Q: Est-il permis de s'arrêter, d'immobiliser ou de stationner un véhicule sur une voie rapide ?
+1: Oui, à condition que l'accotement soit assez large.
+2: Non, sauf pour les véhicules de transport public.
+3: Non, sauf pour les deux-roues.
+4: Non, sauf indication contraire explicite.
+
+#0198
+Q: Comment signalez-vous un véhicule que vous avez été obligé de laisser immobilisé sur la route ?
+1: En actionnant les deux clignotants avant.
+2: En allumant les phares pendant la « période d'éclairage ».
+3: En plaçant une lampe clignotante visible à 30 mètres.
+4: En plaçant un triangle de signalisation visible à au moins 100 mètres par le conducteur qui arrive derrière le véhicule immobilisé.
+
+#0199
+Q: Quand et où est-il interdit d'arrêter ou de stationner un véhicule ?
+1: Lorsque le véhicule n'est pas verrouillé.
+2: Lorsque le véhicule gêne la circulation ou masque un panneau.
+3: Le long des bordures peintes en bleu et blanc.
+4: Lorsque le véhicule stationne sur la voie de gauche d'une chaussée à sens unique, en agglomération.
+
+#0200
+Q: Est-il permis de stationner du côté gauche d'une chaussée à double sens ?
+1: Oui, à condition de stationner près du trottoir.
+2: Oui, sur une chaussée de plus de huit mètres de large.
+3: Non, c'est interdit.
+4: Oui, sur une chaussée d'au moins trois voies.
+
+#0201
+Q: Est-il permis de stationner sur le trottoir ?
+1: Non, sauf aux endroits aménagés à cet effet et signalés par un panneau.
+2: Non, c'est totalement interdit.
+3: Oui, sur un trottoir d'au moins trois mètres de large.
+4: Oui, sur un trottoir pavé.
+
+#0202
+Q: Est-il permis de stationner à l'intérieur d'une intersection ?
+1: Oui, dans une intersection d'au moins deux voies.
+2: Oui, pour cinq minutes au maximum.
+3: Non, sauf si un panneau autorise le stationnement.
+4: Seuls les deux-roues peuvent y stationner.
+
+#0203
+Q: Est-il permis d'immobiliser un véhicule à moins de 12 mètres d'une intersection ?
+1: Non, sauf si l'autorité de signalisation l'a autorisé par un panneau ou un marquage approprié.
+2: Oui, sauf indication contraire.
+3: Oui, à condition que le véhicule soit orienté à contresens.
+4: Oui, sur une chaussée à deux voies.
+
+#0204
+Q: À quelle distance d'une bouche d'incendie est-il interdit d'immobiliser un véhicule ?
+1: À moins de six mètres.
+2: À moins de 12 mètres.
+3: À moins de 20 mètres.
+4: À moins de deux mètres.
+
+#0205
+Q: À quelle distance d'un passage pour piétons est-il interdit d'immobiliser un véhicule ?
+1: Dans les 20 mètres avant le passage et les 20 mètres après.
+2: Sur le passage et dans les 12 mètres après.
+3: Sur le passage et dans les 12 mètres avant.
+4: Dans les 12 mètres avant le passage et les 12 mètres après.
+
+#0206
+Q: Est-il permis d'immobiliser un véhicule après un passage pour piétons ?
+1: Oui, mais seulement la nuit.
+2: Oui.
+3: Non, dans les 12 mètres après le passage.
+4: Non.
+
+#0207
+Q: D'après la photo, où est-il interdit d'immobiliser ou de stationner un véhicule ?
+1: Dans les 12 mètres avant la ligne d'arrêt.
+2: Dans les 15 mètres après la ligne d'arrêt.
+3: Dans les 20 mètres avant la ligne d'arrêt.
+4: Dans les 20 mètres après la ligne d'arrêt.
+
+#0208
+Q: À quelle distance avant et après un passage à niveau est-il permis d'immobiliser ou de stationner un véhicule ?
+1: À au moins six mètres du passage.
+2: À au moins quatre mètres du passage.
+3: À au moins 20 mètres du passage.
+4: À au moins 12 mètres du passage.
+
+#0209
+Q: Est-il permis d'arrêter un véhicule sur une chaussée divisée par une ligne continue, avec une seule voie dans chaque sens ?
+1: Non, c'est totalement interdit.
+2: Oui, mais seulement pendant la « période d'éclairage ».
+3: Oui, si la voie fait plus de deux mètres et demi de large.
+4: Oui, mais seulement en agglomération.
+
+#0210
+Q: Est-il permis d'immobiliser un véhicule à côté d'un autre véhicule stationné au bord de la route (en double file) ?
+1: Oui, si la voie fait plus de deux mètres et demi de large.
+2: Oui, mais seulement pendant la « période d'éclairage ».
+3: Non, c'est totalement interdit.
+4: Oui, mais seulement en agglomération.
+
+#0211
+Q: Quand est-il permis d'immobiliser un véhicule sur un pont ou dans un tunnel ?
+1: Jamais, c'est totalement interdit.
+2: De jour uniquement.
+3: Uniquement pendant la « période d'éclairage ».
+4: Lorsque la chaussée a au moins deux voies.
+
+#0212
+Q: À quelle distance d'un arrêt de bus est-il interdit d'immobiliser un véhicule ?
+1: De 12 mètres avant le panneau de l'arrêt à 12 mètres après, sauf indication contraire.
+2: De 20 mètres avant le panneau de l'arrêt à 20 mètres après, sauf indication contraire.
+3: Uniquement dans les 20 mètres avant le panneau de l'arrêt.
+4: Uniquement dans les 20 mètres après le panneau de l'arrêt.
+
+#0213
+Q: Est-il permis d'immobiliser un véhicule en face d'un arrêt de bus ?
+1: Oui, à condition que la chaussée fasse au moins 12 mètres de large.
+2: Oui, mais seulement de jour et pour faire monter des passagers.
+3: Non, c'est strictement interdit.
+4: Oui, à condition que la chaussée fasse au moins 20 mètres de large.
+
+#0214
+Q: Est-il permis d'immobiliser un véhicule le long d'une barrière de sécurité pour piétons ?
+1: Oui, en agglomération.
+2: Oui, mais seulement aux abords d'une école primaire.
+3: Non, sauf si un panneau indique le contraire.
+4: Oui, mais seulement aux abords d'un lycée.
+
+#0215
+Q: Est-il permis d'immobiliser un véhicule autre qu'un taxi là où ce panneau est placé ?
+1: Non, en aucun cas.
+2: Oui, si aucun taxi n'y stationne.
+3: Oui, mais seulement pour faire monter des passagers.
+4: Non, sauf pour un arrêt destiné à faire descendre des passagers.
+
+#0216
+Q: Est-il permis d'immobiliser n'importe quel véhicule là où ce panneau est placé ?
+1: Non, sauf un véhicule de personne handicapée muni de la carte indiquée sur le panneau.
+2: Oui, mais seulement de jour.
+3: Oui, lorsqu'il y a beaucoup de places libres.
+4: Tout véhicule muni d'une carte de stationnement ordinaire peut y stationner lorsque la place est libre.
+
+#0217
+Q: Que doit faire le conducteur après avoir stationné son véhicule ?
+1: S'assurer que le véhicule ne bougera pas de sa place et ne se déplacera pas.
+2: Placer un triangle de signalisation.
+3: Actionner tous les clignotants.
+4: Poser un panneau « Je reviens tout de suite ».
+
+#0218
+Q: Que doit faire le conducteur après avoir stationné son véhicule ?
+1: Retirer la clé du contact, placer un triangle de signalisation et serrer le frein de stationnement (frein à main).
+2: Couper le moteur, placer un triangle de signalisation et verrouiller les portières.
+3: Couper le moteur, retirer la clé du contact et serrer le frein de stationnement (frein à main).
+4: Placer la carte de stationnement sur le pare-brise, à gauche, bien en vue de l'inspecteur municipal.
+
+#0219
+Q: Comment immobilisez-vous un véhicule dans une descente ?
+1: Allumer les feux de position, braquer les roues avant vers le bord de la chaussée et engager la marche arrière.
+2: Serrer le frein de stationnement (frein à main), braquer les roues avant vers le bord de la chaussée et engager la marche arrière (sauf boîte automatique).
+3: Braquer les roues avant vers le bord de la chaussée et engager une vitesse avant (en boîte automatique : P).
+4: Serrer le frein de stationnement (frein à main) et braquer les roues avant vers le milieu de la chaussée.
+
+#0220
+Q: Selon le système de points :
+1: L'Autorité des permis peut obliger un conducteur qui a accumulé des points à passer des examens, et elle peut aussi suspendre son permis.
+2: Seul un officier de police peut suspendre un permis de conduire.
+3: L'Autorité des permis n'a pas le pouvoir de suspendre un permis de conduire.
+4: Seul le tribunal de la circulation peut suspendre un permis de conduire.
+
+#0221
+Q: De quelle façon faut-il immobiliser un véhicule sur la chaussée ?
+1: Il n'y a aucune règle.
+2: Perpendiculairement au bord de la chaussée.
+3: Selon un angle de 30 degrés au maximum par rapport à la bordure du trottoir.
+4: Parallèlement au bord de la chaussée, ou selon le marquage.
+
+#0222
+Q: À quelles conditions est-il permis d'immobiliser un véhicule autrement que parallèlement au trottoir (stationnement en épi) ?
+1: En agglomération, et seulement le week-end.
+2: S'il y a un marquage en épi sur la chaussée, et en le respectant.
+3: En aucun cas.
+4: Uniquement en agglomération.
+
+#0223
+Q: À quelle distance maximale du trottoir est-il permis d'immobiliser un véhicule parallèlement au bord de la chaussée ?
+1: 60 centimètres.
+2: 40 centimètres.
+3: 70 centimètres.
+4: 50 centimètres.
+
+#0224
+Q: Est-il permis de circuler en véhicule avec une partie du corps à l'extérieur ?
+1: Oui, mais seulement pour les passagers adultes.
+2: Oui, sur les chemins de terre.
+3: Oui, mais seulement dans un véhicule de collection.
+4: Non, sauf à moto.
+
+#0225
+Q: Est-il permis de conduire avec une portière ouverte ?
+1: Oui, lorsqu'il n'y a pas de passagers.
+2: Non, c'est totalement interdit.
+3: Non, sauf si la climatisation est en panne.
+4: Oui, lors du transport d'un chargement hors gabarit.
+
+#0226
+Q: Est-il permis d'ouvrir les portières pendant que le véhicule roule ?
+1: Non, c'est totalement interdit.
+2: Oui, lors du transport d'un chargement long.
+3: Oui, à condition de rouler lentement.
+4: Oui, lorsqu'il n'y a pas de passagers.
+
+#0227
+Q: Les passagers peuvent-ils monter dans le véhicule ou en descendre du côté de la chaussée ?
+1: Non, sauf le conducteur, ou le passager assis à côté de lui lorsque le véhicule stationne à gauche de la chaussée.
+2: Oui, si cela ne met en danger ni les passagers ni le conducteur.
+3: Non, c'est totalement interdit.
+4: Oui, si cela ne gêne pas les passagers.
+
+#0228
+Q: Est-il permis de descendre d'un véhicule ou d'y monter pendant qu'il roule ?
+1: Oui, avec l'autorisation d'un officier de police.
+2: Oui, dans le cadre d'une activité sportive et seulement pour les passagers adultes.
+3: Non, c'est totalement interdit.
+4: Non, sauf si cela ne présente aucun danger.
+
+#0229
+Q: Est-il permis de transporter plus d'un passager à côté du conducteur ?
+1: Oui, s'il y a deux ceintures de sécurité en plus de celle du conducteur.
+2: Non, sauf si la carte grise l'autorise.
+3: Oui, si le siège avant est une banquette.
+4: Non, c'est totalement interdit.
+
+#0230
+Q: Quels équipements doit-on obligatoirement utiliser pour transporter en voiture des enfants de moins de huit ans ?
+1: Uniquement une ceinture de sécurité trois points.
+2: Un siège de sécurité ou un rehausseur, fixés au véhicule.
+3: Uniquement une ceinture de sécurité.
+4: Uniquement une ceinture ventrale.
+
+#0231
+Q: Comment faut-il transporter en voiture un enfant de moins de trois ans ?
+1: Attaché par une ceinture ventrale.
+2: Attaché par n'importe quelle ceinture de sécurité du véhicule.
+3: Dans un siège de sécurité adapté à sa taille et à son poids.
+4: Attaché par une ceinture de sécurité trois points.
+
+#0232
+Q: Comment faut-il transporter en voiture un enfant de trois ans révolus et de moins de huit ans ?
+1: Dans un siège de sécurité ou un rehausseur adapté à sa taille et à son poids.
+2: Uniquement sur le siège arrière.
+3: Attaché par n'importe quelle ceinture de sécurité.
+4: Attaché par une ceinture de sécurité trois points.
+
+#0233
+Q: Comment faut-il transporter en voiture un enfant de moins d'un an ?
+1: Uniquement sur le siège avant, accompagné d'un passager adulte.
+2: Dans un siège de sécurité pour bébé, et uniquement sur le siège arrière.
+3: Sur les genoux d'un passager de plus de 21 ans.
+4: Dans le siège de sécurité, le dos du siège tourné vers l'avant du véhicule (dos à la route).
+
+#0234
+Q: Selon le panneau placé à l'arrêt de bus, le stationnement à l'arrêt de bus le samedi (shabbat) et les jours fériés est permis :
+1: uniquement aux motos.
+2: uniquement aux véhicules utilitaires.
+3: uniquement aux véhicules privés.
+4: uniquement aux véhicules lents.
+
+#0235
+Q: Dans quels véhicules le conducteur et les passagers doivent-ils attacher leur ceinture de sécurité ?
+1: Dans tout véhicule équipé de ceintures de sécurité.
+2: Dans tout véhicule de plus de deux roues qui transporte des passagers.
+3: Uniquement dans les véhicules dont le poids total autorisé ne dépasse pas 3 500 kg.
+4: Uniquement dans les véhicules privés.
+
+#0236
+Q: Quand le conducteur est-il dispensé d'attacher sa ceinture de sécurité ?
+1: Lors d'une manœuvre en marche avant pour se garer.
+2: Pendant une marche arrière.
+3: En sortant d'une propriété.
+4: En sortant d'un parking couvert.
+
+#0237
+Q: Un tribunal peut infliger à un conducteur condamné pour une infraction routière les peines suivantes :
+1: Uniquement la suspension du permis ou une peine de prison avec sursis.
+2: Uniquement une amende ou une peine de prison avec sursis.
+3: La suspension du permis, une peine de prison, une amende et d'autres peines prévues par la loi.
+4: Uniquement une amende, une peine de prison ferme ou une peine de prison avec sursis.
+
+#0238
+Q: Quel est le nombre maximal de passagers autorisé dans un véhicule utilitaire monocorps dont le poids total autorisé ne dépasse pas 3 500 kg ?
+1: Un passager à côté du conducteur et trois à l'arrière.
+2: Deux passagers à côté du conducteur et quatre à l'arrière.
+3: Le nombre indiqué sur la carte grise, sans dépasser huit passagers en plus du conducteur.
+4: Le nombre indiqué sur le permis de conduire, s'il y est indiqué.
+
+#0239
+Q: Est-il permis de transporter des passagers contre rémunération dans une voiture particulière ?
+1: Oui, mais seulement pour des trajets interurbains.
+2: Oui, mais seulement en cas de grève des transports en commun.
+3: Non.
+4: Oui, si les passagers paient le même prix qu'en autobus.
+
+#0240
+Q: Est-il permis de transporter un chargement dans un véhicule privé ?
+1: Oui, si son poids ne dépasse pas 1 000 kg.
+2: Oui, dans l'habitacle, dans le coffre ou sur la galerie de toit.
+3: Oui, mais uniquement sur la galerie de toit.
+4: Non, c'est strictement interdit.

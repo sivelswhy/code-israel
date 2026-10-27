@@ -1,0 +1,190 @@
+#1262
+E: Ce panneau signale un endroit pour faire monter et descendre des passagers de taxi, sans attente.
+
+#1263
+E: Dans la zone de ce panneau, seuls les passagers de taxi peuvent monter et descendre.
+
+#1264
+E: Le stationnement est interdit à un taxi dans la zone de ce panneau.
+
+#1265
+E: Le stationnement est interdit à un zoutobus dans la zone de ce panneau.
+
+#1266
+E: Le stationnement est interdit à un minibus public dans la zone de ce panneau.
+
+#1267
+E: Le stationnement est interdit à un minibus privé dans la zone de ce panneau.
+
+#1268
+E: Le stationnement est interdit à un autobus dans la zone de ce panneau.
+
+#1269
+E: Un taxi, même sans passagers, peut circuler sur la voie de transport public.
+
+#1270
+E: Un minibus public, même sans passagers, peut circuler sur la voie de transport public.
+
+#1271
+E: Un taxi avec passagers peut circuler sur la voie de transport public.
+
+#1272
+E: Un minibus privé peut circuler sur la voie de transport public.
+
+#1273
+E: Avant de monter dans l'autobus, le conducteur effectue un contrôle de sûreté et un contrôle de sécurité.
+
+#1274
+E: Avant de démarrer, le conducteur d'autobus vérifie qu'il n'y a pas d'usagers de la route dans les angles morts.
+
+#1275
+E: Une fois les passagers montés et avant de partir, le conducteur vérifie que les portes de l'autobus sont fermées.
+
+#1276
+E: Le panneau 436 n'interdit pas le stationnement de nuit d'un véhicule utilitaire de plus de 10 000 kg.
+
+#1277
+E: Un freinage brusque en autobus risque de blesser les passagers, qui ne sont pas attachés.
+
+#1278
+E: Le panneau 138 avertit le conducteur qu'il approche d'un tunnel.
+
+#1279
+E: Le semi-remorque doit avoir des autocollants sur la paroi arrière.
+
+#1280
+E: La montée et la descente des élèves se font uniquement par la porte avant droite de l'autobus.
+R: T83
+
+#1281
+E: Dans un minibus public, la montée et la descente des élèves se font par la porte avant droite ou une autre porte à l'avant du véhicule.
+R: T83
+
+#1282
+E: Il est interdit de transporter des élèves debout dans un véhicule de transport d'élèves.
+R: T83
+
+#1283
+E: Le triangle de signalisation est obligatoire dans tout véhicule à moteur, remorques et semi-remorques compris, sauf la moto.
+R: T367(א)
+
+#1284
+E: Près d'un groupe d'enfants, ralentissez et, si nécessaire, arrêtez-vous.
+
+#1285
+E: Un véhicule de police combiné peut émettre une lumière bleue et une lumière jaune clignotante.
+
+#1286
+E: L'extincteur doit être placé à un endroit visible, d'accès facile pour une utilisation rapide.
+
+#1287
+E: Pour économiser le carburant, conduisez sur un rapport approprié et à des vitesses modérées jusqu'à 90 km/h.
+
+#1288
+E: On réduit la consommation en conduisant avec souplesse, sans dépasser la vitesse maximale autorisée et avec une bonne pression des pneus.
+
+#1289
+E: Un entretien régulier selon les instructions du constructeur réduit la consommation de carburant et l'usure du véhicule.
+
+#1290
+E: En général, un véhicule à boîte manuelle consomme moins de carburant.
+
+#1291
+E: Plus la vitesse est faible, plus on maîtrise le véhicule et plus on peut éviter un accident.
+
+#1292
+E: Sur de l'huile, ralentissez progressivement et ne freinez pas fort, car l'adhérence est très faible.
+
+#1293
+E: Avec des nids-de-poule et des fissures, ralentissez et adaptez la vitesse aux conditions de la route.
+
+#1294
+E: Un policier peut arrêter un véhicule pour le contrôler en raison du niveau de pollution émise par le moteur.
+
+#1295
+E: Un policier peut délivrer un avis d'interdiction d'usage si le véhicule pollue l'air au-delà de ce qui est permis.
+
+#1296
+E: Il est le plus utile d'allumer les feux de jour quand le soleil est derrière le conducteur : le véhicule est alors vu à contre-jour par ceux d'en face.
+
+#1297
+E: Face à un véhicule qui arrive sur votre voie : ralentissez, déportez-vous vers la droite et descendez sur l'accotement si nécessaire.
+
+#1298
+E: Des phares mal réglés n'éclairent pas la route comme l'exige la loi.
+
+#1299
+E: Un véhicule utilitaire de plus de 15 000 kg peut transporter une charge unique jusqu'à 3,40 mètres de large.
+R: T85(ג)(1)
+
+#1300
+E: L'autorisation d'un officier de police est nécessaire quand la longueur du véhicule avec sa charge dépasse 20 mètres.
+
+#1301
+E: La largeur d'un véhicule de transport de marchandises (hors carrosserie frigorifique) ne dépasse pas 2,55 mètres.
+
+#1302
+E: Au-delà de 2,50 mètres de large, la charge doit être signalée par le panneau « Attention charge large ».
+R: T85(ג)(1)
+
+#1303
+E: Le conducteur d'un véhicule de plus de 6 000 kg doit faire une pause d'une demi-heure au cours de quatre heures de conduite consécutives.
+
+#1304
+E: La longueur maximale d'un véhicule articulé est de 18,75 mètres.
+
+#1305
+E: La longueur maximale d'un véhicule de transport de marchandises à trois essieux est de 12,00 mètres.
+
+#1306
+E: La longueur maximale d'un véhicule de transport de marchandises à deux essieux est de 12,00 mètres.
+
+#1307
+E: Ce panneau indique le centre-ville, le centre de la localité ou le centre de la zone.
+
+#1308
+E: La charge autorisée est le poids maximal en kg qu'il est permis de charger sur le véhicule.
+
+#1309
+E: Le dépassement autorisé à l'arrière est d'un tiers de la longueur du plateau, seulement quand la charge est une seule unité.
+
+#1310
+E: Le poids total autorisé d'un semi-remorque destiné à transporter un conteneur n'est pas inférieur à 29 000 kg.
+
+#1311
+E: Un conducteur dont l'état de santé a changé informe immédiatement le bureau des permis par lettre recommandée.
+
+#1312
+E: Une charge de plus de 3,40 mètres de large exige l'autorisation d'un officier de police.
+R: T85(ג)(1)
+
+#1313
+E: Une charge de plus de 4,80 mètres de haut (au-dessus du sol) exige l'autorisation d'un officier de police.
+
+#1314
+E: Sans autorisation, la hauteur maximale d'une charge unique est de 4,80 mètres pour un véhicule de plus de 15 000 kg.
+
+#1315
+E: La hauteur maximale d'une charge dans un véhicule utilitaire de 8 000 à 15 000 kg est de 4,00 mètres.
+
+#1316
+E: Le feu clignotant jaune au-dessus de la cabine s'allume quand la longueur de la charge ou du véhicule dépasse 20 mètres.
+
+#1317
+E: Aucun permis n'est délivré ni renouvelé pour un autobus au bout de 20 ans à compter de son année de fabrication.
+
+#1318
+E: Piéton engagé sur le passage : ralentissez et laissez-le terminer sa traversée, même si vous êtes sur la voie de gauche.
+R: T67(א2)
+
+#1319
+E: Le conducteur d'un véhicule utilitaire de plus de 6 000 kg a droit à au moins 52 jours de repos par an.
+R: T168(5)
+
+#1320
+E: Ces conducteurs doivent se reposer au moins sept heures consécutives avant de commencer leur journée de travail.
+R: T168(1)
+
+#1321
+E: Le feu orange clignotant signale un chantier sur la route.
+

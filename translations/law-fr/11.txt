@@ -1,0 +1,36 @@
+#P64ב(א)
+F: Alcool, stupéfiants et conduite (définitions de l’article 64B). Dans cet article :
+« Responsable du véhicule » : l’une des personnes suivantes : (1) celui qui enseigne la conduite, pendant que l’élève conduit le véhicule ; (2) celui qui est assis à côté d’un nouveau conducteur dans le véhicule pour remplir l’obligation d’accompagnement prévue aux articles 12A1 ou 12A2.
+« Boisson enivrante » : boisson dont la concentration d’alcool est supérieure à celle fixée par le ministre, en consultation avec le ministre de la Santé et avec l’approbation de la commission de l’Économie de la Knesset ; l’indication de la concentration d’alcool sur le contenant de la boisson est une preuve apparente de la concentration d’alcool qu’elle contient.
+« Stupéfiant dangereux » : au sens de l’Ordonnance sur les drogues dangereuses [nouvelle version] de 1973, à l’exception d’une drogue déterminée par le ministre de la Santé et aux conditions qu’il fixe.
+« Ivre » : l’une des personnes suivantes :
+(1) celui qui boit une boisson enivrante pendant qu’il conduit ou qu’il est responsable du véhicule ;
+(2) celui dans le corps de qui se trouve un stupéfiant dangereux ou des produits de son métabolisme ;
+(3) celui dans le corps de qui se trouve de l’alcool à une concentration supérieure à celle fixée par le ministre en consultation avec le ministre de la Santé et avec l’approbation de la commission de l’Économie de la Knesset (pour un conducteur ordinaire, le seuil fixé par le Règlement de la circulation, art. 169A, est de 240 microgrammes d’alcool par litre d’air expiré ou 50 milligrammes pour 100 millilitres de sang), cette concentration étant présumée avoir été dans son corps durant les trois heures précédant le prélèvement d’échantillons d’haleine, d’urine ou de sang, tant que le contraire n’est pas prouvé ;
+(3a) l’une des personnes suivantes chez qui, selon un échantillon d’haleine, l’alcool dépasse 50 microgrammes par litre d’air expiré, ou selon un échantillon de sang dépasse 10 milligrammes pour 100 millilitres de sang :
+(a) un nouveau conducteur ;
+(b) un conducteur de moins de 24 ans ;
+(c) un conducteur qui conduit un véhicule commercial ou un véhicule de travail dont le poids total autorisé selon la carte grise dépasse 3 500 kilogrammes ;
+(d) un conducteur qui conduit un véhicule public ;
+(4) celui qui est sous l’influence d’une boisson enivrante ou d’un stupéfiant dangereux, à condition qu’un test de laboratoire n’ait pas trouvé que la concentration d’alcool dans son sang est inférieure au seuil fixé par règlement selon le point (3) ou au seuil du point (3a), selon le cas.
+
+#P64ב(א1)
+F: Un policier peut exiger du conducteur d’un véhicule ou du responsable du véhicule qu’il lui donne un échantillon de l’air expiré par sa bouche (éthylotest), pour vérifier s’il y a de l’alcool dans son corps et à quelle concentration, au moyen d’un appareil approuvé à cet effet par le ministre avec l’accord du ministre de la Santé, par avis au Journal officiel. Un policier peut exiger un tel échantillon même sans soupçon qu’une infraction à l’Ordonnance a été commise.
+
+#P64ב(ב)
+F: Un policier peut exiger du conducteur d’un véhicule ou du responsable du véhicule, qui a été impliqué dans un accident de la route ou que le policier soupçonne raisonnablement d’être ivre, qu’il lui donne un échantillon d’urine ou de sang pour vérifier s’il y a de l’alcool dans son corps et à quelle concentration, ou s’il s’y trouve un stupéfiant dangereux ou des produits de son métabolisme. Le policier peut ordonner un prélèvement de sang même sur un conducteur ou un responsable inconscient.
+
+#P62
+F: Celui qui commet l’une des infractions suivantes est puni de deux ans de prison ou d’une amende prévue à l’article 61(a)(3) du Code pénal de 1977 ; si l’infraction est une infraction à amende jugée par le tribunal, l’amende est de 1,25 fois celle de l’article 61(a)(1) du Code pénal ; et s’il est titulaire d’une autorisation d’exploitation au sens de l’article 16D, l’amende est celle de l’article 61(a)(4) :
+(1) celui qui enfreint une disposition de l’Ordonnance ;
+(2) celui qui conduit un véhicule sur la route avec légèreté ou négligence, ou à une vitesse qui, dans les circonstances, met le public en danger, même si elle est inférieure à la vitesse maximale fixée ;
+(3) celui qui est ivre en conduisant un véhicule, ou en étant responsable du véhicule, sur une route ou un lieu public (« ivre » et « responsable du véhicule » au sens de l’article 64B) ;
+(4) celui qui, conduisant un véhicule dont la conduite a causé une infraction ou une violation routière, refuse de dire son nom ou son adresse, ou donne un faux nom ou une fausse adresse ;
+(5) celui qui, propriétaire, détenteur ou responsable d’un véhicule, ne transmet pas aussitôt, à la demande d’un policier, un renseignement qu’il détient et qui peut conduire à l’identification et à l’arrestation du conducteur impliqué dans un accident ou dont l’usage du véhicule constituait une infraction ou une violation routière ; si l’on exige ce renseignement par écrit, il le transmet dans les 15 jours suivant la demande ;
+(6) celui qui, conduisant un véhicule à moteur ou public, ne présente pas son permis lorsqu’un policier le lui demande ;
+(7) celui qui, conduisant un véhicule, ne s’arrête pas lorsque, à cause de la présence de son véhicule sur la route, un accident est arrivé à une personne, un animal ou un véhicule dont une personne est responsable, et ne donne pas, lorsqu’il en est requis, son nom et son adresse, ceux du propriétaire du véhicule et son numéro d’immatriculation ;
+(8) celui qui enfreint l’instruction d’un panneau sur la route ou un signal donné par un policier en uniforme ;
+(9) celui qui falsifie un signe servant à identifier un véhicule ou un permis délivré selon l’Ordonnance, ou qui, frauduleusement, les modifie, les utilise, les prête à autrui ou laisse autrui les utiliser ;
+(10) celui qui modifie illégalement l’enregistrement d’un tachygraphe ;
+(11) celui qui perturbe le fonctionnement normal d’un limiteur de vitesse installé dans un véhicule selon l’article 65A ;
+(12) celui qui stationne son véhicule de manière à bloquer un autre véhicule, y compris de manière à empêcher une personne handicapée d’entrer dans son véhicule portant un macaron de handicapé ou d’en sortir sur une place pour handicapés, en stationnant sur une zone à côté d’une telle place marquée par un panneau comme interdite au stationnement ; cette disposition s’applique aussi hors d’une route.

@@ -1,0 +1,113 @@
+import CodeIsraelKit
+import Foundation
+import Observation
+
+/// Which model answers, chosen automatically: Apple Intelligence when the iPhone has it, Qwen on the
+/// iPhone otherwise, and the search mode (no model) when neither is available.
+enum Engine: Equatable {
+    case apple
+    case qwen
+    case none
+}
+
+/// The models of the app, shared by every conversation (Qwen is loaded in memory only once).
+@MainActor
+@Observable
+final class AIEngines {
+    let qwen = QwenEngine()
+    private(set) var appleStatus = AppleEngine.status
+
+    init() {
+        // A model downloaded before is loaded right away when Apple Intelligence is not there.
+        if appleStatus != .available, QwenEngine.isSupported, qwen.wasDownloaded { qwen.load() }
+    }
+
+    var current: Engine {
+        if appleStatus == .available { return .apple }
+        if qwen.state == .ready { return .qwen }
+        return .none
+    }
+
+    /// Apple Intelligence may have been turned on, or finished preparing, while the app was away.
+    func refresh() {
+        appleStatus = AppleEngine.status
+    }
+
+    func answer(_ engine: Engine, prompt: String) -> AsyncThrowingStream<String, Error> {
+        switch engine {
+        case .apple: AppleEngine.answer(system: AssistantPrompt.system, prompt: prompt)
+        case .qwen: qwen.answer(system: AssistantPrompt.system, prompt: prompt)
+        case .none: AsyncThrowingStream { $0.finish() }
+        }
+    }
+}
+
+/// One message of a conversation with the assistant.
+struct ChatMessage: Identifiable {
+    enum Role { case user, assistant }
+
+    let id = UUID()
+    let role: Role
+    var text: String
+    /// Official questions the answer is based on.
+    var sources: [Question] = []
+    var streaming = false
+    /// Written by a model (rather than composed from the official texts).
+    var byModel = false
+}
+
+/// A conversation: the learner's messages and the answers, checked against the official texts.
+@MainActor
+@Observable
+final class Conversation {
+    private(set) var messages: [ChatMessage] = []
+    @ObservationIgnored private var task: Task<Void, Never>?
+
+    var isAnswering: Bool { messages.last?.streaming == true }
+
+    func send(_ text: String, brain: AssistantBrain, topic: AssistantTopic?, engines: AIEngines) {
+        let clean = text.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !clean.isEmpty, !isAnswering else { return }
+        let previous = messages.last { $0.role == .user }?.text
+        let turn = brain.turn(for: clean, previous: previous, topic: topic)
+        let engine = engines.current
+        let useModel = engine != .none && turn.canUseModel
+        messages.append(ChatMessage(role: .user, text: clean))
+        messages.append(ChatMessage(role: .assistant, text: useModel ? "" : turn.direct, sources: turn.hits, streaming: useModel, byModel: useModel))
+        guard useModel else { return }
+
+        let stream = engines.answer(engine, prompt: AssistantPrompt.user(question: turn.prompt, sources: turn.sourceText))
+        task = Task {
+            do {
+                for try await text in stream {
+                    updateLast { $0.text = text }
+                }
+            } catch {
+                // The composed answer below replaces an empty or interrupted one.
+            }
+            // A small model sometimes invents figures, articles or rules: such an answer is replaced
+            // by the one composed from the official texts.
+            updateLast {
+                if $0.text.isEmpty || !turn.accepts($0.text) {
+                    $0.text = turn.direct
+                    $0.byModel = false
+                }
+                $0.streaming = false
+            }
+        }
+    }
+
+    func stop() {
+        task?.cancel()
+    }
+
+    func clear() {
+        task?.cancel()
+        messages = []
+    }
+
+    private func updateLast(_ change: (inout ChatMessage) -> Void) {
+        guard !messages.isEmpty else { return }
+        change(&messages[messages.count - 1])
+    }
+}

@@ -1,0 +1,420 @@
+#1382
+Q: Quelle est la signification du panneau ?
+1: Station de taxis. L'arrêt et le stationnement d'un véhicule autre qu'un taxi sont interdits.
+2: Début de la zone d'un arrêt d'autobus public.
+3: Fin de la zone d'une station de taxis.
+4: Station de taxis. L'entrée dans la rue où le panneau est placé est interdite.
+
+#1383
+Q: Un conducteur qui s'approche en voiture d'une crête ou d'un endroit où le champ de vision est bouché :
+1: Actionne les quatre indicateurs de direction (feux de détresse) pour avertir les autres conducteurs.
+2: Ralentit et roule à une vitesse raisonnable adaptée au champ de vision.
+3: Accélère et roule sur l'accotement.
+4: Continue à la vitesse de conduite normale.
+
+#1384
+Q: Dans un véhicule utilitaire dont le poids total autorisé dépasse 10 000 kg, il faut détenir à partir du 1er novembre de chaque année :
+1: Une attestation du bon fonctionnement du système d'éclairage.
+2: Une attestation d'étalonnage du compteur de vitesse (tachymètre).
+3: Une attestation du bon état du système de direction.
+4: Une attestation que le véhicule a passé le contrôle d'hiver ou le contrôle technique annuel en août ou après.
+
+#1385
+Q: Quel est le poids total autorisé d'un véhicule utilitaire soumis au contrôle du système de freinage au moins une fois tous les six mois ?
+1: 16 000 kg ou plus.
+2: 12 000 kg ou plus.
+3: 8 000 kg ou plus.
+4: 10 000 kg ou plus.
+
+#1386
+Q: Expliquez la notion d'« essieu » d'un véhicule :
+1: Une ligne le long du véhicule, de pare-chocs à pare-chocs, parallèle à l'axe longitudinal du véhicule.
+2: La traverse arrière du châssis à laquelle est fixé le crochet d'attelage du véhicule tracteur.
+3: L'arbre de transmission qui transmet le mouvement de rotation de la boîte de vitesses au différentiel.
+4: Un axe ou un système d'axes monté en travers du véhicule et sur lequel sont montées les roues.
+
+#1387
+Q: Quel panneau signifie : barrière avant un passage à niveau ?
+1: 404
+2: 403
+3: 113
+4: 511
+
+#1388
+Q: Expliquez la notion de « poids total par essieu » :
+1: Le poids à vide de chaque essieu monté sur le véhicule, roues montées comprises.
+2: Le poids que toutes les roues montées sur un même essieu exercent ensemble sur la route.
+3: Le poids à vide de l'essieu arrière, y compris le système de différentiel.
+4: La pression mesurée aux extrémités des ressorts reliés au châssis.
+
+#1389
+Q: Des médicaments qu'on peut acheter sans ordonnance peuvent-ils nuire à la conduite ?
+1: Oui, mais seulement en été.
+2: Non.
+3: Oui.
+4: Oui, mais seulement en hiver.
+
+#1390
+Q: Quelle est la différence entre les panneaux ?
+1: Le panneau 505 indique un arrêt d'autobus public. Le panneau 506 indique une gare de train local.
+2: Le panneau 505 indique une station de tramway. Le panneau 506 indique un arrêt d'autobus public.
+3: Le panneau 505 indique un arrêt d'autobus privé. Le panneau 506 indique une gare de train local.
+4: Le panneau 505 indique un arrêt pour autobus sur voie rapide. Le panneau 506 indique un arrêt pour autobus publics sur route urbaine uniquement.
+
+#1391
+Q: Quel numéro désigne l'« empattement » (distance entre les essieux) sur le véhicule de la photo ?
+1: 7
+2: 14
+3: 16
+4: 3
+
+#1392
+Q: Qu'est-ce qu'un « véhicule de transport de marchandises » ?
+1: Tout véhicule qui n'est pas un véhicule utilitaire.
+2: Un véhicule dans lequel il est interdit de transporter des passagers autres que le conducteur.
+3: Un véhicule destiné par sa construction au transport de matières en vrac.
+4: Un véhicule à moteur qui sert – ou est destiné par sa construction à servir – au transport de marchandises.
+
+#1393
+Q: Selon le règlement sur la durée de conduite, la manutention de la charge compte-t-elle comme « conduite » ?
+1: Non. La conduite est uniquement la conduite effective et non toute autre opération liée au véhicule.
+2: Non. Toutes les opérations liées au véhicule, hors pauses et attentes, ne comptent pas comme conduite.
+3: Oui. La manutention de la charge, son arrimage, son chargement et son déchargement comptent dans la durée de conduite selon la loi.
+4: Oui – mais pas plus d'une heure par jour.
+
+#1394
+Q: Quelle est la responsabilité de celui qui a la maîtrise du véhicule concernant les heures de travail et de repos du conducteur ?
+1: Le responsable du véhicule peut – avec l'accord de l'officier de sécurité – ordonner au conducteur de conduire plus longtemps que ce que la loi permet.
+2: Le responsable est certes responsable, mais l'officier de sécurité d'une flotte peut modifier les heures de travail et de repos selon les besoins, sans rapport avec la loi.
+3: Le responsable du véhicule n'est pas responsable des heures de travail et de repos du conducteur. Toute la responsabilité incombe au conducteur.
+4: Le responsable du véhicule ne permettra pas qu'on le conduise plus longtemps que les heures de travail fixées par la loi.
+
+#1395
+Q: Comment faut-il conduire en descente ?
+1: Au point mort, pour économiser le carburant.
+2: Avec un rapport enclenché et en appuyant en continu sur la pédale d'embrayage.
+3: Un des rapports doit être enclenché et engagé.
+4: Sur un rapport haut et en appuyant en continu sur la pédale de frein.
+
+#1396
+Q: Quand est-il obligatoire d'utiliser le ralentisseur de vitesse en descente ?
+1: Dans toute descente de la route.
+2: Seulement quand le pourcentage de la pente est indiqué sur le panneau d'avertissement de descente dangereuse.
+3: Quand la pente de la descente dépasse six pour cent et que la descente fait plus d'un kilomètre.
+4: Quand un panneau avertit d'une descente dangereuse.
+
+#1397
+Q: Dans toute descente raide, est-il obligatoire de rouler sur un rapport bas approprié ?
+1: Non.
+2: L'obligation ne vaut que pour les descentes raides d'un kilomètre ou plus.
+3: Oui.
+4: L'obligation ne vaut que pour les descentes dont le début est signalé par un panneau de descente.
+
+#1398
+Q: Est-il permis d'arrêter un véhicule sur une voie rapide ?
+1: Oui, mais seulement sur le côté de la route et pour se reposer.
+2: Non. Il est interdit d'arrêter un véhicule sur une voie rapide, sauf sur l'accotement lorsque le véhicule est en panne et ne peut plus continuer.
+3: Oui, mais seulement pour faire monter des passagers.
+4: Oui, mais seulement pour faire descendre des passagers.
+
+#1399
+Q: Qu'est-ce qu'un « sentier » ?
+1: Une route revêtue ou non, destinée uniquement aux véhicules à deux roues.
+2: Une route ou une partie de route qui n'est pas une chaussée, réservée à un type déterminé d'usagers.
+3: La partie de la route destinée aux piétons uniquement.
+4: La partie de la route destinée à la circulation des vélos uniquement.
+
+#1400
+Q: Vous conduisez un véhicule d'une largeur totale de 220 cm. Devez-vous allumer les feux de gabarit pendant les « heures d'éclairage » ?
+1: Non. Les feux de gabarit servent d'avertissement quand le véhicule est immobilisé sur la route à cause d'une panne.
+2: Oui.
+3: Oui, mais seulement du 1er novembre au 31 mars de l'année suivante.
+4: Non. Les feux de gabarit servent à éclairer uniquement quand le véhicule est à l'arrêt, pour quelque raison que ce soit.
+
+#1401
+Q: Est-il permis de conduire un véhicule dont l'une des roues de la remorque ou du semi-remorque ne touche pas la route (à cause de la forme de l'attelage ou du chargement du véhicule) ?
+1: Oui, mais c'est soumis à l'autorisation d'un officier de police et à un accompagnement approprié.
+2: Oui, si le tracteur est très haut et que les roues avant du semi-remorque sont levées.
+3: Oui – avec une lourde charge sur le porte-à-faux arrière.
+4: Il est interdit de conduire le véhicule si l'une des roues du semi-remorque ou de la remorque ne touche pas la chaussée.
+
+#1402
+Q: Est-il permis de tracter plus d'une remorque ?
+1: Oui, mais il faut pour cela une autorisation du contrôleur des transports.
+2: Oui, mais il faut pour cela une autorisation d'un policier.
+3: Oui. Pour transporter des charges longues, on peut tracter plus d'une remorque, mais il faut l'accord de l'officier de sécurité.
+4: Oui, mais il faut pour cela une autorisation de l'autorité des permis.
+
+#1403
+Q: Le stationnement à un arrêt d'autobus :
+1: Est permis les samedis et jours de fête aux motos uniquement, selon ce qui est inscrit sur le panneau placé à l'arrêt.
+2: Est permis les samedis et jours de fête aux voitures particulières uniquement, selon ce qui est inscrit sur le panneau placé à l'arrêt.
+3: Est permis les samedis et jours de fête à tous les types de véhicules.
+4: Est permis les samedis et jours de fête aux véhicules utilitaires uniquement, selon ce qui est inscrit sur le panneau placé à l'arrêt.
+
+#1404
+Q: Vous conduisez une voiture particulière de 1 520 kg de poids total. Quel est le poids total maximal de la remorque que vous pouvez tracter ?
+1: 750 kg.
+2: 450 kg.
+3: 2 200 kg, mais pas plus que le poids à vide de votre véhicule.
+4: 1 500 kg.
+
+#1405
+Q: Ce qui est inscrit sur la lettre de voiture fait-il preuve du poids de la charge ?
+1: Non, le poids indiqué sur la lettre de voiture n'est pas un fait établi, solide et accepté.
+2: Oui, seulement pour les charges pesant 10 000 kg au plus.
+3: Oui, le poids de la charge indiqué sur la lettre de voiture prouve l'exactitude du poids à 20 pour cent près au-dessus ou au-dessous de l'indication.
+4: Oui.
+
+#1406
+Q: Un policier a ordonné au conducteur d'amener son véhicule à la pesée. Sur qui retombent les frais de pesée si le poids dépasse ce qui est permis ?
+1: Sur le conducteur du véhicule.
+2: Sur le conducteur, mais le ministère de l'Industrie rembourse 50 pour cent si le poids était conforme à la loi.
+3: Sur l'État d'Israël.
+4: Sur le policier.
+
+#1407
+Q: Un policier peut-il ordonner au conducteur d'un véhicule transportant une charge d'amener le véhicule à une station de pesée pour le peser ?
+1: Oui. Un policier peut le faire, à condition que la station de pesée ne soit pas à plus de trois kilomètres.
+2: Oui. Mais le policier doit être un policier de la circulation.
+3: Oui. Un policier peut agir ainsi, mais seulement quand le conducteur n'a pas de lettre de voiture.
+4: Oui. Un policier peut ordonner au conducteur d'un véhicule transportant une charge d'amener le véhicule à la pesée à l'endroit le plus proche possible.
+
+#1408
+Q: Un policier peut-il interrompre la marche d'un véhicule qui transporte une charge en violation de la loi ?
+1: Non. Un policier ne peut interrompre la marche d'un véhicule que lorsque la charge met en danger les autres usagers de la route.
+2: Non. Seul un officier de police du grade d'inspecteur ou supérieur peut interrompre la marche d'un véhicule.
+3: Oui. Un policier peut interrompre la marche du véhicule jusqu'à ce que la charge soit déchargée ou que l'affaire soit réglée conformément à la loi.
+4: Oui. Mais seulement si son poids total dépasse de 20 pour cent ou plus le poids permis par la loi.
+
+#1409
+Q: Y a-t-il obligation de signaler une charge qui dépasse hors du véhicule à l'arrêt ?
+1: Oui. Il faut signaler une charge hors gabarit à tout moment.
+2: Oui. Il faut signaler une charge hors gabarit, mais seulement pendant les heures d'éclairage.
+3: Non. Pour un véhicule à l'arrêt sur la route, la charge hors gabarit ne présente pas de danger, donc il n'y a pas d'obligation de la signaler.
+4: Non, il ne faut la signaler que si le dépassement est à l'arrière.
+
+#1410
+Q: Y a-t-il obligation de signaler une charge qui dépasse hors du véhicule en marche ?
+1: Non. Il faut signaler une charge qui dépasse de l'arrière ou de l'avant du véhicule, mais seulement si la charge dépasse d'au moins 150 cm.
+2: Oui. Il faut signaler une charge qui dépasse hors du véhicule uniquement pendant les heures d'éclairage.
+3: Oui. Il faut signaler un véhicule dont la charge dépasse, mais seulement à l'avant.
+4: Oui. Il faut signaler une charge qui dépasse hors du véhicule à tout moment.
+
+#1411
+Q: Comment signale-t-on une charge qui dépasse de l'arrière ou de l'avant du véhicule ?
+1: Une charge qui dépasse de l'avant ou de l'arrière du véhicule de plus de 150 cm se signale par deux triangles rouges fluorescents de chaque côté.
+2: Il n'y a pas d'obligation de signaler la charge qui dépasse à l'avant du véhicule, tandis que la charge qui dépasse à l'arrière se signale par un triangle rouge fluorescent.
+3: À l'avant du véhicule, la charge se signale par un triangle réfléchissant de couleur blanche, et à l'arrière par un triangle blanc à bords rouges réfléchissants.
+4: À l'avant du véhicule, la charge se signale par un triangle de couleur rouge, et à l'arrière par un triangle de couleur blanche.
+
+#1412
+Q: Une société qui n'a pas été agréée comme entreprise de transport peut-elle transporter des matières dangereuses ?
+1: Non.
+2: Oui. Le transport de matières dangereuses est permis dans tout véhicule – selon les règles ordinaires.
+3: Oui. Le transport de matières dangereuses est permis à condition que le conducteur ait au moins dix ans d'ancienneté de conduite.
+4: Oui. Quand le conducteur a un permis de conduire C+E.
+
+#1413
+Q: Les cendres volantes ou le ciment en vrac, on peut les transporter :
+1: Dans tout véhicule ouvert de transport de poudres en vrac.
+2: Uniquement dans un véhicule spécial équipé d'une soufflante.
+3: Dans tout véhicule utilitaire.
+4: Uniquement dans un véhicule destiné à cet effet.
+
+#1414
+Q: Comment faut-il transporter une charge dans un véhicule qui n'a pas de cabine de conducteur séparée ?
+1: Il doit y avoir dans le véhicule une cloison qui sépare et protège les passagers d'un choc de la charge.
+2: On ne peut y transporter qu'une charge en vrac.
+3: On ne peut y transporter qu'une charge sur palettes.
+4: Dans un véhicule sans cabine de conducteur séparée, il est interdit de transporter une charge.
+
+#1415
+Q: Qu'est-ce qu'une « caisse mobile » (selon le règlement de la circulation) ?
+1: Une caisse en bois destinée au transport d'agrumes en vrac, qu'on peut remplacer par une autre caisse.
+2: Une caisse ou des palettes de chargement destinées au chargement, au déchargement et au changement de charges.
+3: Un réservoir, une caisse ou un autre moyen de transport de marchandises conçu pour être chargé et déchargé par un « cric mobile ».
+4: Un dispositif servant au transport de liquides qu'on peut retirer du châssis du véhicule et laisser avec ou sans charge.
+
+#1416
+Q: Un « cric mobile » est :
+1: Un dispositif monté à demeure sur le véhicule, destiné à lever ou abaisser une caisse mobile.
+2: Un dispositif du véhicule qui empêche le renversement du véhicule lors du déchargement ou du chargement d'une caisse mobile.
+3: Un dispositif relié à demeure au véhicule, destiné à lever un côté d'un plateau de chargement latéral.
+4: Un dispositif moderne destiné à lever l'essieu lors du changement d'une roue crevée.
+
+#1417
+Q: Après avoir traversé un tronçon de route inondé, le conducteur doit :
+1: Freiner fort et vérifier si les freins réagissent.
+2: Continuer à rouler normalement, car il n'y a pas de lien entre l'eau et l'efficacité des freins.
+3: Rouler à faible vitesse et appuyer légèrement par intermittence sur la pédale de frein, jusqu'à retrouver un freinage normal.
+4: S'arrêter sur le bas-côté et attendre que le système de freinage soit complètement sec.
+
+#1418
+Q: Qu'est-ce qu'un « conteneur » ?
+1: Un réservoir ou une caisse d'expédition servant au transport de marchandises, monté de manière à pouvoir être arrimé par un dispositif twist-lock, et dont la largeur ne dépasse pas 250 cm.
+2: Un réservoir métallique à double paroi, servant au transport de liquides et équipé d'un dispositif de verrouillage rotatif pour l'attacher au véhicule.
+3: Tout dispositif de 300 cm de large au plus, séparé du véhicule, servant au transport de marchandises et pouvant être laissé en chargement n'importe où.
+4: Une caisse métallique fermée de forme carrée, servant au transport de marchandises et équipée d'un dispositif rotatif pour l'attacher au véhicule.
+
+#1419
+Q: Dans quel véhicule est-il permis de transporter un conteneur de plus de 610 cm de long ?
+1: Dans un véhicule utilitaire dont le poids total autorisé est de 10 000 kg ou plus.
+2: Dans un véhicule dont le poids total autorisé est de 19 000 kg ou plus.
+3: Dans une remorque ou un semi-remorque dont le poids total autorisé est de 14 000 kg ou moins.
+4: Dans un semi-remorque uniquement, et conformément à ce qui est inscrit sur le permis du véhicule.
+
+#1420
+Q: Est-il permis de transporter un conteneur qui dépasse de l'arrière du véhicule ?
+1: Oui, mais seulement dans un véhicule sans plancher ni parois.
+2: Oui, dans un véhicule dont le porte-à-faux arrière est court.
+3: Non. Le conteneur ne dépassera en aucun cas de l'arrière du véhicule.
+4: Oui, mais seulement dans un véhicule dont le porte-à-faux avant est court.
+
+#1421
+Q: Est-il permis de transporter un conteneur dans un véhicule qui n'est pas équipé d'un dispositif de verrouillage rotatif ?
+1: Oui, mais seulement avec une autorisation de l'autorité des permis.
+2: Oui, on peut transporter un conteneur dans tout véhicule équipé de câbles permettant de fixer le conteneur au véhicule en sécurité.
+3: Oui, on peut transporter un conteneur dans tout véhicule équipé d'une paroi avant haute.
+4: Non. Il est interdit de transporter un conteneur dans un véhicule qui n'est pas équipé de dispositifs de verrouillage rotatifs.
+
+#1422
+Q: Qu'est-ce que l'« éclairage périphérique » selon le règlement de la circulation ?
+1: Un système d'éclairage de feux de lumière jaune, disposés autour de la charge hors gabarit à 100 cm les uns des autres ou moins.
+2: Un système d'éclairage non fixé au véhicule, avec une chaîne portant des drapeaux espacés d'au moins 50 cm.
+3: Des feux de couleur verte installés sur les côtés d'un véhicule long.
+4: Un système d'éclairage fixé sur les parois d'un véhicule long.
+
+#1423
+Q: Comment signale-t-on un véhicule qui accompagne un véhicule transportant une charge hors gabarit ?
+1: Par un panneau « Attention charge hors gabarit » à l'avant du véhicule accompagnateur.
+2: Par un feu clignotant et un panneau « Attention charge hors gabarit » à l'avant du véhicule accompagnateur.
+3: Par des panneaux « Attention charge hors gabarit » fixés à l'avant du véhicule accompagnateur et à l'arrière du véhicule portant la charge, et par un feu jaune clignotant au-dessus de la cabine.
+4: Le véhicule accompagnateur roulera avec ses quatre indicateurs de direction en marche et un panneau « Attention charge hors gabarit » sur son toit.
+
+#1424
+Q: À quelle distance du véhicule transportant une charge hors gabarit roule le véhicule d'accompagnement ?
+1: La distance entre les deux véhicules ne sera pas supérieure à 150 mètres.
+2: À une distance où le conducteur du véhicule qui transporte la charge peut voir dans les rétroviseurs le véhicule d'accompagnement sur une route à double sens.
+3: Le véhicule d'accompagnement gardera une distance d'au moins 100 mètres du véhicule transportant la charge.
+4: À une distance où le contact visuel entre les deux conducteurs est maintenu à tout moment.
+
+#1425
+Q: Où roule le véhicule d'accompagnement d'un véhicule transportant une charge hors gabarit ?
+1: Le véhicule d'accompagnement roule toujours devant le véhicule transportant une charge hors gabarit.
+2: La position du véhicule d'accompagnement dépend de la largeur de la charge et non du type de route.
+3: Sur route à sens unique, le véhicule d'accompagnement roule devant ; sur route à double sens, derrière lui.
+4: Sur route à double sens – devant le véhicule transportant une charge hors gabarit ; sur route à sens unique – derrière lui.
+
+#1426
+Q: Un tracteur doit-il avoir un avertisseur de marche arrière ?
+1: Seul un tracteur agricole y est tenu.
+2: Seul un tracteur dont le poids total autorisé est de 1 000 kg ou moins y est tenu.
+3: Non.
+4: Oui.
+
+#1427
+Q: Pour le transport en vrac, quelle est la hauteur maximale autorisée de la charge ?
+1: La charge doit être inférieure d'un mètre à la hauteur de la paroi, pour éviter que la charge se disperse sur la route.
+2: La charge ou une partie quelconque d'elle ne doit pas dépasser la hauteur des parois ou des échelles installées conformément à la loi.
+3: La hauteur de la charge ne dépassera pas 480 cm, et elle sera couverte.
+4: La hauteur de la charge n'a pas d'importance, pourvu qu'elle soit couverte, selon le règlement.
+
+#1428
+Q: Quelle est la hauteur maximale autorisée d'un véhicule dont le poids total autorisé est de 15 000 kg ou moins, avec sa charge ?
+1: Quatre mètres.
+2: Trois mètres et demi, et ce doit être une seule unité.
+3: Jusqu'à 4,40 mètres.
+4: Jusqu'à 4,80 mètres.
+
+#1429
+Q: Selon la loi, la charge et son arrimage dans le véhicule ont-ils de l'importance ?
+1: Aucune importance, pourvu que le poids total ne dépasse pas ce qui est permis.
+2: Oui, il faut s'assurer que la charge est placée et arrimée dans le véhicule de manière à ne pas tomber du véhicule.
+3: Seule la charge sur les essieux arrière ne dépassera pas la charge permise fixée par le règlement de la circulation.
+4: La charge sur les essieux peut dépasser celle fixée par le constructeur ou le règlement, jusqu'à 20 pour cent.
+
+#1430
+Q: Comment signale-t-on un véhicule utilitaire de plus de 3 500 kg de poids total, qui transporte 11 passagers ou plus ?
+1: Par un panneau « Attention enfants ».
+2: Par un panneau « Passagers » à l'avant et à l'arrière.
+3: Un véhicule utilitaire de ce type n'a pas besoin de signalisation spéciale.
+4: Par un panneau « Passagers » à l'avant uniquement.
+
+#1431
+Q: Quel est le nombre maximal de passagers qu'on peut transporter dans un véhicule utilitaire de plus de 3 500 kg de poids total autorisé, qui n'a pas de carrosserie standard pour le transport de passagers ?
+1: Six passagers, en plus de ceux à côté du conducteur.
+2: 11 passagers, conducteur compris.
+3: Huit passagers, en plus de ceux à côté du conducteur.
+4: Six passagers, y compris ceux à côté du conducteur.
+
+#1432
+Q: Un véhicule est chargé de « matière dangereuse ». Quelle est la distance minimale d'un immeuble d'habitation ou d'un bâtiment public à laquelle on peut le garer ?
+1: 400 mètres.
+2: 300 mètres quand il y a une charge sur le véhicule ; 50 mètres quand il n'y en a pas.
+3: Au moins 50 mètres.
+4: 200 mètres.
+
+#1433
+Q: Comment faut-il garer un véhicule utilitaire de plus de 5 000 kg de poids total autorisé en côte, sur une route à bordures de trottoir ?
+1: Il faut tourner les roues du véhicule vers le milieu de la route, enclencher la marche arrière et placer des cales de sécurité sous les roues arrière.
+2: Il faut tourner les roues du véhicule vers la bordure et placer des cales de sécurité sous les roues arrière.
+3: Il faut tourner les roues avant vers le milieu de la route, enclencher une vitesse avant et placer des cales de sécurité derrière les roues arrière.
+4: Il faut bien freiner les roues du véhicule, placer des cales de sécurité sous les roues du véhicule et laisser le véhicule au point mort.
+
+#1434
+Q: Où est-il interdit de garer la nuit un véhicule utilitaire de plus de 10 000 kg de poids total autorisé ?
+1: Toutes les réponses sont correctes.
+2: Dans les rues à double sens.
+3: Dans une zone où le stationnement et l'arrêt d'un tel véhicule ont été interdits par un panneau placé par l'autorité locale de signalisation.
+4: Sur toute route de moins de dix mètres de large.
+
+#1435
+Q: Quelle est l'obligation du conducteur d'un véhicule de plus de 3 500 kg lorsqu'il immobilise son véhicule pendant les « heures d'éclairage » sur une route non urbaine ?
+1: Actionner les quatre indicateurs de direction et allumer les feux de gabarit.
+2: Actionner les quatre indicateurs de direction et placer une lampe portative.
+3: Placer toujours un triangle de signalisation et aussi placer une lampe portative ou actionner les quatre indicateurs de direction (feux de détresse).
+4: Placer un triangle de signalisation et actionner l'indicateur de direction droit.
+
+#1436
+Q: Il est interdit d'immobiliser ou de garer un véhicule sur la route si la largeur du véhicule dépasse :
+1: 2,50 mètres.
+2: 2,25 mètres.
+3: 2,10 mètres.
+4: 4,80 mètres.
+
+#1437
+Q: Quel type de véhicule ne doit pas être immobilisé ni laissé à l'arrêt sur la route ?
+1: Un semi-remorque détaché de son tracteur ou une remorque détachée de son véhicule tracteur.
+2: Un véhicule de travail.
+3: Un véhicule qui n'est pas équipé d'un système d'éclairage.
+4: Un véhicule de dépannage et de remorquage.
+
+#1438
+Q: Quel véhicule n'a pas le droit de rouler sur route non urbaine à plus de 80 km/h ?
+1: Un véhicule utilitaire dont le poids total autorisé est de 12 000 kg ou plus.
+2: Un véhicule utilitaire dont le poids total autorisé est de 10 000 kg ou moins.
+3: Un autobus dont le poids total est de 10 000 kg ou plus.
+4: Un véhicule utilitaire dont le poids réel a atteint son « poids total autorisé ».
+
+#1439
+Q: Un panneau interdisant de rouler à plus de 70 km/h est placé sur une route urbaine. Quel véhicule n'a pas le droit de rouler à la vitesse du panneau ?
+1: Un véhicule utilitaire et un véhicule de travail dont le poids total autorisé va jusqu'à 10 000 kg. Ils sont limités à 50 km/h.
+2: Un véhicule utilitaire servant au transport de marchandises et non équipé de ceintures de sécurité. Il est limité à 50 km/h.
+3: Un véhicule fabriqué avant 1969 et non équipé de ceintures de sécurité. Il est limité à 50 km/h.
+4: Un véhicule utilitaire ou de travail dont le poids total autorisé est de 12 000 kg. Il est limité à 50 km/h.
+
+#1440
+Q: Quand le conducteur d'un véhicule doit-il rouler sur l'accotement, lorsque celui-ci est revêtu d'asphalte et libre, pour permettre à un autre véhicule de le dépasser ?
+1: Quand le conducteur roule très lentement – pour quelque raison que ce soit.
+2: Jamais. Rouler sur l'accotement est interdit, donc un véhicule qui retarde la circulation derrière lui se déportera sur l'accotement et s'arrêtera pour libérer la circulation derrière lui.
+3: Seulement quand le véhicule monte une côte raide et doit rouler lentement, gênant la libre circulation.
+4: Quand le conducteur d'un véhicule à moteur est obligé de rouler à vitesse réduite, ce qui retarde la circulation derrière lui, en raison de sa charge ou de la pente de la route.
+
+#1441
+Q: Comment agit le conducteur d'un véhicule transportant une charge hors gabarit s'il est impossible de le dépasser à cause des conditions de la route ?
+1: Il se déporte autant que possible vers la droite de la route, et ne descend pas sur l'accotement car le poids du véhicule risque de provoquer l'effondrement de l'accotement.
+2: Il actionne les quatre feux de détresse clignotants et continue de rouler à droite de la route.
+3: Il roule jusqu'à une aire de stationnement voisine ou une baie d'arrêt d'autobus, et s'arrête pour permettre aux véhicules de le dépasser.
+4: Il ralentit et, si nécessaire, descend sur l'accotement et même s'arrête, et permet aux véhicules derrière lui de le dépasser en sécurité.
+

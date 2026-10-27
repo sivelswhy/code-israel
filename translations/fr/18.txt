@@ -1,0 +1,420 @@
+#1082
+Q: Quels équipements atténuent la gravité des blessures des occupants lors d'un accident de la route ?
+1: Les essuie-glaces arrière et les appuie-têtes.
+2: Les feux antibrouillard et les sièges orthopédiques.
+3: Les ceintures de sécurité, les airbags et les appuie-têtes.
+4: Les appuie-têtes et le GPS (système de navigation).
+
+#1083
+Q: Sur quel essieu agissent les freins de service d'un tracteur ?
+1: Sur l'essieu avant.
+2: Sur tous les essieux.
+3: Il n'y a pas de freins de service sur un tracteur.
+4: Sur l'essieu arrière.
+
+#1084
+Q: Quel système supplémentaire équipe les tracteurs et pas les autres véhicules ?
+1: Un système de verrouillage de différentiel hydrostatique.
+2: Un système hydraulique de levage et d'actionnement d'outils.
+3: Une direction électro-hydraulique standard.
+4: Un système de freins à air avec air comprimé.
+
+#1085
+Q: À quoi sert le mouvement oscillant (balancier) de l'essieu avant du tracteur ?
+1: À améliorer la stabilité du tracteur sur une pente latérale extrême.
+2: À améliorer la stabilité du tracteur sur un terrain irrégulier.
+3: À améliorer le confort du tracteur sur routes et chemins plats.
+4: À améliorer la stabilité du tracteur sur routes et chemins rapides.
+
+#1086
+Q: Que fait le conducteur d'un tracteur équipé d'un chargeur lorsqu'il stationne le tracteur ?
+1: Il s'assure que le chargeur est levé pour ne pas le heurter.
+2: Il abaisse le chargeur jusqu'au sol.
+3: Il laisse le chargeur à hauteur du volant pour équilibrer le tracteur.
+4: La position du chargeur n'a pas d'importance et il n'y a pas d'instructions particulières.
+
+#1087
+Q: D'après quoi le poids maximal pouvant être levé avec les bras de levage hydrauliques est-il fixé ?
+1: D'après la pression de gonflage maximale approuvée par le fabricant des pneus arrière.
+2: D'après le type de fluide hydraulique et l'outil soulevé.
+3: D'après le tableau du constructeur, qui limite chaque poids selon la distance de son centre de gravité au tracteur.
+4: D'après l'état mécanique du moteur, de la pompe et du système hydraulique du tracteur.
+
+#1088
+Q: Que se passe-t-il si le poids sur les bras de levage hydrauliques arrière est trop élevé ou trop éloigné du tracteur ?
+1: Les roues arrière éclatent sous la pression et la charge.
+2: Il y a un risque de dommage grave au châssis du tracteur.
+3: Les roues avant se soulèvent dans les airs.
+4: Le système hydraulique est endommagé par la charge.
+
+#1089
+Q: Pourquoi faut-il monter un arceau de sécurité sur un tracteur ?
+1: Pour protéger l'opérateur lors d'un travail entre arbres et branches.
+2: Pour protéger l'opérateur lors d'une collision.
+3: Pour protéger l'opérateur de la pluie.
+4: Pour protéger l'opérateur en cas de renversement du tracteur.
+
+#1090
+Q: Comment faut-il réagir lors du renversement d'un tracteur ?
+1: Freiner le tracteur et essayer de réduire l'intensité du renversement.
+2: Appeler à l'aide et essayer de stabiliser le tracteur pendant le renversement.
+3: Tenir fermement le volant et rester le plus près possible de lui.
+4: Sauter du tracteur le plus vite possible dès le début du renversement.
+
+#1091
+Q: Pourquoi remplit-on d'eau les roues du tracteur ?
+1: C'est un moyen pratique de transporter de l'eau vers le champ pour divers besoins pendant le travail.
+2: Pour ajouter du poids et ainsi améliorer l'adhérence des roues au sol.
+3: Pour améliorer la qualité et le confort de conduite du tracteur sur chemins de terre.
+4: Pour éviter l'échauffement des pneus lors de travaux particulièrement durs.
+
+#1092
+Q: Pourquoi monte-t-on des masses à l'avant du tracteur ?
+1: Pour décharger un peu l'essieu arrière lors du levage de charges.
+2: Pour améliorer la qualité et le confort de conduite du tracteur sur chemins de terre.
+3: Pour empêcher l'arrière du tracteur de sautiller à grande vitesse.
+4: Pour améliorer l'adhérence des roues avant au sol.
+
+#1093
+Q: Pourquoi monte-t-on des masses à l'avant du tracteur ?
+1: Pour empêcher l'avant du tracteur de se soulever lors du levage de charges à l'arrière.
+2: Pour décharger un peu l'essieu arrière lors du levage de charges.
+3: Pour empêcher l'avant du tracteur de sautiller à grande vitesse en terrain.
+4: Pour améliorer la qualité et le confort de conduite du tracteur sur chemins de terre.
+
+#1094
+Q: Le rôle du blocage de différentiel d'un tracteur est :
+1: D'aider à se dégager lorsque l'une des roues s'enlise ou patine.
+2: D'aider lors d'un freinage d'urgence.
+3: D'aider à garder le cap sur une route droite.
+4: D'empêcher le tracteur de déraper dans un virage serré.
+
+#1095
+Q: Peut-on freiner une seule roue sur un tracteur ?
+1: Non, ce n'est pas possible.
+2: Oui, uniquement sur l'essieu avant.
+3: Oui, uniquement sur l'essieu arrière.
+4: Oui, sur les deux essieux, avant et arrière.
+
+#1096
+Q: Quand faut-il freiner une seule roue du tracteur (séparation des freins) ?
+1: Quand le conducteur veut tourner court sur place à grande vitesse.
+2: Quand le conducteur veut manœuvrer sur un très grand rayon entre des bâtiments ou des cultures.
+3: Quand le conducteur veut tourner court sur place à très faible vitesse.
+4: Quand une roue patine sur le sol et que le tracteur n'avance pas.
+
+#1097
+Q: Est-il permis de conduire un tracteur avec les freins séparés en permanence ?
+1: Non. Cela peut faire se renverser le tracteur au freinage.
+2: Oui, à condition que le pied soit placé exactement entre les deux pédales de frein.
+3: Non. Cela peut provoquer un échauffement et une perte des freins.
+4: Oui, mais cela provoquera une usure inégale du frein droit et du frein gauche.
+
+#1098
+Q: À quoi sert la prise de force (PTO) du tracteur ?
+1: À enclencher l'essieu avant sur les tracteurs à quatre roues motrices.
+2: À entraîner les outils et équipements supplémentaires actionnés par le tracteur.
+3: À actionner la pompe à huile du système hydraulique.
+4: À tracter un équipement spécial nécessitant un soutien intelligent et délicat.
+
+#1099
+Q: À quel régime (tours/minute) faut-il faire fonctionner la prise de force (PTO) ?
+1: À n'importe quel régime auquel l'équipement peut être manœuvré.
+2: Toujours au régime recommandé par le constructeur du tracteur.
+3: Le régime est fixé automatiquement à l'enclenchement de la prise de force.
+4: Au régime standard, sauf indication contraire sur l'équipement entraîné.
+
+#1100
+Q: Quelle est la règle de sécurité la plus importante lors de l'utilisation de la prise de force (PTO) ?
+1: N'enclencher la prise de force que lorsque le moteur est déjà chaud.
+2: Ne pas se tenir près des pièces en mouvement du tracteur et de l'outil.
+3: Ne pas enclencher la prise de force sans la surveillance d'un autre opérateur au sol.
+4: Ne pas enclencher la prise de force en roulant, mais seulement à l'arrêt.
+
+#1101
+Q: Que signifie la « vitesse de fonctionnement standard » de la prise de force (PTO) ?
+1: Le régime de la pompe à huile qui entraîne la prise de force.
+2: Le régime auquel tourne l'arbre de sortie de la boîte de vitesses.
+3: Le régime du moteur lui-même (sortie au volant moteur).
+4: Le régime de la sortie de la prise de force et de son arbre de transmission.
+
+#1102
+Q: Quand faut-il enclencher le blocage de différentiel du tracteur ?
+1: Quand une roue patine sur le sol et que le tracteur n'avance pas.
+2: Quand il faut tourner court à très faible vitesse.
+3: Quand il faut tourner court à grande vitesse.
+4: Quand on tracte un outil lourd ou qu'on tire un engin qui peine le tracteur.
+
+#1103
+Q: Que vous est-il interdit de faire si vous avez bloqué le différentiel du tracteur ?
+1: Relier le frein droit au frein gauche.
+2: Changer de rapport en roulant.
+3: Tourner le volant et les roues d'un côté ou de l'autre.
+4: Enclencher la prise de force (PTO).
+
+#1104
+Q: Quelle pression fournie par le tracteur actionne les outils et équipements supplémentaires ?
+1: La pression d'huile hydraulique.
+2: La pression de vapeur d'eau.
+3: La pression d'huile moteur.
+4: La pression d'air comprimé.
+
+#1105
+Q: Que faut-il vérifier avant de débrancher les raccords des tuyaux d'huile hydraulique de l'outil ou de l'équipement supplémentaire attaché au tracteur ?
+1: S'il y a eu des fuites aux raccords.
+2: Qu'ils sont correctement branchés.
+3: Que les raccords sont en parfait état.
+4: Qu'il n'y a plus aucune pression d'huile dedans.
+
+#1106
+Q: Comment relâchez-vous la pression d'huile hydraulique avant de débrancher la tuyauterie d'alimentation de l'outil ou de l'équipement supplémentaire ?
+1: Vous actionnez les leviers de commande dans toutes les directions, moteur arrêté.
+2: Vous ouvrez les robinets de purge quelques secondes. C'est leur rôle.
+3: Vous reliez le passage de décharge de pression entre la ligne d'alimentation et la ligne de retour.
+4: Vous attendez quelques minutes moteur arrêté, puis seulement vous débranchez la tuyauterie.
+
+#1107
+Q: Quand faut-il obligatoirement monter un pare-étincelles sur un tracteur ?
+1: Quand l'état mécanique du moteur est relativement mauvais.
+2: Quand le tracteur a un tuyau d'échappement vertical (haut).
+3: Quand le tracteur a un tuyau d'échappement ouvert.
+4: Quand le tracteur a un tuyau d'échappement bas.
+
+#1108
+Q: Le dételage des outils et de la remorque du tracteur se fait :
+1: Sur un plan incliné, pour faciliter l'attelage.
+2: N'importe où. L'état du terrain n'a pas d'importance.
+3: Uniquement sur béton ou asphalte.
+4: Sur un terrain horizontal, pour éviter tout déplacement accidentel.
+
+#1109
+Q: Un tracteur doit-il avoir des indicateurs de direction à l'avant et à l'arrière ?
+1: Pas tous. Un tracteur attelé à un outil hydraulique en est dispensé.
+2: Pas tous. Un tracteur travaillant surtout aux champs en est dispensé.
+3: Oui. Tout tracteur doté d'une cabine de conduite.
+4: Uniquement un tracteur de plus de deux mètres de large.
+
+#1110
+Q: Quel est le rôle du bras de levage central (le troisième point) ?
+1: Lever l'outil plusieurs fois à hauteur maximale pour s'assurer qu'il est bien attelé.
+2: Supprimer la liberté de mouvement des bras et de l'outil vers le haut et le bas.
+3: Supprimer la liberté de mouvement latérale des bras et de l'outil et empêcher l'outil de se balancer.
+4: Assurer l'outil attelé grâce à des chaînes de sécurité spéciales.
+
+#1111
+Q: Quelle opération faut-il faire une fois l'outil attelé aux bras de levage hydrauliques ?
+1: Sécuriser l'outil attelé avec des chaînes de sécurité spéciales.
+2: Supprimer la liberté de mouvement latérale des bras et de l'outil.
+3: Supprimer la liberté de mouvement des bras de l'outil vers le haut et le bas.
+4: Lever l'outil plusieurs fois à hauteur maximale pour s'assurer qu'il est bien attelé.
+
+#1112
+Q: Comment garantir une faible vitesse du tracteur et de la remorque dans une longue descente raide ?
+1: En actionnant le frein moteur et en choisissant un rapport bas.
+2: Avec les freins de la remorque et le blocage du différentiel.
+3: En régulant la vitesse avec les freins.
+4: Avec le régime moteur et en choisissant un rapport bas.
+
+#1113
+Q: Définissez « autobus » :
+1: Un véhicule à moteur utilitaire destiné à transporter huit passagers ou plus, indiqué comme autobus sur le permis du véhicule.
+2: Un véhicule utilitaire destiné à transporter des passagers contre rémunération.
+3: Un véhicule à moteur destiné au transport de huit personnes ou plus, en plus du conducteur, et indiqué comme autobus sur le permis du véhicule.
+4: Un véhicule utilitaire destiné à transporter plus de 15 passagers et indiqué comme autobus sur son permis.
+
+#1114
+Q: La définition d'un « autobus privé » est :
+1: Un autobus qui n'est pas un véhicule public.
+2: Un minibus public.
+3: Un véhicule de tourisme privé qui est un autobus.
+4: Tout véhicule de transport de passagers contre rémunération, à titre privé.
+
+#1115
+Q: Quel est le nombre maximal de passagers autorisé dans un minibus ?
+1: Celui indiqué sur le permis du véhicule.
+2: Autant que de ceintures de sécurité dans le véhicule.
+3: Celui indiqué dans le manuel du véhicule.
+4: 20 passagers, en plus du conducteur.
+
+#1116
+Q: Le poids total autorisé d'un minibus ne dépassera pas :
+1: 4 000 kg.
+2: 6 000 kg.
+3: 5 000 kg.
+4: 3 500 kg.
+
+#1117
+Q: Qu'est-ce qu'un « véhicule de tournée » (rekhev siyour) ?
+1: Un véhicule de sécurité utilisé pour des patrouilles le long de la frontière et équipé en conséquence.
+2: Un véhicule public destiné à transporter jusqu'à huit passagers en plus du conducteur, et indiqué comme véhicule de tournée sur le permis du véhicule.
+3: Un véhicule servant de véhicule de sécurité pour les localités frontalières et destiné à patrouiller le long des clôtures de la localité.
+4: Un véhicule utilisé par les différentes forces de sécurité lors de leur activité courante.
+
+#1118
+Q: Quand un autobus a-t-il l'interdiction de franchir une voie ferrée ?
+1: Quand le panneau « cédez le passage » est placé avant la voie.
+2: Quand il n'y a pas, avant la voie, une route menant au croisement, revêtue d'asphalte ou de béton sur au moins 20 mètres.
+3: Quand le panneau « stop » est placé avant la voie.
+4: Quand un panneau d'avertissement signale un passage à niveau.
+
+#1119
+Q: Parmi les types de véhicules ci-dessous, lequel a l'interdiction de franchir une voie ferrée ?
+1: Un taxi transportant des enfants lors d'une excursion spéciale, si la route avant la voie n'est pas revêtue d'asphalte ou de béton sur au moins 20 mètres.
+2: Un véhicule lent dont la vitesse maximale ne dépasse pas 40 km/h.
+3: Un véhicule utilitaire transportant ou destiné à transporter des matières dangereuses, et un véhicule long de 18 mètres ou plus.
+4: Un véhicule transportant (ou destiné à transporter) 11 passagers ou plus, conducteur compris, si la route menant au croisement avant la voie n'est pas revêtue d'asphalte ou de béton sur 20 mètres.
+
+#1120
+Q: Le conducteur d'autobus qui s'est arrêté devant un passage à niveau selon un panneau « stop » doit aussi :
+1: Attendre qu'au moins un train soit passé.
+2: Klaxonner et éteindre la radio.
+3: Ouvrir la porte arrière pour l'évacuation.
+4: Ouvrir la porte avant.
+
+#1121
+Q: Quel véhicule doit avoir des « cales de sécurité » ?
+1: Tout véhicule à moteur dont le poids total autorisé dépasse 5 000 kg, sauf l'autobus.
+2: Tout véhicule dont le poids total autorisé est de 3 500 kg ou moins, sauf l'autobus.
+3: Tout véhicule utilitaire, quel que soit son poids, sauf l'autobus.
+4: Tout véhicule dont le poids total autorisé est de 4 000 kg ou moins, autobus compris.
+
+#1122
+Q: Est-il permis de garer un autobus destiné à transporter 16 passagers ou moins sur une place de stationnement d'un autre type de véhicule ?
+1: Non.
+2: Oui, mais uniquement avec un ticket de stationnement spécial pour véhicule public.
+3: Oui, si aucun panneau n'indique le contraire.
+4: Oui, mais uniquement à la gare centrale qui exploite la ligne de service.
+
+#1123
+Q: Quelle est la signification de ce panneau ?
+1: Direction vers des destinations sur des voies rapides.
+2: Direction vers des destinations sur des routes urbaines.
+3: Direction de sortie d'une voie rapide.
+4: Direction vers des destinations sur une route non urbaine.
+
+#1124
+Q: Quel véhicule peut servir au transport d'élèves ?
+1: Tout véhicule public ou tout véhicule privé.
+2: Tout véhicule privé ou utilitaire ayant au moins huit sièges.
+3: Uniquement un véhicule défini comme autobus public.
+4: Un véhicule approuvé à cet effet par l'autorité des permis, l'autorisation étant inscrite sur le permis du véhicule.
+
+#1125
+Q: Quand est-on tenu d'utiliser les ralentisseurs de vitesse (retarders) de toutes sortes installés sur le véhicule ?
+1: Sur un tronçon précédé d'un panneau annonçant un virage serré.
+2: Sur un tronçon précédé d'un panneau annonçant un virage en lacet (épingle).
+3: Sur un tronçon précédé d'un panneau annonçant un risque de dérapage.
+4: Sur un tronçon précédé d'un panneau annonçant une descente dangereuse.
+
+#1126
+Q: Un autobus destiné à transporter 20 passagers ou plus peut-il stationner à un endroit qui n'est pas expressément destiné et signalé au stationnement des autobus ?
+1: Oui, aux arrêts destinés à la montée et à la descente des passagers.
+2: Oui, mais uniquement avec un ticket de stationnement.
+3: Non.
+4: Oui, si l'autobus ne gêne pas la circulation.
+
+#1127
+Q: Un autobus autorisé à transporter 20 passagers ou plus peut-il stationner sur le trottoir dans la zone d'un panneau qui autorise le stationnement sur le trottoir ?
+1: Oui.
+2: Oui, à condition qu'il y ait des passagers dans l'autobus.
+3: Non.
+4: Oui, à condition qu'il n'y ait pas de passagers dans l'autobus.
+
+#1128
+Q: Quel est le nombre maximal de passagers autorisé dans un véhicule du désert ?
+1: Celui indiqué sur l'attestation d'assurance.
+2: Celui indiqué sur le permis de conduire.
+3: Celui indiqué sur le permis du véhicule.
+4: Au moins huit passagers.
+
+#1129
+Q: Quelle catégorie de permis faut-il pour conduire un autobus et un véhicule du désert dont le poids total autorisé dépasse 3 500 kg ?
+1: A2
+2: A1
+3: B
+4: D
+
+#1130
+Q: Combien de passagers le conducteur d'un autobus peut-il transporter ?
+1: Jusqu'à 70 enfants.
+2: Autant que le nombre de passagers inscrit sur le permis de l'autobus (si un tel nombre y est indiqué).
+3: Jusqu'à 50 passagers assis et dix debout.
+4: Jusqu'à 70 passagers.
+
+#1131
+Q: Quel est le nombre maximal de passagers que peut transporter le conducteur d'un minibus titulaire d'un permis de conduire de taxi ?
+1: Jusqu'à sept passagers et deux enfants de moins de cinq ans.
+2: Autant que de places assises dans le taxi.
+3: Jusqu'à 16 passagers, en plus du conducteur.
+4: Jusqu'à huit passagers et deux enfants de moins de cinq ans.
+
+#1132
+Q: Quelle est la fréquence de contrôle des freins exigée par la loi sur un véhicule public ?
+1: Au moins une fois tous les 12 mois, dans un garage agréé.
+2: Au moins une fois en été, dans un garage agréé.
+3: Au moins une fois en hiver, dans un garage agréé.
+4: Au moins une fois tous les six mois, dans un garage agréé.
+
+#1133
+Q: Que doit faire le conducteur si l'un des deux phares avant de son véhicule tombe en panne pendant les heures d'éclairage ?
+1: Il peut continuer à rouler, pourvu que le feu de position soit allumé et en état.
+2: Il lui est interdit de continuer à rouler, même si l'antibrouillard avant est en état et allumé.
+3: La loi permet de rouler lentement jusqu'au garage le plus proche.
+4: Il doit s'arrêter. Il est interdit de continuer à rouler tant que le phare est en panne.
+
+#1134
+Q: Le conducteur d'un autobus public peut-il refuser de transporter un passager monté à bord si ses tickets sont épuisés sur cette ligne ?
+1: Oui. Le conducteur n'est pas tenu de transporter le passager.
+2: Oui. Il est interdit de laisser monter le passager.
+3: Non. Le conducteur doit transporter le passager.
+4: Non. Le conducteur doit transporter le passager seulement sur le tronçon pour lequel il a des tickets.
+
+#1135
+Q: Que doit faire le conducteur selon la loi concernant une radio qui fonctionne dans l'autobus ?
+1: Il doit agir selon la demande de la majorité des passagers.
+2: Le conducteur doit couper les haut-parleurs des passagers et baisser le volume de la radio à la demande d'un passager.
+3: Il doit régler la radio sur la station souhaitée par la majorité des passagers.
+4: Il doit couper les haut-parleurs uniquement sur route urbaine, à la demande d'un passager.
+
+#1136
+Q: Quelles règles de conduite sont exigées du conducteur et du contrôleur d'un autobus ?
+1: Ils doivent aider les bébés et les personnes âgées et leur assurer des places assises.
+2: Ils doivent se comporter avec amabilité et politesse.
+3: Ils doivent parler doucement.
+4: Ils doivent suivre les règles de politesse en usage dans la localité où ils habitent.
+
+#1137
+Q: Le conducteur d'autobus peut-il parler aux passagers pendant le trajet ?
+1: Oui, mais uniquement avec le contrôleur ou le vérificateur de tickets.
+2: Oui, mais uniquement sur des sujets liés au trajet, et sans détourner la tête de la route.
+3: Oui, mais uniquement avec les agents de sécurité en service.
+4: Il est interdit au conducteur d'autobus de converser avec les passagers.
+
+#1138
+Q: Que dit la loi sur la vente de tickets ou la remise de monnaie par le conducteur d'un véhicule public ?
+1: C'est permis, mais uniquement si le conducteur dispose d'un distributeur automatique de tickets.
+2: Il est permis de vendre des tickets ou de rendre la monnaie pendant que l'autobus roule.
+3: Il est permis de rendre la monnaie aux passagers pendant que le véhicule roule.
+4: Il est interdit de vendre des tickets ou de rendre la monnaie lorsque l'autobus ou le taxi est en mouvement.
+
+#1139
+Q: Quand le conducteur d'autobus doit-il s'identifier avec un document ?
+1: Quand un agent des impôts demande à voir son stock de tickets.
+2: À tout moment, dès qu'un passager de l'autobus l'exige.
+3: Seulement quand un inspecteur municipal dépose plainte contre lui.
+4: Uniquement à la demande d'un policier.
+
+#1140
+Q: Quel équipement doit se trouver dans un autobus qui transporte des passagers sur une ligne urbaine ?
+1: Une trousse de premiers secours.
+2: Un sac de premiers secours et un kit de sauvetage.
+3: Un brancard et un réservoir d'eau.
+4: Un sac de premiers secours et un brancard.
+
+#1141
+Q: Qui est chargé d'effectuer le contrôle de sécurité (sûreté) dans l'autobus ?
+1: Le conducteur de l'autobus. Il doit faire un contrôle de sûreté avant le début du trajet seulement.
+2: Le conducteur de l'autobus. Il doit le faire avant le début du trajet et à la fin de chaque trajet.
+3: Le conducteur de l'autobus. Il doit faire un contrôle de sûreté à la fin du trajet seulement.
+4: Le contrôle de sûreté n'est fait que par un contrôleur agréé.
+

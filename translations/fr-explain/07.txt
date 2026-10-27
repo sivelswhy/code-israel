@@ -1,0 +1,210 @@
+#0421
+E: Le 114 (triangle avec une croix) avertit seulement qu'une intersection arrive. Il ne dit pas qui passe en premier : on ralentit et on applique les règles de priorité (priorité à droite sans panneau) et les panneaux de l'intersection.
+R: T64(א)
+
+#0422
+E: Un panneau de danger comme le 114 n'impose aucune priorité. Ce sont les règles de la loi ou les panneaux de priorité placés à l'intersection qui décident.
+R: T64(א)
+
+#0423
+E: Le 115 annonce une intersection en T à droite. C'est un avertissement, pas une obligation ni une interdiction de tourner.
+
+#0424
+E: Le panneau de danger 115 n'indique pas la priorité. À l'intersection, on applique les règles générales (priorité à droite) et les panneaux de priorité éventuels.
+R: T64(א)
+
+#0425
+E: Le 115 avertit d'une intersection en T ; il ne fixe pas qui a la priorité. Ce sont la loi et les panneaux de priorité qui le font.
+R: T64(א)
+
+#0426
+E: Le 117 (triangle avec un T) annonce une intersection en T devant vous : la route se termine sur une route transversale.
+
+#0427
+E: Les panneaux de danger comme le 117 sont placés à une distance raisonnable AVANT le danger, pour laisser le temps de réagir.
+
+#0428
+E: Le 119 annonce deux intersections successives : d'abord une branche à droite, puis une à gauche.
+
+#0429
+E: Le 119 est un avertissement : il ne dit pas qui a la priorité. Rien n'indique que vous êtes sur une route principale.
+R: T64(א)
+
+#0430
+E: Le 121 (triangle avec des flèches en cercle) annonce un carrefour giratoire. La priorité dans le giratoire est fixée par le panneau 303.
+
+#0431
+E: À l'approche d'un giratoire, on ralentit et on se prépare à s'arrêter : on devra céder le passage aux véhicules déjà dans l'anneau (panneau 303).
+R: T64(ז)
+
+#0432
+E: Le 122 (triangle avec un feu tricolore) avertit qu'une intersection à feux arrive.
+
+#0433
+E: Le 122 n'est qu'un avertissement : continuez prudemment et obéissez au feu quand vous y arrivez.
+R: T64(ה)
+
+#0434
+E: Le 123 (trait épais de votre route, trait fin qui la rejoint par la droite) : vous êtes sur la chaussée prioritaire, une route latérale vous rejoint par la droite, et l'on ne peut pas tourner vers elle. Ceux qui en viennent doivent vous céder le passage.
+
+#0435
+E: Le 124 : vous êtes sur la route prioritaire (trait épais) et une route latérale vous rejoint par la gauche. Continuez, en surveillant ceux qui s'insèrent : ils doivent vous céder le passage.
+
+#0436
+E: Le 126 : c'est VOUS qui rejoignez une chaussée prioritaire (trait épais) venant de gauche. Cédez le passage et ne tournez pas à gauche.
+
+#0437
+E: Avec le 126, vous vous insérez dans la circulation de la route à votre gauche : cédez le passage et insérez-vous prudemment. Une voie d'accélération ne vous donne pas la priorité.
+R: T64(ו)
+
+#0438
+E: Ce panneau (125/126) indique que vous rejoignez une chaussée prioritaire : il implique bien de céder le passage aux véhicules de cette chaussée.
+
+#0439
+E: Panneau lumineux 127פ (triangle avec des voitures à la file) : embouteillage devant vous.
+
+#0440
+E: Annonce d'embouteillage : préparez-vous à ralentir, gardez vos distances et adaptez votre conduite à la circulation.
+R: T51; T49(א)
+
+#0441
+E: Le 129 (triangle avec une locomotive) annonce un passage à niveau.
+
+#0442
+E: À l'approche d'un passage à niveau, on ralentit assez pour pouvoir s'arrêter avant la voie ferrée.
+R: T55(א)
+
+#0443
+E: Le 301 (triangle pointe en bas) impose de céder le passage à la circulation de la route transversale, y compris aux trains.
+R: T64(ג)
+
+#0444
+E: Même sur voie rapide, la vitesse raisonnable tient compte de la circulation et des conditions, sans jamais dépasser la limite.
+R: T51
+
+#0445
+E: Le 128 (triangle avec un tramway et flèches dans les deux sens) : un tramway traverse la route dans les deux sens devant vous.
+
+#0446
+E: À l'approche d'une traversée de tramway, ralentissez et respectez les règles de priorité et la signalisation de la traversée.
+R: T52
+
+#0447
+E: Sur l'illustration, vous roulez du côté de la ligne continue : vous ne pouvez pas la franchir. Seuls ceux qui ont la ligne discontinue de leur côté (à droite) peuvent la franchir.
+R: T36(ג)
+
+#0448
+E: Les panneaux 142/143 annoncent des chutes de pierres : préparez-vous à freiner, à vous déporter ou à vous arrêter devant une pierre sur la chaussée.
+
+#0449
+E: Balise à trois bandes rouges (130) : passage à niveau à environ 300 mètres. Moyen mnémotechnique : 3 bandes = 300 m.
+
+#0450
+E: Dès les balises d'approche, ralentissez et préparez-vous à vous arrêter avant la voie ferrée si nécessaire.
+R: T55(א)
+
+#0451
+E: Balise à deux bandes (131) : passage à niveau à environ 200 mètres.
+
+#0452
+E: Ralentissez et préparez-vous à un éventuel arrêt avant le passage à niveau.
+R: T55(א)
+
+#0453
+E: Balise à une bande (132) : passage à niveau à environ 100 mètres.
+
+#0454
+E: À 100 mètres du passage à niveau, ralentissez de façon à pouvoir vous arrêter si nécessaire.
+R: T55(א)
+
+#0455
+E: À partir des balises d'approche du passage à niveau et jusqu'après celui-ci, le dépassement est interdit.
+R: T47(ה)(2)
+
+#0456
+E: La croix de Saint-André simple (133) marque l'emplacement d'un passage à niveau à une seule voie ferrée.
+
+#0457
+E: Au passage à niveau, ralentissez jusqu'à pouvoir vous arrêter avant la voie ferrée ; arrêtez-vous si un train approche ou si la barrière bouge.
+R: T55(א); T56(א)
+
+#0458
+E: Franchissez le passage à niveau d'une traite : on ne s'engage que si l'on peut le traverser sans s'arrêter, et l'on ne s'arrête jamais sur les rails.
+R: T65; T55(א)
+
+#0459
+E: La croix double (134) indique un passage à niveau à plusieurs voies ferrées : un second train peut arriver derrière le premier.
+
+#0460
+E: Avant de s'engager, vérifiez qu'on peut franchir toutes les voies sans s'arrêter ; ne vous arrêtez jamais sur les rails.
+R: T65
+
+#0461
+E: Le 139 (triangle avec un octogone) annonce un panneau « Stop » plus loin.
+
+#0462
+E: Après le 139, on trouve à l'intersection le panneau « Stop » 302.
+
+#0463
+E: Le 139 prévient qu'un Stop arrive : préparez-vous à vous arrêter plus loin, à l'intersection, où l'arrêt sera obligatoire.
+R: T64(ד)
+
+#0464
+E: Le 140 (triangle avec une pente descendante) annonce une descente dangereuse.
+
+#0465
+E: Dans une descente dangereuse : ralentissez et engagez un rapport bas pour utiliser le frein moteur, sans abuser des freins (risque de surchauffe).
+R: T159(ב)
+
+#0466
+E: Le 141 (voiture avec traces sinueuses) avertit d'un risque de dérapage : chaussée glissante.
+
+#0467
+E: Sur chaussée glissante : ralentissez en douceur, évitez les freinages brusques et les coups de volant.
+R: T53
+
+#0468
+E: Le 135 (triangle avec un piéton sur un passage) annonce un passage pour piétons devant vous.
+
+#0469
+E: Ralentissez et soyez attentif aux piétons du passage ; s'ils traversent, laissez-les finir, en vous arrêtant si nécessaire.
+R: T52(6); T67(א)
+
+#0470
+E: Après l'annonce 135, le passage lui-même est marqué par le 306.
+
+#0471
+E: Le 136 (triangle avec deux piétons qui marchent) : piétons à proximité.
+
+#0472
+E: Piétons à proximité : ralentissez et soyez prêt à freiner ou à vous déporter.
+R: T52
+
+#0473
+E: Le 145 (deux flèches opposées) : circulation à double sens devant vous.
+
+#0474
+E: Circulation à double sens : serrez à droite et surveillez la circulation venant en face ; le panneau ne donne aucune priorité.
+R: T35
+
+#0475
+E: Le 150 (triangle avec un point d'exclamation) signale un danger pour lequel il n'existe pas de panneau particulier ; un panneau complémentaire précise souvent lequel.
+
+#0476
+E: Devant le 150, ralentissez et redoublez de prudence : le danger est inconnu, préparez-vous à freiner.
+R: T52
+
+#0477
+E: Forme ronde = obligation (fond bleu) ou interdiction (bord rouge). Triangle = danger ; carré ou rectangle = information.
+
+#0478
+E: Le propriétaire enregistré et le conducteur sont responsables en permanence du bon état du véhicule : il est interdit de conduire un véhicule qui peut mettre en danger les usagers. La photo montre un contrôle technique sur route.
+R: T27(א)
+
+#0479
+E: Celui qui se fait dépasser doit se serrer le plus possible à droite et ne pas accélérer, pour que le dépassement se termine vite et sans accident.
+R: T48(א)
+
+#0480
+E: Près d'un groupe d'enfants, la loi impose de ralentir et de s'arrêter si nécessaire : un enfant peut surgir à tout moment.
+R: T52(5)

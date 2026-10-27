@@ -1,0 +1,419 @@
+#0962
+Q: Comment conduisez-vous sur la route devant vous, d'après le panneau placé à droite ?
+1: Cédez le passage aux véhicules lorsque vous tournez à droite.
+2: Cédez le passage aux véhicules qui s'insèrent par la droite.
+3: Insérez-vous prudemment parmi les véhicules qui roulent à votre gauche.
+4: Prêtez une attention particulière aux véhicules qui s'insèrent par la droite. Ils doivent vous céder le passage.
+
+#0963
+Q: Sur quel type de route une voiture particulière est-elle autorisée à rouler à 110 km/h ?
+1: Une route en agglomération avec terre-plein construit.
+2: Une route hors agglomération.
+3: Une route hors agglomération avec terre-plein construit.
+4: Une voie rapide.
+
+#0964
+Q: Le message du panneau jaune est-il légal ?
+1: Le panneau jaune est un panneau publicitaire d'un intéressé.
+2: Le panneau n'est pas un panneau de signalisation : son message n'est donc pas légal.
+3: Le message du panneau est limité à la route en agglomération.
+4: Le panneau est un panneau de signalisation légal à tous égards.
+
+#0965
+Q: Quelles sont les directions autorisées selon les panneaux à l'intersection devant vous ?
+1: Tout droit et à gauche.
+2: Tout droit uniquement.
+3: Tout droit et à droite.
+4: Tout droit et demi-tour par la gauche.
+
+#0966
+Q: Quelles sont les directions autorisées selon les panneaux à l'intersection devant vous ?
+1: Tous les véhicules qui approchent continueront dans le sens de la flèche.
+2: Tout droit, uniquement pour les transports en commun.
+3: Tout droit et à gauche, pour les autobus uniquement.
+4: Tout droit, dans le sens de la flèche uniquement, pour les véhicules qui ne sont pas de transport public.
+
+#0967
+Q: La photo montre une interdiction. Laquelle ?
+1: À cause de la limitation de vitesse, le dépassement est interdit.
+2: Il n'y a aucune restriction sur la photo.
+3: À cause de la circulation dense, le dépassement n'est interdit qu'aux véhicules utilitaires.
+4: Le champ de vision limité interdit de dépasser, et la vitesse est limitée à 90 km/h.
+
+#0968
+Q: Comment agissez-vous en approchant d'un véhicule arrêté sur l'accotement (route à double sens) ?
+1: Klaxonnez au conducteur du véhicule stationné et continuez normalement.
+2: Accélérez.
+3: Signalez et passez sur la voie de gauche.
+4: Ralentissez et soyez prêt à ce que le conducteur du véhicule, à droite, s'insère dangereusement.
+
+#0969
+Q: Le conducteur de la voiture blanche a commencé à s'insérer dans la circulation. Comment agissez-vous ?
+1: Klaxonnez au conducteur du véhicule stationné.
+2: Ralentissez : il risque de se jeter sur votre voie.
+3: Accélérez.
+4: Signalez et passez sur la voie de gauche.
+
+#0970
+Q: Rouler derrière un véhicule lourd, dans les conditions de route de la photo, impose au conducteur :
+1: de coller au véhicule lourd qui roule devant.
+2: de continuer normalement. Inutile de garder ses distances, car la vitesse est de toute façon basse.
+3: de continuer normalement. Les conditions de route n'exigent aucun comportement particulier.
+4: de garder ses distances et de rouler lentement et patiemment.
+
+#0971
+Q: Comment devez-vous conduire dans les conditions de route devant vous ?
+1: Rouler sur un rapport bas et serrer à droite autant que possible.
+2: Rouler avec les feux de brouillard à cause de l'ombre sur la route.
+3: Klaxonner à cause du champ de vision bouché dans le virage.
+4: Rouler près de la ligne blanche pour pouvoir dégager facilement.
+
+#0972
+Q: Pourquoi une ligne continue a-t-elle été tracée sur la photo ?
+1: À cause de l'étroitesse de la chaussée.
+2: À cause de l'encoche d'arrêt de bus à droite de la chaussée.
+3: À cause de la limitation du champ de vision devant.
+4: À cause de l'allée d'arbres des deux côtés de la route.
+
+#0973
+Q: La voiture blanche (1) dans l'intersection et la voiture argentée (2) veulent entrer sur la même route. Laquelle doit céder le passage ?
+1: La première qui entre sur la route doit céder le passage.
+2: La première qui tourne doit céder le passage.
+3: La voiture blanche doit céder le passage.
+4: La voiture argentée, à l'intersection, doit céder le passage à la voiture blanche.
+
+#0974
+Q: Le feu dans votre sens est vert. À quoi devez-vous faire attention en l'approchant ?
+1: Il faut ignorer le véhicule de la personne handicapée stationné à droite : toute l'obligation de prudence pèse sur elle.
+2: Il faut porter toute son attention uniquement au feu.
+3: Il faut approcher prudemment et traverser l'intersection vite.
+4: Il faut se méfier d'un piéton qui pourrait surgir entre les véhicules en stationnement.
+
+#0975
+Q: Comment agissez-vous en approchant d'un endroit tel que celui de la photo ?
+1: Klaxonnez aux personnes près du véhicule et faites-leur comprendre que vous continuez sans gêne.
+2: Ralentissez, jusqu'à pouvoir vous arrêter, à cause des piétons, et cédez le passage à la circulation venant en face.
+3: Arrêtez-vous à droite de la route et attendez l'arrivée des secours.
+4: Ralentissez et descendez sur l'accotement droit jusqu'à ce que la voie opposée soit libre.
+
+#0976
+Q: Quel véhicule doit céder le passage, d'après le panneau ?
+1: Le véhicule qui arrive le premier au tronçon étroit.
+2: Le premier véhicule qui arrive au pont.
+3: Le véhicule éloigné qui vient en sens inverse.
+4: Le véhicule le plus proche.
+
+#0977
+Q: Comment conduisez-vous sur le tronçon devant vous ?
+1: Accélérez pour échapper à la possibilité que des piétons traversent après le conteneur.
+2: Arrêtez-vous avant le conteneur, au cas où des piétons traverseraient après le conteneur.
+3: Ralentissez et préparez-vous à vous arrêter. Le conteneur à ordures bouche la vue à droite, ce qui impose de ralentir.
+4: Continuez normalement et klaxonnez longuement plusieurs fois avant de passer la ligne du conteneur.
+
+#0978
+Q: Comment doivent agir les conducteurs arrêtés à l'intersection, d'après la photo ?
+1: Ils doivent se préparer à démarrer à l'apparition du feu vert.
+2: Ils doivent se préparer à rouler, car le feu rouge va apparaître.
+3: Démarrer.
+4: Ils doivent se préparer à rouler, car l'orange va apparaître.
+
+#0979
+Q: La position des véhicules dans le virage serré est-elle correcte ?
+1: Non. On doit entrer dans un virage serré en étant proche du centre de la chaussée.
+2: Non. Les deux véhicules ne gardent pas le contact visuel entre eux, comme il le faut.
+3: Non. Le grand écart latéral permettra à un troisième véhicule de s'insérer entre eux.
+4: Oui, car les véhicules restent à droite de la chaussée, comme il le faut dans cette situation.
+
+#0980
+Q: La position de la voiture blanche dans le virage est-elle correcte, selon vous ?
+1: Non. Elle est près du centre de la chaussée et met en danger les véhicules qui arrivent en face.
+2: Oui. Dans un virage serré, il faut réduire le temps passé dans le virage ; sa position est donc correcte.
+3: Oui. Dans les virages serrés, pour réduire la force centrifuge (celle qui s'exerce sur le véhicule dans les virages), il faut « couper » le virage ; sa position est donc correcte.
+4: Oui. Quand il n'y a pas d'autre véhicule dans le virage, on peut se placer n'importe où.
+
+#0981
+Q: La position du camion dans le virage est-elle correcte, selon vous ?
+1: Oui. Quand il n'y a pas d'autre véhicule dans le virage, on peut s'y placer n'importe où, comme le fait le conducteur du camion.
+2: Non. Le conducteur du camion ne reste pas à droite de la route et représente un danger réel pour tout véhicule qui vient en face.
+3: Oui. Dans les virages serrés, pour réduire la force centrifuge, il faut « couper » le virage, comme le fait le conducteur du camion.
+4: Oui. Dans un virage serré, il faut réduire le temps passé dans le virage ; sa position est donc correcte.
+
+#0982
+Q: Quelle est l'affirmation la plus juste concernant la photo ?
+1: Le conducteur roule loin de l'accotement et s'évite ainsi un danger inutile en cas de difficulté.
+2: Le marquage au sol n'est pas assez clair.
+3: Le conducteur ne reste pas à droite de la chaussée et s'expose à une collision frontale.
+4: Le conducteur de la voiture blanche roule correctement au milieu de la route.
+
+#0983
+Q: Comment faut-il conduire selon le panneau ?
+1: Roulez au milieu de la chaussée, car la route est étroite et n'a pas d'accotement servant d'échappatoire en cas de danger.
+2: Roulez à gauche de votre voie, car la route est étroite et n'a pas d'accotement servant d'échappatoire en cas de danger.
+3: Il faut rouler à la vitesse maximale, ce qui contribue à la stabilité du véhicule.
+4: Il faut ralentir et être particulièrement attentif à ce qui se passe sur la route. La route est étroite et n'a pas d'accotement servant d'échappatoire en cas de danger.
+
+#0984
+Q: Comment devez-vous conduire en arrivant sur le tronçon de la photo ?
+1: Ralentissez nettement et roulez bien à gauche de la chaussée.
+2: Roulez sur un rapport élevé tant que vous n'êtes pas arrivé en descente.
+3: Roulez à droite de la chaussée sans changer de vitesse.
+4: Restez à droite de la chaussée et entrez prudemment dans le virage. Préparez-vous à rétrograder.
+
+#0985
+Q: Quelle est l'affirmation exacte concernant la photo ?
+1: Le conducteur du camion-citerne roule loin des accotements mous, ce qui lui évite un danger.
+2: Le marquage au sol n'est pas assez clair.
+3: Le conducteur du camion-citerne roule correctement au milieu de la route, pour mieux voir les véhicules qui arrivent en face.
+4: Le conducteur du camion-citerne ne reste pas à droite de la chaussée.
+
+#0986
+Q: Comment le freinage s'obtient-il dans les systèmes de freinage d'un véhicule ?
+1: Le freinage est dû à la pression créée entre le moteur et l'embrayage.
+2: Le freinage est dû à la rotation du moteur dans le sens opposé à son sens normal.
+3: Un frottement se crée entre le disque de frein et les plaquettes.
+4: Un freinage des seules roues avant.
+
+#0987
+Q: Un usage excessif des freins du véhicule peut provoquer :
+1: un échauffement excessif des freins et une baisse de l'efficacité du freinage.
+2: un refroidissement excessif des freins, et donc une baisse de l'efficacité du freinage.
+3: Il n'y a rien à craindre d'un usage excessif des freins.
+4: une baisse de puissance du moteur jusqu'à son arrêt.
+
+#0988
+Q: Comment assurez-vous une conduite sûre dans une longue descente raide ?
+1: Il n'est pas recommandé de rouler longtemps dans des descentes raides.
+2: Il faut profiter du frein moteur en passant un rapport plus bas et s'aider en partie des freins.
+3: Il faut profiter uniquement du frein moteur.
+4: Il faut appuyer avec force et sans interruption sur la pédale de frein pour garder la vitesse voulue.
+
+#0989
+Q: Que peut-il arriver à cause de l'échauffement des freins ?
+1: Le moteur surchauffera.
+2: Les pneus chaufferont et s'useront davantage.
+3: Le véhicule perdra ses qualités de direction.
+4: L'efficacité des freins diminuera fortement.
+
+#0990
+Q: Comment reconnaître un échauffement excessif des freins ?
+1: Par des vibrations anormales du véhicule.
+2: Le moteur perdra de sa capacité de traction.
+3: Par un affaiblissement du freinage et une odeur de matière brûlée.
+4: Le voyant de pression d'huile du moteur s'allumera.
+
+#0991
+Q: Comment agissez-vous si, pendant un freinage prolongé, les freins ont trop chauffé ?
+1: Continuez à rouler vite pour aérer les freins.
+2: Arrêtez-vous ! Attendez que les freins refroidissent.
+3: Utilisez temporairement le frein de stationnement (frein à main).
+4: Continuez normalement et utilisez peu les freins.
+
+#0992
+Q: Quel est le rôle du système ABS ?
+1: Servir de frein supplémentaire en cas de danger.
+2: Empêcher un usage excessif des freins du véhicule.
+3: Permettre de contrôler et de diriger le véhicule pendant le freinage.
+4: Empêcher l'usure des pneus.
+
+#0993
+Q: Que peut-il arriver au véhicule lorsque les roues se bloquent ?
+1: Le véhicule perdra sa capacité de direction.
+2: Sur un véhicule automatique, le moteur s'arrêtera.
+3: Surchauffe du moteur.
+4: Le véhicule perdra sa capacité de freinage.
+
+#0994
+Q: Qu'est-ce que le blocage des roues d'un véhicule ?
+1: L'immobilisation (sabot) d'une des roues par l'autorité compétente selon la loi.
+2: L'arrêt de la rotation des roues pendant la conduite, à cause d'un freinage fort et continu.
+3: L'empêchement de la rotation de la roue lorsqu'on desserre les boulons qui la fixent.
+4: La fixation d'un dispositif sur l'une des roues pour empêcher le véhicule de bouger lorsqu'il stationne dans une très forte pente.
+
+#0995
+Q: Quel est le rôle du démarreur dans un véhicule ?
+1: Relier le mouvement du moteur aux roues.
+2: Couper le mouvement du moteur aux roues.
+3: Faire démarrer le moteur.
+4: Contrôler le fonctionnement du moteur.
+
+#0996
+Q: Comment le conducteur s'assure-t-il du bon état du système de freinage hydraulique ?
+1: Par un contrôle général du système de freinage tous les cinq ans.
+2: En vérifiant le niveau du liquide de frein, l'efficacité du freinage et en surveillant les vibrations et les bruits au freinage.
+3: Il fera vérifier le système tous les 24 mois dans un garage agréé.
+4: Le conducteur n'a pas à intervenir pour le bon état du système de freinage.
+
+#0997
+Q: Pourquoi faut-il utiliser le frein de stationnement (frein à main) uniquement pour stationner ?
+1: Parce que son levier est peu commode à manier.
+2: Parce que sa durée de vie est courte et qu'il ne faut pas la gaspiller en freinages ordinaires.
+3: Le frein de stationnement ne peut pas servir de frein d'urgence.
+4: Parce que le frein de stationnement n'agit pas sur toutes les roues et sa puissance est très faible.
+
+#0998
+Q: Que doit faire le conducteur, la nuit, si l'un des deux phares avant ne fonctionne pas ?
+1: Il peut continuer lentement jusqu'au garage le plus proche.
+2: Il lui est interdit de continuer à rouler et il doit faire réparer la panne avant de repartir.
+3: Il lui est interdit de continuer uniquement si seul le feu de croisement est en panne.
+4: Il lui est interdit de continuer uniquement si seul le feu de route est en panne.
+
+#0999
+Q: Comment devez-vous agir lorsque vous repérez une panne du système de freinage en conduisant ?
+1: Cesser immédiatement de rouler et faire remorquer le véhicule au garage pour contrôle.
+2: Continuer avec une extrême prudence et utiliser le frein de stationnement.
+3: Ralentir et s'appuyer sur le système ABS.
+4: Ralentir pour essayer de s'habituer à la situation et terminer le trajet en sécurité.
+
+#1000
+Q: Dans quelle position sera la boîte de vitesses pendant une longue descente ?
+1: Le levier sera sur un rapport élevé.
+2: Le levier sera sur un rapport bas.
+3: Peu importe le rapport engagé dans une longue descente, l'essentiel est que les freins fonctionnent.
+4: Le levier sera au point mort.
+
+#1001
+Q: Quel est le rôle du système ABS ?
+1: Aider à un freinage plus doux et plus modéré sur route sèche.
+2: Conserver les capacités de direction et de manœuvre du véhicule même lors d'un freinage d'urgence.
+3: Raccourcir la durée de vie des pneus.
+4: Aider à un freinage plus doux et plus modéré sur route mouillée.
+
+#1002
+Q: Quel est le rôle du système de contrôle électronique de stabilité (ESP) ?
+1: Empêcher le blocage des roues.
+2: Réduire le risque de dérapage du véhicule.
+3: Diminuer la quantité de gaz brûlés émis par le moteur.
+4: Contrôler la consommation de carburant du moteur.
+
+#1003
+Q: Comment le système de contrôle électronique de stabilité (ESP) agit-il dans les situations de conduite dangereuses ?
+1: Il vérifie la pression des pneus et actionne le frein de stationnement pour ralentir le véhicule.
+2: Il contrôle le volant.
+3: Il actionne les freins de chaque roue séparément et contrôle la puissance du moteur.
+4: Il contrôle uniquement la puissance du moteur.
+
+#1004
+Q: Quel système aide à stabiliser le véhicule lors d'un dérapage et en cas de risque de retournement ?
+1: Le régulateur de vitesse.
+2: Le système de contrôle de la consommation de carburant du moteur.
+3: Le contrôle électronique de stabilité (ESP).
+4: Le système de signalisation.
+
+#1005
+Q: Pourquoi l'intégrité des pare-chocs du véhicule est-elle importante ?
+1: Pour réduire les dégâts au véhicule et les blessures de ses occupants lors d'un accident.
+2: Pour éviter un accident relativement léger.
+3: Pour éviter des dégâts lors d'accidents graves.
+4: Pour garder au véhicule sa belle apparence.
+
+#1006
+Q: Comment faut-il conduire sur une route inondée ?
+1: Passer un rapport élevé et rouler lentement.
+2: Passer un rapport bas et rouler vite.
+3: Passer un rapport bas et rouler lentement.
+4: Passer un rapport élevé et rouler vite.
+
+#1007
+Q: Que signifient ces panneaux ?
+1: Direction des destinations au-dessus des voies avant un échangeur (hors agglomération ou sur voie rapide).
+2: Indication anticipée des voies avant une intersection, toujours placée à gauche de la route.
+3: Indication anticipée des destinations avant une intersection uniquement, toujours placée à droite de la route.
+4: Indication du centre de la zone, de la ville, du lieu.
+
+#1008
+Q: Pourquoi est-il interdit d'installer des accessoires rigides et saillants dans l'habitacle ?
+1: Ils perturbent la stabilité du véhicule.
+2: Pour ne pas réduire la vue des passagers en marche arrière.
+3: Parce qu'en cas d'accident, ces accessoires peuvent blesser les passagers et le conducteur.
+4: Pour éviter d'abîmer les pneus.
+
+#1009
+Q: Quel est le rapport entre le fonctionnement des airbags et celui des ceintures de sécurité lors d'un accident ?
+1: L'airbag ne fonctionne que lorsque la ceinture ne fonctionne pas.
+2: Il n'y a aucun rapport entre les airbags et les ceintures.
+3: Ne pas attacher sa ceinture peut faire que l'airbag, en se gonflant, mette les passagers en danger.
+4: Les airbags ne se déclenchent pas lorsque les ceintures ne sont pas utilisées.
+
+#1010
+Q: Dans un véhicule équipé d'airbags :
+1: Il ne faut pas attacher sa ceinture s'il y a une panne du système d'airbags.
+2: Il est très important d'attacher sa ceinture à chaque fois que le véhicule roule.
+3: Il faut attacher sa ceinture uniquement s'il y a une panne du système d'airbags.
+4: Il n'est pas nécessaire d'installer des ceintures de sécurité.
+
+#1011
+Q: Qu'est-ce que le système de sécurité à airbags gonflables SRS ?
+1: C'est un système d'airbags qui équilibre le véhicule dans les virages dangereux.
+2: C'est un système qui refroidit les freins pendant les freinages d'urgence.
+3: C'est un système d'airbags extérieurs qui se gonflent pour améliorer la qualité de conduite.
+4: C'est un système qui atténue les blessures des occupants en gonflant des coussins lors d'une collision.
+
+#1012
+Q: Qu'est-ce qui peut nuire à l'efficacité et au bon fonctionnement des ceintures de sécurité en roulant ?
+1: Une inclinaison excessive du dossier vers l'arrière.
+2: Conduire avec trop de couches de vêtements chauds.
+3: Rouler sur une route déformée.
+4: La fatigue et la tendance du conducteur à s'assoupir.
+
+#1013
+Q: Quelle est l'importance des appuie-tête des sièges lors d'un accident par l'arrière ?
+1: Ils empêchent l'éblouissement par l'arrière.
+2: Ils limitent le mouvement de la tête vers l'arrière (coup du lapin coup de fouet cervical).
+3: Ils sont destinés à protéger la tête du passager contre les éclats de verre lors d'un accident.
+4: Ils peuvent prévenir les douleurs au cou et au dos lors de longs trajets.
+
+#1014
+Q: Quel élément du véhicule réduit le mouvement de la tête vers l'arrière lors d'une collision ?
+1: Le pare-chocs arrière.
+2: L'appuie-tête des sièges du véhicule.
+3: L'airbag.
+4: La ceinture de sécurité.
+
+#1015
+Q: Quels sont les effets secondaires d'essuie-glaces défectueux ?
+1: Des bruits dans le système audio du poste de conduite.
+2: Un dommage à l'étanchéité du pare-brise.
+3: Une visibilité réduite à travers le pare-brise et un dommage au pare-brise.
+4: Un gaspillage d'énergie du moteur lors de leur utilisation.
+
+#1016
+Q: Le moteur du véhicule a-t-il un effet sur la sécurité de la conduite ?
+1: Oui. Son effet ne se manifeste que dans l'accélération au démarrage.
+2: Non. L'effet du moteur ne se manifeste que dans les montées raides.
+3: Non. Le moteur n'a aucun effet sur la sécurité de la conduite.
+4: Oui. Surtout en aidant à se sortir de situations d'urgence.
+
+#1017
+Q: Une conduite correcte et modérée et une bonne pression des pneus contribueront :
+1: à augmenter la consommation de carburant du moteur.
+2: à prolonger la durée de vie des pneus.
+3: à augmenter la consommation d'huile du moteur.
+4: à améliorer les performances du véhicule lors d'un accident.
+
+#1018
+Q: Quand est-il conseillé de vérifier la pression des pneus ?
+1: Uniquement avant le contrôle technique annuel du véhicule (« test »).
+2: Le moment et la manière de la vérifier n'ont pas d'importance.
+3: Avant de rouler, quand les pneus sont froids.
+4: Après avoir roulé, quand les pneus sont chauds.
+
+#1019
+Q: Que devez-vous vérifier lorsqu'une ampoule des feux du véhicule ne s'allume pas ?
+1: La tension électrique de la batterie.
+2: Le bon état de l'ampoule et du fusible qui lui est relié.
+3: Le bon état de la commande des feux.
+4: L'intégrité du verre du phare.
+
+#1020
+Q: Quelle peut être la cause d'un clignotement trop rapide du voyant de clignotant au tableau de bord ?
+1: Au moins une des ampoules de clignotant ne fonctionne pas ou est défectueuse.
+2: La tension de la batterie est basse.
+3: Le phénomène vient d'une panne du tableau de bord.
+4: La commande de clignotant n'est pas à sa place.
+
+#1021
+Q: Quelle ampoule choisissez-vous lorsque vous devez en remplacer une dans le véhicule ?
+1: Une ampoule adaptée selon les instructions du constructeur.
+2: Le type d'ampoule n'a pas d'importance, l'essentiel est qu'elle s'adapte à la douille précédente.
+3: Toute ampoule de la même couleur que l'ampoule d'origine.
+4: Toute ampoule de même puissance que l'ampoule d'origine.

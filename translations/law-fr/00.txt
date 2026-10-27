@@ -1,0 +1,113 @@
+#T21(א)
+F: Tout usager de la route doit se conduire avec prudence.
+
+#T22(א)
+F: L’usager de la route doit respecter les instructions données par un panneau. Toutefois, le prévenu a une bonne défense s’il prouve que le panneau a été posé, marqué ou fixé de façon illégale.
+
+#T1:עובר דרך
+F: « Usager de la route » : toute personne qui utilise la route pour circuler, marcher, s’arrêter ou à toute autre fin.
+
+#P10(א)
+F: Nul ne conduira un véhicule à moteur s’il n’est titulaire d’un permis de conduire valable pour ce type de véhicule, délivré en vertu de l’Ordonnance, et nul ne conduira autrement que selon les conditions du permis, sauf s’il est dispensé de l’obligation de permis et dans la mesure de cette dispense.
+
+#P36ב(ג)
+F: Le propriétaire d’un véhicule, ou celui qui en a le contrôle, qui autorise une autre personne à le conduire en sachant qu’elle n’a pas de permis pour ce type de véhicule est puni de trois ans de prison ferme, avec ou sans amende de 100 000 livres. Si cette personne était un mineur ne pouvant pas obtenir de permis, la peine est de cinq ans de prison, avec ou sans amende de 100 000 livres, et en plus d’une déchéance du droit d’obtenir ou de détenir un permis pour au moins trois ans. Dans des circonstances particulières qu’il précise dans son jugement, le tribunal peut prononcer une peine de prison avec sursis.
+
+#P12א1(ז)
+F: Dans cette section, « accompagnateur » désigne l’une des personnes suivantes, à condition qu’elle ne soit pas considérée comme accompagnateur lorsqu’elle est ivre au sens de l’article 64B :
+(1) celui qui détient depuis au moins cinq ans un permis de conduire valable pour ce type de véhicule et qui a 24 ans révolus ; s’il est titulaire d’une licence de moniteur d’auto-école, même s’il n’a pas encore 24 ans ;
+(2) celui qui détient depuis au moins trois ans un permis de conduire valable pour ce type de véhicule et qui a 30 ans révolus.
+
+#T9(ב)
+F: Le conducteur d’un véhicule, ou la personne qui en a le contrôle et se trouve à proximité, présente tout permis ou autre document visé au paragraphe (a) à toute personne habilitée par l’autorité, ou à tout policier ou examinateur muni de sa carte d’examinateur, à leur demande. S’il ne peut présenter l’un de ces documents sur le moment, il le présentera lui-même dans un délai de cinq jours, à l’endroit qu’ils fixent.
+
+#P47(ה)(3)
+F: Pour une infraction figurant à la quatrième annexe, l’officier de police peut retirer au conducteur le droit de détenir un permis de conduire pour une durée de 30 jours.
+
+#P47(ה)(2)
+F: Pour une infraction ayant causé un accident de la route où une personne a été blessée ou un bien endommagé, l’officier de police peut retirer au conducteur le droit de détenir un permis de conduire pour une durée de 60 jours.
+
+#P47(ה)(1)
+F: Pour une infraction ayant causé un accident de la route où une personne est morte, l’officier de police retire au conducteur le droit de détenir un permis de conduire pour une durée de 90 jours.
+
+#P67
+F: Celui qui, informé qu’il est déchu du droit d’obtenir ou de détenir un permis de conduire, conduit pendant la déchéance un véhicule dont la conduite sans permis est interdite par l’Ordonnance ; celui qui conduit en violation des conditions ajoutées à son permis tant qu’elles sont en vigueur ; celui qui, informé qu’il est déchu du droit de détenir une immatriculation de véhicule, utilise ce véhicule ou permet de l’utiliser pendant la déchéance ; ou celui qui conduit, ou permet à autrui de conduire, un véhicule en violation d’un avis ou d’un ordre d’interdiction d’usage, est puni de trois ans de prison ou d’une amende de cent mille livres, ou des deux.
+
+#P1:דרך
+F: « Route » : toute voie ferrée, route, rue, ruelle, place, passage, pont ou lieu ouvert que le public a le droit d’emprunter, y compris les accès qui y mènent.
+
+#T1:זמן תאורה
+F: « Période d’éclairage » : la nuit, ainsi que tout autre moment où la visibilité est réduite à cause de la météo ou d’autres causes.
+
+#T1:חניה
+F: « Stationnement » : l’immobilisation d’un véhicule, pour une durée quelconque, autrement que pour faire monter ou descendre des personnes ou charger ou décharger une marchandise immédiatement et sans interruption, qu’il y ait ou non un conducteur, des personnes ou une marchandise dans le véhicule.
+
+#T1:טרקטור משא
+F: « Tracteur de transport » : tracteur qui remplit toutes les conditions suivantes :
+(1) il roule sur au moins 4 roues ;
+(2) son poids total autorisé ne dépasse pas 1 800 kg ;
+(3) la direction se fait par un volant ;
+(4) il est équipé d’un différentiel sur chaque essieu ;
+(5) il a un plateau de chargement monté par le constructeur lors de la fabrication, destiné à tracter et à transporter des marchandises, d’une largeur d’au moins un mètre et d’au plus la largeur du véhicule prévue par le constructeur, et d’une longueur d’au moins 80 cm ;
+(6) la puissance maximale de son moteur est celle prévue à l’article 363C(1) ;
+(7) il est destiné à tracter et à transporter des marchandises ;
+(8) son poids à vide est d’au moins 400 kg ;
+(9) il est destiné à transporter uniquement un conducteur et un passager à côté de lui ;
+(10) sa garde au sol est d’au moins 15 cm ;
+(11) il est équipé d’une prise de force ;
+(12) il est indiqué comme tracteur de transport sur la carte grise.
+
+#T1:טרקטורון
+F: « Quad » (véhicule tout-terrain) : véhicule défini par son constructeur comme véhicule tout-terrain (All Terrain Vehicle) et qui remplit toutes les conditions suivantes :
+(1) il roule sur au moins quatre roues ;
+(2) on s’y assoit les jambes de part et d’autre de la selle, le conducteur comme le passager ;
+(3) la direction se fait par un guidon ;
+(4) il est prévu pour transporter au plus deux personnes, conducteur compris ;
+(5) s’il a un moteur à combustion interne, sa cylindrée ne dépasse pas 1 500 cm³ ;
+(6) il est indiqué comme quad sur la carte grise.
+
+#T1:כביש חד־סטרי
+F: « Route à sens unique » : toute chaussée sur laquelle la circulation des véhicules n’est permise que dans un seul sens.
+
+#T1:לילה
+F: « Nuit » : la période comprise entre un quart d’heure après le coucher du soleil et un quart d’heure avant son lever.
+
+#T1:מדרכה
+F: « Trottoir » : la partie de la largeur d’une route qui n’est pas la chaussée, située sur le côté de celle-ci et destinée aux piétons, qu’elle soit ou non au même niveau que la chaussée.
+
+#T1:מחלף
+F: « Échangeur » : croisement de routes à des niveaux différents, y compris les routes qui relient les croisements.
+
+#T1:משקל כולל מותר
+F: « Poids total autorisé » : le poids à vide, plus le poids des personnes et de la marchandise que l’autorité d’immatriculation a autorisé ce véhicule à transporter.
+
+#T1:משקל עצמי
+F: « Poids à vide » : le poids du véhicule sans chargement et sans conducteur, y compris celui de tous ses accessoires et celui du carburant, de l’eau et de l’huile qu’il contient.
+
+#T1:צומת
+F: « Intersection » : la zone formée par la rencontre de deux chaussées ou plus, délimitée par les lignes de bord ou les bordures de ces chaussées ou par leur prolongement imaginaire.
+Ne sont pas une intersection :
+(1) la jonction de chaussées sur une voie rapide ;
+(2) la zone formée par la rencontre d’une chaussée avec l’entrée ou la sortie d’une propriété, ou avec une voie d’accès à une maison, un parking, une station-service ou une usine, sauf si un panneau l’indique autrement ;
+(3) l’insertion sur une chaussée à sens unique comportant deux voies ou plus dans le même sens, lorsque le panneau A-20 est placé avant.
+
+#T83ב(א)
+F: Nul ne conduira ni ne voyagera dans un véhicule des types visés à l’article 364A, ou dans tout véhicule équipé de ceintures de sécurité, si le conducteur et les passagers n’ont pas attaché leur ceinture de sécurité ou ne sont pas retenus dans un siège de sécurité ou un rehausseur conformément à l’article 83A, selon le cas.
+
+#T1:מעבר חציה
+F: « Passage pour piétons » : la partie de la chaussée marquée comme destinée à être traversée par les piétons.
+
+#T1:מפגש מסילת ברזל
+F: « Passage à niveau » : endroit où une route et une voie ferrée se croisent au même niveau et qui est signalé par le panneau prévu à cet effet.
+
+#T1:מתן זכות קדימה
+F: « Céder la priorité » : permettre aux autres usagers de la route qui ont la priorité d’avancer sur la route sans s’arrêter, attendre, changer de vitesse ou dévier de leur trajectoire.
+
+#T47(ד)
+F: Le conducteur d’un véhicule ne dépassera un véhicule que si la route est libre sur une distance suffisante pour lui permettre d’effectuer le dépassement et de poursuivre sa route en sécurité, sans gêner ni mettre en danger la marche d’un autre véhicule, et sans autre entrave à la circulation, dans quelque sens que ce soit.
+
+#T1:עמעום
+F: « Passage en feux de croisement » : l’extinction des feux de route des phares avant et l’allumage des feux de croisement, au sens de l’article 334.
+
+#T1:קו עצירה
+F: « Ligne d’arrêt » : ligne tracée en travers de la chaussée ou d’une partie de sa largeur, qui marque la limite où un véhicule doit s’arrêter près d’un feu tricolore ou d’un panneau d’arrêt, avant un passage à niveau, ou à l’endroit où un policier dirige la circulation.

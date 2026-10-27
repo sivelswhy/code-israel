@@ -1,0 +1,419 @@
+#0601
+Q: Quelle est la longueur maximale autorisée par la loi pour l'autobus de la photo ?
+1: 15 mètres.
+2: 13,5 mètres.
+3: 18,5 mètres.
+4: 12 mètres.
+
+#0602
+Q: Que signifie ce panneau ?
+1: Auberge de jeunesse.
+2: Réserve naturelle.
+3: Parking autorisé pour la nuit.
+4: Gîte rural devant vous.
+
+#0603
+Q: Que signifie ce panneau ?
+1: Terrain de camping ou aire de bivouac.
+2: Site de fouilles archéologiques.
+3: Aire de repos pour conducteurs.
+4: Site commémoratif du Keren Kayemeth (KKL).
+
+#0604
+Q: Que signifie ce panneau ?
+1: Route fermée à tous les véhicules dans les deux sens.
+2: Rue à sens unique devant vous.
+3: Attention, vous entrez dans une zone à vitesse limitée.
+4: Ralentissez : endroit dangereux sans signalisation particulière devant vous.
+
+#0605
+Q: Que signifie ce panneau ?
+1: Distance jusqu'à la prochaine chaussée (en km).
+2: Numéro d'une voie rapide.
+3: Distance jusqu'à la prochaine intersection (en km).
+4: Numéro d'une route régionale.
+
+#0606
+Q: Les panneaux de danger ont la forme :
+1: généralement d'un triangle pointe en bas.
+2: presque toujours d'un cercle.
+3: d'un carré ou d'un rectangle.
+4: généralement d'un triangle pointe en haut.
+
+#0607
+Q: Que signifie ce panneau ?
+1: Chaussée à sens unique devant vous.
+2: Affectation des voies de circulation devant vous.
+3: Il est interdit à ceux qui roulent sur la voie de droite de changer de voie.
+4: Aller tout droit est interdit aux véhicules de transport public.
+
+#0608
+Q: Que signifie ce signal (rouge et orange allumés ensemble) ?
+1: Le feu va bientôt passer au rouge seul.
+2: En tournant à droite, cédez le passage aux piétons.
+3: Traversez vite l'intersection.
+4: Préparez-vous à démarrer quand le feu vert apparaîtra.
+
+#0609
+Q: Que signifient des bordures de trottoir peintes en rouge et jaune ?
+1: Un marquage pour faire ressortir des trottoirs de hauteurs différentes.
+2: Tout arrêt est interdit, sauf aux types de véhicules autorisés par un panneau.
+3: Le stationnement est permis avec un ticket de stationnement.
+4: Le stationnement des véhicules de transport public est permis sans limite.
+
+#0610
+Q: Que signifie ce panneau ?
+1: Fin du tronçon où s'applique l'interdiction de dépasser.
+2: Interdiction de dépasser une voiture particulière.
+3: Dépassement interdit aux autobus.
+4: Dépassement interdit aux véhicules utilitaires.
+
+#0611
+Q: Rouler sur une chaussée mouillée crée :
+1: un risque de retournement du véhicule à cause de sa faible vitesse.
+2: un risque de dérapage et de retournement qu'on peut éviter en accélérant.
+3: un risque de dérapage et de retournement qui augmente avec la vitesse.
+4: une distance de réaction plus longue.
+
+#0612
+Q: Un véhicule agréé pour le transport d'enfants est :
+1: tout autobus public sur une ligne régulière.
+2: tout autobus enregistré auprès d'une compagnie de transport.
+3: tout véhicule à moteur qui transporte des enfants.
+4: un autobus privé ou un véhicule de transport public agréé pour le transport d'enfants.
+
+#0613
+Q: Dans un autobus de transport scolaire, les élèves montent et descendent :
+1: toujours loin du trottoir.
+2: uniquement par la porte avant droite.
+3: uniquement par la porte arrière.
+4: par la porte avant droite et par la porte arrière.
+
+#0614
+Q: Le transport scolaire en autobus, c'est :
+1: le transport d'enfants vers l'école ou vers une activité organisée, dans un véhicule agréé pour le transport scolaire.
+2: tout transport d'enfants ou d'étudiants en autobus.
+3: le transport en autobus d'enfants de moins de 16 ans.
+4: tout transport d'un groupe d'enfants en autobus, y compris sur une ligne régulière.
+
+#0615
+Q: Dans un véhicule de transport scolaire, il est interdit :
+1: de transporter des enfants debout.
+2: de transporter des élèves sans la présence d'un ou plusieurs enseignants.
+3: de transporter des adultes debout.
+4: de transporter des élèves sans la présence d'un accompagnateur adulte.
+
+#0616
+Q: Lorsque vous roulez dans un tunnel signalé par le panneau 633 :
+1: vous devez allumer vos feux avant.
+2: vous pouvez changer de voie.
+3: vous pouvez dépasser un autre véhicule.
+4: vous devez allumer vos feux de brouillard.
+
+#0617
+Q: Que signifie ce panneau ?
+1: Conducteur, attention ! Vélos sur la route.
+2: Piste réservée aux vélos.
+3: Voie spéciale réservée aux motos et aux vélos.
+4: Accès interdit aux vélos.
+
+#0618
+Q: Jusqu'où s'applique le panneau placé devant vous ?
+1: Jusqu'à la prochaine intersection.
+2: Jusqu'au panneau d'entrée en agglomération.
+3: Jusqu'au prochain passage pour piétons.
+4: Jusqu'à 150 mètres après le panneau.
+
+#0619
+Q: Le conducteur d'un « véhicule de tourisme » (véhicule de visite) doit être titulaire d'un permis de catégorie :
+1: B ou C.
+2: D1 ou D.
+3: A ou B.
+4: C1 ou B.
+
+#0620
+Q: Le conducteur d'un « véhicule de tourisme » (véhicule de visite) doit être :
+1: un conducteur agréé par le ministère des Transports, titulaire d'un permis D ou D1.
+2: un guide touristique agréé par le ministère de l'Environnement, titulaire d'un permis D ou D1.
+3: un guide touristique agréé par le ministère du Tourisme, titulaire d'un permis D ou D1.
+4: titulaire d'une licence en connaissance du pays et d'un permis D ou D1.
+
+#0621
+Q: Que signifie ce panneau ?
+1: Arrêt autorisé uniquement aux véhicules de personnes handicapées.
+2: Passage réservé aux fauteuils roulants motorisés.
+3: Stationnement réservé au véhicule d'une personne handicapée munie de la carte indiquée sur le panneau.
+4: Stationnement pour le véhicule de toute personne handicapée.
+
+#0622
+Q: Que signifie ce panneau ?
+1: La chaussée s'élargit.
+2: Le nombre de voies augmente.
+3: Virage à gauche ou à droite devant vous.
+4: On peut s'arrêter du côté gauche de la chaussée.
+
+#0623
+Q: Que signifie ce panneau ?
+1: Cédez le passage dans le passage étroit.
+2: Attention, circulation à sens unique devant vous.
+3: Entrée d'une chaussée à sens unique à une seule voie.
+4: Le nombre de voies diminue.
+
+#0624
+Q: Qu'indique ce panneau ?
+1: Hôtel devant vous.
+2: Restaurant.
+3: Aire de repos pour conducteurs.
+4: Campement routier.
+
+#0625
+Q: Qu'indique ce panneau ?
+1: Toilettes publiques.
+2: Buvette ou café.
+3: Campement routier.
+4: Verrerie.
+
+#0626
+Q: Le conducteur doit ralentir lorsque :
+1: il dépasse un autre véhicule sur une chaussée à sens unique.
+2: il roule dans une descente raide ou longue.
+3: il arrive au début d'une montée raide.
+4: il dépasse un autre véhicule sur une chaussée à double sens.
+
+#0627
+Q: Que signifie ce panneau ?
+1: Le stationnement sur le trottoir, selon le marquage, est permis aux véhicules privés et utilitaires dont le poids total autorisé ne dépasse pas 2 200 kg.
+2: Le stationnement sur le trottoir est permis si celui-ci fait plus de six mètres de large.
+3: Le stationnement sur le trottoir, selon le marquage, est permis à tout véhicule.
+4: Le stationnement sur le trottoir est interdit.
+
+#0628
+Q: Qu'indique ce panneau ?
+1: Zone résidentielle.
+2: Zone où il est interdit aux enfants de jouer.
+3: Zone où le stationnement est interdit.
+4: Fin de la zone résidentielle.
+
+#0629
+Q: Quelle est la vitesse maximale autorisée dans la zone qui suit ce panneau ?
+1: 20 km/h.
+2: 60 km/h.
+3: 30 km/h.
+4: 50 km/h.
+
+#0630
+Q: Que signifie ce panneau ?
+1: Fin de la zone résidentielle.
+2: Zone résidentielle ; stationnement interdit.
+3: Zone où les enfants ne peuvent jouer qu'accompagnés d'adultes.
+4: La vitesse maximale est désormais de 30 km/h.
+
+#0631
+Q: Que signifie ce panneau ?
+1: Interdiction de stationner à plus de 30 cm du trottoir.
+2: Zone de circulation apaisée.
+3: Interdiction de rouler à moins de 30 km/h.
+4: Fin de la zone 30 km/h.
+
+#0632
+Q: Que signifie ce panneau ?
+1: Fin de la zone de circulation apaisée.
+2: Interdiction de rouler à moins de 30 km/h.
+3: La vitesse maximale est de 30 km/h.
+4: Début de la zone 30 km/h.
+
+#0633
+Q: Que signifie ce marquage au sol (double ligne discontinue jaune) ?
+1: La séparation entre l'accotement et la chaussée.
+2: Une voie réservée aux motos.
+3: Un endroit où des travaux ont lieu sur la chaussée.
+4: Une voie réservée aux transports en commun.
+
+#0634
+Q: Que signifie ce marquage au sol (ligne discontinue blanche) ?
+1: Chaussée à double sens.
+2: L'axe de la chaussée ou une ligne de voie.
+3: On peut dépasser à tout moment.
+4: Il ne faut jamais rouler à gauche de la ligne.
+
+#0635
+Q: Qu'indique ce marquage tracé en travers de la chaussée ?
+1: Un passage pour cyclistes.
+2: Ligne discontinue blanche : chaussée à sens unique.
+3: Une ligne d'arrêt avant une intersection.
+4: Une voie réservée aux transports en commun.
+
+#0636
+Q: Que signifie ce marquage au sol (ligne continue) ?
+1: Il sépare une voie de transports en commun des autres voies.
+2: Il sépare les véhicules non motorisés des véhicules à moteur.
+3: Il est interdit de rouler à gauche de la ligne continue.
+4: Un terre-plein sur une chaussée à sens unique.
+
+#0637
+Q: Comment faut-il conduire lorsque ce marquage est tracé sur la chaussée ?
+1: Rouler à droite de la double ligne continue sans la franchir.
+2: L'arrêt est interdit sur ce tronçon, sauf sur l'accotement.
+3: On peut dépasser à gauche de la double ligne continue, avec une grande prudence.
+4: Il est interdit de tourner à droite sur cette chaussée.
+
+#0638
+Q: Que signifie ce panneau ?
+1: Voie cyclable à sens unique.
+2: Piste pour vélos et motos.
+3: Piste réservée aux vélos.
+4: Accès interdit aux vélos.
+
+#0639
+Q: Vous roulez dans le sens de la flèche. Que signifie le marquage à votre gauche ?
+1: Début d'une chaussée déformée devant vous.
+2: Un terre-plein sur une route hors agglomération.
+3: Une double ligne continue va bientôt commencer.
+4: Chaussée à sens unique devant vous.
+
+#0640
+Q: Que signifie ce marquage au sol ?
+1: On ne peut franchir les lignes que si la ligne discontinue est tracée à droite de la ligne continue.
+2: Des essais de peinture sur la chaussée.
+3: Une ligne continue va bientôt commencer.
+4: On peut stationner du côté de la chaussée où se trouve la ligne discontinue.
+
+#0641
+Q: Comment doit conduire le véhicule indiqué lorsque ce marquage est tracé sur la chaussée ?
+1: Il ne peut pas franchir la ligne, mais il peut faire demi-tour à gauche.
+2: Il doit rouler à gauche de la ligne continue.
+3: Il peut franchir la ligne continue.
+4: Il doit rouler à droite des lignes et il lui est interdit de franchir la ligne continue.
+
+#0642
+Q: Comment devez-vous conduire lorsque ce marquage est à votre gauche ?
+1: Vous pouvez franchir les lignes, puisque la ligne discontinue est à droite de la ligne continue.
+2: Vous devez toujours rouler à droite des lignes.
+3: Il vous est interdit de franchir la ligne continue.
+4: Vous devez ralentir et passer du côté gauche de la chaussée.
+
+#0643
+Q: Que signifie ce marquage au sol (ligne jaune) ?
+1: À gauche de la ligne, on peut stationner sur une voie rapide.
+2: Une ligne qui marque le bord de la chaussée là où il n'y a pas de bordure.
+3: À droite de la ligne, on peut stationner sur une voie rapide.
+4: Il est interdit de rouler entre les lignes jaunes.
+
+#0644
+Q: Que signifie ce marquage au sol ?
+1: Il est interdit de tourner à gauche depuis la voie de gauche.
+2: On ne peut aller que tout droit.
+3: Vous avez la priorité dans le passage étroit sur la circulation venant en sens inverse.
+4: Changement d'affectation de la voie de gauche.
+
+#0645
+Q: Comment faut-il continuer selon ce marquage ?
+1: On ne peut aller qu'à gauche.
+2: On peut aller tout droit ou à gauche.
+3: On ne peut aller qu'à droite.
+4: On peut tourner à gauche depuis n'importe quelle voie.
+
+#0646
+Q: Comment faut-il tourner à gauche selon ce marquage ?
+1: Uniquement depuis la voie de droite.
+2: Depuis la voie de gauche de votre sens de circulation.
+3: Depuis l'une ou l'autre des deux voies marquées.
+4: Il est totalement interdit de tourner à gauche.
+
+#0647
+Q: Que signifie ce marquage au sol ?
+1: Places de stationnement devant vous.
+2: Ligne d'arrêt : endroit où arrêter le véhicule lorsque l'arrêt est obligatoire.
+3: Ligne d'attente (là où il n'y a pas de panneau).
+4: Ligne de stationnement pour véhicules ou animaux.
+
+#0648
+Q: Comment devez-vous agir en approchant de ce marquage ?
+1: Arrêtez-vous avant la ligne d'arrêt lorsque l'arrêt est obligatoire.
+2: Arrêtez-vous seulement si la ligne est tracée avant un passage à niveau.
+3: L'arrêt est toujours obligatoire pendant la période d'éclairage.
+4: Arrêtez-vous toujours avant la ligne d'arrêt.
+
+#0649
+Q: Que signifie ce marquage au sol ?
+1: Parking et emplacements pour vélos.
+2: Parking autorisé pour véhicules de transport public devant vous.
+3: Passage pour cyclistes.
+4: Passage pour piétons.
+
+#0650
+Q: Quel signal apparaîtra après le signal 708 ?
+1: 710
+2: 709
+3: 712
+4: 716
+
+#0651
+Q: La flèche de l'illustration est tracée sur la chaussée, dans votre voie. Que signifie-t-elle ?
+1: Le dépassement par la gauche est permis.
+2: Arrêtez-vous et passez maintenant sur la voie de gauche.
+3: Depuis cette voie, on doit tourner à gauche à la prochaine intersection.
+4: Vous devez passer sur la voie de gauche.
+
+#0652
+Q: Que signifie une flèche jaune tout droit tracée sur la chaussée ?
+1: Tout véhicule transportant au moins six personnes peut continuer tout droit.
+2: Une voiture particulière peut aller tout droit avec prudence.
+3: Seuls les véhicules de transport public peuvent continuer tout droit à la prochaine intersection.
+4: Tout véhicule peut aller tout droit, mais doit céder le passage aux autobus.
+
+#0653
+Q: Un « nouveau conducteur » de moins de 21 ans ne peut pas transporter dans une voiture particulière :
+1: plus de quatre passagers en plus de lui-même, sauf si un accompagnateur est assis à côté de lui.
+2: plus de deux passagers en plus de lui-même, sauf si un accompagnateur est assis à côté de lui.
+3: le moindre passager, tant qu'il est « nouveau conducteur ».
+4: plus d'un passager en plus de lui-même, sauf si un accompagnateur est assis à côté de lui.
+
+#0654
+Q: La distance de freinage est la distance parcourue par le véhicule :
+1: pendant le temps de réaction du conducteur.
+2: depuis le moment où le conducteur perçoit le danger jusqu'à l'arrêt complet.
+3: depuis le moment où l'on actionne les freins jusqu'à l'arrêt complet.
+4: depuis le moment où le conducteur perçoit le danger jusqu'au début du freinage.
+
+#0655
+Q: Le feu de brouillard arrière :
+1: ne s'allume qu'en marche arrière.
+2: n'est obligatoire que sur les autobus.
+3: s'allume automatiquement par temps de brouillard.
+4: ne peut s'allumer que si les feux avant sont allumés.
+
+#0656
+Q: Que signifie ce marquage au sol ?
+1: Circulation à double sens devant vous.
+2: Circulation à sens unique devant vous.
+3: Des îlots (de formes diverses) peints en blanc sur la chaussée.
+4: Des flèches pour traverser l'intersection : on ne peut la traverser que dans le sens des flèches.
+
+#0657
+Q: Que signifient des bordures de trottoir peintes en alternance en bleu (et blanc) ?
+1: Stationnement autorisé selon les règles fixées par la municipalité.
+2: Arrêt et stationnement interdits le long de ces bordures, sauf pour les taxis en agglomération.
+3: Elles font ressortir les trottoirs et les îlots construits.
+4: Stationnement réservé aux véhicules de transport public.
+
+#0658
+Q: Que signifient des bordures de trottoir peintes en alternance en rouge et blanc ?
+1: L'arrêt et le stationnement sont interdits le long de ces bordures, sauf pour les taxis qui prennent ou déposent des passagers.
+2: Stationnement payant par ticket.
+3: Le marquage sert à faire ressortir terre-pleins, trottoirs et îlots, sans aucune restriction.
+4: L'arrêt est permis, mais le stationnement est interdit le long de la zone rouge et blanche.
+
+#0659
+Q: Que signifie ce marquage au sol ?
+1: Un îlot marqué au centre de la chaussée.
+2: Un endroit où le stationnement n'est permis que pour peu de temps.
+3: Un endroit où le stationnement est interdit.
+4: Une zone de stationnement pour véhicules de transport public.
+
+#0660
+Q: Choisissez la seule affirmation exacte :
+1: La distance d'arrêt est toujours plus grande que la distance de freinage.
+2: La distance de réaction est toujours plus longue que la distance de freinage.
+3: La distance de freinage est toujours plus grande que la distance d'arrêt.
+4: La distance de freinage est toujours égale à la distance de réaction.

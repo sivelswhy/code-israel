@@ -1,0 +1,154 @@
+#T1:רכב סיור
+F: « Véhicule de tourisme » : véhicule public destiné à transporter jusqu’à huit passagers en plus du conducteur et indiqué comme véhicule de tourisme sur la carte grise.
+
+#T52(8)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] dans une descente raide ou longue.
+
+#T43(א)
+F: Le conducteur d’un véhicule qui a l’intention de tourner à gauche commencera son virage :
+(1) depuis une chaussée à sens unique : lorsque son véhicule se trouve du côté gauche de la chaussée ;
+(2) depuis une chaussée à double sens : lorsque son véhicule se trouve aussi près que possible du milieu de la chaussée, à condition de ne pas gêner la circulation venant de toute autre direction ;
+(3) depuis une chaussée à double sens comportant deux voies ou plus : depuis la voie la plus à gauche dans le sens de la marche.
+
+#T72(ג)
+F: Nul ne laissera la nuit à l’arrêt un véhicule commercial dont le poids total autorisé dépasse 10 000 kg, ni un véhicule de travail, et nul ne stationnera un tel véhicule dans une zone où l’autorité locale de signalisation a interdit le stationnement et l’immobilisation de véhicules.
+
+#P65ב(ג)
+F: Le conducteur d’un véhicule à moteur, et pour un véhicule indépendant la personne qui y voyage, sur une route non urbaine, qui sort ou descend du véhicule, selon le cas, portera un gilet fluorescent, sauf sur un trottoir. Toutefois, il est dispensé de cette obligation si l’un des passagers du véhicule, et pour un véhicule indépendant un autre passager, est sorti ou descendu du véhicule en portant un gilet fluorescent.
+
+#T83(ב2)
+F: Le conducteur d’un véhicule de transport scolaire activera les feux de signalisation qui y sont installés selon les exigences fixées pour les véhicules de transport scolaire, chaque fois que les portes du véhicule sont ouvertes.
+
+#T21(ב)
+F: Tout usager de la route doit se conduire de manière à ne pas :
+(1) porter atteinte au droit d’autrui d’utiliser pleinement cette route ;
+(2) causer un dommage à une personne ou à un bien, ni donner l’occasion d’en causer ;
+(3) gêner ou retarder la circulation ;
+(4) mettre en danger la vie d’autrui.
+
+#P65ב(ב)
+F: Le conducteur d’un véhicule autre qu’une moto gardera le gilet fluorescent en tout temps dans l’habitacle du conducteur ; toutefois, dans un véhicule indépendant, le gilet fluorescent se trouvera en tout temps dans l’habitacle des passagers.
+
+#T94(2)
+F: [Le conducteur d’un véhicule de sécurité (ambulance, police, pompiers…) peut] passer devant un panneau ou un feu ordonnant l’arrêt sans s’arrêter, à condition d’avoir ralenti dans la mesure où la sécurité l’exige.
+
+#T43(א)(2)
+F: [Le conducteur qui tourne à gauche commence son virage] depuis une chaussée à double sens, lorsque son véhicule se trouve aussi près que possible du milieu de la chaussée, à condition de ne pas gêner la circulation venant de toute autre direction.
+
+#T34
+F: (a) Sur une chaussée, un chemin ou une voie réservés et marqués pour un type de véhicule déterminé ou pour certains usagers de la route, les autres conducteurs de véhicules ou usagers ne circuleront pas.
+(b) Malgré le paragraphe (a), un cycliste utilisera le côté droit extrême de la chaussée, même si une voie y a été réservée aux transports en commun.
+
+#T72
+F: (a) Nul n’arrêtera un véhicule, ne l’immobilisera, ne le stationnera ni ne le laissera à l’arrêt, en tout ou en partie, dans l’un des endroits suivants, sauf pour éviter un accident, pour respecter une disposition de ce Règlement, ou si un panneau l’indique autrement :
+(1) sur le côté gauche de la route, sauf si la chaussée est à sens unique, ou à contresens ; une chaussée faisant partie d’une route divisée par un séparateur n’est pas considérée comme une chaussée à sens unique ;
+(2) sur une piste cyclable signalée par un panneau, étant entendu qu’il est permis d’arrêter, d’immobiliser ou de stationner des vélos sur un trottoir ou une piste de ce type s’il n’en résulte pas de gêne pour la circulation ;
+(2a) sur un trottoir, sauf à un endroit aménagé pour l’immobilisation et le stationnement de véhicules selon un règlement municipal pris en vertu de l’article 77 de l’Ordonnance, à condition qu’un passage reste libre pour les piétons ;
+(2b) sur une route avant laquelle le panneau 401 est placé ;
+(3) à l’intérieur d’une intersection ou à moins de douze mètres de celle-ci, sauf sur un tronçon que l’autorité de signalisation a signalé, par un panneau ou un marquage sur les bordures, comme autorisant le stationnement ;
+(4) à l’entrée d’un terrain destiné aux véhicules, sauf pour faire monter ou descendre des passagers ;
+(5) (supprimé) ;
+(6) à l’intérieur d’un passage pour piétons ou à moins de douze mètres avant celui-ci ;
+(7) à moins de douze mètres avant une ligne d’arrêt ;
+(8) dans l’emprise de la route, de vingt mètres avant le rail le plus proche d’un passage à niveau jusqu’à vingt mètres après le passage ;
+(9) sur une chaussée, accotement compris, où il n’existe dans le sens de la marche qu’une seule voie marquée d’une ligne de séparation continue ;
+(10) à côté d’un autre véhicule arrêté ou stationné sur le bord de la route ;
+(11) sur un pont, dans un tunnel ou à moins de 50 mètres avant ou après ;
+(12) dans une voie réservée aux transports en commun et dans l’emprise d’un arrêt d’autobus défini par un marquage sur la chaussée, et à défaut de marquage, à moins de vingt mètres avant et vingt mètres après le panneau « arrêt d’autobus », des deux côtés de la route ; toutefois, il est permis d’arrêter, d’immobiliser ou de stationner un véhicule du côté de la route opposé au marquage ou au panneau si la largeur de la chaussée à cet endroit est de douze mètres ou plus ;
+(13) le long d’une barrière de sécurité pour piétons au bord de la chaussée, sauf si un panneau l’indique autrement ;
+(14) dans l’emprise d’une station de taxis signalée par un panneau placé ou marqué, sauf pour faire monter ou descendre des passagers ;
+(15) près d’un panneau marquant un arrêt de transport de soldats, sauf pour faire monter ou descendre des soldats ;
+(16) près du panneau 437 en violation des instructions du panneau, ou près du panneau 437 sous lequel est placé, contigu, un panneau 439 indiquant les références du véhicule d’une personne handicapée déterminée, si le véhicule n’est pas celui dont les références figurent sur ce panneau ; si le panneau indique certains jours ou heures, la disposition ne s’applique que les jours ou aux heures indiqués.
+(b) Nul n’immobilisera ni ne stationnera sur une route un autobus destiné à transporter vingt passagers ou plus, même là où il est permis d’immobiliser ou de stationner un véhicule, sauf si un panneau l’indique autrement.
+(c) Nul ne laissera la nuit à l’arrêt un véhicule commercial dont le poids total autorisé dépasse 10 000 kg, ni un véhicule de travail, et nul ne stationnera un tel véhicule dans une zone où l’autorité locale de signalisation a interdit le stationnement et l’immobilisation de véhicules.
+(d) Malgré le paragraphe (a)(12), le stationnement est permis à un arrêt d’autobus les samedis et les jours de fête d’Israël si le panneau 439 autorisant le stationnement les samedis et jours de fête d’Israël y est placé.
+
+#P71א1(א)
+F: Celui à qui a été délivré un macaron de personne handicapée tel que précisé à la neuvième annexe peut conduire le véhicule pour lequel ce macaron a été délivré dans une voie réservée aux transports en commun, à l’exception d’une voie réservée par un panneau à un véhicule de transport de masse qui n’est pas un autobus.
+
+#T43(ב)(1)
+F: [Le conducteur qui tourne à gauche entrera dans la chaussée où il tourne,] sur une chaussée à sens unique, dans la voie la plus à gauche dans le sens de la marche.
+
+#T47(ה)(5)
+F: [Le dépassement est interdit lorsque] l’on franchit une ligne de séparation continue, sauf si une ligne discontinue se trouve contiguë à elle, sur son côté droit.
+
+#T47(ה)
+F: Le conducteur d’un véhicule ne dépassera pas, n’essaiera pas de dépasser et ne déportera pas son véhicule vers la gauche ou la droite pour dépasser un véhicule ou un animal dans l’un des cas suivants :
+(1) la visibilité est réduite ou le champ de vision est bloqué ou limité ;
+(2) il se trouve après le panneau A-30 avant un passage à niveau, et jusqu’après le passage à niveau ;
+(3) il s’approche d’un passage pour piétons marqué sur la chaussée ou indiqué par un panneau signalant l’emplacement d’un passage pour piétons, et jusqu’à l’avoir dépassé ;
+(4) il passe à l’intérieur d’une intersection, ou ne termine pas le dépassement avant d’arriver à l’intersection ;
+(5) il franchit une ligne de séparation continue, sauf si une ligne discontinue se trouve contiguë à elle, sur son côté droit ;
+(6) (supprimé).
+
+#T64(א)(3)
+F: Le conducteur d’un véhicule qui sort d’un chemin de terre et s’apprête à entrer sur une route revêtue ou à la traverser cède la priorité au véhicule qui approche sur la route revêtue.
+
+#T48
+F: (a) Le conducteur d’un véhicule que l’on dépasse déportera son véhicule autant que possible vers le bord de la chaussée pour permettre au véhicule qui dépasse de le faire en sécurité, et n’augmentera pas sa vitesse tant que le véhicule qui dépasse ne l’a pas passé.
+(b) Le conducteur d’un véhicule transportant une charge hors gabarit, qu’on ne peut dépasser en raison des conditions de la route et de la circulation, doit ralentir et, dans la mesure du possible et du nécessaire, quitter la chaussée au-delà de son bord et même arrêter le véhicule, afin de permettre aux véhicules qui sont derrière lui de le dépasser en sécurité.
+(c) Le conducteur d’un véhicule à moteur qui, en raison de sa charge ou de la pente de la route, est contraint de rouler à vitesse réduite et retarde les véhicules qui le suivent, doit se ranger et rouler sur l’accotement lorsque celui-ci est stabilisé en asphalte et libre, afin de permettre aux véhicules qui le suivent de le dépasser. Toutefois, cette obligation ne s’applique pas si le panneau 501 est placé sur l’accotement.
+
+#T52(13)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] à l’approche d’un autobus, d’un car d’excursion ou d’un véhicule commercial transportant des enfants et signalé comme tel, arrêté pour faire monter ou descendre des enfants, et en le dépassant.
+
+#T52(7)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] à l’approche d’un sommet de côte ou d’un endroit où le champ de vision est limité.
+
+#T119(ב1)
+F: Nul ne montera sur une moto si ses pieds ne reposent pas sur les repose-pieds destinés au passager de la moto, et le conducteur de la moto ne permettra à personne d’y monter si ses pieds ne reposent pas ainsi.
+
+#T1:דרך מהירה
+F: « Voie rapide » : route qui n’est pas une route urbaine, comportant au moins deux chaussées destinées exclusivement à la circulation de véhicules à moteur, de deux voies au moins pour chaque sens de la marche, séparées par un séparateur, sans accès à la route depuis des propriétés voisines et sans passage à niveau ni intersection, hormis les jonctions de chaussées, et à l’entrée de laquelle est placé un panneau indiquant « voie rapide ».
+
+#T344(א)
+F: Dans un véhicule à moteur doté d’une cabine de conducteur seront installés des clignotants dont la lumière sera visible de l’avant et de l’arrière du véhicule, en plein soleil à une distance d’au moins 30 mètres, et pendant la période d’éclairage par beau temps à une distance d’au moins 150 mètres.
+
+#T1:אוטובוס
+F: « Autobus » : véhicule à moteur destiné au transport de 8 personnes ou plus en plus du conducteur, et indiqué comme autobus sur la carte grise.
+
+#T1:אוטובוס פרטי
+F: « Autobus privé » : autobus qui n’est pas un véhicule public.
+
+#T84
+F: (a) (abrogé).
+(b) Nul ne transportera, ni ne permettra à autrui de transporter, dans un véhicule des types indiqués ci-dessous, un nombre de passagers supérieur à celui indiqué en face de ce type :
+(1) minibus : selon la carte grise ;
+(2) voiture particulière de tourisme : autant que de ceintures dans le véhicule, et dans un véhicule dispensé de ceintures de sécurité, autant que de places dans le véhicule ;
+(3) véhicule électrique : selon la carte grise ;
+(4) véhicule commercial intégré dont le poids total autorisé va jusqu’à 3 500 kg : 8 passagers en plus du conducteur, sauf si la carte grise en indique moins ; et si au 28 février 1993 sa carte portait l’autorisation de transporter plus de 8 passagers en plus du conducteur : selon ce que prévoit la carte ;
+(5) véhicule commercial intégré dont le poids total autorisé dépasse 3 500 kg : 8 passagers en plus du conducteur, sauf si la carte grise en indique moins ; et si au 28 février 1993 sa carte portait l’autorisation de transporter plus de 8 passagers en plus du conducteur : selon ce que prévoit la carte ;
+(6) véhicule commercial non intégré : (1) s’il est équipé d’une carrosserie standard : 8 passagers en plus du conducteur dans l’ensemble du véhicule et pas plus de 6 passagers en plus de ceux qui se trouvent dans la cabine du conducteur, le tout si la carte grise n’en indique pas moins ; (2) s’il est équipé d’une carrosserie non standard : 6 passagers en plus du conducteur dans l’ensemble du véhicule et pas plus de 4 passagers dans la carrosserie, le tout si la carte grise n’en indique pas moins ;
+(7) véhicule commercial dont le poids total autorisé dépasse 3 500 kg : (1) s’il est équipé d’une carrosserie standard : le nombre de passagers indiqué sur la carte grise et pas plus de 30 passagers en plus du conducteur ; (2) s’il est équipé d’une carrosserie non standard : 6 passagers en plus de ceux assis à côté du conducteur, et si au 28 février 1993 il avait l’autorisation de transporter plus de 6 passagers en plus de ceux assis à côté du conducteur : selon l’autorisation ;
+(8) car d’excursion : selon la carte grise ;
+(9) véhicule du désert : selon la carte grise ;
+(10) véhicule de tourisme et taxi : selon la carte grise ;
+(11) véhicule à moteur sans caisse, véhicule transportant un conteneur au sens de l’article 85A, véhicule transportant une caisse amovible au sens de l’article 85B, ou véhicule de travail : autant que de places dans la cabine du conducteur seulement ;
+(12) remorque ou tracteur : selon la carte grise ;
+(13) ambulance : selon la carte grise.
+(b1) Malgré le paragraphe (b), dans un véhicule dont la carte grise a été délivrée par un officier de l’armée de défense d’Israël à qui a été déléguée la compétence d’autorité d’immatriculation, il est permis de transporter un nombre de passagers supérieur à celui du paragraphe (b), à condition que leur nombre et la manière de les transporter soient conformes aux ordres de l’armée.
+(c) Nul ne conduira un véhicule commercial intégré, un véhicule commercial dont le poids total dépasse 3 500 kg, un car d’excursion ou un véhicule du désert comportant plus de 11 places de passagers, lorsqu’il transporte des passagers, sauf si le véhicule porte le panneau « Passagers » précisé au point 3 de la partie C de la deuxième annexe.
+(d) (abrogé).
+(e) Dans un véhicule visé aux paragraphes (b) et (c), et dans un autobus lorsqu’il ne transporte pas de passagers sur une ligne de service, nul ne transportera un groupe d’enfants de 14 ans au plus, comptant 9 enfants ou plus (dans ce paragraphe : un groupe) mais sans dépasser le nombre de passagers fixé par les paragraphes précités, sauf s’il détient une autorisation de l’autorité d’immatriculation pour le transport d’un groupe, après avoir réussi une formation pour transporteurs d’enfants approuvée par l’autorité d’immatriculation.
+(f) Les dispositions du paragraphe (e) ne s’appliquent pas à celui qui a reçu pour la première fois un permis de conduire de catégorie 5, 6, 7 et 11 après le 1er janvier 1996.
+(g) (abrogé).
+
+#T1:אוטובוס זעיר
+F: « Minibus » : autobus qui remplit toutes les conditions suivantes :
+(1) il est destiné par sa construction à transporter jusqu’à dix-neuf passagers en plus du conducteur ;
+(2) il est équipé d’une carrosserie standard ;
+(3) son poids total autorisé ne dépasse pas 5 000 kg ;
+(4) il est indiqué sur la carte grise comme minibus ou minibus blindé, selon le cas.
+
+#T57
+F: Le conducteur d’un autobus ou d’un véhicule qui transporte, ou est destiné à transporter, onze passagers ou plus, conducteur compris, ne traversera pas une voie ferrée sauf si la route par laquelle il arrive au passage est revêtue d’asphalte ou de béton sur une distance d’au moins 20 mètres du rail le plus proche.
+
+#T368
+F: Dans un véhicule à moteur dont le poids total autorisé dépasse 5 000 kg, à l’exception d’un autobus, se trouveront deux cales de sécurité permettant de laisser le véhicule chargé à l’arrêt dans toutes les conditions de route, les freins n’étant pas serrés et la boîte de vitesses étant au point mort.
+
+#T184
+F: (a) Le permis de conduire de catégorie D1 est un permis de conduire :
+(1) (supprimé) ;
+(2) un taxi, un véhicule de tourisme et un minibus ; toutefois, pour la conduite d’un minibus comportant plus de 16 places en plus du conducteur, dont le conducteur a reçu un permis de catégorie D1 avant le 1er juillet 2010, à condition qu’il ait passé un examen pratique au sens de l’article 206 ;
+(3) un véhicule visé à l’article 180.
+(b) (abrogé).

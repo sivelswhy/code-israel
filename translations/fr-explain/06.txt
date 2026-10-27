@@ -1,0 +1,198 @@
+#0361
+E: Le panneau 124 (triangle avec une branche qui rejoint par la gauche) annonce qu'une route latérale rejoint votre chaussée prioritaire. Le 620 concerne le nombre de voies, le 145 la circulation à double sens, le 307 un passage étroit.
+
+#0362
+E: Le panneau 144 annonce des ralentisseurs ; sur la chaussée, chaque ralentisseur est ensuite signalé par le marquage 821 (bandes peintes sur le dos-d'âne).
+
+#0363
+E: Le 101 (chaussée déformée) et le 144 (ralentisseurs) sont deux panneaux de DANGER (triangles rouges) : ils invitent à ralentir et à être plus attentif. Ce ne sont pas des panneaux d'information, et aucun ne précède obligatoirement l'autre.
+
+#0364
+E: Brûler un feu rouge ou refuser la priorité fait partie des infractions graves de la troisième annexe de l'ordonnance : le nouveau conducteur condamné reste « nouveau conducteur » deux ans de plus et doit repasser des examens.
+R: P12א(ד)
+
+#0365
+E: Le 115 annonce une intersection en T à droite (la branche part vers la droite). Le 119 annonce deux intersections successives ; les 205 et 208 (ronds bleus) sont des obligations de direction, pas des avertissements.
+
+#0366
+E: Les mesures du système de points (formation, examens, suspension) s'ajoutent à la peine éventuelle du tribunal ; elles ne la remplacent pas.
+R: P69א(ב)
+
+#0367
+E: Le panneau de danger 122 (triangle avec un feu tricolore) annonce une intersection à feux. Les 702 et 705 sont les feux eux-mêmes ; le 114 annonce une intersection en croix.
+
+#0368
+E: Le 136 (triangle avec des piétons qui marchent) signale des piétons à proximité. Le 135 annonce un passage pour piétons, le 306 en indique l'emplacement exact, le 226 est un chemin réservé aux piétons.
+
+#0369
+E: Le 303 (rond bleu à flèches circulaires) impose la priorité dans le giratoire ; il est parfois précédé du panneau de danger 121 qui annonce le carrefour giratoire.
+
+#0370
+E: Le 126 vous indique que vous rejoignez une chaussée prioritaire venant de gauche. Sur cette chaussée prioritaire, on place le panneau 123, qui annonce aux usagers prioritaires que votre route les rejoint par la droite.
+
+#0371
+E: Le 130 (balise à trois bandes rouges) annonce le passage à niveau à environ 300 m ; le 131 (deux bandes) à 200 m ; le 132 (une bande) à 100 m.
+
+#0372
+E: Le 133 (croix de Saint-André) est placé au passage à niveau lui-même : c'est le dernier avertissement. Les balises 132 et 131 se trouvent plus loin en amont.
+
+#0373
+E: Le 618 indique une chaussée à sens unique. À l'autre extrémité, pour ceux qui voudraient entrer à contresens, on place le 402 « sens interdit ».
+
+#0374
+E: Le 133 (croix simple) signale un passage à niveau à une seule voie ferrée ; le 134 (croix double) en signale plusieurs.
+
+#0375
+E: Le 135 (triangle) annonce un passage pour piétons ; plus loin, au passage lui-même, on trouve le 306 (carré bleu) qui en marque l'emplacement.
+
+#0376
+E: Le 306 (carré bleu avec un piéton sur les bandes) indique l'emplacement exact du passage pour piétons. Le 136 signale des piétons, le 226 un chemin piéton, le 220 une zone résidentielle.
+
+#0377
+E: Le 139 (triangle avec un octogone) annonce un panneau « Stop » (302) plus loin : il est parfois placé avant lui quand le Stop est peu visible.
+
+#0378
+E: Le 145 (triangle avec deux flèches opposées) avertit que la circulation devient à double sens. Le 618 et le 620 sont des panneaux d'information bleus, le 308 règle un passage étroit.
+
+#0379
+E: Selon la banque officielle, les points d'un conducteur qui en a jusqu'à 20 sont valables deux ans à compter de l'infraction. Les règles détaillées figurent dans le règlement sur le système de points.
+R: P69א(א)
+
+#0380
+E: Le 203 (tout droit) interdit le demi-tour. Les 202 et 205, qui autorisent la gauche, permettent le demi-tour à gauche sauf interdiction par un autre panneau.
+
+#0381
+E: Le 145 annonce une circulation à double sens : la circulation venant en face arrive dans votre chaussée. Soyez prudent et serrez à droite ; ce panneau ne donne aucune priorité.
+R: T35
+
+#0382
+E: Le 215 (flèche oblique vers la gauche) impose de contourner l'endroit par la gauche ; le 214 par la droite ; le 213 par l'un ou l'autre côté.
+
+#0383
+E: Le 216 marque l'entrée d'une voie rapide ; on y ajoute le 218, qui indique la vitesse minimale à laquelle les véhicules admis doivent pouvoir rouler.
+
+#0384
+E: Le 135 (triangle de danger) annonce un passage pour piétons plus loin ; le 306 (carré bleu) est placé au passage lui-même.
+
+#0385
+E: Un panneau de limitation de vitesse barré d'une bande noire (427) indique la FIN du tronçon à vitesse particulière : on revient aux limites générales.
+
+#0386
+E: Le panneau barré (423) marque la fin du tronçon où les véhicules lourds ne pouvaient pas dépasser. La barre noire signifie toujours « fin de… ».
+
+#0387
+E: Le 303 (rond bleu à flèches circulaires) impose de céder le passage aux véhicules déjà dans le giratoire. Le 121 n'est qu'un avertissement ; le 301 est un « cédez le passage » général.
+R: T64(ז)
+
+#0388
+E: Dans une zone de circulation apaisée (signalée par le panneau 222), la vitesse est limitée à 30 km/h.
+R: T54(ב)
+
+#0389
+E: L'illustration montre une barrière de sécurité pour piétons. Il est interdit de s'arrêter ou de stationner le long de cette barrière, sauf panneau contraire.
+R: T72(א)(13)
+
+#0390
+E: Le 308 donne la priorité dans le passage étroit à ceux qui entrent par ce côté ; en face, on place le 307 qui oblige à leur céder le passage.
+
+#0391
+E: Le 305 (« Avancez avec prudence », panneau mobile vert) est généralement précédé du 304 (« Stop », panneau mobile), tenu par un agent de chantier.
+
+#0392
+E: Au « Stop » avant un passage à niveau : s'arrêter, éteindre la radio, ouvrir la vitre la plus proche, écouter et regarder le long de la voie ferrée avant de repartir.
+R: T56(ב)
+
+#0393
+E: Le 433 (rond bleu bordé de rouge, deux barres croisées) interdit l'arrêt ET le stationnement. Le 432 (une seule barre) n'interdit que le stationnement. Le 434 marque la fin de ces interdictions. Le 817 est un marquage de bordure, pas une interdiction.
+
+#0394
+E: Le 132 (une bande rouge) se trouve à environ 100 m du passage à niveau. Le dépassement est interdit à l'approche du passage à niveau, jusqu'après celui-ci.
+R: T47(ה)(2)
+
+#0395
+E: Le 429 interdit de tourner à gauche à la prochaine intersection (y compris pour entrer dans une station-service). Le 428 interdit la droite ; le 431 le demi-tour à gauche.
+
+#0396
+E: Le 424 marque l'entrée en agglomération : il reste valable jusqu'au panneau de sortie (425), pas seulement jusqu'à la prochaine intersection.
+
+#0397
+E: Le 401 ferme la route dans les deux sens : on le place donc aux deux extrémités.
+
+#0398
+E: Ne pas s'arrêter avant un passage à niveau quand c'est obligatoire est une infraction grave de la troisième annexe : le permis de nouveau conducteur est prolongé de deux ans.
+R: P12א(ד); T56(א)
+
+#0399
+E: Pendant que le véhicule roule, il est interdit d'envoyer ou de lire un SMS, et de tenir un téléphone.
+R: T28(ב)
+
+#0400
+E: Le 627 (stationnement avec une voiture à moitié sur le trottoir) autorise le stationnement sur le trottoir. Le 626 autorise le stationnement sur la chaussée ; les 432 et 435 l'interdisent.
+
+#0401
+E: Les panneaux d'information (série 6xx, généralement bleus ou verts) donnent des renseignements : lieux, directions, distances. Les avertissements sont des triangles, les obligations et interdictions des ronds.
+
+#0402
+E: Le marquage 819 (lignes obliques au sol) autorise et délimite le stationnement en épi. Les autres marquages proposés ne délimitent pas un stationnement en épi.
+R: T75
+
+#0403
+E: Le 301 (triangle pointe en bas) impose de céder le passage à l'intersection. Le 308 et le 310 concernent votre propre priorité, le 504 une voie de bus.
+R: T64(ג)
+
+#0404
+E: Le 302 (Stop) impose l'arrêt puis la priorité à tous les véhicules qui arrivent sur la route transversale, de quelque côté qu'ils viennent.
+R: T64(ד)
+
+#0405
+E: Après l'orange (705) vient le rouge (701). L'orange signifie : arrêtez-vous, sauf si vous ne pouvez plus le faire en sécurité.
+
+#0406
+E: Après le rouge (701) vient rouge + orange ensemble (702) : préparez-vous à démarrer, mais restez arrêté jusqu'au vert.
+
+#0407
+E: Le triangle avec deux bosses (101) signale une chaussée déformée. Ne le confondez pas avec le 144 (ralentisseurs).
+
+#0408
+E: Devant le 101 (chaussée déformée), adaptez votre vitesse à l'état de la route pour garder le contrôle du véhicule.
+R: T51
+
+#0409
+E: Le panneau 102 (flèche courbée vers la droite) annonce un virage serré à droite.
+
+#0410
+E: Dans un virage serré, on ralentit AVANT d'y entrer, puis on réaccélère progressivement en sortie : freiner dans le virage déstabilise le véhicule.
+R: T52(4)
+
+#0411
+E: Le panneau 104 annonce un virage à droite puis à gauche (la flèche part d'abord à droite).
+
+#0412
+E: Devant une succession de virages, adaptez la vitesse et restez bien à droite, pour ne pas mordre sur la voie d'en face.
+R: T35; T52(4)
+
+#0413
+E: Le panneau 106 (ligne en zigzag) annonce une route sinueuse : plusieurs virages successifs.
+
+#0414
+E: Le panneau 110 annonce que la chaussée se rétrécit par la droite.
+
+#0415
+E: Devant un rétrécissement, ralentissez, serrez à droite et surveillez la circulation venant en face ; personne n'a de priorité particulière.
+R: T46(א)
+
+#0416
+E: Le triangle avec un ouvrier qui pelle (901) annonce des travaux sur la route.
+
+#0417
+E: Dans un chantier, ralentissez et obéissez aux ouvriers chargés de la circulation et à tous les panneaux du chantier.
+R: T23(א)(1א)
+
+#0418
+E: Le 416 (rond rouge avec flèches verticales et une hauteur) interdit l'accès aux véhicules dont la hauteur, chargement compris, dépasse celle indiquée — ici 4,6 m.
+
+#0419
+E: Le triangle avec un vélo (137) avertit que des cyclistes circulent à proximité. Un panneau rond bleu avec un vélo (227) indiquerait une piste cyclable.
+
+#0420
+E: Le triangle avec une croix (114) annonce une intersection en croix : appliquez les règles de priorité.

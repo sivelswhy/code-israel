@@ -1,0 +1,419 @@
+#0121
+Q: Que doivent faire deux conducteurs qui se croisent sur une route étroite et plate ?
+1: Ralentir et se déporter vers le bord de la chaussée, voire au-delà, pour éviter une collision.
+2: Se comporter selon l'usage sur cette route.
+3: Le conducteur du plus gros véhicule s'arrête et laisse l'autre véhicule franchir le passage étroit.
+4: Le conducteur du plus gros véhicule accélère et franchit le premier le passage étroit.
+
+#0122
+Q: Comment doivent se comporter deux conducteurs qui se croisent sur une route étroite et en forte pente ?
+1: Le premier arrivé s'engage le premier dans le passage étroit.
+2: Si nécessaire, le conducteur qui descend s'arrête et laisse passer le véhicule qui monte.
+3: Il suffit que tous deux se serrent à droite contre le bord de la chaussée pour éviter une collision.
+4: Si nécessaire, le conducteur qui monte s'arrête et laisse passer le véhicule qui descend.
+
+#0123
+Q: Par quel côté peut-on dépasser un autre véhicule ?
+1: Par la droite, à condition de garder une vitesse raisonnable.
+2: Uniquement par la gauche.
+3: Aussi bien par la droite que par la gauche.
+4: Uniquement par la droite.
+
+#0124
+Q: Dans quel cas est-il permis de passer un autre véhicule par la droite ?
+1: Lorsque l'autre véhicule s'apprête à tourner à gauche et l'a signalé.
+2: Lorsqu'une voie est libre à droite de l'autre véhicule.
+3: Lorsque l'autre véhicule roule sur la voie de droite et met son clignotant à gauche.
+4: Lorsque l'autre véhicule roule sur la voie centrale et met son clignotant à droite.
+
+#0125
+Q: Pouvez-vous passer un autre véhicule par la droite ?
+1: Oui, lorsque vous roulez plus vite que l'autre véhicule.
+2: Oui, lorsque vous circulez sur une voie réservée aux transports en commun.
+3: Oui, lorsque l'autre véhicule roule lentement.
+4: Oui, lorsque le véhicule qui vous précède met son clignotant à droite.
+
+#0126
+Q: Complétez : un véhicule qui se trouve sur une voie réservée au virage à gauche…
+1: peut être passé par la droite uniquement s'il s'agit d'un véhicule lent.
+2: ne peut pas être passé par la droite.
+3: peut être passé par la droite.
+4: ne peut être passé par la droite qu'avec une voiture particulière.
+
+#0127
+Q: Quel est le statut des mesures administratives de l'Autorité des permis dans le cadre du système de points ?
+1: Elles ne s'appliquent que si le tribunal n'a infligé aucune peine au conducteur.
+2: Elles s'appliquent en plus de toute autre peine infligée par le tribunal pour une infraction routière.
+3: Elles permettent à un officier de police de suspendre le permis pour toute infraction routière.
+4: Elles ne sont prononcées que par le tribunal.
+
+#0128
+Q: Dans quels cas pouvez-vous passer un autre véhicule par la droite ?
+1: Uniquement lorsque vous êtes à moto.
+2: Lorsque vous circulez sur une voie réservée au virage à droite.
+3: Lorsqu'un véhicule roule devant vous, sur la voie de gauche, plus lentement que vous.
+4: Lorsque vous circulez sur une voie réservée au virage à gauche.
+
+#0129
+Q: À quelles conditions est-il permis de dépasser un autre véhicule ?
+1: Uniquement si le véhicule dépassé est un véhicule lent.
+2: Uniquement si le conducteur du véhicule dépassé fait signe à celui qui dépasse.
+3: Uniquement si le véhicule dépassé est une moto.
+4: Lorsque la route est libre et que le dépassement se fait en sécurité, sans gêner d'autre véhicule.
+
+#0130
+Q: Dans quels cas est-il interdit de dépasser ou de tenter de dépasser un autre véhicule ?
+1: En montée.
+2: Lorsque la visibilité est mauvaise ou que le champ de vision est obstrué ou réduit.
+3: À moins de 300 mètres d'un passage à niveau.
+4: La nuit.
+
+#0131
+Q: Est-il permis de dépasser ou de tenter de dépasser un autre véhicule dans les 100 mètres qui précèdent une voie ferrée ?
+1: Oui, à condition qu'aucun train ne soit visible ni audible.
+2: Oui, si le véhicule dépassé est une moto.
+3: Non, c'est strictement interdit.
+4: Oui, si le véhicule dépassé est un tracteur.
+
+#0132
+Q: Complétez : à l'approche d'un passage pour piétons…
+1: ne dépassez pas et ne tentez pas de dépasser un autre véhicule qui se trouve avant le passage.
+2: vous pouvez dépasser s'il n'y a pas de piétons sur le passage.
+3: vous pouvez dépasser sur une chaussée à sens unique.
+4: vous ne pouvez dépasser avant le passage pour piétons qu'en agglomération.
+
+#0133
+Q: Vous traversez une intersection où il n'y a qu'une voie dans chaque sens :
+1: Vous pouvez dépasser prudemment un véhicule de plus de deux roues.
+2: Vous pouvez dépasser, mais vous devez terminer le dépassement après l'intersection.
+3: Vous ne pouvez dépasser qu'un véhicule lent.
+4: Il est interdit de dépasser ou de tenter de dépasser dans les limites de l'intersection (sauf un deux-roues).
+
+#0134
+Q: Dans quels cas vous est-il interdit de dépasser un autre véhicule ?
+1: Sur une route interurbaine à double sens.
+2: Lorsque le véhicule à votre droite roule lentement.
+3: Lorsque vous circulez sur une voie de présélection à gauche.
+4: Lorsque l'autre véhicule s'est arrêté avant une intersection, un passage pour piétons ou un passage à niveau.
+
+#0135
+Q: Comment doit se comporter le conducteur d'un véhicule qui se fait dépasser ?
+1: Le véhicule qui dépasse ne le concerne pas : il continue à rouler normalement.
+2: Il continue sa route sans modifier ni sa vitesse ni sa voie.
+3: Il se serre autant que possible vers le bord de la chaussée et n'accélère pas.
+4: Il s'arrête sur le bord de la route et laisse passer la circulation.
+
+#0136
+Q: Quand un conducteur doit-il rouler sur l'accotement asphalté ?
+1: Lorsqu'il conduit un véhicule utilitaire à moteur dont le poids total autorisé dépasse 10 000 kg.
+2: Lorsqu'il conduit un véhicule à moteur contraint de rouler lentement en raison de sa charge ou de la pente de la route.
+3: Jamais. La loi interdit de rouler sur l'accotement.
+4: Lorsqu'il conduit un autobus dont le poids total autorisé dépasse 10 000 kg.
+
+#0137
+Q: Quelle distance faut-il garder avec le véhicule qui roule devant nous ?
+1: 30 mètres, pour pouvoir s'arrêter en sécurité.
+2: Une distance qui permet de s'arrêter à tout moment et d'éviter un accident.
+3: 40 mètres, pour éviter un accident.
+4: Au moins trois secondes.
+
+#0138
+Q: Selon la loi, quelle est la distance minimale à garder avec le véhicule qui roule devant vous ?
+1: Au moins deux secondes de trajet.
+2: Au moins trois secondes de trajet (en comptant « 21… 22… 23 »).
+3: Au moins une seconde de trajet.
+4: Au moins 22 mètres.
+
+#0139
+Q: Qu'est-ce qu'une vitesse raisonnable ?
+1: N'importe quelle vitesse, du moment que le conducteur maîtrise parfaitement le véhicule.
+2: Une vitesse qui permet au conducteur de maîtriser le véhicule compte tenu de toutes les circonstances, sans dépasser la limite fixée par la loi.
+3: 80 km/h sur route revêtue et 40 km/h sur chemin de terre.
+4: La vitesse maximale que le véhicule peut atteindre dans les conditions du moment.
+
+#0140
+Q: Dans quelles conditions et dans quelle situation devez-vous ralentir ?
+1: En passant sous un pont.
+2: Lorsqu'un danger menace votre véhicule, des usagers de la route ou des biens.
+3: Sur une chaussée à double sens comportant quatre voies.
+4: En entrant sur une voie d'accélération.
+
+#0141
+Q: Dans quels cas la loi impose-t-elle de ralentir ?
+1: Dans un endroit ombragé par une allée de grands arbres.
+2: À l'approche d'un endroit où l'on craint une activité criminelle.
+3: Avant et pendant un dépassement, pour plus de sécurité.
+4: Sur une route encombrée, où la visibilité est réduite ou qui comporte des virages serrés.
+
+#0142
+Q: Lorsque vous arrivez à l'endroit montré sur la photo, vous devez :
+1: klaxonner.
+2: ralentir.
+3: accélérer.
+4: vous arrêter.
+
+#0143
+Q: Dans quels cas doit-on ralentir ?
+1: Lorsqu'on croise ou dépasse des animaux.
+2: Il n'y a pas d'obligation de ralentir, seulement de conduire prudemment.
+3: On ne doit ralentir qu'en agglomération.
+4: On ne doit ralentir que lorsque la circulation est dense.
+
+#0144
+Q: D'après la photo, vous devez :
+1: vous arrêter.
+2: ralentir.
+3: klaxonner.
+4: accélérer.
+
+#0145
+Q: Quand est-il permis de faire un freinage d'urgence ?
+1: Pour éviter un accident qu'on ne peut éviter autrement.
+2: Lorsque la route est en mauvais état.
+3: Après avoir fait un signal de détresse au véhicule qui vous suit.
+4: Lorsque la vitesse n'est pas adaptée aux conditions de la route.
+
+#0146
+Q: Est-il permis de faire un freinage d'urgence pour une autre raison que d'éviter un accident ?
+1: Oui, mais uniquement sur une route revêtue, à 200 mètres des habitations.
+2: Oui, après avoir fait un signal de détresse au véhicule qui vous suit.
+3: Oui, pour tester les freins, à condition de ne pas gêner ni mettre en danger les autres usagers de la route.
+4: Oui, mais uniquement sur un chemin de terre, à 200 mètres des habitations.
+
+#0147
+Q: Quels véhicules peuvent emprunter une voie rapide ?
+1: Tous les véhicules, motorisés ou non.
+2: Uniquement les véhicules à moteur privés.
+3: Les véhicules à moteur autorisés à rouler, et capables de rouler, à la vitesse indiquée sur le panneau ou plus vite.
+4: Tous les véhicules à moteur, sauf les poids lourds dont la vitesse risque de gêner la circulation.
+
+#0148
+Q: Quelle est la vitesse maximale autorisée pour un quad ?
+1: 30 km/h.
+2: 60 km/h sur voie rapide et 40 km/h sur les autres routes.
+3: 40 km/h sur toutes les routes.
+4: 50 km/h sur toutes les routes.
+
+#0149
+Q: Selon la loi, quand faut-il soumettre le véhicule au contrôle technique (« test ») ?
+1: Chaque année, ou selon toute autre périodicité fixée par la loi.
+2: Tous les deux ans, pour tous les types de véhicules.
+3: Tous les deux ans pour les véhicules utilitaires et chaque année pour les motos.
+4: Tous les deux ans pour toutes les voitures particulières, quel que soit leur âge.
+
+#0150
+Q: Quelle est la vitesse maximale autorisée pour une voiture particulière sur une voie rapide (sauf panneau contraire) ?
+1: 90 km/h.
+2: 110 km/h.
+3: 80 km/h.
+4: 100 km/h.
+
+#0151
+Q: Quelle est la vitesse maximale autorisée pour une voiture particulière hors agglomération, sur une route bordée d'un terre-plein construit sur toute sa longueur (sauf panneau contraire) ?
+1: 110 km/h.
+2: 90 km/h.
+3: 100 km/h.
+4: 80 km/h.
+
+#0152
+Q: Quelle est la vitesse maximale autorisée pour une voiture particulière (sauf panneau contraire) ?
+1: En agglomération, selon les conditions ; hors agglomération, 100 km/h.
+2: En agglomération, 50 km/h ; hors agglomération, 70 km/h.
+3: En agglomération, 40 km/h ; hors agglomération, 80 km/h.
+4: En agglomération, 50 km/h ; hors agglomération, 80 km/h.
+
+#0153
+Q: Le panneau de la photo est placé sur votre route. Que signifie-t-il ?
+1: C'est une limitation de vitesse destinée aux deux-roues et aux charrettes à bras.
+2: C'est une limitation de vitesse destinée uniquement aux véhicules de transport public.
+3: Il est interdit de rouler à moins de 40 km/h.
+4: Il est interdit de rouler à plus de 40 km/h.
+
+#0154
+Q: Quelle est la vitesse maximale autorisée dans une zone résidentielle ?
+1: 30 km/h.
+2: 40 km/h.
+3: 10 km/h.
+4: 20 km/h.
+
+#0155
+Q: Que doit faire le conducteur à l'approche d'un passage à niveau ?
+1: Ralentir de façon à pouvoir s'arrêter avant la voie ferrée.
+2: Continuer normalement : il n'y a pas d'obligation de ralentir.
+3: S'arrêter avant la voie ferrée, à au moins un mètre des rails.
+4: S'arrêter, ouvrir les fenêtres et écouter.
+
+#0156
+Q: Que doit faire le conducteur à l'approche d'un passage à niveau protégé par une barrière et équipé de feux ?
+1: Il doit toujours ralentir.
+2: Se comporter normalement : la prudence n'est obligatoire que si un train est en vue ou s'entend.
+3: Seulement éteindre la radio du véhicule.
+4: Se comporter normalement : à un passage avec barrière, on peut être moins vigilant.
+
+#0157
+Q: Où devez-vous arrêter votre véhicule avant un passage à niveau, lorsque l'arrêt est obligatoire ?
+1: Après la ligne d'arrêt, à huit mètres du rail le plus proche.
+2: Avant la ligne d'arrêt ; à défaut de ligne, avant la barrière ; à défaut de barrière, au moins quatre mètres avant le rail le plus proche.
+3: À l'endroit où la visibilité est la meilleure, sans gêner le passage du train.
+4: Avant la barrière ; à défaut de barrière, six mètres avant le rail le plus proche.
+
+#0158
+Q: Vous approchez d'un passage à niveau et un train est en vue, s'entend ou émet un signal d'avertissement :
+1: Arrêtez-vous avant le passage jusqu'à ce que le train soit passé.
+2: Traversez le passage prudemment, à une vitesse adaptée.
+3: Accélérez et traversez avant le train, avec prudence et vigilance.
+4: Si le train est loin, traversez rapidement.
+
+#0159
+Q: Comment devez-vous agir lorsqu'un panneau « Stop » est placé avant un passage à niveau ?
+1: Arrêtez-vous comme à tout panneau « Stop », puis repartez.
+2: Vous ne devez vous arrêter que si un train approche, est en vue ou s'entend.
+3: L'arrêt est obligatoire la nuit, pas le jour.
+4: Arrêtez votre véhicule, éteignez la radio, la télévision ou le lecteur de cassettes et ouvrez la vitre la plus proche de vous.
+
+#0160
+Q: Peut-on franchir un passage à niveau lorsque la barrière est en mouvement, qu'elle descende ou qu'elle monte ?
+1: Oui, à condition de conduire prudemment.
+2: Oui, lorsque la barrière a commencé à se relever.
+3: Oui, tant que la barrière n'est pas arrivée en position basse et verrouillée.
+4: Non, tant que la barrière est en mouvement dans un sens ou dans l'autre, ou qu'elle est en position horizontale.
+
+#0161
+Q: Dans quels cas doit-on s'arrêter avant un passage à niveau ?
+1: Lorsqu'un train est en vue, s'entend ou émet un signal d'avertissement.
+2: Il n'y a pas d'obligation de s'arrêter : c'est au conducteur de juger s'il doit s'arrêter quand un train est en vue et approche.
+3: Lorsqu'un panneau « Cédez le passage à la circulation sur la route transversale » est placé.
+4: Lorsqu'un panneau « Passage à niveau » est placé.
+
+#0162
+Q: Vous approchez d'un passage à niveau et, avant que vous y soyez arrivé, un signal d'avertissement se déclenche. Que devez-vous faire ?
+1: Ralentir uniquement si vous voyez un train approcher.
+2: Ignorer le signal et continuer : vous étiez là avant le signal.
+3: Vous arrêter et ne pas continuer.
+4: Ralentir seulement si un agent de signalisation actionne un signal d'avertissement.
+
+#0163
+Q: Dans quels cas devez-vous mettre votre clignotant ?
+1: Uniquement pour tourner à gauche aux intersections.
+2: Lorsque vous vous apprêtez à démarrer, à tourner ou à changer de voie.
+3: Uniquement avant un virage serré.
+4: À l'approche d'un passage à niveau ou d'un passage pour piétons.
+
+#0164
+Q: Est-il obligatoire de mettre son clignotant pour se déporter à droite ou à gauche de sa voie ?
+1: Non, si le déport est important et que tous les conducteurs le remarquent.
+2: Non, il n'est pas obligatoire de le mettre en changeant de voie.
+3: Non, pour un léger déport de la voie.
+4: Oui, avant tout déport de sa voie, et jusqu'à la fin de la manœuvre.
+
+#0165
+Q: Quand et où faut-il actionner le clignotant ?
+1: À 150 mètres avant le virage.
+2: Uniquement lorsque d'autres usagers de la route se trouvent à proximité.
+3: Uniquement avant de tourner à droite ou à gauche.
+4: À un endroit et à un moment tels que les autres usagers de la route le remarquent.
+
+#0166
+Q: Par quel moyen signale-t-on un freinage ?
+1: En sortant la main droite par la vitre gauche.
+2: En sortant la main droite par la vitre droite.
+3: En actionnant les quatre clignotants.
+4: Par l'allumage des feux stop.
+
+#0167
+Q: Si les clignotants électriques ne fonctionnent plus, est-il permis de signaler autrement ?
+1: Il faut signaler avec le bras, mais seulement par beau temps.
+2: Il faut signaler avec le bras, mais seulement la nuit.
+3: Non. Il faut obligatoirement utiliser le clignotant.
+4: Dans ce cas, il faut signaler avec le bras.
+
+#0168
+Q: Comment devez-vous agir lorsque les clignotants électriques ne fonctionnent plus ?
+1: On peut continuer à rouler pendant la « période d'éclairage », mais pas le reste du temps.
+2: Il ne faut pas continuer à rouler.
+3: Signaler avec le bras gauche, comme le prévoit la loi.
+4: On peut rouler jusqu'au garage le plus proche sans rien signaler, même là où c'est obligatoire.
+
+#0169
+Q: Comment devons-nous agir lorsque nous suivons un véhicule qui met son clignotant ?
+1: Permettre au conducteur qui nous précède d'effectuer la manœuvre annoncée, en ralentissant, voire en nous arrêtant si nécessaire.
+2: Continuer en accélérant pour réduire la durée du conflit.
+3: Continuer sans ralentir : c'est à celui qui signale de gérer.
+4: Se serrer sur le côté droit de la chaussée.
+
+#0170
+Q: Lorsqu'on utilise l'avertisseur sonore (klaxon) :
+1: le signal ne doit pas durer plus longtemps que nécessaire.
+2: le signal doit être donné à un rythme rapide et régulier.
+3: le signal doit être un coup long et continu.
+4: la loi impose au moins trois coups.
+
+#0171
+Q: Dans quelles situations est-il permis de klaxonner en agglomération ?
+1: Uniquement pour éviter un danger imminent qui ne peut être évité autrement.
+2: Dans toutes les situations, à condition que le signal soit long et régulier.
+3: Uniquement avec un avertisseur pneumatique.
+4: Dans toutes les situations, en agglomération.
+
+#0172
+Q: L'illustration montre une route large. Quel numéro désigne la route ?
+1: 1
+2: 8
+3: 3
+4: 2
+
+#0173
+Q: Comment devez-vous agir en sortant d'une propriété ou d'un accès privé, au moment de franchir le trottoir ?
+1: Toujours vous arrêter et céder le passage aux piétons qui traversent la chaussée.
+2: Ralentir, voire vous arrêter si nécessaire, pour permettre aux piétons de passer en sécurité.
+3: Appliquer la règle « premier arrivé, premier sorti » : les piétons attendront.
+4: Toujours vous arrêter et céder le passage aux véhicules venant de gauche qui approchent de la sortie.
+
+#0174
+Q: Comment devez-vous agir en sortant d'une propriété ou d'un accès privé, au moment de vous engager sur la route ou de la traverser ?
+1: Céder le passage aux véhicules qui approchent sur la chaussée où vous vous engagez.
+2: À une telle sortie, les règles de priorité sont les mêmes qu'à une intersection.
+3: Vous ne devez céder le passage qu'aux véhicules venant de droite.
+4: Céder le passage aux véhicules qui s'éloignent sur la chaussée où vous vous engagez.
+
+#0175
+Q: À qui devez-vous céder le passage lorsque vous tournez à gauche à une intersection sans aucun panneau ?
+1: Au véhicule le plus rapide.
+2: Uniquement au véhicule venant en face.
+3: Uniquement au véhicule venant de gauche.
+4: Au véhicule venant en face et au véhicule venant de droite.
+
+#0176
+Q: Laquelle des rues de l'illustration est une chaussée à sens unique ?
+1: La rue A et la rue C.
+2: La rue C uniquement.
+3: La rue A.
+4: La rue B et la rue C.
+
+#0177
+Q: Comment devez-vous agir en sortant d'une propriété ou d'une station-service ?
+1: Vous arrêter et céder le passage aux véhicules venant de gauche qui approchent de la sortie.
+2: Ralentir, voire vous arrêter si nécessaire, pour permettre aux piétons de passer en sécurité.
+3: Appliquer la règle « premier arrivé, premier sorti » : les piétons attendront.
+4: Il n'existe pas de règles claires pour la sortie d'une propriété ou d'une station-service.
+
+#0178
+Q: Comment devez-vous agir en sortant d'une propriété, d'une station-service ou d'un accès privé ?
+1: Céder le passage uniquement aux véhicules venant de gauche.
+2: Céder le passage uniquement aux véhicules venant de droite.
+3: Céder le passage aux véhicules qui approchent sur la chaussée où vous vous engagez et aux piétons sur le trottoir.
+4: À une telle sortie, les règles de priorité sont les mêmes qu'à une intersection.
+
+#0179
+Q: Comment agissez-vous à l'approche de l'intersection montrée sur la photo ?
+1: Toujours accélérer en entrant dans l'intersection pour ne pas gêner la circulation.
+2: Ralentir, voire s'arrêter si nécessaire, pour céder le passage.
+3: Franchir rapidement l'endroit.
+4: S'arrêter dans tous les cas.
+
+#0180
+Q: Comment agissez-vous dans la situation montrée sur la photo ?
+1: Accélérer pour céder le passage au véhicule de droite.
+2: Franchir rapidement l'endroit et s'insérer dans la circulation.
+3: Céder le passage à la circulation sur la chaussée à votre gauche.
+4: S'arrêter et céder le passage.

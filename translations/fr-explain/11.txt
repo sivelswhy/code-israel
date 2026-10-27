@@ -1,0 +1,216 @@
+#0661
+E: Le marquage jaune en zigzag le long du trottoir réserve l'arrêt à un type de véhicule (souvent les bus) là où il n'y a pas d'encoche dans le trottoir.
+
+#0662
+E: Ce marquage jaune et rouge délimite une encoche où seul le type de véhicule indiqué par le panneau peut s'arrêter (par exemple un arrêt de bus).
+
+#0663
+E: Les lignes blanches perpendiculaires ou obliques délimitent des places : on ne stationne qu'à l'intérieur du marquage.
+R: T75
+
+#0664
+E: Feu rouge (701) : arrêt obligatoire avant la ligne d'arrêt. Contrairement à l'orange, il n'y a pas d'exception « si je ne peux pas m'arrêter ».
+R: T64(ה)
+
+#0665
+E: Rouge + orange (702) : restez arrêté tant que le rouge est allumé ; préparez-vous seulement à repartir.
+R: T64(ה)
+
+#0666
+E: Le vert (703) permet d'avancer, à condition que l'intersection soit libre : on n'entre pas si l'on risque d'y rester bloqué.
+R: T65
+
+#0667
+E: Orange fixe (705) : arrêtez-vous comme au rouge, sauf si vous ne pouvez plus le faire en sécurité (vous êtes trop près) ; dans ce cas, dégagez l'intersection.
+
+#0668
+E: Orange clignotant (706) : le feu ne règle plus la circulation ; avancez prudemment selon les panneaux et les règles de priorité.
+R: T64(ה); T22(ב)
+
+#0669
+E: Une flèche verte n'autorise que la direction de la flèche ; les autres directions restent fermées.
+
+#0670
+E: Flèches obliques au-dessus des voies : votre voie se termine, insérez-vous dans la voie voisine indiquée.
+R: T64(ו)
+
+#0671
+E: Des pneus usés évacuent mal l'eau : sur chaussée mouillée, le risque d'aquaplanage et de dérapage augmente fortement. Ce sont justement les rainures profondes qui protègent.
+
+#0672
+E: Feu orange clignotant près d'un passage pour piétons (avec la silhouette d'un piéton) : avancez prudemment et laissez traverser les piétons en sécurité.
+R: T64(ה)
+
+#0673
+E: Deux feux rouges qui clignotent en alternance signalent l'approche d'un train à un passage à niveau : arrêt obligatoire tant qu'ils clignotent.
+R: T56(א)(3)
+
+#0674
+E: Sur la photo, les feux du passage à niveau clignotent : arrêtez-vous avant le passage et ne repartez pas tant qu'ils clignotent, même si vous ne voyez pas de train.
+R: T56(א)(3)
+
+#0675
+E: Flèche verte vers le bas au-dessus d'une voie (724) : cette voie est ouverte, vous pouvez y rouler.
+
+#0676
+E: Même signal en version lumineuse (724פ) : voie ouverte.
+
+#0677
+E: Croix rouge au-dessus d'une voie (723) : voie fermée, il est interdit d'y rouler.
+
+#0678
+E: La croix rouge au-dessus de votre voie signifie que cette voie est fermée (accident, travaux, sens alterné).
+
+#0679
+E: Croix rouge lumineuse (723פ) au-dessus de votre voie : n'y entrez pas et quittez-la si vous y êtes.
+
+#0680
+E: La barrière rouge et blanche (404) protège un passage à niveau.
+
+#0681
+E: Barrière baissée (ou en mouvement) : arrêtez-vous devant et attendez qu'elle soit levée. La contourner est extrêmement dangereux et interdit.
+R: T56(א)(4)
+
+#0682
+E: Bordures noir et blanc : simple marquage de visibilité pour les trottoirs et îlots ; il n'impose aucune restriction.
+
+#0683
+E: Balises à bandes obliques noir et blanc (149) : elles signalent un passage étroit ou un obstacle à contourner.
+
+#0684
+E: Les chevrons (118) placés en face, à une intersection en T : ralentissez et allez seulement dans les directions des flèches (à droite ou à gauche).
+
+#0685
+E: Le 116 : intersection en T à gauche.
+
+#0686
+E: Ouvrier qui pelle (901) : travaux sur la route.
+
+#0687
+E: Il faut toujours serrer le frein de stationnement lorsqu'on laisse un véhicule stationné, même sur le plat.
+R: T74(ב)
+
+#0688
+E: Les pneus d'un même essieu doivent être de même dimension, conformes aux instructions du constructeur, pour que le véhicule reste stable et freine droit.
+
+#0689
+E: Le frein de stationnement sert à immobiliser le véhicule à l'arrêt ; ce n'est pas un frein de route.
+
+#0690
+E: Les balises au bord de la route (148) guident le conducteur : catadioptre carré à droite, deux catadioptres ronds à gauche.
+
+#0691
+E: Panneaux et marquages ORANGE = chantier : ils remplacent temporairement la signalisation habituelle.
+
+#0692
+E: Si le frein au pied ne répond plus, utilisez progressivement le frein de stationnement (en rétrogradant si possible) pour ralentir le véhicule.
+
+#0693
+E: Au feu rouge : avant la ligne d'arrêt ; sans ligne, avant le passage pour piétons ; sinon, près du feu.
+R: T64(ה)
+
+#0694
+E: Le 435 : interdiction de stationner, dans la zone, pour les véhicules utilitaires de plus de 10 000 kg (poids total autorisé).
+R: T72(ג)
+
+#0695
+E: Une interdiction de zone (435) s'applique jusqu'au panneau qui l'annule (436), et non jusqu'à la prochaine intersection.
+
+#0696
+E: Ceintures, appuie-tête et airbags sont des équipements de « sécurité passive » : ils réduisent la gravité des blessures en cas de choc.
+
+#0697
+E: Vous tournez à gauche (clignotant gauche allumé). Quand on tourne à gauche, on cède le passage au véhicule venant en face : la voiture bleue (1). La voiture rouge (2) vient de votre gauche et doit vous céder le passage.
+R: T64(א)(1); T64(א)(2)
+
+#0698
+E: Pas de panneau : le cycliste (1) vient de votre droite, il a la priorité. Un vélo est un véhicule et bénéficie des mêmes règles de priorité.
+R: T64(א)(1)
+
+#0699
+E: Vous tournez à gauche : vous cédez le passage au motocycliste (1) qui vient de droite ET au cycliste (2) qui vient en face.
+R: T64(א)(1); T64(א)(2)
+
+#0700
+E: Sans panneau, chacun cède le passage à celui qui vient de sa droite : la voiture verte (1) vient de votre droite et passe d'abord ; vous passez ensuite ; la voiture rouge (2), qui vous a à sa droite, passe en dernier.
+R: T64(א)(1)
+
+#0701
+E: Vous tournez à gauche : vous cédez au camion qui vient en face (1) et à la voiture qui vient de droite (2). Entre eux, le camion est à droite de la voiture : il passe le premier.
+R: T64(א)(1); T64(א)(2)
+
+#0702
+E: Le cycliste (1) vient de votre droite : il passe en premier. Le motocycliste (2), à votre gauche, doit vous céder le passage.
+R: T64(א)(1)
+
+#0703
+E: Vous tournez à gauche : vous passez en dernier. Le cycliste (2) passe avant la voiture rouge (1) selon la règle de la priorité à droite entre eux.
+R: T64(א)
+
+#0704
+E: La voiture bleue (1) a un « Cédez le passage » : elle passe après les autres. Entre le motocycliste (2) et vous, l'ordre officiel est : le motocycliste (2), la voiture bleue (1), puis vous (3).
+R: T64(א); T64(ג)
+
+#0705
+E: Le véhicule de pompiers (2) n'est pas en mission (pas de gyrophare ni de sirène) : il n'a aucune priorité particulière. Vous allez tout droit et passez en premier ; le cycliste (1), qui tourne, passe en dernier.
+R: T64(א); T1:רכב ביטחון
+
+#0706
+E: Au giratoire (panneau 303), on cède toujours le passage à ceux qui y circulent déjà, cyclistes compris.
+R: T64(ז)
+
+#0707
+E: Vous tournez à gauche : cédez le passage à la voiture verte (1) qui vient en face. La rouge (2), à votre gauche, n'est pas prioritaire sur vous.
+R: T64(א)(2)
+
+#0708
+E: Le panneau « Cédez le passage » (301) est de votre côté : vous devez céder le passage aux véhicules de la route transversale, des deux côtés — le tracteur (1) et le camion (2).
+R: T64(ג)
+
+#0709
+E: Vous avez un « Cédez le passage » : vous cédez à tous ceux qui circulent sur la route transversale, le bus (1) et la moto (2).
+R: T64(ג)
+
+#0710
+E: Le « Cédez le passage » vise la voiture rouge (2). Vous tournez à gauche : vous cédez seulement au motocycliste (1) qui vient en face.
+R: T64(א)(2); T64(ג)
+
+#0711
+E: Vous tournez à gauche : vous cédez au motocycliste qui vient en face (1) et à l'autobus qui vient de droite (2).
+R: T64(א)(1); T64(א)(2)
+
+#0712
+E: Le bus (1) a un panneau « Stop » ; vous tournez à gauche. Selon la banque officielle, c'est le cycliste (2) qui entre en premier.
+R: T64(א); T64(ד)
+
+#0714
+E: Vous (2) avez un « Cédez le passage » : vous devez laisser passer la voiture rouge (1) de la route principale, même si elle tourne.
+R: T64(ג)
+
+#0715
+E: C'est la voiture jaune (1) qui a le panneau « Cédez le passage » : elle doit vous laisser passer. Continuez prudemment en gardant le contact visuel.
+R: T64(ג)
+
+#0716
+E: La voiture bleue (1) a un « Cédez le passage » : elle passe en dernier. Le tracteur (2) vient de votre gauche : vous passez avant lui, même en tournant à gauche.
+R: T64(א)(1); T64(ג)
+
+#0717
+E: C'est vous qui avez le « Cédez le passage » : vous passez en dernier. Entre les deux autres, la voiture rouge (1) passe avant la moto (2).
+R: T64(ג)
+
+#0718
+E: Le camion (2) a un « Cédez le passage » ; vous tournez à gauche : cédez seulement à la voiture particulière (1) qui vient en face.
+R: T64(א)(2); T64(ג)
+
+#0719
+E: Les deux autres véhicules ont un panneau « Cédez le passage » : vous avez la priorité, en restant prudent.
+R: T64(ג)
+
+#0720
+E: Les panneaux « Sens interdit » visent ceux qui voudraient entrer dans cette rue, pas le motocycliste qui en sort. Il vient de votre droite : cédez-lui le passage.
+R: T64(א)(1)
+
+#0721
+E: Au giratoire, la voiture rouge (1) circule déjà dans l'anneau : vous devez lui céder le passage.
+R: T64(ז)

@@ -1,0 +1,419 @@
+#0301
+Q: Une canette de bière a-t-elle moins d'effet sur le conducteur qu'un petit verre de whisky ?
+1: Non. La bière n'est pas une boisson susceptible d'influencer la conduite.
+2: Oui. La bière contient plus d'alcool que le whisky.
+3: Non. Les deux ont à peu près le même effet sur la capacité de conduire.
+4: Non. La quantité de bière est plus grande, son effet est donc plus fort.
+
+#0302
+Q: « La bière n'est pas considérée comme une boisson alcoolisée » :
+1: Vrai. La bière est une boisson alcoolisée, mais elle n'a aucun effet sur la conduite.
+2: Vrai. La bière n'est pas considérée comme une boisson alcoolisée.
+3: Faux. L'effet de la bière est semblable à celui de toute autre boisson alcoolisée.
+4: Vrai, mais l'effet de la bière n'est pas semblable à celui des autres boissons alcoolisées.
+
+#0303
+Q: « La loi n'interdit pas de conduire sous l'emprise de stupéfiants (illicites) » :
+1: Faux. La loi interdit expressément de conduire avec une certaine quantité de stupéfiants dans le sang.
+2: Vrai. La loi n'interdit que la conduite sous l'emprise de l'alcool.
+3: Faux. La loi interdit expressément de conduire sous l'emprise de stupéfiants.
+4: Vrai, puisque la consommation de stupéfiants n'est pas interdite par la loi.
+
+#0304
+Q: Un véhicule qui perd de l'huile ou qui émet de la fumée au-delà de la normale :
+1: Il est interdit de le conduire.
+2: Il est interdit d'y transporter des passagers.
+3: On peut le conduire à faible vitesse, sans dépasser 40 km/h.
+4: Il est interdit d'y transporter un chargement.
+
+#0305
+Q: Un contrôle d'alcoolémie à l'éthylomètre est-il recevable comme preuve devant un tribunal ?
+1: Non, seul un test salivaire est accepté comme preuve fiable.
+2: Oui.
+3: Non, seule une prise de sang est recevable.
+4: Non, seul un contrôle d'alcoolémie réalisé à l'hôpital est recevable.
+
+#0306
+Q: Un policier peut-il exiger d'un conducteur une prise de sang pour vérifier la présence d'alcool ou de stupéfiants ?
+1: Non. Le policier ne peut exiger aucun contrôle sans décision de justice.
+2: Non. Un policier ne peut jamais exiger aucun contrôle d'un conducteur.
+3: Oui, s'il soupçonne raisonnablement que le conducteur conduit sous l'emprise de l'alcool ou de stupéfiants.
+4: Non. Un policier ne peut pas exiger de prise de sang pour mesurer l'alcool ou les stupéfiants.
+
+#0307
+Q: Un conducteur peut-il refuser un contrôle d'alcoolémie demandé par un policier ?
+1: Oui, car le policier représente le système de santé et non la loi.
+2: Oui, en vertu de la loi sur la protection de la vie privée.
+3: Non. Il est interdit de refuser de souffler dans un éthylomètre ou de fournir un échantillon de sang, d'urine ou de salive.
+4: Oui, car le contrôle est contraire à la Loi fondamentale sur la dignité et la liberté de la personne.
+
+#0308
+Q: Un conducteur dont le taux d'alcool dans le sang dépasse le seuil légal est-il considéré comme ivre ?
+1: Non. Une personne peu affectée par une petite quantité d'alcool n'est pas considérée comme ivre, quelle que soit la quantité.
+2: Non. La notion d'« ivresse » n'est pas définie par la loi.
+3: Non. Seul celui qui se comporte comme un ivrogne est considéré comme ivre.
+4: Oui, même s'il n'a commis aucune autre infraction.
+
+#0309
+Q: « On peut conduire si l'on ne boit qu'un seul type de boisson alcoolisée, sans mélanger » : vrai ou faux ?
+1: Vrai. L'alcool n'affecte la conduite que lorsqu'on mélange des boissons différentes.
+2: Vrai. Il faut veiller à ne pas mélanger les boissons avant de conduire.
+3: Faux. Ce qui compte, c'est le taux d'alcool dans le sang par rapport au seuil fixé par la loi.
+4: Vrai. On peut boire beaucoup d'un seul type de boisson alcoolisée sans être ivre.
+
+#0310
+Q: Pourquoi les panneaux ci-contre ont-ils une forme particulière, différente des autres panneaux ?
+1: Pour les rendre plus visibles et permettre de les reconnaître et de les interpréter correctement même par mauvaise visibilité.
+2: Parce que ces deux panneaux sont moins importants que les autres.
+3: Pour permettre aux piétons de les remarquer même s'ils ne sont pas tournés vers eux.
+4: Parce que ces deux panneaux sont plus importants que les autres.
+
+#0311
+Q: « L'alcool ralentit les réflexes du conducteur » : vrai ou faux ?
+1: Faux. L'alcool améliore l'humeur.
+2: Faux. L'alcool améliore la concentration.
+3: Faux. Il n'y a aucun lien entre l'alcool et les réflexes du conducteur.
+4: Vrai.
+
+#0312
+Q: « L'alcool altère réellement le jugement, et le conducteur prend davantage de risques » : vrai ou faux ?
+1: Vrai.
+2: Faux. L'alcool améliore la conduite.
+3: C'est rarement vrai.
+4: C'est parfois vrai.
+
+#0313
+Q: « L'alcool perturbe la coordination des mouvements » : vrai ou faux ?
+1: Vrai.
+2: C'est parfois vrai.
+3: C'est rarement vrai.
+4: Faux.
+
+#0314
+Q: « Boire beaucoup d'alcool perturbe la vision périphérique et le champ de vision » : vrai ou faux ?
+1: Faux.
+2: Vrai.
+3: C'est vrai seulement chez les jeunes.
+4: Vrai, mais cela dépend du type de véhicule conduit.
+
+#0315
+Q: « L'alcool allonge le temps de récupération après un éblouissement » : vrai ou faux ?
+1: Vrai.
+2: C'est vrai seulement chez les jeunes.
+3: Faux.
+4: C'est vrai seulement chez les porteurs de lunettes.
+
+#0316
+Q: « L'alcool réduit l'acuité visuelle » : vrai ou faux ?
+1: Vrai, mais seulement la nuit.
+2: Vrai.
+3: C'est vrai seulement chez les porteurs de lunettes.
+4: Faux.
+
+#0317
+Q: « L'alcool altère la capacité à évaluer les distances et les vitesses » : vrai ou faux ?
+1: Vrai.
+2: C'est vrai seulement chez les porteurs de lunettes.
+3: L'alcool n'altère le jugement que chez les jeunes conducteurs.
+4: C'est parfois vrai.
+
+#0318
+Q: L'alcool provoque-t-il la somnolence ?
+1: Oui.
+2: Seulement chez les jeunes conducteurs.
+3: Seulement lorsqu'on conduit de jour.
+4: Non.
+
+#0319
+Q: « Une boisson alcoolisée nuit aux réflexes du conducteur » : vrai ou faux ?
+1: Vrai. L'alcool est un dépresseur.
+2: Faux. L'alcool améliore l'humeur et la conduite.
+3: Faux. L'alcool a un effet positif.
+4: Faux. Le conducteur ivre sent bien qu'il ne peut pas conduire.
+
+#0320
+Q: Quels véhicules doivent être équipés de « cales de sécurité » ?
+1: Tout véhicule à moteur dont le poids total autorisé dépasse 5 000 kg, sauf les autobus.
+2: Tout véhicule utilitaire, quel que soit son poids, sauf les autobus.
+3: Uniquement les véhicules dont le poids total autorisé est de 4 000 kg ou moins, autobus compris.
+4: Tout véhicule dont le poids total autorisé est de 3 500 kg ou moins, sauf les autobus.
+
+#0321
+Q: Quelle est la longueur totale autorisée d'un véhicule utilitaire dont le poids total autorisé dépasse 12 000 kg ?
+1: 11,70 mètres.
+2: 12 mètres.
+3: 10 mètres.
+4: 11 mètres.
+
+#0322
+Q: Combien de passagers peut-on transporter dans un véhicule utilitaire dont le poids total autorisé dépasse 3 500 kg ?
+1: Jusqu'à six passagers, sans compter ceux assis à côté du conducteur.
+2: Autant que de places assises dans la cabine uniquement.
+3: Un seul passager, assis à côté du conducteur.
+4: Le nombre indiqué sur le permis de conduire.
+
+#0323
+Q: Le titulaire d'un permis de conduire ou d'une carte grise qui change d'adresse doit le signaler dans les 15 jours :
+1: à la police israélienne.
+2: au tribunal.
+3: au ministère des Transports.
+4: au ministère de l'Intérieur.
+
+#0324
+Q: Quand faut-il obligatoirement actionner le ralentisseur dont le véhicule est équipé ?
+1: Sur un tronçon précédé d'un panneau signalant un risque de dérapage.
+2: Sur un tronçon précédé d'un panneau signalant une descente dangereuse.
+3: Sur un tronçon précédé d'un panneau signalant un virage serré.
+4: Sur un tronçon précédé d'un panneau signalant une succession de virages.
+
+#0325
+Q: Que peut faire un policier qui constate que le chargement d'un véhicule utilitaire dépasse le poids autorisé ?
+1: Conduire le propriétaire au bureau des permis le plus proche pour suspendre son permis pendant 30 jours.
+2: Remettre au conducteur un avis d'interdiction d'utilisation du véhicule pour 30 jours.
+3: Remettre au conducteur un avis d'interdiction d'utilisation du véhicule pour 90 jours.
+4: Ordonner au conducteur de retourner immédiatement au point de chargement et de décharger toute la marchandise.
+
+#0326
+Q: Qui est responsable du chargement d'un véhicule, de sa stabilité et de la bonne répartition de son poids ?
+1: Le propriétaire du véhicule uniquement.
+2: Le conducteur et le propriétaire du véhicule.
+3: Le conducteur et le cariste.
+4: Le cariste uniquement.
+
+#0327
+Q: Dans quels cas une personne ne peut-elle pas obtenir ou renouveler un permis de conduire ?
+1: Lorsqu'elle a fait l'objet d'une interdiction d'obtenir un permis, ou qu'on a découvert chez elle des problèmes de santé qui la mettent en danger, elle et les autres.
+2: Lorsqu'elle a purgé une peine d'un an de prison pour conduite en état d'ivresse avant de déposer sa demande.
+3: Lorsqu'elle ne sait ni lire ni écrire.
+4: Lorsqu'il s'agit d'un nouvel immigrant venant d'un pays sans code de la route habituel.
+
+#0328
+Q: Quelle catégorie de permis faut-il pour conduire un tracteur ?
+1: Catégorie B.
+2: Catégorie C.
+3: Catégorie D.
+4: Catégorie 1.
+
+#0329
+Q: Quelle catégorie de permis faut-il pour conduire un véhicule à moteur dont le poids total ne dépasse pas 3 500 kg ?
+1: A1
+2: B
+3: A
+4: 1
+
+#0330
+Q: Quelle remorque le titulaire d'un permis B peut-il tracter avec un véhicule autorisé au remorquage ?
+1: Une remorque dont le poids total autorisé ne dépasse pas 1 500 kg.
+2: Aucune : le titulaire de ce permis ne peut pas tracter de remorque.
+3: Une remorque dont le poids total autorisé dépasse 1 500 kg.
+4: Une remorque dont le poids total autorisé ne dépasse pas 2 000 kg.
+
+#0331
+Q: Qui peut conduire un « véhicule d'urgence » ou un « véhicule de dépannage » ?
+1: Celui qui a reçu un permis du ministère de la Défense.
+2: Celui qui a reçu une autorisation à cet effet de l'Autorité des permis.
+3: Celui qui a reçu une autorisation du commissaire en chef des pompiers.
+4: Celui qui a reçu une autorisation du ministère de la Santé.
+
+#0332
+Q: Quand la loi oblige-t-elle le conducteur à « réduire la vitesse du véhicule » ?
+1: Lorsqu'il est fatigué.
+2: Avant de terminer un dépassement sur une chaussée à double sens.
+3: Lorsqu'il approche de la vitesse maximale autorisée.
+4: Chaque fois qu'un danger menace des usagers de la route ou des biens.
+
+#0333
+Q: Quel est l'âge minimum pour obtenir un permis de catégorie B ?
+1: 16 ans, avec l'accord des parents.
+2: 17 ans et demi.
+3: 16 ans.
+4: 17 ans.
+
+#0334
+Q: Quel est l'âge minimum pour obtenir un permis de catégorie 1 ?
+1: 19 ans.
+2: 18 ans.
+3: 16 ans.
+4: 17 ans.
+
+#0335
+Q: L'Autorité des permis peut-elle suspendre ou retirer le permis de conduire de son titulaire ?
+1: Non, seul un tribunal le peut.
+2: Oui, pour des raisons d'aptitude à la conduite ou d'aptitude médicale.
+3: Oui, à sa guise et pour n'importe quelle raison.
+4: Non, seule la police israélienne le peut.
+
+#0336
+Q: L'Autorité des permis peut-elle convoquer un titulaire de permis à une formation de conduite ?
+1: Non. Seule la police israélienne peut ordonner une telle convocation.
+2: Oui, la loi le lui permet.
+3: Non, elle n'en a pas le droit.
+4: Oui, mais seulement dans les deux ans suivant l'obtention du permis.
+
+#0337
+Q: Que doit faire un conducteur lorsque son état de santé change ?
+1: Le signaler immédiatement au ministère de la Santé.
+2: Le signaler immédiatement à l'Autorité des permis.
+3: Le signaler au bureau des permis uniquement si le changement résulte d'un accident de la route.
+4: Le signaler au bureau des permis dans les 20 jours.
+
+#0338
+Q: Quand doit-on obligatoirement placer un triangle de signalisation ?
+1: Chaque fois qu'on est obligé d'immobiliser un véhicule sur la route.
+2: Uniquement lorsqu'on immobilise un véhicule en panne sur une chaussée en agglomération.
+3: Uniquement lorsqu'on immobilise un véhicule en panne pendant plus de 24 heures.
+4: Uniquement lorsqu'on laisse un véhicule en panne sans surveillance.
+
+#0339
+Q: La durée de validité du permis d'un « nouveau conducteur » est de :
+1: deux ans.
+2: un an seulement.
+3: cinq ans.
+4: dix ans.
+
+#0340
+Q: Comment signale-t-on une machine agricole de plus de 340 cm de large ?
+1: Par un triangle blanc à l'avant et un triangle blanc bordé de rouge à l'arrière.
+2: Par une plaque à l'arrière portant « Attention, chargement hors gabarit » et, pendant la période d'éclairage, des triangles réfléchissants.
+3: Par une plaque à l'avant portant « Attention, véhicule large » et, pendant la période d'éclairage, des feux d'encombrement.
+4: Par des feux d'encombrement jaunes clignotants visibles à 150 mètres, de jour comme de nuit.
+
+#0341
+Q: À quelles conditions l'Autorité des permis enregistre-t-elle un changement de propriétaire d'un véhicule ?
+1: Seulement après une attestation du registre des gages certifiant que le véhicule n'est grevé d'aucune saisie ni d'aucun gage.
+2: Après que l'acheteur a payé la taxe légale, y compris la taxe foncière sur la place de stationnement.
+3: Après qu'il lui a été prouvé que toutes les taxes et impôts ont été payés, que toute saisie ou tout gage a été levé et qu'il n'existe aucune autre restriction.
+4: Après que le vendeur a payé et présenté une attestation du registre des gages.
+
+#0342
+Q: Selon la loi, qui est responsable de l'enregistrement d'un changement de propriétaire ?
+1: L'acheteur uniquement.
+2: Le propriétaire enregistré et l'acheteur.
+3: Le gérant du centre de contrôle technique.
+4: Le vendeur uniquement.
+
+#0343
+Q: Que doit faire le propriétaire d'un véhicule qui cesse de l'utiliser pendant plus d'un mois ?
+1: Le signaler à l'Autorité des permis.
+2: Le signaler à la police.
+3: Le signaler à la municipalité.
+4: Laisser le véhicule dans un garage agréé.
+
+#0344
+Q: Combien de plaques d'immatriculation doivent être installées sur une voiture particulière ?
+1: Une seule, à l'avant.
+2: Deux plaques réglementaires, une à l'avant et une à l'arrière.
+3: Le nombre fixé par le propriétaire.
+4: Une seule, à l'arrière.
+
+#0345
+Q: Qui peut convoquer un véhicule à un contrôle technique ?
+1: Un contrôleur de l'Autorité des permis, ainsi qu'un policier muni d'une carte de contrôleur de la circulation.
+2: Le directeur du département de normalisation de l'Institut israélien de normalisation.
+3: Un inspecteur municipal, un agent des Travaux publics ou un policier muni de sa carte de police.
+4: Tout gérant de garage agréé.
+
+#0346
+Q: Un contrôleur technique ou un policier muni d'une carte de contrôleur qui constate des défauts techniques sur un véhicule peut :
+1: remettre au conducteur un avis d'interdiction d'utilisation du véhicule et lui retirer la carte grise.
+2: ne rien faire : ni un contrôleur ni un policier n'ont le pouvoir de contrôler un véhicule sur la route.
+3: convoquer le propriétaire pour un entretien à l'Association des garagistes.
+4: envoyer le véhicule à un centre de contrôle pour un contrôle semestriel supplémentaire.
+
+#0347
+Q: À quelles conditions peut-on installer des feux en plus de ceux dont le véhicule est équipé ?
+1: À condition qu'ils soient installés par un électricien agréé.
+2: À condition qu'ils soient conformes à la nouvelle norme européenne.
+3: Uniquement avec l'autorisation de l'Autorité des permis.
+4: On peut installer des feux supplémentaires symétriques.
+
+#0348
+Q: Un compteur de vitesse en état de marche est-il obligatoire ?
+1: Non. Il suffit de respecter les limitations de vitesse.
+2: Non. C'est au choix du conducteur.
+3: Pas toujours, seulement dans un véhicule équipé d'un chronotachygraphe.
+4: Oui, en permanence.
+
+#0349
+Q: Que signifie ce panneau ?
+1: Fin de la zone de la station de taxis.
+2: Début de la zone de la station de taxis.
+3: Station de taxis ; l'entrée dans la rue où se trouve le panneau est interdite.
+4: Station de taxis ; l'arrêt et le stationnement des autres véhicules sont interdits.
+
+#0350
+Q: Une chaussée à sens unique est :
+1: une chaussée où la circulation n'est permise que dans un seul sens.
+2: une route qui n'a qu'une seule voie.
+3: une chaussée où tous les véhicules peuvent circuler dans un sens et seuls les véhicules de transport public dans l'autre.
+4: une voie sans issue.
+
+#0351
+Q: Selon la loi, la « période d'éclairage » est :
+1: la nuit et tout autre moment où la visibilité est normale.
+2: la nuit et tout autre moment où la visibilité est mauvaise.
+3: la période allant du lever au coucher du soleil.
+4: uniquement la période allant du coucher au lever du soleil.
+
+#0352
+Q: Dans quels véhicules un extincteur est-il obligatoire ?
+1: Dans tout véhicule privé.
+2: Dans tout véhicule, sauf les véhicules privés, les tracteurs, les motos et les tricycles à moteur.
+3: Dans tout véhicule dont le poids total ne dépasse pas 3 500 kg.
+4: Dans les tracteurs.
+
+#0353
+Q: Est-il obligatoire d'installer une poubelle dans une voiture particulière ?
+1: Non. C'est obligatoire uniquement dans les véhicules de transport public.
+2: Non, ce n'est pas obligatoire.
+3: Oui. Il faut installer une poubelle d'un modèle agréé par l'Autorité des permis.
+4: Oui, mais seulement dans les véhicules utilitaires.
+
+#0354
+Q: L'utilisation d'un écran visible par le conducteur, à l'exception des écrans de contrôle et de navigation du véhicule (GPS) :
+1: est interdite tant que le véhicule roule.
+2: est permise si le conducteur porte des lunettes de protection.
+3: est interdite, même lorsque le véhicule est stationné.
+4: est permise, pour détendre le conducteur et les passagers.
+
+#0355
+Q: Quel panneau impose toujours l'arrêt ?
+1: 302
+2: 124
+3: 102
+4: 301
+
+#0356
+Q: Lequel de ces panneaux avertit le conducteur d'adapter sa conduite à l'état de la chaussée ?
+1: 139
+2: 114
+3: 147
+4: 101
+
+#0357
+Q: Sur une chaussée à double sens obstruée par un bâtiment ou un poteau, comment faut-il contourner l'obstacle ?
+1: Peu importe le côté, l'essentiel est de le contourner.
+2: En tenant compte de l'état de la route.
+3: Par la droite, sauf si un panneau indique le contraire.
+4: Uniquement par la gauche.
+
+#0358
+Q: Quel panneau annonce un changement du nombre de voies sur la chaussée ?
+1: 109
+2: 622
+3: 145
+4: Les quatre panneaux.
+
+#0359
+Q: Quel panneau limite l'accès des véhicules, avec ou sans chargement haut ?
+1: 417
+2: 145
+3: 150
+4: 416
+
+#0360
+Q: Le panneau 118 est placé à une intersection. Quel panneau sera placé à une distance raisonnable avant l'intersection ?
+1: 208
+2: 207
+3: 117
+4: 205

@@ -1,0 +1,190 @@
+#0481
+E: La prudence s'impose à tout usager de la route, conducteur ou non.
+R: T21(א)
+
+#0482
+E: Ce panneau complémentaire (632, rectangle avec une flèche) précise que le panneau qu'il accompagne ne vaut qu'APRÈS le virage, pour ceux qui tournent dans le sens de la flèche.
+
+#0483
+E: Le panneau de descente dangereuse (140) complété par un panneau 631 « ↑ 2500 ↑ » : les flèches dans les deux sens indiquent la LONGUEUR du tronçon concerné, qui commence ici et dure 2 500 m. Une seule flèche vers le haut (630) indiquerait au contraire une distance avant le danger.
+
+#0484
+E: Le 144 (triangle avec une seule bosse) annonce des ralentisseurs. Ne le confondez pas avec le 101 (deux bosses, chaussée déformée).
+
+#0485
+E: Ralentissez et franchissez les ralentisseurs avec prudence ; passer vite abîme le véhicule et peut en faire perdre le contrôle.
+R: T52
+
+#0486
+E: Le 147 (triangle avec un tracteur) : engins de chantier ou tracteurs qui traversent ou circulent devant vous.
+
+#0487
+E: Ralentissez : un véhicule agricole lourd et lent peut sortir ou se trouver sur la route.
+R: T52
+
+#0488
+E: Le 137 (triangle avec un vélo) : cyclistes qui traversent ou circulent devant vous. Un vélo dans un rond bleu (227) serait une piste cyclable.
+
+#0489
+E: Ralentissez et soyez prêt à croiser des cyclistes ; ils roulent le plus à droite possible.
+R: T52; T128
+
+#0490
+E: Le 401 (rond blanc bordé de rouge, vide) : route fermée à tous les véhicules, dans les deux sens.
+
+#0491
+E: Le 402 (rond rouge à barre blanche) : sens interdit, accès interdit à tout véhicule, car la chaussée est à sens unique dans l'autre sens.
+
+#0492
+E: Le 429 interdit de tourner à gauche et le 428 de tourner à droite à la prochaine intersection. Au-dessus d'un feu, ils interdisent aussi le demi-tour.
+
+#0493
+E: Le panneau barré (421) marque la fin de l'interdiction de dépasser.
+
+#0494
+E: Le 431 interdit le demi-tour par la gauche à la prochaine intersection ; il n'interdit pas de tourner à gauche.
+
+#0495
+E: Le 307 (rond bordé de rouge, flèche rouge vers le haut et flèche noire vers le bas) : la flèche rouge représente votre sens de circulation. Dans le passage étroit, vous devez céder le passage à ceux qui arrivent en face.
+
+#0496
+E: Avec le 307, laissez passer le véhicule qui vient en face sans qu'il ait à s'arrêter ni à dévier : c'est la définition même de « céder le passage ».
+R: T1:מתן זכות קדימה
+
+#0497
+E: Le 420 (deux voitures, la rouge à gauche) interdit de dépasser ou de passer un véhicule à moteur de plus de deux roues roulant dans le même sens. On peut encore dépasser une moto ou un vélo.
+
+#0498
+E: Sous le 420, même une moto ne peut pas dépasser une voiture : l'interdiction vise le véhicule dépassé (plus de deux roues), quel que soit celui qui dépasse.
+
+#0499
+E: Le 422 (camion rouge à gauche) interdit aux véhicules utilitaires de plus de 4 tonnes de dépasser un véhicule à moteur de plus de deux roues ; ils peuvent encore dépasser une moto.
+
+#0500
+E: Le panneau barré avec un camion (423) marque la fin de l'interdiction de dépasser pour les poids lourds.
+
+#0501
+E: Ce panneau (408, voiture dans un rond rouge) interdit l'accès aux véhicules à moteur, sauf les deux-roues (motos sans side-car).
+
+#0502
+E: Le 408 laisse passer les deux-roues à moteur : une moto sans side-car peut entrer.
+
+#0503
+E: Le 409 (moto dans un rond rouge) interdit l'accès aux motos.
+
+#0504
+E: Le 622 (carré bleu) annonce un changement du nombre de voies. Les 109 et 111 signalent un rétrécissement de chaussée, le 145 une circulation à double sens.
+
+#0505
+E: Le 405 (voiture ET moto dans le rond rouge) interdit l'accès à tous les véhicules à moteur, motos comprises.
+
+#0506
+E: Le 405 n'interdit que les véhicules à moteur ; un vélo peut entrer.
+
+#0507
+E: Le 406 (camion avec un tonnage) interdit l'accès aux véhicules UTILITAIRES dont le poids total autorisé dépasse celui indiqué.
+
+#0508
+E: Le 415 (seulement un tonnage, sans camion dessiné) interdit l'accès à TOUT véhicule dont le poids total autorisé dépasse le tonnage indiqué.
+
+#0509
+E: Le 417 (flèches horizontales) interdit l'accès aux véhicules dont la largeur, chargement compris, dépasse la largeur indiquée.
+
+#0510
+E: Le 416 (flèches verticales) concerne la hauteur, chargement compris.
+
+#0511
+E: Le 438 « מכס / DOUANE » impose l'arrêt pour le contrôle des douanes.
+
+#0512
+E: Le 426 (et sa version lumineuse 426פ) fixe une vitesse maximale particulière : interdiction de dépasser la vitesse indiquée.
+
+#0513
+E: Panneau 213 : on peut contourner l'endroit par la droite ou par la gauche ; la flèche jaune indique que le passage par la gauche est réservé aux transports en commun.
+
+#0514
+E: Le panneau de vitesse particulière s'applique jusqu'à la prochaine intersection, ou jusqu'à un autre panneau de vitesse ou de fin de vitesse particulière.
+
+#0515
+E: Le 427 (panneau de vitesse barré) marque la fin de la vitesse particulière.
+
+#0516
+E: À l'approche d'un passage pour piétons marqué, le dépassement est interdit jusqu'à l'avoir franchi.
+R: T47(ה)(3)
+
+#0517
+E: Selon la banque officielle, la longueur maximale d'un autobus ordinaire (non articulé) comme celui de la photo est de 13,5 mètres.
+
+#0518
+E: Le vert clignotant (703) annonce que le vert se termine et que l'orange va apparaître dans environ trois secondes : préparez-vous à vous arrêter.
+
+#0519
+E: Le 424 (maison dans un rond rouge) marque l'entrée en agglomération.
+
+#0520
+E: Après le 424, on est en agglomération : quartiers d'habitation, piétons, et vitesse limitée à 50 km/h sauf panneau contraire.
+R: T52(1)
+
+#0521
+E: En agglomération, la vitesse maximale d'une voiture est de 50 km/h, sauf panneau contraire.
+R: T54(א)
+
+#0522
+E: L'entrée en agglomération (424) vaut jusqu'au panneau de sortie (425).
+
+#0523
+E: Le 212 (flèche de demi-tour) n'autorise que le demi-tour par la gauche. Les 209 et 210 combinent tout droit et demi-tour ; le 303 est un giratoire.
+
+#0524
+E: Le 432 (stationnement interdit) vaut jusqu'à la prochaine intersection, jusqu'à un panneau qui l'annule (434) ou jusqu'à un panneau « stationnement autorisé » (626).
+
+#0525
+E: Le 433 (deux barres croisées) interdit l'arrêt ET le stationnement, du côté où il est placé.
+
+#0526
+E: Le 433 vaut jusqu'à la prochaine intersection, un panneau d'annulation (434) ou un panneau « stationnement autorisé ».
+
+#0527
+E: Le 434 (panneau barré d'une bande noire) marque la fin de l'interdiction : à partir d'ici, l'arrêt et le stationnement redeviennent permis.
+
+#0528
+E: Le 418 (lettre « ל » dans un carré bleu, entouré de rouge) interdit l'accès aux véhicules utilisés pour une leçon de conduite. Le « ל » est la plaque des véhicules d'auto-école.
+
+#0529
+E: Une zone interdite aux leçons de conduite (418) le reste jusqu'au panneau qui l'annule (419).
+
+#0530
+E: Le 419 (version barrée) marque la fin de la zone interdite aux leçons de conduite.
+
+#0531
+E: Le 501 : voie réservée au tramway, aux autobus, aux taxis et aux véhicules transportant au moins le nombre de personnes indiqué (ici 4+).
+
+#0532
+E: La voie réservée vaut jusqu'à la prochaine intersection, ou jusqu'à la fin des rails pour le tramway.
+
+#0533
+E: Le 301 : cédez le passage à la circulation de la route transversale devant vous.
+R: T64(ג)
+
+#0534
+E: Céder le passage, c'est laisser les véhicules de la route transversale continuer sans qu'ils aient à changer de vitesse ni de trajectoire. On ne s'arrête que si nécessaire.
+R: T1:מתן זכות קדימה; T64(ג)
+
+#0535
+E: Au Stop : juste avant la ligne d'arrêt si elle existe ; sinon, là d'où vous voyez la circulation de la route transversale.
+R: T64(ד)
+
+#0536
+E: Un panneau Stop placé seulement à gauche de la chaussée ne concerne que ceux qui tournent à gauche ou font demi-tour par la gauche.
+
+#0537
+E: Le 304 (panneau mobile rouge avec une main) : arrêt obligatoire tant que l'agent le présente.
+
+#0538
+E: Le 305 (panneau mobile vert « GO / סע ») : avancez avec prudence.
+
+#0539
+E: Le 204 (flèche vers la droite qui part du bas) : tournez à droite AVANT le panneau. Le 206 (flèche coudée) indiquerait de tourner après le panneau.
+
+#0540
+E: Le 207 (flèche coudée vers la gauche) : allez à gauche en tournant APRÈS le panneau.

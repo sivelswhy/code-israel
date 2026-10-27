@@ -1,0 +1,235 @@
+#0902
+E: Dans un virage serré, on ralentit AVANT d'y entrer : freiner dans le virage déstabilise le véhicule. On réaccélère doucement à la sortie.
+R: T52(4)
+
+#0903
+E: Ne comptez jamais sur le fait que les autres vous céderont le passage : la prudence s'impose même quand vous êtes prioritaire.
+R: T21(א)
+
+#0904
+E: Le véhicule d'en face a commencé à tourner à gauche : il est déjà engagé. Ralentissez, préparez-vous à vous arrêter et laissez-le terminer son virage.
+R: T52; T64(א)(2)
+
+#0905
+E: Des piétons marchent au bord de la chaussée : ralentissez, déportez-vous à gauche si c'est possible et passez prudemment, en gardant un écart latéral.
+R: T52; T109(א)
+
+#0906
+E: Des enfants près de la chaussée : regardez dans les rétroviseurs, ralentissez et préparez-vous à vous arrêter. Il n'y a pas de panneau de zone résidentielle, donc ne comptez sur aucun régime particulier.
+R: T52(5)
+
+#0907
+E: Pour dépasser un cycliste : ralentir, garder un écart latéral suffisant et surveiller ses mouvements (il peut chanceler ou se déporter).
+R: T47(ד); T52
+
+#0908
+E: Des enfants jouent sur la route : prenez toutes les précautions pour ne pas les heurter, quitte à vous arrêter. Klaxonner ne les « chasse » pas.
+R: T52(5)
+
+#0909
+E: Face à des enfants près de la route : ralentissez, suivez leurs mouvements, regardez dans les rétroviseurs et préparez-vous à vous arrêter.
+R: T52(5)
+
+#0910
+E: Même sans passage marqué, des enfants des deux côtés de la route exigent de ralentir, de les surveiller et de s'arrêter si nécessaire.
+R: T52(5)
+
+#0911
+E: Les deux panneaux de la photo sont contradictoires : l'un autorise ce que l'autre interdit. Une telle situation est impossible : la signalisation ne doit jamais se contredire.
+
+#0912
+E: Les panneaux annoncent un passage à niveau (symbole de locomotive) sur la route qui part à gauche, après avoir tourné.
+
+#0913
+E: Les véhicules ne peuvent repartir qu'une fois la barrière entièrement ouverte et le feu rouge éteint. Repartir dès que la barrière commence à monter est dangereux.
+R: T56(א)(4)
+
+#0914
+E: Un ballon sur la route signifie qu'un enfant peut surgir derrière lui : ralentissez, soyez prudent et préparez-vous à vous arrêter.
+R: T52(5)
+
+#0915
+E: Pour éviter de heurter un piéton sur la chaussée : ralentir et le repérer tôt. Freiner fort et klaxonner longuement ne résout rien.
+R: T52
+
+#0916
+E: Piéton sur la chaussée : ralentissez, préparez-vous à vous arrêter et laissez-le dégager la route.
+R: T52
+
+#0917
+E: Même si le piéton traverse hors du passage, ralentissez, préparez-vous à vous arrêter et laissez-le dégager la route sans danger.
+R: T52
+
+#0918
+E: Face à un piéton qui traverse hors du passage : ralentissez, soyez prudent et ne faites rien qui puisse le mettre en danger ou l'effrayer (klaxon, accélération).
+R: T52
+
+#0919
+E: Une portière ouverte devant vous : ralentissez et préparez-vous à vous arrêter pour ne pas heurter la portière ou la personne qui sort.
+R: T52
+
+#0920
+E: En passant près de véhicules stationnés, gardez un écart latéral suffisant (en vous déportant à gauche si c'est possible) et ralentissez.
+R: T52; T80(א)
+
+#0921
+E: Une rue en agglomération avec des véhicules en stationnement : des piétons peuvent surgir d'entre eux. Ralentissez.
+R: T52(1)
+
+#0922
+E: Autobus arrêté pour faire monter ou descendre des enfants : ralentissez, préparez-vous à vous arrêter et passez lentement à côté.
+R: T52(13)
+
+#0923
+E: On peut dépasser un autobus scolaire arrêté, à condition de prendre toutes les précautions pour ne pas heurter les enfants qui pourraient traverser.
+R: T52(13); T47(ד)
+
+#0924
+E: Piéton en train de traverser : ralentissez, préparez-vous à vous arrêter et laissez-le terminer sa traversée en sécurité.
+R: T67(א)
+
+#0925
+E: Dans cette situation, c'est le conducteur qui doit agir : ralentir et se préparer à s'arrêter. Le piéton n'a pas à s'arrêter.
+R: T67(א)
+
+#0926
+E: Des piétons traversent sur le passage : arrêtez-vous et laissez-les terminer leur traversée.
+R: T67(א)
+
+#0927
+E: Le klaxon n'est permis que pour éviter un danger imminent qu'on ne peut éviter autrement.
+R: T63(ג)
+
+#0928
+E: L'infraction est de s'arrêter sur un terre-plein (îlot) et de gêner la circulation.
+R: T36(ב); T71(1)
+
+#0929
+E: Devant un virage, ralentissez et serrez à droite autant que possible. L'absence de panneau n'autorise pas à rouler vite.
+R: T52(4); T35
+
+#0930
+E: Avant de soulever la voiture pour changer une roue : s'assurer qu'elle ne bougera pas (frein de stationnement serré, cales, rapport engagé).
+R: T74(ג)
+
+#0931
+E: Des fruits écrasés sur la route diminuent l'adhérence, même sur chaussée sèche : ralentissez et conduisez prudemment.
+R: T52
+
+#0932
+E: La camionnette qui tourne à droite doit conduire avec une grande prudence : un autre usager se trouve dans son angle mort, à droite.
+R: T42
+
+#0933
+E: Sur ce tronçon, le champ de vision est limité : ralentissez et serrez à droite.
+R: T52(7); T35
+
+#0934
+E: Le danger immédiat est l'apparition, dans la zone cachée devant vous, d'un véhicule qui roule sur votre voie (en face).
+R: T52(7)
+
+#0935
+E: Quand le voyant des freins s'allume en roulant : arrêtez-vous et ne reprenez pas la route, car les freins peuvent être défaillants.
+R: T27(א)
+
+#0936
+E: Ralentissez et serrez à droite autant que possible, pour garder de l'écart avec la circulation d'en face.
+R: T35; T52
+
+#0937
+E: Hors agglomération, la limite d'une voiture est de 80 km/h, sauf panneau contraire ou route à terre-plein construit.
+R: T54(א)
+
+#0938
+E: Un véhicule sort d'un chemin de terre : il doit vous céder le passage, mais ralentissez et surveillez-le, car il peut ne pas vous avoir vu.
+R: T64(א)(3)
+
+#0939
+E: Les panneaux annoncent l'entrée en agglomération : adaptez la vitesse (50 km/h), cédez le passage à droite aux intersections sans panneau et faites attention aux piétons.
+R: T54(א); T64(א)(1)
+
+#0940
+E: Dans un virage serré, tous les conducteurs ralentissent et restent à l'extrême droite de la chaussée, pour ne pas mordre sur la voie opposée.
+R: T35; T52(4)
+
+#0941
+E: Les panneaux annoncent la fin d'un tronçon de chantier : la limite redevient celle de la route, soit 90 km/h hors agglomération avec terre-plein.
+R: T54(א)
+
+#0942
+E: Vous approchez d'un cycliste : ralentissez, déportez-vous à gauche en gardant un écart latéral et surveillez ses mouvements.
+R: T47(ד); T52
+
+#0943
+E: Les virages devant vous : ralentissez et serrez à droite, sans klaxonner inutilement.
+R: T52(4); T35
+
+#0944
+E: Continuez normalement, mais surveillez les autres véhicules de votre sens de circulation : le nombre de voies change plus loin.
+R: T64(ו)
+
+#0945
+E: Devant ces panneaux annonçant un virage, ralentissez et serrez à droite avant d'y entrer.
+R: T52(4); T35
+
+#0946
+E: Dans un virage : on ralentit avant d'y entrer, puis on accélère doucement en sortie.
+R: T52(4)
+
+#0947
+E: Quand le champ de vision est limité (virage, sommet) : ralentir et rester à droite. On ne dépasse pas.
+R: T52(7); T47(ה)(1)
+
+#0948
+E: Le véhicule stationné dans l'encoche de l'arrêt empêche l'autobus d'y entrer : il gênera donc la circulation quand il s'arrêtera sur la chaussée.
+R: T72(א)(12); T71(1)
+
+#0949
+E: La voiture bleue roule sur la voie de gauche alors qu'elle devrait rouler à droite : on garde la voie de droite sauf pour dépasser ou tourner à gauche.
+R: T35
+
+#0950
+E: Par forte pluie, les feux de brouillard sont permis (en plus du brouillard, de la neige).
+R: T107(ד)
+
+#0951
+E: Avant de sortir d'un véhicule stationné, on s'assure que cela ne gêne ni ne met en danger aucun usager de la route.
+R: T80(א)
+
+#0952
+E: Chaussée mouillée, mauvaise visibilité et circulation dense : conditions de conduite difficiles. Il faut ralentir, garder ses distances et redoubler de prudence.
+R: T51; T49(א)
+
+#0953
+E: Quand un véhicule vous éblouit : passez en feux de croisement, serrez à droite et ralentissez jusqu'à pouvoir vous arrêter. N'éblouissez pas à votre tour.
+R: T99(א)(1); T51
+
+#0954
+E: Un cycliste est instable et déséquilibré par le souffle des véhicules rapides : ralentissez en approchant et déportez-vous à gauche si possible.
+R: T47(ד); T52
+
+#0955
+E: Des véhicules vont s'insérer sur votre voie par la gauche et par la droite : restez attentif des deux côtés.
+R: T64(ו)
+
+#0956
+E: Le nombre de voies diminue (panneau 621/622) : si vous êtes sur la voie qui se termine, passez sur la voie de droite et continuez à rouler à droite.
+R: T64(ו); T35
+
+#0957
+E: Le panneau « Stop » est placé à gauche de la chaussée : il ne concerne que ceux qui tournent à gauche (ou font demi-tour par la gauche).
+
+#0958
+E: Les marquages orange annoncent des travaux sur la route : vitesse limitée et dépassement interdit aux camions.
+R: T23(א)(1א)
+
+#0959
+E: La loi impose que les deux pieds du passager reposent sur les repose-pieds de la moto.
+R: T119(ב1)
+
+#0960
+E: Les panneaux bleus indiquent une voie rapide : la route qui part à droite est une voie rapide (panneau bleu).
+R: T1:דרך מהירה
+
+#0961
+E: Le panneau vert indique une route principale hors agglomération (vers Haïfa), qui n'est pas une voie rapide.

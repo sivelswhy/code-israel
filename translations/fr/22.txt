@@ -1,0 +1,420 @@
+#1322
+Q: Quel véhicule à moteur est autorisé à transporter un conteneur ?
+1: Un véhicule de travail autorisé à transporter des conteneurs.
+2: Un véhicule utilitaire dont le poids total autorisé dépasse 15 000 kg – sur route urbaine uniquement.
+3: Un véhicule utilitaire dont le poids total autorisé dépasse 15 000 kg – sur route non urbaine uniquement.
+4: Un véhicule utilitaire à moteur dont le poids total autorisé est de 16 000 kg ou plus.
+
+#1323
+Q: Quand un accompagnement est-il exigé pour un véhicule qui transporte une charge hors gabarit ?
+1: Quand le véhicule transporte des matières dangereuses.
+2: Quand le véhicule est autorisé à transporter une charge lourde.
+3: Quand la largeur de la charge hors gabarit dépasse 3,00 mètres et sa longueur 20,00 mètres.
+4: Quand la largeur de sa charge dépasse 3,40 mètres.
+
+#1324
+Q: Quel véhicule a besoin de chaînes et de drapeaux (éclairage périphérique) ?
+1: Un véhicule qui transporte des matières dangereuses.
+2: Un véhicule qui transporte une matière qui produit de la poussière.
+3: Un véhicule qui transporte des rouleaux d'acier.
+4: Une remorque ou un semi-remorque sans plancher ni parois.
+
+#1325
+Q: Dans quel véhicule un extincteur est-il obligatoire ?
+1: Dans tout véhicule à moteur, sauf la voiture particulière, le tracteur, la moto et le tricycle à moteur.
+2: Dans tout véhicule utilitaire, l'autobus public et le tracteur.
+3: Uniquement dans tout camion et l'autobus public.
+4: Dans un véhicule à moteur roulant sur plus de deux roues.
+
+#1326
+Q: Vous voulez transporter un conteneur sur une remorque. Quel doit être le poids total autorisé de la remorque pour y transporter un conteneur ?
+1: Au moins 12 000 kg.
+2: Au moins 10 000 kg.
+3: Au moins 15 000 kg.
+4: Au moins 14 000 kg.
+
+#1327
+Q: Qui est responsable de l'arrimage de la charge sur le véhicule et de s'assurer de son bon état ?
+1: Celui qui charge la marchandise.
+2: Le conducteur uniquement.
+3: Le propriétaire enregistré du véhicule.
+4: L'employeur du conducteur.
+
+#1328
+Q: Qui est responsable du bon fonctionnement du limiteur de vitesse installé sur le véhicule ?
+1: Le propriétaire de l'entreprise de transport.
+2: Le conducteur et le propriétaire du véhicule.
+3: Uniquement le propriétaire inscrit sur le permis du véhicule.
+4: Le propriétaire de la charge transportée.
+
+#1329
+Q: Quand faut-il l'autorisation d'un officier de police pour transporter une charge haute ?
+1: Dans un véhicule d'une tonne et demie dont la charge dépasse deux mètres et demi de haut.
+2: Dans un véhicule utilitaire de plus de 4 000 kg.
+3: Dans un véhicule utilitaire de poids total autorisé jusqu'à 15 000 kg dont la charge dépasse quatre mètres de haut au-dessus du sol.
+4: Dans un véhicule utilitaire de poids total autorisé supérieur à 15 000 kg dont la charge dépasse 4,80 mètres de haut au-dessus du sol.
+
+#1330
+Q: Qui peut donner l'autorisation de transporter une charge hors gabarit dans un véhicule dont le poids total autorisé dépasse 15 000 kg ?
+1: Le bureau des permis.
+2: Uniquement un officier de police.
+3: Un officier de sécurité routière.
+4: Le directeur général du département des travaux publics.
+
+#1331
+Q: Sur quelle partie du semi-remorque charge-t-on un conteneur de 6,10 mètres de long ?
+1: Sur sa partie arrière – et seulement s'il y a des dispositifs de verrouillage rotatifs (twist-lock) appropriés.
+2: Un tel conteneur ne se transporte jamais sur un semi-remorque.
+3: Sur sa partie arrière – même sans verrous twist-lock.
+4: Sur sa partie avant.
+
+#1332
+Q: Lorsque vous appuyez sur la pédale de frein lors d'un freinage d'urgence :
+1: Le véhicule s'arrête sur place.
+2: Le véhicule s'arrête sur place seulement à 50 km/h ou moins.
+3: La distance d'arrêt du véhicule est fixe et ne dépend pas de la vitesse.
+4: Le véhicule continue de rouler sur une certaine distance jusqu'à l'arrêt complet.
+
+#1333
+Q: Aucun permis n'est délivré ni renouvelé pour un véhicule de dépannage et de remorquage dont le poids total autorisé ne dépasse pas 16 000 kg :
+1: Au bout de dix ans à compter de son année de fabrication.
+2: Au bout de 19 ans à compter de son année de fabrication.
+3: La loi ne limite pas le renouvellement du permis d'un tel véhicule.
+4: Au bout de huit ans à compter de son année de fabrication.
+
+#1334
+Q: Quelle est la hauteur maximale d'une charge (au-dessus de la route) que peut transporter un véhicule utilitaire dont le poids total ne dépasse pas 3 500 kg ?
+1: Trois mètres et demi.
+2: Quatre mètres.
+3: Trois mètres.
+4: Deux mètres et demi.
+
+#1335
+Q: Quelle est la hauteur maximale (au-dessus de la route) d'une charge que peut transporter un véhicule utilitaire dont le poids total ne dépasse pas 8 000 kg ?
+1: Deux mètres et demi.
+2: Trois mètres et demi.
+3: Quatre mètres.
+4: Trois mètres.
+
+#1336
+Q: Un conducteur compte faire demi-tour sur un tronçon de route droit. Il doit d'abord s'assurer (selon la loi) :
+1: Qu'il n'a pas de matière dangereuse dans la charge du véhicule.
+2: Que le demi-tour se fait à un endroit qui n'est pas avant une crête de la route.
+3: Qu'il commence le demi-tour de la voie la plus à droite.
+4: Qu'il commence le demi-tour de la voie la plus à gauche.
+
+#1337
+Q: Quand est-il obligatoire d'allumer le feu clignotant jaune au-dessus de la cabine d'un camion ?
+1: Lors du transport de matériel périssable.
+2: Quand la largeur de la charge dépasse 2,80 mètres.
+3: Quand la largeur de la charge dépasse trois mètres.
+4: Quand la largeur de la charge est de trois mètres ou moins.
+
+#1338
+Q: La « hauteur totale » d'un véhicule se mesure :
+1: De la hauteur du plancher de la benne au point le plus haut du camion.
+2: Du sol au point le plus haut du véhicule, avec tous ses accessoires, véhicule non chargé.
+3: Du sol au point le plus haut du véhicule, avec tous ses accessoires, véhicule chargé.
+4: Du sol à la hauteur du toit de la cabine du conducteur.
+
+#1339
+Q: Qu'est-ce que le « poids total autorisé » :
+1: Le poids total est un poids fixe : poids léger – 3 500 kg. Poids moyen – 12 000 kg. Poids lourd – 15 000 kg.
+2: Le poids à vide du véhicule, sans le poids des personnes et de la charge que l'autorité des permis a autorisé le véhicule à transporter.
+3: Le poids à vide du véhicule plus le poids de la charge que l'autorité des permis a autorisé le véhicule à transporter, sans le poids du conducteur et des passagers à côté de lui.
+4: Le poids à vide du véhicule plus le poids des personnes et de la charge que l'autorité des permis a autorisé le véhicule à transporter.
+
+#1340
+Q: Définissez le « poids à vide » :
+1: Le poids du véhicule avec charge et sans conducteur, y compris le poids de tous les accessoires du véhicule et le poids du carburant, de l'eau et de l'huile qu'il contient.
+2: Le poids du véhicule sans charge et sans conducteur, y compris le poids de tous les accessoires du véhicule et le poids du carburant, de l'eau et de l'huile qu'il contient.
+3: Le poids du véhicule avec charge et avec conducteur, y compris le poids de tous les accessoires et du carburant qu'il contient.
+4: Le volume du véhicule sans charge et sans conducteur, y compris le poids de tous les accessoires du véhicule et le poids du carburant, de l'eau et de l'huile qu'il contient.
+
+#1341
+Q: Qu'est-ce qu'un « véhicule du désert » ?
+1: Tout véhicule privé à traction avant et arrière indiqué sur le permis comme véhicule du désert.
+2: Un véhicule public à quatre roues motrices, avec une carrosserie standard, indiqué sur le permis du véhicule comme véhicule du désert.
+3: Un véhicule de transport de marchandises à traction avant indiqué sur le permis de conduire comme véhicule du désert.
+4: Un véhicule utilitaire intégré indiqué sur le permis comme véhicule du désert.
+
+#1342
+Q: Définissez le « véhicule de transport de marchandises » :
+1: Un véhicule à moteur qui sert – ou est destiné par sa construction à servir – au transport de marchandises.
+2: Un véhicule utilitaire à moteur destiné au transport contre rémunération, ce qui est indiqué sur le permis du véhicule.
+3: Un véhicule à moteur servant au transport de marchandises et pesant plus de 8 000 kg.
+4: Un véhicule à moteur servant au transport de passagers et de marchandises.
+
+#1343
+Q: Quelle est la vitesse maximale autorisée pour un véhicule de travail et pour un véhicule utilitaire dont le poids total autorisé dépasse 12 000 kg ?
+1: 50 km/h sur route urbaine et 90 km/h sur route avec terre-plein construit.
+2: La vitesse autorisée pour tout autre véhicule circulant sur la route.
+3: 50 km/h sur route urbaine et 80 km/h sur toute autre route.
+4: 40 km/h sur route urbaine, 80 km/h sur route non urbaine et 90 km/h sur route avec terre-plein construit.
+
+#1344
+Q: La vitesse maximale autorisée sur voie rapide est de 110 km/h. Lequel des véhicules suivants n'a pas le droit de rouler à cette vitesse ?
+1: Un véhicule utilitaire dont le poids total autorisé dépasse 10 000 kg.
+2: Un véhicule utilitaire dont le poids total autorisé dépasse 12 000 kg, un véhicule de travail, une tiyoulit et un véhicule lent.
+3: Tout véhicule dont le poids total autorisé dépasse 12 000 kg.
+4: Tout véhicule dont le poids total autorisé dépasse 8 000 kg.
+
+#1345
+Q: La catégorie de permis nécessaire pour conduire un véhicule utilitaire à moteur dont le poids total autorisé ne dépasse pas 12 000 kg est :
+1: A1
+2: D
+3: C1
+4: B
+
+#1346
+Q: La catégorie de permis nécessaire pour conduire un véhicule utilitaire à moteur dont le poids total autorisé dépasse 12 000 kg est :
+1: D
+2: B
+3: C1
+4: C
+
+#1347
+Q: La catégorie de permis nécessaire pour conduire un véhicule utilitaire de plus de 3 500 kg de poids total auquel est attelé une remorque ou un semi-remorque de 4 000 kg :
+1: B
+2: C+E
+3: D
+4: C1
+
+#1348
+Q: Quel panneau signifie « voie rapide » ?
+1: Le panneau 217.
+2: Le panneau 216.
+3: Le panneau 219.
+4: Le panneau 218.
+
+#1349
+Q: Qu'est-ce qu'un « véhicule utilitaire » ?
+1: Tout véhicule qui transporte des passagers ou une charge quelconque.
+2: Tout véhicule qui transporte une charge quelconque.
+3: Un véhicule qui sert – ou est destiné à servir – au transport de marchandises contre rémunération ou à l'activité de son propriétaire.
+4: Un véhicule qui sert alternativement au transport de charges et au transport de passagers contre rémunération.
+
+#1350
+Q: Qu'est-ce qu'un « véhicule de travail » ?
+1: Un véhicule destiné au transport de passagers et pouvant aussi servir à des travaux sur la route.
+2: Un véhicule dont la vitesse ne dépasse pas 40 km/h et qui sert à des travaux sur la route.
+3: Un véhicule sur lequel est monté un équipement servant à effectuer un travail et qui n'est pas destiné au transport de charges ni de passagers.
+4: Un véhicule servant au transport de marchandises contre rémunération.
+
+#1351
+Q: Selon la loi, une remorque dont le poids total autorisé dépasse 4 000 kg doit avoir :
+1: Une « plaque d'immatriculation supplémentaire » installée à l'arrière de la remorque.
+2: Des plaques d'immatriculation de taille double de celle des plaques ordinaires.
+3: Une « plaque d'immatriculation supplémentaire » installée à l'avant de la remorque.
+4: Une remorque de ce poids n'a pas du tout besoin de plaques d'immatriculation.
+
+#1352
+Q: Sur une remorque ou un semi-remorque, il faut poser sur la paroi arrière des plaques réfléchissantes pour la sécurité. Lequel des énoncés suivants est correct ?
+1: Sur un véhicule de plus de 200 cm de large, il faut poser trois plaques rouges/jaunes.
+2: La pose des plaques ne se fait que sur exigence du bureau des permis et selon les directives de l'examinateur en chef.
+3: Il faut poser une plaque de 30 cm × 60 cm au centre de la paroi arrière.
+4: Sur un véhicule de plus de 150 cm de large, il faut poser deux plaques : le cadre en rouge et le reste en jaune.
+
+#1353
+Q: Comment signale-t-on un véhicule utilitaire de plus de 7 500 kg de poids total ?
+1: Par deux plaques réfléchissantes à l'arrière.
+2: Par quatre bandes réfléchissantes, deux verticales et deux horizontales.
+3: Un véhicule sans paroi arrière n'a pas l'obligation d'être signalé par des réflecteurs.
+4: Par deux bandes fluorescentes sur le pare-chocs arrière.
+
+#1354
+Q: Quelle est la distance exigée entre la cabine du tracteur et la paroi avant du semi-remorque sur un véhicule de type « tracteur » ?
+1: La distance dépend de la longueur du tracteur et de la position de la sellette, et ne sera pas inférieure à 400 cm.
+2: La distance entre le semi-remorque et le tracteur ne dépassera pas 150 cm.
+3: Une distance qui permet le mouvement des deux dans toutes les directions sans se heurter, et qui permet le libre mouvement des raccords dans un virage maximal.
+4: Une distance qui doit permettre le libre mouvement des tuyaux d'air du système de freinage, et pas plus de 50 cm.
+
+#1355
+Q: Qu'est-ce que la « cinquième roue » sur un véhicule de type « tracteur » ?
+1: Un dispositif destiné à lever la cabine pour l'entretien du moteur, en forme de roue.
+2: Un dispositif (plaque) destiné à relier le semi-remorque au tracteur.
+3: Une roue de secours à remplacer en cas de crevaison.
+4: Une expression populaire désignant le volant.
+
+#1356
+Q: Les phares avant du véhicule éclaireront la route d'une lumière :
+1: De couleur uniforme, blanche ou jaune clair.
+2: De couleur uniforme, rouge ou jaune clair.
+3: De couleur uniforme, bleue ou jaune clair.
+4: Blanche ou jaune clair, pas nécessairement de couleur uniforme.
+
+#1357
+Q: Quelles sont les exigences concernant les chaînes installées entre la remorque et le véhicule tracteur ?
+1: Elles doivent permettre la mise à la terre de l'électricité statique accumulée dans le véhicule pendant la marche.
+2: Leurs maillons doivent avoir au moins 12 mm d'épaisseur.
+3: Elles doivent empêcher la formation d'un angle de 90 degrés (la lettre « L ») entre le tracteur et la remorque.
+4: Elles doivent permettre à la remorque de braquer d'au moins 90 degrés par rapport au tracteur.
+
+#1358
+Q: Dans un véhicule articulé, la distance entre l'arrière du véhicule tracteur et l'avant de la remorque ne dépassera pas :
+1: 250 cm.
+2: 400 cm.
+3: 150 cm.
+4: Il n'y a pas de limite à la distance entre le tracteur et la remorque.
+
+#1359
+Q: Quel véhicule utilitaire a besoin d'un « permis de remorquage » pour remorquer ?
+1: Un véhicule dont le poids total autorisé dépasse 6 000 kg.
+2: Un véhicule dont le poids total autorisé dépasse 10 000 kg.
+3: Un véhicule dont le poids total autorisé dépasse 3 500 kg.
+4: Un véhicule dont le poids total autorisé dépasse 8 000 kg.
+
+#1360
+Q: Dans quels véhicules des extincteurs doivent-ils se trouver ?
+1: Dans un véhicule à moteur, sauf la voiture particulière, le tracteur et la moto.
+2: Dans tout véhicule à moteur.
+3: Uniquement dans les véhicules à deux roues.
+4: Uniquement dans la voiture particulière.
+
+#1361
+Q: Quel véhicule doit avoir des chaînes ou câbles et des feux pendant les « heures d'éclairage » ?
+1: Un véhicule dont la longueur totale dépasse 20 mètres et la largeur dépasse trois mètres.
+2: Un véhicule dont des charges longues dépassent du plateau de chargement.
+3: Tout véhicule qui transporte une charge hors gabarit et qui exige l'autorisation d'un officier de police.
+4: Une remorque ou un semi-remorque de plus de 120 cm de large, destiné au transport de charges longues et sans plancher ni parois.
+
+#1362
+Q: Les cales de sécurité sont obligatoires :
+1: Dans tout véhicule à moteur dont le poids total autorisé dépasse 5 000 kg.
+2: Dans tout véhicule à moteur dont le poids total autorisé dépasse 4 000 kg, sauf l'autobus et le véhicule utilitaire intégré.
+3: Dans tout véhicule à moteur dont le poids total autorisé dépasse 5 000 kg, sauf l'autobus.
+4: Uniquement dans un véhicule de type tracteur routier et dans un véhicule articulé.
+
+#1363
+Q: Dans quel véhicule qui a dû être immobilisé sur une route non urbaine pendant les « heures d'éclairage » doit-on allumer les feux de détresse ou placer un feu jaune clignotant ?
+1: Un véhicule utilitaire de plus de 3 000 kg de poids total et aussi l'autobus.
+2: Tout véhicule, sauf la voiture particulière et un véhicule destiné au transport de passagers.
+3: Un véhicule de transport de marchandises de plus de 12 000 kg de poids total.
+4: Tout véhicule à moteur dont le poids total autorisé dépasse 3 500 kg, l'autobus et le véhicule de travail.
+
+#1364
+Q: De quelle distance la lumière clignotante de la lampe jaune portative doit-elle être visible pendant les « heures d'éclairage » par beau temps ?
+1: 30 mètres.
+2: 75 mètres.
+3: 150 mètres.
+4: 100 mètres.
+
+#1365
+Q: Quel véhicule utilitaire doit avoir un limiteur de vitesse ?
+1: Tout véhicule utilitaire.
+2: Un véhicule dont le poids total autorisé dépasse 12 000 kg, un tracteur routier et un véhicule de travail.
+3: Un véhicule utilitaire dont le poids total autorisé va jusqu'à 8 000 kg.
+4: Un véhicule utilitaire dont le poids total autorisé va jusqu'à 10 000 kg.
+
+#1366
+Q: Quel véhicule doit avoir des bavettes garde-boue ?
+1: Uniquement un véhicule servant au transport de marchandises.
+2: Tout véhicule servant au transport en vrac.
+3: Uniquement un véhicule utilitaire de plus de 4 000 kg.
+4: Tout véhicule dont les roues arrière ne sont pas protégées par des ailes, sauf un véhicule lent et un tracteur.
+
+#1367
+Q: Quels types de véhicules doivent avoir un dispositif de protection contre l'encastrement par l'arrière ?
+1: Un véhicule de transport de marchandises, une remorque et un semi-remorque de 3 500 kg de poids total ou moins.
+2: Un véhicule de transport de marchandises dont le porte-à-faux arrière représente 60 pour cent de l'empattement.
+3: Un véhicule de transport de marchandises, une remorque, un semi-remorque et un véhicule de travail dont le poids total autorisé dépasse 3 500 kg.
+4: Un véhicule articulé, un véhicule utilitaire intégré et un véhicule composé de plus de 15 000 kg de poids total.
+
+#1368
+Q: Comment la loi définit-elle le « véhicule public » ?
+1: Un véhicule qui sert – ou est destiné à servir – au transport de passagers contre rémunération.
+2: Tout véhicule appartenant à une société publique.
+3: Une voiture particulière adaptée au transport de personnes et qui transporte contre rémunération.
+4: Un véhicule appartenant à la collectivité.
+
+#1369
+Q: Selon la loi, une troisième plaque d'immatriculation est obligatoire sur un véhicule de type :
+1: Camion à plateau basculant (« mesa rakhin »).
+2: Tout véhicule utilitaire dont le poids total autorisé va jusqu'à 7 500 kg.
+3: Tout véhicule utilitaire et le tracteur de transport.
+4: Tout véhicule utilitaire dont le poids total autorisé va jusqu'à 3 500 kg.
+
+#1370
+Q: Dans quel véhicule est-il obligatoire d'installer un avertisseur de marche arrière ?
+1: Tout véhicule de transport de marchandises doit avoir un avertisseur.
+2: Dans un véhicule dont le poids total autorisé dépasse 4 000 kg.
+3: Dans un véhicule utilitaire et un véhicule de travail dont le poids total autorisé dépasse 15 000 kg, un tracteur et un autobus.
+4: Dans un véhicule dont le poids total autorisé est de 12 000 kg ou moins.
+
+#1371
+Q: Les feux de gabarit sont obligatoires :
+1: Sur tout véhicule de transport de marchandises.
+2: Uniquement sur un véhicule articulé ou un semi-remorque.
+3: Sur un véhicule dont la largeur totale autorisée est de 180 cm ou moins.
+4: Sur un véhicule de 210 cm de large ou plus.
+
+#1372
+Q: Faut-il aussi installer des feux de position sur un véhicule qui a des feux de gabarit ?
+1: Non. Sur un véhicule qui a des feux de gabarit, il n'est pas obligatoire d'installer des feux de position.
+2: Oui. Les feux de gabarit sont de couleur différente et ne peuvent pas remplacer le feu de position.
+3: Oui, c'est obligatoire – au cas où les feux de gabarit tomberaient en panne.
+4: Oui. Il est obligatoire d'installer un feu de position sur tout véhicule, sans rapport avec les feux de gabarit.
+
+#1373
+Q: À partir de quel poids d'une remorque et d'un semi-remorque faut-il installer un frein autonome ?
+1: Il est obligatoire d'installer un frein autonome sur tout semi-remorque et toute remorque, quel que soit leur poids.
+2: Sur une remorque et un semi-remorque dont le poids total autorisé est d'au moins 19 000 kg.
+3: Sur une remorque et un semi-remorque dont le poids total autorisé est d'au moins 3 000 kg.
+4: Sur une remorque et un semi-remorque dont le poids total autorisé est de 8 000 kg et plus.
+
+#1374
+Q: Il est obligatoire d'installer un système antiblocage des roues ABS sur un véhicule utilitaire dont le poids total autorisé est :
+1: De 10 000 kg ou moins.
+2: De 8 000 kg ou moins.
+3: De 12 000 kg ou plus.
+4: De 4 000 kg ou plus.
+
+#1375
+Q: Il est obligatoire d'installer un frein moteur sur un véhicule utilitaire et un véhicule de travail dont le poids total autorisé est :
+1: D'au moins 12 000 kg.
+2: De 4 500 kg ou plus.
+3: De n'importe quel poids total autorisé.
+4: De 8 000 kg ou plus.
+
+#1376
+Q: Expliquez la notion de « freins de service » :
+1: Un système de frein auxiliaire (de stationnement) agissant uniquement sur les roues de l'essieu arrière, pour éviter un accident.
+2: Un système de freinage qui n'agit qu'en cas de danger et arrête le véhicule jusqu'à l'arrêt complet.
+3: Un système de freinage qui agit sur toutes les roues du véhicule et permet de ralentir ou d'arrêter le véhicule dans toutes les conditions de route.
+4: Un système de freinage qui ralentit le véhicule dans les descentes très raides, mais ne sert pas à l'arrêt.
+
+#1377
+Q: Expliquez la notion de « frein autonome » :
+1: Le dispositif que le conducteur actionne en descendant une longue pente raide.
+2: Un dispositif qui actionne le système de freinage de manière autonome lorsque la pression d'air dans le système de freinage tombe sous la pression requise.
+3: Un dispositif qui fait agir le système de freinage sur chaque roue de manière autonome.
+4: Un dispositif du système de freinage qui exerce un freinage indépendant sur chaque roue en cas de dérapage.
+
+#1378
+Q: Qu'est-ce qu'un « ralentisseur de vitesse » (retarder) ?
+1: Un système électronique qui actionne automatiquement les freins dans une descente raide, évitant ainsi l'échauffement et la perte des freins.
+2: Un mécanisme électrique ou hydraulique qui n'est pas lié au système de freinage du véhicule et sert à ralentir le véhicule lorsqu'il est actionné.
+3: Un système installé sur le véhicule, qui aide au freinage d'urgence et arrête le véhicule sur place.
+4: Un mécanisme électrique installé dans le système de freinage, qui coupe le moteur et maintient ainsi une vitesse constante du véhicule sur toute route.
+
+#1379
+Q: Qu'est-ce qu'un « passage piéton » ?
+1: Une passerelle au-dessus de la chaussée ou un tunnel destiné au passage des piétons.
+2: Un lieu de passage des élèves des écoles.
+3: Tout endroit de la route où les piétons ont l'habitude de passer.
+4: La partie de la chaussée destinée, par marquage ou panneau, à la traversée des piétons.
+
+#1380
+Q: L'autorité des permis peut-elle donner une autorisation d'utiliser un véhicule dont les dimensions ou le poids dépassent ce que fixe le règlement ?
+1: Non. Seul un officier de police du grade d'inspecteur ou supérieur peut donner une telle autorisation.
+2: Oui. L'autorité des permis peut donner une telle autorisation sous certaines conditions.
+3: Non. L'autorité des permis ne peut donner aucune autorisation contraire à ce que fixe le règlement.
+4: Oui. L'autorité des permis peut donner une telle autorisation, après consultation de Matsa et de la police.
+
+#1381
+Q: Un conducteur qui veut garer son véhicule dans une descente :
+1: Tourne les roues arrière vers le trottoir et met au point mort (neutre).
+2: Tourne les roues avant vers le trottoir et met au point mort (neutre – N).
+3: Tourne les roues avant vers le trottoir et enclenche la première.
+4: Tourne les roues avant vers le trottoir et enclenche la marche arrière (en automatique – P).
+

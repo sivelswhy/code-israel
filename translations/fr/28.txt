@@ -1,0 +1,420 @@
+#1682
+Q: Dans quel véhicule un gilet fluorescent doit-il se trouver ?
+1: La loi ne prévoit pas où le conserver.
+2: Dans tout véhicule à moteur, ainsi que dans un véhicule non motorisé.
+3: Dans tout véhicule à moteur.
+4: Dans tout véhicule à moteur, sauf le tracteur.
+
+#1683
+Q: Où faut-il conserver le gilet fluorescent dans le véhicule ?
+1: Uniquement sur le dossier du siège du conducteur.
+2: Dans le coffre du véhicule.
+3: Dans la cabine du conducteur du véhicule, sauf sur une moto.
+4: La loi ne prévoit pas où le conserver.
+
+#1684
+Q: Un véhicule est tombé en panne sur une route non urbaine. Le conducteur l'a arrêté sur l'accotement droit. Il n'y a pas de trottoir. Comment faut-il utiliser le gilet fluorescent ?
+1: S'il y a deux gilets dans le véhicule, deux personnes peuvent sortir en portant un gilet fluorescent.
+2: Le conducteur qui sort du véhicule est dispensé de porter un gilet si un passager a mis un gilet et est sorti avant lui.
+3: Le conducteur qui sort du véhicule doit porter le gilet fluorescent dès sa sortie.
+4: Toutes les réponses sont correctes.
+
+#1685
+Q: À l'issue des deux ans de période de « conducteur novice », le permis de conduire ordinaire ne sera pas accordé à un « conducteur novice » condamné pour l'infraction de :
+1: Ne pas avoir collé le panneau « conducteur novice » sur la lunette arrière du véhicule.
+2: Conduite à une vitesse supérieure à celle permise par la loi.
+3: Ne pas s'être arrêté à un endroit où est placé un panneau d'avertissement « endroit dangereux ».
+4: Conduite d'un véhicule à moteur dont l'attestation d'assurance est temporaire.
+
+#1686
+Q: À l'issue des deux ans de période de « conducteur novice », le permis de conduire ordinaire ne sera pas accordé à un « conducteur novice » condamné pour l'infraction de :
+1: Conduite d'un véhicule à moteur sans assurance valide.
+2: Conduite d'un véhicule à moteur sous l'influence d'alcool ou de drogues enivrantes.
+3: Ne pas s'être arrêté à une intersection où est placé un panneau « stop ».
+4: Ne pas avoir placé de triangle de signalisation alors que le véhicule était immobilisé sur la route à cause d'une panne.
+
+#1687
+Q: Quelle est la vitesse maximale autorisée par la loi (km/h) pour un minibus privé sur voie rapide (si aucun panneau ne dit le contraire) ?
+1: 80
+2: 110
+3: 90
+4: 100
+
+#1688
+Q: À l'issue des deux ans de période de « conducteur novice », le permis de conduire ordinaire ne sera pas accordé à un « conducteur novice » condamné par un tribunal pour l'infraction de :
+1: Ne pas s'être arrêté à un endroit où est placé un panneau « chutes de pierres ».
+2: Conduite d'un véhicule à moteur sans assurance valide.
+3: Ne pas avoir collé le panneau « conducteur novice » sur la lunette arrière du véhicule.
+4: Conduite sans accompagnateur.
+
+#1689
+Q: En roulant de jour, le feu de route d'une moto est tombé en panne. Comment faut-il agir ?
+1: On peut continuer à rouler seulement jusqu'à la tombée de la nuit.
+2: La loi interdit de continuer à rouler, même de jour, si le système d'éclairage n'est pas parfaitement en état.
+3: On peut continuer à rouler seulement sur route urbaine correctement éclairée et à faible vitesse.
+4: On peut continuer à rouler seulement derrière un véhicule dont les feux sont en état.
+
+#1690
+Q: Que doit vérifier le conducteur après avoir traversé une flaque d'eau profonde sur la route ?
+1: Aucune vérification n'est nécessaire.
+2: Si le système d'éclairage fonctionne comme exigé.
+3: Le bon fonctionnement du moteur du véhicule.
+4: Si le système de freinage fonctionne comme exigé.
+
+#1691
+Q: Attacher la ceinture de sécurité comme exigé :
+1: Réduit les oscillations du conducteur sur son siège et empêche un accident.
+2: Maintient la vigilance du conducteur.
+3: Maintient le conducteur assis droit.
+4: Réduit les blessures de la personne attachée lors d'un accident.
+
+#1692
+Q: Le conducteur d'un autobus (hors minibus) qui ne roule pas sur une voie de transport public peut-il dépasser un véhicule qui en dépasse un autre ?
+1: Oui, c'est permis sur toute route.
+2: C'est interdit sur toute route.
+3: C'est permis, à condition que le poids total maximal autorisé de l'autobus ne dépasse pas 10 000 kg.
+4: C'est permis, à condition qu'il n'y ait pas de passagers dans l'autobus.
+
+#1693
+Q: La capacité de maîtriser le véhicule :
+1: Est meilleure quand on roule à une vitesse raisonnable.
+2: S'améliore à mesure que la vitesse augmente.
+3: Ne dépend pas de la vitesse de conduite.
+4: Dépend uniquement des conditions de la route et non du conducteur ou du véhicule.
+
+#1694
+Q: Des phares avant mal réglés :
+1: Augmentent la vigilance du conducteur.
+2: N'influencent pas la conduite ni sa maîtrise.
+3: Provoquent l'éblouissement du conducteur lui-même.
+4: N'éclairent pas la route comme l'exige la loi.
+
+#1695
+Q: Pour réduire l'effet de l'éblouissement en roulant dans l'obscurité, il est conseillé de :
+1: Bien nettoyer les vitres.
+2: Éblouir en retour le conducteur qui vient en face par de brefs appels de phares, comme l'écrit la loi.
+3: Baisser le pare-soleil.
+4: Porter des lunettes de soleil – de préférence foncées.
+
+#1696
+Q: En arrivant à un pont étroit, vous devez :
+1: Franchir toujours le pont à vitesse maximale, pour dégager la voie au véhicule d'en face.
+2: Ralentir en vous approchant du pont et en le franchissant.
+3: Augmenter votre vitesse en vous approchant du pont.
+4: Vous arrêter toujours avant le pont par sécurité puis le franchir rapidement.
+
+#1697
+Q: Conduire dans l'obscurité exige une prudence accrue :
+1: L'obligation de prudence ne vaut qu'en cas d'éblouissement.
+2: Il n'y a pas d'obligation de prudence particulière dans l'obscurité.
+3: L'obligation de prudence ne vaut que dans le brouillard et la pluie.
+4: Parce que la vision (visibilité et être vu) est limitée.
+
+#1698
+Q: Quand est-il permis d'utiliser les feux de route du véhicule pendant les « heures d'éclairage » ?
+1: Sur route non urbaine, quand on roule en convoi.
+2: Uniquement sur voie rapide.
+3: Sur route urbaine éclairée et sur route non urbaine.
+4: Sur route non urbaine, quand les conditions de circulation le permettent et qu'il n'y a pas de véhicule en face.
+
+#1699
+Q: Un rétroviseur panoramique :
+1: Reflète exactement (sans agrandir ni réduire) les objets qui s'y reflètent.
+2: Est très cher, donc on ne l'utilise que dans les autobus.
+3: Fait paraître les objets qui s'y reflètent plus petits et plus éloignés.
+4: Agrandit les objets qui s'y reflètent.
+
+#1700
+Q: Le feu de marche arrière :
+1: Ne s'allume que par l'enclenchement de la marche arrière et seulement tant que la marche arrière est enclenchée.
+2: S'allume par un interrupteur séparé et pendant son fonctionnement un avertisseur sonore doit retentir.
+3: Est interdit sur tout véhicule autre qu'une voiture particulière.
+4: Sera utilisé uniquement pendant les heures d'éclairage.
+
+#1701
+Q: Le risque de dérapage sur route mouillée :
+1: Est identique au risque de dérapage sur route sèche.
+2: Est d'autant plus grand que les pneus sont plus neufs.
+3: Est d'autant plus grand que l'on roule plus lentement.
+4: Est d'autant plus grand que l'on roule plus vite.
+
+#1702
+Q: Le système de freinage du véhicule est en état et comprend l'ABS :
+1: Un appui fort sur la pédale de frein annule le fonctionnement de l'ABS.
+2: Un appui fort sur la pédale de frein provoque l'arrêt immédiat du moteur.
+3: Un appui fort sur la pédale de frein provoque l'arrêt du véhicule « sur place ».
+4: Un appui fort sur la pédale de frein provoque des vibrations de la pédale et des bruits.
+
+#1703
+Q: Quelle capacité liée au conducteur est altérée quand il y a du brouillard ?
+1: Le freinage.
+2: La direction.
+3: Toutes les réponses sont correctes.
+4: La vision.
+
+#1704
+Q: Les accidents dus à la fatigue d'un conducteur peuvent se produire :
+1: Uniquement sur les routes à côtes raides et longues.
+2: Uniquement sur les routes à descentes raides et longues.
+3: Uniquement sur les routes étroites et sinueuses, et non sur les tronçons droits, larges et confortables.
+4: Quand le niveau de vigilance du conducteur baisse.
+
+#1705
+Q: Vous roulez derrière un autre véhicule. Comment éviterez-vous de le heurter ?
+1: On ne peut pas éviter de tels chocs si le véhicule de devant freine brusquement et brutalement.
+2: Roulez toujours phares allumés.
+3: Actionnez toujours les feux de détresse (les quatre indicateurs de direction).
+4: Gardez une distance suffisante avec le véhicule devant vous.
+
+#1706
+Q: Quand un voyant bleu s'allume-t-il dans le tableau de bord ?
+1: Quand les feux de route sont allumés.
+2: Quand les feux de position sont allumés.
+3: Toutes les réponses sont correctes.
+4: Quand les feux de croisement sont allumés.
+
+#1707
+Q: Quand vous roulez derrière un grand camion :
+1: Gardez la plus petite distance possible avec le véhicule devant vous.
+2: Si le panneau « danger général » est placé, la distance que vous gardez avec le camion sera le triple de la distance fixée par la loi – à cause de la taille du véhicule.
+3: Gardez une distance qui permet un arrêt sûr – la loi exige au moins la distance d'une seconde de route.
+4: La distance que vous gardez avec le camion sera le double de la distance fixée par la loi – à cause de la taille du véhicule.
+
+#1708
+Q: Les rôles des rainures de la bande de roulement du pneu sont, entre autres :
+1: Permettre l'évacuation de l'eau entre la route et le pneu et empêcher l'usure des pneus.
+2: Permettre l'évacuation efficace de l'eau entre le pneu et une route mouillée.
+3: Permettre l'évacuation de l'eau entre la route et le pneu et empêcher l'usure du moteur.
+4: Permettre l'évacuation de l'eau entre la route et le pneu et maintenir la pression d'air des pneus.
+
+#1709
+Q: Conduire dans l'obscurité en feux de route :
+1: Peut endommager le système d'éclairage du véhicule et surtout les phares.
+2: Peut éblouir d'autres conducteurs.
+3: Est recommandé et souhaitable et n'est pas du tout interdit par la loi.
+4: Ne gêne pas les autres conducteurs.
+
+#1710
+Q: Est-il permis de monter sur le trottoir et d'y rouler avec un tracteur pour contourner un obstacle sur la route ?
+1: Oui. On peut contourner l'obstacle en roulant sur le trottoir.
+2: Oui. On peut monter et rouler sur le trottoir en conduisant très prudemment et en première.
+3: Oui. On peut monter sur le trottoir avec le tracteur si la route est très mauvaise.
+4: Non. Il est interdit de rouler sur le trottoir pour contourner un obstacle.
+
+#1711
+Q: Quelle est la signification du panneau ?
+1: Panneau mobile clignotant : signal d'avertissement et de guidage à l'endroit où il est placé sur un chantier routier.
+2: Panneau mobile clignotant : signal d'avertissement et de guidage avant l'entrée dans la zone d'un aéroport.
+3: Panneau mobile clignotant : à des fins de publicité pour les conducteurs de véhicules.
+4: Panneau mobile clignotant : avant le passage d'une route non urbaine à une voie rapide.
+
+#1712
+Q: Aucun permis de véhicule n'est délivré ni renouvelé pour un taxi :
+1: Au bout de 12 ans à compter de son année de fabrication.
+2: Au bout de quatre ans à compter de son année de fabrication.
+3: Au bout de dix ans à compter de son année de fabrication.
+4: Au bout de huit ans à compter de son année de fabrication.
+
+#1713
+Q: Comment agit le conducteur si le voyant de contrôle du système de freinage du tableau de bord est allumé ?
+1: Il s'arrête et ne poursuit pas sa route avec le véhicule.
+2: Il attend l'entretien périodique du véhicule, puis vérifiera ce problème.
+3: Il roule lentement jusqu'au garage – pas plus de dix km/h.
+4: Il ignore et poursuit sa route normale. Le voyant de contrôle n'est pas la preuve d'une panne.
+
+#1714
+Q: Qui est responsable de l'émission de fumée d'un véhicule au-delà de la limite fixée par la loi ?
+1: Le conducteur du véhicule.
+2: Le conducteur du véhicule et le constructeur du véhicule.
+3: Le garage qui entretient le véhicule.
+4: Le propriétaire de la station-service qui a vendu le carburant.
+
+#1715
+Q: En roulant sur une route en mauvais état, il faut :
+1: Augmenter la vitesse pour éviter les secousses et les nids-de-poule.
+2: Ralentir et augmenter la vigilance.
+3: Poser le pied sur la pédale de frein pour être prêt tout de suite à toute éventualité.
+4: Poser le pied sur la pédale d'embrayage en permanence pour garantir une conduite fluide.
+
+#1716
+Q: On ne peut pas transporter de passager supplémentaire sur un tracteur de transport, sauf si :
+1: L'importateur du véhicule en a donné l'autorisation.
+2: C'est indiqué sur le permis du véhicule.
+3: C'est indiqué sur l'attestation d'assurance.
+4: C'est indiqué sur le permis de conduire.
+
+#1717
+Q: Il est permis d'enlever une main du volant pendant la conduite pour :
+1: Changer de rapport.
+2: Répondre à un appel sur un téléphone portable.
+3: Régler le siège du passager à côté du conducteur.
+4: Lire ou envoyer un message (SMS).
+
+#1718
+Q: Il est permis de faire demi-tour par la gauche à une intersection sans feux :
+1: Quand cela ne gêne pas la circulation, que le champ de vision est dégagé et qu'aucun panneau ne l'interdit.
+2: Seulement avec un véhicule roulant sur plus de deux roues.
+3: Seulement quand on peut tourner du côté droit de la route et achever le virage sans s'arrêter en cours de manœuvre.
+4: Seulement quand une autre personne guide le conducteur.
+
+#1719
+Q: Des facteurs importants de perte de maîtrise du véhicule par le conducteur sont :
+1: Une conduite trop rapide et un appuie-tête défectueux.
+2: Une conduite trop rapide, un manque de vigilance et la méconnaissance des mécanismes du véhicule.
+3: Une conduite trop rapide et le défaut de port de la ceinture de sécurité.
+4: Toutes les réponses sont correctes.
+
+#1720
+Q: Est-il permis de conduire sous l'influence de calmants ?
+1: Oui. Les calmants n'influencent pas négativement la conduite.
+2: C'est interdit, sauf indication contraire expresse dans l'ordonnance du médicament.
+3: Oui, et c'est indiqué pour les personnes aux nerfs tendus.
+4: Oui, si le conducteur est agité et que le médicament calme ses nerfs.
+
+#1721
+Q: Le frein auxiliaire (de stationnement) sert au conducteur :
+1: Uniquement à l'aider à démarrer en côte raide.
+2: À augmenter la puissance de freinage du frein de service (frein à pied).
+3: À sécuriser son véhicule contre tout déplacement.
+4: Uniquement quand il est un conducteur novice et inexpérimenté.
+
+#1722
+Q: Rouler en descente au point mort (neutre) :
+1: Est permis et non dangereux.
+2: Est permis mais dangereux.
+3: Est interdit et extrêmement dangereux.
+4: N'est pas mentionné dans la loi, et économise beaucoup de carburant.
+
+#1723
+Q: Un accident de la route est un événement :
+1: Qui ne caractérise que les jeunes conducteurs.
+2: Involontaire dont le résultat est un dommage à une personne, conducteur compris, ou un dommage aux biens, ou les deux.
+3: Que le conducteur peut éviter dans tous les cas.
+4: Voulu d'avance, dont le résultat est un dommage uniquement aux biens et aux infrastructures de la route.
+
+#1724
+Q: Quelle est la vitesse maximale autorisée pour un autobus, qui n'est pas un minibus, sur voie rapide ?
+1: 90 km/h.
+2: 80 km/h.
+3: 100 km/h.
+4: 70 km/h.
+
+#1725
+Q: Un « autobus privé » est :
+1: Un autobus qui n'est pas un véhicule public.
+2: Un autobus appartenant à un particulier.
+3: Un autobus pour tournées et excursions uniquement.
+4: Un autobus qui ne roule pas sur une ligne fixe.
+
+#1726
+Q: L'âge minimal pour obtenir un permis de conduire un véhicule public à moteur est :
+1: 21 ans.
+2: 20 ans.
+3: 22 ans.
+4: 23 ans.
+
+#1727
+Q: Le titulaire d'un permis de conduire de catégorie B peut aussi conduire :
+1: Un minibus privé dont le poids total autorisé va jusqu'à 3 500 kg.
+2: Un minibus public dont le poids total autorisé va jusqu'à 3 500 kg.
+3: Tout véhicule à moteur dont le poids total va jusqu'à 6 000 kg.
+4: Tout autobus dont le poids total autorisé va jusqu'à 3 500 kg.
+
+#1728
+Q: Quand on appuie sur le levier d'embrayage d'une moto à boîte de vitesses manuelle :
+1: La liaison entre le moteur et la boîte de vitesses est coupée.
+2: La consommation de carburant du moteur augmente.
+3: Une liaison s'établit entre le moteur et la boîte de vitesses.
+4: La moto s'arrête sur place.
+
+#1729
+Q: Quel panneau apparaîtra après le panneau 716 ?
+1: 709
+2: 710
+3: 708
+4: 711
+
+#1730
+Q: Est-il permis de conduire une moto sur laquelle a été monté un échappement à pression ?
+1: C'est permis, sur toute moto.
+2: C'est permis, si l'échappement a été monté par un installateur agréé.
+3: C'est permis, sur une moto lourde uniquement.
+4: C'est absolument interdit.
+
+#1731
+Q: Quel panneau apparaîtra après le panneau 710 ?
+1: 716
+2: 711
+3: 708
+4: 709
+
+#1732
+Q: Un adolescent de 17 ans, né et résidant dans le pays, demande à obtenir un permis de conduire. Quel médecin est habilité à l'examiner pour l'obtention du permis ?
+1: Le médecin qui soigne le demandeur du permis depuis au moins trois ans.
+2: Le médecin qui soigne le demandeur du permis depuis au moins cinq ans.
+3: Le médecin qui soigne le demandeur du permis depuis au moins deux ans.
+4: Le médecin qui soigne le demandeur du permis depuis au moins un an.
+
+#1733
+Q: En appuyant sur la pédale de frein d'une moto, on constate que le frein à pied ne freine pas. Que doit faire le conducteur ?
+1: Essayer de freiner par un appui fort sur le levier d'embrayage.
+2: Essayer de freiner avec le frein auxiliaire (frein à main) et rétrograder.
+3: Tourner le guidon à droite pour freiner en changeant la direction de la roue avant.
+4: Freiner uniquement en rétrogradant.
+
+#1734
+Q: Comment conduirez-vous une moto sur une route en mauvais état, hors agglomération ?
+1: Vous augmenterez votre vitesse pour réduire le temps passé sur le tronçon abîmé.
+2: Ralentissez, car il y a un risque de perte de maîtrise de la moto.
+3: Si les pneus de la moto sont neufs, vous pouvez continuer en sécurité à la même vitesse.
+4: Vous continuerez à la même vitesse mais vous éviterez de dépasser.
+
+#1735
+Q: Vous approchez d'une intersection sans panneau et vous voulez tourner à droite. Un véhicule arrive en face vers l'intersection. Comment agirez-vous ?
+1: Vous continuerez prudemment et tournerez à droite dans l'intersection.
+2: Vous vous arrêterez dans tous les cas.
+3: Vous vous arrêterez et céderez le passage au véhicule qui approche.
+4: Vous ralentirez, et si nécessaire – vous vous arrêterez pour céder le passage.
+
+#1736
+Q: Sur qui retombe la responsabilité d'un véhicule garé à un endroit où le stationnement est interdit ?
+1: Sur la société de location, si le véhicule a été loué chez elle.
+2: Sur la dernière personne sortie du véhicule garé.
+3: Sur le propriétaire du véhicule inscrit sur le permis du véhicule, sauf s'il prouve qu'il n'était pas le conducteur et désigne le conducteur qui a commis l'infraction.
+4: Sur le propriétaire du véhicule inscrit sur le permis du véhicule.
+
+#1737
+Q: Indiquez la phrase correcte :
+1: Il est interdit de garer un véhicule 20 mètres avant un passage piéton et 20 mètres après.
+2: Il est interdit de garer un véhicule sur un passage piéton et dans une zone de 20 mètres avant lui.
+3: Il est interdit de garer un véhicule sur un passage piéton et dans une zone de 12 mètres avant lui.
+4: Il est permis de garer un véhicule sur un passage piéton seulement sur route non urbaine.
+
+#1738
+Q: Quand vous vous approchez d'un véhicule qui fait descendre des enfants :
+1: Descendez sur l'accotement et dépassez le véhicule par la droite.
+2: Vous devez le dépasser vite pour réduire le danger.
+3: Vous devez klaxonner et dépasser le véhicule par la gauche.
+4: Ralentissez, roulez à une vitesse raisonnable et préparez-vous à un éventuel arrêt.
+
+#1739
+Q: Lorsque le véhicule devant vous signale son intention de tourner à gauche :
+1: Il est interdit de le passer par la droite.
+2: Il est permis de le passer par la droite.
+3: Le dépassement se fera seulement par la gauche.
+4: Il est interdit de le passer de n'importe quel côté.
+
+#1740
+Q: Est-il permis de pousser un véhicule, moteur arrêté, sur une route dont l'entrée est interdite aux véhicules ?
+1: Non, il est interdit de le déplacer même en le poussant. Celui qui pousse est assimilé au conducteur.
+2: C'est permis, quand le moteur tourne au point mort (neutre).
+3: C'est permis, mais il faut le monter sur le trottoir.
+4: C'est permis, quand le moteur ne tourne pas.
+
+#1741
+Q: À une intersection sans panneau, il faut céder le passage :
+1: Au véhicule venant de gauche.
+2: Au véhicule venant de droite.
+3: Au véhicule public.
+4: Au véhicule qui tourne à droite ou à gauche.
+

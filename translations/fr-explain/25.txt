@@ -1,0 +1,187 @@
+#1502
+E: Le véhicule hors gabarit qui ne peut être dépassé descend, si possible, au-delà du bord de la route et s'arrête même sur l'accotement, pour laisser passer.
+
+#1503
+E: La résistance de l'air influence la stabilité du véhicule et sa vitesse.
+
+#1504
+E: Un conteneur se fixe sur le plateau uniquement avec des dispositifs twist-lock.
+
+#1505
+E: Il est interdit de transporter un conteneur si tous les twist-lock ne sont pas verrouillés.
+
+#1506
+E: On charge la charge lourde de l'essieu arrière vers la cabine, pour garder le poids sur les essieux et la stabilité.
+
+#1507
+E: Le panneau 226 autorise l'entrée aux piétons.
+
+#1508
+E: Conduire de nombreuses heures d'affilée fatigue le conducteur et le fait risquer de s'endormir.
+
+#1509
+E: Contre la fatigue : un repos suffisant avant de partir et de longues pauses de repos pendant la conduite.
+
+#1510
+E: Une pause de détente hors du véhicule ne dissipe la fatigue que pour peu de temps.
+
+#1511
+E: Un long camion a des angles morts où se trouvent de petits véhicules, et tourne difficilement dans les virages serrés.
+
+#1512
+E: Un motocycliste ne roule pas à côté d'une autre moto, mais peut la dépasser ou passer devant elle.
+
+#1513
+E: Une charge en vrac se charge au plus à la hauteur des parois, échelles comprises.
+
+#1514
+E: Sans goupille ni chaînes de sécurité, la remorque risque de se détacher du véhicule tracteur.
+
+#1515
+E: Les angles morts sont les zones autour du véhicule où le conducteur ne voit pas les autres usagers, ni à vue ni dans les rétroviseurs.
+
+#1516
+E: Le plus grand angle mort d'un véhicule de transport de marchandises est à l'arrière du véhicule.
+
+#1517
+E: Le permis B autorise à conduire une voiture particulière et un véhicule utilitaire jusqu'à 3 500 kg de poids total autorisé.
+R: T180
+
+#1518
+E: La seule vraie solution contre la fatigue est de s'arrêter et de se reposer.
+
+#1519
+E: Ce panneau indique la fin de l'endroit ou du tronçon où le stationnement est autorisé.
+
+#1520
+E: Deux cales de sécurité sont obligatoires dans un véhicule de plus de 5 000 kg de poids total autorisé.
+R: T368
+
+#1521
+E: La longueur totale maximale d'un véhicule de transport de marchandises qui tracte une remorque est de 18,75 mètres.
+
+#1522
+E: Une charge qui dépasse à l'avant se signale par un triangle réfléchissant blanc à son extrémité.
+
+#1523
+E: À l'approche d'un pont étroit et en le franchissant, le conducteur ralentit.
+
+#1524
+E: Un véhicule à moteur diesel de 8 000 kg et plus doit avoir un frein moteur.
+
+#1525
+E: Il est interdit de conduire sous l'influence de calmants si l'ordonnance ou le médecin l'indique.
+
+#1526
+E: La longueur totale autorisée d'un véhicule de transport de marchandises ne dépasse pas 12 mètres.
+
+#1527
+E: La hauteur maximale d'une charge sur un véhicule utilitaire de 3 501 à 8 000 kg est de trois mètres et demi.
+
+#1528
+E: Face à un véhicule qui arrive en face sur route étroite : ralentissez, déportez-vous à droite et quittez la route si nécessaire.
+
+#1529
+E: Sur route mouillée, ralentissez et roulez à la vitesse adaptée aux circonstances.
+
+#1530
+E: À l'entrée d'une courbe et en y roulant, réduisez la vitesse.
+
+#1531
+E: Derrière un grand véhicule, gardez une distance plus grande que d'habitude pour éviter un accident.
+
+#1532
+E: La distance nécessaire pour dépasser dépend des vitesses des deux véhicules, celui qui dépasse et celui qui est dépassé.
+
+#1533
+E: Un véhicule utilitaire de plus de 2 200 kg ne remorque qu'un véhicule, sauf autre nombre approuvé par l'autorité des permis.
+
+#1534
+E: Par vent latéral fort, ralentissez et adaptez la vitesse à votre capacité de maîtriser le véhicule.
+
+#1535
+E: Le panneau 216 interdit l'entrée aux piétons (voie rapide).
+
+#1536
+E: Il est interdit de dépasser un véhicule arrêté avant un passage piéton.
+R: T47(ז)
+
+#1537
+E: Un accompagnement est obligatoire pour une charge de plus de 3,40 mètres de large.
+R: T85(ג)(1)
+
+#1538
+E: Une charge qui dépasse à l'arrière se signale par un triangle rouge réfléchissant à son extrémité.
+
+#1539
+E: À l'arrière, la charge hors gabarit se signale par un triangle rouge réfléchissant de 60 cm de côté.
+
+#1540
+E: Une vitesse raisonnable est adaptée aux conditions et aux circonstances et n'est pas supérieure à la vitesse maximale autorisée.
+
+#1541
+E: Le permis d'un véhicule de dépannage de 16 000 kg au plus n'est plus renouvelé au bout de 19 ans.
+
+#1542
+E: Les feux de route dans l'obscurité éblouissent les autres conducteurs.
+
+#1543
+E: Il est interdit de rouler sur le trottoir pour contourner un obstacle.
+
+#1544
+E: La largeur totale d'un véhicule utilitaire à carrosserie frigorifique ne dépasse pas 2,60 mètres.
+
+#1545
+E: Une remorque est un véhicule non motorisé destiné à être tracté par un véhicule à moteur.
+R: T1:גרור
+
+#1546
+E: Si une partie de la charge tombe, arrêtez-vous immédiatement et veillez à l'enlever tout de suite.
+
+#1547
+E: Le freinage brusque n'est permis que s'il n'y a pas d'autre moyen d'éviter un accident.
+
+#1548
+E: En sortant d'un chemin de terre sur une route revêtue, cédez le passage au véhicule sur la route revêtue.
+R: T64(א)(3)
+
+#1549
+E: Le conducteur de l'autobus doit vérifier en tout temps que l'équipement complet de premiers secours s'y trouve.
+
+#1550
+E: Fatigué la nuit, cherchez un endroit sûr pour vous reposer et faire une petite sieste sans gêner la circulation.
+
+#1551
+E: Dans un véhicule de travail, on ne transporte ni charge ni passagers, sauf dans la cabine du conducteur.
+
+#1552
+E: Il est absolument interdit de conduire sous l'influence d'alcool.
+
+#1553
+E: La distance entre les roues et le trottoir ne dépasse pas 40 cm en stationnement.
+
+#1554
+E: Avant de sortir, on décide qui conduira : il ne boit pas d'alcool.
+
+#1555
+E: Gardez toujours une distance suffisante avec le véhicule devant vous.
+R: T49
+
+#1556
+E: Le panneau 146 avertit de la présence d'animaux sauvages ; le 411 interdit l'entrée aux animaux.
+
+#1557
+E: Un policier peut interdire de poursuivre la route jusqu'à ce que la charge soit arrangée conformément à la loi.
+
+#1558
+E: En cas de crevaison, tenez fermement le volant et freinez progressivement.
+
+#1559
+E: Quand le soleil éblouit, ralentissez en fonction de la visibilité et utilisez le pare-soleil.
+
+#1560
+E: La marche arrière n'est permise que s'il y a un besoin de circulation et pas d'autre moyen.
+
+#1561
+E: Avec une ligne continue à votre gauche et discontinue à sa gauche, vous ne pouvez pas franchir, mais le véhicule d'en face le peut quand la route est libre.
+

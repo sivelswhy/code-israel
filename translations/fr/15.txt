@@ -1,0 +1,419 @@
+#0902
+Q: Dans un virage serré, ralentissez :
+1: à la sortie du virage.
+2: pendant tout le trajet dans le virage.
+3: avant d'entrer dans le virage.
+4: juste après être entré dans le virage.
+
+#0903
+Q: Quelle est l'affirmation exacte ?
+1: Les conducteurs qui mettent leur clignotant attendent toujours avant de tourner dans la direction qu'ils signalent.
+2: Il faut supposer que les autres conducteurs vous céderont toujours le passage, quand la loi les y oblige.
+3: Les conducteurs de camions sont des professionnels : rouler près d'eux est donc sans danger.
+4: Il ne faut pas compter sur les autres conducteurs pour toujours vous céder le passage.
+
+#0904
+Q: Le véhicule qui vient en face (1) a commencé à tourner à gauche. Comment réagissez-vous ?
+1: Klaxonnez pour avertir le conducteur et continuez à la même vitesse sur votre voie.
+2: Continuez à la même vitesse et passez devant le véhicule qui tourne (1).
+3: Ralentissez, préparez-vous à vous arrêter et laissez la voiture blanche (1), déjà dans l'intersection, terminer son virage.
+4: Tournez à droite ou à gauche pour éviter l'accident.
+
+#0905
+Q: Comment conduisez-vous selon la photo ?
+1: Accélérez et klaxonnez légèrement.
+2: Klaxonnez fort, pour éviter un danger venant des piétons.
+3: Ralentissez, déportez-vous à gauche si possible, et passez prudemment devant les piétons.
+4: Klaxonnez pour avertir, et continuez à vitesse normale sur votre trajectoire d'origine.
+
+#0906
+Q: Comment agissez-vous dans la situation devant vous ?
+1: Regardez dans les rétroviseurs, ralentissez et préparez-vous à vous arrêter si nécessaire.
+2: Déportez-vous un peu à droite et passez les enfants à votre vitesse d'origine.
+3: Ne dérangez pas les enfants. Vous êtes dans une zone résidentielle.
+4: Klaxonnez et contournez les enfants comme on dépasse un véhicule stationné.
+
+#0907
+Q: Comment abordez-vous la situation devant vous ?
+1: Suivez le cycliste, klaxonnez et passez-le vite.
+2: Accélérez et dépassez le cycliste avant d'entrer dans l'intersection.
+3: Ralentissez et dépassez le cycliste, en gardant un écart latéral suffisant et en surveillant ses mouvements.
+4: Klaxonnez jusqu'à ce que le cycliste libère votre voie, et passez-le à votre vitesse habituelle.
+
+#0908
+Q: Imaginez la situation devant vous. Quel comportement choisissez-vous ?
+1: Des enfants jouent sur la route. Pour ne pas les déranger, je les passerai par la droite et vite.
+2: J'ai vu des enfants jouer. Je klaxonnerai pour qu'ils dégagent la route et ne me gênent pas. Ils n'ont pas le droit de jouer sur la route.
+3: Des enfants jouent sur la route. Je klaxonnerai pour les avertir de mon approche et les passerai par la gauche.
+4: Des enfants jouent sur la route. Je prendrai toutes les mesures nécessaires pour ne pas les heurter, quitte à m'arrêter.
+
+#0909
+Q: Comment réagissez-vous à la scène devant vous ?
+1: Klaxonnez aux enfants et avertissez-les de votre approche, pour qu'ils ne descendent pas sur la route et ne risquent pas d'être heurtés.
+2: Ralentissez, suivez les mouvements des enfants, regardez dans les rétroviseurs et préparez-vous à vous arrêter.
+3: Continuez : les enfants ne traverseront pas en voyant un véhicule approcher.
+4: Accélérez et passez devant les enfants avant qu'ils ne commencent à traverser.
+
+#0910
+Q: Comment conduisez-vous face à la situation de la photo ?
+1: Continuez normalement : il n'y a pas de passage pour piétons marqué ni de panneau de zone résidentielle.
+2: Regardez dans les rétroviseurs, ralentissez, suivez les mouvements des enfants des deux côtés de la route et, si nécessaire, arrêtez-vous pour éviter de les heurter.
+3: Accélérez et klaxonnez pour éloigner les enfants de la chaussée et ne pas les heurter.
+4: Continuez normalement. Les enfants sont responsables et ne traverseront pas en voyant un véhicule approcher.
+
+#0911
+Q: La photo montre une situation impossible. Laquelle ?
+1: Le panneau de gauche contredit le panneau de droite.
+2: Un panneau « Cédez le passage » doit être placé sur la route à droite.
+3: Un panneau de chaussée à sens unique doit être placé au-dessus de la chaussée.
+4: Un panneau de chaussée à sens unique doit être placé du côté gauche de la chaussée.
+
+#0912
+Q: D'après les panneaux, à quoi faut-il s'attendre ?
+1: Un passage à niveau, après avoir tourné à gauche.
+2: Un passage pour piétons.
+3: Une entrée en agglomération.
+4: Un passage à niveau, si nous continuons tout droit.
+
+#0913
+Q: Quand les véhicules devant vous pourront-ils repartir ?
+1: Toujours après trois minutes d'attente.
+2: Seulement lorsque la barrière sera entièrement ouverte et que le feu rouge sera éteint.
+3: Dès que la barrière commence à s'ouvrir.
+4: Quand le feu passera à l'orange fixe.
+
+#0914
+Q: Comment faut-il conduire face à la scène de la photo ?
+1: Ralentissez, soyez prudent et préparez-vous à vous arrêter si besoin, car un enfant peut courir après le ballon.
+2: Klaxonnez fort pour avertir de votre approche et continuez normalement.
+3: Accélérez et passez vite à droite du ballon avant qu'un enfant n'arrive sur la route.
+4: Continuez en donnant des coups de klaxon brefs et rythmés.
+
+#0915
+Q: Que doit faire le conducteur (vous) pour éviter de heurter le piéton ?
+1: Un freinage fort et un long coup de klaxon feront fuir le piéton vers le trottoir et régleront le problème.
+2: Dans cette situation, il n'y a aucun moyen d'éviter de heurter le piéton.
+3: Le conducteur doit avertir le piéton par un long coup de klaxon puissant et continuer normalement.
+4: Ralentir et repérer tôt le piéton sur la route.
+
+#0916
+Q: Quelles mesures prenez-vous dans cette situation ?
+1: Ralentir, se préparer à s'arrêter et laisser le piéton dégager la route.
+2: Accélérer et dépasser le piéton.
+3: Ralentir et klaxonner pour que le piéton s'arrête.
+4: Aucun geste particulier : le piéton est loin de vous, tout va bien.
+
+#0917
+Q: Comment conduisez-vous selon la photo ?
+1: Le piéton ne traverse pas sur le passage ; faites-lui signe par tous les moyens de quitter la route vite.
+2: Accélérez et dépassez le piéton.
+3: Ralentissez, préparez-vous à vous arrêter et laissez le piéton dégager la route sans danger.
+4: Klaxonnez fort pour que le piéton quitte vite la route, et continuez normalement.
+
+#0918
+Q: La photo montre un événement. Comment devez-vous agir ?
+1: Passez sur la voie de gauche et dépassez le piéton.
+2: Arrêtez-vous près du piéton et expliquez-lui que l'endroit correct pour les piétons est le passage derrière lui.
+3: Arrêtez-vous avant le piéton et faites-lui signe par tous les moyens qu'un passage pour piétons se trouve derrière lui.
+4: Ralentissez, soyez prudent et préparez-vous à vous arrêter. Ne faites rien qui puisse mettre en danger ou effrayer le piéton.
+
+#0919
+Q: Comment réagissez-vous aux indices de la photo ?
+1: Continuez normalement, sans tenir compte de la portière ouverte. L'obligation de prudence pèse sur le conducteur qui sort du véhicule.
+2: Ralentissez et préparez-vous à vous arrêter, pour éviter de heurter la portière ouverte ou la personne qui sort du véhicule.
+3: Déportez-vous à gauche et accélérez, pour ne pas heurter les passagers qui vont sortir du véhicule.
+4: Klaxonnez fort et longtemps, pour éviter de heurter la portière qui s'ouvre.
+
+#0920
+Q: Quel geste le conducteur qui approche doit-il faire pour éviter une collision, d'après les indices de la photo ?
+1: Faire des appels de phares.
+2: Ralentir et garder un écart latéral suffisant (se déporter à gauche).
+3: Klaxonner fort et longtemps.
+4: Continuer normalement. La portière va se refermer tout de suite.
+
+#0921
+Q: Qu'est-ce qui caractérise la route devant vous ?
+1: Vous êtes dans une zone résidentielle. Adaptez la vitesse comme il faut, sans dépasser 40 km/h.
+2: Il n'y a pas de piétons sur la chaussée : aucune surprise à craindre de leur part. Tout va bien.
+3: Route en agglomération, véhicules en stationnement, et des piétons peuvent surgir d'entre les véhicules garés.
+4: La route paraît large et commode : aucune surprise à prévoir.
+
+#0922
+Q: Comment doit agir le conducteur lorsqu'un autobus transportant des enfants s'arrête pour les faire monter ou descendre ?
+1: Klaxonner longuement et dépasser comme un dépassement ordinaire.
+2: S'arrêter toujours derrière l'autobus, jusqu'à ce qu'il reparte.
+3: Ralentir, jusqu'à pouvoir s'arrêter, et passer lentement à côté de l'autobus.
+4: Dépasser l'autobus normalement, selon toutes les étapes habituelles du dépassement.
+
+#0923
+Q: Le dépassement est-il permis dans la situation de la photo ?
+1: Le dépassement est totalement interdit, même si aucun enfant ne monte ni ne descend.
+2: Non. Il est interdit de dépasser un autobus arrêté pour faire monter des enfants.
+3: Oui, à condition de prendre toutes les précautions nécessaires pour ne pas heurter des enfants qui pourraient traverser la route.
+4: Oui, à condition de klaxonner avant de passer l'autobus et pendant le passage.
+
+#0924
+Q: Comment conduisez-vous d'après la photo ?
+1: Ralentissez et préparez-vous à vous arrêter. Laissez le piéton terminer sa traversée en sécurité.
+2: Continuez normalement. Le piéton vous a repéré : il s'arrêtera donc et vous laissera traverser l'intersection en sécurité.
+3: Le piéton ne vous voit pas. Signalez-lui par un coup de klaxon que vous continuez.
+4: Dépassez prudemment le piéton avant qu'il ait terminé de traverser.
+
+#0925
+Q: Selon la photo, lequel des protagonistes doit prendre des mesures pour éviter un accident ?
+1: Le piéton. La loi l'oblige à s'arrêter et à laisser le véhicule continuer.
+2: Le véhicule et le piéton sont éloignés l'un de l'autre. Aucune mesure n'est nécessaire.
+3: Le piéton. Il doit accélérer sa marche pour terminer la traversée.
+4: Le conducteur. Il doit ralentir et se préparer à s'arrêter.
+
+#0926
+Q: Comment conduisez-vous d'après la photo ?
+1: Ralentissez et préparez-vous à vous arrêter. Les piétons traversent la route : laissez-les terminer leur traversée.
+2: Ralentissez et continuez. D'après leur regard, les piétons ont repéré votre intention de continuer.
+3: Les piétons ont presque fini de traverser. Continuez normalement et dépassez-les.
+4: Klaxonnez longuement aux piétons, pour qu'ils vous laissent continuer.
+
+#0927
+Q: Quand est-il permis d'utiliser l'avertisseur sonore ?
+1: Uniquement hors agglomération, pour éviter un danger.
+2: Uniquement pour éviter un danger qu'on ne peut éviter autrement.
+3: Uniquement en agglomération, pour rouler en convoi.
+4: Sur toute route, mais uniquement pour les véhicules de transport public, pour éviter un danger.
+
+#0928
+Q: Quelle infraction a été commise d'après la photo, en supposant que les véhicules fonctionnent correctement ?
+1: Rouler sur une voie qui n'est pas celle de son sens de circulation.
+2: Arrêt et stationnement sur un terre-plein, avec gêne pour la circulation.
+3: Arrêt et stationnement entre deux voies.
+4: Stationnement non parallèle au terre-plein.
+
+#0929
+Q: La photo montre plusieurs éléments de la route. Comment le conducteur doit-il réagir en s'approchant de l'endroit ?
+1: Le conducteur continue sur sa voie et à sa vitesse habituelle. Un virage et une grande vitesse ne sont dangereux que si la route est déformée.
+2: Ralentir et serrer à droite autant que possible.
+3: Le conducteur klaxonne pour avertir, regarde dans les rétroviseurs et accélère pour raccourcir son passage dans le virage.
+4: S'il n'y a pas de panneau annonçant le virage, il n'y a pas besoin de ralentir : il faut continuer à vitesse normale.
+
+#0930
+Q: Que devez-vous vérifier, entre autres, avant de soulever la voiture pour changer une roue ?
+1: Garantir que le véhicule ne bougera pas de sa place.
+2: Que le frein de stationnement soit desserré jusqu'à ce que la roue soit déposée et la nouvelle montée.
+3: Que le moteur continue de tourner au point mort.
+4: Que le frein de stationnement soit desserré pendant toute l'opération de changement des roues.
+
+#0931
+Q: Comment conduisez-vous face à l'événement de la photo (agrumes répandus sur la chaussée) ?
+1: Continuez normalement. Les fruits sur la route ne gênent pas la conduite : inutile de ralentir.
+2: Continuez normalement. Les agrumes sur la route sèchent peu à peu.
+3: Continuez normalement. Les fruits sur la chaussée ne peuvent faire glisser au freinage que si la route est mouillée par la pluie : vous n'avez donc pas à ralentir.
+4: Ralentissez et conduisez prudemment. Les agrumes tombés sur la route gênent l'adhérence du véhicule.
+
+#0932
+Q: Quelle est la limite de la camionnette verte (utilitaire) qui veut tourner à droite, d'après la photo ?
+1: Le conducteur de la camionnette doit conduire avec une grande prudence, car un autre véhicule se trouve dans l'angle mort, à sa droite.
+2: La voie où se trouve la camionnette n'est pas destinée au virage à droite.
+3: Le scooter a l'intention d'aller tout droit : il n'y a donc pas de danger quand la camionnette tourne à droite.
+4: La camionnette peut tourner à droite malgré le cycliste à sa droite, car la loi ne l'interdit pas.
+
+#0933
+Q: Comment conduisez-vous sur le tronçon devant vous ?
+1: Ralentissez, roulez sur un rapport bas et veillez à la bonne température du moteur.
+2: Ralentissez et serrez à droite de la chaussée, à cause du champ de vision limité.
+3: Roulez sur un rapport bas : montée raide devant vous.
+4: Roulez sur un rapport élevé, pour éviter la surchauffe du moteur.
+
+#0934
+Q: Quel est le danger immédiat sur le tronçon devant vous ?
+1: Une surchauffe du moteur à cause de la montée raide.
+2: L'apparition, dans la zone qui vous est cachée, d'un véhicule roulant sur votre voie.
+3: Il vous est interdit de vous arrêter à droite de la chaussée.
+4: La ligne de séparation vous empêche de dépasser ou de tourner.
+
+#0935
+Q: Comment devez-vous agir lorsque le voyant d'alerte des freins s'allume pendant la conduite ?
+1: Continuer normalement jusqu'à l'entretien périodique du véhicule.
+2: Arrêter le véhicule et ne pas continuer à rouler.
+3: Continuer normalement jusqu'au garage, avec les feux jaunes clignotants.
+4: Continuer lentement jusqu'au garage, à droite de la chaussée.
+
+#0936
+Q: Que doit faire le conducteur d'après la photo ?
+1: Klaxonner et faire un appel de phares.
+2: Descendre sur l'accotement et ralentir.
+3: Ralentir et serrer à droite autant que possible.
+4: Il n'y a pas d'obligation particulière.
+
+#0937
+Q: Quelle est la vitesse maximale (km/h) autorisée pour une voiture particulière sur le tronçon devant vous ?
+1: Moins de 50.
+2: 90
+3: 50
+4: 80
+
+#0938
+Q: Comment conduisez-vous d'après la photo, lorsque vous roulez sur la chaussée ?
+1: Continuez sans changer de comportement.
+2: Ralentissez et surveillez le véhicule qui sort du chemin de terre.
+3: Ignorez le véhicule qui sort du chemin de terre. La priorité est à vous.
+4: Cédez le passage au véhicule qui sort du chemin de terre : toute la responsabilité pèse sur son conducteur et la priorité est à lui.
+
+#0939
+Q: Qu'exige-t-on du conducteur qui approche des panneaux de la photo ?
+1: Adapter sa vitesse à la conduite en agglomération, céder le passage au véhicule venant de droite et faire attention aux piétons.
+2: Porter une attention particulière à la présence de personnes âgées sur la route.
+3: Le conducteur doit continuer normalement. Toute la responsabilité pèse sur celui qui approche de droite.
+4: Adapter la vitesse à 90 km/h, comme le laisse entendre le panneau.
+
+#0940
+Q: Quel comportement attend-on des conducteurs des véhicules de la photo ?
+1: L'obligation de ralentir avant le virage ne pèse que sur le conducteur de la voiture foncée.
+2: Le conducteur de la voiture foncée s'arrêtera à droite de la route et laissera la voiture blanche continuer.
+3: Ils ralentiront à l'entrée du virage serré et resteront chacun à l'extrême droite de la chaussée.
+4: Le conducteur de la voiture blanche s'arrêtera à droite et cédera le passage à la voiture foncée.
+
+#0941
+Q: Quelle est la vitesse maximale autorisée pour vous (voiture particulière), après avoir passé les panneaux devant vous ?
+1: 50 km/h.
+2: 70 km/h.
+3: 90 km/h.
+4: 110 km/h.
+
+#0942
+Q: Comment conduisez-vous selon la situation de la photo ?
+1: Déportez-vous à gauche et surveillez tout changement de comportement des autres usagers.
+2: Accélérez et franchissez vite le danger immédiat qui guette à votre droite.
+3: Continuez sans changer de comportement et klaxonnez pour avertir.
+4: Passez sur la voie de gauche, accélérez et continuez à surveiller le vélo.
+
+#0943
+Q: Comment conduisez-vous d'après la photo ?
+1: Continuez normalement quand la route est libre.
+2: Passez vite à côté du panneau. Il est destiné aux conducteurs lents.
+3: Ralentissez et serrez à droite : virages sur la route devant vous.
+4: Klaxonnez avant d'entrer dans le virage. Il est important que tous sachent que vous êtes là.
+
+#0944
+Q: Comment conduisez-vous d'après la photo ?
+1: Continuez normalement et surveillez les autres véhicules de votre sens de circulation.
+2: Passez sur la voie de gauche, car la voie de droite va bientôt se terminer.
+3: Roulez sur la voie de droite et préparez-vous à passer sur la voie de gauche quand le nombre de voies augmentera.
+4: Ralentissez et laissez les véhicules qui vous dépassent vite par la gauche s'insérer dans la voie de gauche.
+
+#0945
+Q: Comment conduisez-vous d'après les panneaux devant vous ?
+1: Roulez normalement. Le placement des panneaux est manifestement illégal et ne vous oblige pas.
+2: Continuez normalement. Rappelez-vous qu'il est interdit de rouler moins vite que la vitesse indiquée.
+3: Ralentissez et serrez à droite avant d'entrer dans le virage.
+4: Le dernier panneau fait foi : roulez à 90 km/h.
+
+#0946
+Q: Quel comportement faut-il adopter sur le tronçon devant vous ?
+1: Agrandir le rayon de braquage, pour garder une vitesse raisonnable.
+2: Garder un petit rayon de braquage et adapter la vitesse à ce rayon.
+3: Ralentir avant d'entrer dans le virage ; accélérer doucement en sortie.
+4: Accélérer à l'entrée du virage ; ralentir dedans et à la sortie.
+
+#0947
+Q: Quel comportement faut-il adopter sur le tronçon devant vous ?
+1: Accélérer à l'entrée du virage et ralentir dedans et à la sortie.
+2: Ralentir et rester à droite de la chaussée, à cause du champ de vision limité.
+3: Garder un petit rayon de braquage et adapter la vitesse.
+4: Agrandir le rayon de braquage, pour garder une vitesse raisonnable. Il est aussi permis de dépasser.
+
+#0948
+Q: Quel est le problème sur la photo ?
+1: À cause du véhicule stationné, l'autobus ne peut pas entrer dans son encoche sur la chaussée, ce qui gênera la circulation quand il s'arrêtera.
+2: Les fleurs placées à l'arrêt masquent la vue des voyageurs qui y attendent.
+3: La présence de fleurs à l'arrêt rend le séjour des voyageurs plus agréable et ne pose aucun problème.
+4: La présence du fleuriste fait que l'autobus reste trop longtemps à l'arrêt.
+
+#0949
+Q: Qu'est-ce qui n'est pas correct dans le comportement du conducteur de la voiture bleue (1) ?
+1: Le conducteur de la voiture bleue (1) n'a pas mis son clignotant gauche.
+2: Bien que le ciel soit couvert, les feux de la voiture bleue (1) ne sont pas allumés.
+3: Le conducteur de la voiture bleue (1) ne garde pas assez de distance avec le véhicule de devant.
+4: Le conducteur de la voiture bleue (1) roule sur la voie de gauche au lieu de la voie de droite.
+
+#0950
+Q: Lorsqu'il pleut fort :
+1: Il est permis d'allumer les feux de brouillard.
+2: Il est permis d'allumer les feux de route.
+3: Il faut rouler à une vitesse qui ne dépasse pas la moitié de la vitesse maximale autorisée.
+4: Il est permis d'allumer les feux de détresse jaunes.
+
+#0951
+Q: Vous avez stationné le long du trottoir, à droite de la chaussée, en agglomération :
+1: Vous devez vous assurer, avant de sortir du véhicule, que votre sortie ne gêne ni ne met en danger aucun usager de la route.
+2: Vous devez vous assurer que le passager arrière gauche sort du véhicule sur la chaussée avec beaucoup de prudence.
+3: Vous devez vous assurer que la distance entre le véhicule et le trottoir ne dépasse pas un mètre.
+4: Vous devez allumer les feux de position s'il n'y a pas d'éclairage dans la rue.
+
+#0952
+Q: D'après la photo, les conditions de conduite sont difficiles. Lesquelles ?
+1: À cause de la météo, il est difficile de repérer les panneaux.
+2: La chaussée est mouillée, la visibilité mauvaise et la circulation dense.
+3: Il n'y a aucun problème sur la route. La circulation à l'intersection ne nous oblige pas à une prudence accrue.
+4: Une caméra est installée à l'intersection : celui qui passe au rouge sera donc pris.
+
+#0953
+Q: Comment devez-vous agir dans la situation de la photo ?
+1: Allumez les feux de route et roulez au centre de la chaussée : ainsi le véhicule qui vient en face pourra vous voir.
+2: Actionnez les quatre clignotants, pour attirer l'attention du conducteur qui vient en face.
+3: Allumez les feux de route, pour étendre votre champ de vision plus loin.
+4: Passez en feux de croisement, serrez à droite et ralentissez jusqu'à pouvoir vous arrêter.
+
+#0954
+Q: Comment conduisez-vous d'après la photo ?
+1: Il faut klaxonner plusieurs fois en passant près de cyclistes, pour attirer leur attention.
+2: Ralentissez près du cycliste et déportez-vous à gauche si possible.
+3: Accélérez en passant près des cyclistes, pour raccourcir la durée de la rencontre.
+4: Continuez sans changement. Les cyclistes ne mettent pas les véhicules en danger.
+
+#0955
+Q: Plus loin sur la route, la circulation change. Comment vous préparez-vous à ces changements, lorsque vous roulez sur la voie de droite ?
+1: Le nombre de voies diminue. Passez sur la voie de gauche sans gêner les véhicules de cette voie.
+2: Vous roulez sur la voie de droite. Faites attention seulement aux véhicules qui s'insèrent sur votre voie par la droite.
+3: Vous roulez sur la voie de droite. Faites attention aux véhicules qui s'insèrent sur votre voie, par la gauche et par la droite.
+4: Le nombre de voies augmente. Restez sur la voie de droite et continuez à rouler à droite.
+
+#0956
+Q: Comment conduisez-vous sur la route devant vous ?
+1: Le nombre de voies diminue. Restez sur votre voie.
+2: Le nombre de voies diminue. Passez sur la voie de droite et continuez à rouler à droite.
+3: Le nombre de voies augmente. Choisissez la voie de gauche et restez-y.
+4: Le nombre de voies augmente. Choisissez la voie centrale et restez-y.
+
+#0957
+Q: Qui doit respecter le panneau « Stop » de la photo ?
+1: Le conducteur qui veut continuer tout droit.
+2: Le conducteur qui veut tourner à gauche et celui qui continue tout droit.
+3: Tout conducteur qui approche de l'intersection.
+4: Le conducteur qui veut tourner à gauche.
+
+#0958
+Q: Sur la route devant vous s'appliquent des limitations. Lesquelles ?
+1: D'après les marquages, des travaux ont lieu sur la route devant vous : limitation de vitesse et interdiction de dépasser pour les camions.
+2: Il y a une limitation du champ de vision.
+3: Il y a de la circulation dense sur la route.
+4: Vous roulez en agglomération.
+
+#0959
+Q: La loi exige, lorsqu'on transporte un passager supplémentaire sur une moto :
+1: que le passager ait au moins 10 ans.
+2: que le passager ait au moins 12 ans.
+3: que les deux pieds du passager reposent sur des repose-pieds de part et d'autre de la moto.
+4: que le passager ait au moins 6 ans.
+
+#0960
+Q: D'après les panneaux de la photo, la route qui part à droite est :
+1: une voie sans issue.
+2: une route en agglomération.
+3: une route hors agglomération qui n'est pas une voie rapide.
+4: une voie rapide.
+
+#0961
+Q: D'après les panneaux de la photo, la route qui part à gauche est :
+1: une voie rapide.
+2: une voie sans issue.
+3: une route principale hors agglomération.
+4: une route en agglomération.

@@ -1,0 +1,191 @@
+#0541
+E: Le 205 (tournez à gauche) autorise aussi le demi-tour à gauche, sauf si un autre panneau l'interdit.
+
+#0542
+E: Le 205 (flèche horizontale vers la gauche) : tournez à gauche AVANT le panneau. Une flèche coudée (207) indiquerait de tourner après.
+
+#0543
+E: Le 204 (tournez à droite) autorise le demi-tour à droite, sauf si un autre panneau l'interdit.
+
+#0544
+E: Le 206 (flèche coudée vers la droite) : tournez à droite APRÈS le panneau.
+
+#0545
+E: Le 203 (flèche vers le haut) : allez uniquement tout droit ; le demi-tour est interdit.
+
+#0546
+E: Le 203 autorise seulement d'aller tout droit : on ne peut donc pas tourner à gauche.
+
+#0547
+E: Le 203 placé à l'intersection : on ne peut qu'aller tout droit.
+
+#0548
+E: Ce panneau d'information indique un parking-relais : on y gare sa voiture pour continuer en transports en commun.
+
+#0549
+E: Le 208 (flèche qui se sépare à droite et à gauche) : allez à droite ou à gauche ; tout droit est interdit.
+
+#0550
+E: Le 303 : dans le giratoire, cédez le passage à la circulation qui y circule déjà, et contournez le centre par la droite.
+R: T64(ז)
+
+#0551
+E: Avec le 303, ce sont les véhicules qui ENTRENT qui cèdent le passage à ceux qui sont déjà dans le giratoire ; on circule autour par la droite.
+R: T64(ז)
+
+#0552
+E: Le 213 (deux flèches obliques) : on peut contourner l'endroit par la droite ou par la gauche.
+
+#0553
+E: Le 121 (triangle de danger avec flèches circulaires) annonce un carrefour giratoire.
+
+#0554
+E: Le 213 avec une flèche jaune : la flèche jaune (à gauche) est réservée aux transports en commun. Votre véhicule utilitaire doit passer à droite.
+
+#0555
+E: Le 213 à flèches blanches : vous pouvez contourner par la droite ou par la gauche.
+
+#0556
+E: Le 624 (carré bleu, barre rouge à droite) : voie sans issue à droite.
+
+#0557
+E: La ligne discontinue peut être franchie : on peut dépasser si la route est libre et que le dépassement se fait en sécurité.
+R: T47(ד)
+
+#0558
+E: Le 145 (triangle à deux flèches opposées) : circulation à double sens devant vous.
+
+#0559
+E: Le demi-tour à gauche est permis depuis une voie de présélection à gauche et depuis toute voie où aucun panneau ni marquage ne l'interdit.
+R: T44(ב)
+
+#0560
+E: Le 504 : la flèche jaune indique que des véhicules de transport public (ou d'autres véhicules autorisés par le panneau 501) peuvent arriver en sens inverse.
+
+#0561
+E: Avec le 504, vous circulez dans le sens de la flèche blanche ; en face, seuls les transports en commun ou les véhicules autorisés peuvent arriver.
+
+#0562
+E: Le 219 (voiture blanche dans un rond bleu) : route réservée aux véhicules à moteur.
+
+#0563
+E: Sous le 219, seuls les véhicules à moteur peuvent circuler : les vélos sont interdits.
+
+#0564
+E: Le 218 (nombre dans un rond bleu) fixe une vitesse MINIMALE : seuls les véhicules à moteur capables et autorisés de rouler au moins à cette vitesse peuvent emprunter la route.
+
+#0565
+E: Un véhicule lent (40 km/h maximum) ne peut pas rouler à 55 km/h : il ne peut donc pas emprunter une route signalée par le 218 « 55 ».
+R: T1:רכב איטי
+
+#0566
+E: Le 216 (chaussée en perspective sous un pont) : entrée d'une voie rapide.
+
+#0567
+E: Le 216 avec le 218 : seuls les véhicules à moteur rapides sont admis ; piétons et vélos sont interdits.
+
+#0568
+E: Le 217 (216 barré) : fin de la voie rapide.
+
+#0569
+E: Station de taxis : l'arrêt et le stationnement y sont interdits aux autres véhicules, sauf pour déposer des passagers.
+R: T72(א)(14)
+
+#0570
+E: Dans une station de taxis, les autres véhicules peuvent seulement s'arrêter pour déposer des passagers.
+R: T72(א)(14)
+
+#0571
+E: Le même panneau barré : fin de la zone de la station de taxis.
+
+#0572
+E: Le panneau jaune « taxi » désigne un emplacement où le taxi ne fait que prendre ou déposer des passagers, sans attendre.
+
+#0573
+E: À cet emplacement jaune, seuls les taxis peuvent s'arrêter.
+
+#0574
+E: Le 410 (tracteur dans un rond rouge) : accès interdit aux tracteurs et aux engins de chantier.
+
+#0575
+E: Le 411 (cheval dans un rond rouge) : accès interdit aux animaux, attelés ou non.
+
+#0576
+E: Le 412 (vélo dans un rond rouge) : accès interdit aux vélos.
+
+#0577
+E: Le 227 (vélo dans un rond bleu) : piste réservée aux vélos.
+
+#0578
+E: Le 413 (piétons dans un rond rouge) : accès interdit aux piétons, accotement compris.
+
+#0579
+E: Le 308 (carré bleu, flèche blanche vers le haut, flèche rouge vers le bas) : vous avez la priorité dans le passage étroit sur ceux qui arrivent en face.
+
+#0580
+E: Le 228 (piétons et vélo dans un même rond bleu) : chemin partagé entre cyclistes et piétons.
+
+#0581
+E: Le 229 (rond bleu coupé par une ligne) : chemins séparés, un pour les vélos et un pour les piétons.
+
+#0582
+E: Le 407 (camion avec un panneau orange) : accès interdit aux véhicules transportant des matières dangereuses (sauf livraison de carburant et de gaz).
+
+#0583
+E: Le 626 (« P » sur fond bleu) : stationnement autorisé.
+
+#0584
+E: Le stationnement autorisé par le 626 vaut jusqu'à la prochaine intersection ou jusqu'à un endroit où le stationnement est interdit.
+
+#0585
+E: Point de ramassage des soldats : on s'y arrête seulement pour faire monter ou descendre des soldats ; il est interdit d'y attendre.
+R: T72(א)(15)
+
+#0586
+E: Le 623 (T rouge sur fond bleu) : voie sans issue devant vous.
+
+#0587
+E: Le 624 (barre rouge à droite) : voie sans issue à droite.
+
+#0588
+E: Le 308 : dans le passage étroit, vous avez la priorité sur la circulation venant en face (votre flèche est blanche, la leur rouge).
+
+#0589
+E: Même prioritaire, il faut ralentir et vérifier que l'autre vous cède bien le passage : la priorité ne dispense jamais de la prudence.
+R: T21(א)
+
+#0590
+E: Le 618 (carré bleu avec flèche blanche) : entrée d'une chaussée à sens unique.
+
+#0591
+E: Sur une chaussée à sens unique, on tourne à gauche depuis le côté gauche de la chaussée, sauf marquage contraire.
+R: T43(א)(1)
+
+#0592
+E: Le 504 : flèche jaune = sens réservé aux transports en commun ; vous, vous suivez la flèche blanche.
+
+#0593
+E: Le 306 marque l'emplacement du passage pour piétons : cédez-leur le passage.
+R: T67(א)
+
+#0594
+E: Au passage pour piétons, ralentissez toujours, arrêtez-vous si nécessaire et laissez les piétons terminer leur traversée en sécurité.
+R: T67(א); T67(א1)
+
+#0595
+E: Le 309 (losange jaune bordé de blanc) : vous êtes sur une chaussée prioritaire.
+
+#0596
+E: Le 309 placé à gauche vous concerne aussi : vous êtes sur une chaussée prioritaire, roulez normalement en restant prudent.
+
+#0597
+E: Le 310 (losange barré) : fin de la chaussée prioritaire ; les règles normales de priorité s'appliquent à nouveau.
+
+#0598
+E: Panneau de service : la main et l'étoile de David (Magen David Adom) indiquent un poste de premiers secours.
+
+#0599
+E: Le « H » indique un hôpital.
+
+#0600
+E: La pompe à essence indique une station-service.

@@ -1,0 +1,153 @@
+#T190
+F: L’autorité d’immatriculation peut accorder une autorisation :
+(1) (supprimé) ;
+(2) visée à l’article 180(a)(3), si le demandeur :
+(a) est titulaire d’un permis de conduire selon l’article 180 depuis au moins deux ans ;
+(b) a 21 ans révolus ;
+(c) est résident d’Israël, ou a reçu une autorisation selon l’article 578B et l’approbation du directeur du ministère de la Santé ou de son représentant, et ne relève pas de l’article 15B ;
+(c1) pour une autorisation de conduire une ambulance : a prouvé à l’autorité d’immatriculation, selon les tests qu’elle a fixés, une maîtrise complète de l’hébreu, lecture et écriture comprises, ainsi qu’une maîtrise de base de l’anglais ;
+(d) a suivi avec succès un cours de conducteur d’ambulance, de véhicule de lutte contre l’incendie ou de véhicule de sécurité, selon le cas, et réussi les tests prévus par un programme approuvé par l’autorité d’immatriculation, et pour les ambulances aussi approuvé par le ministère de la Santé, et en détient l’attestation ;
+(3) visée à l’article 181(3), si le demandeur :
+(a) est titulaire d’un permis de conduire selon l’article 181 depuis au moins deux ans ;
+(b) est résident d’Israël et a 21 ans révolus ;
+(c) ne relève pas de l’article 15B ;
+(d) a suivi avec succès un cours d’opérateur de véhicule de dépannage et de remorquage, ou un cours visé au point (2)(d), selon le cas, et en détient l’attestation ;
+(4) (supprimé) ;
+(5) visée à l’article 177, si le demandeur :
+(a) était titulaire d’un permis de conduire selon l’article 177 ;
+(b) ne relève pas de l’article 15B ;
+(c) a suivi un cours de premiers secours approuvé par le directeur du ministère de la Santé ou son représentant ;
+(d) a suivi un cours de conduite de moto en situation d’urgence approuvé par l’autorité d’immatriculation ;
+toutefois, si le demandeur avait une autorisation selon l’article 190(2), il est dispensé des conditions des points (b) et (c) ;
+(6) visée à l’article 179(4), si le demandeur était titulaire d’un permis de conduire selon l’article 179, a suivi un cours de conduite de quad selon un programme approuvé par l’autorité d’immatriculation et a réussi un examen pratique de conduite de quad.
+
+#T188(א)
+F: Il est permis de délivrer un permis de conduire de catégorie A2 ou de catégorie 1 à une personne âgée de seize ans, à condition qu’elle fournisse, si elle n’a pas encore dix-sept ans, le consentement écrit de son père, de sa mère ou de son tuteur à la délivrance du permis.
+
+#P56
+F: Si l’autorité d’immatriculation est convaincue, d’après les preuves qui lui sont présentées, que la façon de conduire d’un titulaire de permis de conduire met en danger les usagers de la route, ou que le titulaire est violent ou perturbé, elle peut, par une décision motivée et après lui avoir donné l’occasion de présenter ses arguments, le déchoir du droit de détenir un permis de conduire.
+
+#P51
+F: L’autorité d’immatriculation peut, par une décision motivée, déchoir une personne du droit de détenir un permis de conduire, définitivement, pour une période donnée, ou jusqu’à ce que soient remplies les conditions fixées dans la décision, si elle est convaincue que le titulaire n’est pas apte à conduire à cause d’une aptitude à la conduite déficiente.
+
+#P54
+F: L’autorité d’immatriculation peut, par instruction écrite, obliger un titulaire de permis de conduire à recevoir de sa part une formation à la conduite.
+
+#T279(ג)(4)
+F: Si la largeur de la machine agricole dépasse 250 cm, elle portera à l’avant un panneau de 35 × 125 cm sur lequel est écrit « Attention véhicule large », et pendant la période d’éclairage elle sera équipée de feux de position latéraux et d’un éclairage périphérique conformément à l’article 85(c)(1).
+
+#T271(א)
+F: Le propriétaire d’un véhicule à moteur, d’une remorque ou d’un véhicule tracté qui demande leur immatriculation, ainsi que celui qui demande une carte grise, son renouvellement ou l’enregistrement du transfert de propriété du véhicule, présente une demande à l’autorité d’immatriculation ou à celui qu’elle a habilité à cet effet, sur le formulaire prescrit.
+
+#T290
+F: (a) Celui qui cesse d’utiliser un véhicule pendant plus d’un mois en informera l’autorité d’immatriculation de la manière et par la voie qu’elle décidera ; l’usage est alors considéré comme interrompu à la date de réception de l’avis.
+(b) Malgré le paragraphe (a), s’il est prouvé à la satisfaction de l’autorité que l’un des cas suivants s’est produit, l’usage du véhicule est considéré comme interrompu à la date de ce cas, même si l’avis a été donné plus tard :
+(1) un avis d’interdiction d’usage du véhicule a été remis selon l’article 308 ;
+(2) le véhicule est hors d’usage à cause d’un accident ;
+(3) le propriétaire du véhicule est décédé ;
+(4) le propriétaire du véhicule a été hospitalisé de façon soudaine ;
+(5) le véhicule a été saisi par une autorité habilitée en vertu de la loi.
+(c) La carte grise est jointe à cet avis si elle est valable et détenue par son propriétaire.
+(d) Après la remise d’un tel avis, nul ne conduira le véhicule.
+
+#T300(א)
+F: Un véhicule immatriculé en Israël porte deux plaques d’immatriculation ; toutefois, une moto, un véhicule de transport léger, une remorque et un véhicule tracté portent une seule plaque, fixée à l’arrière du véhicule.
+
+#T307(א)
+F: Un examinateur muni de la carte d’examinateur de l’autorité d’immatriculation, ainsi qu’un policier muni de la carte d’examinateur de la circulation de la police, peuvent à tout moment convoquer à un contrôle et contrôler tout véhicule.
+
+#T350(א)
+F: Aucun feu ni dispositif lumineux ne sera installé sur un véhicule, une remorque ou un véhicule tracté en plus de ceux fixés par ce Règlement, sauf si l’autorité d’immatriculation a autorisé l’installation de feux ou de dispositifs d’éclairage supplémentaires.
+
+#T360
+F: Dans un véhicule à moteur qui n’est pas un véhicule lent, un compteur de vitesse sera installé devant le siège du conducteur, indiquant la vitesse du véhicule dans toutes les conditions de route. L’autorité d’immatriculation peut ordonner que cet article ne s’applique pas à certains types de véhicules.
+
+#T27(ב)
+F: Nul ne conduira un véhicule si la structure, l’équipement, les accessoires, le marquage et l’arrimage de la charge ne sont pas conformes aux dispositions de l’Ordonnance ou de ce Règlement, y compris les conditions d’une autorisation et d’une licence.
+
+#T370
+F: (a) Un véhicule à moteur, à l’exception d’un véhicule de catégorie L, T, ou M1 de sous-classe (1)(a) (véhicule particulier), ne sera pas immatriculé et sa licence ne sera pas renouvelée, sauf si :
+(1) le véhicule contient des extincteurs en quantité et du type précisés au point 26 de la partie C de la deuxième annexe ;
+(2) les extincteurs visés au point (1) se trouvent à l’intérieur du véhicule, à un endroit visible et d’accès facile, de sorte que le retrait de l’extincteur du véhicule et son utilisation soient rapides et aisés.
+(b) Ne seront pas immatriculés, ni leur licence renouvelée pour la première fois après l’entrée en vigueur de ce Règlement, les véhicules à moteur qui sont des autobus de catégorie M3 de plus de 22 places assises en plus du siège du conducteur et équipés d’un moteur diesel monté à l’arrière, à l’exception d’un autobus urbain, sauf si le compartiment moteur est équipé d’un système automatique d’extinction d’incendie remplissant les conditions suivantes :
+(1) un laboratoire agréé au sens de l’article 12(a) de la loi sur les normes de 1953 a confirmé qu’il répond aux exigences de la norme SI 6278 parties 1 et 2 ; pour délivrer cette confirmation, le laboratoire peut s’appuyer sur la documentation d’un autre laboratoire international approuvé par le ministère des Transports ou par l’Autorité nationale des pompiers et des secours ;
+(2) son installation a été faite selon la norme SI 6278 partie 3, par l’un des acteurs suivants :
+(a) le constructeur du véhicule, selon les instructions du fabricant du système ou de son représentant ;
+(b) le fabricant du système ou son représentant, sous la supervision et avec l’approbation d’un laboratoire agréé ;
+(c) un installateur agréé par le ministère des Transports, selon les instructions du fabricant du système ou de son représentant et sous la supervision d’un laboratoire agréé.
+(b1) La licence d’un autobus ne sera pas immatriculée ni renouvelée pour la première fois, à l’exception d’un autobus visé au paragraphe (b) et d’un autobus qui n’est pas tenu d’installer un système d’extinction d’incendie conformément au règlement ECE 107 et ses mises à jour, sauf s’il est équipé d’un système d’extinction d’incendie remplissant les conditions suivantes :
+(1) pour un autobus fabriqué en Israël : il a été installé par l’un des acteurs suivants, sous la supervision d’un laboratoire agréé qui a confirmé que le système d’extinction répond aux exigences du règlement ECE 107 et ses mises à jour :
+(a) le constructeur de la carrosserie, selon les instructions du fabricant du système d’extinction ou de son représentant ;
+(b) le fabricant du système d’extinction ou son représentant ;
+(c) un installateur agréé par le ministère des Transports, selon les instructions du fabricant du système ou de son représentant ;
+(2) pour un autobus importé en Israël : il répond aux exigences du règlement ECE 107 et ses mises à jour, conformément à l’attestation de conformité aux exigences de la normalisation européenne du véhicule délivrée par un laboratoire européen reconnu au sens de la loi sur l’octroi de licences aux services.
+(c) Lors d’un renouvellement qui n’est pas le premier, la licence d’un autobus visé au paragraphe (b) ou (b1) ne sera pas renouvelée, sauf si le propriétaire du véhicule détient l’une des attestations suivantes concernant le bon état du système d’extinction d’incendie :
+(1) une attestation de l’un des acteurs énumérés au paragraphe (b1)(1), et pour un autobus importé en Israël, de l’un des acteurs énumérés au paragraphe (b1)(1)(b) ou (c) ;
+(2) une attestation d’un garage Autotech pour véhicules lourds, au sens du règlement sur l’octroi de licences aux services et professions de la branche automobile (conditions de licence des garages et des directeurs professionnels de garages, et d’habilitation des examinateurs, et dispositions diverses) de 2022, habilité à cet effet par le fabricant du système d’extinction ou son représentant.
+(d) Pour cet article :
+« autobus urbain » : autobus dont la carte grise indique qu’il est un autobus urbain, et pour un nouvel autobus pour lequel aucune carte grise n’a encore été délivrée : indiqué ainsi dans son instruction d’immatriculation ;
+« instruction d’immatriculation » : attestation du service de normalisation de la division des véhicules confirmant qu’un modèle de véhicule répond aux exigences obligatoires israéliennes pour l’immatriculation du véhicule ;
+« SI 6278, parties 1 et 2 » et « SI 6278, partie 3 » : publiées sur le site de l’Institut israélien des normes (www.sii.org.il).
+
+#T483א
+F: Dans tout autobus se trouvera, chaque fois que l’autobus sert au transport de passagers, une poubelle d’un type approuvé par l’autorité d’immatriculation près de chaque porte.
+
+#T28א
+F: (a) Dans un véhicule à moteur en mouvement, aucun affichage visible depuis le siège du conducteur ne sera activé ; un mécanisme permettant de le désactiver pendant la marche sera installé dans le véhicule et nul ne conduira le véhicule sans que l’affichage ait été désactivé.
+(b) Le paragraphe (a) ne s’applique pas à un affichage destiné au contrôle ou à la navigation du véhicule, ni aux systèmes d’affichage des véhicules utilisés par la police d’Israël, l’Autorité nationale des pompiers et des secours ou le Shin Bet pour l’exercice de leur mission, ou par l’armée de défense d’Israël à des fins de sécurité.
+(c) Malgré cet article, le ministre peut autoriser, pour un motif de sécurité, l’utilisation d’un affichage visible du conducteur même pendant la marche du véhicule, à condition que l’affichage n’oblige pas à le regarder en continu et que le conducteur du véhicule ainsi équipé ait reçu une formation à son usage pendant la conduite.
+
+#T64(ז)
+F: Le conducteur d’un véhicule qui s’approche d’un rond-point devant lequel est placé le panneau 303 cède la priorité au véhicule qui se trouve dans le rond-point.
+
+#T64(א)
+F: Si aucun panneau n’impose de céder la priorité à l’intersection ou de s’arrêter avant l’intersection dans le sens de marche du conducteur, les dispositions suivantes s’appliquent :
+(1) lorsque plusieurs véhicules s’approchent d’une intersection de côtés différents, le conducteur cède la priorité aux véhicules venant de droite ;
+(2) le conducteur d’un véhicule qui s’approche d’une intersection, ou s’y trouve, et s’apprête à tourner à gauche ou à faire demi-tour par la gauche, cède la priorité au véhicule venant en face qui se trouve dans l’intersection ou près de celle-ci, sans préjudice du point (1) ;
+(3) le conducteur d’un véhicule qui sort d’un chemin de terre et s’apprête à entrer sur une route revêtue ou à la traverser cède la priorité au véhicule qui approche sur la route revêtue.
+
+#T64(ו)
+F: Le conducteur dont la voie se termine et qui doit se déporter sur une voie voisine cède la priorité aux véhicules qui roulent dans la voie où il veut se déporter.
+
+#T52(5)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] près d’un groupe d’enfants ou d’un rassemblement.
+
+#T52(1)
+F: [Le conducteur doit ralentir, et si nécessaire s’arrêter,] à l’intérieur de zones bâties habitées et sur les tronçons de route bordés de maisons où circulent des piétons.
+
+#T72(א)(15)
+F: [Il est interdit d’arrêter, d’immobiliser ou de stationner un véhicule] près d’un panneau marquant un arrêt de transport de soldats, sauf pour faire monter ou descendre des soldats.
+
+#T43(א)(1)
+F: [Le conducteur qui tourne à gauche commence son virage] depuis une chaussée à sens unique, lorsque son véhicule se trouve du côté gauche de la chaussée.
+
+#T67(א1)
+F: Le conducteur d’un véhicule qui s’approche d’un passage pour piétons ralentira si un piéton se tient sur le trottoir près du passage, et s’il est manifeste que le piéton a l’intention de traverser la chaussée, il lui cédera la priorité.
+
+#T36(ד)
+F: Sur une chaussée divisée en voies où sont marquées des flèches menant à une intersection, le conducteur n’entrera dans l’intersection, ne la traversera et n’en sortira que dans la direction de la flèche marquée sur la voie d’où il y est entré. Pour ce paragraphe, « intersection » comprend la jonction avec une autre chaussée.
+
+#T1:רכב להסעת תלמידים
+F: « Véhicule de transport scolaire » : autobus privé ou véhicule public destiné par sa construction au transport d’élèves, qui satisfait aux exigences relatives aux feux de marquage et de signalisation, aux ceintures de sécurité et à la signalétique fixées par le ministre à cet effet, déposées à la consultation du public à la division des véhicules du ministère des Transports pendant les heures de travail ordinaires, et dont la carte grise mentionne qu’il peut servir de véhicule de transport scolaire.
+
+#T83
+F: (a) Nul n’effectuera de transport scolaire autrement qu’avec un véhicule de transport scolaire ou un taxi ayant reçu une licence pour course spéciale au sens de l’article 492.
+(a1) Nul ne conduira un véhicule de transport scolaire, et le propriétaire d’un véhicule de transport scolaire ou celui qui en a le contrôle ne permettra de le conduire, sans qu’une attestation annuelle de bon fonctionnement du système d’alerte d’oubli d’enfants dans le véhicule, visé à l’article 364Z, se trouve dans le véhicule.
+(b) Nul ne conduira un véhicule de transport scolaire sans qu’y soit installé, à l’avant et à l’arrière, un panneau précisé au point 3 de la partie C de la deuxième annexe, clairement visible de l’extérieur et portant le mot « Enfants », et nul ne conduira un véhicule portant un tel panneau s’il n’effectue pas un transport scolaire.
+(b1) Nul ne transportera d’enfants debout lors d’un transport scolaire.
+(b2) Le conducteur d’un véhicule de transport scolaire activera les feux de signalisation qui y sont installés selon les exigences fixées pour les véhicules de transport scolaire, chaque fois que les portes du véhicule sont ouvertes.
+(c) Celui qui effectue un transport scolaire ne permettra la montée des enfants dans le véhicule et leur descente que comme suit :
+(1) dans un minibus et un véhicule commercial : par la porte avant droite ou la deuxième porte droite à partir de l’avant ;
+(2) dans un véhicule de transport scolaire non mentionné au point (1) : par la porte avant droite ;
+(3) dans un taxi : du côté visé à l’article 81(2) ou (3), selon le cas.
+(d) Celui qui effectue un transport scolaire ne démarrera pas avant de s’être assuré que tous les enfants sont complètement descendus du véhicule et se sont éloignés de sa trajectoire.
+(e) Celui qui effectue un transport scolaire inspectera le véhicule à la fin du transport pour s’assurer qu’aucun enfant n’y est resté.
+
+#T1:הסעת תלמידים
+F: « Transport scolaire » : transport rémunéré d’enfants vers une école au sens de l’article 70C(d) de l’Ordonnance ou vers une activité organisée pour des enfants, ou à leur retour, à l’exception d’un trajet sur une ligne de service, ou transport selon la loi sur le transport sûr des enfants et bambins handicapés de 1994. Ici, « enfants » désigne ceux qui n’ont pas encore dix-huit ans.
+
+#T83(ב1)
+F: Nul ne transportera d’enfants debout lors d’un transport scolaire.
+
+#T97(ה)
+F: Nul ne conduira un véhicule à moteur dans un tunnel à l’entrée duquel est placé le panneau 439 portant l’inscription « Tunnel – allumer les feux », sauf si les phares avant et les feux arrière sont allumés.

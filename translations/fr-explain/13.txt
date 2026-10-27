@@ -1,0 +1,219 @@
+#0782
+E: En tournant à droite, on est près du bord droit : un deux-roues, souvent dans l'angle mort, peut s'engouffrer à votre droite. Il faut donc regarder dans le rétroviseur droit et l'angle mort avant et pendant le virage.
+R: T42
+
+#0783
+E: On ne tourne à droite que depuis la voie de droite, sauf si plusieurs voies sont marquées pour tourner à droite : alors on peut tourner depuis chacune d'elles.
+R: T42; T36(ד)
+
+#0784
+E: Pour tourner à gauche d'une chaussée à double sens à plusieurs voies, on part de la voie la plus à gauche (2) et on entre sur la voie la plus à gauche de la chaussée à sens unique (5).
+R: T43(א)(3); T43(ב)(1)
+
+#0785
+E: Le panneau 619 / 621 à flèche oblique (noir, cadre de chantier) vous invite à rejoindre la voie voisine de droite quand la circulation le permet : la voie devant vous est fermée.
+R: T64(ו)
+
+#0786
+E: Les panneaux orange (909, 914, 901, 930, 932…) sont tous des panneaux de CHANTIER : orange = travaux sur la route.
+
+#0787
+E: Un autobus articulé (avec soufflet) peut mesurer jusqu'à 18,75 mètres selon la banque officielle.
+
+#0788
+E: Le 308 vous donne la priorité dans le passage étroit, mais pas sur celui qui s'y est déjà engagé : on ne peut pas se croiser à deux. Attendez qu'il sorte avant de passer.
+R: T46(א)
+
+#0789
+E: On n'entre dans une intersection que si l'on peut la traverser sans s'arrêter, même si le feu est vert.
+R: T65
+
+#0790
+E: La voie n'a pas besoin d'être marquée : c'est la file de véhicules, même sans lignes. Le policier a donc raison de verbaliser un déport dangereux.
+R: T1:נתיב; T40(א)
+
+#0791
+E: On ne tourne à gauche ailleurs que depuis la voie de gauche que si plusieurs voies sont marquées pour tourner à gauche.
+R: T43(א)(1); T36(ד)
+
+#0792
+E: Il est interdit de franchir une ligne continue pour faire demi-tour.
+R: T44(ב); T47(ה)(5)
+
+#0793
+E: Un demi-tour est un virage à l'issue duquel on repart en sens inverse, vers d'où l'on venait.
+R: T44(א)
+
+#0794
+E: Le demi-tour est dangereux de plusieurs façons : il retarde les autres, risque une collision de face ou par l'arrière et provoque des freinages brusques.
+R: T44(א)
+
+#0795
+E: Le demi-tour est interdit quand il gêne ou met en danger, dans un virage, près d'un sommet, là où le véhicule n'est pas visible, et lorsqu'un panneau l'interdit : toutes les réponses sont exactes.
+R: T44(א); T44(ב)
+
+#0796
+E: Sur la photo, le panneau ou le marquage interdit le demi-tour : l'obligation de continuer tout droit vaut interdiction de demi-tour.
+R: T44(ב)
+
+#0797
+E: Avant de faire demi-tour, on s'assure que c'est permis et que cela ne gêne ni ne met en danger la circulation.
+R: T44(א)
+
+#0798
+E: Le conducteur est responsable de la sécurité en marche arrière, même s'il se fait guider.
+R: T45
+
+#0799
+E: En marche arrière, le principal danger est de heurter quelqu'un qui se trouve dans les « angles morts » derrière ou autour du véhicule (enfants, piétons).
+R: T45
+
+#0800
+E: L'angle mort est la zone autour du véhicule où le conducteur ne peut ni voir ni repérer ce qui s'y trouve, même avec les rétroviseurs.
+
+#0801
+E: Pour réduire les dangers en marche arrière : regarder correctement et continuellement tout autour, et rouler lentement.
+R: T45
+
+#0802
+E: La vitesse raisonnable est une vitesse légale, adaptée à la route, à l'environnement et à la circulation, qui permet la maîtrise totale du véhicule.
+R: T51
+
+#0803
+E: La vitesse raisonnable ne dépasse jamais la limite légale : même pour dépasser, la vitesse maximale reste la même.
+R: T51; T54(א)
+
+#0804
+E: À grande vitesse, on a moins de chances de s'arrêter à temps ou de garder le contrôle du véhicule.
+R: T51
+
+#0805
+E: À faible vitesse, les distances de réaction, de freinage et d'arrêt sont toutes plus courtes : on s'arrête plus vite.
+
+#0806
+E: Plus la vitesse est élevée, plus le choc est violent (l'énergie croît avec le carré de la vitesse) : blessures et dégâts plus graves.
+
+#0807
+E: Conduire à une vitesse raisonnable, c'est tenir compte de la route et de la circulation pour garder à tout moment la maîtrise totale du véhicule.
+R: T51
+
+#0808
+E: À grande vitesse, le temps pour réagir est très réduit : on a moins de temps pour percevoir, décider et agir.
+
+#0809
+E: Plus la vitesse est élevée, plus la distance d'arrêt augmente (réaction + freinage).
+
+#0810
+E: La distance d'arrêt est la distance parcourue depuis que le conducteur perçoit le danger jusqu'à l'arrêt complet du véhicule.
+
+#0811
+E: Distance d'arrêt = distance de réaction + distance de freinage.
+
+#0812
+E: La distance de réaction est parcourue entre le moment où le conducteur perçoit le danger et celui où il commence à agir (poser le pied sur le frein).
+
+#0813
+E: La distance de freinage est parcourue de l'instant où l'on appuie sur le frein jusqu'à l'arrêt complet.
+
+#0814
+E: La distance de sécurité évite le choc avant-arrière quand le véhicule de devant ralentit ou s'arrête.
+R: T49(א)
+
+#0815
+E: La distance exigée par la loi est celle qui permet d'éviter un accident à tout moment, compte tenu de la vitesse, de la route et de la visibilité.
+R: T49(א)
+
+#0816
+E: Plus on garde de distance, plus on voit loin devant le véhicule qui nous précède : le champ de vision s'élargit.
+
+#0817
+E: Garder une distance adaptée évite les accélérations et freinages fréquents : moins d'usure des freins et moins de carburant consommé.
+R: T49(א)
+
+#0818
+E: Une bonne distance rend la conduite plus calme, moins stressante et moins fatigante, et prévient les dangers.
+
+#0819
+E: Quand quelqu'un vous suit de trop près, gardez vous-même une plus grande distance devant vous, pour pouvoir freiner en douceur et ne pas être percuté.
+R: T49(א)
+
+#0820
+E: La méthode des deux secondes : on compte « 21, 22 » entre le moment où le véhicule de devant passe un repère et celui où l'on y passe. Le minimum légal est d'une seconde ; deux secondes sont recommandées.
+R: T49(ב)
+
+#0821
+E: On garde plus de distance quand la visibilité est mauvaise, sur chaussée glissante et lorsqu'on est fatigué (ainsi que derrière un camion).
+R: T49(א)
+
+#0822
+E: On peut dépasser plusieurs véhicules d'un coup si le dépassement n'est pas interdit et si la distance libre suffit pour le terminer sans risque.
+R: T47(ד)
+
+#0823
+E: Avant de dépasser, il faut vérifier que c'est permis et qu'on pourra terminer en sécurité sans aucun doute.
+R: T47(ד); T47(ה)
+
+#0824
+E: Un dépassement ne se justifie que si la différence de vitesse est assez importante pour le terminer vite et en sécurité.
+R: T47(ד)
+
+#0825
+E: Garder une distance adaptée permet à un véhicule qui dépasse de se rabattre devant vous en sécurité.
+R: T49(א)
+
+#0826
+E: Sur une route à double sens, dépasser expose au risque qu'un véhicule surgisse sur la voie opposée.
+R: T47(ד)
+
+#0827
+E: Hors agglomération, on peut klaxonner brièvement avant de dépasser, si c'est nécessaire (et faire un appel de phares la nuit).
+R: T63(א)
+
+#0828
+E: Sur une chaussée à sens unique à deux voies, le principal danger en se déportant à gauche est de gêner un véhicule qui circule déjà sur la voie de gauche.
+R: T40(א)
+
+#0829
+E: On ne passe par la droite que dans les cas prévus : par exemple quand l'autre véhicule est sur une voie de virage à gauche et signale qu'il va tourner à gauche.
+R: T47(ב)(1)
+
+#0830
+E: Un véhicule hybride a un moteur électrique en plus de son moteur thermique.
+
+#0831
+E: Avant de s'engager volontairement sur l'accotement : regarder (surtout vers l'arrière), mettre le clignotant et ralentir en douceur.
+R: T58(א)
+
+#0832
+E: Pour s'engager sur l'accotement en sécurité : accotement et chaussée à la même hauteur et accotement assez large.
+
+#0833
+E: Pour entrer sur un accotement plus bas que la chaussée : ralentir à basse vitesse et descendre progressivement.
+
+#0834
+E: Une fois sur l'accotement, immobilisez-vous le plus loin possible du bord de la chaussée.
+
+#0835
+E: Pour remonter sur la chaussée : observer la circulation, mettre le signal adapté et remonter en douceur.
+R: T41; T58(א)
+
+#0836
+E: La première étape pour remonter sur la chaussée est de mettre le clignotant.
+R: T58(א)
+
+#0837
+E: Une sortie imprévue vers l'accotement se justifie par l'apparition soudaine d'un élément gênant ou dangereux sur votre voie.
+
+#0838
+E: Freiner en sortant de la chaussée est dangereux : les roues sont sur deux surfaces d'adhérence différente et le véhicule peut partir en tête-à-queue.
+
+#0839
+E: Une route de montagne est étroite, sinueuse, avec des virages serrés et des pentes raides.
+
+#0840
+E: En montagne, le principal danger est de perdre les freins et de dévier vers la voie opposée ou hors de la route.
+R: T159(ב)
+
+#0841
+E: Pour éviter de perdre les freins en montagne : rouler sur un rapport bas adapté (frein moteur) et peu utiliser les freins.
+R: T159(ב)

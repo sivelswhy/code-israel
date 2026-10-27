@@ -1,0 +1,14 @@
+#1802
+Q: Quel panneau signifie station d'échange de batterie pour véhicule électrique ?
+1: פ-151
+2: ס-130
+3: ס-131
+4: ס-31
+
+#1803
+Q: Quel panneau signifie accident sur la route devant vous ?
+1: 127
+2: 107
+3: 151
+4: 150
+

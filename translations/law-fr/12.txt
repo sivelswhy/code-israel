@@ -1,0 +1,10 @@
+#T169א
+F: Alcool : seuil légal (art. 169A du Règlement, définitions).
+Seuil légal d’alcool pour un conducteur ordinaire (« concentration d’alcool dans le corps ») : plus de 240 microgrammes d’alcool par litre d’air expiré, ou plus de 50 milligrammes d’alcool pour 100 millilitres de sang.
+Seuil plus bas pour les nouveaux conducteurs, les conducteurs de moins de 24 ans, les conducteurs de véhicules commerciaux ou de travail de plus de 3 500 kg et les conducteurs de véhicules publics : plus de 50 microgrammes par litre d’air expiré, ou plus de 10 milligrammes pour 100 millilitres de sang (art. 64B de l’Ordonnance).
+Autres définitions de ce chapitre : « alcool » : alcool éthylique, éthanol ; « éthylotest » : test de l’air expiré au moyen d’un appareil approuvé par le ministre de la Santé, en consultation avec le ministre des Transports, qui indique la concentration d’alcool dans l’air expiré ou son équivalent dans le sang ; « test de laboratoire » : analyse d’un échantillon de sang ou d’urine pour mesurer l’alcool ou détecter des stupéfiants ; « personne testée » : personne à qui l’on a demandé de se soumettre à un test.
+
+#T169ב
+F: (a) Nul ne conduira un véhicule, ni ne le mettra en marche, sur une route ou dans un lieu public, s’il est ivre.
+(b) Le propriétaire d’un véhicule ou son responsable ne permettra pas à une personne ivre de le conduire.
+(c) Pour les articles 62(3) ou 64B de l’Ordonnance et ce chapitre, une personne est considérée comme ivre si elle est sous l’influence de stupéfiants enivrants ou dangereux, ou si la concentration d’alcool dans son corps dépasse la mesure fixée (240 microgrammes par litre d’air expiré ou 50 milligrammes pour 100 millilitres de sang, voir l’article 169A).

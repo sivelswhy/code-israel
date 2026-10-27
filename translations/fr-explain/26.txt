@@ -1,0 +1,183 @@
+#1562
+E: Voyant du frein de stationnement allumé en roulant : le frein est serré et freine réellement le véhicule, il faut le desserrer.
+
+#1563
+E: Quand le soleil éblouit, ralentissez et adaptez la vitesse au champ de vision existant.
+
+#1564
+E: Face à un véhicule qui éblouit : ralentissez, serrez à droite autant que possible et ne regardez pas dans les phares.
+
+#1565
+E: Si le remplissage des réservoirs d'air s'allonge, rendez-vous à un garage agréé après le remplissage, en roulant lentement et prudemment.
+
+#1566
+E: La pression correcte du système pneumatique est celle fixée par le constructeur.
+
+#1567
+E: Il est interdit de conduire un véhicule lourd dont la pression d'air des freins est inférieure au minimum requis.
+
+#1568
+E: Toute modification de la structure ou du type du véhicule exige l'autorisation préalable écrite de l'autorité des permis.
+
+#1569
+E: Le panneau 146 avertit de la présence d'animaux sur la route.
+
+#1570
+E: Dans cette séquence de panneaux, c'est le panneau 306 qui vient après le panneau 135.
+
+#1571
+E: Le side-car est un dispositif de transport d'une personne ou d'une charge, monté sur une roue et relié à la moto sur son côté.
+R: T1:רכב צדי
+
+#1572
+E: Le panneau 804 signifie sentier ou voie destiné aux vélos uniquement, roulez dans le sens de la flèche.
+
+#1573
+E: Avec une double ligne continue à votre gauche, vous pouvez dépasser sans franchir la ligne continue.
+
+#1574
+E: La vitesse maximale d'un tracteur de transport sur route non urbaine est de 40 km/h.
+R: T54
+
+#1575
+E: La vitesse maximale en agglomération d'une moto de 125 cm³ au plus est de 50 km/h.
+R: T54
+
+#1576
+E: Le remorquage par un véhicule à moteur à trois roues ou moins est interdit : la moto ne peut pas remorquer.
+
+#1577
+E: Sur une moto, les phares avant sont allumés de jour comme de nuit, sur toute route, toute l'année.
+
+#1578
+E: Les systèmes de commande du véhicule sont le freinage, la direction et l'accélération.
+
+#1579
+E: Une moto avec side-car immobilisée sur route non éclairée aux heures d'éclairage a le feu arrière et les feux de position allumés.
+
+#1580
+E: Avant de sortir de la position P sur une boîte automatique, appuyez fortement sur la pédale de frein.
+
+#1581
+E: Le motocycliste doit porter un casque homologué attaché de façon à ne pas tomber pendant la marche.
+
+#1582
+E: Pour un véhicule de travail qui tracte une remorque de plus de 4 000 kg, il faut le permis C+E.
+
+#1583
+E: On peut transporter un passager sur une moto quand le conducteur a plus de 18 ans.
+
+#1584
+E: Le nombre de passagers d'une moto est celui autorisé par l'autorité des permis sur le permis du véhicule.
+
+#1585
+E: Le passager a les jambes de part et d'autre de la moto, posées sur les repose-pieds.
+
+#1586
+E: Un véhicule à deux roues ne roule pas à côté d'un autre, sauf pour dépasser ou passer devant.
+
+#1587
+E: Il est interdit de garer une moto dans la zone d'un arrêt d'autobus marqué.
+
+#1588
+E: Béquille latérale dépliée en roulant : elle touche la route et peut faire se renverser la moto et le conducteur.
+
+#1589
+E: Le motocycliste ne transporte pas d'objet qui l'empêche de maîtriser pleinement la moto.
+
+#1590
+E: Il faut détenir son permis de conduire un tracteur depuis six mois pour conduire un tracteur lourd.
+
+#1591
+E: Le permis A2 est nécessaire pour une moto jusqu'à 125 cm³ et 14,6 chevaux.
+
+#1592
+E: Le permis A1 est nécessaire pour une moto jusqu'à 33 chevaux (25 kW).
+
+#1593
+E: Le permis A est nécessaire pour une moto de plus de 33 chevaux (25 kW).
+
+#1594
+E: L'âge minimal pour le permis A2 est de 16 ans, avec l'accord écrit d'un parent ou d'un tuteur.
+
+#1595
+E: Le passager doit avoir les jambes posées sur les repose-pieds de la moto.
+
+#1596
+E: Sur une moto, on peut actionner le frein arrière et le frein avant séparément.
+
+#1597
+E: La vitesse raisonnable est celle à laquelle le motocycliste repère tous les détails de la route et maîtrise pleinement la moto, sans dépasser la vitesse maximale.
+
+#1598
+E: Quand la visibilité est mauvaise, ralentissez et gardez une distance plus grande qu'habituellement.
+
+#1599
+E: Un large champ de vision à travers le casque aide à fixer les marges de sécurité et le rythme, et raccourcit les temps de réaction.
+
+#1600
+E: L'adhérence de la moto sur la route limite sa capacité de freiner, d'incliner ou d'accélérer.
+
+#1601
+E: Un obstacle découvert au dernier moment laisse un temps de réaction trop court.
+
+#1602
+E: La peinture de marquage peut être plus glissante que la route elle-même et augmenter le risque de dérapage.
+
+#1603
+E: Le milieu de la voie est la zone la plus sale et la plus huileuse de la route : évitez-le à moto.
+
+#1604
+E: Sur une tache d'huile, continuez tout droit sans freiner ni accélérer et appuyez sur le levier d'embrayage.
+
+#1605
+E: On traverse une tache d'huile en ligne droite, sans accélérer et sans freiner.
+
+#1606
+E: Sur une tache glissante, relâchez gaz et freins, appuyez sur l'embrayage et gardez une trajectoire droite.
+
+#1607
+E: Le numéro 78 indique le porte-à-faux arrière de l'autobus de la photo.
+
+#1608
+E: Des phares sales réduisent le champ de vision du conducteur la nuit.
+
+#1609
+E: L'habileté du motocycliste et sa position assise influencent le plus sa capacité à repérer les obstacles.
+
+#1610
+E: Un passager n'est transporté que si le conducteur et le passager portent tous deux un casque de protection.
+
+#1611
+E: À l'entrée d'un virage, l'adhérence du pneu change quand on incline la moto, d'où une maîtrise altérée.
+
+#1612
+E: Avant une courbe ou un virage, ralentissez et freinez très progressivement.
+
+#1613
+E: On ne transporte un passager supplémentaire que si c'est indiqué sur le permis du véhicule.
+
+#1614
+E: À l'entrée d'un virage, portez le regard vers le virage et vers la sortie du virage.
+
+#1615
+E: On incline la moto dans un virage pour réduire l'effet de la force centrifuge.
+
+#1616
+E: On réagit à la force centrifuge en inclinant la moto vers l'intérieur du virage.
+
+#1617
+E: Un motocycliste peut traverser un trottoir pour entrer dans une cour ou un garage.
+
+#1618
+E: Un freinage fort dans un virage provoque le dérapage de la roue arrière.
+
+#1619
+E: Sur une zone huileuse dans un virage, essayez de redresser la moto pour rouler droit autant que possible.
+
+#1620
+E: Pour éviter un obstacle : freinez avant, relâchez juste avant de le rencontrer, puis contournez-le.
+
+#1621
+E: Une moto exige un entretien périodique selon les instructions de son constructeur.
+

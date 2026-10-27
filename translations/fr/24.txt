@@ -1,0 +1,420 @@
+#1442
+Q: Qu'est-ce qu'un « véhicule composé » ?
+1: Un véhicule monté sur un châssis comme une seule unité.
+2: Un véhicule qui tracte un autre véhicule à moteur.
+3: Un tracteur routier auquel est attelé un semi-remorque.
+4: Un véhicule monté sur un châssis à poutres.
+
+#1443
+Q: Définissez le « véhicule articulé » :
+1: Un véhicule de transport de charges longues.
+2: Un tracteur routier auquel est attelé un semi-remorque.
+3: Un véhicule à moteur auquel est attelée une remorque à l'arrière.
+4: Un véhicule à moteur qui tracte un véhicule à moteur.
+
+#1444
+Q: En roulant sur une route à double sens, lorsque la visibilité est mauvaise :
+1: Il est obligatoire d'allumer les feux de position pendant le dépassement.
+2: Le dépassement est permis, sauf si un panneau l'interdit.
+3: Il est interdit de dépasser.
+4: Il est obligatoire de klaxonner pendant le dépassement pour avertir le véhicule dépassé.
+
+#1445
+Q: Un tracteur peut-il entrer sur une voie rapide ?
+1: Il le peut, de jour seulement.
+2: Oui.
+3: Non.
+4: Il le peut, à condition de ne pas tracter de remorque.
+
+#1446
+Q: Définissez la « longueur totale » :
+1: La distance entre le centre de l'essieu le plus à l'arrière et le centre de l'essieu le plus à l'avant.
+2: La longueur totale du véhicule entre le pare-chocs arrière et le centre de la roue avant.
+3: La distance entre les extrémités du châssis – avant et arrière.
+4: La distance entre le point le plus avancé à l'avant du véhicule et le point le plus reculé à l'arrière.
+
+#1447
+Q: Sur quel type de véhicule est-il interdit de dépasser un véhicule qui dépasse ?
+1: Sur un véhicule utilitaire et un véhicule de travail dont le poids total autorisé est de 3 500 kg ou moins.
+2: Sur un autobus qui n'est pas un minibus, un véhicule utilitaire et un véhicule de travail dont le poids total autorisé dépasse 3 500 kg.
+3: Sur un véhicule à moteur dont le poids total autorisé dépasse 4 000 kg.
+4: Sur les motos.
+
+#1448
+Q: Quel type de véhicule doit entrer dans une intersection par la voie de droite, sur une route à deux voies ou plus dans le même sens ?
+1: Un véhicule utilitaire à moteur dont le poids total autorisé est de 6 000 kg ou plus.
+2: Un véhicule utilitaire dont le poids total autorisé dépasse 4 000 kg.
+3: Un véhicule utilitaire dont le poids total autorisé est de 10 000 kg ou moins.
+4: Un véhicule utilitaire et un véhicule de travail dont le poids total autorisé dépasse 10 000 kg.
+
+#1449
+Q: Le conducteur d'un véhicule utilitaire qui transporte plus de huit passagers et qui est tenu de porter des instruments optiques doit :
+1: Vérifier le bon état et la propreté des instruments optiques avant de rouler.
+2: Avoir dans le véhicule une paire d'instruments optiques supplémentaire, en plus de celle qu'il porte.
+3: Passer un examen de la vue une fois tous les six mois, comme exigé.
+4: Avoir une paire de lunettes de soleil en plus des instruments optiques qu'il porte.
+
+#1450
+Q: Les obligations et interdictions applicables à un véhicule utilitaire s'appliquent-elles aussi à un véhicule de transport de marchandises ?
+1: Non. Les obligations et interdictions applicables à un véhicule utilitaire ne s'appliquent qu'à un véhicule de transport de marchandises intégré.
+2: Non. Le véhicule utilitaire n'est pas soumis au même régime que le véhicule de transport de marchandises ; les obligations et interdictions de l'un ne s'appliquent donc pas à l'autre.
+3: Oui. Toute obligation ou interdiction applicable à un véhicule utilitaire s'applique aussi à un véhicule de transport de marchandises.
+4: Oui. Les obligations et interdictions applicables à un véhicule utilitaire s'appliquent aussi à un véhicule de transport de marchandises, sauf l'obligation d'attacher la ceinture de sécurité.
+
+#1451
+Q: Qu'est-ce qu'un « tachygraphe » ?
+1: Un appareil installé par le propriétaire du véhicule selon les instructions de l'importateur, qui enregistre le nombre de tours des roues.
+2: Un appareil installé dans le véhicule selon les instructions de l'importateur, qui indique la vitesse du véhicule pour économiser le carburant.
+3: Un appareil du véhicule muni d'un disque qui enregistre le temps, la distance, la vitesse de conduite et les heures de travail du conducteur.
+4: Un appareil installé dans le véhicule, qui enregistre des données techniques du véhicule pendant la marche et permet de repérer les pannes mécaniques.
+
+#1452
+Q: Quel véhicule est considéré comme un « véhicule utilitaire » ?
+1: Un véhicule qui sert – ou est destiné à servir – au transport de marchandises contre rémunération, à l'activité et au commerce de son propriétaire.
+2: Tout véhicule servant au gagne-pain de son propriétaire ou de celui qui le conduit.
+3: Tout véhicule qui n'est pas un véhicule privé et pas un véhicule de tourisme.
+4: Un véhicule servant uniquement au transport de marchandises contre rémunération.
+
+#1453
+Q: Le chauffeur de taxi tenu de porter des lunettes ou des instruments optiques :
+1: Doit s'assurer que, pendant la conduite de nuit, il a dans sa poche ses lunettes ou ses lentilles de contact.
+2: Doit avoir dans le véhicule pendant la conduite des lunettes ou lentilles de contact supplémentaires.
+3: Doit avoir à la station de taxis des lunettes ou lentilles de contact supplémentaires.
+4: Doit s'assurer que, pendant la conduite de jour, il a dans sa poche des lunettes ou lentilles de contact appropriées.
+
+#1454
+Q: Que dit la « loi sur les services de transport de marchandises » ?
+1: La loi dispose qu'on ne peut fournir des services de transport avec un véhicule utilitaire de 10 000 kg ou plus de poids total sans « licence de transporteur ».
+2: La loi fixe les tarifs maximaux de transport pour le transport terrestre.
+3: La loi fixe le poids total autorisé des véhicules servant au transport.
+4: L'ordre du transport des charges vers le port et depuis le port.
+
+#1455
+Q: Qui doit avoir une licence de transporteur ?
+1: Quiconque fournit des services de transport avec un véhicule utilitaire de 8 000 kg ou moins.
+2: Tout véhicule utilitaire.
+3: Quiconque possède plus de cinq véhicules servant au transport de passagers.
+4: Quiconque fournit des services de transport avec un véhicule utilitaire de 10 000 kg ou plus de poids total.
+
+#1456
+Q: Pour quelle durée une licence de transporteur est-elle délivrée ?
+1: Pour une année.
+2: Jusqu'au renouvellement du permis du véhicule.
+3: Pour cinq ans.
+4: La durée dépend du type de charge.
+
+#1457
+Q: Qu'est-ce qu'un véhicule utilitaire selon la loi sur les services de transport de marchandises ?
+1: Un véhicule utilitaire au sens de la loi, auquel a été donnée une autorisation de transport de marchandises et de passagers.
+2: Un véhicule utilitaire servant uniquement au transport contre rémunération.
+3: Un véhicule servant uniquement au transport de passagers.
+4: Un véhicule dont le poids total autorisé est de 10 000 kg ou plus, et un véhicule transportant des matières dangereuses, quel que soit son poids.
+
+#1458
+Q: Le conducteur d'un minibus public tenu de porter des lunettes ou des instruments optiques :
+1: Doit avoir en sa possession pendant la conduite des lunettes ou lentilles de contact supplémentaires.
+2: Doit s'assurer de porter ses lunettes ou ses lentilles pendant la conduite – de jour au moins.
+3: Doit s'assurer de porter ses lunettes ou ses lentilles pendant la conduite – de nuit au moins.
+4: Doit avoir à l'arrêt d'autobus des lunettes ou lentilles de contact supplémentaires.
+
+#1459
+Q: Vous conduisez un poids lourd dans une descente raide et longue. Quand devez-vous enclencher un rapport bas approprié ?
+1: Ralentir avec les rapports n'a pas de sens, mais il est obligatoire d'utiliser intelligemment les ralentisseurs.
+2: Pas besoin de rapport bas : il faut enclencher un rapport haut et réguler la vitesse avec le ralentisseur, pour plus de sécurité.
+3: Il faut enclencher le rapport bas vers la fin de la descente.
+4: Il faut enclencher le rapport bas au début de la descente.
+
+#1460
+Q: Quel est le danger de changer de rapport en roulant avec un véhicule lourd dans une descente raide ?
+1: Aucun danger à changer de rapport, et le rapport enclenché n'a pas d'importance, tant que l'un d'eux est enclenché.
+2: Aucun danger à changer de rapport dans une descente raide.
+3: Le rapport risque de ne pas s'enclencher et le véhicule de rester au point mort (neutre).
+4: Aucun danger : passer d'un rapport bas à un rapport haut dans une descente raide permettra d'augmenter la vitesse du véhicule.
+
+#1461
+Q: Après avoir attelé une remorque ou un semi-remorque à un tracteur ou à un véhicule tracteur, faut-il vérifier la réaction des freins ?
+1: Oui. L'attelage d'une remorque ou d'un semi-remorque oblige à vérifier la réaction des freins au début du trajet.
+2: Non, il n'y a pas besoin de vérifier la réaction des freins. Il suffit qu'il y ait une pression d'air correcte dans les freins.
+3: Oui. Après l'attelage à un tracteur, il faut aller dans un centre de contrôle des freins et vérifier leur bon état.
+4: Non. Le conducteur n'a pas les moyens de vérifier la réaction des freins.
+
+#1462
+Q: Quand vous conduisez un camion dans une descente raide :
+1: L'usage des rapports pour freiner le véhicule n'a pas d'importance.
+2: Descendez au point mort (neutre) et utilisez les freins selon le besoin.
+3: Descendez sur un rapport haut et arrêtez le véhicule tous les quelques km.
+4: Roulez sur un rapport bas approprié et assurez-vous aussi d'actionner les mécanismes spéciaux de ralentissement installés sur le véhicule.
+
+#1463
+Q: Quels sont les moyens d'alerte installés dans la cabine d'un véhicule à système de freinage pneumatique (à air comprimé) ?
+1: Un voyant d'alerte, un avertisseur sonore et un manomètre d'air.
+2: Un voyant d'alerte rouge au centre du tableau de bord.
+3: Un voyant d'alerte et un levier de freinage d'urgence.
+4: Un voyant d'alerte et un frein autonome.
+
+#1464
+Q: Quels facteurs influencent la stabilité d'un véhicule utilitaire chargé dans un virage ?
+1: La vitesse du véhicule, le rayon du virage et la hauteur du centre de gravité du véhicule.
+2: La vitesse du véhicule et son poids.
+3: Le rayon du virage et la longueur du trajet dans le virage.
+4: Le poids du véhicule et le poids du moteur.
+
+#1465
+Q: Tout taxi doit-il avoir un système antiblocage des roues ABS ?
+1: Non, seuls les taxis urbains y sont tenus.
+2: Non. L'obligation ne s'applique qu'aux autobus et aux voitures particulières.
+3: Oui.
+4: Non. L'obligation ne s'applique qu'aux autobus et aux véhicules utilitaires.
+
+#1466
+Q: Plus le centre de gravité du véhicule est haut :
+1: Plus la stabilité du véhicule dans les virages augmente.
+2: Plus la stabilité du véhicule sur route mouillée augmente.
+3: Moins le véhicule est stable dans les virages et les courbes.
+4: Plus il est facile de tourner avec le véhicule.
+
+#1467
+Q: Quel panneau interdit le demi-tour par la gauche ?
+1: 209
+2: 212
+3: 207
+4: 208
+
+#1468
+Q: La date de fabrication du pneu du véhicule :
+1: Est gravée sur le pneu.
+2: Est inscrite sur le permis du véhicule.
+3: Est inscrite sur l'attestation d'assurance du véhicule.
+4: Est inscrite dans le manuel du véhicule.
+
+#1469
+Q: Comment faut-il atteler le tracteur routier au semi-remorque ?
+1: En poussant le semi-remorque vers l'avant jusqu'au tracteur.
+2: En reculant, le tracteur étant en angle diagonal ou dans tout autre angle commode.
+3: En reculant, avec un angle ne dépassant pas 15 degrés.
+4: Le conducteur du tracteur reculera, le tracteur et le semi-remorque étant en ligne droite.
+
+#1470
+Q: Quel danger menace un véhicule articulé ou composé qui roule sur une route glissante ?
+1: Une perte de puissance (puissance du moteur) due au dérapage d'un véhicule long.
+2: Un véhicule articulé ou composé ne diffère pas de tout autre véhicule et ne court aucun danger particulier.
+3: L'arrêt du frein ralentisseur.
+4: L'entrée en position « L » (jackknife), dans laquelle il se forme un grand angle entre le semi-remorque et le tracteur, ou entre la remorque et le véhicule tracteur, à cause du dérapage.
+
+#1471
+Q: Quelle est la vitesse maximale autorisée pour un véhicule utilitaire dont le poids total autorisé va jusqu'à 3 500 kg, sur route non urbaine sans terre-plein construit (sauf indication contraire d'un panneau) ?
+1: 60 km/h.
+2: 90 km/h.
+3: 80 km/h.
+4: 70 km/h.
+
+#1472
+Q: Il est permis de garer un autobus circulant sur une ligne de service (hors montée/descente de passagers) :
+1: À tout arrêt d'autobus.
+2: Sur tout parking public.
+3: Conformément à ce qui est inscrit dans l'autorisation de la ligne, si l'autorité l'a fixé.
+4: N'importe où, selon la demande des passagers.
+
+#1473
+Q: Quelle est la vitesse maximale autorisée (km/h) pour un véhicule de transport de marchandises dont le poids total dépasse 12 000 kg, roulant sur route urbaine ?
+1: 60 – même si un panneau permet de rouler plus vite.
+2: 60 – si un panneau permet de rouler plus vite, on peut rouler jusqu'à la vitesse indiquée par le panneau.
+3: 50 – même si un panneau permet de rouler plus vite.
+4: 50 – si un panneau permet de rouler plus vite, on peut rouler jusqu'à la vitesse indiquée par le panneau.
+
+#1474
+Q: Le poids maximal de la charge qu'un véhicule de transport de marchandises peut transporter :
+1: Ne dépassera pas le poids fixé par le constructeur du véhicule.
+2: Sera la charge fixée par le constructeur du véhicule plus 50 pour cent au maximum.
+3: Sera uniquement fonction de la marque des pneus du véhicule.
+4: Ne dépassera pas le poids de la charge inscrit sur le permis du véhicule.
+
+#1475
+Q: Qu'est-ce qu'un « semi-remorque » selon la loi :
+1: Toute remorque dont la partie arrière peut être soutenue par un tracteur.
+2: Une remorque motorisée construite de telle façon que sa partie avant repose sur un véhicule tracteur.
+3: Un véhicule à moteur destiné par sa construction à être tracté par un autre véhicule.
+4: Une remorque construite de telle façon que sa partie avant repose sur un tracteur routier.
+
+#1476
+Q: Du sable sur la chaussée peut provoquer :
+1: Une augmentation du frottement entre les pneus et la route et de la puissance de freinage.
+2: Le masquage de panneaux et de signaux importants placés sur la route.
+3: Une augmentation du frottement entre les pneus et la route et un échauffement excessif des pneus.
+4: Une diminution du frottement entre les pneus et la route et le dérapage du véhicule.
+
+#1477
+Q: Quel panneau autorise l'entrée aux vélos ?
+1: 219
+2: 412
+3: 227
+4: 414
+
+#1478
+Q: Nul ne transportera ni ne permettra à autrui de transporter un conteneur dans son véhicule, sauf si :
+1: Le véhicule a deux roues de secours.
+2: Le poids total autorisé du véhicule est d'au moins 14 000 kg.
+3: Le véhicule est équipé d'un moteur d'au moins 150 chevaux.
+4: Le permis du véhicule indique que le véhicule est autorisé à transporter des conteneurs.
+
+#1479
+Q: Un véhicule utilitaire de 12 000 kg de poids total ou plus doit avoir installé sur sa face arrière :
+1: Deux plaques rectangulaires rouges/blanches.
+2: Deux réflecteurs jaunes ronds rouges/blancs.
+3: Deux bandes réfléchissantes blanches.
+4: Deux réflecteurs jaunes triangulaires rouges/blancs.
+
+#1480
+Q: Quand une force centrifuge agit-elle sur le véhicule ?
+1: Quand le véhicule roule dans des virages et des courbes.
+2: En roulant en ligne droite, même sur une route horizontale.
+3: En roulant en ligne droite dans des descentes raides.
+4: En roulant en ligne droite dans des côtes raides.
+
+#1481
+Q: Comment réduire la force centrifuge qui agit sur le véhicule pendant la marche ?
+1: On ne peut pas la réduire – elle dépend de la taille du véhicule.
+2: En réduisant la vitesse dans les virages et les courbes.
+3: En augmentant la vitesse.
+4: En roulant selon la loi et en cédant toujours le passage.
+
+#1482
+Q: Après combien d'heures de repos le conducteur d'un véhicule de transport de marchandises de 10 000 kg de poids total autorisé ou plus peut-il commencer son travail ?
+1: Après un repos consécutif de six heures.
+2: Après une pause de repos consécutive de sept heures.
+3: Après un repos consécutif de cinq heures.
+4: Après un repos consécutif de quatre heures.
+
+#1483
+Q: Pourquoi enclenche-t-on un rapport bas en roulant dans une descente raide ?
+1: Pour s'aider du moteur à maintenir une vitesse basse et constante, sans trop utiliser les freins.
+2: Pour éviter l'usure des pneus en descente.
+3: Pour éviter que le moteur du véhicule ne chauffe trop.
+4: Pour économiser du carburant et réduire l'usure du moteur.
+
+#1484
+Q: Pendant un dépassement ou lorsqu'on passe devant un autre véhicule :
+1: Il faut rouler exactement à la vitesse du véhicule dépassé.
+2: On peut dépasser un instant la vitesse maximale autorisée – si c'est nécessaire.
+3: Il est interdit de rouler à une vitesse supérieure à la vitesse maximale autorisée.
+4: Il faut rouler dix km/h de moins que le véhicule dépassé.
+
+#1485
+Q: Que sont les « feux de détresse » d'un véhicule ?
+1: Un feu de stop supplémentaire à hauteur de la vitre.
+2: Un triangle de signalisation sur lequel sont montés des feux.
+3: Tous les indicateurs de direction lorsqu'ils clignotent ensemble.
+4: Des feux d'avertissement placés sur le toit du véhicule.
+
+#1486
+Q: Quelle est la vitesse maximale autorisée pour une voiture particulière sur route urbaine (en l'absence de panneau contraire) ?
+1: 60 km/h.
+2: 70 km/h.
+3: 50 km/h.
+4: 40 km/h.
+
+#1487
+Q: Le conducteur d'un véhicule peut-il dépasser la vitesse maximale autorisée pendant un dépassement ?
+1: Non.
+2: Oui, mais seulement sur route non urbaine.
+3: Oui, quand c'est nécessaire pour raccourcir la durée du dépassement.
+4: Oui, mais seulement sur route à plusieurs voies et pour peu de temps.
+
+#1488
+Q: Que signifie l'avis d'interdiction d'usage du véhicule (retrait de la circulation) :
+1: On peut circuler avec le véhicule sans restriction (s'il n'y a pas de danger pour la sécurité de la circulation), mais pas sur la route.
+2: Il est interdit de circuler avec le véhicule sur la route, sauf si son déplacement au garage le plus proche a été autorisé par le formulaire de retrait.
+3: On peut circuler avec le véhicule jusqu'à une semaine après son retrait de la route.
+4: Il est interdit de circuler avec le véhicule sans l'accord de l'assureur.
+
+#1489
+Q: La distance de réaction dépend :
+1: Du temps de réaction du conducteur et de la vitesse du véhicule.
+2: Du bon état des freins du véhicule.
+3: Uniquement de la vitesse du véhicule.
+4: Uniquement du temps de réaction du conducteur.
+
+#1490
+Q: La distance de réaction est la distance que parcourt le véhicule :
+1: Depuis que le conducteur remarque le danger jusqu'à l'arrêt complet.
+2: Depuis que le conducteur remarque le danger jusqu'à ce qu'il commence l'action qu'il a décidée.
+3: Depuis que le conducteur actionne les freins jusqu'à l'arrêt du véhicule.
+4: Depuis que le conducteur relâche la pédale d'accélérateur jusqu'à l'arrêt du véhicule.
+
+#1491
+Q: Quelle est la phrase correcte ?
+1: La distance de réaction est toujours plus grande que la distance de freinage.
+2: La distance d'arrêt est toujours plus grande que la distance de freinage.
+3: La distance de freinage est toujours plus grande que la distance de réaction.
+4: La distance de freinage est toujours plus grande que la distance d'arrêt.
+
+#1492
+Q: Vous roulez sur une route à double sens et devant vous roule un véhicule qui signale avec son clignotant gauche :
+1: Vous pouvez le dépasser si vous avez klaxonné pour l'avertir. Son signal ne vous oblige pas.
+2: Ne le dépassez pas sur une route étroite ; vous pouvez le dépasser par la gauche sur une route large.
+3: Vous devez tenir compte du déport possible du véhicule vers la gauche, et lui permettre de le faire.
+4: Vous pouvez le dépasser par la droite en descendant sur l'accotement.
+
+#1493
+Q: Lorsque la visibilité sur la route est limitée, le conducteur doit :
+1: Ralentir, adapter la vitesse aux conditions de visibilité et allumer les feux de croisement.
+2: Ralentir sur route à double sens et rouler normalement sur route à sens unique.
+3: Accélérer et allumer les feux de position, pour éviter la collision avec un véhicule qui roule derrière.
+4: Allumer les feux de route pour augmenter le champ de vision et avertir ceux qui viennent en face.
+
+#1494
+Q: Qui peut transporter des matières dangereuses ?
+1: Uniquement celui qui y a été formé et a reçu une autorisation du ministère des Transports.
+2: Quiconque y a été formé et a reçu une autorisation de celui qui l'a formé.
+3: Celui qui a réussi un cours de conduite de véhicule lourd.
+4: Quiconque est autorisé à conduire un véhicule dont le poids total autorisé dépasse 12 000 kg.
+
+#1495
+Q: Quelles conditions doivent être réunies pour le transport de matières dangereuses ?
+1: Le véhicule transportant la matière dangereuse aura un moteur à essence.
+2: Le transport sera approuvé par le ministère de la Sécurité intérieure.
+3: Le conducteur doit avoir une autorisation appropriée, et le véhicule doit être récent (âge du véhicule de quatre ans au plus).
+4: Le conducteur et le véhicule doivent avoir des autorisations appropriées de l'autorité des permis pour le transport de matières dangereuses.
+
+#1496
+Q: Comment agit le conducteur qui, en roulant, a heurté un véhicule en stationnement dont le propriétaire n'est pas présent ?
+1: Il laisse sur le véhicule heurté un avis écrit avec ses coordonnées, celles de son véhicule et celles de son attestation d'assurance, et fait un rapport à la police dans les 24 heures.
+2: Il attend l'arrivée du représentant de son assureur et fait un rapport à la police dans les 48 heures.
+3: Il informe le poste de police de l'accident dans les sept jours.
+4: Il attend sur place l'arrivée du propriétaire du véhicule heurté.
+
+#1497
+Q: La distance que le véhicule parcourt depuis l'appui sur la pédale de frein jusqu'à l'arrêt augmente :
+1: À mesure qu'on roule plus lentement.
+2: À mesure que le véhicule est plus récent.
+3: À mesure que le temps de réaction est plus long.
+4: À mesure qu'on roule plus vite.
+
+#1498
+Q: Pour couper la liaison entre le moteur et les roues, il faut :
+1: Appuyer sur le contacteur de démarrage (démarreur).
+2: Appuyer sur la pédale d'embrayage.
+3: Appuyer sur la pédale de frein et sur la pédale d'accélérateur.
+4: Arrêter le moteur.
+
+#1499
+Q: Que doit d'abord s'assurer le conducteur avant de lever le véhicule pour changer une roue ?
+1: Que le frein auxiliaire (de stationnement) soit desserré jusqu'à la dépose de la roue, et serré au montage de la nouvelle roue.
+2: S'assurer par tous les moyens existants que le véhicule ne bougera pas.
+3: Que le frein auxiliaire (de stationnement) soit serré jusqu'à la dépose de la roue, et desserré au montage de la nouvelle roue.
+4: Que le frein auxiliaire (de stationnement) soit libre et desserré, et que le véhicule soit sur un rapport bas pendant tout le changement.
+
+#1500
+Q: Quelle assurance couvrira les dommages causés au véhicule d'autrui ?
+1: L'assurance obligatoire.
+2: L'assurance cadres.
+3: L'assurance tiers.
+4: L'assurance incendie.
+
+#1501
+Q: La profondeur des rainures d'un pneu (pneumatique – à air comprimé) en contact avec la route ne sera pas inférieure à :
+1: 2 mm, roue de secours comprise.
+2: 2 cm, sauf la roue de secours.
+3: 2 mm, sauf la roue de secours.
+4: 2 cm, roue de secours comprise.
+

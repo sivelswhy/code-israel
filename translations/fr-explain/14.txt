@@ -1,0 +1,218 @@
+#0842
+E: Sur une route de montagne étroite, on évite la collision frontale en roulant à l'extrême droite, feux allumés (pour être vu dans les virages), à une vitesse adaptée. Se rapprocher de l'axe est dangereux.
+R: T35; T52(4)
+
+#0843
+E: Il y a dérapage quand les forces de freinage ou l'inertie dépassent l'adhérence du pneu : le véhicule veut continuer tout droit, mais le pneu ne tient plus la route.
+
+#0844
+E: Au freinage, c'est l'inertie qui agit : le véhicule tend à continuer son mouvement. C'est elle qui projette les passagers vers l'avant.
+
+#0845
+E: Dans un virage, la force centrifuge pousse le véhicule vers l'extérieur ; elle augmente avec la vitesse, d'où l'obligation de ralentir avant de tourner.
+
+#0846
+E: Tout ce qui s'interpose entre le pneu et la route fait déraper : eau, huile, boue, gravillons, feuilles, sable.
+
+#0847
+E: Les causes de dérapage sont un freinage mal adapté (trop tardif ou trop brusque) et la présence de produits glissants sur la chaussée.
+R: T53
+
+#0848
+E: Le danger immédiat du dérapage est de perdre la direction : le véhicule ne répond plus au volant, et on perd le contrôle.
+
+#0849
+E: Pour atténuer un dérapage : diriger correctement le véhicule et doser les freins, sans les bloquer.
+
+#0850
+E: Pour éviter le dérapage : rouler à une vitesse raisonnable et utiliser les freins de façon correcte et contrôlée (progressive).
+R: T51
+
+#0851
+E: De nuit, le champ de vision est limité, on est exposé à l'éblouissement et on évalue mal les distances.
+
+#0852
+E: Quand on est ébloui : ralentir, serrer à droite et regarder la ligne jaune ou le bord droit, jamais les phares qui arrivent.
+R: T99(א)
+
+#0853
+E: La nuit, il faut pouvoir s'arrêter dans la zone éclairée par ses feux : on adapte donc la vitesse à la portée de vision.
+R: T51
+
+#0854
+E: Pour limiter l'éblouissement : ne pas regarder la lumière, ralentir et rouler à droite.
+R: T99(א)
+
+#0855
+E: Conduire longtemps sans pause provoque une fatigue importante et un risque d'endormissement.
+
+#0856
+E: Contre la fatigue : bien se reposer avant de partir et faire des pauses régulières pendant le trajet. Café, vitesse et gros repas ne résolvent rien.
+
+#0857
+E: Une courte pause dissipe la fatigue pour peu de temps seulement : seul le sommeil la supprime vraiment.
+
+#0858
+E: On s'approche de son véhicule par l'avant, face à la circulation, pour voir arriver les autres véhicules en montant.
+
+#0859
+E: Avant de partir : régler le siège, le volant, les rétroviseurs et les appuie-tête, puis attacher la ceinture.
+R: T83ב(א)
+
+#0860
+E: Le rétroviseur intérieur montre la route derrière, à travers la lunette arrière, et autant que possible ses deux côtés.
+
+#0861
+E: Les rétroviseurs extérieurs montrent le bord de la carrosserie et la route sur les côtés du véhicule.
+
+#0862
+E: Avant de conduire un véhicule, on s'assure de savoir le manier : commandes, feux, boîte, freins.
+R: T25
+
+#0863
+E: Avant de démarrer : frein de service enfoncé, frein de stationnement serré, levier au point mort (P en automatique) et embrayage enfoncé.
+R: T74(ב)
+
+#0864
+E: Avant de démarrer, on observe correctement la route et la circulation, avant même de bouger.
+R: T41
+
+#0865
+E: Pour s'insérer : regarder dans les rétroviseurs et tourner la tête dans la direction où l'on va s'engager (angle mort).
+R: T41
+
+#0866
+E: Le clignotant ne donne aucun droit de passage : il faut en plus bien regarder avant de démarrer.
+R: T41; T58(א)
+
+#0867
+E: Pour rouler droit sans zigzaguer, on fixe le regard sur le point le plus lointain possible, pas sur les lignes proches.
+
+#0868
+E: Regarder loin devant permet de recueillir toutes les informations pour planifier la conduite et éviter les surprises.
+R: T51
+
+#0869
+E: Bien connaître les commandes permet de manipuler sans quitter la route des yeux : concentration maximale sur la circulation.
+R: T25
+
+#0870
+E: Un siège bien réglé permet de bien voir la route et de conduire sans fatigue : il faut le régler soi-même.
+
+#0871
+E: Avant de freiner pour ralentir, on regarde dans les rétroviseurs pour savoir si un véhicule suit de près.
+R: T52
+
+#0872
+E: Une bonne prise du volant permet un braquage précis et donc une direction précise à tout moment.
+R: T28(א)
+
+#0873
+E: On choisit le rapport pour déterminer la vitesse de roulage sans forcer le moteur.
+
+#0874
+E: Pour ralentir : on ralentit d'abord (pied de l'accélérateur, frein), puis on passe un rapport inférieur ; on ne rétrograde pas avant de ralentir.
+
+#0875
+E: En marche arrière, le champ de vision est réduit et la manipulation du véhicule est moins commode.
+
+#0876
+E: En marche arrière, l'allure est toujours lente.
+R: T45
+
+#0877
+E: La marche arrière impose toujours la prudence et des mesures pour éviter tout danger, dommage, dérangement ou gêne.
+R: T45
+
+#0878
+E: Un véhicule sort d'un stationnement en marche arrière : ralentissez et préparez-vous à vous arrêter ; il ne vous voit peut-être pas.
+R: T52
+
+#0879
+E: En tournant à droite, tenez compte qu'un cycliste peut se trouver à votre droite : vérifiez-le et prenez les mesures pour ne pas le heurter.
+R: T42
+
+#0880
+E: Laissez d'abord passer le véhicule qui vient en face, puis contournez la voiture en double file : on ne se déporte jamais devant un véhicule qui arrive.
+R: T40(א); T47(ד)
+
+#0881
+E: En sortant d'un chemin de terre, on cède le passage à tous les véhicules de la route revêtue, de droite comme de gauche.
+R: T64(א)(3)
+
+#0882
+E: La double ligne continue interdit de se déporter sur la voie opposée, même si personne ne vient derrière.
+R: T36(ג); T47(ה)(5)
+
+#0883
+E: Un vent latéral fort pousse un camion haut sur le côté : le conducteur doit ralentir et contrer cette force.
+R: T51
+
+#0884
+E: Un faible écart réduit le champ de vision et augmente le risque d'un dépassement : il faut garder ses distances avant de dépasser.
+R: T49(א)
+
+#0885
+E: Les feux stop allumés derrière la voiture argentée indiquent une deuxième silhouette devant elle : il y a deux véhicules devant vous.
+
+#0886
+E: Un véhicule hybride consomme moins de carburant qu'un véhicule ordinaire grâce à son moteur électrique.
+
+#0887
+E: Quand un véhicule dépasse et veut se rabattre, laissez-le se rabattre sans le gêner : ne pas accélérer ni klaxonner.
+R: T48(א)
+
+#0888
+E: Le véhicule qui sort d'un stationnement doit s'insérer, mais celui qui roule doit ralentir pour le laisser s'insérer en sécurité.
+R: T52; T21(ב)
+
+#0889
+E: Quand quelqu'un se gare en marche arrière, ralentissez ou arrêtez-vous pour le laisser terminer.
+R: T52
+
+#0890
+E: Sur une voie rapide, l'accotement est une échappatoire en cas de danger, pas un lieu d'arrêt de confort.
+R: T69(ג)
+
+#0891
+E: Le demi-tour est permis depuis n'importe quelle voie, sauf panneau ou marquage qui l'interdit.
+R: T44(ב)
+
+#0892
+E: Entre des voitures garées, des piétons ou des enfants peuvent surgir : ralentissez et surveillez.
+R: T52(1)
+
+#0893
+E: Même sans piéton visible, on ralentit à l'approche d'un passage pour piétons pour s'assurer qu'aucun n'arrive.
+R: T52(6)
+
+#0894
+E: Une moto ne peut rouler à côté d'une autre sur la même voie que pour dépasser ou passer légalement un autre véhicule.
+
+#0895
+E: Sur la photo, le brouillard perturbe le champ de vision : il faut ralentir et allumer les feux de brouillard.
+R: T107(ד); T52(3)
+
+#0896
+E: Quand la réaction des autres conducteurs est incertaine, ralentissez jusqu'à vous arrêter si nécessaire pour vous assurer qu'ils se comportent en sécurité.
+R: T52
+
+#0897
+E: En tournant à droite, les piétons qui traversent sur le passage sont prioritaires : ralentissez, arrêtez-vous si nécessaire et laissez-les terminer.
+R: T67(א)
+
+#0898
+E: Un cycliste peut descendre brusquement sur la chaussée ou tomber : en le dépassant, gardez de la distance et ralentissez.
+R: T52
+
+#0899
+E: Quand un camion se rabat sur votre voie, laissez-le entrer sans le gêner : ne pas accélérer pour l'en empêcher.
+R: T48; T21(ב)
+
+#0900
+E: Il est interdit de stationner sur un passage pour piétons et dans les 12 mètres AVANT lui : le véhicule stationné avec le passage devant lui n'est pas correctement garé.
+R: T72(א)(6)
+
+#0901
+E: En circulation dense : regarder tout autour, garder une distance de tous les côtés (pas seulement devant) et rouler à une vitesse raisonnable.
+R: T49(א); T51

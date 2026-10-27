@@ -1,0 +1,419 @@
+#0001
+Q: Qui a l'obligation de connaître le code de la route et de le respecter ?
+1: Uniquement les conducteurs professionnels.
+2: Uniquement les piétons.
+3: Toute personne qui utilise la route.
+4: Uniquement le conducteur d'un véhicule.
+
+#0002
+Q: À quelles conditions est-il permis de conduire un véhicule à moteur ?
+1: Selon les conditions fixées lors du contrôle technique annuel du véhicule (« test »).
+2: Selon les conditions indiquées par le constructeur dans le carnet du véhicule.
+3: Le conducteur doit être titulaire d'un permis de conduire valide pour ce type de véhicule.
+4: Le conducteur doit être enregistré comme propriétaire du véhicule ou comme en ayant la garde.
+
+#0003
+Q: Quelle est l'obligation du propriétaire d'un véhicule ou de la personne qui en a la garde ?
+1: S'assurer que le véhicule contient des copies du permis de conduire et de l'attestation d'assurance.
+2: Permettre à toute personne qui le lui demande de conduire son véhicule.
+3: Ne pas permettre de conduire le véhicule à une personne qui n'est pas titulaire d'un permis de conduire valide pour ce type de véhicule.
+4: Inscrire la personne qui conduit son véhicule dans le carnet de route du véhicule.
+
+#0004
+Q: Qui peut être « accompagnateur » d'un « nouveau conducteur » (même s'il n'est pas moniteur d'auto-école) ?
+1: Toute personne titulaire d'un permis de conduire valide pour ce type de véhicule et âgée d'au moins 24 ans.
+2: Une personne titulaire du permis pour ce type de véhicule depuis au moins cinq ans et âgée d'au moins 24 ans, ou titulaire du permis pour ce type de véhicule depuis au moins trois ans et âgée d'au moins 30 ans.
+3: Toute personne qui n'a pas été condamnée pour une infraction routière au cours des deux dernières années.
+4: Une personne titulaire du permis pour ce type de véhicule depuis au moins trois ans et âgée d'au moins 30 ans, ou depuis au moins deux ans et âgée d'au moins 35 ans.
+
+#0005
+Q: Un policier peut-il retenir, sans mandat, un conducteur qui a commis une infraction sous ses yeux ?
+1: Oui, mais seulement si l'infraction a réellement mis en danger d'autres usagers de la route.
+2: Non, en aucun cas.
+3: Oui, mais seulement avec l'autorisation d'un juge.
+4: Oui, si le conducteur ne donne pas son nom et son adresse ou ne présente pas son permis comme il le doit.
+
+#0006
+Q: Un officier de police peut suspendre le permis de conduire d'un conducteur pour 30 jours :
+1: si le conducteur a commis l'infraction de conduire avec un permis expiré depuis dix jours ou plus.
+2: si le conducteur a commis l'infraction de mettre en danger un piéton sur un passage pour piétons.
+3: si un mandat d'arrêt a été délivré contre le propriétaire du véhicule.
+4: si le conducteur a commis une infraction parce que son passager avant n'avait pas attaché sa ceinture de sécurité.
+
+#0007
+Q: Un officier de police peut suspendre le permis de conduire d'un conducteur pour 60 jours :
+1: si le conducteur a commis une infraction routière sans provoquer d'accident.
+2: si le conducteur a commis une infraction routière ayant causé la mort d'une personne.
+3: si le conducteur a été impliqué dans un accident ayant blessé une personne ou causé des dégâts matériels, et qu'il existe des soupçons raisonnables de sa responsabilité.
+4: si le conducteur a été surpris en excès de vitesse.
+
+#0008
+Q: Dans quel cas un officier de police suspendra-t-il le permis de conduire d'un conducteur pour 90 jours ?
+1: Lorsque le conducteur n'a pas respecté un panneau « Stop ».
+2: Lorsque le conducteur n'a pas cédé le passage.
+3: Lorsque le conducteur a été impliqué dans un accident ayant causé la mort d'une personne et qu'il existe des soupçons raisonnables de sa responsabilité.
+4: Lorsque le conducteur a été impliqué dans un accident ayant causé des dégâts matériels.
+
+#0009
+Q: Quelle est la peine encourue par une personne qui conduit alors que son permis de conduire est suspendu ?
+1: Jusqu'à trois ans d'emprisonnement, en plus d'autres peines.
+2: Six ans d'emprisonnement ferme et deux ans avec sursis.
+3: Une amende de 80 000 shekels.
+4: Aucune peine s'il présente un permis de conduire valide dans les sept jours.
+
+#0010
+Q: Qu'est-ce qu'une « route » selon la loi ?
+1: Toute voie, route, rue, ruelle, place, passage, pont ou espace ouvert sur lequel le public a le droit de circuler.
+2: Uniquement les chaussées revêtues d'asphalte ou de béton.
+3: Le terme « route » n'est pas défini par la loi.
+4: Tout lieu sur lequel le public a le droit de circuler, à l'exception des rues en agglomération.
+
+#0011
+Q: Qu'est-ce que la « période d'éclairage » selon la loi ?
+1: La période pendant laquelle la lumière naturelle suffit et où il n'est pas nécessaire d'allumer les feux du véhicule.
+2: La nuit, ainsi que tout autre moment où la visibilité est mauvaise en raison des conditions météorologiques ou d'autres causes.
+3: La période pendant laquelle les feux du véhicule doivent être allumés hors agglomération.
+4: Uniquement la nuit, du coucher au lever du soleil.
+
+#0012
+Q: Définissez le « stationnement » :
+1: Arrêter un véhicule pendant une durée déterminée pour décharger des marchandises de façon discontinue.
+2: Immobiliser un véhicule uniquement pour charger des marchandises de façon discontinue.
+3: Immobiliser un véhicule pendant une durée quelconque, à des fins autres que la montée ou la descente immédiate et ininterrompue de personnes ou le chargement ou déchargement immédiat et ininterrompu de marchandises.
+4: Arrêter le véhicule pendant plus de 30 secondes.
+
+#0013
+Q: Un « tracteur utilitaire » est un tracteur :
+1: qui roule sur au moins trois roues et dont le poids total autorisé dépasse 12 000 kg.
+2: qui roule sur au moins deux roues, dont le poids total autorisé ne dépasse pas 1 500 kg et qui se dirige au moyen d'un guidon.
+3: qui roule sur au moins quatre roues, dont le poids total autorisé ne dépasse pas 1 500 kg et qui se dirige au moyen d'un volant.
+4: qui roule sur quatre roues, dont le poids total autorisé n'est pas limité et qui se dirige au moyen d'un guidon.
+
+#0014
+Q: Définissez le « quad » :
+1: Véhicule roulant sur au moins quatre roues, sur lequel le conducteur est assis les deux jambes du même côté du siège, et qui se dirige au moyen d'un volant.
+2: Véhicule roulant sur au moins quatre roues et qui se dirige au moyen d'un volant.
+3: Véhicule roulant sur au moins quatre roues, sur lequel le conducteur est assis à califourchon, et qui se dirige au moyen d'un guidon.
+4: Véhicule roulant sur au moins deux roues, sur lequel le conducteur est assis à califourchon, et qui se dirige au moyen d'un guidon.
+
+#0015
+Q: Sur une route à double sens hors agglomération, le panneau ci-contre interdisant l'arrêt est placé sur le côté droit :
+1: Selon ce panneau, l'arrêt est interdit sur le côté droit de la chaussée ainsi que sur l'accotement.
+2: L'interdiction ne s'applique qu'à l'arrêt sur la chaussée.
+3: L'interdiction ne s'applique qu'à l'arrêt sur l'accotement.
+4: Le panneau interdit l'arrêt des deux côtés de la chaussée.
+
+#0016
+Q: Définissez une « chaussée à sens unique » :
+1: Toute chaussée sur laquelle la circulation des véhicules n'est autorisée que dans un seul sens.
+2: Toute chaussée sur laquelle la circulation des véhicules non motorisés n'est autorisée que dans un seul sens.
+3: Toute allée sur laquelle la circulation des véhicules n'est autorisée que dans un seul sens.
+4: Toute chaussée sur laquelle la circulation des véhicules est autorisée dans les deux sens.
+
+#0017
+Q: Qu'est-ce que la « nuit » au sens de la loi ?
+1: La période comprise entre un quart d'heure après le coucher du soleil et un quart d'heure avant son lever.
+2: La période où il y a un brouillard épais.
+3: La période comprise entre le coucher du soleil et son lever le lendemain.
+4: La période pendant laquelle il faut allumer les feux de position du véhicule.
+
+#0018
+Q: La photo montre un trottoir. Quelle affirmation est correcte ?
+1: Une voiture particulière peut toujours stationner un instant sur le trottoir s'il n'y a pas de place sur la chaussée.
+2: Le trottoir est réservé aux piétons.
+3: Une moto peut aussi utiliser le trottoir au lieu des voies de circulation.
+4: Les cyclistes peuvent aussi rouler sur le trottoir.
+
+#0019
+Q: Qu'est-ce qu'un « échangeur » ?
+1: Une jonction de routes à un seul niveau, uniquement en agglomération.
+2: La rencontre d'au moins deux chaussées au même niveau, hors agglomération.
+3: L'espace formé par la rencontre de trois chaussées au même niveau.
+4: Une jonction de routes à des niveaux différents, qui permet de passer d'une route à l'autre sans s'arrêter.
+
+#0020
+Q: La « charge autorisée » d'un véhicule de transport de marchandises est :
+1: le poids total autorisé du véhicule de transport de marchandises.
+2: le poids de la charge et le poids à vide du véhicule (additionnés).
+3: le poids maximal (en kg) de marchandises qu'il est permis de charger sur le véhicule.
+4: le poids à vide du véhicule, y compris l'eau, l'huile, le carburant et le poids du conducteur.
+
+#0021
+Q: Les limites d'une intersection sont déterminées par :
+1: la rencontre d'au moins deux passages pour piétons dans l'intersection.
+2: les bords des chaussées qui se rencontrent dans l'intersection ou les bordures de trottoir, ou par leur prolongement imaginaire.
+3: les lignes d'arrêt sur chacune des chaussées qui se rencontrent dans l'intersection.
+4: l'emplacement des panneaux placés avant l'intersection.
+
+#0022
+Q: Un passager assis à l'arrière d'une voiture particulière doit attacher sa ceinture de sécurité. Qui est responsable s'il ne l'a pas attachée pendant le trajet ?
+1: Le passager uniquement.
+2: Le propriétaire du véhicule.
+3: Le conducteur et le passager.
+4: Le conducteur uniquement.
+
+#0023
+Q: Qu'est-ce qu'un « passage pour piétons » ?
+1: Une partie du trottoir marquée pour la traversée des piétons.
+2: Une partie de la chaussée marquée pour la traversée des piétons.
+3: Une partie de la route destinée à la traversée des piétons, trottoir compris.
+4: Une partie de l'accotement marquée pour la traversée des piétons.
+
+#0024
+Q: Qu'est-ce qu'un « passage à niveau » ?
+1: Tout endroit où l'on peut traverser une voie ferrée.
+2: Un endroit où une route et une voie ferrée se croisent à des niveaux différents.
+3: Un endroit où une route et une voie ferrée se croisent au même niveau, signalé par le panneau prévu à cet effet.
+4: Un endroit où une chaussée et une voie ferrée se croisent sur une voie rapide.
+
+#0025
+Q: Qu'est-ce que le « poids total autorisé » ?
+1: Le volume à vide du véhicule, plus le poids des personnes et de la charge autorisés par l'Autorité des permis.
+2: Le poids à vide du véhicule autorisé par l'Autorité des permis.
+3: La somme du poids à vide du véhicule, du poids des personnes qu'il est permis d'y transporter et de la charge que l'Autorité des permis a autorisée.
+4: Le volume à vide du véhicule et la charge autorisée par l'Autorité des permis.
+
+#0026
+Q: Qu'est-ce que le « poids à vide » ?
+1: Le poids du véhicule avec sa charge mais sans conducteur.
+2: Le volume du véhicule sans charge et sans conducteur.
+3: Le poids du véhicule sans charge et sans conducteur.
+4: Le poids du véhicule, charge et conducteur compris.
+
+#0027
+Q: « Céder le passage », pour un conducteur, signifie :
+1: s'insérer dans la circulation sans provoquer d'accident.
+2: permettre aux autres conducteurs de poursuivre leur route sans modifier leur vitesse ni dévier de leur trajectoire.
+3: entrer dans le flot de circulation à la même vitesse que les autres véhicules.
+4: se faufiler dans le flot de circulation dans un espace tout juste suffisant pour y entrer.
+
+#0028
+Q: Quand est-il permis de dépasser en une seule manœuvre deux véhicules qui roulent devant vous sur votre voie ?
+1: La loi interdit totalement un tel dépassement.
+2: Uniquement hors agglomération.
+3: Uniquement s'il s'agit de deux voitures particulières.
+4: Lorsque le dépassement n'est pas interdit et qu'il peut être achevé sans danger.
+
+#0029
+Q: Définissez l'« essieu » d'un véhicule :
+1: Un axe ou un ensemble d'axes, dans la largeur du véhicule, sur lequel sont montées les roues.
+2: La traverse arrière du véhicule à laquelle est fixée la roue de secours.
+3: La partie avant du véhicule destinée à absorber les chocs à basse vitesse.
+4: Un arbre qui transmet le mouvement de rotation de la boîte de vitesses au moteur.
+
+#0030
+Q: Qui est un « usager de la route » ?
+1: Celui qui utilise la chaussée uniquement pour faire du vélo.
+2: Celui qui utilise la route uniquement pour circuler en véhicule à moteur.
+3: Celui qui utilise la route uniquement pour s'y tenir ou y courir.
+4: Celui qui utilise la route pour circuler, marcher, s'y tenir ou pour tout autre but.
+
+#0031
+Q: Définissez « baisser les phares » :
+1: Éteindre les feux de route et allumer les feux de croisement.
+2: Modifier la hauteur du faisceau des feux de position.
+3: Éteindre les feux de route et allumer les feux de brouillard.
+4: Éteindre les feux de croisement et allumer les feux de route.
+
+#0032
+Q: Définissez l'« intersection » :
+1: La rencontre de deux chaussées en agglomération, à condition qu'elles soient toutes deux asphaltées.
+2: L'espace formé par la rencontre d'au moins deux chaussées.
+3: L'espace formé par la rencontre d'au moins deux routes à des niveaux différents.
+4: L'espace formé par la rencontre d'une voie ferrée et d'une chaussée.
+
+#0033
+Q: Définissez la « ligne d'arrêt » :
+1: Une ligne tracée en travers de tout ou partie de la chaussée, qui marque la limite où les véhicules doivent s'arrêter.
+2: Une ligne tracée dans la longueur de la chaussée, qui marque la limite d'arrêt uniquement aux intersections équipées de feux.
+3: Une ligne tracée sur tout ou partie de la longueur de la chaussée, qui marque la limite d'arrêt près du trottoir.
+4: Une ligne tracée dans la longueur de la chaussée, qui marque la limite d'arrêt avant un passage à niveau.
+
+#0034
+Q: Définissez la « zone résidentielle » :
+1: Une rue principale dans laquelle s'insèrent les véhicules venant des rues latérales.
+2: Une route destinée aux jeux d'enfants, aux piétons et aux véhicules, à l'entrée de laquelle est placé le panneau « zone résidentielle ».
+3: Une allée destinée aux jeux d'enfants, accessible uniquement aux piétons et aux deux-roues.
+4: Une chaussée sur laquelle peuvent circuler ensemble des véhicules de types différents.
+
+#0035
+Q: Qu'est-ce qu'une « carrosserie monocorps » ?
+1: Une carrosserie dont les dimensions dépassent celles d'un véhicule ordinaire.
+2: Une carrosserie dans laquelle la cabine du conducteur est séparée de la caisse de chargement.
+3: Une carrosserie dans laquelle une cloison sépare le siège du conducteur des passagers.
+4: Une carrosserie dans laquelle la cabine du conducteur et le compartiment de chargement forment un seul ensemble.
+
+#0036
+Q: Définissez le « véhicule lent » :
+1: Un véhicule à moteur dont la vitesse maximale autorisée qui lui a été fixée ne dépasse pas 50 km/h.
+2: Un véhicule à moteur dont la vitesse maximale autorisée qui lui a été fixée n'est pas inférieure à 55 km/h.
+3: Un véhicule à moteur dont la vitesse maximale autorisée qui lui a été fixée ne dépasse pas 40 km/h.
+4: Un véhicule à moteur dont la vitesse maximale autorisée qui lui a été fixée ne dépasse pas 55 km/h.
+
+#0037
+Q: Quel véhicule est un « véhicule d'urgence » ?
+1: Tout véhicule de la police israélienne ou de Tsahal, et tout véhicule servant aux missions de sécurité courante dans les localités frontalières.
+2: Toute ambulance, tout véhicule de Tsahal, tout véhicule de lutte contre l'incendie et tout autre véhicule utilitaire reconnu comme véhicule d'urgence par l'Autorité des permis.
+3: Une ambulance du Magen David Adom, un véhicule de la police israélienne, de Tsahal, de lutte contre l'incendie, de police intégrée, ou tout autre véhicule agréé par l'Autorité, lorsqu'il actionne un feu clignotant et un signal sonore d'alarme.
+4: Uniquement les véhicules de la police israélienne ou de Tsahal et les véhicules de lutte contre l'incendie.
+
+#0038
+Q: Est-il permis de transporter des passagers contre rémunération dans une voiture particulière ?
+1: Non, sauf avec une autorisation de l'administration fiscale.
+2: Oui, si le véhicule est équipé d'une carrosserie conforme agréée par l'Autorité des permis.
+3: Oui, si un contrat a été signé entre le conducteur et le passager.
+4: Non.
+
+#0039
+Q: Quelle est la définition d'un « véhicule ancien » pour une voiture particulière ?
+1: Une voiture particulière dont l'année de fabrication remonte à plus de 15 ans.
+2: Une voiture particulière dont l'année de fabrication remonte à plus de 19 ans.
+3: Les voitures particulières ne sont pas concernées par la définition de « véhicule ancien ».
+4: Un véhicule qui ne répond pas à la norme israélienne obligatoire.
+
+#0040
+Q: Qu'est-ce qu'une « voiture particulière » ?
+1: Un véhicule à moteur privé conçu pour transporter au moins 12 passagers, inscrit comme véhicule privé sur sa carte grise.
+2: Un véhicule à moteur conçu pour transporter dix passagers, inscrit comme véhicule privé sur sa carte grise.
+3: Un véhicule à moteur privé conçu pour transporter jusqu'à huit passagers en plus du conducteur, inscrit comme véhicule privé sur sa carte grise.
+4: Un véhicule à moteur public conçu pour transporter huit passagers, inscrit comme véhicule public sur sa carte grise.
+
+#0041
+Q: Un véhicule qui a fait l'objet d'un avis d'interdiction d'utilisation (retrait de la circulation) :
+1: n'a pas le droit de circuler sans l'accord de la compagnie d'assurance.
+2: peut circuler sans restriction s'il ne présente aucun danger pour la circulation.
+3: n'a pas le droit de circuler sur la route, sauf si ce déplacement a été autorisé sur le formulaire de retrait.
+4: peut circuler pendant une semaine à compter du jour de son retrait de la circulation.
+
+#0042
+Q: Définissez la « voie réservée » (shvil) :
+1: Une partie de la route balisée par l'organisme « Sentiers d'Israël ».
+2: Une partie de la longueur de la route réservée à la circulation des motos.
+3: Une partie de la largeur d'une route réservée aux piétons.
+4: Une route ou une partie de route, autre que la chaussée, réservée à une catégorie d'usagers de la route.
+
+#0043
+Q: Lorsque vous roulez en marche arrière :
+1: Vous pouvez vous faire guider par une personne.
+2: Vous devez vous faire guider par une personne.
+3: Vous devez vous faire guider par une personne, mais seulement pendant la période d'éclairage.
+4: Sur une route interurbaine, vous devez vous faire guider par une personne.
+
+#0044
+Q: Vous avez stationné le long du trottoir, sur le côté droit de la chaussée, en agglomération :
+1: Vous devez vous assurer que le passager assis à l'arrière gauche descend du côté de la chaussée avec une grande prudence.
+2: Vous devez allumer les feux de position si la rue n'est pas éclairée.
+3: Avant de descendre, vous devez vous assurer que cela ne gêne aucun usager de la route.
+4: Vous devez vous assurer que la distance entre le véhicule et le trottoir ne dépasse pas un mètre.
+
+#0045
+Q: Définissez le « terre-plein construit » :
+1: Toute partie de la route (trottoir, accotement, îlot, etc.) surélevée par rapport à la chaussée.
+2: Un espace le long de la chaussée où les usagers peuvent s'arrêter, stationner ou faire une pause pour se reposer.
+3: Toute surface marquée sur la chaussée sur laquelle il est interdit de rouler.
+4: Un séparateur qui divise la route dans sa longueur au moyen d'un ouvrage surélevé par rapport à la chaussée.
+
+#0046
+Q: Qu'est-ce qu'un « siège de sécurité » ?
+1: Un siège homologué destiné au transport d'enfants en voiture, fixé au véhicule par la ceinture de sécurité et équipé de ses propres harnais.
+2: Tout siège adapté au transport d'enfants et de personnes âgées et conforme à la norme fixée par le ministère de l'Environnement.
+3: Un siège spécial homologué, installé sur un deux-roues et conçu pour transporter des enfants.
+4: Un siège installé dans le véhicule lors de sa fabrication, destiné aux enfants jusqu'à 14 ans.
+
+#0047
+Q: Qu'est-ce qu'un « rehausseur » (booster) ?
+1: Un siège homologué destiné au transport d'enfants en voiture, dans lequel l'enfant est attaché par la ceinture de sécurité du véhicule.
+2: Un siège destiné uniquement au transport d'enfants à vélo, dans lequel l'enfant est attaché par une ceinture de sécurité.
+3: Un siège destiné uniquement au transport d'enfants à moto, dans lequel l'enfant est attaché par la ceinture de sécurité du véhicule.
+4: Un siège destiné au conducteur de moins de 160 cm et de plus de 18 ans.
+
+#0048
+Q: Définissez le « véhicule à moteur » :
+1: Un véhicule mû par une force mécanique, quelle qu'elle soit.
+2: Uniquement un véhicule mû par un moteur à essence.
+3: Uniquement un véhicule mû par un moteur diesel.
+4: Tout véhicule qui roule sur au moins deux roues.
+
+#0049
+Q: Quels documents le conducteur doit-il avoir sur lui lorsqu'il conduit ?
+1: Carte d'identité, permis de conduire, attestation d'assurance tous risques et justificatif d'un contrat de remorquage en cas de panne.
+2: Uniquement le permis de conduire et la carte grise.
+3: Le permis de conduire, la carte grise, l'attestation d'assurance obligatoire et tout autre document délivré conformément à la loi, en cours de validité.
+4: Carte d'identité, permis de conduire et attestation de bon état du véhicule signée par un garagiste.
+
+#0050
+Q: À quelles conditions est-il permis de garder dans le véhicule des copies de ses documents à la place des originaux ?
+1: Uniquement lorsque le véhicule appartient à une personne morale et que le responsable de la sécurité a certifié la validité des documents par sa signature et son tampon sur les copies.
+2: Si le véhicule appartient à un particulier et que la conformité des copies est certifiée par la signature du propriétaire.
+3: En aucun cas : les originaux doivent se trouver dans le véhicule en permanence.
+4: Seule une entreprise de transport de véhicules peut détenir des copies des permis.
+
+#0051
+Q: Le conducteur doit-il présenter à un policier les originaux des documents du véhicule ?
+1: Oui, au moment fixé par le conducteur.
+2: Non, une copie certifiée conforme suffit.
+3: Oui, au lieu et au moment fixés par le policier.
+4: Non, une copie signée par le propriétaire du véhicule suffit.
+
+#0052
+Q: Selon la loi, le « système de points pour les infractions routières » est :
+1: un système permettant de signaler au tribunal les défauts des véhicules.
+2: un système d'enregistrement de points de pénalité pour les conducteurs condamnés pour des infractions routières une fois tous les cinq ans.
+3: un système d'enregistrement des condamnations pour toute infraction pénale.
+4: un système d'enregistrement de points de pénalité pour les condamnations pour des infractions routières définies par la loi.
+
+#0053
+Q: Dans quel état faut-il conserver les documents du conducteur et du véhicule pendant la conduite ?
+1: La loi ne prévoit rien de précis à ce sujet.
+2: Ils doivent se trouver en permanence dans le véhicule, propres et lisibles.
+3: Il suffit qu'ils ne soient pas tachés et que la photo soit nette.
+4: Ils doivent être conservés à la maison, propres et lisibles en permanence.
+
+#0054
+Q: Où faut-il apposer la plaque « nouveau conducteur » sur le véhicule ?
+1: Sur la lunette arrière, en haut, de façon à être vue par le conducteur qui suit.
+2: Sur la lunette arrière, en bas, de façon à être vue par le conducteur qui suit.
+3: Au centre de la lunette arrière, en haut, de façon à être vue par les autres conducteurs dans tous les sens de circulation.
+4: Au centre de la lunette arrière, à condition qu'elle ne cache pas le feu stop.
+
+#0055
+Q: Pendant combien de temps le conducteur doit-il apposer la plaque « nouveau conducteur » lorsqu'il conduit ?
+1: Trois mois.
+2: Neuf mois.
+3: Deux ans, et tant qu'il est « nouveau conducteur ».
+4: Six mois.
+
+#0056
+Q: Est-il permis de modifier les documents du véhicule ou du conducteur ?
+1: Il est seulement permis d'ajouter le code postal de l'adresse, au bureau de poste principal.
+2: Il est seulement permis d'ajouter ou de modifier l'adresse, au bureau de poste principal.
+3: Il est seulement permis de repasser les inscriptions effacées ou estompées avec le temps.
+4: Il est interdit de modifier quoi que ce soit dans ces documents : seule l'Autorité des permis en a le pouvoir.
+
+#0057
+Q: Quels changements de son état de santé le conducteur doit-il déclarer au bureau des permis ?
+1: Le conducteur n'a à déclarer aucun changement de son état de santé.
+2: Le conducteur n'a rien à déclarer au bureau des permis, seulement au ministère de la Santé.
+3: Le conducteur n'a rien à déclarer au bureau des permis : c'est son médecin traitant qui s'en charge.
+4: Une maladie cardiaque et tout trouble découvert du système nerveux, des os, de la vue ou de l'audition.
+
+#0058
+Q: Tout usager de la route doit-il respecter les panneaux de signalisation ?
+1: Oui. Tout usager de la route doit respecter les panneaux.
+2: Oui, mais seulement lorsqu'il se trouve sur la chaussée.
+3: Oui, mais seulement lorsqu'il se trouve sur le trottoir.
+4: Non. Seuls les conducteurs de véhicules doivent respecter les indications des panneaux.
+
+#0059
+Q: Les indications des feux tricolores priment-elles sur un panneau qui règle la priorité ?
+1: Non. Selon la loi, les indications des feux et celles des panneaux ont la même valeur.
+2: Parfois. Les feux ne priment qu'en agglomération.
+3: Oui. Les indications des feux, sauf le feu jaune clignotant, priment sur celles de tout panneau.
+4: Non, mais un panneau « Stop » prime sur un feu vert dans le même sens de circulation.
+
+#0060
+Q: Est-il obligatoire d'obéir aux ordres et aux signaux d'un policier en uniforme ?
+1: Oui, dans tous les cas, et avec une prudence accrue.
+2: Non, seulement aux ordres d'un policier de la circulation.
+3: Oui, mais uniquement pour la régulation de la circulation.
+4: Non, seulement si le policier est en service.

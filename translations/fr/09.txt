@@ -1,0 +1,419 @@
+#0541
+Q: Est-il permis de faire demi-tour par la gauche là où ce panneau est placé ?
+1: C'est toujours interdit.
+2: C'est toujours permis, même si un panneau interdit le demi-tour.
+3: C'est permis à une intersection à feux, interdit à une intersection sans feux.
+4: C'est permis, sauf si un autre panneau l'interdit.
+
+#0542
+Q: Que signifie ce panneau ?
+1: Tournez à gauche après le panneau.
+2: Allez uniquement à gauche ; demi-tour interdit.
+3: Allez à gauche ; tournez avant le panneau.
+4: Entrée d'une chaussée à sens unique.
+
+#0543
+Q: Est-il permis de faire demi-tour par la droite là où ce panneau est placé ?
+1: Oui, sauf si un autre panneau l'interdit.
+2: Non.
+3: Oui, mais seulement de jour.
+4: Oui, même si un panneau l'interdit.
+
+#0544
+Q: Comment conduisez-vous selon ce panneau ?
+1: Allez à droite et tournez avant le panneau.
+2: Faites demi-tour par la droite à la prochaine intersection.
+3: Tournez à droite après le panneau.
+4: Allez à gauche puis à droite.
+
+#0545
+Q: Que signifie ce panneau ?
+1: Entrée d'une chaussée à sens unique.
+2: Contournez l'endroit signalé par la droite.
+3: Allez uniquement tout droit.
+4: Circulation à double sens devant vous.
+
+#0546
+Q: Le panneau de l'illustration est le seul panneau placé à l'intersection. Peut-on tourner à gauche ?
+1: Oui, mais seulement de jour.
+2: Oui, à une intersection à feux.
+3: Non.
+4: Oui, mais seulement à l'intersection.
+
+#0547
+Q: Lorsque ce panneau est placé à l'intersection devant vous :
+1: Une montée raide vous attend.
+2: Vous ne pouvez aller tout droit que depuis la voie de gauche.
+3: La chaussée après l'intersection est à sens unique.
+4: Vous ne pouvez aller que tout droit.
+
+#0548
+Q: Que signifie ce symbole ?
+1: Parking réservé à la réparation des autobus.
+2: Parking de nuit réservé aux autobus.
+3: Parking payant réservé aux autobus.
+4: Parking-relais (« gare-et-prends »).
+
+#0549
+Q: Que signifie ce panneau ?
+1: Contournez l'endroit signalé uniquement par la droite.
+2: Route sinueuse dans les deux sens à la prochaine intersection.
+3: Allez à droite ou à gauche.
+4: Demi-tour à gauche interdit.
+
+#0550
+Q: Que signifie ce panneau ?
+1: À l'intersection devant vous, seul le demi-tour à gauche est permis.
+2: Cédez le passage à la circulation qui croise votre route dans le giratoire, et contournez le giratoire par la droite.
+3: Contournez l'endroit signalé uniquement par la gauche.
+4: Vous avez la priorité dans le giratoire devant vous ; contournez-le par la droite.
+
+#0551
+Q: Comment conduisez-vous selon ce panneau ?
+1: Allez à droite ou à gauche ; la flèche jaune indique la direction réservée aux transports en commun.
+2: Dans le giratoire, vous devez céder le passage à ceux qui y arrivent par les différentes branches.
+3: Contournez l'endroit signalé uniquement par la gauche.
+4: Cédez le passage à la circulation qui croise votre route dans le giratoire, et circulez dans le giratoire par la droite.
+
+#0552
+Q: Que signifie ce panneau ?
+1: Il est interdit de tourner à droite ou à gauche.
+2: Il est interdit d'aller tout droit.
+3: Contournez l'endroit signalé par la droite.
+4: On peut contourner l'endroit signalé par la droite ou par la gauche.
+
+#0553
+Q: Qu'indique ce panneau ?
+1: On peut aussi stationner à contresens.
+2: Carrefour giratoire devant vous.
+3: Fontaine en fonctionnement.
+4: Le conducteur doit faire demi-tour.
+
+#0554
+Q: Vous conduisez un véhicule utilitaire et arrivez à ce panneau :
+1: Passez uniquement à gauche ; les transports en commun peuvent aussi passer à droite.
+2: Passez uniquement à droite ; seuls les transports en commun peuvent aussi passer à gauche.
+3: Allez uniquement tout droit.
+4: Passez à droite ou à gauche, à votre choix.
+
+#0555
+Q: Ce panneau est placé devant vous. Que faites-vous ?
+1: Passez à droite du panneau ; seul un véhicule de transport public peut passer à gauche.
+2: Cédez le passage à la circulation qui croise votre route dans le giratoire.
+3: Vous pouvez contourner l'endroit signalé par la droite ou par la gauche.
+4: Passez uniquement à gauche du panneau.
+
+#0556
+Q: Que signifie ce panneau ?
+1: Voie sans issue à droite.
+2: Vous avez la priorité sur la route transversale.
+3: Route réservée aux véhicules à moteur.
+4: Entrée réservée aux écoles ou aux jardins d'enfants.
+
+#0557
+Q: Lorsque la chaussée est divisée par une ligne discontinue :
+1: Vous pouvez dépasser si la route est libre.
+2: Dépassement interdit jusqu'au panneau « fin d'interdiction de dépasser ».
+3: Dépassement interdit jusqu'à l'endroit où la ligne discontinue devient continue.
+4: Vous ne pouvez dépasser qu'un véhicule lent.
+
+#0558
+Q: Que signifie ce panneau ?
+1: Le nombre de voies augmente.
+2: Circulation à double sens devant vous.
+3: Vous pouvez rouler sur n'importe quelle voie.
+4: Vous avez la priorité sur les véhicules venant en face.
+
+#0559
+Q: Le demi-tour par la gauche est permis :
+1: uniquement depuis la voie la plus à gauche où vous avez le droit de rouler.
+2: depuis une voie de présélection à gauche et depuis toute autre voie où aucun panneau ni marquage n'interdit le demi-tour.
+3: uniquement depuis une voie de présélection à gauche.
+4: depuis toute voie marquée de flèches vers la gauche ou vers la droite.
+
+#0560
+Q: Qui peut arriver en face lorsque la flèche du panneau est jaune ?
+1: Un véhicule de transport public, ou un autre véhicule autorisé par un panneau.
+2: Uniquement un train.
+3: Uniquement un autocar de tourisme.
+4: Un véhicule transportant plus de deux passagers.
+
+#0561
+Q: Lorsque vous voyez ce panneau devant vous :
+1: Les camions peuvent circuler en sens inverse sur la chaussée.
+2: Vous entrez sur un tronçon où la circulation en sens inverse n'est permise qu'aux transports en commun ou aux autres véhicules autorisés par un panneau.
+3: Vous entrez sur une chaussée à deux voies dans chaque sens.
+4: Vous êtes sur une chaussée à sens unique, à double sens pour les véhicules jusqu'à 3 500 kg.
+
+#0562
+Q: Que signifie ce panneau ?
+1: Route réservée aux véhicules de marchandises.
+2: Route réservée aux véhicules non motorisés.
+3: Route réservée aux véhicules à moteur.
+4: Route réservée aux véhicules de transport public.
+
+#0563
+Q: Un vélo peut-il emprunter la route à l'entrée de laquelle ce panneau est placé ?
+1: Oui, mais seulement en agglomération.
+2: Oui, toujours.
+3: Non.
+4: Oui, hors agglomération.
+
+#0564
+Q: Que signifie ce panneau ?
+1: La vitesse maximale sur la chaussée est de 55 km/h.
+2: Route réservée aux véhicules à moteur capables et autorisés de rouler au moins à la vitesse indiquée (en km/h).
+3: Il est interdit de rouler moins vite que la vitesse indiquée (en km/h).
+4: Il est interdit de rouler plus vite que la vitesse indiquée (en km/h).
+
+#0565
+Q: Un « véhicule lent » peut-il circuler sur une route où ce panneau est placé ?
+1: Oui, à au moins 55 km/h.
+2: Non.
+3: Oui, à 55 km/h au maximum.
+4: Oui, uniquement sur voie rapide.
+
+#0566
+Q: Que signifie ce panneau ?
+1: Passerelle au-dessus d'une voie rapide.
+2: Échangeur sur voie rapide devant vous.
+3: Sortie de voie rapide.
+4: Entrée d'une voie rapide.
+
+#0567
+Q: Selon ces panneaux, les vélos et les piétons peuvent-ils entrer ?
+1: Oui, mais seulement sur l'accotement.
+2: Non.
+3: Oui, à condition d'être très prudents.
+4: Oui.
+
+#0568
+Q: Que signifie ce panneau ?
+1: Voie rapide sans échangeurs.
+2: Insertion en biais sur une voie rapide.
+3: Fin de la voie rapide.
+4: Entrée d'une voie rapide.
+
+#0569
+Q: Que signifie ce panneau ?
+1: Point de ramassage ; arrêt et stationnement interdits à tout autre véhicule.
+2: Station de taxis ; arrêt et stationnement interdits aux autres véhicules, sauf pour déposer des passagers.
+3: Station de ligne régulière de taxis et d'autobus pour courses spéciales.
+4: Arrêt et stationnement interdits à tout véhicule sur 20 mètres.
+
+#0570
+Q: Lorsque ce panneau est placé :
+1: Tout véhicule peut y stationner et attendre des passagers.
+2: On peut faire monter au plus six passagers par taxi.
+3: Il est interdit de déposer des passagers dans la zone du panneau.
+4: Tout véhicule peut s'y arrêter uniquement pour déposer des passagers.
+
+#0571
+Q: Que signifie ce panneau ?
+1: Stationnement interdit à tout véhicule, sauf pour déposer des passagers.
+2: Fin de la zone de la station de taxis.
+3: Arrêt et stationnement interdits à tout véhicule.
+4: À partir d'ici, les taxis ne peuvent plus s'arrêter pour déposer des passagers.
+
+#0572
+Q: Que signifie ce panneau ?
+1: Emplacement où un taxi attend l'arrivée de ses passagers.
+2: Station de taxis de l'aéroport.
+3: Emplacement où un taxi de ligne régulière attend ses passagers.
+4: Emplacement où un taxi peut seulement prendre ou déposer des passagers, sans les attendre.
+
+#0573
+Q: Lorsque ce panneau est placé :
+1: Seuls les taxis peuvent s'y arrêter.
+2: Seuls les autobus peuvent s'y arrêter.
+3: On ne peut faire monter des passagers que les jours fériés.
+4: On ne peut que déposer des travailleurs.
+
+#0574
+Q: Que signifie ce panneau ?
+1: Attention, travaux sur la chaussée.
+2: Accès interdit aux tracteurs et aux engins de chantier.
+3: Accès interdit uniquement aux véhicules non motorisés.
+4: Accès autorisé aux tracteurs et aux engins de chantier.
+
+#0575
+Q: Que signifie ce panneau ?
+1: Accès interdit aux véhicules, y compris aux charrettes à bras.
+2: Accès interdit aux véhicules transportant des véhicules.
+3: Accès réservé aux cavaliers.
+4: Accès interdit aux véhicules à traction animale et aux animaux non attelés.
+
+#0576
+Q: Que signifie ce panneau ?
+1: Accès interdit aux vélos.
+2: Accès interdit aux vélos et aux motos.
+3: Accès interdit aux véhicules à moteur à quatre roues.
+4: Accès réservé aux vélos.
+
+#0577
+Q: Que signifie ce panneau ?
+1: Passage pour cyclistes.
+2: Chemin partagé entre cyclistes et piétons.
+3: Pistes cyclables séparées sur voie rapide.
+4: Piste réservée aux vélos.
+
+#0578
+Q: Que signifie ce panneau ?
+1: Attention, piétons à proximité.
+2: Accès réservé aux piétons.
+3: Accès interdit aux piétons, y compris sur l'accotement.
+4: Lieu interdit aux jeux d'enfants.
+
+#0579
+Q: Que signifie ce panneau ?
+1: Circulez dans le sens de la flèche blanche ; les autres ne peuvent pas circuler en sens inverse.
+2: Dans le passage étroit, cédez le passage à la circulation venant en sens inverse.
+3: Marche arrière interdite.
+4: Dans le passage étroit, vous avez la priorité sur la circulation venant en sens inverse.
+
+#0580
+Q: Que signifie ce panneau ?
+1: Promenade devant vous.
+2: Piste réservée aux vélos.
+3: Chemin réservé aux cyclistes et aux piétons.
+4: Passage pour cyclistes et piétons.
+
+#0581
+Q: Que signifie ce panneau ?
+1: Chemins séparés pour les cyclistes et pour les piétons.
+2: Piste réservée aux cyclistes ; pas de passage pour les piétons.
+3: La chaussée est ouverte aux cyclistes et aux piétons.
+4: Passage pour cyclistes et piétons.
+
+#0582
+Q: Que signifie ce panneau ?
+1: Accès interdit aux véhicules transportant un chargement.
+2: Accès interdit aux véhicules transportant des matières dangereuses.
+3: Accès réservé aux véhicules transportant des matières dangereuses.
+4: Accès interdit aux véhicules transportant un conteneur maritime.
+
+#0583
+Q: Que signifie ce panneau ?
+1: Arrêt interdit, sauf pour faire monter ou descendre des passagers.
+2: Stationnement réservé aux véhicules non motorisés.
+3: Stationnement autorisé.
+4: Point de ramassage des soldats, uniquement pour faire monter et descendre.
+
+#0584
+Q: Jusqu'où ce panneau s'applique-t-il ?
+1: Jusqu'au panneau « fin d'agglomération ».
+2: Jusqu'à un panneau d'interdiction d'accès.
+3: Jusqu'à la prochaine intersection ou jusqu'à un endroit où le stationnement est interdit.
+4: Jusqu'au prochain échangeur.
+
+#0585
+Q: Que signifie ce panneau ?
+1: Point de ramassage des soldats ; arrêt réservé aux véhicules militaires.
+2: Point de ramassage ; arrêt interdit aux véhicules utilitaires.
+3: Stationnement pour les véhicules transportant des soldats.
+4: Point de ramassage des soldats : uniquement pour faire monter et descendre (attente interdite).
+
+#0586
+Q: Que signifie ce panneau ?
+1: Interdiction de tourner au bout du tronçon.
+2: Vous avez la priorité dans le passage étroit.
+3: Voie sans issue.
+4: Cédez le passage au véhicule venant en face dans le passage étroit.
+
+#0587
+Q: Que signifie ce panneau ?
+1: Voie sans issue à droite.
+2: Sortie de véhicules d'un parking à droite de la chaussée.
+3: Cédez le passage au véhicule venant en face qui tourne à gauche.
+4: Cédez le passage en tournant à droite.
+
+#0588
+Q: Que signifie ce panneau ?
+1: Marche arrière interdite.
+2: Circulation à sens unique devant vous.
+3: Pont étroit ; cédez le passage au véhicule venant en face.
+4: Dans le passage étroit, la priorité est à vous.
+
+#0589
+Q: Comment conduisez-vous selon ce panneau ?
+1: Ralentissez et vérifiez que le véhicule venant en face vous cède bien le passage, comme il le doit.
+2: Arrêtez-vous et laissez le véhicule venant en face continuer.
+3: Continuez : vous avez la priorité et n'avez pas à ralentir.
+4: Klaxonnez et faites signe au conducteur d'en face que vous allez lui céder le passage.
+
+#0590
+Q: Que signifie ce panneau ?
+1: La chaussée devant vous n'a qu'une seule voie.
+2: Suivez la flèche ; accès interdit aux vélos.
+3: Voie rapide devant vous.
+4: Entrée d'une chaussée à sens unique.
+
+#0591
+Q: Comment tourne-t-on à gauche depuis une chaussée où ce panneau est placé ?
+1: Depuis la voie la plus à droite.
+2: En commençant depuis la voie centrale.
+3: Depuis le côté gauche de la chaussée, sauf indication contraire.
+4: Il est interdit de tourner à gauche ; on ne peut qu'aller tout droit.
+
+#0592
+Q: Que signifie ce panneau ?
+1: Vous avez la priorité dans le passage étroit.
+2: Allez uniquement tout droit ; tout virage est interdit.
+3: La circulation dans le sens de la flèche jaune n'est permise qu'aux transports en commun.
+4: Sur une route étroite et pentue, cédez le passage à tout véhicule à moteur venant en face.
+
+#0593
+Q: Que signifie ce panneau ?
+1: Cédez le passage aux piétons à l'endroit où le passage pour piétons est marqué sur la chaussée.
+2: Passerelle pour piétons.
+3: Passage pour piétons à environ 150 mètres.
+4: Chemin réservé aux piétons.
+
+#0594
+Q: Comment conduisez-vous selon ce panneau ?
+1: Klaxonnez pour avertir les piétons sur le passage.
+2: Continuez normalement et veillez à ce que les piétons vous libèrent la chaussée.
+3: En approchant de ce panneau, ralentissez toujours, arrêtez-vous si nécessaire, et laissez les piétons terminer leur traversée.
+4: Avertissez les piétons de votre arrivée par un coup de klaxon puissant et allumez vos phares.
+
+#0595
+Q: Que signifie ce panneau ?
+1: Vous êtes sur une chaussée non prioritaire.
+2: Chaussée réservée aux transports en commun.
+3: Vous êtes sur une chaussée prioritaire.
+4: Contrôle de vitesse de la police devant vous.
+
+#0596
+Q: Comment conduisez-vous après avoir passé ce panneau placé à votre gauche ?
+1: Cédez le passage à la circulation de la route transversale.
+2: Arrêtez-vous avant le passage à niveau.
+3: Fin de la chaussée prioritaire.
+4: Roulez normalement : vous êtes sur une chaussée prioritaire.
+
+#0597
+Q: Que signifie ce panneau ?
+1: Vous êtes sur une chaussée prioritaire.
+2: Stationnement interdit.
+3: Ralentissez et préparez-vous à vous arrêter.
+4: Fin de la chaussée prioritaire.
+
+#0598
+Q: Que signifie ce panneau ?
+1: Aire de repos pour conducteurs.
+2: Stationnement réservé aux ambulances.
+3: Poste de premiers secours.
+4: Station d'ambulances privées.
+
+#0599
+Q: Que représente ce panneau ?
+1: Poste de premiers secours.
+2: Hôpital.
+3: Maison de retraite.
+4: Hôtel cinq étoiles.
+
+#0600
+Q: Que représente ce panneau ?
+1: Entrée d'une station-service avec atelier de réparation.
+2: Entrée d'une station-service militaire avec aire de repos.
+3: Station-service.
+4: Station-service réservée aux camions.

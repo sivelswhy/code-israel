@@ -1,0 +1,193 @@
+#1082
+E: Ceintures de sécurité, airbags et appuie-têtes sont les équipements de sécurité passive qui réduisent la gravité des blessures en cas d'accident.
+
+#1083
+E: Les freins de service du tracteur agissent sur l'essieu arrière (les roues motrices).
+
+#1084
+E: Le tracteur possède un système hydraulique qui lève et actionne les outils qui lui sont attachés.
+
+#1085
+E: Le balancier de l'essieu avant permet aux roues de suivre les irrégularités du terrain et garde le tracteur stable en terrain inégal.
+
+#1086
+E: À l'arrêt, abaissez le chargeur jusqu'au sol : une charge levée est instable et risque de retomber.
+
+#1087
+E: Le poids maximal levé dépend du tableau du constructeur : plus la charge est loin du tracteur, moins on peut en lever.
+
+#1088
+E: Une charge trop lourde ou trop éloignée fait basculer le tracteur vers l'arrière : les roues avant se soulèvent et il y a perte de direction.
+
+#1089
+E: L'arceau de sécurité protège le conducteur en cas de renversement du tracteur.
+
+#1090
+E: En cas de renversement, restez cramponné au volant et collé à la place du conducteur ; ne sautez pas, vous risqueriez d'être écrasé.
+
+#1091
+E: Remplir les roues d'eau alourdit le tracteur et améliore l'adhérence des roues au sol.
+
+#1092
+E: Les masses avant améliorent l'adhérence des roues avant et évitent que l'avant se soulève lors du levage d'une charge à l'arrière.
+
+#1093
+E: Les masses avant font contrepoids et empêchent l'avant de se soulever lors du levage d'une charge à l'arrière.
+
+#1094
+E: Le blocage de différentiel force les deux roues à tourner ensemble : il aide à se dégager quand une roue patine ou s'enlise.
+
+#1095
+E: On peut freiner une seule roue arrière du tracteur (pédales de frein séparées).
+
+#1096
+E: On sépare les freins pour tourner très court sur place, à très faible vitesse, en freinant la roue intérieure.
+
+#1097
+E: Il est interdit de rouler avec les freins séparés en permanence : au freinage, un seul côté freine, le tracteur peut se renverser.
+
+#1098
+E: La prise de force (PTO) transmet la puissance du moteur aux outils et équipements attachés au tracteur.
+
+#1099
+E: La prise de force se fait tourner au régime standard, sauf indication contraire de l'équipement entraîné.
+
+#1100
+E: Règle principale : ne vous tenez pas près des pièces en rotation (arbre à cardans) du tracteur et de l'outil.
+
+#1101
+E: La vitesse standard de la PTO est le régime de la sortie de la prise de force et de son arbre de transmission (par exemple 540 tr/min).
+
+#1102
+E: Enclenchez le blocage du différentiel lorsqu'une roue patine et que le tracteur n'avance pas ; débloquez-le avant de tourner.
+
+#1103
+E: Avec le différentiel bloqué, il est interdit de tourner le volant et les roues : le tracteur ne tourne plus et risque de se renverser ou de forcer.
+
+#1104
+E: La pression d'huile hydraulique fournie par le tracteur actionne les outils et équipements supplémentaires.
+
+#1105
+E: Avant de débrancher les raccords hydrauliques, vérifiez qu'il n'y a plus de pression d'huile : sinon l'huile sous pression peut jaillir et causer de graves blessures.
+
+#1106
+E: On relâche la pression moteur arrêté en actionnant les leviers de commande dans toutes les directions.
+
+#1107
+E: Un pare-étincelles est obligatoire quand le tracteur a un tuyau d'échappement bas, qui peut projeter des étincelles vers le sol et mettre le feu aux cultures sèches.
+
+#1108
+E: Dételez les outils et la remorque sur un sol horizontal pour éviter tout déplacement accidentel.
+
+#1109
+E: Tout tracteur qui a une cabine de conduite doit avoir des indicateurs de direction à l'avant et à l'arrière.
+R: T344(א)
+
+#1110
+E: Le troisième point supprime le jeu latéral des bras de levage et empêche l'outil de se balancer.
+
+#1111
+E: Après l'attelage, il faut supprimer la liberté de mouvement latérale des bras et de l'outil.
+
+#1112
+E: Dans une longue descente raide, la vitesse se maîtrise avec le frein moteur et un rapport bas, pas avec les freins, qui chaufferaient.
+
+#1113
+E: Un autobus est un véhicule à moteur destiné à transporter huit personnes ou plus en plus du conducteur, indiqué comme autobus sur son permis.
+R: T1:אוטובוס
+
+#1114
+E: Un autobus privé est un autobus qui n'est pas un véhicule public.
+R: T1:אוטובוס פרטי
+
+#1115
+E: Le nombre maximal de passagers d'un minibus est celui indiqué sur le permis du véhicule.
+R: T84
+
+#1116
+E: Le poids total autorisé d'un minibus ne dépasse pas 5 000 kg.
+R: T1:אוטובוס זעיר
+
+#1117
+E: Le véhicule de tournée est un véhicule public destiné à transporter jusqu'à huit passagers en plus du conducteur, indiqué comme tel sur le permis.
+R: T1:רכב סיור
+
+#1118
+E: Un autobus ne franchit pas une voie ferrée si la route qui y mène n'est pas revêtue d'asphalte ou de béton sur 20 mètres avant la voie.
+R: T57
+
+#1119
+E: L'interdiction vise les véhicules qui transportent (ou sont destinés à transporter) 11 passagers ou plus, conducteur compris, si l'accès n'est pas revêtu sur 20 mètres.
+R: T57
+
+#1120
+E: Le conducteur d'autobus arrêté devant un passage à niveau doit aussi ouvrir la porte avant (et la fenêtre) pour mieux entendre et pouvoir évacuer.
+
+#1121
+E: Un véhicule à moteur de plus de 5 000 kg de poids total autorisé, sauf l'autobus, doit avoir deux cales de sécurité.
+R: T368
+
+#1122
+E: Un autobus de 16 passagers ou moins peut stationner sur la place d'un autre véhicule si aucun panneau ne dit le contraire.
+
+#1123
+E: Ce panneau est une signalisation de direction vers des destinations sur des routes urbaines.
+
+#1124
+E: Seul un véhicule approuvé par l'autorité des permis, avec l'autorisation inscrite sur le permis du véhicule, peut transporter des élèves.
+R: T83
+
+#1125
+E: Avant un panneau annonçant une descente dangereuse, le conducteur doit utiliser les ralentisseurs (retarders) du véhicule.
+
+#1126
+E: Un autobus de 20 passagers ou plus ne stationne que là où le stationnement des autobus est expressément signalé.
+
+#1127
+E: Un autobus de 20 passagers ou plus ne peut pas stationner sur le trottoir, même là où le stationnement sur le trottoir est autorisé.
+
+#1128
+E: Le nombre maximal de passagers d'un véhicule du désert est celui inscrit sur le permis du véhicule.
+R: T84
+
+#1129
+E: Le permis de catégorie D est nécessaire pour conduire un autobus ou un véhicule du désert de plus de 3 500 kg.
+
+#1130
+E: Le conducteur d'autobus transporte au plus le nombre de passagers inscrit sur le permis de l'autobus.
+R: T84
+
+#1131
+E: Un conducteur de minibus titulaire d'un permis de taxi peut transporter jusqu'à 16 passagers en plus du conducteur.
+R: T184
+
+#1132
+E: Les freins d'un véhicule public doivent être contrôlés au moins tous les six mois dans un garage agréé.
+
+#1133
+E: Pendant les heures d'éclairage, si l'un des deux phares avant tombe en panne, il faut s'arrêter : il est interdit de continuer à rouler.
+
+#1134
+E: Le conducteur d'un autobus public doit transporter le passager même si ses tickets sont épuisés.
+
+#1135
+E: À la demande d'un passager, le conducteur doit couper les haut-parleurs des passagers et baisser le volume de la radio.
+
+#1136
+E: Le conducteur et le contrôleur doivent se comporter avec amabilité et politesse envers les passagers.
+
+#1137
+E: Le conducteur peut parler aux passagers uniquement de sujets liés au trajet, sans détourner la tête de la route.
+
+#1138
+E: Il est interdit de vendre des tickets ou de rendre la monnaie lorsque le véhicule est en mouvement.
+
+#1139
+E: Le conducteur doit présenter son document d'identification chaque fois qu'un passager l'exige.
+
+#1140
+E: Un autobus qui transporte des passagers sur une ligne urbaine doit avoir une trousse de premiers secours.
+
+#1141
+E: Le conducteur effectue le contrôle de sûreté avant le début de chaque trajet et à la fin de chaque trajet.
+

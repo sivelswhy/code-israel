@@ -1,0 +1,19 @@
+model: Qwen/Qwen3.5-0.8B
+train: true
+data: data
+adapter_path: adapters-08b
+fine_tune_type: lora
+num_layers: 12
+batch_size: 1
+iters: 20
+learning_rate: 1.0e-4
+max_seq_length: 1024
+grad_checkpoint: true
+steps_per_report: 5
+steps_per_eval: 1000
+save_every: 1000
+seed: 7
+lora_parameters:
+  rank: 16
+  scale: 20.0
+  dropout: 0.05

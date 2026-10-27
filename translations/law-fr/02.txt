@@ -1,0 +1,100 @@
+#T26
+F: Nul ne conduira un véhicule s’il se trouve dans l’un des cas suivants :
+(1) il est dans un état susceptible de mettre en danger les usagers de la route ;
+(2) il est sous l’influence de stupéfiants ou de boissons enivrantes ;
+(3) il n’est pas en mesure de conduire le véhicule avec une sécurité raisonnable en raison de son état mental, d’une faiblesse ou d’une déficience physique ;
+(4) il est dans un état qui le prive du contrôle du véhicule ou de la vision de la route et de la circulation.
+
+#T27(א)
+F: Nul ne conduira un véhicule lorsque celui-ci est dans un état susceptible de mettre en danger les usagers de la route.
+
+#T27(ג)
+F: Nul ne conduira un véhicule lorsque celui-ci est dans un état qui prive le conducteur de son contrôle.
+
+#T27(ד)
+F: Nul ne conduira un véhicule dans lequel la capacité de voir la route et la circulation, à travers le pare-brise, la lunette arrière, la vitre côté conducteur ou la vitre côté passager avant, est limitée de quelque manière que ce soit, hormis une limitation négligeable.
+
+#T28(א)
+F: Le conducteur d’un véhicule doit tenir le volant ou le guidon avec ses mains tant que le véhicule est en mouvement ; toutefois, il peut retirer une main du volant ou du guidon s’il doit l’utiliser pour assurer le bon fonctionnement du véhicule ou respecter les règles de la circulation.
+
+#T28(ב)
+F: (1) Lorsque le véhicule est en mouvement, le conducteur :
+(a) ne tiendra pas de téléphone fixe ou portable et ne l’utilisera dans le véhicule que par un dispositif mains libres ;
+(b) n’enverra ni ne lira de message texte (SMS).
+(2) Dans ce paragraphe :
+« mains libres » : dispositif permettant d’utiliser le téléphone sans le tenir, à condition que, si le dispositif se trouve dans le téléphone, celui-ci soit posé dans le véhicule de manière stable, empêchant sa chute ;
+« téléphone » : appareil destiné à la communication et comportant des touches pour composer.
+
+#T30
+F: (a) Le titulaire d’un permis de conduire qui, lors du contrôle de sa vue, s’aide de lunettes optiques ou de lentilles de contact (dans ce Règlement : appareils optiques), ou dont le permis mentionne l’obligation de s’en servir, ne conduira pas un véhicule à moteur sans les porter. Il ne conduira pas non plus un autobus, un taxi ou un véhicule commercial transportant plus de 8 passagers sans avoir sur lui pendant la conduite des appareils optiques de rechange, en plus de ceux qu’il porte.
+(b) Les dispositions du paragraphe (a) s’appliquent à celui qui conduit un véhicule à moteur pendant qu’il apprend à conduire ou passe l’examen de conduite, si la demande de permis mentionne l’obligation d’utiliser des appareils optiques.
+(c) Nul ne conduira un véhicule à moteur en portant des lentilles télescopiques.
+
+#T31(ב)
+F: Le conducteur d’un véhicule dans une rue partagée laissera les piétons et les enfants qui y jouent poursuivre leur activité, et ne continuera sa route que s’il s’est assuré que sa conduite ne les mettra pas en danger.
+
+#T33(א)
+F: Là où il y a une chaussée, le conducteur d’un véhicule ne circulera que sur la chaussée, sauf disposition contraire dans cette partie.
+
+#T35
+F: Le conducteur d’un véhicule utilisera autant que possible le côté droit extrême de la chaussée, même sur une chaussée à sens unique, ou le côté droit extrême de la voie destinée à ce type de véhicule, sous réserve des dispositions de cette partie.
+
+#T1:כביש
+F: « Chaussée » : la partie de la route destinée à la circulation des véhicules, ou construite ou améliorée à cette fin, ou où les véhicules ont l’habitude de passer, à l’exception des accotements.
+
+#T36(ב)
+F: Sur une route divisée par un séparateur, le conducteur d’un véhicule ou d’un animal utilisera le côté situé à droite du séparateur ; il ne le franchira pas et n’y arrêtera pas de véhicule ou d’animal, sauf si un panneau l’autorise et à l’endroit où il l’autorise.
+
+#T1:שטח הפרדה
+F: « Séparateur » : toute construction, îlot de circulation, marquage au sol, jardin, terrain non revêtu et autres éléments semblables qui divisent la route dans sa longueur.
+
+#T36(א)
+F: Sur une route divisée dans sa longueur par un séparateur, chacune des chaussées de part et d’autre du séparateur est considérée comme une chaussée à sens unique.
+
+#T36(ג)
+F: Sur une chaussée divisée par une ligne de séparation continue, le conducteur d’un véhicule ou d’un animal utilisera le côté situé à droite de la ligne et ne la franchira pas, sauf s’il y a une ligne discontinue contiguë à la ligne de séparation, sur son côté droit.
+
+#T37
+F: Nul ne conduira un véhicule sur aucun tronçon d’une chaussée à sens unique dans le sens contraire à celui qui est permis sur cette chaussée.
+
+#T38(א)
+F: Malgré l’article 34(a), on peut conduire un véhicule ou des animaux sur un trottoir, un chemin ou une voie réservés et marqués pour un type de véhicule ou d’usager donné, afin de les traverser pour entrer dans des locaux ou en sortir.
+
+#T38(ב)
+F: Le conducteur d’un véhicule non motorisé, ainsi que d’un tracteur et d’un véhicule lent, doit se ranger et rouler sur l’accotement si c’est nécessaire et possible pour laisser passer la circulation qui le suit. Toutefois, cette obligation ne s’applique pas si le panneau 501 est placé sur l’accotement.
+
+#T39(א)
+F: Lorsqu’il se trouve sur la chaussée une construction, un poteau, un îlot ou une zone fermée à la circulation des véhicules qui obligent à s’écarter de la ligne droite, le conducteur d’un véhicule ou la personne qui conduit des animaux ne passera que sur leur droite, sauf si un panneau placé à cet endroit ordonne de passer à gauche.
+
+#T39(ב)
+F: Lorsqu’un tel obstacle se trouve sur une chaussée à sens unique, les conducteurs passeront aussi bien à sa droite qu’à sa gauche, sauf si un panneau indique la manière de s’écarter.
+
+#T180(5)
+F: Permis de catégorie B : (5) un véhicule à moteur à équipements spéciaux, indiqué sur sa carte grise comme véhicule médical spécial, dont le poids total ne dépasse pas 5 000 kg et dont le nombre de passagers, conducteur non compris, ne dépasse pas 8.
+
+#T39ג(א)
+F: Nul ne conduira un quad sur la chaussée, sauf pour la traverser ou lorsque la route se trouve dans l’enceinte d’un moshav ou d’un kibboutz.
+
+#T308(א)
+F: Lorsqu’un examinateur ou un policier muni de la carte prévue à l’article 307(a) estime qu’un véhicule pour lequel une carte grise a été délivrée peut mettre en danger la circulation, ou que les conditions légalement fixées pour lui ne sont pas remplies, il remet au conducteur ou à celui qui détient effectivement le véhicule un avis (avis d’interdiction d’usage) détaillant les défauts du véhicule ou les conditions non remplies, selon le cas. Il en informe l’autorité d’immatriculation, qui inscrit sur la carte grise une mention de l’avis donné, à condition que l’avis précise si l’usage du véhicule est permis, sous réserve des dispositions du paragraphe (d). Le policier ou l’examinateur peut retarder de 48 heures la notification à l’autorité d’immatriculation, et s’il est prouvé à sa satisfaction que le véhicule a été réparé dans les 48 heures suivant la remise de l’avis, il rend la carte grise au propriétaire du véhicule ou à celui à qui l’avis a été remis.
+
+#T308(ב)
+F: Lorsqu’un expert automobile estime qu’un véhicule endommagé a subi des dégâts bruts supérieurs à 60 %, il remet au conducteur ou au propriétaire un avis de perte totale, en informe l’autorité d’immatriculation sur le formulaire prescrit, et lui transmet la carte grise du véhicule.
+
+#T39ג(ג)
+F: Le conducteur d’un quad ne transportera pas d’autre personne, sauf s’il a reçu à cet effet une autorisation de l’autorité d’immatriculation et que l’autorisation est inscrite sur la carte grise.
+
+#T39ג(ד)
+F: Nul ne conduira un quad ni ne permettra à autrui de monter dessus, sauf si le conducteur et chaque passager portent un casque de protection marqué conformément au point 9 de la partie C de la deuxième annexe, à condition que sa structure couvre le pavillon de l’oreille et qu’il soit attaché par une jugulaire empêchant sa chute pendant la conduite.
+
+#T39ד(א)
+F: Le conducteur d’un tracteur de transport ne transportera pas d’autre personne, sauf s’il a reçu à cet effet une autorisation de l’autorité d’immatriculation et que l’autorisation est inscrite sur la carte grise.
+
+#T39ד(ב)
+F: La vitesse d’un tracteur de transport ne dépassera pas 40 km/h.
+
+#T39ד(ג)
+F: Nul ne conduira un tracteur de transport ni ne permettra à autrui de monter dessus, sauf si le conducteur et chaque passager portent une ceinture de sécurité conforme à la partie C de la deuxième annexe.
+
+#T1:נתיב
+F: « Voie » : partie de la largeur d’une chaussée, marquée ou non, suffisante pour la circulation d’une file de véhicules, à l’exception d’un véhicule à deux roues.

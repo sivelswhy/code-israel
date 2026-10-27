@@ -1,0 +1,419 @@
+#0061
+Q: Est-il obligatoire d'obéir aux ordres d'un policier qui s'est identifié au moyen de sa carte professionnelle ?
+1: Oui, même si ces ordres sont contraires aux indications d'un panneau.
+2: Non. On n'est tenu d'obéir qu'à un policier de la circulation qui règle le trafic à une intersection.
+3: En général, non.
+4: Oui, mais seulement pour la régulation de la circulation à une intersection.
+
+#0062
+Q: Est-il obligatoire d'obéir aux ordres et aux signaux d'un inspecteur municipal en uniforme ?
+1: Non. On n'est tenu d'obéir que pour la présentation du permis de conduire.
+2: En général, non.
+3: Non. On n'est tenu d'obéir que pour les consignes de stationnement dans les limites de la ville.
+4: Oui, si les ordres concernent la régulation de la circulation.
+
+#0063
+Q: Est-il obligatoire d'obéir aux ordres d'un agent des Travaux publics en uniforme ?
+1: Oui, là où des travaux de construction ou d'entretien de la chaussée sont en cours.
+2: Non. On n'est tenu d'obéir qu'à un policier en uniforme.
+3: Non, mais on doit lui obéir uniquement s'il demande de s'arrêter sur l'accotement.
+4: Oui, mais seulement en agglomération.
+
+#0064
+Q: Est-il obligatoire d'obéir aux ordres et aux signaux d'un policier militaire en uniforme ?
+1: Non, sauf s'il ordonne d'arrêter le véhicule.
+2: En général, non.
+3: Non, seulement s'il demande de présenter le permis de conduire.
+4: Oui, comme à un policier civil.
+
+#0065
+Q: Est-il obligatoire d'obéir aux ordres d'un policier, même lorsque son ordre ou son signal est contraire aux panneaux ?
+1: Non, ce n'est pas obligatoire.
+2: Oui, c'est obligatoire, avec une grande prudence.
+3: Oui, sauf si l'ordre est contraire à un panneau « Sens interdit ».
+4: Oui, sauf si l'ordre est contraire à un panneau « Stop ».
+
+#0066
+Q: Est-il obligatoire d'obéir aux ordres d'un policier militaire, même lorsque son ordre ou son signal est contraire aux panneaux ?
+1: Non, ce n'est pas obligatoire.
+2: Oui, sauf si l'ordre est contraire à un panneau « Sens interdit ».
+3: Oui, c'est obligatoire, avec une grande prudence.
+4: Oui, sauf si l'ordre est contraire à un panneau « Stop ».
+
+#0067
+Q: Est-il obligatoire d'obéir aux ordres d'un inspecteur municipal habilité, même lorsque son ordre ou son signal est contraire aux panneaux ?
+1: Oui, c'est obligatoire, avec une grande prudence.
+2: Non, ce n'est pas obligatoire.
+3: Oui, sauf si l'ordre est contraire à un panneau « Sens interdit ».
+4: Oui, sauf si l'ordre est contraire à un panneau « Stop ».
+
+#0068
+Q: Un panneau temporaire placé sur ordre d'un officier de police est-il un panneau légal ?
+1: Oui, c'est un panneau légal.
+2: Oui, sauf s'il s'agit d'un panneau « Stop ».
+3: Non, ce n'est pas un panneau légal.
+4: Oui, sauf s'il s'agit d'un panneau « Sens interdit ».
+
+#0069
+Q: À une intersection équipée de feux et de panneaux, quelles indications priment ?
+1: Le panneau « Cédez le passage » prime sur un feu qui ne clignote pas.
+2: Le panneau prime toujours (un feu peut tomber en panne).
+3: Le panneau « Stop » prime sur un feu qui ne clignote pas.
+4: Le feu (sauf le feu jaune clignotant) prime sur un panneau qui règle la priorité.
+
+#0070
+Q: Un conducteur titulaire d'un permis valide pour une catégorie de véhicules peut-il conduire n'importe quel véhicule de cette catégorie ?
+1: Oui, à condition qu'aucune infraction routière ne lui ait été imputée.
+2: Oui. Le titulaire d'un permis valide peut conduire n'importe quel véhicule sans aucune condition.
+3: Oui, à condition qu'il maîtrise sa conduite et son utilisation.
+4: Oui, à condition d'avoir une attestation de la police certifiant qu'il maîtrise la conduite du véhicule.
+
+#0071
+Q: Dans quelle situation est-il interdit à une personne de conduire quelque véhicule que ce soit ?
+1: Lorsque son état physique ou mental risque de mettre en danger les autres usagers de la route.
+2: Avant de prendre un médicament et pendant les 24 heures consécutives qui suivent.
+3: La loi n'interdit jamais de conduire si le conducteur a un permis valide.
+4: S'il ne s'est pas reposé au moins huit heures avant de prendre le volant.
+
+#0072
+Q: Est-il permis de conduire juste après avoir pris des médicaments qui altèrent l'aptitude à la conduite ?
+1: Non.
+2: Non, sauf si quatre heures se sont écoulées depuis la prise du médicament.
+3: Oui, lorsque l'effet nocif du médicament est durable.
+4: Oui, car les médicaments n'ont pas d'effet sur la conduite.
+
+#0073
+Q: Est-il permis de conduire un véhicule qui n'est pas en bon état ?
+1: Oui, si la panne ne concerne pas le système de freinage.
+2: Oui, si la panne concerne le système de direction.
+3: Il est interdit de conduire un véhicule qui n'est pas en bon état et dont on n'a pas la pleine maîtrise.
+4: Oui, si la panne ne concerne que l'éclairage.
+
+#0074
+Q: Est-il permis de conduire un véhicule dont le champ de vision vers l'avant est réduit ?
+1: C'est interdit par temps de pluie et permis le reste du temps.
+2: Non, sauf si la gêne est négligeable.
+3: Oui, mais seulement de jour.
+4: Oui, si le champ de vision n'est réduit que vers l'avant.
+
+#0075
+Q: Est-il permis de lâcher le volant ou le guidon d'une main pendant la conduite ?
+1: Oui, mais seulement pour régler la radio ou utiliser l'allume-cigare.
+2: Non, sauf pour changer de vitesse, actionner le clignotant ou assurer le bon fonctionnement du véhicule.
+3: Non, en aucun cas.
+4: Oui, pour utiliser un téléphone portable.
+
+#0076
+Q: De quelle façon peut-on utiliser un téléphone portable en conduisant ?
+1: Uniquement avec un kit mains libres, qui permet de téléphoner sans tenir l'appareil.
+2: En tenant l'appareil de la main droite.
+3: Uniquement avec des écouteurs dans les deux oreilles.
+4: Il est totalement interdit d'utiliser un téléphone en conduisant.
+
+#0077
+Q: Quand le conducteur doit-il porter des lunettes ou des lentilles de contact ?
+1: Uniquement lorsqu'il conduit la nuit, et à condition que cette obligation figure sur son permis de conduire.
+2: Lorsqu'il conduit par visibilité réduite et en cas d'éblouissement.
+3: Uniquement lorsqu'il conduit pendant la période d'éclairage, et à condition que cette obligation figure sur son permis de conduire.
+4: Si son permis de conduire indique qu'il doit les porter pour conduire.
+
+#0078
+Q: Comment faut-il conduire dans une zone résidentielle ?
+1: Le conducteur doit toujours rouler en petite vitesse et ne jamais faire marche arrière.
+2: Le conducteur doit laisser les piétons et les enfants poursuivre leurs activités sans les mettre en danger.
+3: Le conducteur doit éviter d'entrer dans une zone résidentielle lorsque des enfants y jouent.
+4: Le conducteur doit klaxonner pour avertir les piétons qu'un véhicule entre dans la rue.
+
+#0079
+Q: Sur quelle partie de la route une voiture particulière peut-elle circuler ?
+1: Sur l'accotement et sur le terre-plein, en cas d'embouteillage.
+2: Uniquement sur la chaussée, là où il y en a une.
+3: Sur la chaussée et sur le terre-plein, à tout moment.
+4: Sur n'importe quelle partie de la route.
+
+#0080
+Q: Un cycliste peut-il emprunter une voie réservée aux transports en commun ?
+1: Oui, mais seulement si c'est la voie de gauche.
+2: Non. Seules les motos peuvent emprunter une voie réservée aux transports en commun.
+3: Oui, lorsque cette voie se trouve sur le côté droit de la chaussée.
+4: Non. Cette voie est réservée aux véhicules de transport public.
+
+#0081
+Q: Sur quel type de chaussée faut-il circuler à l'extrême droite ?
+1: Uniquement sur une chaussée à sens unique.
+2: Uniquement hors agglomération.
+3: Uniquement sur une chaussée à double sens.
+4: Sur toutes les chaussées.
+
+#0082
+Q: L'illustration montre une route large. Quel numéro désigne la chaussée ?
+1: 3
+2: 5
+3: 1
+4: 2
+
+#0083
+Q: Le « terre-plein » est :
+1: un espace réservé au stationnement en agglomération.
+2: un espace où il est interdit de stationner, sauf si un panneau l'autorise.
+3: un espace réservé au stationnement des deux-roues en agglomération, sans qu'un panneau particulier soit nécessaire.
+4: un espace destiné à se mettre à l'abri en cas de danger, signalé par un panneau spécial prévu à cet effet.
+
+#0084
+Q: Où les véhicules doivent-ils circuler sur une route divisée par un terre-plein ?
+1: À gauche du terre-plein.
+2: Sur une chaussée à double sens, du côté gauche.
+3: Sur une chaussée à trois voies, sur la voie de gauche.
+4: À droite du terre-plein, sauf indication contraire.
+
+#0085
+Q: Où les véhicules doivent-ils circuler sur une route divisée par une ligne continue ?
+1: À droite de la ligne.
+2: À gauche de la ligne de séparation.
+3: La majeure partie du véhicule doit se trouver à droite de la ligne.
+4: À droite de la ligne, mais il est permis de rouler à sa gauche pour dépasser.
+
+#0086
+Q: Sur une chaussée à sens unique, qui peut circuler à contresens ?
+1: Seuls les motocyclistes.
+2: Tout le monde, les jours fériés, lorsque la circulation est faible et que cela ne gêne personne.
+3: Personne, sauf un véhicule d'urgence en service, ou sur ordre d'un policier.
+4: Personne, en aucun cas, même si un policier l'ordonne.
+
+#0087
+Q: Quand est-il permis de rouler sur un trottoir ?
+1: Lorsqu'il n'y a aucun piéton dessus.
+2: Lorsque la voie de circulation est encombrée ou bloquée.
+3: Jamais, en aucun cas.
+4: Pour le traverser afin d'entrer dans une propriété ou d'en sortir.
+
+#0088
+Q: Comment doit se comporter le conducteur d'un tracteur qui gêne la circulation derrière lui ?
+1: Il doit rouler à droite de la chaussée, et même sur l'accotement si c'est nécessaire et possible.
+2: Il doit rouler uniquement sur la voie de droite.
+3: Il doit toujours rouler sur l'accotement.
+4: Il ne peut rouler que sur la voie de gauche ou sur l'accotement droit.
+
+#0089
+Q: Vous roulez sur une chaussée à double sens et un bâtiment, un poteau ou un espace fermé se trouve devant vous. Que devez-vous faire ?
+1: Le contourner par la gauche.
+2: Le contourner par la droite, sauf indication contraire.
+3: Vous pouvez le contourner par la droite ou par la gauche.
+4: Continuer en tenant compte de la taille du bâtiment, du poteau ou de l'espace fermé.
+
+#0090
+Q: Vous roulez sur une chaussée à sens unique et un bâtiment, un poteau ou un espace fermé se trouve devant vous. Que devez-vous faire ?
+1: Le contourner uniquement par la droite.
+2: En agglomération, on peut le contourner par la droite ou par la gauche ; hors agglomération, toujours par la droite.
+3: Vous pouvez le contourner par la droite ou par la gauche, sauf indication contraire.
+4: Le contourner par la gauche.
+
+#0091
+Q: Le titulaire d'un permis de catégorie B peut aussi conduire :
+1: tout véhicule médical spécial, quel que soit son poids total autorisé.
+2: le véhicule d'une personne handicapée, inscrit sur sa carte grise comme véhicule médical spécial, dont le poids total autorisé ne dépasse pas 2 500 kg.
+3: tout véhicule dont le poids total autorisé ne dépasse pas 5 000 kg.
+4: le véhicule d'une personne handicapée, inscrit sur sa carte grise comme véhicule médical spécial, dont le poids total autorisé ne dépasse pas 4 000 kg.
+
+#0092
+Q: Un permis de conduire ne sera pas renouvelé s'il n'a plus été valide pendant une période supérieure à :
+1: neuf mois, sauf si son titulaire a passé les examens et les épreuves exigés par l'Autorité des permis.
+2: quatre mois, sauf si son titulaire a passé les examens et les épreuves exigés par l'Autorité des permis.
+3: six mois, sauf si son titulaire a passé les examens et les épreuves exigés par l'Autorité des permis.
+4: un an, sauf si son titulaire a passé les examens et les épreuves exigés par l'Autorité des permis.
+
+#0093
+Q: Sur un feu qui fonctionne normalement, combien de fois le feu vert clignote-t-il avant de passer au jaune ?
+1: Cela dépend de la densité de la circulation.
+2: Quatre fois.
+3: Une fois.
+4: Trois fois.
+
+#0094
+Q: Où un quad peut-il circuler ?
+1: Uniquement sur la chaussée, et uniquement en agglomération.
+2: Uniquement sur les voies rapides.
+3: Sur les chemins de terre, ainsi que sur les chaussées intérieures d'un moshav ou d'un kibboutz.
+4: Uniquement sur les trottoirs d'un moshav ou d'un kibboutz.
+
+#0095
+Q: Qu'est-ce qu'un avis d'interdiction d'utilisation d'un véhicule (« retrait de la circulation ») ?
+1: Un avis d'interdiction d'utilisation remis au conducteur par un policier lorsque le conducteur a commis une infraction routière quelconque.
+2: Un avis d'interdiction d'utilisation remis au conducteur par un policier, un expert ou un contrôleur technique en raison d'un défaut du véhicule ou d'un accident.
+3: Un avis d'interdiction d'utilisation remis au propriétaire par un garagiste agréé après la découverte d'une panne.
+4: Un avis d'interdiction d'utilisation remis au propriétaire par un examinateur du permis de conduire lorsqu'une panne a été découverte.
+
+#0096
+Q: À quelles conditions est-il permis de transporter un passager sur un quad, en plus du conducteur ?
+1: À condition que le conducteur ait au moins 21 ans.
+2: Uniquement sur un quad agricole.
+3: Sans condition ni restriction.
+4: Lorsque l'Autorité des permis l'a autorisé et que cette autorisation figure sur la carte grise.
+
+#0097
+Q: Le port du casque est-il obligatoire sur un quad ?
+1: Il est obligatoire uniquement sur la chaussée.
+2: Oui. Le conducteur et chaque passager doivent porter un casque pendant le trajet.
+3: Non, le casque n'est pas obligatoire.
+4: Il est obligatoire lorsque le quad n'a pas d'arceau de sécurité.
+
+#0098
+Q: À quelles conditions le conducteur d'un tracteur utilitaire peut-il transporter un passager ?
+1: C'est permis sans condition.
+2: Lorsque l'Autorité des permis l'y a autorisé.
+3: C'est permis uniquement sur un tracteur utilitaire agricole.
+4: C'est permis, à condition que le conducteur ait au moins 21 ans.
+
+#0099
+Q: Quelle est la vitesse maximale autorisée pour un tracteur utilitaire ?
+1: 60 km/h hors agglomération.
+2: 50 km/h en agglomération.
+3: 70 km/h.
+4: 40 km/h.
+
+#0100
+Q: Le port de la ceinture de sécurité est-il obligatoire dans un tracteur utilitaire ?
+1: Oui, pour le conducteur et les passagers, mais seulement hors agglomération.
+2: Oui, pour le conducteur et tous les passagers, sur toutes les routes.
+3: Oui, mais pour le conducteur et les passagers uniquement sur les chemins de terre.
+4: Non, la ceinture n'est pas obligatoire.
+
+#0101
+Q: L'illustration montre une route large. Quel numéro désigne une voie de circulation ?
+1: 4
+2: 7
+3: 6
+4: 3
+
+#0102
+Q: L'illustration montre une route large. Quel numéro désigne le terre-plein ?
+1: 8
+2: 2
+3: 1
+4: 4
+
+#0103
+Q: L'illustration montre une route large. Quel numéro désigne l'accotement ?
+1: 6
+2: 1
+3: 7
+4: 3
+
+#0104
+Q: Qui peut circuler à contresens sur une chaussée à sens unique ?
+1: Uniquement les véhicules d'urgence.
+2: Uniquement les conducteurs de voitures particulières.
+3: Uniquement les motos et les vélos.
+4: Uniquement les véhicules transportant au moins quatre passagers.
+
+#0105
+Q: À quelles conditions est-il permis de quitter sa voie de circulation ?
+1: En roulant lentement et en déviant brusquement.
+2: Simplement après avoir mis le clignotant et regardé dans les rétroviseurs.
+3: À condition de ne créer ni danger ni gêne pour les usagers de la route.
+4: Il est totalement interdit de quitter sa voie de circulation.
+
+#0106
+Q: À quelles conditions est-il permis de dévier de sa trajectoire ?
+1: Uniquement sur une chaussée où il n'y a aucun véhicule.
+2: À condition de ne créer ni danger ni gêne pour les usagers de la route.
+3: En roulant lentement et en déviant brusquement.
+4: Il est totalement interdit de dévier de sa trajectoire.
+
+#0107
+Q: Quelle est la bonne façon de tourner à droite ?
+1: N'importe comment, après avoir mis le clignotant.
+2: En décrivant un large arc depuis la droite de la chaussée vers n'importe quelle voie de la chaussée où l'on s'engage.
+3: Depuis n'importe quelle voie vers la voie la plus à droite de la chaussée où l'on s'engage.
+4: À une vitesse raisonnable, sans gêne ni danger, depuis la voie de droite vers la voie de droite de la chaussée où l'on s'engage.
+
+#0108
+Q: L'intersection ci-contre comporte exactement les panneaux et marquages de l'illustration. Quelle est la bonne façon de tourner à droite de la rue B vers la rue C ?
+1: De la voie 7 vers la voie 6 ou la voie 5.
+2: De la voie 7 vers la voie 6 uniquement.
+3: De la voie 7 ou de la voie 8 vers la voie 6 ou la voie 5.
+4: De la voie 8 vers la voie 6.
+
+#0109
+Q: Que devez-vous vérifier avant de commencer à tourner à droite ?
+1: Qu'aucun véhicule n'est stationné du côté gauche de la route.
+2: Qu'aucun véhicule ne circule à votre gauche.
+3: Qu'aucun véhicule ne circule à votre droite.
+4: Que le rétroviseur gauche est bien réglé.
+
+#0110
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue A vers la rue C ?
+1: De la voie 2 vers la voie 3.
+2: De la voie 2 vers la voie 3 ou la voie 4.
+3: De la voie 2 ou de la voie 1 vers la voie 3.
+4: De la voie 2 ou de la voie 1 vers la voie 3 ou la voie 4.
+
+#0111
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue A vers la rue C ?
+1: De la voie 1 vers la voie 3.
+2: De la voie 2 ou de la voie 1 vers la voie 4.
+3: De la voie 2 vers la voie 3.
+4: De la voie 2 vers la voie 4.
+
+#0112
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue A vers la rue C ?
+1: De la voie 1 ou de la voie 2 vers la voie 5.
+2: De la voie 2 vers la voie 3.
+3: De la voie 1 ou de la voie 2 vers la voie 6.
+4: De la voie 2 vers la voie 5.
+
+#0113
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue A vers la rue C ?
+1: De la voie 1 vers la voie 4.
+2: De la voie 2 vers la voie 3.
+3: De la voie 2 vers la voie 4.
+4: De la voie 1 ou de la voie 2 vers la voie 4.
+
+#0114
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue A vers la rue C ?
+1: De la voie 1 ou de la voie 2 vers la voie 3 ou la voie 4.
+2: De la voie 1 vers la voie 3.
+3: De la voie 2 vers la voie 5.
+4: De la voie 2 vers la voie 3.
+
+#0115
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue A vers la rue B ?
+1: De la voie 2 vers la voie 3 ou la voie 4.
+2: De la voie 1 vers la voie 4.
+3: De la voie 2 vers la voie 4.
+4: De la voie 1 vers la voie 3 ou la voie 4.
+
+#0116
+Q: L'intersection ci-contre comporte exactement les panneaux de l'illustration. Quelle est la bonne façon de tourner de la rue C vers la rue A ?
+1: De la voie 5 vers la voie 4.
+2: De la voie 5 vers la voie 3 uniquement.
+3: De la voie 5 vers la voie 3 ou la voie 4.
+4: De la voie 6 vers la voie 4.
+
+#0117
+Q: À quelles conditions est-il permis de faire demi-tour ?
+1: Uniquement sur une chaussée d'au moins trois voies.
+2: Partout, mais sans manœuvrer sur la chaussée pour l'effectuer.
+3: Lorsque cela ne gêne pas la circulation, ne met aucun usager en danger et qu'aucun panneau n'interdit le demi-tour.
+4: Uniquement à une intersection.
+
+#0118
+Q: Il est interdit à un conducteur de faire demi-tour lorsque :
+1: il conduit un véhicule de plus de huit mètres de long.
+2: il circule sur une chaussée à double sens.
+3: un panneau interdit de tourner à gauche.
+4: il n'est pas visible d'un autre conducteur qui approche, de quelque côté que ce soit.
+
+#0119
+Q: Depuis quelle voie est-il permis de faire demi-tour par la gauche ?
+1: Depuis une voie de présélection à gauche, ou depuis toute autre voie où aucun marquage ni panneau n'interdit cette manœuvre.
+2: Depuis la voie la plus proche du terre-plein, marquée d'une flèche tout droit.
+3: Uniquement depuis une voie marquée au sol d'une flèche tout droit.
+4: Uniquement depuis la voie de gauche.
+
+#0120
+Q: À quelles conditions est-il permis de faire marche arrière ?
+1: En cas de nécessité, à condition de ne créer ni danger, ni dommage, ni dérangement, ni gêne pour les autres usagers de la route.
+2: La marche arrière est totalement interdite.
+3: Uniquement si le véhicule se trouve près du trottoir.
+4: Uniquement si une personne placée derrière le véhicule, visible du conducteur, le guide.

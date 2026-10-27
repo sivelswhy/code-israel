@@ -1,0 +1,117 @@
+#P27ב(א)
+F: Lorsqu’une infraction routière ou une violation routière a été commise avec un véhicule, le propriétaire du véhicule est considéré comme s’il l’avait conduit à ce moment-là, ou comme s’il l’avait immobilisé ou stationné à un endroit où l’immobilisation ou le stationnement est interdit par la loi, selon le cas, à moins qu’il ne prouve qui conduisait le véhicule, l’avait immobilisé ou stationné, ou à qui il en a confié la détention (le détenteur), ou qu’il soit prouvé que le véhicule lui a été pris à son insu et sans son consentement.
+
+#T109(א)
+F: Celui qui marche sur la chaussée marchera près de son bord, du côté gauche, face à la circulation qui vient en sens inverse.
+
+#P12א1(ד)
+F: Pendant les périodes suivantes, un jeune nouveau conducteur ne conduira pas de véhicule à moteur, à l’exception d’une moto, d’une machine mobile et d’un tracteur, sauf si un accompagnateur est assis sur le siège à côté de lui :
+(1) pendant les trois mois suivant la date de l’autorisation de conduire visée au début du paragraphe (b) ;
+(2) aux heures de nuit : pendant les trois mois suivant la fin de la période mentionnée au point (1), et s’il a reçu une autorisation de conduire supplémentaire visée au paragraphe (b)(2), aussi longtemps que cette autorisation est valable. Ici, « heures de nuit » désigne les heures comprises entre 21 h 00 et 6 h 00.
+
+#P12א2
+F: Un nouveau conducteur de moins de 21 ans, pour qui la période d’obligation d’accompagnement prévue à l’article 12A1 est écoulée, ne transportera pas plus de deux passagers dans un véhicule à moteur avant d’avoir 21 ans, sauf si un accompagnateur est assis sur le siège à côté de lui.
+
+#P12א(ד)
+F: Si un nouveau conducteur est condamné pour une infraction à une disposition énumérée à la troisième annexe, ou si une décision définitive lui impose une amende pour une infraction routière énumérée à la troisième annexe constituant une violation routière, selon le cas, sa période de nouveau conducteur est prolongée de deux années supplémentaires, à condition qu’il réussisse les examens et contrôles fixés par le ministre. La prolongation se compte à partir de la fin de la période de base ou de la date de la condamnation, et si une déchéance du permis a été prononcée avec cette condamnation, à partir de la fin de la période de déchéance, selon la date la plus tardive.
+
+#T128
+F: Le cycliste roulera aussi près que possible du bord droit de la chaussée et conduira avec prudence, en particulier en dépassant un véhicule à l’arrêt ou en doublant un véhicule qui roule dans le même sens.
+
+#T144(א)(1)
+F: [Le conducteur impliqué dans un accident de la route ayant causé la mort ou des blessures] arrêtera immédiatement le véhicule sur les lieux de l’accident ou aussi près que possible, et ne le déplacera pas, sauf s’il est nécessaire d’utiliser le véhicule pour exécuter ce que prévoit le point (2), ou si un policier l’a autorisé.
+
+#T144(ב)
+F: Nul ne déplacera un véhicule impliqué dans un accident visé au paragraphe (a), sauf si un policier l’y a autorisé ou si c’est nécessaire pour porter secours aux personnes impliquées dans cet accident.
+
+#T144(א)(2)
+F: [Le conducteur impliqué dans un accident de la route ayant causé la mort ou des blessures,] selon les circonstances et le lieu de l’accident, portera à toute personne blessée dans cet accident l’aide appropriée, et en particulier :
+(a) veillera à éviter tout dommage supplémentaire au blessé ;
+(b) lui donnera les premiers secours qu’il est en mesure de donner selon sa formation ;
+(c) appellera sur les lieux de l’accident les services de secours professionnels nécessaires selon les circonstances, notamment une ambulance, la police et les pompiers ;
+(d) attendra près du blessé l’arrivée des services de secours professionnels ;
+(e) là où il n’est pas possible d’évacuer le blessé par ambulance, veillera à son transfert, par un autre véhicule approprié, vers un poste de premiers secours, un hôpital ou un médecin.
+
+#T144(א)(3)
+F: [Le conducteur impliqué dans un accident de la route ayant causé la mort ou des blessures] communiquera à un policier, au blessé, au conducteur de tout autre véhicule impliqué dans cet accident, ou à tout passager ou personne qui accompagnait le blessé, son nom et son adresse, le numéro de son permis de conduire, le numéro d’immatriculation du véhicule qu’il conduit ainsi que le nom et l’adresse de son propriétaire, présentera sur demande l’attestation d’assurance et l’un des moyens d’identification précisés à l’article 9(a)(1), et permettra de copier toute mention qui y est inscrite.
+
+#T145(א)
+F: Le conducteur d’un véhicule impliqué dans un accident ou ayant heurté un autre véhicule, ou un autre bien qui n’est pas un véhicule et se trouve sur la route ou près de celle-ci, lorsque seuls l’autre véhicule ou ce bien ont subi des dommages, communiquera sur place au conducteur de l’autre véhicule, au propriétaire du bien ou à son responsable, ou à un policier présent, son nom et son adresse, le numéro de son permis de conduire, le numéro d’immatriculation du véhicule qu’il conduit et le nom et l’adresse de son propriétaire, ainsi que le numéro de l’attestation d’assurance et le nom de la compagnie d’assurance. Il présentera sur demande l’un des moyens d’identification précisés à l’article 9(a)(1) et l’attestation d’assurance, et permettra de copier toute mention qui y est inscrite.
+
+#T145(ב)
+F: Si les véhicules impliqués dans l’accident ou le choc et restés sur les lieux gênent ou risquent de gêner la circulation, leurs conducteurs dégageront la chaussée pour permettre une circulation libre et, immédiatement après, se conformeront au paragraphe (a).
+
+#T145(ג)
+F: Si l’autre véhicule endommagé était à l’arrêt sans surveillance, ou si le propriétaire du bien ou son responsable n’était pas sur place :
+(1) le conducteur du véhicule impliqué dans l’accident ou le choc laissera un avis écrit sur le véhicule endommagé, à un endroit bien visible, et si possible aussi sur le bien endommagé, indiquant les renseignements mentionnés au paragraphe (a) ;
+(2) le conducteur informera, dans les 24 heures suivant l’accident, le poste de police le plus proche du lieu de l’accident ou du choc, en précisant son nom et son adresse, sauf s’il a donné ces renseignements à un policier présent sur place dont il connaît le nom ou le numéro.
+
+#T145(ג)(2)
+F: Le conducteur informera, dans les 24 heures suivant l’accident, le poste de police le plus proche du lieu de l’accident ou du choc, en précisant son nom et son adresse, sauf s’il a donné ces renseignements à un policier présent sur place dont il connaît le nom ou le numéro.
+
+#T146
+F: Le conducteur d’un véhicule qui passe sur le lieu d’un accident de la route où se trouve un blessé s’arrêtera et ne poursuivra pas sa route avant d’avoir fait tout ce qui est en son pouvoir pour apporter au blessé toute l’aide nécessaire ou venir à son secours, conformément à l’article 144(a)(2).
+
+#T161(ב)
+F: Nul ne jettera depuis un véhicule un paquet, un ballot, des ordures, des déchets ou tout autre objet.
+
+#T69(ה)
+F: Les dispositions des paragraphes (a), (b) et (c) ne s’appliquent pas à l’arrêt ou à l’immobilisation d’un véhicule qu’il a fallu arrêter et laisser temporairement sur la chaussée à cause d’une panne, à condition que le conducteur fasse tout le nécessaire pour le conduire sur l’accotement dans la mesure du possible et l’éloigner de la route en général dès que possible.
+
+#T160(1)
+F: [Il est interdit de faire le plein de carburant] tant que le moteur tourne.
+
+#T160(2)
+F: [Il est interdit de faire le plein de carburant] tant que le véhicule se trouve près d’un feu, d’une fumée ou d’une personne qui fume.
+
+#T160(3)
+F: [Il est interdit de faire le plein de carburant] si le véhicule est un autobus ou un véhicule transportant plus de 11 personnes, tant qu’il y a des passagers à bord.
+
+#T26(2)
+F: Nul ne conduira un véhicule s’il est sous l’influence de stupéfiants ou de boissons enivrantes.
+
+#P64ב(א)
+F: Dans cet article (définitions de l’ivresse, du test d’alcoolémie et du « responsable du véhicule » ; voir le texte hébreu complet).
+
+#P64ד(א)
+F: Si le conducteur d’un véhicule, ou le responsable du véhicule au sens du point (1) de la définition de « responsable du véhicule » à l’article 64B, refuse de fournir un échantillon à la demande d’un policier conformément à cet article, il est considéré comme ayant commis une infraction à l’article 62(3).
+
+#T1:נעלי בטחון
+F: « Cales de sécurité » : cales en forme de triangle rectangle destinées à empêcher le déplacement accidentel d’un véhicule.
+
+#T74(ד)
+F: Le conducteur d’un véhicule qui doit transporter des cales de sécurité, et qui l’a immobilisé ou stationné sur une route en pente, placera aussi les cales de sécurité sous les roues arrière.
+
+#T13(א1)
+F: Malgré le paragraphe (a), le titulaire d’un document qui est résident au sens de la loi sur le registre de la population de 1965 informera l’officier d’état civil, au sens de cette loi, de tout changement de son adresse postale.
+
+#P57א
+F: (a)(1) Lorsqu’un policier constate, après la pesée d’un véhicule commercial, qu’une personne y a transporté une charge alors que le poids total du véhicule et de la charge transportée dépasse le poids total autorisé selon la carte grise, il peut remettre au conducteur, et pour un véhicule indépendant au propriétaire du véhicule, un avis interdisant l’usage du véhicule (avis d’interdiction d’usage) pour une durée de 30 jours ; et si, au cours des trois dernières années, un avis d’interdiction d’usage a déjà été remis pour ce véhicule en vertu de cet article, ou si une ordonnance d’interdiction d’usage a été rendue à son sujet en vertu de l’article 57C, pour une durée de 60 jours ; il saisit la carte grise.
+(2) Lorsqu’un policier a des raisons de penser qu’un conducteur a commis sous ses yeux l’une des infractions énumérées à la septième annexe, il peut exiger du conducteur qu’il l’accompagne auprès d’un officier de police, ou lui retirer la carte grise, et les dispositions de l’article 47(c), (d) et (f) s’appliquent avec les adaptations nécessaires. Lorsqu’un officier de police a des raisons de penser qu’un acte d’accusation sera déposé contre le conducteur, il peut lui remettre un avis d’interdiction d’usage du véhicule dans lequel l’infraction a été commise, pour 30 jours ; et si, au cours des trois dernières années, un avis d’interdiction d’usage a déjà été remis pour ce véhicule, ou si une ordonnance d’interdiction d’usage a été rendue en vertu de l’article 57C, pour 60 jours ; il saisit la carte grise.
+(3) Les dispositions de ce paragraphe ne s’appliquent pas aux infractions passibles d’une amende forfaitaire.
+(b) L’avis d’interdiction d’usage indique :
+(1) l’endroit où la charge transportée par le véhicule doit être déchargée ou où les passagers transportés doivent descendre, selon le cas, y compris les instructions sur le déchargement de la charge excédentaire si, dans les circonstances, le déchargement à l’endroit où se trouve le véhicule est impossible, et les instructions sur la descente de passagers transportés illégalement si leur descente à l’endroit où se trouve le véhicule est impossible ; ici, « charge excédentaire » désigne une charge dont le poids est celui de la différence entre le poids total autorisé selon la carte grise et le poids total du véhicule avec la charge transportée ;
+(2) le parc où le véhicule sera immobilisé pendant la durée de l’interdiction, choisi en tenant compte de la proposition du conducteur, et pour un véhicule indépendant de la proposition du propriétaire, parmi les parcs désignés à cet effet ; le ministre de la Sécurité intérieure, avec l’accord du ministre et l’approbation de la commission de l’Économie de la Knesset, fixera les dispositions en la matière, notamment la manière de déterminer les parcs destinés à l’immobilisation de véhicules pendant l’interdiction d’usage et l’autorité habilitée à les déterminer, leur nombre, leur emplacement et leur taille, ainsi que la manière de les garder et de les surveiller, et le montant des frais de transfert des véhicules vers les parcs fixés en vertu de ce point et de leur immobilisation (le Règlement de la circulation (interdiction d’usage d’un véhicule – parcs de stockage) de 2006 a été publié) ;
+(3) la date limite pour exécuter les opérations mentionnées aux points (1) et (2).
+(c) Nul n’utilisera un véhicule pour lequel un avis d’interdiction d’usage a été remis, sauf pour s’y rendre afin d’exécuter les opérations mentionnées au paragraphe (b), aux endroits et aux dates indiqués dans l’avis, et nul ne le déplacera de l’endroit fixé pour son immobilisation sans avoir reçu l’autorisation écrite d’un officier de police.
+(d)(1) La police informe l’autorité d’immatriculation de la remise d’un avis d’interdiction d’usage en vertu de cet article ; une copie de l’avis est envoyée au propriétaire du véhicule s’il ne l’a pas reçue lors de la remise de l’avis.
+(2) Lorsqu’un avis d’interdiction d’usage a été remis en vertu de cet article et que la carte grise n’a pas été saisie, le propriétaire du véhicule remettra la carte grise à l’autorité fixée par règlement, à la date fixée par règlement, après avoir été informé de la remise de l’avis (le Règlement de la circulation (interdiction d’usage d’un véhicule) de 1999 a été publié).
+(e) Un officier de police annulera l’avis d’interdiction d’usage et en informera aussitôt l’autorité d’immatriculation dans chacun des cas suivants :
+(1) le propriétaire du véhicule a prouvé que le véhicule lui a été pris à son insu et sans son consentement ;
+(2) il est convaincu qu’aucun acte d’accusation ne sera déposé pour l’infraction visée au paragraphe (a).
+(f) Si l’acte d’accusation est retiré, l’avis d’interdiction d’usage est annulé et le procureur en informe aussitôt l’autorité d’immatriculation.
+
+#T174(2)
+F: [L’autorité d’immatriculation peut limiter le renouvellement du permis si le titulaire] a développé une maladie cardiaque ou des modifications du système nerveux, des os, de la vue ou de l’ouïe susceptibles d’affecter son aptitude médicale à conduire un véhicule ou un type de véhicule, et qui n’ont pas été signalées à l’autorité d’immatriculation conformément à l’article 13(b).
+
+#T179
+F: Le permis de conduire de catégorie 1 est un permis de conduire :
+(1) un tracteur, à l’exception d’un tracteur de transport, même avec une remorque attelée dont le poids total autorisé ne dépasse pas 10 000 kg, si les conditions de l’article 189(a) sont remplies ;
+(2) une machine mobile, à l’exception d’un chariot élévateur, et une plate-forme élévatrice mobile ; ici, « plate-forme élévatrice mobile » désigne un dispositif de levage mobile destiné à élever des personnes depuis une plate-forme de travail, au sens du règlement sur la sécurité au travail (travaux de construction) de 1988, vers un poste de travail en hauteur, dont l’accès et la sortie ne sont possibles qu’en position basse ;
+(3) un chariot élévateur dont la capacité de charge ne dépasse pas 20 000 kg ;
+(4) un quad, si une autorisation a été donnée par l’autorité d’immatriculation en vertu de l’article 190 ;
+(5) un véhicule tout-terrain ;
+(6) un tracteur de transport, à condition de ne pas le conduire sur la chaussée sauf pour la traverser ou lorsque la route se trouve dans l’enceinte d’un moshav ou d’un kibboutz.
+
+#T180(א)(1)
+F: Le permis de conduire de catégorie B permet de conduire : (1) un véhicule à moteur dont le poids total autorisé ne dépasse pas 3 500 kg et dont le nombre de passagers, conducteur non compris, ne dépasse pas 8, à l’exception d’un taxi, d’un véhicule de patrouille et d’un autobus public.

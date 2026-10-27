@@ -1,0 +1,419 @@
+#0481
+Q: L'obligation de prendre des précautions sur la route s'applique :
+1: uniquement aux conducteurs.
+2: uniquement aux piétons.
+3: à tout usager de la route.
+4: uniquement aux élèves conducteurs.
+
+#0482
+Q: Que signifie ce panneau ?
+1: Le virage à droite mène à une chaussée à sens unique.
+2: Le virage à droite n'est permis qu'aux véhicules lents.
+3: L'indication placée au-dessus ou au-dessous du panneau ne concerne que ceux qui tournent dans le sens de la flèche.
+4: Il est interdit de tourner à droite.
+
+#0483
+Q: Que signifie ce panneau ?
+1: À partir d'ici et sur 2 500 mètres, descente dangereuse.
+2: Sur 2 500 mètres, montée raide qui commence maintenant.
+3: Dans 2 500 mètres commence une descente dangereuse.
+4: Dans 2 500 mètres commence une montée dangereuse.
+
+#0484
+Q: Que signifie ce panneau ?
+1: Attention ! Chaussée déformée.
+2: Attention ! Obstacles sur la route.
+3: Attention ! Ralentisseurs sur la route devant vous.
+4: Attention ! Angles morts.
+
+#0485
+Q: Comment conduisez-vous selon ce panneau ?
+1: Ralentissez à cause de travaux sur la chaussée.
+2: Ralentissez et préparez-vous à contourner des obstacles.
+3: Ralentissez : chaussée déformée devant vous.
+4: Ralentissez et franchissez les ralentisseurs avec prudence.
+
+#0486
+Q: Que signifie ce panneau ?
+1: Stop ! Circulation réservée aux véhicules agricoles.
+2: Cédez le passage aux tracteurs qui circulent sur ce tronçon.
+3: Accès interdit aux tracteurs.
+4: Attention ! Engins de chantier ou tracteurs traversant la route devant vous.
+
+#0487
+Q: Comment conduisez-vous selon ce panneau ?
+1: Cédez le passage aux véhicules agricoles sur voie rapide.
+2: Allumez vos feux et serrez à droite.
+3: Klaxonnez sans arrêt pour avertir les conducteurs de tracteurs.
+4: Ralentissez : vous pouvez rencontrer un véhicule agricole lourd et lent.
+
+#0488
+Q: Que signifie ce panneau ?
+1: Attention ! Deux-roues à moteur.
+2: Cédez le passage aux motocyclistes.
+3: Piste pour cyclistes.
+4: Traversée de cyclistes sur la route devant vous.
+
+#0489
+Q: Comment conduisez-vous selon ce panneau ?
+1: Éloignez-vous du bord droit de la chaussée.
+2: Roulez à gauche de la chaussée pour ne mettre personne en danger.
+3: Ralentissez et préparez-vous à rencontrer des cyclistes sur la route devant vous.
+4: Vous avez la priorité : continuez à rouler vite.
+
+#0490
+Q: Que signifie ce panneau ?
+1: Accès interdit aux véhicules non motorisés (chaussée à sens unique devant vous).
+2: Accès interdit aux véhicules à moteur (chaussée à sens unique devant vous).
+3: Route fermée, dans les deux sens, à tout véhicule.
+4: Accès interdit sur la voie indiquée sous le panneau.
+
+#0491
+Q: Que signifie ce panneau ?
+1: Panneau d'information : accès interdit aux véhicules non motorisés dans les deux sens.
+2: Panneau de danger : accès interdit aux véhicules à moteur dans les deux sens.
+3: Chaussée à double sens devant vous.
+4: Accès interdit à tout véhicule (sens interdit : chaussée à sens unique, circulation en face).
+
+#0492
+Q: Que signifient ces panneaux ?
+1: Seul le demi-tour à gauche est interdit.
+2: Le virage à gauche n'est interdit qu'aux véhicules de transport public.
+3: Le virage à gauche et le demi-tour à gauche sont interdits.
+4: Respectivement, il est interdit de tourner à gauche ou à droite à la prochaine intersection.
+
+#0493
+Q: Que signifie ce panneau ?
+1: Fin du tronçon où le dépassement est interdit.
+2: Fin du tronçon où le dépassement est permis.
+3: Fin de l'agglomération.
+4: Dépassement interdit uniquement aux véhicules de transport public.
+
+#0494
+Q: Que signifie ce panneau ?
+1: Le demi-tour à gauche et le virage à gauche sont interdits.
+2: Le virage à gauche est interdit.
+3: Le demi-tour à gauche est interdit à la prochaine intersection.
+4: Le demi-tour à gauche est interdit seulement la nuit.
+
+#0495
+Q: Que signifie ce panneau ?
+1: Vous avez la priorité dans le passage étroit.
+2: Dans le passage étroit, cédez le passage à la circulation venant en sens inverse.
+3: Circulation à double sens devant vous.
+4: Restrictions de circulation du côté droit de la route.
+
+#0496
+Q: Comment conduisez-vous selon ce panneau ?
+1: Laissez le véhicule qui vient en face vous croiser sans qu'il ait à s'attarder ni à quitter sa voie.
+2: Accélérez pour franchir le tronçon plus vite.
+3: Continuez à vitesse normale : vous avez la priorité.
+4: Évitez de rouler sur la voie de droite.
+
+#0497
+Q: Que signifie ce panneau ?
+1: Interdiction de dépasser ou de passer un véhicule lent uniquement.
+2: Interdiction de dépasser ou de passer un véhicule de transport public uniquement.
+3: Interdiction de dépasser ou de passer un véhicule à moteur roulant sur plus de deux roues.
+4: Interdiction de dépasser ou de passer un véhicule non motorisé roulant sur plus de six roues.
+
+#0498
+Q: Selon ce panneau, une moto peut-elle dépasser une voiture particulière ?
+1: Oui, mais seulement sur une chaussée à sens unique.
+2: Oui.
+3: Oui, mais seulement de jour.
+4: Non.
+
+#0499
+Q: Que signifie ce panneau ?
+1: Interdiction à tout véhicule de plus de huit tonnes de dépasser ou de passer un véhicule à moteur.
+2: Interdiction de dépasser aux véhicules utilitaires de plus de 12 tonnes.
+3: Les véhicules utilitaires d'au moins 14 tonnes peuvent dépasser un véhicule à moteur de plus de deux roues.
+4: Interdiction de dépasser aux véhicules utilitaires de plus de 4 000 kg (ils peuvent dépasser une moto).
+
+#0500
+Q: Que signifie ce panneau ?
+1: Fin du tronçon où le dépassement est interdit.
+2: Fin d'une route hors agglomération.
+3: Fin d'une route en agglomération.
+4: Fin du tronçon où les camions peuvent rouler sur l'accotement.
+
+#0501
+Q: Que signifie ce panneau ?
+1: Accès interdit aux véhicules privés.
+2: Accès interdit à tout véhicule à moteur, sauf les motos sans side-car.
+3: Stationnement interdit à tout véhicule.
+4: Accès interdit à tout véhicule, sauf les voitures particulières.
+
+#0502
+Q: Une moto peut-elle entrer sur le tronçon où ce panneau est placé ?
+1: Uniquement sur une chaussée à double sens.
+2: Non, c'est strictement interdit.
+3: L'accès n'est interdit que sur les voies rapides.
+4: Oui, à condition qu'elle n'ait pas de side-car.
+
+#0503
+Q: Que signifie ce panneau ?
+1: Accès interdit aux vélos.
+2: Accès interdit aux motos.
+3: Accès interdit à tout véhicule à moteur.
+4: Accès autorisé aux motos.
+
+#0504
+Q: Quel panneau placé sur la route annonce un changement du nombre de voies ?
+1: 622
+2: 111
+3: 145
+4: 109
+
+#0505
+Q: Une moto peut-elle entrer lorsque ce panneau est placé devant vous ?
+1: Oui.
+2: Oui ; l'accès n'est interdit qu'aux tricycles à moteur.
+3: Oui ; l'accès est permis à tous les véhicules à moteur.
+4: Non.
+
+#0506
+Q: Un vélo peut-il entrer sur la route devant laquelle ce panneau est placé ?
+1: Oui ; l'accès n'est interdit qu'aux véhicules de marchandises.
+2: Oui ; l'accès n'est interdit qu'aux véhicules de transport public.
+3: Oui.
+4: Non.
+
+#0507
+Q: Que signifie ce panneau ?
+1: Accès interdit à tout véhicule dont le poids total autorisé dépasse le poids indiqué.
+2: Accès interdit aux véhicules utilitaires à moteur dont le poids total autorisé dépasse le poids indiqué.
+3: Accès autorisé aux véhicules utilitaires à moteur dont le poids total autorisé dépasse le poids indiqué.
+4: Accès autorisé à tout véhicule à moteur.
+
+#0508
+Q: Que signifie ce panneau ?
+1: Accès autorisé à tout véhicule utilitaire à moteur dont le poids total autorisé dépasse le poids indiqué.
+2: Accès interdit uniquement aux véhicules utilitaires à moteur dont le poids total dépasse le poids indiqué.
+3: Accès interdit uniquement aux véhicules de transport public dont le poids total autorisé dépasse le poids indiqué.
+4: Accès interdit à tout véhicule dont le poids total autorisé dépasse le poids indiqué.
+
+#0509
+Q: Que signifie ce panneau ?
+1: Accès interdit uniquement aux véhicules utilitaires plus larges que la largeur indiquée.
+2: Accès interdit uniquement aux véhicules non motorisés.
+3: Accès interdit à tout véhicule dont la largeur, ou celle de son chargement, dépasse la largeur indiquée.
+4: Accès interdit aux véhicules moins larges que la largeur indiquée.
+
+#0510
+Q: Que signifie ce panneau ?
+1: Accès interdit aux véhicules dont le chargement est plus large que la largeur indiquée.
+2: Accès interdit aux véhicules moins hauts que la hauteur indiquée.
+3: Accès interdit aux véhicules dont la hauteur, avec ou sans chargement, dépasse la hauteur indiquée.
+4: Accès autorisé uniquement aux véhicules non motorisés de plus de trois mètres de haut.
+
+#0511
+Q: Que signifie ce panneau ?
+1: Ralentissez pour le contrôle des passeports.
+2: Pas besoin de s'arrêter au contrôle des douanes (c'est une boutique hors taxes).
+3: Arrêt obligatoire seulement si vous avez quelque chose à déclarer.
+4: Arrêt obligatoire pour le contrôle des douanes.
+
+#0512
+Q: Que signifient ces panneaux ?
+1: La nuit, interdiction de rouler à plus de 60 km/h ; le jour, c'est permis.
+2: Limitation de poids : 60 tonnes.
+3: Vitesse particulière : par brouillard ou brume, interdiction de rouler plus vite que la vitesse indiquée.
+4: Vitesse particulière : interdiction de rouler plus vite que la vitesse indiquée (en km/h).
+
+#0513
+Q: Que signifie ce panneau (la flèche de gauche est jaune) ?
+1: Les véhicules de transport public peuvent passer à gauche du panneau.
+2: Les véhicules de transport public ne peuvent pas passer à gauche du panneau.
+3: Suivez uniquement la direction de la flèche jaune.
+4: On circule à droite de la ligne jaune tracée sur la chaussée.
+
+#0514
+Q: Jusqu'où ces panneaux s'appliquent-ils ?
+1: Jusqu'au prochain arrêt de bus.
+2: Ils cessent de s'appliquer à l'approche d'une zone densément peuplée.
+3: Jusqu'à la prochaine intersection, ou jusqu'à un panneau fixant une autre vitesse ou marquant la fin de la vitesse particulière.
+4: Jusqu'au prochain feu, à condition qu'il soit vert.
+
+#0515
+Q: Que signifie ce panneau ?
+1: La vitesse indiquée est la vitesse maximale devant vous, pour tous les véhicules.
+2: Interdiction de rouler moins vite que la vitesse indiquée (en km/h).
+3: Fin du tronçon à vitesse particulière.
+4: Vitesse particulière pour les véhicules lents uniquement.
+
+#0516
+Q: Vous approchez d'un passage pour piétons marqué sur la chaussée :
+1: Le dépassement est interdit en agglomération et permis hors agglomération.
+2: Le dépassement est permis.
+3: Le dépassement est interdit.
+4: Le dépassement est permis avec prudence sur une chaussée à sens unique.
+
+#0517
+Q: Quelle est la longueur maximale autorisée par la loi pour l'autobus de la photo ?
+1: 12 mètres.
+2: 13,5 mètres.
+3: 18,5 mètres.
+4: 11 mètres.
+
+#0518
+Q: Vous approchez d'une intersection quand le feu vert commence à clignoter :
+1: Le feu est en panne et vous devez suivre les panneaux placés à cet endroit.
+2: Le vert clignotant équivaut au vert normal ; inutile d'y prêter attention.
+3: Le feu vient de passer au vert, vous pouvez continuer.
+4: Le vert va se terminer dans trois secondes.
+
+#0519
+Q: Que signifie ce panneau ?
+1: Sortie d'agglomération.
+2: Entrée en agglomération.
+3: Route intérieure d'un kibboutz ou d'un moshav uniquement.
+4: Attention, bâtiments publics.
+
+#0520
+Q: Qu'est-ce qui caractérise les routes situées après ce panneau ?
+1: Vous entrez dans une zone de travaux.
+2: Ces routes traversent uniquement un kibboutz ou un moshav.
+3: Ces routes relient de grandes villes.
+4: Ce sont des routes en zone urbaine, avec des quartiers d'habitation et des piétons.
+
+#0521
+Q: Quelle est la vitesse maximale autorisée pour une voiture particulière dans la zone où ce panneau est placé (sauf panneau contraire) ?
+1: Il n'y a pas de limite.
+2: 60 km/h.
+3: 50 km/h.
+4: 30 km/h.
+
+#0522
+Q: Le panneau 424 s'applique jusqu'au panneau :
+1: 425
+2: 432
+3: 220
+4: 301
+
+#0523
+Q: Quel panneau n'autorise que le demi-tour ?
+1: 212
+2: 303
+3: 210
+4: 209
+
+#0524
+Q: Ce panneau s'applique jusqu'à :
+1: un panneau autorisant à rouler à vitesse limitée.
+2: la prochaine intersection à feux uniquement.
+3: la prochaine intersection, ou un panneau qui l'annule, ou un panneau « stationnement autorisé ».
+4: un panneau indiquant une route hors agglomération.
+
+#0525
+Q: Que signifie ce panneau ?
+1: L'arrêt et le stationnement sont interdits du côté de la route où il est placé.
+2: L'arrêt est permis, mais le stationnement est interdit.
+3: L'arrêt et le stationnement sont permis, sauf le samedi et les jours fériés.
+4: L'arrêt est interdit des deux côtés de la route.
+
+#0526
+Q: Ce panneau s'applique :
+1: jusqu'à un panneau de vitesse particulière.
+2: jusqu'à la prochaine intersection à feux.
+3: jusqu'à un panneau d'arrêt de bus.
+4: jusqu'à la prochaine intersection, ou jusqu'à un panneau qui l'annule, ou jusqu'à un panneau « stationnement autorisé ».
+
+#0527
+Q: Que signifie ce panneau ?
+1: À partir d'ici, le stationnement est interdit.
+2: Sortie d'agglomération.
+3: À partir d'ici, le stationnement est permis.
+4: Fin de l'interdiction de dépasser.
+
+#0528
+Q: Que signifie ce panneau ?
+1: Accès interdit aux véhicules utilisés à ce moment-là pour une leçon de conduite.
+2: Accès autorisé uniquement aux deux-roues utilisés pour des leçons de conduite.
+3: Accès autorisé aux véhicules utilisés à ce moment-là pour une leçon de conduite.
+4: Accès interdit aux nouveaux conducteurs.
+
+#0529
+Q: Ce panneau s'applique jusqu'à :
+1: la prochaine intersection ou un panneau d'entrée en agglomération.
+2: un panneau de sortie d'agglomération.
+3: un panneau qui l'annule.
+4: la prochaine intersection à feux.
+
+#0530
+Q: Qu'indique ce panneau ?
+1: La fin de la zone où il est interdit d'utiliser un véhicule pour une leçon de conduite.
+2: La fin de la zone d'arrêt et de stationnement.
+3: La sortie d'agglomération.
+4: La fin de la voie rapide.
+
+#0531
+Q: Que signifie ce panneau ?
+1: Circulation permise à tout véhicule sur la chaussée ou la voie, sauf aux tramways et trolleybus.
+2: Voie interdite aux transports en commun.
+3: Voie réservée au tramway, aux autobus, aux taxis et aux véhicules transportant au moins le nombre de personnes indiqué.
+4: Circulation permise sur la chaussée ou la voie à tout véhicule à quatre roues.
+
+#0532
+Q: Ce panneau s'applique jusqu'à :
+1: l'entrée d'une voie rapide signalée par un panneau.
+2: la prochaine intersection à feux ou la fin des rails.
+3: le prochain arrêt de bus.
+4: la prochaine intersection ou la fin des rails.
+
+#0533
+Q: Que signifie ce panneau ?
+1: Arrêtez-vous et cédez le passage au véhicule qui vient en face.
+2: Cédez le passage à la circulation de la route transversale devant vous.
+3: Danger général.
+4: Cédez le passage à tout véhicule qui approche de l'intersection.
+
+#0534
+Q: Comment faut-il conduire lorsque ce panneau est placé ?
+1: Avancez ! Vous avez la priorité à l'intersection.
+2: Il faut s'arrêter puis repartir : vous avez la priorité à l'intersection.
+3: Il faut s'arrêter complètement, regarder à droite et à gauche et évaluer la circulation.
+4: Il faut laisser les véhicules de la route transversale continuer sans changer de vitesse ni de trajectoire.
+
+#0535
+Q: Où devez-vous vous arrêter lorsque ce panneau est placé devant vous ?
+1: S'il y a une ligne d'arrêt, juste après elle.
+2: Au centre de l'intersection, là où la visibilité est la meilleure.
+3: S'il y a une ligne d'arrêt, juste avant elle ; sinon, à l'endroit d'où vous voyez la circulation.
+4: N'importe où avant l'intersection.
+
+#0536
+Q: Un panneau « Stop » placé uniquement du côté gauche de la chaussée signifie :
+1: arrêtez-vous et cédez le passage uniquement à la circulation venant de droite.
+2: qu'il ne s'applique qu'à ceux qui tournent à gauche ou font demi-tour par la gauche.
+3: arrêtez-vous et cédez le passage uniquement à la circulation venant en face.
+4: arrêtez-vous et cédez le passage uniquement à la circulation venant de gauche.
+
+#0537
+Q: Que signifie ce panneau ?
+1: Stop ! (panneau mobile) tant que le panneau est présenté devant vous.
+2: Arrêtez-vous un instant puis continuez.
+3: Arrêtez-vous et cédez le passage à la circulation de la route transversale.
+4: Cédez le passage à la circulation de la route transversale pendant des travaux.
+
+#0538
+Q: Que signifie ce panneau ?
+1: Avancez avec prudence (panneau mobile).
+2: Arrêtez-vous et attendez les instructions de l'agent.
+3: Roulez sans vous arrêter : l'arrêt est interdit.
+4: Roulez vite.
+
+#0539
+Q: Que signifie ce panneau ?
+1: Allez à droite ; tournez après le panneau.
+2: Virage à gauche puis à droite.
+3: Allez à droite ; tournez avant le panneau.
+4: Route sinueuse.
+
+#0540
+Q: Comment conduisez-vous selon ce panneau ?
+1: Allez à droite ; tournez avant le panneau.
+2: Allez à gauche ; tournez après le panneau. Une flèche jaune indique la direction réservée aux voitures particulières.
+3: Allez à gauche ; tournez après le panneau.
+4: Allez à gauche ; tournez après le panneau. Une flèche jaune indique la direction réservée aux véhicules lents.

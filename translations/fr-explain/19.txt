@@ -1,0 +1,187 @@
+#1142
+E: Un autobus qui n'est pas un minibus : 50 en agglomération, 80 hors agglomération, 90 hors agglomération avec terre-plein construit, 100 sur voie rapide.
+R: T54(2)
+
+#1143
+E: Le conducteur annonce les arrêts s'il n'y a pas de plan du tracé de la ligne dans l'autobus.
+
+#1144
+E: Un autobus doit avoir au moins deux marteaux brise-vitres, pour l'évacuation en cas d'urgence.
+
+#1145
+E: Le brancard n'est obligatoire que dans un autobus qui fait des excursions ou des tournées.
+
+#1146
+E: Le conducteur rend la monnaie sur les billets jusqu'à dix fois le prix du trajet sur la ligne.
+
+#1147
+E: Le conducteur vérifie avant chaque trajet freins, direction, feux, avertisseur, essuie-glaces et portes.
+
+#1148
+E: Le conducteur peut refuser un passager dont les vêtements risquent de salir les sièges.
+
+#1149
+E: Pendant une excursion, un autobus peut transporter deux bouteilles de gaz de cuisine de 12 kg maximum chacune, sur le toit ou dans le coffre arrière.
+
+#1150
+E: Il est interdit d'ajouter des chaises pour asseoir des passagers en plus des sièges fixes.
+
+#1151
+E: Le tachygraphe est obligatoire dans un autobus de ligne.
+
+#1152
+E: Les deux sièges avant de part et d'autre de l'allée sont réservés aux agents de sécurité.
+
+#1153
+E: L'autobus de ligne ne s'arrête que pour faire monter ou descendre des passagers aux arrêts indiqués dans l'autorisation de la ligne.
+
+#1154
+E: C'est le conducteur de l'autobus qui est responsable de la pose des panneaux de destination dans l'autobus.
+
+#1155
+E: Du 1er novembre au 31 mars, les feux de croisement de l'autobus doivent être allumés même de jour.
+
+#1156
+E: Un autobus doit avoir une poubelle approuvée par l'autorité près de chaque porte.
+
+#1157
+E: Un taxi libre affiche le compteur en position « libre » et allumé.
+
+#1158
+E: Il est interdit de racoler un passager à l'aéroport Ben Gourion.
+
+#1159
+E: Un taxi peut faire des courses de « service », des courses « spéciales » et des courses de « tournée ».
+
+#1160
+E: Dans un taxi de ligne, un seul enfant de cinq ans au plus, accompagné d'un adulte, ne paie pas.
+
+#1161
+E: Le chauffeur peut prendre un passager supplémentaire seulement avec l'accord de celui qui a commandé la course, sans supplément jusqu'à la destination.
+
+#1162
+E: Le chauffeur de taxi doit aider le passager à charger et à décharger ses bagages, si c'est nécessaire.
+
+#1163
+E: Un véhicule de transport d'élèves doit avoir des feux clignotants, le panneau « enfants » et une autorisation de l'autorité des permis inscrite sur le permis du véhicule.
+R: T83
+
+#1164
+E: Les plaquettes avec les coordonnées du propriétaire et du conducteur sont posées sur la partie intérieure des linteaux des portes, à droite et à gauche.
+
+#1165
+E: La climatisation est obligatoire dans un taxi.
+
+#1166
+E: Le tarif d'appel est le tarif du lieu de départ du taxi jusqu'à l'emplacement de la personne qui a commandé la course.
+
+#1167
+E: Le tarif 1 est le tarif de jour de 05h30 à 21h00.
+
+#1168
+E: Seul un prestataire de services agréé peut certifier le bon état du compteur dont le scellé a été retiré.
+
+#1169
+E: En cas de panne du compteur, le chauffeur s'adresse à un prestataire de services agréé pour la réparation du compteur.
+
+#1170
+E: Le zoutobus est un taxi à tous égards.
+
+#1171
+E: Un chauffeur de taxi peut faire descendre des passagers là où l'arrêt est interdit, mais seulement sur route urbaine, pas sur les passages piétons ni avant eux ni dans l'intersection.
+
+#1172
+E: Le chauffeur de taxi peut faire monter des passagers dans la zone des panneaux interdisant l'arrêt ou le stationnement, mais seulement sur route urbaine.
+
+#1173
+E: Le nombre maximal de passagers d'un taxi est celui indiqué sur le permis du véhicule.
+R: T84
+
+#1174
+E: Un zoutobus transporte le nombre de passagers indiqué sur le permis du véhicule, et pas plus de dix.
+R: T84
+
+#1175
+E: Il est interdit de modifier le prix de la course : le tarif est fixé par la réglementation.
+
+#1176
+E: Le conducteur d'autobus peut s'arrêter hors d'un arrêt pour faire descendre un contrôleur, là où l'arrêt est permis à tous les véhicules.
+
+#1177
+E: Les animaux ne sont admis que s'ils sont assez petits pour être posés sur les genoux du passager ou tenus à la main.
+
+#1178
+E: Un autobus de ligne doit être désinfecté au moins une fois par an.
+
+#1179
+E: Une course de tournée est une course où le taxi est entièrement à la disposition du client pour une visite, une excursion ou une tournée.
+
+#1180
+E: Une course spéciale est une course où le taxi est entièrement à la disposition de la personne qui l'a commandée.
+
+#1181
+E: Il est interdit de faire le plein d'un autobus quand il y a des passagers à bord.
+
+#1182
+E: Pas de supplément pour un fauteuil roulant : on ne paie que le transport de la personne handicapée.
+
+#1183
+E: Pour dépasser un cycliste, gardez une distance latérale maximale, par la gauche, sans le frôler.
+
+#1184
+E: Un taxi dont le propriétaire n'a pas de licence d'exploitation valide doit voir son compteur retiré.
+
+#1185
+E: Dans un taxi de ligne, deux enfants au plus de cinq ans voyagent gratuitement, assis sur les genoux d'adultes qui paient plein tarif.
+
+#1186
+E: Le tarif 2 est celui de 21h01 à 05h29 et celui des jours de repos.
+
+#1187
+E: Le zoutobus est un taxi de 2 200 à 3 500 kg autorisé à transporter jusqu'à dix passagers.
+
+#1188
+E: Faire descendre des passagers d'un véhicule public est considéré comme un arrêt, non un stationnement.
+
+#1189
+E: Le conducteur d'autobus qui doit porter des lunettes d'après son permis doit avoir une paire de rechange à chaque trajet.
+
+#1190
+E: Un véhicule public peut circuler dans toutes les voies, y compris celles qui ne sont pas des voies de transport public.
+
+#1191
+E: Dans un minibus public, le conducteur et les passagers doivent attacher leur ceinture sur toute route.
+R: T83א
+
+#1192
+E: Les passagers du siège arrière d'un taxi sont dispensés de la ceinture de sécurité sur route urbaine.
+R: T83א
+
+#1193
+E: Le chauffeur de taxi est dispensé de la ceinture sur route urbaine lorsqu'il y a des passagers dans le taxi.
+R: T83א
+
+#1194
+E: Avant de démarrer, le conducteur actionne le clignotant vers la chaussée pour signaler son départ.
+
+#1195
+E: L'autobus s'arrête à l'arrêt le temps nécessaire pour faire descendre ou monter les passagers.
+
+#1196
+E: Le conducteur d'un autobus de ligne doit transporter tout passager, en l'absence d'autres restrictions légales.
+
+#1197
+E: Il faut faire monter tout passager prêt à payer le prix du trajet, et ne pas percevoir plus que le tarif fixé.
+
+#1198
+E: Une ou deux places marquées près de l'entrée de l'autobus sont destinées aux personnes handicapées.
+
+#1199
+E: Le conducteur de l'autobus est responsable de la montée et de la descente des passagers.
+
+#1200
+E: Il est interdit de transporter des passagers portant une arme chargée, sauf une personne en fonction officielle qui l'exige à ce moment.
+
+#1201
+E: Les valises peuvent être chargées dans l'habitacle à la discrétion du conducteur, à un endroit qui permet le passage libre et ne gêne pas.
+

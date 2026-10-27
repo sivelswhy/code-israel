@@ -1,0 +1,184 @@
+#1622
+E: La portée minimale est de 100 mètres en feux de route et 30 mètres en feux de croisement, la nuit et par beau temps.
+
+#1623
+E: On crée un espace de sécurité en choisissant la voie, la vitesse et la position adaptées aux autres usagers autour de soi.
+
+#1624
+E: La distance de sécurité donne un temps et un espace de réaction suffisants face aux dangers créés par d'autres véhicules.
+
+#1625
+E: Un tracteur agricole doit avoir un triangle de signalisation.
+R: T367
+
+#1626
+E: La responsabilité de garder l'espace de sécurité incombe au motocycliste seul.
+
+#1627
+E: À moto près des véhicules, repérez les autres véhicules le plus tôt possible.
+
+#1628
+E: Le conducteur d'un tracteur peut traverser un trottoir pour entrer dans une cour ou un garage.
+
+#1629
+E: Si le frein à pied ne freine pas la moto, arrêtez immédiatement de rouler.
+
+#1630
+E: À moto, on dépasse par la gauche du véhicule dépassé, en gardant la plus grande distance latérale possible.
+
+#1631
+E: En fin de dépassement, revenez sur votre voie après vérification dans les rétroviseurs et un bref regard par-dessus l'épaule droite.
+
+#1632
+E: Il est interdit de rouler avec une moto dont le silencieux a été retiré.
+
+#1633
+E: La position de la moto sur la route et dans la circulation influence le plus la capacité à repérer les obstacles.
+
+#1634
+E: Garder ses distances et un large champ de vision permet d'éviter une charge qui tombe d'un véhicule devant soi.
+
+#1635
+E: Un motocycliste ne roule pas sur le trottoir, sauf pour le traverser afin d'entrer dans des locaux.
+
+#1636
+E: Le conducteur d'un véhicule utilitaire de plus de 6 000 kg se repose au moins 25 heures consécutives dans une période de huit jours au plus.
+R: T168(5)
+
+#1637
+E: Le numéro 7 indique le porte-à-faux arrière du véhicule.
+
+#1638
+E: Le panneau 711 permet au conducteur d'un véhicule ou d'un train local de continuer seulement vers la droite.
+
+#1639
+E: Entre des files à l'arrêt, le deux-roues risque de heurter des piétons qui traversent hors d'un passage piéton.
+
+#1640
+E: Entre des files en mouvement, une voiture peut dévier soudain vers l'espace où avance le deux-roues.
+
+#1641
+E: Le conducteur doit respecter les restrictions inscrites sur son permis de conduire.
+
+#1642
+E: Il est interdit à un motocycliste de rouler sur un sentier destiné aux piétons.
+
+#1643
+E: Équipement de base : casque intégral homologué, pantalon en tissu résistant, chaussures montantes, gants et blouson de moto.
+
+#1644
+E: La loi exige au moins un rétroviseur sur tous les types de motos.
+
+#1645
+E: Un casque homologué offre la meilleure protection, menton compris, et convient à la taille de la tête.
+
+#1646
+E: L'usage continu des freins dans une longue descente les fait chauffer et les rend moins efficaces.
+
+#1647
+E: À moto, choisissez des chaussures montantes en matériau massif résistant au frottement.
+
+#1648
+E: Placez la charge près du centre de la moto et à l'endroit le plus bas, sans qu'elle dépasse à l'avant ni à l'arrière.
+
+#1649
+E: Sur route mouillée, la moto risque de déraper et de se renverser, d'autant plus que la vitesse est élevée.
+
+#1650
+E: On ne transporte un passager supplémentaire sur un quad que si c'est indiqué sur le permis du véhicule.
+
+#1651
+E: Changer la taille des pneus d'une moto exige l'autorisation préalable de l'autorité des permis.
+
+#1652
+E: La longueur maximale autorisée de ce véhicule articulé est de 18,75 mètres.
+
+#1653
+E: Dans l'obscurité, on a du mal à analyser la qualité de la route et à repérer les obstacles à temps.
+
+#1654
+E: Plus la moto est inclinée ou braquée, plus le faisceau lumineux s'écarte de la direction de marche souhaitée.
+
+#1655
+E: Une visière rayée ou sale brise la lumière et dégrade nettement la vision dans l'obscurité.
+
+#1656
+E: À l'achat d'un pneu, vérifiez la date de fabrication pour qu'il ne soit pas trop vieux (plus de six ans).
+
+#1657
+E: Sous la pluie, utilisez une visière sans rayures traitée anti-buée et anti-humidité.
+
+#1658
+E: Le passager est assis sur la selle prévue, les jambes sur les repose-pieds, et se tient à une poignée ou au conducteur.
+
+#1659
+E: Instruisez le passager avant le départ sur la montée, la descente, la position assise et le comportement du corps.
+
+#1660
+E: Le titulaire d'un permis A2 ne transporte un passager supplémentaire qu'après avoir atteint 18 ans.
+
+#1661
+E: Sur une moto, on actionne le frein avant et le frein arrière ensemble pour ralentir et freiner.
+
+#1662
+E: Il faut détenir le permis A1 ou A2 depuis au moins deux mois pour transporter des passagers.
+
+#1663
+E: Pour passer un obstacle à moto, ralentissez avant l'obstacle.
+
+#1664
+E: Il faut six mois depuis l'obtention du permis tracteur pour conduire un tracteur avec une remorque de plus de 4 000 kg.
+
+#1665
+E: Il faut trois mois depuis l'obtention du permis tracteur pour transporter un passager sur le tracteur.
+
+#1666
+E: Avant d'entrer dans une intersection, vérifiez qu'aucune circulation n'y risque de vous mettre en danger.
+
+#1667
+E: Le permis A2 permet de conduire une moto jusqu'à 11 kW (14,6 chevaux).
+
+#1668
+E: Moto de catégorie A : 50 km/h sur route urbaine et 80 km/h sur route non urbaine.
+R: T54
+
+#1669
+E: On règle les rétroviseurs de la moto à l'arrêt, la moto et le guidon étant à 90 degrés l'un de l'autre.
+
+#1670
+E: Les plaquettes de frein portent un repère d'usure qu'on peut remarquer.
+
+#1671
+E: Le semi-remorque numéro 16 a trois essieux.
+
+#1672
+E: Le véhicule de la photo est un véhicule composé à cabine derrière le moteur, de 17,60 mètres au plus.
+
+#1673
+E: En achetant un pneu d'occasion, vérifiez la date de fabrication pour qu'il ne soit pas trop vieux (plus de deux ans).
+
+#1674
+E: L'autorité des permis peut convoquer le conducteur novice à des examens de conduite ; s'il les réussit, il reste novice deux ans.
+
+#1675
+E: Voyant de pression d'huile allumé en roulant : arrêtez immédiatement le véhicule et coupez le moteur.
+
+#1676
+E: Le ralentisseur ralentit le véhicule en roulant sans passer par le système de freinage, par exemple dans une longue descente.
+
+#1677
+E: Le conducteur doit signaler quand il compte dévier de sa trajectoire.
+
+#1678
+E: Il faut ralentir, et même s'arrêter, chaque fois qu'un danger est à prévoir.
+R: T52
+
+#1679
+E: Avant une courbe, ralentissez, puis accélérez légèrement à la sortie.
+
+#1680
+E: La loi interdit de continuer à rouler la nuit si le feu de croisement de la moto est en panne.
+
+#1681
+E: Un conducteur novice de moins de 21 ans ne transporte pas plus de deux passagers, sauf avec un accompagnateur à côté de lui.
+

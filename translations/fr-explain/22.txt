@@ -1,0 +1,189 @@
+#1322
+E: Seul un véhicule utilitaire à moteur de 16 000 kg de poids total autorisé ou plus peut transporter un conteneur.
+
+#1323
+E: Un accompagnement est exigé quand la largeur de la charge dépasse 3,40 mètres.
+R: T85(ג)(1)
+
+#1324
+E: Les chaînes et les drapeaux (éclairage périphérique) sont exigés sur une remorque ou un semi-remorque sans plancher ni parois.
+
+#1325
+E: Un extincteur est obligatoire dans tout véhicule à moteur, sauf la voiture particulière, le tracteur, la moto et le tricycle à moteur.
+
+#1326
+E: Pour transporter un conteneur, le poids total autorisé de la remorque doit être d'au moins 15 000 kg.
+
+#1327
+E: Le conducteur seul est responsable de l'arrimage de la charge et de son bon état.
+
+#1328
+E: Le conducteur et le propriétaire sont responsables du bon fonctionnement du limiteur de vitesse.
+
+#1329
+E: L'autorisation est nécessaire pour un véhicule de plus de 15 000 kg dont la charge dépasse 4,80 mètres de haut au-dessus du sol.
+
+#1330
+E: Seul un officier de police peut autoriser le transport d'une charge hors gabarit dans un véhicule de plus de 15 000 kg.
+
+#1331
+E: Un conteneur de 6,10 mètres se charge sur la partie arrière du semi-remorque, avec des verrous twist-lock appropriés.
+
+#1332
+E: Après avoir appuyé sur le frein, le véhicule continue de rouler sur une certaine distance avant l'arrêt complet : la distance d'arrêt augmente avec la vitesse.
+
+#1333
+E: Aucun permis n'est délivré ni renouvelé pour ce véhicule de dépannage au bout de 19 ans à compter de son année de fabrication.
+
+#1334
+E: La hauteur maximale d'une charge sur un véhicule utilitaire jusqu'à 3 500 kg est de trois mètres.
+
+#1335
+E: La hauteur maximale d'une charge sur un véhicule utilitaire jusqu'à 8 000 kg est de trois mètres et demi.
+
+#1336
+E: Avant un demi-tour, assurez-vous qu'il ne se fait pas avant une crête de la route, où la visibilité est limitée.
+
+#1337
+E: Le feu clignotant jaune au-dessus de la cabine est obligatoire quand la largeur de la charge dépasse trois mètres.
+
+#1338
+E: La hauteur totale se mesure du sol au point le plus haut du véhicule, avec tous ses accessoires, véhicule non chargé.
+
+#1339
+E: Le poids total autorisé est le poids à vide du véhicule plus le poids des personnes et de la charge que l'autorité des permis a autorisé le véhicule à transporter.
+R: T1:משקל כולל מותר
+
+#1340
+E: Le poids à vide est le poids du véhicule sans charge et sans conducteur, avec ses accessoires, le carburant, l'eau et l'huile.
+R: T1:משקל עצמי
+
+#1341
+E: Un véhicule du désert est un véhicule public à quatre roues motrices, à carrosserie standard, indiqué comme tel sur son permis.
+R: T1:רכב מדברי
+
+#1342
+E: Un véhicule de transport de marchandises est un véhicule à moteur qui sert ou est destiné par sa construction à transporter des marchandises.
+
+#1343
+E: Un véhicule de travail ou utilitaire de plus de 12 000 kg roule à 50 km/h au maximum en agglomération et à 80 km/h sur toute autre route.
+R: T54
+
+#1344
+E: Sur voie rapide, 110 km/h n'est pas permis à un véhicule utilitaire de plus de 12 000 kg, un véhicule de travail, une tiyoulit et un véhicule lent.
+R: T54
+
+#1345
+E: Pour un véhicule utilitaire de 12 000 kg ou moins, il faut le permis de catégorie C1.
+
+#1346
+E: Pour un véhicule utilitaire de plus de 12 000 kg, il faut le permis de catégorie C.
+
+#1347
+E: Pour un véhicule utilitaire de plus de 3 500 kg avec une remorque lourde, il faut le permis C+E.
+
+#1348
+E: Le panneau 216 signifie « voie rapide ».
+
+#1349
+E: Un véhicule utilitaire sert ou est destiné à servir au transport de marchandises contre rémunération ou à l'activité de son propriétaire.
+
+#1350
+E: Un véhicule de travail porte un équipement servant à effectuer un travail et n'est pas destiné au transport de charges ni de passagers.
+
+#1351
+E: Une remorque de plus de 4 000 kg doit avoir une plaque d'immatriculation supplémentaire à l'arrière.
+
+#1352
+E: Sur un véhicule de plus de 150 cm de large, il faut poser deux plaques réfléchissantes : cadre rouge et reste jaune.
+
+#1353
+E: Un véhicule utilitaire de plus de 7 500 kg est signalé par deux plaques réfléchissantes à l'arrière.
+
+#1354
+E: La distance entre la cabine et le semi-remorque doit permettre le mouvement des deux dans toutes les directions et le libre mouvement des raccords dans un virage maximal.
+
+#1355
+E: La cinquième roue est la plaque qui relie le semi-remorque au tracteur.
+
+#1356
+E: Les phares éclairent d'une lumière de couleur uniforme, blanche ou jaune clair.
+
+#1357
+E: Les chaînes entre remorque et tracteur doivent permettre à la remorque de braquer d'au moins 90 degrés.
+
+#1358
+E: La distance entre l'arrière du tracteur et l'avant de la remorque ne dépasse pas 150 cm.
+
+#1359
+E: Le permis de remorquage est nécessaire pour un véhicule utilitaire de plus de 10 000 kg.
+
+#1360
+E: Un extincteur est obligatoire dans un véhicule à moteur, sauf la voiture particulière, le tracteur et la moto.
+
+#1361
+E: Une remorque ou un semi-remorque de plus de 120 cm de large, destiné aux charges longues et sans plancher ni parois, a besoin de chaînes ou câbles et de feux.
+
+#1362
+E: Les cales de sécurité sont obligatoires dans tout véhicule à moteur de plus de 5 000 kg de poids total autorisé, sauf l'autobus.
+R: T368
+
+#1363
+E: Un véhicule à moteur de plus de 3 500 kg, un autobus et un véhicule de travail immobilisés de nuit hors agglomération doivent allumer les feux de détresse ou placer un feu jaune clignotant.
+R: T70
+
+#1364
+E: La lumière clignotante de la lampe jaune portative doit être visible à 150 mètres.
+
+#1365
+E: Un véhicule de plus de 12 000 kg, un tracteur routier et un véhicule de travail doivent avoir un limiteur de vitesse.
+
+#1366
+E: Tout véhicule dont les roues arrière ne sont pas protégées par des ailes, sauf un véhicule lent et un tracteur, doit avoir des garde-boue.
+
+#1367
+E: Un véhicule de transport de marchandises, une remorque, un semi-remorque et un véhicule de travail de plus de 3 500 kg doivent avoir une protection contre l'encastrement par l'arrière.
+
+#1368
+E: Un véhicule public sert ou est destiné à servir au transport de passagers contre rémunération.
+
+#1369
+E: Une troisième plaque est obligatoire sur un camion à plateau basculant.
+
+#1370
+E: L'avertisseur de marche arrière est obligatoire sur un véhicule utilitaire et de travail de plus de 15 000 kg, un tracteur et un autobus.
+
+#1371
+E: Les feux de gabarit sont obligatoires sur un véhicule de 210 cm de large ou plus.
+
+#1372
+E: Sur un véhicule qui a des feux de gabarit, les feux de position ne sont pas obligatoires.
+
+#1373
+E: Un frein autonome est obligatoire sur une remorque et un semi-remorque de 8 000 kg ou plus.
+
+#1374
+E: L'ABS est obligatoire sur un véhicule utilitaire de 12 000 kg ou plus.
+
+#1375
+E: Le frein moteur est obligatoire sur un véhicule utilitaire et de travail de 8 000 kg ou plus.
+
+#1376
+E: Les freins de service agissent sur toutes les roues et permettent de ralentir ou d'arrêter le véhicule dans toutes les conditions de route.
+
+#1377
+E: Le frein autonome actionne les freins de lui-même quand la pression d'air du système tombe sous la pression requise.
+
+#1378
+E: Le ralentisseur de vitesse est un mécanisme électrique ou hydraulique, indépendant du système de freinage, qui sert à ralentir le véhicule.
+
+#1379
+E: Un passage piéton est la partie de la chaussée destinée, par marquage ou panneau, à la traversée des piétons.
+R: T1:מעבר חציה
+
+#1380
+E: L'autorité des permis peut autoriser, sous certaines conditions, l'usage d'un véhicule dont les dimensions ou le poids dépassent le règlement.
+
+#1381
+E: En descente, tournez les roues avant vers le trottoir et enclenchez la marche arrière (P en automatique) : le véhicule s'appuiera contre le trottoir s'il se met à rouler.
+

@@ -1,0 +1,137 @@
+#T54(2)
+F: Autobus qui n’est pas un minibus : route urbaine 50 km/h ; route urbaine où est placé le panneau 426 ou 426פ : comme indiqué sur le panneau ; route non urbaine 80 km/h ; route non urbaine où est placé le panneau 426 ou 426פ : comme indiqué sur le panneau ; route non urbaine avec séparateur construit 90 km/h ; voie rapide 100 km/h ; voie rapide où est placé le panneau 426 ou 426פ : comme indiqué sur le panneau, sans dépasser 100 km/h.
+
+#T83א
+F: (a) Dans cet article et à l’article 83B :
+« siège arrière » : tout siège d’un véhicule qui n’est pas un siège avant ;
+« siège de sécurité » : siège destiné au transport d’enfants dans un véhicule, fixé au véhicule par une ceinture de sécurité, équipé de sangles destinées à y attacher l’enfant, et conforme à la norme précisée au point 4 de la partie C de la deuxième annexe ;
+« rehausseur » : siège destiné au transport d’enfants dans un véhicule, l’enfant qui y est assis étant attaché par la ceinture de sécurité du véhicule, et conforme à la norme précisée au point 4 de la partie C de la deuxième annexe.
+(b) Nul ne transportera, sur le siège avant d’un véhicule à moteur, ou sur le siège arrière d’un véhicule à moteur dont l’année de fabrication est 1983 ou postérieure (à l’exception d’un autobus qui n’est pas un minibus privé, d’un taxi et d’une moto) :
+(1) un enfant de moins de 3 ans, s’il n’est pas attaché dans un siège de sécurité adapté à sa taille et à son poids ;
+(2) un enfant de 3 ans révolus et de moins de huit ans, s’il n’est pas attaché dans un siège de sécurité ou sur un rehausseur adapté à sa taille et à son poids.
+(c) Nul ne transportera dans un véhicule visé au paragraphe (b) un enfant de moins d’un an, sauf si le dos du siège de sécurité est tourné vers l’avant du véhicule.
+(d) Nul ne transportera un enfant dans un siège de sécurité ou sur un rehausseur à un endroit où se trouve devant lui un airbag, sauf si son mécanisme de déclenchement a été désactivé.
+
+#T180
+F: Le permis de conduire de catégorie B :
+(a) permet de conduire :
+(1) un véhicule à moteur dont le poids total autorisé ne dépasse pas 3 500 kg et dont le nombre de passagers, conducteur non compris, ne dépasse pas 8, à l’exception d’un taxi, d’un véhicule de tourisme et d’un autobus public ;
+(2) un véhicule visé à l’article 179(2) à (5) ;
+(2a) un quad ;
+(2b) un véhicule léger ;
+(3) une ambulance, un véhicule de lutte contre l’incendie, un véhicule opérationnel de l’administration pénitentiaire, un véhicule de dépannage et tout autre véhicule que l’autorité d’immatriculation a approuvé comme véhicule de sécurité, à condition que le poids total autorisé d’un tel véhicule ne dépasse pas 3 500 kg, et pour une ambulance 4 000 kg, et que le titulaire ait reçu l’autorisation prévue à l’article 190(2) ;
+(4) un tracteur de transport ;
+(5) un véhicule à moteur à équipements spéciaux, indiqué sur sa carte grise comme véhicule médical spécial, dont le poids total ne dépasse pas 5 000 kg et dont le nombre de passagers, conducteur non compris, ne dépasse pas 8 ;
+(6) un véhicule indiqué sur sa carte grise comme véhicule d’auto-école, dont le poids total autorisé ne dépasse pas 4 000 kg et qui est équipé d’accessoires spéciaux approuvés par l’Institut national d’assurance, à condition qu’il ne soit conduit que par un moniteur agréé.
+(b) Le titulaire d’un permis de conduire selon cet article peut conduire un véhicule visé au paragraphe (a)(1) même si une remorque y est attelée, à condition que le poids total autorisé du véhicule tracteur et de la remorque réunis ne dépasse pas 5 000 kg.
+
+#T367(א)
+F: Dans une remorque, un véhicule tracté et un véhicule à moteur, à l’exception d’une moto, se trouvera un triangle de signalisation d’un type précisé à la partie C de la deuxième annexe, destiné à être utilisé conformément à l’article 70 ; le triangle aura une base lui permettant de tenir stable sur la chaussée dans toutes les conditions météorologiques.
+
+#T85(ג)(1)
+F: Si la largeur de la charge dépasse 2,50 m et va jusqu’à 3,40 m, un panneau portant les mots « Attention – charge large » sera placé devant et derrière le véhicule, à condition que la charge forme une seule unité et ne dépasse pas de plus de 45 cm au-delà des parois du véhicule de chaque côté ; pendant la période d’éclairage, des feux de position conformes à l’article 340 seront installés aux points extrêmes avant et arrière de la charge, et un éclairage périphérique au sens du paragraphe (g) sur les côtés de la charge.
+
+#T67(א2)
+F: Lorsque le conducteur d’un véhicule s’approche d’un passage pour piétons et que, sur une autre voie, un véhicule a ralenti avant le passage, il ralentira son véhicule avant ce passage, et si le véhicule de l’autre voie s’est arrêté, il s’arrêtera aussi ; si un piéton traverse la chaussée sur le passage, il lui cédera la priorité.
+
+#T168(5)
+F: [Le conducteur d’un véhicule public, d’un autobus privé ou d’un véhicule commercial de plus de 6 000 kg] se trouvera en repos hors du travail pendant au moins 25 heures consécutives (dans cet article : jour de repos) dans chaque période de 8 jours, étant entendu que le nombre de jours de repos par an ne sera pas inférieur à 52. Cette disposition ne s’applique pas au conducteur d’un véhicule à moteur qui n’est pas un véhicule public, un autobus privé ou un véhicule commercial dont le poids total autorisé dépasse 6 000 kg, qui transporte huit personnes ou plus en plus du conducteur en dehors de son activité habituelle.
+
+#T168(1)
+F: [Le conducteur d’un véhicule public, d’un autobus privé ou d’un véhicule commercial de plus de 6 000 kg] ne commencera pas sa journée de travail par la conduite sans avoir eu un repos hors du travail d’au moins 7 heures consécutives.
+
+#T1:רכב מדברי
+F: « Véhicule du désert » : véhicule public à quatre roues motrices, équipé d’une carrosserie standard et indiqué comme véhicule du désert sur la carte grise.
+
+#T54
+F: (a) Nul ne conduira un véhicule sur une route à une vitesse supérieure à celle fixée dans le tableau suivant :
+(1) véhicule à moteur, à l’exception des types de véhicules visés aux points (2) à (5) : route urbaine 50 km/h ; route urbaine où est placé le panneau 426 ou 426פ : comme indiqué sur le panneau ; route non urbaine 80 km/h ; route non urbaine où est placé le panneau 426 ou 426פ : comme indiqué sur le panneau ; route non urbaine avec séparateur construit 90 km/h ; voie rapide 110 km/h ; voie rapide où est placé le panneau 426 ou 426פ : comme indiqué sur le panneau ;
+(2) autobus qui n’est pas un minibus : route urbaine 50 km/h ; route non urbaine 80 km/h ; route non urbaine avec séparateur construit 90 km/h ; voie rapide 100 km/h (là où un panneau 426 ou 426פ est placé : comme indiqué sur le panneau, sans dépasser 100 km/h sur voie rapide) ;
+(3) véhicule commercial dont le poids total autorisé dépasse 12 000 kg, véhicule de travail et car d’excursion : route urbaine 50 km/h ; route non urbaine 80 km/h ; route non urbaine avec séparateur construit 80 km/h ; voie rapide 80 km/h (là où un panneau 426 ou 426פ est placé : comme indiqué sur le panneau, sans dépasser la limite du tableau) ;
+(5) véhicule lent, tracteur et machine mobile : 40 km/h sur route urbaine, route non urbaine et route non urbaine avec séparateur construit (là où un panneau 426 ou 426פ est placé : comme indiqué sur le panneau, sans dépasser 40 km/h) ; la voie rapide leur est interdite.
+(b) Malgré le paragraphe (a), nul ne conduira dans une rue partagée ou dans une zone de modération de la circulation à une vitesse supérieure à 30 km/h.
+(c) Toutes les routes mentionnées au paragraphe (a), à l’exception d’une route intérieure dans l’enceinte d’un moshav ou d’un kibboutz, sont interdites aux quads, et nul ne conduira un quad à plus de 40 km/h.
+(d)(1) L’autorité d’immatriculation peut indiquer sur la carte grise d’un véhicule une vitesse maximale autorisée inférieure à celle du paragraphe (a), si elle l’estime nécessaire.
+(2) Nul ne conduira à une vitesse supérieure à la vitesse maximale indiquée sur la carte grise du véhicule.
+(3) (supprimé).
+(e) Nul ne conduira un véhicule sur un tronçon signalé par un panneau à une vitesse supérieure à celle fixée par le panneau.
+(e1) L’autorité centrale de signalisation peut, par un panneau, fixer sur un tronçon une limite différente de celle du tableau, mais jamais supérieure aux plafonds suivants :
+(e1)(1) plafond sur une route urbaine : 80 km/h ;
+(e1)(2) plafond sur une route non urbaine qui n’est pas une voie rapide : 100 km/h, et 110 km/h sur une telle route à deux voies par sens avec séparateur construit ;
+(e1)(3) plafond sur une voie rapide : 120 km/h (sans panneau, la limite d’une voiture sur voie rapide reste 110 km/h).
+(e2) L’autorité centrale de signalisation ne fixera de vitesse maximale autorisée sur une voie rapide, comme prévu au paragraphe (e1)(3), qu’après consultation du chef de la division de la circulation de la police d’Israël.
+(f) Les dispositions de cet article ne dérogent pas à celles des articles 51 et 52 ni à toute autre loi relative à la vitesse.
+
+#T70
+F: (a) Lorsqu’il a fallu arrêter un véhicule et le laisser à l’arrêt sur la route, le conducteur placera un triangle de signalisation, conformément à l’article 367, visible par le conducteur d’un véhicule arrivant derrière lui à une distance d’au moins 100 mètres.
+(b) En plus du paragraphe (a), si le véhicule est à l’arrêt pendant la période d’éclairage sur une route non urbaine, ou s’il a fallu l’y laisser pendant la période d’éclairage :
+(1) dans un autobus, un véhicule de travail ou un véhicule commercial dont le poids total autorisé dépasse 3 500 kg, le conducteur placera un dispositif à feu clignotant jaune conforme à l’article 366, ou activera un appareil installé dans le véhicule permettant d’actionner tous les clignotants du véhicule en même temps (appareil d’activation des clignotants – feux de détresse) ;
+(2) dans un véhicule autre que ceux visés au point (1), le conducteur peut utiliser l’appareil d’activation des clignotants.
+
+#T168
+F: (a) Le conducteur d’un véhicule public, d’un autobus privé ou d’un véhicule commercial dont le poids total autorisé dépasse 6 000 kg, et le conducteur d’un véhicule à moteur d’un autre type qui transporte ou est autorisé par permis ou licence à transporter onze personnes ou plus en plus du conducteur :
+(1) ne commencera pas sa journée de travail par la conduite sans avoir eu un repos hors du travail d’au moins 7 heures consécutives ;
+(2) ne conduira pas plus de 12 heures sur chaque période de 24 heures, ni plus de 68 heures sur chaque période de 7 jours ;
+(3) interrompra sa conduite pendant au moins une demi-heure au cours de chaque période de conduite de 4 heures consécutives au sens du paragraphe (c), à l’exclusion des pauses prévues par ce point ;
+(4) ne conduira pas plus de 9 heures sauf s’il interrompt sa conduite pendant au moins une heure après 6 heures de conduite consécutives, au plus tard après 8 heures 30 minutes de conduite consécutives ;
+(5) se trouvera en repos hors du travail pendant au moins 25 heures consécutives (dans cet article : jour de repos) dans chaque période de 8 jours, étant entendu que le nombre de jours de repos par an ne sera pas inférieur à 52. Ce point ne s’applique pas au conducteur d’un véhicule à moteur qui n’est pas un véhicule public, un autobus privé ou un véhicule commercial de plus de 6 000 kg, qui transporte huit personnes ou plus en plus du conducteur en dehors de son activité habituelle.
+(b) Celui qui a le contrôle d’un véhicule à moteur des types énumérés au paragraphe (a), ou du conducteur d’un tel véhicule, ne le laissera conduire que conformément aux dispositions de cet article.
+(c) Dans cet article, « conduite » désigne la conduite effective, tout autre travail lié au véhicule à moteur ou au traitement de la charge qu’il transporte, au chargement, à l’arrimage ou au déchargement de cette charge, ou le soin des passagers transportés, y compris les pauses prévues aux points (3) et (4) du paragraphe (a), et l’attente ou l’interruption directement ou indirectement liée à ces opérations.
+(d) Les dispositions de cet article ne s’appliquent pas au conducteur d’un véhicule de l’armée à qui s’appliquent les limites d’heures de conduite fixées par les ordres de l’armée.
+
+#T1:רכב מורכב
+F: « Véhicule articulé » : véhicule tracteur auquel est attelée une semi-remorque.
+
+#T1:רכב מחובר
+F: « Véhicule attelé » : véhicule à moteur auquel est attelée une remorque.
+
+#T47
+F: (a) Le conducteur d’un véhicule ne dépassera un autre véhicule sur la chaussée, que celui-ci soit ou non dans la même voie, que par la gauche.
+(b) Le conducteur d’un véhicule peut dépasser un autre véhicule par la droite dans les cas suivants :
+(1) le conducteur de l’autre véhicule se trouve dans une voie réservée au virage à gauche ou a l’intention de tourner à gauche et l’a signalé ;
+(2) lors d’un virage à gauche vers une chaussée à sens unique ou vers une chaussée à deux voies ou plus par sens, et jusqu’à ce que le conducteur de l’autre véhicule ait terminé son virage dans la voie de gauche ;
+(3) le conducteur du véhicule roule dans une voie réservée aux transports en commun ;
+(4) le conducteur du véhicule roule dans une voie réservée uniquement au virage à droite.
+(c) Sans préjudice des dispositions du paragraphe (a) et de l’article 35, sur une chaussée à sens unique comptant deux voies ou plus dans le même sens, où, à cause de la densité de la circulation, les véhicules avancent en files dans chaque voie, le fait que des véhicules d’une voie roulent plus vite que ceux de l’autre voie n’est pas considéré comme un dépassement, à condition de ne causer ni gêne ni danger pour la circulation.
+(d) Le conducteur d’un véhicule ne dépassera un véhicule que si la route est libre sur une distance suffisante pour lui permettre d’effectuer le dépassement et de poursuivre sa route en sécurité, sans gêner ni mettre en danger la marche d’un autre véhicule, et sans autre entrave à la circulation, dans quelque sens que ce soit.
+(e) Le conducteur d’un véhicule ne dépassera pas, n’essaiera pas de dépasser et ne déportera pas son véhicule vers la gauche ou la droite pour dépasser un véhicule ou un animal dans l’un des cas suivants :
+(1) la visibilité est réduite ou le champ de vision est bloqué ou limité ;
+(2) il se trouve après le panneau A-30 avant un passage à niveau, et jusqu’après le passage à niveau ;
+(3) il s’approche d’un passage pour piétons marqué sur la chaussée ou indiqué par un panneau signalant l’emplacement d’un passage pour piétons, et jusqu’à l’avoir dépassé ;
+(4) il passe à l’intérieur d’une intersection, ou ne termine pas le dépassement avant d’arriver à l’intersection ;
+(5) il franchit une ligne de séparation continue, sauf si une ligne discontinue se trouve contiguë à elle, sur son côté droit ;
+(6) (supprimé).
+(f) La disposition du point (4) du paragraphe (e) ne s’applique pas :
+(1) au dépassement sur une chaussée comptant deux voies ou plus dans le même sens ;
+(2) au dépassement d’animaux, d’un véhicule à deux roues ou d’un véhicule tracté par une bête, à condition que le dépassement respecte les autres dispositions de ce Règlement.
+(g) Le conducteur d’un véhicule ne dépassera ni ne contournera un véhicule qui s’est arrêté avant une intersection, avant un passage pour piétons ou avant un passage à niveau afin de respecter les dispositions de cette partie.
+(h) Le conducteur d’un véhicule ne dépassera pas un véhicule qui est en train de dépasser, sauf si la chaussée est à sens unique ou si le dépassement y est permis par un panneau ou par ce Règlement et qu’elle comporte plus de deux voies dans le même sens ; ici, une voie réservée aux transports en commun n’est pas comptée. Cette disposition ne s’applique pas à un autobus, à l’exception d’un minibus, ni à un véhicule commercial ou de travail dont le poids total dépasse 3 500 kg, et un tel véhicule ne dépassera un véhicule qui dépasse un autre en aucune route.
+
+#T1:אורך כולל
+F: « Longueur totale » : la distance entre le point extrême à l’avant du véhicule et le point extrême à l’arrière, mesurée entre deux plans passant par ces points et perpendiculaires à l’axe central.
+
+#T47(ח)
+F: Le conducteur d’un véhicule ne dépassera pas un véhicule qui est en train de dépasser, sauf si la chaussée est à sens unique ou si le dépassement y est permis par un panneau ou par ce Règlement et qu’elle comporte plus de deux voies dans le même sens ; ici, une voie réservée aux transports en commun n’est pas comptée. Cette disposition ne s’applique pas à un autobus, à l’exception d’un minibus, ni à un véhicule commercial ou de travail dont le poids total dépasse 3 500 kg, et un tel véhicule ne dépassera un véhicule qui dépasse un autre en aucune route.
+
+#T36(ה)
+F: Sur une chaussée comptant deux voies ou plus dans le même sens, le conducteur d’un véhicule commercial ou d’un véhicule de travail dont le poids total autorisé dépasse 10 000 kg n’entrera dans une intersection et ne la traversera que dans la voie la plus à droite dans ce sens, sauf si le panneau 613 y est placé, autorisant le véhicule à circuler dans d’autres voies. Ici, une voie réservée aux transports en commun n’est pas comptée.
+
+#T1:נתמך
+F: « Semi-remorque » : remorque construite de façon que sa partie avant repose sur le véhicule tracteur (sellette).
+
+#T322(ג)
+F: Sur un pneu pneumatique, y compris celui de la roue de secours, l’épaisseur de la bande de roulement ou la profondeur des rainures du pneu, en contact avec la route, ne sera pas inférieure à 2 mm ; sur un pneu non pneumatique, son épaisseur ne sera pas inférieure à 4 cm.
+
+#T1:גרור
+F: « Remorque » : véhicule qui n’est pas un véhicule à moteur, destiné par sa construction à être tracté par un véhicule à moteur placé devant lui, qu’il serve ou non au transport, à l’exception d’un side-car.
+
+#T49
+F: (a) Nul ne conduira un véhicule derrière un autre véhicule sans garder un espacement permettant d’arrêter son véhicule à tout moment et d’éviter un accident, compte tenu de la vitesse des deux véhicules, de l’état de la route, de la visibilité et de la circulation.
+(b) Sans préjudice du paragraphe (a), nul ne conduira un véhicule derrière un autre véhicule qui roule devant lui dans la même voie sans garder un intervalle de temps d’au moins une seconde, pour parcourir, à sa vitesse du moment, la distance qui sépare les deux véhicules.
+
+#T1:רכב צדי
+F: « Side-car » : dispositif destiné au transport d’une personne ou d’une charge, monté sur une roue et fixé sur le côté d’une moto.
+
+#T367
+F: (a) Dans une remorque, un véhicule tracté et un véhicule à moteur, à l’exception d’une moto, se trouvera un triangle de signalisation d’un type précisé à la partie C de la deuxième annexe, destiné à être utilisé conformément à l’article 70 ; le triangle aura une base lui permettant de tenir stable sur la chaussée dans toutes les conditions météorologiques.
+(b) Le paragraphe (a) ne s’applique pas à un véhicule qui y est visé et qui était immatriculé selon l’Ordonnance avant le 24 décembre 1990 ; les dispositions de cet article dans leur rédaction antérieure s’y appliquent, sauf s’il a fallu y remplacer le triangle.

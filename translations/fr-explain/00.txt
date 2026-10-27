@@ -1,0 +1,237 @@
+#0001
+E: Le code de la route ne s'adresse pas qu'aux conducteurs : tout « usager de la route » (piéton, cycliste, passager, conducteur…) doit se conduire avec prudence et respecter les règles et la signalisation.
+R: T21(א); T22(א); T1:עובר דרך
+
+#0002
+E: Pour conduire un véhicule à moteur, il faut être titulaire d'un permis valide pour ce type de véhicule, et conduire dans le respect des conditions du permis. Le contrôle technique, le carnet du constructeur ou le fait d'être propriétaire ne donnent pas ce droit.
+R: P10(א)
+
+#0003
+E: Le propriétaire (ou la personne qui a la garde du véhicule) ne doit pas laisser conduire une personne qui n'a pas de permis valide pour ce type de véhicule. S'il le fait en connaissance de cause, il encourt lui-même jusqu'à trois ans de prison.
+R: P36ב(ג); P10(א)
+
+#0004
+E: La loi définit l'accompagnateur : soit titulaire du permis pour ce type de véhicule depuis au moins 5 ans et âgé d'au moins 24 ans, soit titulaire depuis au moins 3 ans et âgé d'au moins 30 ans. Un moniteur d'auto-école peut accompagner même avant 24 ans.
+R: P12א1(ז)
+
+#0005
+E: Le policier peut retenir le conducteur sans mandat lorsque celui-ci ne donne pas son nom et son adresse ou ne présente pas son permis comme il le doit. Le règlement oblige en effet le conducteur à présenter ses documents à un policier qui le demande.
+R: T9(ב)
+
+#0006
+E: Un officier de police peut suspendre le permis pour 30 jours en cas d'infraction figurant dans la « quatrième annexe » de l'ordonnance, liste d'infractions graves qui comprend la mise en danger d'un piéton sur un passage pour piétons.
+R: P47(ה)(3)
+
+#0007
+E: La durée dépend de la gravité : 60 jours lorsque l'infraction a causé un accident avec un blessé ou des dégâts matériels et qu'une mise en accusation est envisagée (soupçon raisonnable de responsabilité).
+R: P47(ה)(2)
+
+#0008
+E: 90 jours : c'est la suspension imposée par l'officier de police lorsque l'infraction a causé un accident mortel. C'est la seule durée que l'officier « doit » appliquer ; pour 30 et 60 jours, il « peut ».
+R: P47(ה)(1)
+
+#0009
+E: Conduire alors qu'on a été informé de la suspension de son permis est un délit grave : jusqu'à trois ans de prison (ou une forte amende), en plus des autres peines possibles.
+R: P67
+
+#0010
+E: La définition légale de la « route » est très large : toute voie, rue, ruelle, place, passage, pont ou espace ouvert où le public a le droit de passer. Elle ne se limite pas aux chaussées revêtues.
+R: P1:דרך
+
+#0011
+E: La « période d'éclairage » comprend la nuit et tout autre moment où la visibilité est mauvaise (pluie, brouillard, tempête de sable…). C'est pendant cette période que l'allumage des feux est obligatoire.
+R: T1:זמן תאורה
+
+#0012
+E: Le stationnement, c'est immobiliser le véhicule pour une durée quelconque, sauf pour faire monter ou descendre des personnes ou charger et décharger des marchandises immédiatement et sans interruption — qu'il y ait ou non quelqu'un dans le véhicule.
+R: T1:חניה
+
+#0013
+E: Réponse attendue à l'examen : au moins quatre roues, volant, poids total autorisé jusqu'à 1 500 kg. Attention : le règlement actuellement en vigueur a relevé ce plafond à 1 800 kg. À l'examen, retenez la réponse de la banque officielle.
+R: T1:טרקטור משא
+
+#0014
+E: Le quad (« ATV ») roule sur au moins quatre roues, se conduit à califourchon (une jambe de chaque côté du siège) et se dirige avec un guidon. C'est ce qui le distingue d'une voiture (volant) et d'une moto (deux roues).
+R: T1:טרקטורון
+
+#0015
+E: Sur une route à double sens, un panneau placé du côté droit ne vaut que pour ce côté : l'arrêt y est interdit sur la chaussée comme sur l'accotement. L'autre côté de la route n'est pas concerné.
+R: T22(א)
+
+#0016
+E: Une chaussée à sens unique est définie par la circulation des véhicules dans un seul sens, quel que soit le type de véhicule. Une allée (shvil) n'est pas une chaussée.
+R: T1:כביש חד־סטרי
+
+#0017
+E: Au sens légal, la « nuit » commence un quart d'heure après le coucher du soleil et se termine un quart d'heure avant son lever — et non au coucher ou au lever du soleil eux-mêmes.
+R: T1:לילה
+
+#0018
+E: Le trottoir est la partie de la route, hors chaussée, réservée aux piétons. On ne peut y stationner que là où un panneau l'autorise et y rouler que pour le traverser afin d'entrer dans une propriété ou d'en sortir.
+R: T1:מדרכה
+
+#0019
+E: L'échangeur est une jonction de routes à des niveaux différents, avec les bretelles qui permettent de passer d'une route à l'autre. Une jonction au même niveau est une intersection.
+R: T1:מחלף
+
+#0020
+E: La « charge autorisée » est le poids maximal de marchandises que l'on peut charger. Ne la confondez pas avec le poids total autorisé (poids à vide + personnes + charge) ni avec le poids à vide.
+R: T1:משקל כולל מותר; T1:משקל עצמי
+
+#0021
+E: L'intersection est délimitée par les bords des chaussées qui se rencontrent, ou les bordures de trottoir, ou par leur prolongement imaginaire. Les lignes d'arrêt, les passages pour piétons et les panneaux ne fixent pas ses limites.
+R: T1:צומת
+
+#0022
+E: La ceinture est obligatoire pour le conducteur et pour tous les passagers. Le règlement interdit à la fois de conduire et de voyager sans être attaché : le conducteur et le passager arrière sont tous deux en infraction.
+R: T83ב(א)
+
+#0023
+E: Le passage pour piétons fait partie de la chaussée : c'est la portion de chaussée marquée pour la traversée des piétons. Le trottoir et l'accotement n'en font pas partie.
+R: T1:מעבר חציה
+
+#0024
+E: Un passage à niveau est un croisement route / voie ferrée au même niveau, signalé par le panneau prévu. Si la route passe au-dessus ou en dessous de la voie ferrée, ce n'est pas un passage à niveau.
+R: T1:מפגש מסילת ברזל
+
+#0025
+E: Poids total autorisé = poids à vide du véhicule + poids des personnes + poids de la charge que l'Autorité des permis l'autorise à transporter. On parle de poids, pas de volume.
+R: T1:משקל כולל מותר
+
+#0026
+E: Le poids à vide est le poids du véhicule sans charge et sans conducteur, mais avec ses accessoires, le carburant, l'eau et l'huile.
+R: T1:משקל עצמי
+
+#0027
+E: Céder le passage, c'est permettre aux usagers prioritaires d'avancer sans devoir s'arrêter, attendre, changer de vitesse ou dévier de leur trajectoire. Si l'autre doit freiner à cause de vous, vous n'avez pas cédé le passage.
+R: T1:מתן זכות קדימה
+
+#0028
+E: Il n'existe pas d'interdiction de dépasser deux véhicules à la fois. La règle générale s'applique : on ne dépasse que si la route est libre sur une distance suffisante pour dépasser et poursuivre en sécurité, et si aucune interdiction ne s'applique.
+R: T47(ד)
+
+#0029
+E: L'essieu est l'axe (ou l'ensemble d'axes) transversal sur lequel sont montées les roues. Le pare-chocs absorbe les petits chocs ; la transmission relie la boîte de vitesses aux roues, pas au moteur.
+
+#0030
+E: Est usager de la route quiconque utilise la route, que ce soit pour circuler, marcher, s'y tenir ou dans tout autre but.
+R: T1:עובר דרך
+
+#0031
+E: « Baisser les phares » signifie éteindre les feux de route et allumer les feux de croisement. Les feux de brouillard et les feux de position n'entrent pas dans cette définition.
+R: T1:עמעום
+
+#0032
+E: L'intersection est l'espace formé par la rencontre d'au moins deux chaussées (au même niveau). Une rencontre à des niveaux différents est un échangeur ; le revêtement ou l'agglomération ne jouent aucun rôle.
+R: T1:צומת
+
+#0033
+E: La ligne d'arrêt est tracée en travers de tout ou partie de la chaussée. Elle marque l'endroit où s'arrêter près d'un feu, d'un panneau d'arrêt, avant un passage à niveau ou là où un policier règle la circulation.
+R: T1:קו עצירה
+
+#0034
+E: La zone résidentielle (« rue partagée ») est une route destinée à la fois aux jeux d'enfants, aux piétons et aux véhicules, signalée par un panneau à son entrée. Elle est accessible aux véhicules, mais avec des règles strictes.
+R: T1:רחוב משולב
+
+#0035
+E: Dans une carrosserie monocorps, la cabine du conducteur, les sièges et l'espace de chargement forment une seule unité, conçue ainsi par le constructeur (par exemple une fourgonnette).
+R: T1:מרכב אחוד
+
+#0036
+E: Est « véhicule lent » un véhicule à moteur dont la vitesse maximale fixée (par sa carte grise ou par le règlement) ne dépasse pas 40 km/h.
+R: T1:רכב איטי
+
+#0037
+E: Un véhicule n'est un véhicule d'urgence que s'il appartient à une catégorie de la liste (ambulance du Magen David Adom, police, Tsahal, pompiers, police intégrée, véhicule agréé…) ET qu'il actionne son gyrophare et sa sirène.
+R: T1:רכב ביטחון
+
+#0038
+E: Transporter des passagers contre rémunération dans une voiture particulière est interdit, et la loi prévoit même la suspension de la carte grise en cas de condamnation pour ce type d'infraction.
+R: P44א(א)
+
+#0039
+E: Une voiture devient « véhicule ancien » lorsque 19 ans se sont écoulés depuis son année de fabrication, au moment du renouvellement de sa carte grise (15 ans pour un autobus).
+R: T1:רכב מיושן
+
+#0040
+E: Réponse de l'examen : véhicule privé conçu pour transporter jusqu'à 8 passagers en plus du conducteur, inscrit comme véhicule privé sur sa carte grise. Le règlement actuel définit désormais la voiture particulière par sa classification européenne M1, ce qui revient au même dans la pratique.
+R: T1:רכב נוסעים פרטי
+
+#0041
+E: Un véhicule qui fait l'objet d'un avis d'interdiction d'utilisation ne peut plus circuler, sauf pour aller se faire réparer ou repasser un contrôle, et seulement si l'avis l'autorise.
+R: T308(ד)
+
+#0042
+E: La voie réservée (« shvil ») est une route ou une partie de route, autre que la chaussée, affectée à une catégorie d'usagers (piste cyclable, chemin piétonnier…).
+R: T1:שביל
+
+#0043
+E: La marche arrière n'est permise qu'en cas de nécessité et en prenant les mesures pour éviter tout danger ou gêne. Se faire guider par une personne est une mesure possible, pas une obligation.
+R: T45
+
+#0044
+E: Avant d'ouvrir une portière, il faut prendre toutes les précautions pour la sécurité des autres usagers. C'est la seule réponse qui découle directement de cette règle.
+R: T80(א)
+
+#0045
+E: Le terre-plein construit divise la route dans sa longueur au moyen d'un ouvrage surélevé par rapport à la chaussée : bordure surélevée, glissière de sécurité ou végétation.
+R: T1:שטח הפרדה בנוי
+
+#0046
+E: Le siège de sécurité est fixé au véhicule par la ceinture de sécurité et possède ses propres harnais pour attacher l'enfant. Il doit être homologué.
+R: T83א:מושב בטיחות
+
+#0047
+E: Dans un rehausseur, l'enfant est attaché par la ceinture de sécurité du véhicule elle-même : c'est ce qui le distingue du siège de sécurité, qui a ses propres harnais.
+R: T83א:מושב מגביה
+
+#0048
+E: Un véhicule à moteur est mû par une force mécanique, quelle qu'elle soit : essence, diesel, électricité… Le nombre de roues n'entre pas dans la définition.
+R: P1:רכב מנועי
+
+#0049
+E: En conduisant, vous devez avoir sur vous : une pièce d'identité (le permis avec photo convient), l'attestation d'assurance obligatoire et tout document délivré selon la loi pour vous ou pour le véhicule (carte grise, etc.).
+R: T9(א)
+
+#0050
+E: En principe ce sont les originaux qui comptent. L'exception de la banque officielle : un véhicule appartenant à une personne morale, avec des copies certifiées par la signature et le tampon du responsable de la sécurité de l'entreprise.
+
+#0051
+E: Le conducteur doit présenter ses documents au policier qui les demande. S'il ne les a pas sur lui, il doit les présenter lui-même dans les cinq jours, au lieu fixé par le policier.
+R: T9(ב)
+
+#0052
+E: Le système de points enregistre des points de pénalité pour chaque condamnation pour une infraction routière définie dans la réglementation. Il peut entraîner des mesures (formation, examens, suspension).
+R: P69א(א)
+
+#0053
+E: Les documents doivent être conservés en permanence propres et lisibles.
+R: T9(ג)
+
+#0054
+E: La plaque « nouveau conducteur » se colle sur la lunette arrière, en bas, de façon à être vue par le conducteur qui suit.
+R: T9א(א)
+
+#0055
+E: On est « nouveau conducteur » pendant les deux premières années du permis (davantage en cas de certaines infractions), et la plaque doit être apposée pendant toute cette période.
+R: P12א(א); T9א(א)
+
+#0056
+E: Personne n'a le droit de modifier un document officiel (écriture, rature, effacement, ajout…), ni de détenir un document modifié. Les changements sont faits par l'Autorité des permis, à qui il faut les signaler.
+R: T11; T13(א)
+
+#0057
+E: Le titulaire d'un permis chez qui on découvre une maladie cardiaque ou un trouble du système nerveux, des os, de la vue ou de l'audition doit le signaler immédiatement à l'Autorité des permis, par lettre recommandée.
+R: T13(ב)
+
+#0058
+E: Tout usager de la route — conducteur, cycliste ou piéton — doit respecter les indications des panneaux.
+R: T22(א)
+
+#0059
+E: Les feux tricolores priment sur tout panneau qui règle la priorité (« Stop », « Cédez le passage »…), sauf lorsque le feu clignote à l'orange : on applique alors les panneaux.
+R: T22(ב)
+
+#0060
+E: Il faut obéir aux ordres d'un policier en uniforme, même s'ils contredisent les panneaux ou les règles, en faisant preuve d'une prudence accrue.
+R: T23(א)(1); T23(ב)

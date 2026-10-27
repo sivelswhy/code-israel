@@ -1,0 +1,420 @@
+#1622
+Q: Selon la loi, la distance éclairée par les phares devant le véhicule la nuit et par beau temps sera :
+1: En feux de route – au moins 100 mètres ; en feux de croisement – au moins 30 mètres.
+2: En feux de route – au moins 150 mètres ; en feux de croisement – au moins 60 mètres.
+3: La portée des phares n'est pas définie par la loi et relève de l'appréciation du constructeur du véhicule.
+4: En feux de route – au moins 120 mètres ; en feux de croisement – au moins 50 mètres.
+
+#1623
+Q: Comment créer un espace de sécurité efficace à l'avant, à l'arrière et sur les côtés en moto avec d'autres usagers ?
+1: En se collant à la droite de la route ou de la voie et en roulant vite à un rythme uniforme tout le temps.
+2: En se plaçant au milieu de la route et en roulant à un rythme rapide.
+3: En choisissant la voie, la vitesse et la position corrects et adaptés aux autres usagers autour.
+4: En faisant signe aux autres véhicules de s'éloigner.
+
+#1624
+Q: Pourquoi faut-il garder une distance à l'avant, à l'arrière et sur les côtés en roulant à moto ?
+1: Pour pouvoir changer souvent et facilement de voie.
+2: Pour éviter de respirer la fumée et la saleté émises par les autres véhicules sur la route.
+3: Ainsi nous réduisons le champ de vision et la possibilité d'utiliser l'accotement.
+4: Parce qu'ainsi nous assurons un temps et un espace de réaction suffisants face aux dangers et menaces créés par d'autres véhicules.
+
+#1625
+Q: Un tracteur agricole doit-il avoir un triangle de signalisation ?
+1: Non.
+2: Seulement un petit tracteur dont le poids à vide va jusqu'à 500 kg.
+3: Seulement un tracteur dont le poids à vide va jusqu'à 4 000 kg.
+4: Oui.
+
+#1626
+Q: Sur qui repose la responsabilité de garder un espace de sécurité à l'avant, à l'arrière et sur les côtés en roulant à moto ?
+1: Sur la police et la police de la circulation.
+2: Sur les autorités qui planifient les infrastructures.
+3: Sur le motocycliste seul.
+4: Sur les autres conducteurs sur la route proches de la moto.
+
+#1627
+Q: À quoi est-il important de veiller en roulant à moto à côté de véhicules ou près d'eux ?
+1: À réduire la distance et l'espace permettant la réaction.
+2: À adapter la vitesse à celle des véhicules alentour – même si elle est supérieure à la vitesse maximale autorisée.
+3: À rouler avec les jambes collées au sol pour améliorer la stabilité.
+4: À repérer les autres véhicules le plus tôt possible.
+
+#1628
+Q: Le conducteur d'un tracteur peut-il traverser un trottoir ?
+1: Oui, pour entrer dans une cour ou un garage.
+2: Oui, pour prendre un passager.
+3: Oui, pour contourner un obstacle sur la route.
+4: Oui, pour déposer un passager.
+
+#1629
+Q: Si le conducteur sent que le frein à pied ne freine pas la moto pendant la marche, il doit :
+1: Arrêter immédiatement de rouler avec la moto.
+2: Échanger les roues entre l'avant et l'arrière.
+3: Aller à la station-service la plus proche et augmenter la pression d'air des roues.
+4: Sortir un peu d'air des roues pour surmonter la panne.
+
+#1630
+Q: Comment faut-il dépasser un autre véhicule quand on roule à moto ?
+1: Par la gauche du véhicule dépassé, en gardant la plus grande distance latérale possible.
+2: Par la droite du véhicule dépassé, le plus près possible de lui.
+3: De façon à voir le véhicule dépassé dans les deux rétroviseurs en tout temps.
+4: Le plus vite possible – même au-dessus de la vitesse maximale autorisée, un instant – si nécessaire.
+
+#1631
+Q: Quand reviendrez-vous à moto sur votre voie à la fin du dépassement ?
+1: En moto, il n'est pas nécessaire de revenir sur la voie précédente.
+2: Après un temps raisonnable depuis le passage devant le véhicule dépassé.
+3: Après avoir vérifié dans les rétroviseurs et jeté un bref regard en arrière par-dessus l'épaule droite pour un contrôle supplémentaire.
+4: Après avoir vu le véhicule dépassé dans les deux rétroviseurs de la moto.
+
+#1632
+Q: Est-il permis de conduire une moto dont le silencieux a été retiré du tuyau d'échappement ?
+1: C'est permis.
+2: C'est permis – seulement sur voie rapide.
+3: C'est permis – seulement sur route non urbaine.
+4: C'est interdit.
+
+#1633
+Q: Les principaux facteurs qui influencent la capacité du motocycliste à repérer les obstacles sur la route sont :
+1: Le bon état des freins et des pneus.
+2: L'état mécanique de la moto.
+3: La position de la moto sur la route et dans la circulation.
+4: La taille de la moto.
+
+#1634
+Q: Les principaux facteurs qui influencent la capacité du motocycliste à éviter une charge qui tombe d'un véhicule roulant devant lui sont :
+1: Une pression d'air double de celle nécessaire dans les pneus de la moto.
+2: Garder ses distances et garder un large champ de vision en tout temps.
+3: L'état mécanique de la moto.
+4: Le bon état des freins et des pneus.
+
+#1635
+Q: Un motocycliste peut-il rouler sur le trottoir ?
+1: Oui, quand la circulation sur la route est dense et bouchée.
+2: Jamais.
+3: Oui, si cela ne gêne pas les piétons.
+4: Oui, pour traverser le trottoir afin d'entrer dans des locaux.
+
+#1636
+Q: Le conducteur d'un véhicule utilitaire de plus de 6 000 kg de poids total autorisé se reposera au moins 25 heures consécutives sans travailler, dans une période de :
+1: Huit jours au plus.
+2: 12 jours au plus.
+3: Six jours au plus.
+4: Dix jours au plus.
+
+#1637
+Q: Quel numéro indique la longueur du « porte-à-faux arrière » du véhicule ?
+1: 7
+2: 23
+3: 22
+4: 27
+
+#1638
+Q: Quel panneau permet au conducteur d'un véhicule ou d'un train local de continuer seulement vers la droite ?
+1: 711
+2: 713
+3: 714
+4: 715
+
+#1639
+Q: Quel danger menace le conducteur d'un deux-roues qui passe entre des files de voitures à l'arrêt avant une intersection ?
+1: Des conducteurs jettent des mégots par la vitre, qui peuvent le blesser.
+2: Il peut heurter des piétons qui traversent la route hors d'un passage piéton aménagé.
+3: En tête de file et devant l'intersection, il ne reste plus de place à cause du grand nombre de deux-roues.
+4: Aucun danger. Il y aura toujours un espace suffisant pour permettre le passage confortable et sûr d'un deux-roues.
+
+#1640
+Q: Quel danger menace le conducteur d'un deux-roues qui passe entre des files de voitures en mouvement avant une intersection ?
+1: En tête de file et devant l'intersection, il ne reste plus de place à cause du grand nombre de deux-roues.
+2: Aucun danger. Il y aura toujours un espace suffisant pour permettre le passage confortable et sûr d'un deux-roues.
+3: Un choc avec une voiture qui dévie soudain de sa voie vers l'espace entre les voies où avance le deux-roues.
+4: Il effraie les automobilistes, déjà nerveux.
+
+#1641
+Q: Si le permis de conduire comporte des restrictions inscrites :
+1: Elles concernent la norme de la moto et non la manière de la conduire.
+2: Le conducteur exercera son jugement sur la manière d'agir et sur la restriction à respecter.
+3: La restriction est une recommandation et n'oblige pas le conducteur.
+4: Le conducteur doit conduire conformément aux restrictions inscrites.
+
+#1642
+Q: Un motocycliste peut-il rouler sur un sentier signalé et destiné aux piétons ?
+1: Non.
+2: Oui, si le sentier est libre de circulation de piétons.
+3: Non, sauf si la route à côté est bloquée par des véhicules.
+4: Oui, si le sentier mène à un parking pour véhicules.
+
+#1643
+Q: Quels sont l'équipement et la tenue de base corrects pour rouler en sécurité au quotidien à moto ?
+1: Casque demi-jet, pantalon de tissu long, chaussures, gants, blouson de moto de base et ceinture dorsale.
+2: Casque demi-jet, lunettes de protection, pantalon, chaussures et blouson de moto de base avec protections aux épaules et aux coudes.
+3: Casque intégral homologué, pantalon en tissu résistant, chaussures montantes, gants et blouson de moto de base.
+4: Casque intégral, lunettes de protection, pantalon, sandales et blouson de moto de base avec protections pour le corps du motocycliste.
+
+#1644
+Q: Faut-il installer un rétroviseur sur une moto ?
+1: Oui, mais seulement sur une moto avec side-car.
+2: Oui. La loi exige au moins un rétroviseur sur tous les types de motos.
+3: Non. Un rétroviseur n'est pas nécessaire et cela relève de l'appréciation du conducteur.
+4: Seulement sur un tricycle à moteur.
+
+#1645
+Q: Quelles sont les considérations pour choisir un casque de moto ?
+1: Le casque doit avoir un système d'aération et autant de sangles de serrage que possible.
+2: L'essentiel est que le casque convienne à la taille et à la forme de la tête du motocycliste. La solidité du casque n'a pas d'importance.
+3: Un casque homologué offrira la meilleure protection (menton compris) et conviendra à la taille et à la forme de la tête du motocycliste.
+4: L'homologation du casque n'a pas d'importance, mais il est important qu'il ait une forme aérodynamique, pour réduire la consommation de carburant.
+
+#1646
+Q: L'usage continu des freins du véhicule dans une descente raide et longue peut provoquer :
+1: Un échauffement excessif des freins et un freinage plus faible que d'habitude.
+2: L'usage continu des freins n'a aucun effet sur le freinage.
+3: Un refroidissement excessif des freins et un freinage plus faible que nécessaire.
+4: Un échauffement des freins et un freinage plus fort que nécessaire.
+
+#1647
+Q: Quelles chaussures choisirez-vous pour rouler à moto ?
+1: Choisissez des chaussures légères et confortables, qui permettent la souplesse en roulant.
+2: Il n'y a pas de règles : toute chaussure ou sandale confortable convient pour manœuvrer la moto en sécurité.
+3: Choisissez des chaussures montantes isolantes de la chaleur et du froid.
+4: Choisissez des chaussures montantes faites d'un matériau massif qui résiste au frottement.
+
+#1648
+Q: Où est-il recommandé de placer une charge sur la moto pour que son influence sur la stabilité soit minimale ?
+1: Près de l'extrémité avant de la moto et à l'endroit le plus haut.
+2: Près de l'extrémité arrière de la moto et à l'endroit le plus haut.
+3: Près du centre de la moto et à l'endroit le plus bas, de façon que la charge ne dépasse ni à l'avant ni à l'arrière.
+4: Près de l'extrémité arrière de la moto et à l'endroit le plus bas, la charge ne dépassant pas à l'arrière.
+
+#1649
+Q: Rouler à moto sur route mouillée présente le danger de :
+1: Renversement de la moto si le motocycliste actionne soudain le levier d'embrayage.
+2: Infiltration d'eau dans le moteur, qui provoquera de la rouille.
+3: Dérapage et renversement de la moto, d'autant plus que la vitesse est élevée.
+4: Dérapage et renversement de la moto, d'autant plus que la vitesse est faible.
+
+#1650
+Q: On ne peut pas transporter de passager supplémentaire sur un quad, sauf si :
+1: C'est indiqué sur le permis de conduire.
+2: L'importateur du véhicule en a donné l'autorisation.
+3: C'est indiqué sur l'attestation d'assurance.
+4: C'est indiqué sur le permis du véhicule.
+
+#1651
+Q: Le propriétaire d'une moto peut-il monter à la place des pneus d'origine des pneus de dimensions différentes ?
+1: Il le peut, mais la différence ne doit pas dépasser dix pour cent de la taille inscrite sur le permis du véhicule – en plus ou en moins.
+2: Il le peut. Cela peut lui économiser du carburant.
+3: Il ne le peut pas, sauf s'il a obtenu pour cela l'autorisation préalable de l'autorité des permis.
+4: Il le peut – mais seulement le propriétaire d'un tricycle à moteur et d'une moto avec side-car.
+
+#1652
+Q: Quelle est la longueur maximale autorisée par la loi du véhicule de la photo ?
+1: 13,75 mètres.
+2: 14,10 mètres.
+3: 18,75 mètres.
+4: 15,50 mètres.
+
+#1653
+Q: Quel est le principal danger de rouler à moto dans l'obscurité ?
+1: La difficulté à repérer les autres véhicules qui roulent derrière.
+2: La difficulté à analyser en continu la qualité de la route et à repérer les obstacles à temps.
+3: Les basses températures auxquelles la moto est exposée.
+4: Les basses températures auxquelles le motocycliste est exposé.
+
+#1654
+Q: Quel est le lien entre l'angle d'inclinaison et de braquage de la moto dans un virage et l'éclairage avant de la moto ?
+1: Il n'y a aucun lien, sauf si l'entretien de la moto est mauvais et que le réglage des feux est altéré.
+2: Plus l'inclinaison ou le braquage de la moto est grand, plus le motocycliste est ébloui par l'éclairage de sa propre moto.
+3: Plus l'inclinaison ou le braquage de la moto est grand, plus le faisceau lumineux s'écarte de la direction de marche souhaitée.
+4: Dès qu'on braque ou qu'on couche la moto, l'intensité de l'éclairage faiblit à cause du niveau du liquide de la batterie.
+
+#1655
+Q: Comment la visière du casque influence-t-elle la conduite dans l'obscurité ?
+1: Une visière rayée ou sale facilite la conduite dans l'obscurité.
+2: Une visière rayée ou sale brise les rayons de lumière et nuit nettement à la qualité de la vision dans l'obscurité.
+3: Une visière énerve le motocycliste – même s'il ne l'admet pas.
+4: Rouler sur un deux-roues sans visière contribue toujours à améliorer la vision dans l'obscurité.
+
+#1656
+Q: Que faut-il vérifier quand on achète un pneu neuf pour le véhicule ?
+1: Seulement que les dimensions du pneu neuf sont identiques à celles de l'ancien.
+2: Seulement que la pression d'air nécessaire du pneu neuf est identique à celle de l'ancien.
+3: Seulement que la forme de la bande de roulement du pneu neuf est identique à celle de l'ancien.
+4: La date de fabrication du pneu, pour s'assurer que le pneu n'est pas trop vieux (existant depuis plus de six ans).
+
+#1657
+Q: Comment améliorer la vision en roulant à moto sous la pluie ?
+1: En roulant prudemment et en utilisant des antibrouillards.
+2: En utilisant une visière de casque sans rayures et en l'enduisant de produits anti-buée et anti-humidité.
+3: En roulant avec un casque d'hiver spécial sans visière et en utilisant intensivement des lunettes de protection.
+4: En ajoutant et en installant un éclairage puissant sur la moto et en utilisant en permanence les feux de route.
+
+#1658
+Q: Quelle est la bonne position assise d'un passager supplémentaire sur la moto ?
+1: Le passager est assis sur une selle prévue, les jambes posées sur les repose-pieds de part et d'autre de la moto, et se tient à une poignée ou au conducteur.
+2: Le passager est assis derrière le conducteur, penché en avant, et se tient au réservoir.
+3: Le passager est assis devant le conducteur, penché en avant, et se tient au réservoir ou au guidon.
+4: Le passager est assis sur une selle prévue, le corps droit incliné en arrière, et se tient au porte-bagages installé à l'arrière de la moto.
+
+#1659
+Q: Quels sont les points importants en roulant à deux sur la moto ?
+1: Il faut s'assurer que le poids du passager ne dépasse pas celui du motocycliste (conducteur).
+2: Il faut instruire le passager sur la bonne montée sur la moto. Tout le reste est secondaire.
+3: Il faut fixer des codes de communication entre le passager et le conducteur. Tout le reste est sans importance.
+4: Il faut instruire le passager avant le départ sur tout ce qui concerne la montée, la descente, la bonne position assise et le comportement du corps.
+
+#1660
+Q: Le titulaire d'un permis de conduire de catégorie A2 ne transportera pas de passager supplémentaire sur une moto, sauf si le conducteur a atteint :
+1: 17 ans.
+2: 16 ans.
+3: 18 ans.
+4: 15 ans.
+
+#1661
+Q: Quel est le bon freinage sur une moto pendant la conduite ?
+1: Il faut actionner le frein avant et le frein arrière en alternance.
+2: Il faut actionner uniquement le frein arrière, en alternance. Il ne faut pas actionner le frein avant.
+3: Il faut actionner le frein avant et le frein arrière ensemble, pour ralentir et freiner.
+4: Il faut actionner le frein arrière et ralentir avec le moteur.
+
+#1662
+Q: Celui qui a obtenu pour la première fois un permis de conduire de catégorie A1 ou A2 et a atteint 18 ans ne doit pas transporter de passagers, sauf s'il :
+1: A suivi avec succès un stage de conduite correcte.
+2: Est titulaire du permis de conduire, comme dit, depuis au moins un an.
+3: Est titulaire du permis de conduire, comme dit, depuis au moins six mois.
+4: Est titulaire du permis de conduire, comme dit, depuis au moins deux mois.
+
+#1663
+Q: Comment passerons-nous un obstacle sur la route en roulant à moto ?
+1: On ne freine pas, on continue de rouler normalement.
+2: On ralentit avant l'obstacle.
+3: On freine en enclenchant le point mort (neutre) jusqu'à avoir passé l'obstacle.
+4: On accélère et on passe l'obstacle rapidement.
+
+#1664
+Q: Nul ne conduira un tracteur auquel est attelée une remorque de plus de 4 000 kg de poids total :
+1: Sauf s'il a suivi avec succès un stage de conduite correcte.
+2: Sauf après trois mois à compter du jour où il a obtenu son permis de conduire un tracteur.
+3: Sauf après six mois à compter du jour où il a obtenu son permis de conduire un tracteur.
+4: Sauf après un an à compter du jour où il a obtenu son permis de conduire un tracteur.
+
+#1665
+Q: Le conducteur d'un tracteur ne transportera pas de passager supplémentaire sur le tracteur, sauf après :
+1: Avoir réussi l'examen théorique selon le système de points de la circulation.
+2: Un an à compter du jour où il a obtenu son permis de conduire un tracteur.
+3: Trois mois à compter du jour où il a obtenu son permis de conduire un tracteur.
+4: Six mois à compter du jour où il a obtenu son permis de conduire un tracteur.
+
+#1666
+Q: Quelle est la vérification importante que le motocycliste doit faire avant d'entrer dans une intersection ?
+1: Qu'il n'y a pas dans l'intersection de circulation susceptible de le mettre en danger.
+2: Calculer le temps qu'il lui faut pour traverser l'intersection à la vitesse à laquelle il y entre.
+3: Dans une intersection à feux, il n'y a aucune vérification à faire.
+4: Qu'aucun véhicule ne roule parallèlement à lui à la même vitesse.
+
+#1667
+Q: Le permis de conduire de catégorie A2 permet de conduire :
+1: Une moto dont la puissance du moteur dépasse 39 kW (52 chevaux).
+2: Une moto – sans limitation de puissance du moteur.
+3: Une moto dont la puissance du moteur va jusqu'à 11 kW (14,6 chevaux).
+4: Une moto dont la puissance du moteur dépasse 25 kW (33 chevaux).
+
+#1668
+Q: Quelle est la vitesse maximale autorisée pour une moto de catégorie A (si aucun panneau ne dit le contraire) ?
+1: 50 km/h sur route urbaine et 80 km/h sur route non urbaine.
+2: 80 km/h sur route urbaine et 100 km/h sur voie rapide.
+3: 40 km/h sur route urbaine et 70 km/h sur route non urbaine.
+4: 40 km/h sur route urbaine et 90 km/h sur route non urbaine.
+
+#1669
+Q: Comment règle-t-on les rétroviseurs de la moto ?
+1: Uniquement dans un centre de contrôle et avec un appareillage spécial.
+2: En roulant lentement et dans les virages à droite et à gauche.
+3: À l'arrêt, la moto et le guidon étant à 90 degrés l'un de l'autre.
+4: En mesurant l'angle du rétroviseur et sa position dans l'espace.
+
+#1670
+Q: Comment savoir que les plaquettes de frein sont usées et qu'il faut les changer ?
+1: D'après la vitesse de refroidissement des freins lors de freinages forts.
+2: Ce n'est qu'après un contrôle dans un centre de contrôle qu'on peut connaître l'usure des plaquettes.
+3: On ne peut pas le savoir, sauf quand les plaquettes seront complètement usées – alors il faut obligatoirement les changer.
+4: Il y a sur les plaquettes de frein un repère d'usure, qu'on peut remarquer.
+
+#1671
+Q: Quel semi-remorque de la photo a trois essieux ?
+1: 17
+2: 15
+3: 16
+4: 14
+
+#1672
+Q: Quel type de véhicule voit-on sur la photo et quelle est sa longueur maximale autorisée par la loi ?
+1: Un véhicule composé à cabine derrière le moteur ; longueur totale maximale autorisée – 17,60 mètres.
+2: Un véhicule composé à cabine devant le moteur ; longueur totale maximale autorisée – 16,50 mètres.
+3: Un véhicule articulé à cabine derrière le moteur ; longueur totale maximale autorisée – 16,50 mètres.
+4: Un véhicule articulé à cabine derrière le moteur ; longueur totale maximale autorisée – 17,60 mètres.
+
+#1673
+Q: À quoi faut-il veiller en achetant un pneu d'occasion en bon état pour le véhicule ?
+1: Seulement que la pression d'air du pneu neuf est identique à celle de l'ancien.
+2: À vérifier la date de fabrication du pneu, pour s'assurer que le pneu n'est pas trop vieux (plus de deux ans).
+3: Seulement que la taille du pneu neuf est identique à celle de l'ancien.
+4: Seulement que la forme de la bande de roulement du pneu neuf est identique à celle de l'ancien.
+
+#1674
+Q: Un « conducteur novice » a été condamné par le tribunal pour excès de vitesse. Donc :
+1: L'autorité des permis renouvellera son permis comme pour tout conducteur, à condition qu'il n'ait pas été condamné pour plus d'une infraction en tant que « conducteur novice ».
+2: L'autorité des permis peut le convoquer à des examens de conduite, et s'il les réussit, il sera de nouveau considéré comme conducteur novice pendant deux ans.
+3: L'autorité des permis doit renouveler son permis comme conducteur ordinaire, sans la restriction de « conducteur novice ».
+4: L'autorité des permis renouvellera son permis comme pour tout conducteur. L'autorité ne peut poser aucune condition au renouvellement du permis de conduire.
+
+#1675
+Q: Quand le voyant de contrôle de la pression d'huile s'allume en roulant, vous devez :
+1: Continuer à rouler, si la jauge de température du moteur indique que la température est normale.
+2: Continuer à rouler sur un rapport bas jusqu'au garage (mais pas plus d'une demi-heure de route).
+3: Continuer à rouler, à condition qu'il y ait une quantité suffisante d'huile dans le carter du moteur.
+4: Arrêter immédiatement le véhicule et couper le moteur.
+
+#1676
+Q: Quel est le rôle du ralentisseur (retarder) du véhicule ?
+1: Équilibrer le fonctionnement du moteur et réguler la vitesse de rotation du moteur.
+2: Servir de substitut aux freins de service (frein à pied) pour arrêter le véhicule en cas de danger immédiat d'urgence.
+3: Aider le frein auxiliaire (de stationnement) en stationnant dans une descente raide.
+4: Ralentir le véhicule en roulant sans passer par le système de freinage, par exemple dans une longue descente.
+
+#1677
+Q: Quand le conducteur a-t-il l'obligation de signaler ?
+1: Quand le conducteur compte dévier de sa trajectoire.
+2: Quand le conducteur arrive à une longue côte.
+3: Quand le conducteur arrive à une descente raide.
+4: Quand le conducteur approche d'un passage à niveau avec barrière.
+
+#1678
+Q: Quelle est l'obligation de ralentir fixée par la loi et applicable au conducteur ?
+1: Ralentir avant d'entrer sur une voie rapide.
+2: Ralentir le véhicule – et même s'arrêter – chaque fois qu'un danger est à prévoir.
+3: Ralentir quand le véhicule est plein à craquer de passagers.
+4: Ralentir à une vitesse raisonnable avant de commencer une longue descente.
+
+#1679
+Q: Comment garderez-vous la stabilité du véhicule quand vous arrivez à une courbe de la route ?
+1: Vous devez augmenter la vitesse avant l'entrée de la courbe.
+2: Vous devez mettre au point mort.
+3: Vous devez enclencher un rapport haut.
+4: Vous devez ralentir avant l'entrée de la courbe, et accélérer légèrement à la sortie.
+
+#1680
+Q: Si, en roulant la nuit, le feu de croisement d'une moto tombe en panne :
+1: On peut continuer sans feux de croisement – pas plus d'une semaine.
+2: La loi interdit de continuer à rouler.
+3: On peut continuer, mais seulement à la suite d'un véhicule dont les feux sont en état.
+4: On peut continuer à vitesse lente (la moitié de la vitesse maximale autorisée).
+
+#1681
+Q: Un « conducteur novice » qui n'a pas encore 21 ans ne transportera pas dans une voiture particulière :
+1: Plus d'un passager en dehors de lui, sauf si un accompagnateur est assis à côté de lui.
+2: Plus de quatre passagers en dehors de lui, sauf si un accompagnateur est assis à côté de lui.
+3: Plus de quatre passagers, à condition que tous aient un permis de conduire de voiture particulière.
+4: Plus de deux passagers en dehors de lui, sauf si un accompagnateur est assis à côté de lui.
+

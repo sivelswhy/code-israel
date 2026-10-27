@@ -1,0 +1,420 @@
+#1502
+Q: L'obligation du conducteur d'un véhicule transportant une charge hors gabarit, qu'il est impossible de dépasser, est :
+1: De s'arrêter et de diriger la circulation des autres véhicules pour qu'ils le dépassent.
+2: Si possible – de descendre au-delà du bord de la route et même de s'arrêter sur l'accotement.
+3: De continuer à la vitesse normale, à droite de la route. Il est interdit de descendre sur l'accotement.
+4: De faire signe de la main à ceux qui sont derrière lui quand on peut dépasser.
+
+#1503
+Q: La résistance de l'air à la marche du véhicule influence :
+1: L'usure des mécanismes de direction.
+2: La stabilité du véhicule et sa vitesse.
+3: La capacité de freinage des freins du véhicule.
+4: La vitesse du véhicule et l'usure des pneus.
+
+#1504
+Q: Comment fixe-t-on un conteneur sur le plateau de chargement du véhicule ?
+1: Avec des câbles d'acier, s'il n'y a pas de dispositifs de verrouillage rotatifs (twist-lock).
+2: Uniquement avec des dispositifs de verrouillage rotatifs (twist-lock).
+3: Avec deux chaînes indépendantes reliées chacune au plateau de chargement.
+4: Avec les parois du plateau de chargement.
+
+#1505
+Q: Est-il permis de transporter un conteneur lorsque tous les dispositifs de verrouillage rotatifs (twist-lock) ne sont pas verrouillés ?
+1: C'est permis, mais seulement pour un conteneur de 40 pieds.
+2: C'est permis – si un officier de police donne son autorisation.
+3: C'est permis, mais seulement pour un conteneur court.
+4: C'est interdit.
+
+#1506
+Q: Où charge-t-on une charge lourde dans la benne d'un camion ?
+1: De l'essieu arrière vers la cabine du conducteur.
+2: L'emplacement de la charge lourde n'a pas d'importance, pourvu qu'elle ne dépasse pas la benne.
+3: Dans la partie avant de la benne.
+4: Derrière l'essieu arrière.
+
+#1507
+Q: Quel panneau autorise l'entrée aux piétons ?
+1: 413
+2: 226
+3: Tous.
+4: 414
+
+#1508
+Q: Quels sont les dangers d'une conduite continue pendant de nombreuses heures ?
+1: Échauffement et usure accélérée des pneus du véhicule.
+2: Surchauffe du moteur du véhicule.
+3: Infraction à la loi sur l'assurance.
+4: La fatigue et le risque d'endormissement du conducteur.
+
+#1509
+Q: Comment surmonter le problème de la fatigue au volant ?
+1: Par une courte pause et un repas copieux – ils dissiperont la fatigue pour longtemps, pour plus de sécurité.
+2: Par une activité physique qui dissipe la fatigue pour de nombreuses heures.
+3: Par un repos suffisant avant de commencer à conduire et de longues pauses de repos pendant les heures de conduite.
+4: En roulant à faible vitesse jusqu'à ce que la fatigue passe.
+
+#1510
+Q: Une pause de détente hors du véhicule peut-elle dissiper la fatigue au volant ?
+1: Oui, pour peu de temps.
+2: Elle peut dissiper complètement la fatigue.
+3: Oui, pour longtemps.
+4: Absolument, et pour longtemps – et elle est préférable à un repos hors du véhicule.
+
+#1511
+Q: Quel est le danger de la conduite d'un long camion ?
+1: La présence de petits véhicules dans les « angles morts » et la difficulté dans les virages serrés.
+2: Le temps de réaction du conducteur est plus long.
+3: Il n'y a pas de danger particulier à conduire un long véhicule par rapport à une voiture particulière.
+4: L'impossibilité de tourner à gauche en sécurité.
+
+#1512
+Q: Un motocycliste peut-il rouler à côté d'une autre moto ?
+1: Non, mais il peut dépasser une autre moto ou passer devant elle.
+2: C'est interdit. Il peut rouler, mais seulement à côté d'une voiture particulière.
+3: C'est absolument interdit.
+4: C'est interdit. Il peut rouler, mais seulement à côté d'un véhicule utilitaire transportant des passagers.
+
+#1513
+Q: Jusqu'à quelle hauteur peut-on charger une charge en vrac ?
+1: Jusqu'à la hauteur des parois de la benne, échelles du véhicule comprises.
+2: Jusqu'à la hauteur des parois de la benne, sauf les échelles du véhicule.
+3: Jusqu'à la hauteur de la porte arrière de la benne.
+4: Jusqu'à la hauteur de la vitre arrière de la cabine du conducteur.
+
+#1514
+Q: Un remorquage sans goupille de sécurité spécifique et sans chaînes de sécurité peut provoquer :
+1: La rupture de la goupille d'attelage.
+2: Le détachement de la remorque du véhicule tracteur.
+3: La possibilité d'un attelage plus rapide et plus sûr de la remorque.
+4: Une usure accrue du crochet d'attelage.
+
+#1515
+Q: Que sont les « angles morts » ?
+1: Les gênes à la vision du conducteur vers l'arrière.
+2: Toutes les zones autour du véhicule où le conducteur ne peut remarquer la présence d'autres usagers – ni à vue, ni dans les rétroviseurs, ni par aucun autre moyen.
+3: Uniquement la zone à l'avant du véhicule, où le conducteur peine à remarquer les piétons.
+4: Uniquement la zone à l'arrière du véhicule, où le conducteur ne peut remarquer d'autres véhicules – ni à vue, ni dans les rétroviseurs, ni par aucun autre moyen.
+
+#1516
+Q: Où se trouve le plus grand « angle mort » d'un véhicule de transport de marchandises ?
+1: À l'avant du véhicule.
+2: Cela dépend de la taille du rétroviseur intérieur : plus il est grand, plus l'angle mort est grand à l'avant.
+3: Sur le côté gauche du véhicule.
+4: À l'arrière du véhicule.
+
+#1517
+Q: Le permis de conduire de catégorie B autorise à conduire :
+1: Une moto dont la puissance du moteur va jusqu'à 14,6 chevaux.
+2: Une voiture particulière et un véhicule utilitaire dont le poids total autorisé va jusqu'à 4 500 kg.
+3: Une voiture particulière et un véhicule utilitaire dont le poids total autorisé va jusqu'à 3 500 kg.
+4: Un véhicule public, y compris un minibus public.
+
+#1518
+Q: Quelle est la solution efficace au problème de la fatigue du conducteur ?
+1: Actionner les essuie-glaces et résoudre un mot croisé.
+2: S'arrêter et se reposer.
+3: Allumer les antibrouillards.
+4: Adapter la vitesse à l'état de fatigue (rouler plus lentement à mesure que le conducteur est plus fatigué).
+
+#1519
+Q: Quelle est la signification du panneau ?
+1: Fin de l'endroit ou du tronçon où le stationnement est interdit.
+2: Fin de l'endroit ou du tronçon où le stationnement est autorisé.
+3: Début d'un tronçon de stationnement payant.
+4: Fin de l'endroit ou du tronçon où le stationnement n'est autorisé qu'aux motos.
+
+#1520
+Q: Il est obligatoire d'avoir deux cales de sécurité dans un véhicule utilitaire dont le poids total autorisé dépasse :
+1: 3 000 kg.
+2: 5 000 kg.
+3: 4 000 kg.
+4: 2 500 kg.
+
+#1521
+Q: Quelle est la longueur totale maximale autorisée d'un véhicule de transport de marchandises qui tracte une remorque ?
+1: 14 mètres.
+2: 16 mètres.
+3: 12,75 mètres.
+4: 18,75 mètres.
+
+#1522
+Q: Comment signale-t-on une charge qui dépasse à l'avant du véhicule ?
+1: Par un triangle réfléchissant blanc à l'extrémité de la charge qui dépasse.
+2: Par un feu et un drapeau rouge à l'extrémité de la charge qui dépasse.
+3: Par un triangle réfléchissant rouge à l'extrémité de la charge qui dépasse.
+4: Par un feu et un drapeau blancs ou jaunes à l'extrémité de la charge qui dépasse.
+
+#1523
+Q: Le conducteur d'un véhicule qui arrive à un pont étroit :
+1: Ralentit en s'approchant du pont et en le franchissant.
+2: Franchit le pont à vitesse maximale pour permettre au véhicule d'en face de le franchir sans retard.
+3: Accélère en s'approchant du pont et roule lentement sur le pont – pour plus de sécurité.
+4: S'arrête avant le pont par sécurité, puis le franchit rapidement.
+
+#1524
+Q: Quel véhicule de transport de marchandises doit avoir un frein moteur ?
+1: Un véhicule de transport de marchandises dont le poids total autorisé est de 6 000 kg et plus.
+2: Un véhicule de transport de marchandises dont le poids total autorisé est de 5 000 kg et plus.
+3: Un véhicule à moteur diesel dont le poids total autorisé est de 8 000 kg et plus.
+4: Un véhicule de transport de marchandises dont le poids total autorisé est de 4 000 kg et plus.
+
+#1525
+Q: Est-il permis de conduire sous l'influence de calmants ?
+1: C'est interdit, si l'ordonnance du médicament ou le médecin l'indique.
+2: Oui. Les calmants n'influencent pas la conduite.
+3: On peut prendre des calmants une demi-heure avant de conduire.
+4: C'est interdit si le conducteur est sensible à un médicament donné ; c'est permis s'il n'a pas cette sensibilité.
+
+#1526
+Q: La longueur totale autorisée d'un véhicule de transport de marchandises ne dépassera pas :
+1: 11 mètres.
+2: 12 mètres.
+3: 12,5 mètres.
+4: 10 mètres.
+
+#1527
+Q: Quelle est la hauteur maximale au-dessus de la route d'une charge qu'on peut charger sur un véhicule utilitaire dont le poids total autorisé va de 3 501 à 8 000 kg ?
+1: Quatre mètres.
+2: Trois mètres.
+3: Deux mètres et demi.
+4: Trois mètres et demi.
+
+#1528
+Q: Comment devez-vous agir quand vous roulez sur une route étroite et qu'un autre véhicule arrive soudain en face ?
+1: Ralentir et vous déporter autant que possible à droite, mais sans quitter la route.
+2: Klaxonner et faire signe des mains au conducteur qui a dévié de revenir sur sa voie.
+3: Ralentir et vous déporter autant que possible à droite, et si nécessaire – quitter la route.
+4: Allumer les feux de route pour signaler au conducteur d'en face de revenir sur sa voie.
+
+#1529
+Q: Comment conduirez-vous sur route mouillée ?
+1: Appuyer par intermittence sur la pédale d'embrayage.
+2: Comme sur route sèche. Il n'y a pas de différence.
+3: Augmenter la vitesse jusqu'à la fin du tronçon mouillé – pour plus de sécurité.
+4: Ralentir et rouler à la vitesse adaptée, selon les circonstances.
+
+#1530
+Q: À l'entrée des courbes et en y roulant, le conducteur doit :
+1: Accélérer pour garantir un virage fluide.
+2: Se coller au milieu de la route pour garantir la stabilité du véhicule.
+3: Accélérer à l'entrée et ralentir au milieu du virage.
+4: Réduire la vitesse de conduite.
+
+#1531
+Q: Quand vous roulez derrière un grand véhicule :
+1: Gardez la plus petite distance possible avec le véhicule devant vous.
+2: En côte – gardez une petite distance ; en descente – gardez une distance double.
+3: Gardez une distance plus grande avec le véhicule devant vous seulement quand le panneau « danger général » est placé.
+4: Gardez une distance plus grande que d'habitude avec ce véhicule, pour éviter un accident.
+
+#1532
+Q: Qu'est-ce qui influence la distance nécessaire pour dépasser ?
+1: La distance nécessaire dépend uniquement de la vitesse maximale autorisée sur ce tronçon.
+2: Les vitesses des deux véhicules, celui qui dépasse et celui qui est dépassé.
+3: Uniquement la vitesse du véhicule qui dépasse. La vitesse du véhicule dépassé n'a aucune influence.
+4: Uniquement la vitesse du véhicule dépassé. La vitesse du véhicule qui dépasse est importante mais n'influence pas.
+
+#1533
+Q: Combien de véhicules est-il permis de remorquer avec un véhicule utilitaire dont le poids total autorisé dépasse 2 200 kg ?
+1: Deux véhicules.
+2: Il n'y a pas de limite au nombre de véhicules qu'on peut remorquer.
+3: Trois petits véhicules.
+4: Un véhicule, sauf si l'autorité des permis a approuvé un autre nombre.
+
+#1534
+Q: Comment agit le conducteur lorsqu'il y a un fort vent latéral ?
+1: Il allume les antibrouillards et continue de rouler normalement – surtout avec un véhicule à grande surface latérale.
+2: Il ralentit et adapte sa vitesse à sa capacité de maîtriser le véhicule – surtout avec un véhicule à grande surface latérale.
+3: Il faut éviter de conduire sur les routes exposées au vent latéral ou s'arrêter sur l'accotement jusqu'à ce que le vent faiblisse.
+4: Il augmente sa vitesse pour être influencé par le vent latéral le moins longtemps possible.
+
+#1535
+Q: Quel panneau interdit l'entrée aux piétons ?
+1: 815
+2: 221
+3: 901
+4: 216
+
+#1536
+Q: Un conducteur s'approche d'un passage piéton et le conducteur devant lui s'est arrêté avant le passage. Donc :
+1: Il peut dépasser seulement s'il y a un feu au passage piéton.
+2: Il lui est interdit de dépasser le véhicule arrêté avant le passage.
+3: Il peut dépasser le véhicule arrêté avant le passage, à condition de dépasser prudemment.
+4: Le conducteur peut dépasser le véhicule arrêté, mais c'est interdit pendant les heures d'éclairage.
+
+#1537
+Q: L'obligation d'accompagnement d'un véhicule s'applique à un véhicule utilitaire qui transporte une charge hors gabarit de plus de :
+1: Deux mètres et demi de large.
+2: 3,40 mètres de large.
+3: Trois mètres de large.
+4: 20 cm de chaque côté de la benne du véhicule.
+
+#1538
+Q: Comment faut-il signaler une charge qui dépasse à l'arrière du véhicule ?
+1: Par un feu rouge à l'extrémité de la charge qui dépasse.
+2: Par un triangle blanc réfléchissant à l'extrémité de la charge qui dépasse.
+3: Par un feu blanc ou jaune à l'extrémité de la charge qui dépasse.
+4: Par un triangle rouge réfléchissant à l'extrémité de la charge qui dépasse.
+
+#1539
+Q: Une charge hors gabarit qui dépasse à l'arrière du véhicule se signale :
+1: Par un triangle rouge réfléchissant dont chaque côté mesure 60 cm.
+2: Par un drapeau rouge attaché à son extrémité qui dépasse.
+3: Par un drapeau blanc attaché à son extrémité qui dépasse.
+4: Par un triangle blanc réfléchissant dont chaque côté mesure 60 cm.
+
+#1540
+Q: Une vitesse raisonnable est :
+1: La vitesse adaptée aux conditions et aux circonstances et qui n'est pas supérieure à la vitesse maximale autorisée.
+2: La vitesse à laquelle les passagers du véhicule poussent à rouler. Les passagers ont toujours raison.
+3: La vitesse adaptée aux conditions et aux circonstances, même si elle est un peu supérieure à la vitesse autorisée.
+4: La vitesse maximale autorisée sur cette route est la vitesse raisonnable en toutes circonstances.
+
+#1541
+Q: Au bout de combien d'années depuis son année de fabrication le permis d'un véhicule de dépannage et de remorquage dont le poids total autorisé ne dépasse pas 16 000 kg ne sera-t-il plus renouvelé ?
+1: 15 ans.
+2: 11 ans.
+3: 19 ans.
+4: 23 ans.
+
+#1542
+Q: Conduire dans l'obscurité en feux de route peut provoquer :
+1: Un gaspillage d'électricité.
+2: Une panne de la batterie.
+3: L'éblouissement d'autres conducteurs.
+4: Un dommage à la vue du conducteur.
+
+#1543
+Q: Est-il permis de monter sur le trottoir et d'y rouler pour contourner un obstacle sur la route ?
+1: Non. On ne roule pas sur le trottoir pour contourner un obstacle.
+2: Oui. On peut contourner l'obstacle par le trottoir, si c'est plus simple.
+3: Oui. On peut monter et rouler sur le trottoir en conduisant très prudemment et en première.
+4: Oui. On peut monter et rouler sur le trottoir, mais seulement pour les motos.
+
+#1544
+Q: La largeur totale autorisée d'un véhicule utilitaire de type « carrosserie frigorifique » ne dépassera pas :
+1: 3,40 mètres.
+2: 2,60 mètres.
+3: 2,55 mètres.
+4: 2,50 mètres.
+
+#1545
+Q: Qu'est-ce qu'une « remorque » selon la loi :
+1: Un véhicule non motorisé destiné à être tracté par un véhicule à moteur devant lui.
+2: Une remorque motorisée construite de telle façon que sa partie avant repose sur un tracteur routier.
+3: Un véhicule tombé en panne sur la route et tracté par un autre véhicule pour son dépannage.
+4: Un véhicule à moteur destiné par sa construction à être tracté par un autre véhicule derrière lui.
+
+#1546
+Q: Quelle est l'obligation du conducteur qui a senti qu'une partie de la charge qu'il transporte est tombée sur la route ?
+1: Informer l'assureur.
+2: En informer la police. L'obligation d'enlèvement incombe à la municipalité ou à Matsa.
+3: Informer à la fois la police et l'assureur et attendre leur arrivée.
+4: S'arrêter immédiatement et veiller à l'enlèvement immédiat de la charge tombée.
+
+#1547
+Q: Le freinage brusque est permis lorsque :
+1: Le passager ou le conducteur demande soudain à descendre du véhicule.
+2: Le conducteur découvre qu'il s'est trompé de chemin.
+3: Le conducteur veut faire demi-tour.
+4: Il n'y a pas d'autre moyen d'éviter un accident de la route.
+
+#1548
+Q: Quand vous sortez sur la route depuis un chemin de terre :
+1: Cédez le passage au véhicule sur la route seulement si la route est à double sens.
+2: Il n'y a pas d'obligation de céder le passage, cela dépend de la bonne volonté de celui qui sort du chemin de terre.
+3: Cédez le passage au véhicule venant de droite et passez. Ceux qui viennent de gauche doivent vous céder le passage.
+4: Cédez le passage au véhicule sur la route revêtue.
+
+#1549
+Q: Qui doit vérifier si l'équipement complet de premiers secours se trouve dans l'autobus ?
+1: Le conducteur de l'autobus doit vérifier si l'équipement s'y trouve, mais seulement la première fois que l'autobus sort du garage après une réparation.
+2: Le propriétaire de l'autobus.
+3: Le conducteur de l'autobus doit vérifier que l'équipement se trouve dans l'autobus en tout temps.
+4: Le directeur du garage de la société doit vérifier si l'équipement se trouve dans l'autobus en tout temps.
+
+#1550
+Q: Un conducteur qui se sent fatigué la nuit doit :
+1: Chercher un endroit sûr pour se reposer et faire une petite sieste sans gêner la circulation.
+2: Manger un repas copieux et éviter de boire.
+3: Écouter la radio, mais pas de musique apaisante.
+4: Ouvrir la vitre à côté de lui, pour la circulation d'air.
+
+#1551
+Q: Dans un véhicule de travail :
+1: Il est interdit de transporter une charge, mais on peut transporter jusqu'à six passagers dans la benne.
+2: Il est interdit de transporter des passagers, mais on peut transporter une charge.
+3: Il est interdit de transporter une charge ou des passagers, sauf dans la cabine du conducteur.
+4: On peut transporter des passagers et une charge.
+
+#1552
+Q: Est-il permis de conduire sous l'influence d'une boisson alcoolisée enivrante ?
+1: C'est permis, mais seulement après des événements familiaux et seulement sur une courte distance.
+2: C'est permis, s'il n'y a pas de transport public à cet endroit.
+3: C'est permis, à condition que le conducteur ne mélange pas les types de boissons.
+4: C'est absolument interdit.
+
+#1553
+Q: La distance entre les roues du véhicule les plus proches du bord de la route, en stationnement, à l'arrêt et à l'immobilisation, et le trottoir ne dépassera pas :
+1: 40 cm.
+2: 80 cm.
+3: 50 cm.
+4: 60 cm.
+
+#1554
+Q: Avant de sortir dans une boîte de nuit, un pub, etc. :
+1: On prévoit d'attendre une heure après la sortie, et ensuite on pourra conduire sans crainte.
+2: On décide à l'avance qui conduira le véhicule, et il ne boira pas de boissons alcoolisées.
+3: On décide qu'après la sortie, le conducteur le plus expérimenté conduira, qu'il ait bu ou non.
+4: On décide qu'après la sortie, celui qui a bu le moins d'alcool conduira.
+
+#1555
+Q: Pour éviter de heurter un véhicule qui s'arrête brusquement devant vous :
+1: Essayez de le dépasser pour le laisser derrière vous.
+2: Gardez toujours une distance suffisante avec le véhicule devant vous (selon la méthode de distance de sécurité – 22, 21).
+3: Arrêtez-vous immédiatement quand vous remarquez les feux stop du véhicule devant vous, quelle que soit la distance.
+4: Gardez le pied en permanence sur le frein pour pouvoir vous arrêter s'il le faut.
+
+#1556
+Q: Quelle est la différence entre les panneaux ?
+1: Le panneau 146 avertit de la présence d'animaux sauvages sur la route. Le panneau 411 interdit l'entrée aux animaux.
+2: Les deux panneaux font partie du groupe des panneaux d'obligation et avertissent le conducteur de différents animaux sur la route.
+3: Les deux panneaux font partie du groupe des panneaux d'information et avertissent le conducteur de différents animaux sur la route.
+4: Le panneau 146 interdit l'entrée aux animaux. Le panneau 411 avertit de la présence d'animaux sur la route.
+
+#1557
+Q: Un policier peut-il interrompre la marche d'un véhicule qui n'a pas été signalé conformément à la loi ou dont la charge n'a pas été chargée conformément à la loi ?
+1: Non. Un policier de la circulation peut seulement réprimander le propriétaire du véhicule, l'avertir et lui dresser un procès-verbal.
+2: Non. Un policier ne peut pas interdire de poursuivre la route.
+3: Oui. Un policier peut interdire de poursuivre la route jusqu'à ce que la charge soit arrangée conformément à la loi.
+4: Oui, mais seulement sur route urbaine.
+
+#1558
+Q: Comment agit le conducteur lorsque, en roulant, une crevaison se produit sur l'un des pneus de son véhicule ?
+1: Il relâche sa prise sur le volant et freine progressivement le véhicule.
+2: Il tient fermement le volant et freine progressivement le véhicule.
+3: Il relâche sa prise sur le volant et freine fortement le véhicule.
+4: Il tient fermement le volant et freine fortement le véhicule.
+
+#1559
+Q: Lorsque le soleil éblouit le conducteur, il doit :
+1: Dépasser le véhicule devant lui, car il vaut mieux rouler sur une route dégagée.
+2: Ralentir en fonction de la visibilité existante et utiliser le pare-soleil.
+3: Détourner le regard sur le côté et ne pas regarder devant, pour ne pas être ébloui.
+4: Se coller au véhicule devant lui pour qu'il le cache des rayons du soleil.
+
+#1560
+Q: Quand la marche arrière est-elle permise ?
+1: Quand il y a un besoin personnel de reculer, même si la marche arrière n'est pas indispensable.
+2: Quand il y a un besoin de circulation et qu'il n'y a pas d'autre moyen d'effectuer le trajet.
+3: Elle est toujours permise. L'essentiel est que les autres conducteurs voient toujours celui qui recule.
+4: Seulement si la largeur de la route dépasse quatre mètres.
+
+#1561
+Q: Lorsque sur la route est marquée à votre gauche une ligne de séparation continue et, à sa gauche, une ligne discontinue :
+1: Il vous est interdit de franchir les lignes, mais le véhicule d'en face peut le faire – quand la route est libre.
+2: Vous pouvez franchir les lignes, mais le véhicule d'en face a la priorité.
+3: Vous pouvez franchir les lignes, mais le véhicule d'en face n'a pas le droit de les franchir.
+4: Vous pouvez franchir les lignes, car vous avez la priorité.
+

@@ -1,0 +1,420 @@
+#1562
+Q: Lorsque le voyant du frein auxiliaire (de stationnement) du tableau de bord est allumé pendant la conduite :
+1: Le frein auxiliaire (de stationnement) n'est pas serré et il faut le serrer.
+2: Le frein auxiliaire (de stationnement) est en ordre. Le voyant est défectueux et doit être remplacé.
+3: Tout va bien. C'est un voyant de contrôle qui doit rester allumé tant que le frein auxiliaire (de stationnement) est en bon état.
+4: Le frein auxiliaire (de stationnement) est serré et il faut le desserrer. Il freine réellement le véhicule.
+
+#1563
+Q: Lorsque le soleil éblouit le conducteur, il doit :
+1: Dépasser le véhicule devant lui, car il est préférable de rouler sur une route dégagée.
+2: Ralentir et adapter sa vitesse au champ de vision existant.
+3: Détourner le regard sur le côté et ne pas regarder devant.
+4: Accélérer jusqu'à atteindre un endroit ombragé.
+
+#1564
+Q: En roulant de nuit, lorsqu'un véhicule vient en face sans baisser ses feux et vous éblouit :
+1: Allumez les feux de route pour surmonter l'éblouissement du véhicule en face.
+2: Continuez en feux de croisement à la même vitesse, sur la même trajectoire.
+3: Accélérez pour réduire la durée de l'éblouissement.
+4: Ralentissez et serrez à droite autant que possible – ne regardez pas dans les phares.
+
+#1565
+Q: Comment agit le conducteur si le temps de remplissage des réservoirs du système de freinage à air s'allonge ?
+1: Il réduit le régime du moteur, améliorant ainsi le travail du compresseur.
+2: Il attend le temps nécessaire au remplissage des réservoirs et ignore le problème.
+3: Il s'adresse à un garage agréé pour réparer la panne après le remplissage des réservoirs, en roulant lentement et prudemment.
+4: Il vérifie le filtre à carburant du système et le nettoie, si nécessaire.
+
+#1566
+Q: Quelle est la pression correcte dans un système de freinage pneumatique (air comprimé) d'un véhicule ?
+1: La pression fixée par la loi locale.
+2: La pression à laquelle le véhicule freinera efficacement.
+3: La pression maximale que produit le véhicule.
+4: La pression fixée par le constructeur du véhicule.
+
+#1567
+Q: Est-il permis de conduire un véhicule lourd lorsque la pression d'air du système de freinage est inférieure au minimum requis ?
+1: C'est interdit.
+2: C'est permis, mais seulement avec l'autorisation d'un policier ou d'un officier.
+3: C'est permis, mais seulement si la capacité d'arrêt du véhicule est bonne.
+4: C'est permis, s'il est absolument clair qu'il n'y a pas de fuite.
+
+#1568
+Q: Est-il permis d'apporter des modifications à la structure ou au type du véhicule ?
+1: C'est permis, mais seulement avec l'autorisation préalable écrite de l'autorité des permis.
+2: C'est permis, mais seulement si la modification a été faite par un garage agréé.
+3: Le propriétaire peut apporter des modifications au véhicule comme il le souhaite.
+4: C'est permis, à condition que le propriétaire en informe à l'avance par écrit le constructeur ou le concessionnaire.
+
+#1569
+Q: Quel panneau avertit de la présence d'animaux sur la route ?
+1: 411
+2: 635
+3: 414
+4: 146
+
+#1570
+Q: Quel panneau viendra après le panneau 135 de l'image ?
+1: 220
+2: 306
+3: 149
+4: 136
+
+#1571
+Q: Un « side-car » (véhicule latéral) est :
+1: Un dispositif de transport d'une personne ou d'une charge, monté sur une roue et relié à la moto sur son côté (nacelle).
+2: Une moto munie de trois roues l'une derrière l'autre.
+3: Un véhicule qui roule à côté d'un autre véhicule et à la même vitesse que lui.
+4: Un véhicule relié sur le côté d'un autre véhicule par une barre d'une longueur maximale de deux mètres et demi.
+
+#1572
+Q: Quel panneau signifie sentier ou voie destiné aux vélos uniquement, roulez dans le sens de la flèche ?
+1: 802
+2: 804
+3: 720
+4: 821
+
+#1573
+Q: Vous roulez derrière un véhicule lent et à votre gauche est marquée une double ligne de séparation continue blanche :
+1: Vous pouvez dépasser, à condition de ne pas franchir la ligne de séparation continue.
+2: Vous pouvez dépasser même à gauche de la ligne continue, sauf si un panneau spécial l'interdit.
+3: Vous pouvez dépasser seulement si le véhicule lent est un véhicule non motorisé.
+4: Vous pouvez dépasser et franchir la ligne continue si le véhicule roule lentement depuis longtemps.
+
+#1574
+Q: Quelle est la vitesse maximale autorisée en conduisant un tracteur de transport sur route non urbaine ?
+1: Selon les conditions de la route et le panneau.
+2: 50 km/h.
+3: 40 km/h.
+4: Selon les instructions du constructeur du tracteur de transport.
+
+#1575
+Q: Quelle est la vitesse maximale autorisée sur route urbaine pour une moto dont la cylindrée va jusqu'à 125 cm³ et la puissance du moteur jusqu'à 14,6 chevaux (11 kW), sauf indication contraire du panneau ?
+1: 60 km/h.
+2: 50 km/h.
+3: 30 km/h.
+4: 40 km/h.
+
+#1576
+Q: Une moto peut-elle remorquer ?
+1: C'est permis, lorsque le véhicule remorqué est un véhicule à deux roues.
+2: C'est interdit. Le remorquage par un véhicule à moteur à trois roues ou moins est interdit.
+3: C'est permis seulement la nuit et sans mettre personne en danger.
+4: C'est permis.
+
+#1577
+Q: Quand faut-il allumer les phares avant sur une moto ?
+1: Seulement en conduisant pendant les heures d'éclairage.
+2: En conduisant de jour comme de nuit sur toute route, toute l'année.
+3: Seulement en conduisant sur toute route la nuit.
+4: En conduisant sur toute route toute l'année, aux heures de jour uniquement.
+
+#1578
+Q: Les systèmes de commande du véhicule sont :
+1: Le freinage, la direction et l'accélération.
+2: La direction, l'accélération et la climatisation.
+3: Le freinage, la direction et l'audio.
+4: Le freinage, la direction et la climatisation.
+
+#1579
+Q: Comment faut-il immobiliser une moto avec side-car sur la route pendant les « heures d'éclairage », lorsque la route n'est pas éclairée ?
+1: Avec seulement le feu de position allumé.
+2: Avec le feu arrière et les feux de position allumés.
+3: Avec le phare avant ou le feu de position allumé.
+4: Avec le feu stop allumé.
+
+#1580
+Q: Avant d'enclencher un rapport depuis la position P vers un autre sur une boîte automatique, le conducteur doit :
+1: Appuyer ensemble sur la pédale de frein et sur la pédale d'embrayage, puis enclencher le rapport voulu.
+2: Appuyer fortement sur la pédale d'embrayage.
+3: Appuyer fortement sur la pédale d'accélérateur.
+4: Appuyer fortement sur la pédale de frein.
+
+#1581
+Q: À quelle condition la conduite d'une moto est-elle permise ?
+1: À condition que le conducteur porte un casque – attaché à sa tête ou non.
+2: Le conducteur doit porter un casque homologué, attaché à sa tête de manière à empêcher sa chute pendant la marche.
+3: À condition que le motocycliste ait en sa possession un kit de sauvetage en cas d'accident.
+4: À condition que le motocycliste ait veillé à ce que le réservoir de carburant soit plein et fermé avant de partir.
+
+#1582
+Q: La catégorie de permis nécessaire pour conduire un véhicule de travail qui tracte une remorque de plus de 4 000 kg de poids total est :
+1: B
+2: D
+3: C+E
+4: A
+
+#1583
+Q: Il est permis de transporter un passager supplémentaire sur une moto quand l'âge du conducteur est :
+1: Plus de 18 ans.
+2: Il n'y a aucune limite d'âge pour transporter un passager supplémentaire sur une moto.
+3: Plus de 16 ans.
+4: Plus de 17,5 ans.
+
+#1584
+Q: Quel est le nombre de passagers qu'on peut transporter sur une moto et sur un tricycle à moteur, en plus du conducteur ?
+1: Autant que de places adaptées au transport d'un passager supplémentaire.
+2: Autant que le nombre de passagers autorisé par l'autorité des permis sur le permis du véhicule.
+3: Autant que le nombre de passagers inscrit sur l'attestation d'assurance de la moto.
+4: Autant que le nombre de passagers indiqué sur le permis de conduire.
+
+#1585
+Q: De quelle manière faut-il transporter un passager supplémentaire sur une moto ?
+1: Les jambes du passager de part et d'autre de la moto, posées sur les repose-pieds.
+2: Les deux jambes du passager du côté gauche de la moto.
+3: Les deux jambes du passager du côté droit de la moto.
+4: Un passager supplémentaire peut s'asseoir sur la moto comme il le veut pendant la marche.
+
+#1586
+Q: Un véhicule à deux roues peut-il rouler à côté d'un autre véhicule à deux roues ?
+1: C'est permis, sur route urbaine uniquement.
+2: C'est interdit, sauf pour dépasser ou passer devant l'autre véhicule uniquement.
+3: C'est absolument interdit.
+4: C'est toujours permis.
+
+#1587
+Q: Un motocycliste peut-il garer son véhicule à un arrêt d'autobus ?
+1: Il est interdit de garer une moto dans la zone entre 12 mètres avant l'arrêt et 15 mètres après.
+2: Il est interdit de garer une moto dans la zone d'un arrêt d'autobus marqué.
+3: Oui, s'il gare la moto parallèlement au trottoir.
+4: Oui, s'il gare la moto sur le trottoir.
+
+#1588
+Q: Quel est le danger de rouler à moto avec la béquille latérale dépliée ?
+1: Cela provoquera un déséquilibre de la moto.
+2: La béquille latérale s'usera et provoquera la chute de la moto.
+3: Cela abîmera la route et d'autres infrastructures.
+4: La béquille latérale touchera la route et peut faire se renverser la moto et le conducteur.
+
+#1589
+Q: Le motocycliste ne transportera pas de paquet, de ballot ou d'objet :
+1: Qui l'empêchent de s'asseoir confortablement sur la moto.
+2: Qui dépassent de la partie arrière de la moto.
+3: Qui l'empêchent de maîtriser pleinement la moto.
+4: Qui ne sont pas emballés comme il se doit.
+
+#1590
+Q: Quelle est la durée minimale pendant laquelle un conducteur doit détenir un permis de conduire pour pouvoir conduire un tracteur de plus de 3 200 kg ou auquel est attelée une remorque de plus de 4 000 kg de poids total ?
+1: Six mois à compter du jour où il a obtenu son permis de conduire un tracteur.
+2: Deux ans à compter du jour où il a obtenu son permis de conduire un tracteur.
+3: Un an à compter du jour où il a obtenu son permis de conduire un tracteur.
+4: Trois mois à compter du jour où il a obtenu son permis de conduire un tracteur.
+
+#1591
+Q: La catégorie de permis nécessaire pour conduire une moto dont la cylindrée va jusqu'à 125 cm³ et la puissance jusqu'à 14,6 chevaux (11 kW) est :
+1: C1
+2: D
+3: B
+4: A2
+
+#1592
+Q: La catégorie de permis nécessaire pour conduire une moto dont la puissance va jusqu'à 33 chevaux (25 kW) est :
+1: C
+2: A2
+3: A1
+4: D
+
+#1593
+Q: La catégorie de permis nécessaire pour conduire une moto dont la puissance dépasse 33 chevaux (25 kW) est :
+1: B
+2: A
+3: A2
+4: A1
+
+#1594
+Q: L'âge minimal exigé pour obtenir un permis de conduire de catégorie A2 est :
+1: 16 ans, à condition que le demandeur ait obtenu l'accord écrit de l'un de ses parents ou d'un tuteur.
+2: 18 ans, à condition que le demandeur ait obtenu l'accord écrit de l'un de ses parents ou de son tuteur.
+3: 20 ans, à condition que le demandeur ait obtenu l'accord écrit de l'un de ses parents ou de son tuteur.
+4: 14 ans, à condition que le demandeur ait obtenu l'accord écrit de l'un de ses parents ou de son tuteur.
+
+#1595
+Q: Lorsqu'un motocycliste transporte un passager, la loi exige :
+1: Que le passager ait au moins huit ans.
+2: Que le passager tienne la taille du conducteur en permanence.
+3: Que les deux jambes du passager soient toujours du côté droit de la moto.
+4: Que les jambes du passager soient posées sur les repose-pieds de la moto.
+
+#1596
+Q: Quelle est la particularité de l'actionnement des freins de la moto ?
+1: On peut actionner le frein arrière et le frein avant séparément.
+2: Sur une moto, on ne peut pas freiner chaque roue séparément.
+3: On peut arrêter la moto sur place à n'importe quelle vitesse.
+4: L'actionnement des freins d'une moto est plus sûr, car il se fait uniquement à la main.
+
+#1597
+Q: Quelle est la vitesse raisonnable et sûre pour rouler à moto ?
+1: Une vitesse à laquelle le motocycliste parvient à repérer tous les détails de la route et s'assure de maîtriser pleinement la moto, et qui n'est pas supérieure à la vitesse maximale.
+2: La vitesse à laquelle le motocycliste dépasse la vitesse maximale autorisée à cet endroit de pas plus de 50 pour cent.
+3: Toute vitesse qui ne gêne pas le conducteur pour maîtriser la moto.
+4: La vitesse maximale fixée par le législateur.
+
+#1598
+Q: Lorsque la visibilité est mauvaise :
+1: Collez-vous au véhicule qui roule devant vous pour profiter de ses feux.
+2: Roulez à la vitesse habituelle, mais soyez vigilant et prêt à tout instant à un arrêt d'urgence.
+3: Ralentissez et gardez une distance plus grande que d'habitude avec le véhicule devant vous.
+4: Serrez à droite de la route et accélérez, jusqu'à ce que la visibilité s'améliore.
+
+#1599
+Q: Pourquoi un large champ de vision à travers le casque est-il important ?
+1: Pour permettre la conduite d'une moto aussi aux motocyclistes à la vue défectueuse.
+2: Un large champ de vision aide à fixer les marges de sécurité et le rythme de conduite, et à raccourcir les temps de réaction.
+3: Pour éviter la fatigue lors d'une conduite prolongée de jour – et surtout de nuit.
+4: Pour augmenter la maîtrise de la moto sur routes urbaines.
+
+#1600
+Q: Quel est le facteur qui limite la capacité du motocycliste à freiner, à incliner ou à accélérer la moto ?
+1: La structure de la selle de la moto.
+2: Le poids du motocycliste.
+3: L'équipement standard du motocycliste.
+4: L'adhérence de la moto sur la route.
+
+#1601
+Q: Quel problème se pose quand on découvre « au dernier moment » un obstacle devant la moto ?
+1: Il n'y a pas de problème à découvrir tard l'obstacle.
+2: Il n'y aura pas assez de temps pour changer de rapport.
+3: Le temps qui reste pour réagir correctement est trop court.
+4: On ne peut pas estimer précisément le poids de l'obstacle.
+
+#1602
+Q: Comment la couleur du marquage sur la route influence-t-elle la moto ?
+1: La peinture nuit nettement à la durée de vie des pneus de la moto.
+2: La peinture blanche éclabousse la moto elle-même en hiver.
+3: La peinture blanche sur la route éblouit et trompe le motocycliste.
+4: La peinture de marquage peut parfois être plus glissante que la route elle-même et augmenter le risque de dérapage.
+
+#1603
+Q: Pourquoi faut-il éviter de rouler à moto au milieu de la voie, outre les raisons énumérées par la loi ?
+1: Parce qu'il faut rester à gauche et tenir compte des autres motocyclistes.
+2: Parce que les automobilistes n'aiment pas que les motos roulent au milieu de la voie, ce qui met le motocycliste en danger.
+3: Il n'y a aucune raison de ne pas rouler au milieu d'une route à double sens ou d'une voie marquée.
+4: Parce que le milieu de la voie est la zone la plus sale et la plus huileuse de la route.
+
+#1604
+Q: Comment conduirez-vous à moto lorsque vous n'avez pas le choix et devez traverser une tache d'huile sur la route ?
+1: Ralentissez fortement mais en répartissant également entre le frein arrière et le frein avant, jusqu'à avoir passé la zone huileuse.
+2: Ralentissez doucement avec le frein avant pendant toute la traversée.
+3: Continuez tout droit, sans freiner ni accélérer, et appuyez sur le levier d'embrayage.
+4: Ralentissez doucement avec le frein arrière pendant toute la traversée.
+
+#1605
+Q: De quelle manière faut-il conduire une moto en traversant une tache d'huile sur la route ?
+1: Continuer et accélérer en roulant vite, comme avant la tache.
+2: Freiner fortement avec les deux freins.
+3: Rouler droit, accélérer et traverser la tache rapidement.
+4: En ligne droite, sans accélérer et sans freiner.
+
+#1606
+Q: Comment conduirez-vous à moto en traversant une tache huileuse et glissante sur la route ?
+1: Vous penchez en avant pour reporter le poids du conducteur sur la roue avant, pour améliorer la direction.
+2: Relâchez la poignée des gaz et les freins, appuyez sur le levier d'embrayage et gardez une trajectoire droite.
+3: Accélérez et traversez la tache à la vitesse la plus élevée possible et en ligne droite.
+4: Vous vous appuyez en arrière pour reporter le poids sur la roue arrière, pour améliorer le freinage.
+
+#1607
+Q: Quel numéro indique la longueur du « porte-à-faux arrière » de l'autobus de la photo ?
+1: 75
+2: 82
+3: 78
+4: 93
+
+#1608
+Q: Comment des phares sales influencent-ils le conducteur la nuit ?
+1: Son champ de vision sera réduit.
+2: Le conducteur sera ébloui par lui-même.
+3: Des phares sales n'influenceront pas du tout le conducteur pendant la conduite.
+4: Son champ de vision augmentera.
+
+#1609
+Q: Quels sont les principaux facteurs qui influencent la capacité du motocycliste à repérer les obstacles sur la route ?
+1: L'habileté du motocycliste et sa position assise.
+2: L'état mécanique de la moto.
+3: La situation de la circulation autour de la moto.
+4: Le bon état des freins et des pneus.
+
+#1610
+Q: Il est interdit de transporter un passager supplémentaire sur une moto, sauf :
+1: Quand le passager a un permis de conduire valide pour moto.
+2: Quand le passager porte un casque de protection et est équipé de protège-genoux et de protège-coudes.
+3: Quand le conducteur porte un casque de protection – le passager n'y est pas tenu.
+4: Quand le conducteur et le passager portent des casques de protection.
+
+#1611
+Q: Pourquoi la maîtrise de la moto est-elle altérée à l'entrée d'un virage ?
+1: Parce qu'il faut accélérer la moto pendant tout le virage.
+2: Parce que la moto est en décélération pendant tout le virage.
+3: Parce que le motocycliste est placé plus bas que d'habitude.
+4: Parce que l'adhérence du pneu sur la route change quand le conducteur incline (« couche ») la moto.
+
+#1612
+Q: Comment un virage ou une courbe influence-t-il la capacité de freinage de la moto ?
+1: Dans une courbe ou un virage, on ne peut freiner qu'avec le frein arrière, donc le freinage est altéré.
+2: Une courbe ou un virage n'a aucune influence sur la capacité de freinage de la moto.
+3: Ils obligent à ralentir avant la courbe ou le virage et à freiner très progressivement.
+4: Quand on roule dans une courbe ou un virage, le temps de réaction est doublé.
+
+#1613
+Q: On ne peut pas transporter de passager supplémentaire sur une moto, sauf si :
+1: Le constructeur de la moto a donné une autorisation.
+2: C'est indiqué sur l'attestation d'assurance.
+3: L'importateur du véhicule a donné une autorisation.
+4: C'est indiqué sur le permis du véhicule.
+
+#1614
+Q: Où faut-il porter le regard à l'entrée d'un virage en moto ?
+1: Loin devant.
+2: Loin devant et se concentrer sur les panneaux et les environs du virage.
+3: Le plus près possible de la moto.
+4: Vers le virage et vers la sortie du virage.
+
+#1615
+Q: Pourquoi devons-nous incliner la moto dans un virage ?
+1: Pour réduire l'effet de la force centrifuge (qui agit sur la moto dans le virage).
+2: Pour améliorer le champ de vision et la capacité de réagir aux surprises de la route.
+3: Pour améliorer l'adhérence des pneus sur route sèche ou mouillée.
+4: Pour annuler complètement l'effet de la force centrifuge.
+
+#1616
+Q: Comment réagit-on à la force centrifuge qui se crée dans un virage en moto ?
+1: On accélère fortement avant le virage pour annuler la force centrifuge.
+2: On accélère à l'entrée du virage et on ralentit à la sortie.
+3: On incline la moto vers l'intérieur du virage.
+4: On freine par intermittence.
+
+#1617
+Q: Un motocycliste peut-il traverser un trottoir ?
+1: Oui, mais seulement pour contourner un obstacle sur la route.
+2: Oui, pour entrer dans une cour ou un garage.
+3: Oui, mais seulement pour prendre un passager.
+4: Oui, mais seulement pour déposer un passager.
+
+#1618
+Q: Que provoquera un freinage fort pendant un virage en moto ?
+1: Le dérapage de la roue avant.
+2: Une vitesse plus élevée de la moto.
+3: Le soulèvement de la roue avant dans les airs.
+4: Le dérapage de la roue arrière.
+
+#1619
+Q: Comment devez-vous agir lorsque vous découvrez soudain sur la route une zone huileuse et glissante en prenant un virage ?
+1: Il faut freiner fortement, même après être entré dans la zone glissante – dans cette situation, on n'a rien à perdre.
+2: Il faut freiner fortement avec les deux freins et empêcher le blocage des freins.
+3: Il faut augmenter la vitesse pour améliorer l'adhérence des pneus sur la route.
+4: Il faut toujours essayer de redresser la moto pour rouler en ligne droite autant que possible, même si cela provoque un écart par rapport à la trajectoire prévue à ce moment.
+
+#1620
+Q: Comment éviterez-vous un obstacle, tel qu'un objet posé sur la route, qui apparaît à l'improviste en roulant à moto ?
+1: Vous freinerez avant l'obstacle, relâcherez juste avant de le rencontrer et le contournerez par la droite ou par la gauche.
+2: Vous augmenterez la vitesse et passerez l'obstacle sans aucun retard.
+3: Vous accélérerez nettement la moto pour garder l'équilibre.
+4: Vous freinerez avant l'obstacle et pendant son franchissement – ainsi le temps de freinage maximal est garanti.
+
+#1621
+Q: Quelles sont les opérations d'entretien à faire sur une moto ?
+1: Sur une moto neuve, il n'y a pas besoin d'entretien ni de maintenance.
+2: Un entretien périodique selon les instructions du constructeur de la moto.
+3: Un entretien périodique de la moto n'est à faire qu'avant le contrôle technique annuel.
+4: Un entretien périodique selon les instructions du directeur du garage. Il connaît la moto mieux que quiconque.
+

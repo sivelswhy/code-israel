@@ -1,0 +1,190 @@
+#1682
+E: Un gilet fluorescent doit se trouver dans tout véhicule à moteur.
+
+#1683
+E: Le gilet fluorescent se garde dans la cabine du conducteur, sauf sur une moto.
+
+#1684
+E: Toutes les propositions sont correctes : chacun sort en gilet s'il y en a, et le conducteur doit en porter un dès sa sortie.
+
+#1685
+E: Un conducteur novice condamné pour excès de vitesse ne reçoit pas le permis ordinaire à l'issue des deux ans.
+
+#1686
+E: Un conducteur novice condamné pour conduite sous l'influence d'alcool ou de drogues ne reçoit pas le permis ordinaire.
+
+#1687
+E: Un minibus privé est limité à 110 km/h sur voie rapide.
+R: T54
+
+#1688
+E: Un conducteur novice condamné pour conduite sans accompagnateur ne reçoit pas le permis ordinaire à l'issue des deux ans.
+
+#1689
+E: Si le système d'éclairage n'est pas parfaitement en état, la loi interdit de continuer à rouler, même de jour.
+
+#1690
+E: Après une flaque profonde, vérifiez que le système de freinage fonctionne comme exigé.
+
+#1691
+E: La ceinture attachée correctement réduit les blessures de la personne attachée lors d'un accident.
+R: T83א
+
+#1692
+E: Il est interdit à un autobus (hors minibus) de dépasser un véhicule qui en dépasse un autre, sur toute route.
+R: T47(ח)
+
+#1693
+E: On maîtrise mieux le véhicule quand on roule à une vitesse raisonnable.
+
+#1694
+E: Des phares mal réglés n'éclairent pas la route comme l'exige la loi.
+
+#1695
+E: Pour réduire l'éblouissement la nuit, bien nettoyer les vitres.
+
+#1696
+E: À l'approche d'un pont étroit et en le franchissant, ralentissez.
+
+#1697
+E: Conduire dans l'obscurité exige plus de prudence car la visibilité et la possibilité d'être vu sont limitées.
+
+#1698
+E: Les feux de route ne s'utilisent que sur route non urbaine, quand la circulation le permet et qu'aucun véhicule ne vient en face.
+
+#1699
+E: Un rétroviseur panoramique fait paraître les objets plus petits et plus éloignés.
+
+#1700
+E: Le feu de marche arrière ne s'allume que par l'enclenchement de la marche arrière.
+
+#1701
+E: Le risque de dérapage sur route mouillée est d'autant plus grand que l'on roule plus vite.
+
+#1702
+E: Avec l'ABS, un appui fort sur la pédale de frein provoque des vibrations de la pédale et des bruits : c'est normal.
+
+#1703
+E: Le brouillard altère la vision du conducteur.
+
+#1704
+E: Les accidents de fatigue surviennent quand le niveau de vigilance du conducteur baisse, sur tout type de route.
+
+#1705
+E: Pour éviter de heurter le véhicule de devant, gardez une distance suffisante.
+R: T49
+
+#1706
+E: Le voyant bleu s'allume quand les feux de route sont allumés.
+
+#1707
+E: Derrière un camion, gardez une distance qui permet un arrêt sûr ; la loi exige au moins la distance d'une seconde de route.
+R: T49
+
+#1708
+E: Les rainures de la bande de roulement permettent l'évacuation efficace de l'eau entre le pneu et une route mouillée.
+
+#1709
+E: Les feux de route dans l'obscurité peuvent éblouir d'autres conducteurs.
+
+#1710
+E: Il est interdit de rouler sur le trottoir avec un tracteur pour contourner un obstacle.
+
+#1711
+E: Ce panneau mobile clignotant est un signal d'avertissement et de guidage sur un chantier routier.
+
+#1712
+E: Aucun permis de véhicule n'est délivré ni renouvelé pour un taxi au bout de 12 ans à compter de son année de fabrication.
+
+#1713
+E: Voyant de freinage allumé : arrêtez-vous et ne poursuivez pas la route.
+
+#1714
+E: Le conducteur est responsable de l'émission de fumée au-delà de la limite légale.
+
+#1715
+E: Sur une route en mauvais état, ralentissez et augmentez la vigilance.
+
+#1716
+E: On ne transporte un passager supplémentaire sur un tracteur de transport que si c'est indiqué sur le permis du véhicule.
+
+#1717
+E: On peut enlever une main du volant pour changer de rapport.
+
+#1718
+E: Le demi-tour par la gauche est permis sans feux quand il ne gêne pas la circulation, que le champ de vision est dégagé et qu'aucun panneau ne l'interdit.
+
+#1719
+E: Une conduite trop rapide, le manque de vigilance et la méconnaissance des mécanismes du véhicule font perdre la maîtrise.
+
+#1720
+E: Il est interdit de conduire sous l'influence de calmants, sauf indication contraire expresse dans l'ordonnance.
+
+#1721
+E: Le frein de stationnement sert à sécuriser le véhicule contre tout déplacement.
+
+#1722
+E: Rouler en descente au point mort est interdit et extrêmement dangereux : plus de frein moteur, les freins chauffent.
+
+#1723
+E: Un accident de la route est un événement involontaire dont le résultat est un dommage à une personne, conducteur compris, ou aux biens, ou les deux.
+
+#1724
+E: Un autobus qui n'est pas un minibus est limité à 100 km/h sur voie rapide.
+R: T54(2)
+
+#1725
+E: Un autobus privé est un autobus qui n'est pas un véhicule public.
+R: T1:אוטובוס פרטי
+
+#1726
+E: L'âge minimal pour conduire un véhicule public à moteur est de 21 ans.
+
+#1727
+E: Le titulaire du permis B peut aussi conduire un minibus privé jusqu'à 3 500 kg de poids total autorisé.
+
+#1728
+E: Appuyer sur le levier d'embrayage coupe la liaison entre le moteur et la boîte de vitesses.
+
+#1729
+E: Dans cette série de panneaux, c'est le panneau 708 qui vient après le panneau 716.
+
+#1730
+E: Il est absolument interdit de conduire une moto équipée d'un échappement à pression.
+
+#1731
+E: Dans cette série de panneaux, c'est le panneau 716 qui vient après le panneau 710.
+
+#1732
+E: Le médecin habilité à examiner le demandeur est celui qui le soigne depuis au moins trois ans.
+
+#1733
+E: Si le frein à pied ne freine pas, essayez de freiner avec le frein auxiliaire et rétrogradez.
+
+#1734
+E: Sur une route en mauvais état, ralentissez : il y a un risque de perte de maîtrise de la moto.
+
+#1735
+E: Vous tournez à droite : l'obligation de céder le passage revient à celui qui tourne à gauche, donc continuez prudemment.
+R: T64(א)(2)
+
+#1736
+E: Le propriétaire inscrit sur le permis est responsable, sauf s'il prouve qu'il n'était pas le conducteur et désigne le conducteur fautif.
+
+#1737
+E: Il est interdit de garer un véhicule sur un passage piéton et dans une zone de 12 mètres avant lui.
+
+#1738
+E: Près d'un véhicule qui fait descendre des enfants, ralentissez, roulez à une vitesse raisonnable et préparez-vous à vous arrêter.
+R: T52
+
+#1739
+E: Quand le véhicule devant signale qu'il tourne à gauche, il est permis de le passer par la droite.
+
+#1740
+E: Il est interdit de pousser un véhicule sur une route interdite aux véhicules ; celui qui pousse est assimilé au conducteur.
+
+#1741
+E: À une intersection sans panneau, cédez le passage au véhicule venant de droite.
+R: T64(א)(1)
+

@@ -1,0 +1,185 @@
+#1202
+E: Le conducteur peut refuser une poussette s'il n'y a pas de place à cause de l'affluence.
+
+#1203
+E: Un avertisseur sonore doit se déclencher automatiquement à l'enclenchement de la marche arrière dans l'autobus.
+
+#1204
+E: Le panneau 612 indique le nombre de kilomètres sur la route (borne kilométrique).
+
+#1205
+E: Un véhicule de transport d'élèves doit avoir des feux clignotants spéciaux à l'avant et à l'arrière, qui s'allument à l'ouverture des portes.
+R: T83
+
+#1206
+E: Un autobus qui stationne la nuit sur route non urbaine est signalé par un triangle visible à 100 mètres au moins et par ses feux de détresse.
+
+#1207
+E: L'intérieur de l'autobus doit être éclairé pendant les heures d'éclairage.
+
+#1208
+E: Le conducteur de l'autobus est responsable de la propreté intérieure.
+
+#1209
+E: Il est interdit de fumer dans l'autobus, et un panneau d'interdiction doit être affiché.
+
+#1210
+E: Le véhicule d'une personne handicapée titulaire de la vignette de paralysé des jambes peut utiliser la voie de transport public.
+
+#1211
+E: Le véhicule d'un handicapé titulaire de la vignette de paralysé des jambes peut utiliser la voie même conduit par un accompagnant.
+
+#1212
+E: Les passagers doivent obéir aux instructions du personnel de service de l'autobus.
+
+#1213
+E: Au terminus, le conducteur ne quitte l'autobus qu'après la descente du dernier passager.
+
+#1214
+E: Le rétroviseur panoramique est installé à l'avant, pour que le conducteur voie tous les passagers.
+
+#1215
+E: Il est interdit de transporter des explosifs ou des matières inflammables dans un autobus.
+
+#1216
+E: Un véhicule de transport d'élèves est un autobus privé ou un véhicule public servant au transport d'élèves.
+R: T83
+
+#1217
+E: Les objets perdus et trouvés sont remis à la police ou à un autre organisme convenu à l'avance avec le titulaire de la ligne.
+
+#1218
+E: Il est interdit de faire descendre des passagers sur une voie rapide.
+
+#1219
+E: Ce panneau annonce un tunnel sur la route devant vous.
+
+#1220
+E: Le transport d'élèves est le transport d'enfants vers l'école ou vers une activité organisée de celle-ci, hors ligne de service.
+R: T83
+
+#1221
+E: Les poubelles du taxi sont installées près du siège du conducteur et près du siège arrière.
+
+#1222
+E: Le conducteur allume la boîte en position « libre » dès qu'il n'y a pas de passagers dans le taxi.
+
+#1223
+E: Le propriétaire et le conducteur sont responsables de l'affichage des instructions et du tarif fixés par le contrôleur des transports.
+
+#1224
+E: Le conducteur d'un autobus de ligne s'arrête aux arrêts approuvés par le contrôleur des transports dans l'autorisation de la ligne.
+
+#1225
+E: Avec un permis B, on peut transporter 8 passagers en plus du conducteur : au-delà, il faut un permis de catégorie supérieure.
+R: T180
+
+#1226
+E: Seul un prestataire de services agréé par l'autorité peut réparer ou étalonner un compteur de taxi.
+
+#1227
+E: Un taxi s'arrête pour faire monter ou descendre des passagers partout où le stationnement est autorisé et le long des bordures rouge et blanc, sans gêner la circulation.
+
+#1228
+E: Le chauffeur de taxi peut faire une course de tournée s'il a une autorisation du ministère du Tourisme.
+
+#1229
+E: Dans un autobus de ligne non urbain, les deux sièges avant de part et d'autre de l'allée sont réservés aux agents de sécurité.
+
+#1230
+E: La longueur maximale d'un autobus à deux essieux est de 13,5 mètres.
+
+#1231
+E: On peut transporter des colis dans l'autobus s'ils ne gênent pas les passagers et ne leur causent pas de dommage.
+
+#1232
+E: L'autobus est un lieu public au sens de la loi interdisant de fumer dans les lieux publics.
+
+#1233
+E: Un autobus dont le poids total est de 10 000 kg ou plus doit avoir un ralentisseur de vitesse.
+
+#1234
+E: La « boîte » est un dispositif éclairé sur le toit du taxi, qui sert à l'identifier.
+
+#1235
+E: Il est interdit de rouler avec une porte ouverte.
+
+#1236
+E: Un passager n'est pas tenu de céder sa place réservée à une personne handicapée.
+
+#1237
+E: Ce panneau annonce le début d'une descente raide environ 2 500 mètres plus loin.
+
+#1238
+E: Un autobus est un véhicule à moteur destiné à transporter huit passagers ou plus en plus du conducteur, indiqué comme autobus sur son permis.
+R: T1:אוטובוס
+
+#1239
+E: Il est interdit au chauffeur de taxi de fumer dans le taxi.
+
+#1240
+E: En cas de bagarre dans l'autobus, le conducteur le conduit au poste de police le plus proche ou s'adresse à un policier qu'il croise.
+
+#1241
+E: Seuls l'excursionniste et l'autobus de ligne interurbaine doivent avoir un kit de sauvetage.
+
+#1242
+E: Le compteur doit être étalonné dans les 48 heures qui suivent un changement de taille des pneus ou de pièces de transmission.
+
+#1243
+E: L'éclairage intérieur doit fonctionner dans l'autobus pendant les heures d'éclairage.
+
+#1244
+E: Le conducteur d'autobus ne peut pas fumer pendant la course.
+
+#1245
+E: Un passager sans titre de transport paie le prix du transport et une amende selon le type de course.
+
+#1246
+E: On refuse l'accès à un passager qui porte aux pieds un engin servant à glisser ou à patiner.
+
+#1247
+E: Un taxi de courses spéciales peut faire une course de service par l'intermédiaire d'une société titulaire de la licence de la ligne, avec son autorisation écrite.
+
+#1248
+E: Le transport d'un fauteuil roulant est gratuit, mais le chauffeur peut refuser d'en transporter plus d'un.
+
+#1249
+E: Seul un taxi ayant une autorisation de l'autorité peut opérer à l'aéroport Ben Gourion, selon les conditions de l'autorisation.
+
+#1250
+E: L'autorité peut suspendre la licence si le titulaire ne s'est pas présenté au lieu et à l'heure de sa convocation.
+
+#1251
+E: Le conducteur autorise le transport d'une marchandise quand elle ne gêne pas les passagers et ne leur cause pas de dommage.
+
+#1252
+E: Les dispositions applicables aux passagers d'autobus s'appliquent aussi aux passagers de taxis.
+
+#1253
+E: C'est le ministre des Transports, par arrêté de contrôle des denrées et des services, qui fixe le prix du transport en taxi.
+
+#1254
+E: Le ministre des Transports fixe le prix du transport pour une course spéciale en taxi.
+
+#1255
+E: Entre 23h31 et 04h59, une course de service en taxi comporte un supplément de 25 pour cent.
+
+#1256
+E: Le contrôleur des transports autorise et effectue le transfert de propriété d'une licence de taxi.
+
+#1257
+E: Un taxi peut s'arrêter pour faire monter ou descendre des passagers dans la zone de l'interdiction, mais seulement sur route urbaine et sans gêner la circulation.
+
+#1258
+E: L'entrée est interdite à l'autobus d'auto-école lorsque ce panneau est placé.
+
+#1259
+E: Un autobus sans passagers peut entrer sur la route où ce panneau est placé.
+
+#1260
+E: Un taxi sans passagers peut entrer sur la route où ce panneau est placé.
+
+#1261
+E: Un minibus peut entrer sur la route où ce panneau est placé.
+
