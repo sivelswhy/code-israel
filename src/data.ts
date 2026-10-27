@@ -57,13 +57,16 @@ export const ACTIVE_LICENSES: License[] = ['B', 'A']
 /** Official computerized test format: 30 questions, 40 minutes, at most 4 mistakes. */
 export const EXAM = { size: 30, minutes: 40, maxErrors: 4 }
 
+/** Resolves a path of the site (e.g. `/img/3012.jpg`) against the base URL, since the site may live in a subfolder. */
+export const asset = (path: string) => import.meta.env.BASE_URL + path.replace(/^\//, '')
+
 const cache = new Map<string, Promise<Question[]>>()
 
 export function loadQuestions(lang: 'fr' | 'he'): Promise<Question[]> {
   if (!cache.has(lang)) {
     cache.set(
       lang,
-      fetch(`/data/questions.${lang}.json`).then((r) => {
+      fetch(asset(`data/questions.${lang}.json`)).then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json()
       }),
@@ -75,7 +78,7 @@ export function loadQuestions(lang: 'fr' | 'he'): Promise<Question[]> {
 let lawCache: Promise<Record<string, LawExcerpt>> | null = null
 
 export function loadLaw(): Promise<Record<string, LawExcerpt>> {
-  lawCache ??= fetch('/data/law.json').then((r) => {
+  lawCache ??= fetch(asset('data/law.json')).then((r) => {
     if (!r.ok) throw new Error(`HTTP ${r.status}`)
     return r.json()
   })

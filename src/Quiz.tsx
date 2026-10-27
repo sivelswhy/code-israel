@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
-import { EXAM, loadQuestions, shuffle, type Question } from './data'
+import { asset, EXAM, loadQuestions, shuffle, type Question } from './data'
 import { BackButton, spring } from './App'
 import { Explanation } from './Explanation'
 import { useAssistant } from './assistant-context'
@@ -238,12 +238,12 @@ export function Picture({ id }: { id: string }) {
   return (
     <>
       <motion.button layoutId={`img-${id}`} className="picture" onClick={() => setOpen(true)} transition={spring} aria-label="Agrandir l'image">
-        <img src={`/img/${id}.jpg`} alt="Illustration officielle de la question" loading="lazy" />
+        <img src={asset(`img/${id}.jpg`)} alt="Illustration officielle de la question" loading="lazy" />
       </motion.button>
       <AnimatePresence>
         {open && (
           <motion.div className="lightbox" onClick={() => setOpen(false)} initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <motion.img layoutId={`img-${id}`} src={`/img/${id}.jpg`} alt="Illustration officielle agrandie" transition={spring} />
+            <motion.img layoutId={`img-${id}`} src={asset(`img/${id}.jpg`)} alt="Illustration officielle agrandie" transition={spring} />
           </motion.div>
         )}
       </AnimatePresence>

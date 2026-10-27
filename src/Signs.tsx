@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import type { Question } from './data'
+import { asset, type Question } from './data'
 import { BackButton } from './App'
 
 export interface Sign {
@@ -14,7 +14,7 @@ export interface Sign {
 let cache: Promise<Record<string, Sign>> | null = null
 
 export function loadSigns(): Promise<Record<string, Sign>> {
-  cache ??= fetch('/data/signs.json').then((r) => {
+  cache ??= fetch(asset('data/signs.json')).then((r) => {
     if (!r.ok) throw new Error(`HTTP ${r.status}`)
     return r.json()
   })
@@ -54,7 +54,7 @@ export function citedSigns(q: Question, signs: Record<string, Sign>): string[] {
 
 export function SignImage({ n, sign, size = 56 }: { n: string; sign?: Sign; size?: number }) {
   if (!sign?.img) return <span className="sign-missing" style={{ width: size, height: size }}>{n}</span>
-  return <img className="sign-img" src={sign.img} alt={`Panneau ${n}`} width={size} height={size} loading="lazy" />
+  return <img className="sign-img" src={asset(sign.img)} alt={`Panneau ${n}`} width={size} height={size} loading="lazy" />
 }
 
 /** One sign with its official meaning. */
