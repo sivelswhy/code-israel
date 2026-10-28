@@ -180,7 +180,7 @@ export function FavoriteButton({ on, onClick }: { on: boolean; onClick: () => vo
   )
 }
 
-function AnswerText({ q, text, signs, revealed }: { q: Question; text: string; signs: ReturnType<typeof useSigns>; revealed: boolean }) {
+export function AnswerText({ q, text, signs, revealed }: { q: Question; text: string; signs: ReturnType<typeof useSigns>; revealed: boolean }) {
   const n = answerSign(q, text, signs)
   if (!n) return <span>{text}</span>
   return (

@@ -1,5 +1,6 @@
 import { useCallback, useState } from 'react'
 import { ACTIVE_LICENSES, type License } from './data'
+import { emptyJourney, loadJourney, streakOf, type JourneyProgress } from './journey/engine'
 
 export interface Stat {
   ok: number
@@ -29,16 +30,19 @@ export interface Progress {
   favorites: string[]
   /** Questions answered per local date (YYYY-MM-DD). */
   daily: Record<string, number>
+  /** The Parcours mode: lessons, XP, memory, quests. */
+  journey: JourneyProgress
 }
 
 const KEY = 'code-israel:v1'
-const EMPTY: Progress = { license: 'B', stats: {}, exams: [], favorites: [], daily: {} }
+const EMPTY: Progress = { license: 'B', stats: {}, exams: [], favorites: [], daily: {}, journey: emptyJourney() }
 
 function read(): Progress {
   try {
     const raw = localStorage.getItem(KEY)
     if (!raw) return EMPTY
-    const saved = { ...EMPTY, ...JSON.parse(raw) } as Progress
+    const parsed = JSON.parse(raw)
+    const saved = { ...EMPTY, ...parsed, journey: loadJourney(parsed.journey) } as Progress
     // A license that is on hold falls back to the default one.
     return ACTIVE_LICENSES.includes(saved.license) ? saved : { ...saved, license: EMPTY.license }
   } catch {
@@ -50,17 +54,9 @@ export function localDay(d: Date) {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }
 
-/** Consecutive days of practice ending today (or yesterday, so the streak survives until tonight). */
-export function streak(daily: Record<string, number>) {
-  const set = new Set(Object.keys(daily))
-  const d = new Date()
-  if (!set.has(localDay(d))) d.setDate(d.getDate() - 1)
-  let n = 0
-  while (set.has(localDay(d))) {
-    n++
-    d.setDate(d.getDate() - 1)
-  }
-  return n
+/** Consecutive days of practice ending today (or yesterday, so the streak survives until tonight). Days saved by a streak freeze keep it going. */
+export function streak(daily: Record<string, number>, frozenDays: string[] = []) {
+  return streakOf(daily, frozenDays)
 }
 
 export function useProgress() {

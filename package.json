@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:journey": "node --test src/journey/engine.test.ts"
   },
   "dependencies": {
     "@mlc-ai/web-llm": "^0.2.86",

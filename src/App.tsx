@@ -1,7 +1,13 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { ACTIVE_LICENSES, CATEGORIES, EXAM, LICENSES, drawExam, loadQuestions, shuffle, type Category, type License, type Question } from './data'
 import { localDay, streak, useProgress, type ExamRecord } from './store'
+import { addXP, applyStreakFreezes, claim, finish, openChest, RULES, streakOf, xpToday, type ChestReward, type Outcome, type QuestKind } from './journey/engine'
+import { Journey, type StartLesson } from './journey/Journey'
+import { LessonPlayer } from './journey/LessonPlayer'
+import { MatchGame } from './journey/MatchGame'
+import { ModeSwitch, type Mode } from './journey/ModeSwitch'
+import { scheduleReminders } from './journey/reminders'
 import { Quiz, type Answer } from './Quiz'
 import { Results } from './Results'
 import { Browse } from './Browse'
@@ -17,6 +23,8 @@ type Screen =
   | { name: 'browse' }
   | { name: 'sources' }
   | { name: 'signs' }
+  | { name: 'lesson'; start: StartLesson; xpBefore: number }
+  | { name: 'match' }
 
 const PRACTICE_SIZE = 20
 const Assistant = lazy(() => import('./Assistant').then((m) => ({ default: m.Assistant })))
@@ -28,6 +36,43 @@ export default function App() {
   const [screen, setScreen] = useState<Screen>({ name: 'home' })
   const { progress, update, record, toggleFavorite, addExam } = useProgress()
   const [assistant, setAssistant] = useState<{ topic?: AssistantTopic } | null>(null)
+  const [mode, setMode] = useState<Mode>(() => {
+    try {
+      return localStorage.getItem('code-israel:mode') === 'journey' ? 'journey' : 'classic'
+    } catch {
+      return 'classic'
+    }
+  })
+  const [freezeNotice, setFreezeNotice] = useState(0)
+  const latest = useRef(progress)
+  latest.current = progress
+
+  const changeMode = (m: Mode) => {
+    setMode(m)
+    try {
+      localStorage.setItem('code-israel:mode', m)
+    } catch {
+      // Storage unavailable: the choice lasts until the page is reloaded.
+    }
+  }
+
+  // Streak freezes are spent on the days missed, when the page opens and whenever it comes back to the front.
+  useEffect(() => {
+    const apply = () => {
+      const { journey, used } = applyStreakFreezes(latest.current.journey, latest.current.daily)
+      if (!used) return
+      update((p) => ({ ...p, journey }))
+      setFreezeNotice(used)
+    }
+    apply()
+    const onVisible = () => document.visibilityState === 'visible' && apply()
+    document.addEventListener('visibilitychange', onVisible)
+    return () => document.removeEventListener('visibilitychange', onVisible)
+  }, [update])
+
+  useEffect(() => {
+    scheduleReminders(progress.journey, progress.daily, streakOf(progress.daily, progress.journey.frozenDays))
+  }, [progress.journey, progress.daily])
 
   useEffect(() => {
     loadQuestions('fr').then(setAll, () => setError(true))
@@ -45,9 +90,24 @@ export default function App() {
   const start = (mode: 'exam' | 'practice', title: string, questions: Question[]) =>
     setScreen({ name: 'quiz', mode, title, questions })
   const home = () => setScreen({ name: 'home' })
+  const switcher = <ModeSwitch mode={mode} onChange={changeMode} />
+  const finishLesson = (s: StartLesson, result: Outcome) => update((p) => ({ ...p, journey: finish(p.journey, s.lesson, result, s.countsAsReview) }))
+  const claimQuest = (quest: QuestKind) => update((p) => ({ ...p, journey: claim(p.journey, quest) }))
+  const openDailyChest = (): ChestReward | null => {
+    const opened = openChest(progress.journey)
+    if (!opened) return null
+    update((p) => ({ ...p, journey: opened.journey }))
+    return opened.reward
+  }
+  const finishMatch = () =>
+    update((p) => {
+      // A round counts as practice today, so that it keeps the streak alive.
+      const today = localDay(new Date())
+      return { ...p, daily: { ...p.daily, [today]: (p.daily[today] ?? 0) + 1 }, journey: addXP(p.journey, RULES.xpMatch) }
+    })
 
   const inExam = screen.name === 'quiz' && screen.mode === 'exam'
-  const showFab = screen.name !== 'quiz' && screen.name !== 'results'
+  const showFab = screen.name !== 'quiz' && screen.name !== 'results' && screen.name !== 'lesson' && screen.name !== 'match'
 
   return (
     <AssistantContext.Provider value={(topic) => setAssistant({ topic })}>
@@ -59,14 +119,43 @@ export default function App() {
         exit={{ opacity: 0, y: -8 }}
         transition={spring}
       >
-        {screen.name === 'home' && (
+        {screen.name === 'home' && mode === 'journey' && (
+          <Journey
+            pool={pool}
+            progress={progress}
+            freezeNotice={freezeNotice}
+            onDismissNotice={() => setFreezeNotice(0)}
+            onStart={(start) => setScreen({ name: 'lesson', start, xpBefore: xpToday(progress.journey) })}
+            onMatch={() => setScreen({ name: 'match' })}
+            onClaim={claimQuest}
+            onChest={openDailyChest}
+            switcher={switcher}
+          />
+        )}
+        {screen.name === 'lesson' && (
+          <LessonPlayer
+            title={screen.start.title}
+            lesson={screen.start.lesson}
+            questions={screen.start.questions}
+            pool={pool}
+            color={screen.start.color}
+            xpBefore={screen.xpBefore}
+            onRecord={record}
+            onFinish={(result) => finishLesson(screen.start, result)}
+            onClose={home}
+          />
+        )}
+        {screen.name === 'match' && <MatchGame onFinish={finishMatch} onClose={home} />}
+        {screen.name === 'home' && mode === 'classic' && (
           <Home
+            switcher={switcher}
             pool={pool}
             license={progress.license}
             stats={progress.stats}
             exams={progress.exams.filter((e) => e.license === progress.license)}
             favorites={pool.filter((q) => progress.favorites.includes(q.id))}
             daily={progress.daily}
+            frozenDays={progress.journey.frozenDays}
             onLicense={(license) => update((p) => ({ ...p, license }))}
             onExam={() => start('exam', 'Examen blanc', drawExam(pool))}
             onCategory={(cat) =>
@@ -147,6 +236,8 @@ interface HomeProps {
   exams: ExamRecord[]
   favorites: Question[]
   daily: Record<string, number>
+  frozenDays: string[]
+  switcher: React.ReactNode
   onLicense: (l: License) => void
   onExam: () => void
   onCategory: (c: Category) => void
@@ -161,18 +252,19 @@ interface HomeProps {
 
 const DAILY_GOAL = 20
 
-function Home({ pool, license, stats, exams, favorites, daily, onLicense, onExam, onCategory, onMistakes, onUnseen, onFavorites, onReview, onBrowse, onSources, onSigns }: HomeProps) {
+function Home({ pool, license, stats, exams, favorites, daily, frozenDays, switcher, onLicense, onExam, onCategory, onMistakes, onUnseen, onFavorites, onReview, onBrowse, onSources, onSigns }: HomeProps) {
   const mistakes = pool.filter((q) => stats[q.id] && !stats[q.id].last)
   const unseen = pool.filter((q) => !stats[q.id])
   const mastered = pool.length - unseen.length - mistakes.length
   const lastExams = exams.slice(-5).reverse()
   const today = daily[localDay(new Date())] ?? 0
-  const days = streak(daily)
+  const days = streak(daily, frozenDays)
   const share = (n: number) => (pool.length ? n / pool.length : 0)
 
   return (
     <main className="page">
       <header className="hero">
+        {switcher}
         <div className="hero-signs" aria-hidden="true">
           <SignGlyph kind="rules" />
           <SignGlyph kind="safety" />
