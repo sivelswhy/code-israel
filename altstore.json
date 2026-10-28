@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.18",
+          "buildVersion": "18",
+          "date": "2026-10-28",
+          "localizedDescription": "Vrai ou faux : l'énoncé change à chaque leçon et n'est plus presque toujours vrai",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.18/CodeIsrael.ipa",
+          "size": 27154596,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.17",
           "buildVersion": "17",
           "date": "2026-10-28",
