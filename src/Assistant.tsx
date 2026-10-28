@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { loadLaw, type LawExcerpt, type Question } from './data'
-import { LawIndex, QuestionIndex, reply, retrieve, sources, tokens, unsupported, vehicleMismatch } from './assistant/search'
+import { kindHint, LawIndex, personalNote, QuestionIndex, questionKind, reply, retrieve, sources, tidyAnswer, tokens, unsupported, vehicleMismatch, type Stat } from './assistant/search'
 import { answer, cancel, detect, explain, isCached, load, type Support } from './assistant/llm'
 import type { AssistantTopic } from './assistant-context'
 import { spring } from './App'
@@ -13,6 +13,8 @@ interface Message {
   text: string
   hits?: Question[]
   streaming?: boolean
+  /** A remark about the learner's own results, composed by the app. */
+  note?: string | null
 }
 
 type Engine =
@@ -45,7 +47,7 @@ function markComplete(id: string) {
 /** Openers of a question that continues the previous one ("et pour les motos ?"). */
 const FOLLOW_UP = /^\s*(et|mais|alors|donc|aussi|pareil|même|pour|avec|sans|si)\b/i
 
-export function Assistant({ questions, topic, onClose }: { questions: Question[]; topic?: AssistantTopic; onClose: () => void }) {
+export function Assistant({ questions, stats, topic, onClose }: { questions: Question[]; stats: Record<string, Stat>; topic?: AssistantTopic; onClose: () => void }) {
   const index = useMemo(() => new QuestionIndex(questions), [questions])
   const [law, setLaw] = useState<Record<string, LawExcerpt>>({})
   const lawIndex = useMemo(() => new LawIndex(law), [law])
@@ -115,26 +117,29 @@ export function Assistant({ questions, topic, onClose }: { questions: Question[]
     // With no matching official source the model would improvise, so it is not asked.
     const ai = engine.state === 'ready' && shown.length > 0
     // Without the on-device model the answer is composed directly from the best official question.
-    const direct = reply(shown, law, signs, focus, topic?.chosen, lawHits, query)
-    setMessages((m) => [...m, { role: 'user', text: clean }, { role: 'assistant', text: ai ? '' : direct, hits: shown, streaming: ai }])
+    const kind = questionKind(clean)
+    const direct = reply(shown, law, signs, focus, topic?.chosen, lawHits, query, clean)
+    const note = personalNote(topic, shown, stats, questions)
+    setMessages((m) => [...m, { role: 'user', text: clean }, { role: 'assistant', text: ai ? '' : direct, hits: shown, streaming: ai, note }])
     if (!ai) return
 
     const ctl = new AbortController()
     abort.current = ctl
-    const context = focus && topic.chosen != null && topic.chosen !== focus.c ? `\n(L'élève avait répondu : « ${focus.a[topic.chosen]} ».)` : ''
+    const context = focus && topic.chosen != null && topic.chosen !== focus.c ? `\n(L'élève avait répondu « ${focus.a[topic.chosen]} », ce qui est faux : explique d'abord en une phrase pourquoi cette réponse est fausse, puis donne la bonne règle.)` : ''
     const sourceText = sources(shown, law, focus, signs, lawHits, query)
     // Only a follow-up carries the previous question; with a question in focus the focus is the context.
     const asked = !focus && query !== clean ? `${previous} (suite) ${clean}` : clean
     let written = ''
     try {
       // No chat history: the model's earlier (possibly wrong) answers would feed its next ones.
-      for await (const delta of answer(engine.modelId, asked + context, sourceText, [], ctl.signal)) {
+      for await (const delta of answer(engine.modelId, asked + context + (kindHint(kind) ? `\nTYPE DE DEMANDE : ${kindHint(kind)}` : ''), sourceText, [], ctl.signal)) {
         written += delta
         setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: msg.text + delta } : msg)))
       }
       // A small model sometimes invents figures or law articles. If the answer cites one found neither in the
       // sources nor in the question, fall back to the answer composed from the official text.
       if (unsupported(written, sourceText, query) && !ctl.signal.aborted) setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: direct } : msg)))
+      else setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: tidyAnswer(msg.text) } : msg)))
     } catch {
       setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: msg.text || direct } : msg)))
     } finally {
@@ -189,6 +194,7 @@ export function Assistant({ questions, topic, onClose }: { questions: Question[]
               </p>
             ) : (
               <div key={i} className="bubble bot">
+                {m.note && <p className="bot-note">{m.note}</p>}
                 {m.text && <p className="bot-text">{m.text}</p>}
                 {m.streaming && !m.text && <p className="muted">Réflexion…</p>}
                 {!m.streaming && m.hits?.length === 0 && !m.text && (

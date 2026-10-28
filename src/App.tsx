@@ -133,7 +133,7 @@ export default function App() {
     )}
     <Suspense>
       <AnimatePresence>
-        {assistant && !inExam && <Assistant key="assistant" questions={pool} topic={assistant.topic} onClose={() => setAssistant(null)} />}
+        {assistant && !inExam && <Assistant key="assistant" questions={pool} stats={progress.stats} topic={assistant.topic} onClose={() => setAssistant(null)} />}
       </AnimatePresence>
     </Suspense>
     </AssistantContext.Provider>

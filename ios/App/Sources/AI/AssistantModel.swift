@@ -42,6 +42,8 @@ struct ChatMessage: Identifiable {
     var streaming = false
     /// Written by a model (rather than composed from the official texts).
     var byModel = false
+    /// A remark about the learner's own results, composed by the app.
+    var note: String?
 }
 
 /// A conversation: the learner's messages and the answers, checked against the official texts.
@@ -53,15 +55,15 @@ final class Conversation {
 
     var isAnswering: Bool { messages.last?.streaming == true }
 
-    func send(_ text: String, brain: AssistantBrain, topic: AssistantTopic?, engines: AIEngines) {
+    func send(_ text: String, brain: AssistantBrain, topic: AssistantTopic?, engines: AIEngines, learner: LearnerContext? = nil) {
         let clean = text.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !clean.isEmpty, !isAnswering else { return }
         let previous = messages.last { $0.role == .user }?.text
-        let turn = brain.turn(for: clean, previous: previous, topic: topic)
+        let turn = brain.turn(for: clean, previous: previous, topic: topic, learner: learner)
         let engine = engines.current
         let useModel = engine != .none && turn.canUseModel
         messages.append(ChatMessage(role: .user, text: clean))
-        messages.append(ChatMessage(role: .assistant, text: useModel ? "" : turn.direct, sources: turn.hits, streaming: useModel, byModel: useModel))
+        messages.append(ChatMessage(role: .assistant, text: useModel ? "" : turn.direct, sources: turn.hits, streaming: useModel, byModel: useModel, note: turn.note))
         guard useModel else { return }
 
         let stream = engines.answer(engine, prompt: AssistantPrompt.user(question: turn.prompt, sources: turn.sourceText))
@@ -79,6 +81,8 @@ final class Conversation {
                 if $0.text.isEmpty || !turn.accepts($0.text) {
                     $0.text = turn.direct
                     $0.byModel = false
+                } else {
+                    $0.text = tidyAnswer($0.text)
                 }
                 $0.streaming = false
             }

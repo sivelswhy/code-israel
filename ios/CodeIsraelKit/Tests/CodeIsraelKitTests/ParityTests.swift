@@ -10,6 +10,8 @@ final class ParityTests: XCTestCase {
             let query: String
             let focus: String?
             let chosen: Int?
+            let message: String?
+            let kind: String?
             let hits: [String]
             let law: [String]
             let mismatch: Bool?
@@ -60,10 +62,11 @@ final class ParityTests: XCTestCase {
                 let focus = byId[id]!
                 let shown = Array(([focus] + found.hits.filter { $0.id != id }).prefix(4))
                 XCTAssertEqual(shown.map(\.id), c.hits, "hits: \(c.lic) \(c.query)")
-                XCTAssertEqual(reply(hits: shown, law: law, signs: signs, focus: focus, chosen: c.chosen, lawHits: found.lawHits, query: c.query), c.reply)
+                XCTAssertEqual(reply(hits: shown, law: law, signs: signs, focus: focus, chosen: c.chosen, lawHits: found.lawHits, query: c.query, message: c.message), c.reply)
                 XCTAssertEqual(sources(hits: shown, law: law, focus: focus, signs: signs, lawHits: found.lawHits, query: c.query), c.sources)
             } else {
                 XCTAssertEqual(found.hits.map(\.id), c.hits, "hits: \(c.lic) \(c.query)")
+                if let kind = c.kind { XCTAssertEqual(questionKind(c.query).rawValue, kind, "kind: \(c.query)") }
                 XCTAssertEqual(vehicleMismatch(query: c.query, best: found.hits.first, bestLaw: found.lawHits.first), c.mismatch, c.query)
                 XCTAssertEqual(reply(hits: found.hits, law: law, signs: signs, lawHits: found.lawHits, query: c.query), c.reply, "reply: \(c.lic) \(c.query)")
                 XCTAssertEqual(sources(hits: found.hits, law: law, signs: signs, lawHits: found.lawHits, query: c.query), c.sources, "sources: \(c.lic) \(c.query)")

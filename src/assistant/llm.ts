@@ -145,6 +145,7 @@ Règles absolues :
 - Reprends les mots des sources sans rien interpréter. Ne commence jamais par « oui » ou « non » : énonce d'abord la règle des sources, puis seulement ensuite la conclusion si elle en découle directement.
 - Quand tu t'appuies sur une règle, cite la référence telle qu'elle apparaît dans les sources (par exemple « Règlement de la circulation, art. 47(d) »).
 - Chaque chiffre, unité ou numéro de panneau que tu écris doit apparaître tel quel dans les SOURCES. N'ajoute aucune condition, exception ou catégorie de véhicule qui n'y figure pas.
+- Réponds directement à ce que l'élève demande : ne répète jamais sa question, commence par la réponse en une phrase (la raison, le chiffre, la personne, le moment ou la manière demandés), puis cite seulement la référence de l'article, sans recopier son texte.
 - Réponds en français clair, en 80 mots maximum, avec des phrases courtes.`
 
 export async function* answer(

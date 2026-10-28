@@ -75,6 +75,60 @@ final class LogicTests: XCTestCase {
         XCTAssertTrue(followUp.prompt.contains("(suite)"))
     }
 
+    func testPersonalNoteUsesTheLearnersResults() {
+        let library = ParityTests.library
+        let pool = library.pool(for: .B)
+        let q = pool[0]
+        let topic = AssistantTopic(question: q)
+
+        // Nothing known yet: no remark.
+        XCTAssertNil(personalNote(topic: topic, hits: [], learner: LearnerContext(stats: [:], pool: pool)))
+
+        // A question missed again and again.
+        let missed = LearnerContext(stats: [q.id: Stat(ok: 1, ko: 3, last: false)], pool: pool)
+        XCTAssertEqual(personalNote(topic: topic, hits: [], learner: missed)?.contains("3 fois"), true)
+
+        // A question always right.
+        let easy = LearnerContext(stats: [q.id: Stat(ok: 3, ko: 0, last: true)], pool: pool)
+        XCTAssertEqual(personalNote(topic: topic, hits: [], learner: easy)?.contains("consolider"), true)
+
+        // A weak theme is named only when there are enough answers and the rate is under 60 %.
+        let sameTheme = pool.filter { $0.cat == q.cat }
+        var stats: [String: Stat] = [:]
+        for other in sameTheme.prefix(5) { stats[other.id] = Stat(ok: 1, ko: 1, last: false) }
+        let weak = personalNote(topic: nil, hits: [q], learner: LearnerContext(stats: stats, pool: pool))
+        XCTAssertEqual(weak?.contains(q.cat.label), true)
+        XCTAssertEqual(weak?.contains("50 %"), true)
+        // Too few answers, or a good rate: nothing to say.
+        XCTAssertNil(personalNote(topic: nil, hits: [q], learner: LearnerContext(stats: [sameTheme[0].id: Stat(ok: 0, ko: 3, last: false)], pool: pool)))
+        for other in sameTheme.prefix(5) { stats[other.id] = Stat(ok: 4, ko: 1, last: true) }
+        XCTAssertNil(personalNote(topic: nil, hits: [q], learner: LearnerContext(stats: stats, pool: pool)))
+
+        // Through the assistant: the note reaches the turn, and the composed answer is untouched.
+        let brain = AssistantBrain(pool: pool, law: library.law, signs: library.signs)
+        let withNote = brain.turn(for: "Pourquoi ?", previous: nil, topic: topic, learner: missed)
+        let without = brain.turn(for: "Pourquoi ?", previous: nil, topic: topic)
+        XCTAssertNotNil(withNote.note)
+        XCTAssertNil(without.note)
+        XCTAssertEqual(withNote.direct, without.direct)
+    }
+
+    func testQuestionKindsAndTidyAnswer() {
+        XCTAssertEqual(questionKind("Pourquoi on ne dépasse pas par la droite ?"), .why)
+        XCTAssertEqual(questionKind("C'est quoi la vitesse max en ville ?"), .figure, "a figure, not a definition")
+        XCTAssertEqual(questionKind("Je peux téléphoner en conduisant ?"), .permission)
+        XCTAssertEqual(questionKind("Donne-moi un moyen simple de retenir cette règle."), .remember)
+        XCTAssertEqual(questionKind("Qui doit céder le passage ?"), .who)
+        XCTAssertEqual(questionKind("Bonjour"), .other)
+
+        let quote = "Règlement de la circulation, art. 54 : (a) " + String(repeating: "Nul ne conduira un véhicule. ", count: 8)
+        let tidy = tidyAnswer("La vitesse maximale en ville est de 50 km/h.\n" + quote)
+        XCTAssertEqual(tidy, "La vitesse maximale en ville est de 50 km/h.\nRéférence : Règlement de la circulation, art. 54.")
+        // A short reference line and a plain sentence are left alone.
+        let short = "Règlement de la circulation, art. 54(a) : 50 km/h."
+        XCTAssertEqual(tidyAnswer(short), short)
+    }
+
     func testOnHoldLicenseFallsBack() throws {
         let saved = #"{"license":"C","stats":{},"exams":[],"daily":{}}"#
         XCTAssertEqual(try JSONDecoder().decode(Progress.self, from: Data(saved.utf8)).license, .B)

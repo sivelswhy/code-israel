@@ -4,7 +4,7 @@
 import fs from 'fs'
 import { pathToFileURL } from 'url'
 
-const { QuestionIndex, LawIndex, sources, reply, retrieve, tokens, unsupported, vehicleMismatch } = await import(pathToFileURL(process.argv[2]).href)
+const { QuestionIndex, LawIndex, sources, reply, retrieve, tokens, unsupported, vehicleMismatch, questionKind, personalNote } = await import(pathToFileURL(process.argv[2]).href)
 const read = (p) => JSON.parse(fs.readFileSync(p, 'utf8'))
 const qs = read('public/data/questions.fr.json')
 const law = read('public/data/law.json')
@@ -21,6 +21,7 @@ for (const lic of ['B', 'A']) {
     cases.push({
       lic, query, hits: hits.map((q) => q.id), law: lawHits.map((h) => h.ref),
       mismatch: vehicleMismatch(query, hits[0], lawHits[0]),
+      kind: questionKind(query),
       reply: reply(hits, law, signs, undefined, undefined, lawHits, query),
       sources: sources(hits, law, undefined, signs, lawHits, query),
     })
@@ -29,15 +30,27 @@ for (const lic of ['B', 'A']) {
   for (const id of ['0152', '0274', '0231', '1283']) {
     const focus = qs.find((q) => q.id === id)
     if (!focus.lic.includes(lic)) continue
-    const query = `Pourquoi ma réponse est-elle fausse ? ${focus.q}`
+    const message = 'Pourquoi ma réponse est-elle fausse ?'
+    const query = `${message} ${focus.q}`
     const { hits, lawHits } = retrieve(index, lawIndex, query)
     const shown = [focus, ...hits.filter((h) => h.id !== focus.id)].slice(0, 4)
     const chosen = (focus.c + 1) % focus.a.length
     cases.push({
       lic, query, focus: id, chosen, hits: shown.map((q) => q.id), law: lawHits.map((h) => h.ref),
-      reply: reply(shown, law, signs, focus, chosen, lawHits, query),
+      message, reply: reply(shown, law, signs, focus, chosen, lawHits, query, message),
       sources: sources(shown, law, focus, signs, lawHits, query),
     })
+    // Right answer, asked in other ways: the opening follows the question.
+    for (const message of ['Pourquoi la bonne réponse est-elle correcte ?', 'Donne-moi un moyen simple de retenir cette règle.']) {
+      const q2 = `${message} ${focus.q}`
+      const r = retrieve(index, lawIndex, q2)
+      const shown2 = [focus, ...r.hits.filter((h) => h.id !== focus.id)].slice(0, 4)
+      cases.push({
+        lic, query: q2, focus: id, chosen: focus.c, message, hits: shown2.map((q) => q.id), law: r.lawHits.map((h) => h.ref),
+        reply: reply(shown2, law, signs, focus, focus.c, r.lawHits, q2, message),
+        sources: sources(shown2, law, focus, signs, r.lawHits, q2),
+      })
+    }
   }
 }
 

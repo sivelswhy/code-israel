@@ -1,4 +1,4 @@
-import type { LawExcerpt, Question } from '../data'
+import { CATEGORIES, type Category, type LawExcerpt, type Question } from '../data'
 
 /** Local BM25 search over the French question bank and its explanations — no network, no AI. */
 
@@ -292,16 +292,39 @@ function focusClip(text: string, query: string, max: number) {
 
 const sentence = (t: string) => (/[.!?…]$/.test(t.trim()) ? t.trim() : `${t.trim()}.`)
 
+/** What the learner is asking for, which decides how the answer opens. */
+export type QuestionKind = 'why' | 'remember' | 'figure' | 'definition' | 'permission' | 'who' | 'when' | 'how' | 'other'
+
+const KINDS: [QuestionKind, RegExp][] = [
+  ['why', /(?<!\p{L})pourquoi(?!\p{L})|pour quelle raison/iu],
+  ['remember', /retenir|mémoriser|astuce|moyen (?:simple )?de/iu],
+  // Before "definition": "c'est quoi la vitesse max" asks for a figure.
+  ['figure', ASKS_FIGURE],
+  ['definition', /c['’]est quoi|qu['’]est[- ]ce (?:que|qu['’])|que (?:signifie|veut dire)|définition/iu],
+  ['permission', /(?<!\p{L})(?:peut[- ]on|peut[- ]il|puis[- ]je|ai[- ]je le droit|a[- ]t[- ]on le droit|faut[- ]il|dois[- ]je|doit[- ]on|est[- ]il (?:permis|autorisé|interdit)|est[- ]ce (?:que|permis|autorisé|interdit)|je peux|on peut|j['’]ai le droit|c['’]est (?:permis|autorisé|interdit|légal))(?!\p{L})/iu],
+  ['who', /^\s*(?:et )?qui(?!\p{L})/iu],
+  ['when', /(?<!\p{L})quand(?!\p{L})|à partir de quand|dans quel cas/iu],
+  ['how', /^\s*comment(?!\p{L})/iu],
+]
+
+export function questionKind(text: string): QuestionKind {
+  return KINDS.find(([, re]) => re.test(text))?.[0] ?? 'other'
+}
+
 /**
  * Answer written without any language model: the verified correct answer, our explanation and the
  * cited article, assembled from the best-matching official question.
  */
-export function compose(q: Question, law: Record<string, LawExcerpt>, chosen?: number | null): string {
+export function compose(q: Question, law: Record<string, LawExcerpt>, chosen?: number | null, kind: QuestionKind = 'other'): string {
   const right = q.a[q.c].replace(/[.\s]+$/, '')
-  const lead =
-    chosen != null && chosen !== q.c
-      ? `Ta réponse « ${q.a[chosen].replace(/[.\s]+$/, '')} » est fausse. La bonne réponse est « ${right} ».`
-      : `La bonne réponse est « ${right} ».`
+  const wrong = chosen != null && chosen !== q.c
+  const lead = wrong
+    ? `Votre réponse « ${q.a[chosen].replace(/[.\s]+$/, '')} » est fausse. La bonne réponse est « ${right} ».`
+    : kind === 'remember'
+      ? `À retenir : « ${right} ».`
+      : kind === 'why'
+        ? `La bonne réponse est « ${right} ». Voici pourquoi.`
+        : `La bonne réponse est « ${right} ».`
   const label = (q.r ?? []).map((r) => law[r]?.l).find(Boolean)
   return [lead, q.e && sentence(q.e), label && `Référence : ${label}.`].filter(Boolean).join(' ')
 }
@@ -321,14 +344,19 @@ export function reply(
   chosen?: number | null,
   lawHits: LawHit[] = [],
   query = '',
+  /** What the learner typed, without the question in focus or the previous message; decides how the answer opens. */
+  message?: string,
 ): string {
   const [best, ...others] = hits
   if (!best) return ''
+  const kind = questionKind(message ?? (focus ? '' : query))
   const label = (q: Question) => (q.r ?? []).map((r) => law[r]?.l).find(Boolean)
   const signLines = (q: Question) => citedSignNumbers(q, signs).slice(0, 3).map((n) => `Panneau ${n} : ${trim(signs[n].fr)}.`)
 
+  // Free question: the matching official question is shown as a source, not as if it answered exactly what
+  // was typed (the match may be approximate). Only a question in focus gets an opening that follows the request.
   const head = focus
-    ? compose(best, law, chosen)
+    ? compose(best, law, chosen, kind)
     : [`D'après la question officielle n° ${best.id} (« ${trim(best.q)} ») : ${trim(best.a[best.c])}.`, best.e && sentence(best.e), label(best) && `Référence : ${label(best)}.`]
         .filter(Boolean)
         .join(' ')
@@ -357,4 +385,80 @@ export function reply(
     for (const q of more) parts.push(`• n° ${q.id} — ${trim(q.q)} → ${trim(q.a[q.c])}.${label(q) ? ` (${label(q)})` : ''}`)
   }
   return parts.join('\n')
+}
+
+/** What a model is told about the kind of answer expected, so it answers the question as it was asked. */
+export function kindHint(kind: QuestionKind): string {
+  const hints: Partial<Record<QuestionKind, string>> = {
+    why: "l'élève demande la raison : commence par la raison, avec les mots des sources.",
+    remember: "l'élève veut retenir la règle : résume-la en une seule phrase courte et facile à mémoriser, commençant par « À retenir : », sans rien ajouter aux sources.",
+    figure: "l'élève veut une valeur : commence par ce chiffre, tel qu'il est dans les sources.",
+    definition: "l'élève veut une définition : donne-la en une phrase, avec les mots des sources.",
+    permission: "l'élève demande si c'est permis : énonce la règle des sources qui répond, sans conclure au-delà de ce qu'elles disent.",
+    who: "l'élève demande « qui » : commence par la personne ou l'autorité désignée dans les sources.",
+    when: "l'élève demande « quand » : commence par la condition ou le moment indiqué dans les sources.",
+    how: "l'élève demande « comment » : commence par la manière indiquée dans les sources.",
+  }
+  return hints[kind] ?? ''
+}
+
+export interface Stat {
+  ok: number
+  ko: number
+  last: boolean
+}
+
+/** The category where the learner does worst, if there are enough answers to say and it is below 60 %. */
+function weakestCategory(stats: Record<string, Stat>, pool: Question[]): { cat: Category; percent: number } | null {
+  let weakest: { cat: Category; percent: number } | null = null
+  for (const cat of Object.keys(CATEGORIES) as Category[]) {
+    let ok = 0
+    let ko = 0
+    for (const q of pool) {
+      if (q.cat !== cat) continue
+      ok += stats[q.id]?.ok ?? 0
+      ko += stats[q.id]?.ko ?? 0
+    }
+    if (ok + ko < 8) continue
+    const percent = Math.round((ok / (ok + ko)) * 100)
+    if (percent < 60 && (!weakest || percent < weakest.percent)) weakest = { cat, percent }
+  }
+  return weakest
+}
+
+/**
+ * A short remark about the learner's own results, shown above an answer. Composed from the saved results,
+ * never written by a model, so it cannot invent a figure.
+ */
+export function personalNote(topic: { question: Question } | undefined, hits: Question[], stats: Record<string, Stat>, pool: Question[]): string | null {
+  const q = topic?.question ?? hits[0]
+  if (!q) return null
+  const lines: string[] = []
+  const s = topic && stats[q.id]
+  if (s) {
+    if (s.ko >= 2) lines.push(`Cette question vous a déjà fait trébucher ${s.ko} fois : prenez le temps de bien retenir la règle.`)
+    else if (s.ko === 1 && s.ok === 0) lines.push('Vous avez déjà raté cette question une fois.')
+    else if (s.ok >= 2 && s.ko === 0) lines.push('Vous réussissez habituellement cette question : cette explication sert à la consolider.')
+  }
+  const weak = weakestCategory(stats, pool)
+  if (weak && weak.cat === q.cat) {
+    lines.push(`Le thème « ${CATEGORIES[q.cat].label} » est votre point faible pour l’instant (${weak.percent} % de réussite) : une série d’entraînement dessus vous aiderait.`)
+  }
+  return lines.length ? lines.join(' ') : null
+}
+
+const LAW_QUOTE = /^\s*\[?((?:Règlement|Ordonnance) de la circulation, art\. [^:\]\n]+?)\]?\s*:\s*.{120,}$/u
+
+/**
+ * A model sometimes pastes a whole article after its answer. A long quotation is replaced by the
+ * reference alone: the text of the law stays available through the sources.
+ */
+export function tidyAnswer(text: string): string {
+  return text
+    .split('\n')
+    .map((line) => {
+      const ref = LAW_QUOTE.exec(line)?.[1]
+      return ref ? `Référence : ${ref.trim()}.` : line
+    })
+    .join('\n')
 }

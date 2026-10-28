@@ -158,3 +158,39 @@ func sentence(_ text: String) -> String {
     let t = text.trimmingCharacters(in: .whitespacesAndNewlines)
     return [".", "!", "?", "…"].contains(where: t.hasSuffix) ? t : t + "."
 }
+
+/// What the learner is asking for, which decides how an answer opens.
+public enum QuestionKind: String, Sendable {
+    case why, remember, figure, definition, permission, who, when, how, other
+}
+
+private let kindPatterns: [(QuestionKind, Pattern)] = [
+    (.why, Pattern(#"(?<!\p{L})pourquoi(?!\p{L})|pour quelle raison"#)),
+    (.remember, Pattern(#"retenir|mémoriser|astuce|moyen (?:simple )?de"#)),
+    // Before "definition": "c'est quoi la vitesse max" asks for a figure.
+    (.figure, asksFigure),
+    (.definition, Pattern(#"c['’]est quoi|qu['’]est[- ]ce (?:que|qu['’])|que (?:signifie|veut dire)|définition"#)),
+    (.permission, Pattern(#"(?<!\p{L})(?:peut[- ]on|peut[- ]il|puis[- ]je|ai[- ]je le droit|a[- ]t[- ]on le droit|faut[- ]il|dois[- ]je|doit[- ]on|est[- ]il (?:permis|autorisé|interdit)|est[- ]ce (?:que|permis|autorisé|interdit)|je peux|on peut|j['’]ai le droit|c['’]est (?:permis|autorisé|interdit|légal))(?!\p{L})"#)),
+    (.who, Pattern(#"^\s*(?:et )?qui(?!\p{L})"#)),
+    (.when, Pattern(#"(?<!\p{L})quand(?!\p{L})|à partir de quand|dans quel cas"#)),
+    (.how, Pattern(#"^\s*comment(?!\p{L})"#)),
+]
+
+public func questionKind(_ text: String) -> QuestionKind {
+    kindPatterns.first { $0.1.test(text) }?.0 ?? .other
+}
+
+/// What a model is told about the kind of answer expected, so it answers the question as it was asked.
+public func kindHint(_ kind: QuestionKind) -> String {
+    switch kind {
+    case .why: "l'élève demande la raison : commence par la raison, avec les mots des sources."
+    case .remember: "l'élève veut retenir la règle : résume-la en une seule phrase courte et facile à mémoriser, commençant par « À retenir : », sans rien ajouter aux sources."
+    case .figure: "l'élève veut une valeur : commence par ce chiffre, tel qu'il est dans les sources."
+    case .definition: "l'élève veut une définition : donne-la en une phrase, avec les mots des sources."
+    case .permission: "l'élève demande si c'est permis : énonce la règle des sources qui répond, sans conclure au-delà de ce qu'elles disent."
+    case .who: "l'élève demande « qui » : commence par la personne ou l'autorité désignée dans les sources."
+    case .when: "l'élève demande « quand » : commence par la condition ou le moment indiqué dans les sources."
+    case .how: "l'élève demande « comment » : commence par la manière indiquée dans les sources."
+    case .other: ""
+    }
+}

@@ -364,3 +364,5 @@ a { color: var(--accent); }
 
 .sources-fold summary { cursor: pointer; padding: 4px 0; }
 .law-text { margin: 6px 0 0; white-space: pre-line; }
+
+.bot-note { margin: 0 0 10px; padding: 8px 12px; border-radius: 12px; background: var(--fill); color: var(--text-2); font-size: 0.875rem; line-height: 1.4; }

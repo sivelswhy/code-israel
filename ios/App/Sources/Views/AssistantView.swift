@@ -112,7 +112,7 @@ struct AssistantView: View {
     }
 
     private func send(_ text: String) {
-        conversation.send(text, brain: app.brain, topic: topic, engines: engines)
+        conversation.send(text, brain: app.brain, topic: topic, engines: engines, learner: LearnerContext(stats: app.progress.stats, pool: app.pool))
         input = ""
     }
 }
@@ -131,6 +131,13 @@ private struct MessageView: View {
                 .padding(.leading, 40)
         } else {
             VStack(alignment: .leading, spacing: 10) {
+                if let note = message.note {
+                    Label(note, systemImage: "person.crop.circle")
+                        .font(.footnote).foregroundStyle(.secondary)
+                        .padding(10)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(RoundedRectangle(cornerRadius: 12).fill(Color.subtleFill))
+                }
                 if message.text.isEmpty && message.streaming {
                     HStack(spacing: 8) { ProgressView(); Text("Réflexion…").foregroundStyle(.secondary) }
                 } else if message.text.isEmpty {

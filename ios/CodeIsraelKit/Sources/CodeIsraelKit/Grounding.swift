@@ -107,11 +107,18 @@ public func sources(hits: [Question], law: [String: LawExcerpt], focus: Question
 
 /// Answer written without any language model about one question: the verified correct answer, our
 /// explanation and the cited article.
-public func compose(_ q: Question, law: [String: LawExcerpt], chosen: Int? = nil) -> String {
+public func compose(_ q: Question, law: [String: LawExcerpt], chosen: Int? = nil, kind: QuestionKind = .other) -> String {
     let right = trimEnd(q.correct)
-    let lead = chosen.map { $0 != q.c } == true
-        ? "Ta réponse « \(trimEnd(q.a[chosen!])) » est fausse. La bonne réponse est « \(right) »."
-        : "La bonne réponse est « \(right) »."
+    let lead: String
+    if let chosen, chosen != q.c {
+        lead = "Votre réponse « \(trimEnd(q.a[chosen])) » est fausse. La bonne réponse est « \(right) »."
+    } else if kind == .remember {
+        lead = "À retenir : « \(right) »."
+    } else if kind == .why {
+        lead = "La bonne réponse est « \(right) ». Voici pourquoi."
+    } else {
+        lead = "La bonne réponse est « \(right) »."
+    }
     let label = (q.r ?? []).lazy.compactMap { law[$0]?.l }.first
     return [lead, q.e.map(sentence), label.map { "Référence : \($0)." }].compactMap { $0 }.joined(separator: " ")
 }
@@ -121,8 +128,10 @@ private let leadingLabel = Pattern(#"^[^:]*:"#)
 /// Answer to a free question without any language model: the best-matching official question presented
 /// as a source (not as if the student had asked it), its explanation, the law, the meaning of cited
 /// signs and the next best matches. With a focus question, explains that one.
-public func reply(hits: [Question], law: [String: LawExcerpt], signs: [String: Sign], focus: Question? = nil, chosen: Int? = nil, lawHits: [LawHit] = [], query: String = "") -> String {
+public func reply(hits: [Question], law: [String: LawExcerpt], signs: [String: Sign], focus: Question? = nil, chosen: Int? = nil, lawHits: [LawHit] = [], query: String = "", message: String? = nil) -> String {
     guard let best = hits.first else { return "" }
+    // `message` is what the learner typed, without the question in focus or the previous message.
+    let kind = questionKind(message ?? (focus == nil ? query : ""))
     let others = hits.dropFirst()
     func label(_ q: Question) -> String? { (q.r ?? []).lazy.compactMap { law[$0]?.l }.first }
     func signLines(_ q: Question) -> [String] {
@@ -130,7 +139,7 @@ public func reply(hits: [Question], law: [String: LawExcerpt], signs: [String: S
     }
 
     let head = focus != nil
-        ? compose(best, law: law, chosen: chosen)
+        ? compose(best, law: law, chosen: chosen, kind: kind)
         : ["D'après la question officielle n° \(best.id) (« \(trimEnd(best.q)) ») : \(trimEnd(best.correct)).", best.e.map(sentence), label(best).map { "Référence : \($0)." }]
             .compactMap { $0 }.joined(separator: " ")
     var parts = [head] + signLines(best)
