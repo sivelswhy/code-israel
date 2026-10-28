@@ -292,6 +292,16 @@ final class JourneyTests: XCTestCase {
         let trues = pool.filter { ExercisePlanner.statement(for: $0).isTrue }.count
         XCTAssertGreaterThan(trues, pool.count / 3)
         XCTAssertLessThan(trues, pool.count * 2 / 3)
+        // Within a lesson (questions 1 and 5 of 8 in bank order) neither answer wins all the time, and a new salt changes them.
+        let lessons = stride(from: 0, to: pool.count - 8, by: 8).map { Array(pool[$0..<($0 + 8)]) }
+        for salt in [0, 1, 2] {
+            let shown = lessons.flatMap { [$0[1], $0[5]] }.map { ExercisePlanner.statement(for: $0, salt: salt).isTrue }
+            XCTAssertGreaterThan(shown.filter { $0 }.count, shown.count * 2 / 5)
+            XCTAssertLessThan(shown.filter { $0 }.count, shown.count * 3 / 5)
+            let same = lessons.filter { ExercisePlanner.statement(for: $0[1], salt: salt).isTrue == ExercisePlanner.statement(for: $0[5], salt: salt).isTrue }.count
+            XCTAssertLessThan(same, lessons.count * 3 / 5, "the two statements of a lesson are not twins")
+        }
+        XCTAssertNotEqual(pool.prefix(100).map { ExercisePlanner.statement(for: $0, salt: 1).isTrue }, pool.prefix(100).map { ExercisePlanner.statement(for: $0, salt: 2).isTrue })
     }
 
     func testPassProbabilityIsExact() {

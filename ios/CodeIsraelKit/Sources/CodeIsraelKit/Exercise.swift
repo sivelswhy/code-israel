@@ -22,13 +22,19 @@ public enum ExercisePlanner {
         }
     }
 
-    /// For a true/false exercise: the answer shown and whether the statement is true. The same question always
-    /// shows the same statement.
-    public static func statement(for q: Question) -> (answerIndex: Int, isTrue: Bool) {
-        let h = q.id.unicodeScalars.reduce(5) { ($0 &* 31 &+ Int($1.value)) % 10_007 }
-        if h % 2 == 0 || q.a.count < 2 { return (q.c, true) }
+    /// For a true/false exercise: the answer shown and whether the statement is true. With the same `salt` the same
+    /// question always shows the same statement; a lesson picks a new salt each time it starts, so a question is not
+    /// always true (or always false) from one try to the next. The bits are well mixed: the identifiers of questions
+    /// that follow each other must not give the same answer.
+    public static func statement(for q: Question, salt: Int = 0) -> (answerIndex: Int, isTrue: Bool) {
+        var x = UInt64(truncatingIfNeeded: q.id.unicodeScalars.reduce(5) { ($0 &* 31 &+ Int($1.value)) % 1_000_003 })
+        x = x &+ UInt64(truncatingIfNeeded: salt) &* 0x9E37_79B9_7F4A_7C15
+        x = (x ^ (x >> 30)) &* 0xBF58_476D_1CE4_E5B9
+        x = (x ^ (x >> 27)) &* 0x94D0_49BB_1331_11EB
+        x ^= x >> 31
+        if x & 1 == 0 || q.a.count < 2 { return (q.c, true) }
         let wrong = q.a.indices.filter { $0 != q.c }
-        return (wrong[h % wrong.count], false)
+        return (wrong[Int((x >> 8) % UInt64(wrong.count))], false)
     }
 
     /// For a Hebrew exercise: four French wordings (the right one and three from the same theme), in a fixed order.

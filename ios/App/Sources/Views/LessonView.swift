@@ -18,6 +18,8 @@ struct LessonView: View {
     @State private var chosen: Int?
     @State private var checked = false
     @State private var confirmQuit = false
+    /// Changes the true and false statements of the true/false exercises each time a lesson starts.
+    @State private var statementSalt = Int.random(in: 0..<1_000_000)
     @State private var outcome: SessionOutcome?
     /// For the speed bonus: when the current question appeared, and how long the answer took.
     @State private var shownAt = Date()
@@ -58,7 +60,7 @@ struct LessonView: View {
     /// Index of the right choice among the buttons shown.
     private func correctIndex(_ q: Question) -> Int {
         switch kind {
-        case .trueFalse: ExercisePlanner.statement(for: q).isTrue ? 0 : 1
+        case .trueFalse: ExercisePlanner.statement(for: q, salt: statementSalt).isTrue ? 0 : 1
         case .hebrew: translations(q).correct
         case .choice: q.c
         }
@@ -75,7 +77,7 @@ struct LessonView: View {
     /// The right answer in words, for the feedback.
     private func correctText(_ q: Question) -> String {
         switch kind {
-        case .trueFalse: "\(ExercisePlanner.statement(for: q).isTrue ? "Vrai" : "Faux"). La bonne réponse est : \(q.correct)"
+        case .trueFalse: "\(ExercisePlanner.statement(for: q, salt: statementSalt).isTrue ? "Vrai" : "Faux"). La bonne réponse est : \(q.correct)"
         case .hebrew: translations(q).options[translations(q).correct]
         case .choice: q.correct
         }
@@ -188,7 +190,7 @@ struct LessonView: View {
         case .choice:
             Text(q.q).font(.title2.weight(.bold)).fixedSize(horizontal: false, vertical: true)
         case .trueFalse:
-            let st = ExercisePlanner.statement(for: q)
+            let st = ExercisePlanner.statement(for: q, salt: statementSalt)
             Text("Vrai ou faux ?").font(.title2.weight(.bold))
             Text(q.q).font(.title3.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
             VStack(alignment: .leading, spacing: 4) {
