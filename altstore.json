@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.4",
+          "buildVersion": "4",
+          "date": "2026-10-28",
+          "localizedDescription": "Jeux : le bouton Continuer reste toujours dans l'écran (iPhone et site), l'explication défile dans le panneau",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.4/CodeIsrael.ipa",
+          "size": 26920694,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.1",
           "buildVersion": "3",
           "date": "2026-10-28",
