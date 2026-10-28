@@ -337,6 +337,8 @@ struct SpeechBubble: View {
     var tailTrailing = false
     /// Distance from the bubble's edge to the tail: the middle of the character that speaks.
     var tailInset: CGFloat = 22
+    /// True for a bubble set up and to the side of the character, with a slanted tail instead of a straight one.
+    var diagonal = false
 
     var body: some View {
         Text(text)
@@ -347,11 +349,46 @@ struct SpeechBubble: View {
             .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
             .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.primary.opacity(0.12), lineWidth: 1.5))
             .overlay(alignment: tailTrailing ? .bottomTrailing : .bottomLeading) {
-                Rectangle().fill(Color.cardBackground).frame(width: 12, height: 12).rotationEffect(.degrees(45))
-                    .overlay(Rectangle().stroke(Color.primary.opacity(0.12), lineWidth: 1.5).rotationEffect(.degrees(45)).mask(alignment: .bottom) { Rectangle().frame(height: 9) })
-                    .offset(x: tailTrailing ? -tailInset : tailInset, y: 6)
+                if diagonal {
+                    SlantedTail()
+                        .fill(Color.cardBackground)
+                        .overlay(SlantedTail.edges.stroke(Color.primary.opacity(0.12), style: StrokeStyle(lineWidth: 1.5, lineJoin: .round)))
+                        .frame(width: 22, height: 16)
+                        .scaleEffect(x: tailTrailing ? -1 : 1)
+                        // Its top covers the bubble's border where the two meet.
+                        .offset(x: tailTrailing ? -8 : 8, y: 14.5)
+                } else {
+                    Rectangle().fill(Color.cardBackground).frame(width: 12, height: 12).rotationEffect(.degrees(45))
+                        .overlay(Rectangle().stroke(Color.primary.opacity(0.12), lineWidth: 1.5).rotationEffect(.degrees(45)).mask(alignment: .bottom) { Rectangle().frame(height: 9) })
+                        .offset(x: tailTrailing ? -tailInset : tailInset, y: 6)
+                }
             }
             .frame(maxWidth: 280, alignment: tailTrailing ? .trailing : .leading)
+    }
+}
+
+/// A triangle under the bubble's bottom-left corner whose tip points down and to the left, towards the character.
+private struct SlantedTail: Shape {
+    func path(in r: CGRect) -> Path {
+        var p = Path()
+        p.move(to: CGPoint(x: r.minX + 8, y: r.minY))
+        p.addLine(to: CGPoint(x: r.minX, y: r.maxY))
+        p.addLine(to: CGPoint(x: r.maxX, y: r.minY))
+        p.closeSubpath()
+        return p
+    }
+
+    /// Only the two slanted sides: the base is the bubble's own border.
+    static var edges: some Shape { SlantedTailEdges() }
+}
+
+private struct SlantedTailEdges: Shape {
+    func path(in r: CGRect) -> Path {
+        var p = Path()
+        p.move(to: CGPoint(x: r.minX + 8, y: r.minY))
+        p.addLine(to: CGPoint(x: r.minX, y: r.maxY))
+        p.addLine(to: CGPoint(x: r.maxX, y: r.minY))
+        return p
     }
 }
 
@@ -380,14 +417,14 @@ struct TalkingMascot: View {
         Group {
             if floating {
                 character
-                    // Lined up with the bottom of the character, then lifted by its height: the bubble ends up just above it,
-                    // wherever its text makes it grow.
+                    // Set up and to the side of the character, its slanted tail pointing back at it: straight above it, a long
+                    // tip would cover what is over the row (the card of the theme), and beside it the next lesson button.
                     .overlay(alignment: trailing ? .bottomTrailing : .bottomLeading) {
                         if let text {
-                            SpeechBubble(text: text, tailTrailing: trailing, tailInset: tail)
-                                .frame(width: 190, alignment: trailing ? .trailing : .leading)
+                            SpeechBubble(text: text, tailTrailing: trailing, diagonal: true)
+                                .frame(width: 240, alignment: trailing ? .trailing : .leading)
                                 .fixedSize(horizontal: false, vertical: true)
-                                .offset(y: -(size + gap))
+                                .offset(x: size * (trailing ? -0.6 : 0.6), y: -(size + 4))
                                 .transition(.scale(scale: 0.85, anchor: trailing ? .bottomTrailing : .bottomLeading).combined(with: .opacity))
                                 .id(text)
                         }

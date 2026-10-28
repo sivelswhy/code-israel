@@ -201,7 +201,8 @@ struct JourneyView: View {
                     .frame(maxWidth: half < 160 ? 150 : 200, alignment: side < 0 ? .leading : .trailing)
             }
         }
-        .padding(.vertical, 14)
+        // The guide's bubble rises above its row: room is kept for it, so it does not cover what lies over the row.
+        .padding(.top, current ? 40 : 14).padding(.bottom, 14)
         // A tip told by the guide may reach over the rows around it: it is drawn above them.
         .zIndex(current ? 1 : 0)
     }
