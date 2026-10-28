@@ -88,7 +88,8 @@
 .goal-card { position: relative; display: flex; align-items: center; gap: 14px; padding-right: 92px; }
 .goal-card h3, .quests h3 { margin: 0; font-size: 1.0625rem; }
 .goal-card p { margin: 2px 0 0; }
-.goal-feo { position: absolute; top: 4px; right: 12px; }
+/* Room above for its hops, so that it stays inside the card. */
+.goal-feo { position: absolute; top: 18px; right: 12px; }
 .goal-feo .talking .bubble { position: absolute; right: 0; top: 64px; z-index: 5; width: 220px; }
 .streak { color: var(--ring-orange); font-weight: 600; font-size: 0.875rem; }
 .level-row { display: flex; justify-content: space-between; margin-bottom: 8px; }

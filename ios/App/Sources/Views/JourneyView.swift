@@ -251,7 +251,8 @@ struct JourneyView: View {
             .overlay(alignment: .topTrailing) {
                 // The traffic light shows how the day is going: red, orange, then green once the goal is reached.
                 TalkingMascot(mascot: .feo, mood: today >= JourneyRules.dailyXP ? .cheer : today > 0 ? .thinking : .sad, size: 58)
-                    .padding(10)
+                    // Room above for its jumps (a sixth of its height), so that it stays inside the card.
+                    .padding(EdgeInsets(top: 24, leading: 10, bottom: 10, trailing: 10))
             }
 
             VStack(alignment: .leading, spacing: 8) {
