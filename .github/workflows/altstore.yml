@@ -1,24 +1,31 @@
 name: Version AltStore
 
-# Builds the iPhone app, publishes it as a GitHub release and adds it to the AltStore source
-# (altstore.json at the root of the repository, read by AltStore from raw.githubusercontent.com), so that AltStore offers the update by itself.
-# Run it from the Actions tab (enter the version number) or push a tag such as v1.2.
+# Each time the iPhone app changes on main (anything under ios/), this builds the app, publishes it as a GitHub release
+# and adds it to the AltStore source (altstore.json at the root of the repository, read by AltStore from
+# raw.githubusercontent.com): AltStore then offers the update by itself. Nothing to do by hand.
+# It can also be started from the Actions tab, to choose the version number and the release notes.
 on:
   push:
-    tags: ['v*']
+    branches: [main]
+    paths:
+      - 'ios/**'
+      - 'scripts/make-ipa.sh'
   workflow_dispatch:
     inputs:
       version:
-        description: Numéro de version (par exemple 1.2)
-        required: true
-      notes:
-        description: Nouveautés affichées dans AltStore
+        description: Numéro de version (par défaut 1.<numéro d'exécution>)
         required: false
-        default: Mise à jour.
+      notes:
+        description: Nouveautés affichées dans AltStore (par défaut, le message du commit)
+        required: false
 
 permissions:
   contents: write
-  actions: write
+
+# One release at a time, so that two pushes in a row never write altstore.json together.
+concurrency:
+  group: altstore
+  cancel-in-progress: false
 
 jobs:
   release:
@@ -32,18 +39,22 @@ jobs:
         id: v
         env:
           INPUT_VERSION: ${{ github.event.inputs.version }}
+          INPUT_NOTES: ${{ github.event.inputs.notes }}
         run: |
           VERSION="$INPUT_VERSION"
-          [ -n "$VERSION" ] || VERSION="${GITHUB_REF_NAME#v}"
+          [ -n "$VERSION" ] || VERSION="1.${{ github.run_number }}"
+          NOTES="$INPUT_NOTES"
+          [ -n "$NOTES" ] || NOTES="$(git log -1 --format=%s)"
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+          echo "notes=$NOTES" >> "$GITHUB_OUTPUT"
       - run: brew install xcodegen
       - name: Build the unsigned IPA
         run: VERSION="${{ steps.v.outputs.version }}" BUILD="${{ github.run_number }}" scripts/make-ipa.sh build
       - name: GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
-          NOTES: ${{ github.event.inputs.notes || 'Mise à jour.' }}
+          NOTES: ${{ steps.v.outputs.notes }}
         run: |
           gh release delete "${{ steps.v.outputs.tag }}" --yes --cleanup-tag 2>/dev/null || true
           gh release create "${{ steps.v.outputs.tag }}" build/CodeIsrael.ipa --target main \
@@ -51,8 +62,7 @@ jobs:
             --notes "$NOTES"
       - name: AltStore source
         env:
-          GH_TOKEN: ${{ github.token }}
-          NOTES: ${{ github.event.inputs.notes || 'Mise à jour.' }}
+          NOTES: ${{ steps.v.outputs.notes }}
         run: |
           node scripts/altstore-source.mjs "${{ steps.v.outputs.version }}" "${{ github.run_number }}" build/CodeIsrael.ipa \
             "https://github.com/${{ github.repository }}/releases/download/${{ steps.v.outputs.tag }}/CodeIsrael.ipa" \
@@ -61,4 +71,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add altstore.json
           git commit -m "AltStore : version ${{ steps.v.outputs.version }}"
+          # Someone may have pushed while the app was building.
+          git pull --rebase origin main
           git push origin HEAD:main

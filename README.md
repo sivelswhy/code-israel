@@ -59,4 +59,4 @@ L'app iPhone s'installe et se met à jour avec [AltStore](https://altstore.io). 
 https://raw.githubusercontent.com/sivelswhy/code-israel/main/altstore.json
 ```
 
-Pour publier une nouvelle version : onglet **Actions** du dépôt → **Version AltStore** → **Run workflow** avec le numéro de version (ou poussez un tag `v1.2`). Le workflow construit l'IPA, la publie dans les *Releases* et ajoute la version au fichier `altstore.json` (à la racine du dépôt) : AltStore propose alors la mise à jour tout seul. `scripts/make-ipa.sh` construit l'IPA en local.
+Les mises à jour sont automatiques : dès qu'un changement du dossier `ios/` arrive sur `main`, le workflow **Version AltStore** s'exécute (ou lancez-le à la main depuis l'onglet **Actions** pour choisir le numéro de version). Le workflow construit l'IPA, la publie dans les *Releases* et ajoute la version au fichier `altstore.json` (à la racine du dépôt) : AltStore propose alors la mise à jour tout seul. `scripts/make-ipa.sh` construit l'IPA en local.
