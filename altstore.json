@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.20",
+          "buildVersion": "20",
+          "date": "2026-10-28",
+          "localizedDescription": "Le feu tricolore reste dans sa carte quand il rebondit (app et site)",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.20/CodeIsrael.ipa",
+          "size": 27160839,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.19",
           "buildVersion": "19",
           "date": "2026-10-28",
