@@ -73,7 +73,9 @@ Mise en route, une seule fois (dans le tableau de bord Vercel) :
 
 Tests : `cd mail && npm install && node --test send-code.test.mjs sync.test.mjs`.
 
-### Envoyer le code par e-mail (facultatif)
+### Envoyer le code par e-mail (facultatif, désactivé)
+
+Pas activé : les relais SMTP gratuits exigent un domaine authentifié (DKIM/DMARC), et les boîtes grand public bloquent l'envoi automatique. Les apps proposent donc un brouillon d'e-mail à envoyer soi-même et la copie du code. Pour l'activer, ajouter `"mail": "https://code-israel-mail.vercel.app/api/send-code"` dans les deux `sync.json` et renseigner les variables ci-dessous.
 
 `mail/api/send-code.js` envoie le code par e-mail avec un compte SMTP. Les identifiants ne sont jamais dans le dépôt : ils sont saisis dans les variables d'environnement du projet Vercel (*Settings → Environment Variables*) : `SMTP_HOST`, `SMTP_PORT` (465 ou 587), `SMTP_USER`, `SMTP_PASS`, `MAIL_FROM` (par exemple `Code Israël <toi@exemple.fr>`). `ALLOWED_RECIPIENTS` vaut `*` : chaque utilisateur reçoit son propre code.
 
