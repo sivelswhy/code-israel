@@ -277,7 +277,7 @@ final class JourneyTests: XCTestCase {
     }
 
     func testExercisePlanner() {
-        XCTAssertEqual((0..<4).map { ExercisePlanner.kind(position: $0, firstAttempt: true, hasHebrew: true) }, [.choice, .trueFalse, .listening, .hebrew])
+        XCTAssertEqual((0..<4).map { ExercisePlanner.kind(position: $0, firstAttempt: true, hasHebrew: true) }, [.choice, .trueFalse, .choice, .hebrew])
         XCTAssertEqual(ExercisePlanner.kind(position: 3, firstAttempt: true, hasHebrew: false), .choice)
         XCTAssertEqual(ExercisePlanner.kind(position: 1, firstAttempt: false, hasHebrew: true), .choice, "a retry is the plain question")
         for q in pool.prefix(200) {

@@ -423,14 +423,13 @@ export function streakAlert(now: Date, practicedToday: boolean): Date {
 
 // ------------------------------------------------------------------------------------------------------ Exercises
 
-export type ExerciseKind = 'choice' | 'trueFalse' | 'listening' | 'hebrew'
+export type ExerciseKind = 'choice' | 'trueFalse' | 'hebrew'
 
 /** The kind of exercise for the question at `position` of a lesson; a question that comes back is always a plain choice. */
 export function exerciseKind(position: number, firstAttempt: boolean, hasHebrew: boolean): ExerciseKind {
   if (!firstAttempt) return 'choice'
   switch (position % 4) {
     case 1: return 'trueFalse'
-    case 2: return 'listening'
     case 3: return hasHebrew ? 'hebrew' : 'choice'
     default: return 'choice'
   }

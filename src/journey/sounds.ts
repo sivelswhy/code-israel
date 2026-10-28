@@ -1,6 +1,6 @@
 import { asset } from '../data'
 
-/** Short sound effects of the Parcours mode and the voice that reads a question aloud. Everything is bundled or built in the browser. */
+/** Short sound effects of the Parcours mode, bundled with the app. */
 export type SoundName = 'tap' | 'right' | 'wrong' | 'star' | 'complete'
 
 const FILES: Record<SoundName, string> = {
@@ -44,19 +44,4 @@ export function play(name: SoundName, delay = 0) {
   audio.currentTime = 0
   // The browser may refuse to play before the first tap: the sound is simply skipped.
   audio.play().catch(() => {})
-}
-
-export const canSpeak = () => 'speechSynthesis' in window
-
-export function speak(text: string) {
-  if (!canSpeak()) return
-  speechSynthesis.cancel()
-  const u = new SpeechSynthesisUtterance(text)
-  u.lang = 'fr-FR'
-  u.rate = 0.95
-  speechSynthesis.speak(u)
-}
-
-export const stopSpeaking = () => {
-  if (canSpeak()) speechSynthesis.cancel()
 }

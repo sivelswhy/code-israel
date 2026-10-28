@@ -5,7 +5,7 @@ import { useSigns } from '../Signs'
 import { exerciseKind, isFinished, isFirstAttempt, newSession, outcome as sessionOutcome, RULES, sessionProgress, statement, submit, translations, type Lesson, type Outcome, type Session } from './engine'
 import { Mascot, TalkingMascot } from './Mascots'
 import { hebrewExercisesOn } from './options'
-import { play, setSounds, soundsOn, speak, stopSpeaking, canSpeak } from './sounds'
+import { play, setSounds, soundsOn } from './sounds'
 
 interface Props {
   title: string
@@ -24,14 +24,13 @@ interface Props {
 }
 
 const PRAISE = ['Bravo !', 'Exact !', 'Excellent !', 'Bien joué !', 'Parfait !']
-const KIND_LABEL = { choice: 'Choix', trueFalse: 'Vrai ou faux', listening: 'Écoute', hebrew: 'Hébreu' } as const
+const KIND_LABEL = { choice: 'Choix', trueFalse: 'Vrai ou faux', hebrew: 'Hébreu' } as const
 
 /** One lesson of the Parcours: answer, check, see why, continue. Several kinds of exercise; a wrong question comes back at the end. */
 export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, onRecord, onFinish, onClose }: Props) {
   const [session, setSession] = useState<Session>(() => newSession(questions.map((q) => q.id)))
   const [chosen, setChosen] = useState<number | null>(null)
   const [checked, setChecked] = useState(false)
-  const [textShown, setTextShown] = useState(false)
   const [result, setResult] = useState<Outcome | null>(null)
   const [hebrew, setHebrew] = useState<Map<string, Question> | null>(null)
   const [law, setLaw] = useState<Record<string, LawExcerpt>>({})
@@ -47,7 +46,6 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
     if (hebrewExercisesOn()) loadQuestions('he').then((all) => setHebrew(new Map(all.map((q) => [q.id, q]))), () => setHebrew(new Map()))
     else setHebrew(new Map())
     loadLaw().then(setLaw, () => {})
-    return stopSpeaking
   }, [])
 
   const q = session.queue[0] !== undefined ? byId.get(session.queue[0]) : undefined
@@ -59,7 +57,7 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
   const count = !q ? 0 : kind === 'trueFalse' ? 2 : kind === 'hebrew' ? trans!.options.length : q.a.length
   const correctIndex = !q ? -1 : kind === 'trueFalse' ? (statement(q).isTrue ? 0 : 1) : kind === 'hebrew' ? trans!.correct : q.c
   const right = chosen !== null && chosen === correctIndex
-  const choiceAt = (n: number) => (!q ? n : kind === 'choice' || kind === 'listening' ? orders.get(q.id)![n] : n)
+  const choiceAt = (n: number) => (!q ? n : kind === 'choice' ? orders.get(q.id)![n] : n)
   const choiceText = (ai: number) => (!q ? '' : kind === 'trueFalse' ? (ai === 0 ? 'Vrai' : 'Faux') : kind === 'hebrew' ? trans!.options[ai] : q.a[ai])
   const correctText = !q ? '' : kind === 'trueFalse' ? `${statement(q).isTrue ? 'Vrai' : 'Faux'}. La bonne réponse est : ${q.a[q.c]}` : kind === 'hebrew' ? trans!.options[trans!.correct] : q.a[q.c]
 
@@ -84,8 +82,6 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
     setSession(after)
     setChosen(null)
     setChecked(false)
-    setTextShown(false)
-    stopSpeaking()
     shownAt.current = Date.now()
     if (isFinished(after)) {
       const done = sessionOutcome(after, lesson !== null)
@@ -114,11 +110,6 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
   const quit = () => {
     if (!session.queue.length || window.confirm('Quitter la leçon ? Votre avancée dans cette leçon ne sera pas enregistrée, mais les réponses déjà données comptent dans vos statistiques.')) onClose()
   }
-
-  // Listening: read the question as soon as it appears.
-  useEffect(() => {
-    if (q && kind === 'listening' && !checked && canSpeak()) speak(q.q)
-  }, [q, kind]) // eslint-disable-line react-hooks/exhaustive-deps
 
   if (result) return <LessonComplete title={lesson ? 'Leçon terminée !' : 'Série terminée !'} result={result} xpBefore={xpBefore} onClose={onClose} />
   if (!hebrew || !q) return <p className="center muted">Chargement…</p>
@@ -163,16 +154,6 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
             </div>
           </>
         )}
-        {kind === 'listening' && (
-          <>
-            <h1 className="qtext">Écoutez la question</h1>
-            <div className="listen">
-              <button className="primary" onClick={() => speak(q.q)}>🔊 Écouter</button>
-              {!textShown && !checked && <button className="secondary" onClick={() => setTextShown(true)}>Lire le texte</button>}
-            </div>
-            {(textShown || checked) && <p className="lesson-statement">{q.q}</p>}
-          </>
-        )}
         {kind === 'hebrew' && (
           <>
             <h1 className="qtext">Que dit cette question ?</h1>
@@ -189,7 +170,7 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
               <li key={`${q.id}-${kind}-${ai}`}>
                 <button className={`answer ${s}`} onClick={() => select(ai)} aria-pressed={ai === chosen} disabled={checked}>
                   <span className="letter">{kind === 'trueFalse' ? 'VF'[n] : 'ABCD'[n]}</span>
-                  {kind === 'choice' || kind === 'listening' ? <AnswerText q={q} text={q.a[ai]} signs={signs} revealed={checked} /> : <span>{choiceText(ai)}</span>}
+                  {kind === 'choice' ? <AnswerText q={q} text={q.a[ai]} signs={signs} revealed={checked} /> : <span>{choiceText(ai)}</span>}
                   {s === 'correct' && <span className="mark ok" aria-label="Bonne réponse">✓</span>}
                   {s === 'wrong' && <span className="mark ko" aria-label="Votre réponse, incorrecte">✕</span>}
                 </button>

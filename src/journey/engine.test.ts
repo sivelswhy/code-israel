@@ -155,7 +155,7 @@ test('reminders at the usual hour', () => {
 })
 
 test('exercises', () => {
-  assert.deepEqual([0, 1, 2, 3].map((i) => j.exerciseKind(i, true, true)), ['choice', 'trueFalse', 'listening', 'hebrew'])
+  assert.deepEqual([0, 1, 2, 3].map((i) => j.exerciseKind(i, true, true)), ['choice', 'trueFalse', 'choice', 'hebrew'])
   assert.equal(j.exerciseKind(3, true, false), 'choice')
   assert.equal(j.exerciseKind(1, false, true), 'choice')
   let trues = 0

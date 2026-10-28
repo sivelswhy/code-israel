@@ -6,8 +6,6 @@ public enum ExerciseKind: String, Sendable {
     case choice
     /// "True or false?" about one answer of the question.
     case trueFalse
-    /// The question is read aloud and its text is hidden until the learner asks.
-    case listening
     /// The Hebrew wording of the exam is shown: find its French translation.
     case hebrew
 }
@@ -19,7 +17,6 @@ public enum ExercisePlanner {
         guard firstAttempt else { return .choice }
         switch position % 4 {
         case 1: return .trueFalse
-        case 2: return .listening
         case 3: return hasHebrew ? .hebrew : .choice
         default: return .choice
         }

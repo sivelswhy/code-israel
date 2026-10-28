@@ -22,8 +22,6 @@ struct LessonView: View {
     /// For the speed bonus: when the current question appeared, and how long the answer took.
     @State private var shownAt = Date()
     @State private var seconds = 0.0
-    /// A listening exercise hides the question until the learner asks to read it.
-    @State private var textShown = false
     /// Height of the feedback text, to size its scroll area.
     @State private var panelTextHeight: CGFloat = 120
     /// False for a free training: it counts as no daily review.
@@ -49,7 +47,7 @@ struct LessonView: View {
 
     private var position: Int { question.flatMap { q in questions.firstIndex { $0.id == q.id } } ?? 0 }
 
-    /// How the current question is asked: the plain choice, true or false, listening, or Hebrew to French.
+    /// How the current question is asked: the plain choice, true or false, or (if turned on) Hebrew to French.
     private var kind: ExerciseKind {
         guard let q = question else { return .choice }
         return ExercisePlanner.kind(position: position, firstAttempt: session.isFirstAttempt, hasHebrew: app.hebrewExercises && app.hebrew(q.id) != nil)
@@ -62,7 +60,7 @@ struct LessonView: View {
         switch kind {
         case .trueFalse: ExercisePlanner.statement(for: q).isTrue ? 0 : 1
         case .hebrew: translations(q).correct
-        case .choice, .listening: q.c
+        case .choice: q.c
         }
     }
 
@@ -70,7 +68,7 @@ struct LessonView: View {
         switch kind {
         case .trueFalse: 2
         case .hebrew: translations(q).options.count
-        case .choice, .listening: q.a.count
+        case .choice: q.a.count
         }
     }
 
@@ -79,7 +77,7 @@ struct LessonView: View {
         switch kind {
         case .trueFalse: "\(ExercisePlanner.statement(for: q).isTrue ? "Vrai" : "Faux"). La bonne réponse est : \(q.correct)"
         case .hebrew: translations(q).options[translations(q).correct]
-        case .choice, .listening: q.correct
+        case .choice: q.correct
         }
     }
 
@@ -153,7 +151,6 @@ struct LessonView: View {
         switch kind {
         case .choice: "Choix"
         case .trueFalse: "Vrai ou faux"
-        case .listening: "Écoute"
         case .hebrew: "Hébreu"
         }
     }
@@ -162,7 +159,6 @@ struct LessonView: View {
         switch kind {
         case .choice: "list.bullet"
         case .trueFalse: "checkmark.circle"
-        case .listening: "ear"
         case .hebrew: "character.book.closed"
         }
     }
@@ -170,7 +166,7 @@ struct LessonView: View {
     /// The order of the buttons: the shuffled answers for a choice, fixed for true or false and Hebrew.
     private func answerIndex(_ n: Int, _ q: Question) -> Int {
         switch kind {
-        case .choice, .listening: (orders[q.id] ?? Array(q.a.indices))[n]
+        case .choice: (orders[q.id] ?? Array(q.a.indices))[n]
         case .trueFalse, .hebrew: n
         }
     }
@@ -181,7 +177,7 @@ struct LessonView: View {
 
     private func choiceText(_ ai: Int, _ q: Question) -> String {
         switch kind {
-        case .choice, .listening: q.a[ai]
+        case .choice: q.a[ai]
         case .trueFalse: ai == 0 ? "Vrai" : "Faux"
         case .hebrew: translations(q).options[ai]
         }
@@ -200,16 +196,6 @@ struct LessonView: View {
                 Text(q.a[st.answerIndex]).font(.body.weight(.medium)).fixedSize(horizontal: false, vertical: true)
             }
             .card()
-        case .listening:
-            Text("Écoutez la question").font(.title2.weight(.bold))
-            HStack(spacing: 12) {
-                Button { Speech.say(q.q) } label: { Label("Écouter", systemImage: "speaker.wave.3.fill").frame(maxWidth: .infinity) }
-                    .buttonStyle(.borderedProminent).controlSize(.large)
-                if !textShown {
-                    Button("Lire le texte") { withAnimation { textShown = true } }.buttonStyle(.bordered).controlSize(.large)
-                }
-            }
-            if textShown || checked { Text(q.q).font(.title3.weight(.semibold)).fixedSize(horizontal: false, vertical: true).transition(.opacity) }
         case .hebrew:
             Text("Que dit cette question ?").font(.title2.weight(.bold))
             if let he = app.hebrew(q.id) {
@@ -306,9 +292,7 @@ struct LessonView: View {
             session.submit(correct: ok, seconds: seconds)
             chosen = nil
             checked = false
-            textShown = false
             shownAt = Date()
-            Speech.stop()
             if session.isFinished { outcome = app.finishJourney(lesson: lesson, session: session, review: isReview) }
         }
     }
