@@ -77,6 +77,12 @@ struct AssistantView: View {
         .onChange(of: phase) { if phase == .active { engines.refresh() } }
     }
 
+    #if os(macOS)
+    private static let sendIconSize: CGFloat = 28
+    #else
+    private static let sendIconSize: CGFloat = 34
+    #endif
+
     private var inputBar: some View {
         HStack(spacing: 10) {
             TextField("Posez votre question sur le code de la route", text: $input, axis: .vertical)
@@ -87,11 +93,17 @@ struct AssistantView: View {
                 .padding(.horizontal, 14).padding(.vertical, 10)
                 .background(RoundedRectangle(cornerRadius: 20).fill(Color.cardBackground))
             if conversation.isAnswering {
-                Button { conversation.stop() } label: { Image(systemName: "stop.circle.fill").font(.system(size: 34)) }
+                Button { conversation.stop() } label: { Image(systemName: "stop.circle.fill").font(.system(size: Self.sendIconSize)) }
+                    // Plain: on the Mac a button otherwise gets a large bordered frame around its icon.
+                    .buttonStyle(.plain)
+                    .foregroundStyle(Color.accentColor)
                     .accessibilityLabel("Arrêter")
             } else {
-                Button { send(input) } label: { Image(systemName: "arrow.up.circle.fill").font(.system(size: 34)) }
-                    .disabled(input.trimmingCharacters(in: .whitespaces).isEmpty)
+                let canSend = !input.trimmingCharacters(in: .whitespaces).isEmpty
+                Button { send(input) } label: { Image(systemName: "arrow.up.circle.fill").font(.system(size: Self.sendIconSize)) }
+                    .buttonStyle(.plain)
+                    .foregroundStyle(canSend ? Color.accentColor : Color.secondary.opacity(0.5))
+                    .disabled(!canSend)
                     .accessibilityLabel("Envoyer")
             }
         }
