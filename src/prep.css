@@ -45,3 +45,6 @@
 .sync-code code { font-size: 1.125rem; font-weight: 700; letter-spacing: 0.04em; user-select: all; }
 .sync-code .secondary { padding: 8px 14px; font-size: 0.9375rem; }
 .sync-error { color: var(--ko); font-size: 0.875rem; }
+
+.mail-form { display: grid; gap: 8px; }
+.mail-form .secondary { justify-self: start; padding: 8px 16px; font-size: 0.9375rem; }

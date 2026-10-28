@@ -1,11 +1,13 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Progress } from './store'
-import { codeId, displayCode, generateCode, lastSync, normalizeCode, saveCode, savedCode, syncNow, syncServer } from './sync'
+import { codeId, displayCode, generateCode, lastSync, mailCode, normalizeCode, saveCode, savedCode, syncConfig, syncNow } from './sync'
 import './prep.css'
 
 export interface SyncState {
   /** False when no sync server has been set up: the feature stays hidden. */
   available: boolean
+  /** True when a function that mails the code has been set up. */
+  canMail: boolean
   code: string | null
   busy: boolean
   error: string | null
@@ -23,6 +25,7 @@ const BASE = import.meta.env.BASE_URL
  */
 export function useSync(progress: Progress, replace: (p: Progress) => void): SyncState {
   const [available, setAvailable] = useState(false)
+  const [canMail, setCanMail] = useState(false)
   const [code, setCode] = useState<string | null>(savedCode)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -33,7 +36,10 @@ export function useSync(progress: Progress, replace: (p: Progress) => void): Syn
   const running = useRef(false)
 
   useEffect(() => {
-    syncServer(BASE).then((url) => setAvailable(!!url))
+    syncConfig(BASE).then((c) => {
+      setAvailable(!!c.url)
+      setCanMail(!!c.mail)
+    })
   }, [])
 
   const run = useCallback(
@@ -74,6 +80,7 @@ export function useSync(progress: Progress, replace: (p: Progress) => void): Syn
 
   return {
     available,
+    canMail,
     code,
     busy,
     error,
@@ -110,6 +117,8 @@ export function SyncPanel({ sync }: { sync: SyncState }) {
   const [entering, setEntering] = useState(false)
   const [text, setText] = useState('')
   const [copied, setCopied] = useState(false)
+  const [email, setEmail] = useState('')
+  const [mailState, setMailState] = useState<{ busy?: boolean; message?: string; ok?: boolean }>({})
   if (!sync.available) return null
 
   if (!sync.code) {
@@ -151,7 +160,26 @@ export function SyncPanel({ sync }: { sync: SyncState }) {
           {copied ? 'Copié ✓' : 'Copier'}
         </button>
       </div>
-      <a className="report-link mail-code" href={mailtoCode(sync.code)}>✉️ M’envoyer ce code par e-mail</a>
+      {sync.canMail ? (
+        <form
+          className="mail-form"
+          onSubmit={async (e) => {
+            e.preventDefault()
+            setMailState({ busy: true })
+            const error = await mailCode(email.trim(), sync.code!, BASE)
+            setMailState(error ? { message: error } : { ok: true, message: 'E-mail envoyé. Pensez à regarder vos courriers indésirables.' })
+          }}
+        >
+          <label className="date-field">
+            M’envoyer le code par e-mail
+            <input type="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="vous@exemple.fr" autoComplete="email" />
+          </label>
+          <button className="secondary" type="submit" disabled={mailState.busy}>{mailState.busy ? 'Envoi…' : 'Envoyer'}</button>
+          {mailState.message && <p className={mailState.ok ? 'muted small' : 'sync-error'} role="status">{mailState.message}</p>}
+        </form>
+      ) : (
+        <a className="report-link mail-code" href={mailtoCode(sync.code)}>✉️ M’envoyer ce code par e-mail</a>
+      )}
       <p className="muted small" role="status">
         {sync.busy ? 'Synchronisation…' : sync.error ? '' : sync.at ? `Dernière synchronisation : ${new Date(sync.at).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}` : ''}
       </p>

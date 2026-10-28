@@ -202,12 +202,39 @@ export const lastSync = () => {
   }
 }
 
-let serverURL: Promise<string | null> | null = null
+interface SyncConfig {
+  /** The sync server. */
+  url: string | null
+  /** The function that mails the code, when one has been set up. */
+  mail: string | null
+}
 
-/** Address of the sync server, from `sync.json` (written when the server is deployed). Null: sync is not available. */
-export function syncServer(base: string): Promise<string | null> {
-  serverURL ??= fetch(`${base}sync.json`).then((r) => (r.ok ? r.json() : null)).then((j) => (j?.url ? String(j.url).replace(/\/$/, '') : null), () => null)
-  return serverURL
+let config: Promise<SyncConfig> | null = null
+
+/** Addresses from `sync.json` (written when the servers are deployed). A null `url`: sync is not available. */
+export function syncConfig(base: string): Promise<SyncConfig> {
+  config ??= fetch(`${base}sync.json`)
+    .then((r): Promise<{ url?: string; mail?: string }> => (r.ok ? r.json() : Promise.resolve({})))
+    .then(
+      (j) => ({ url: j?.url ? String(j.url).replace(/\/$/, '') : null, mail: j?.mail ? String(j.mail) : null }),
+      () => ({ url: null, mail: null }),
+    )
+  return config
+}
+
+export const syncServer = (base: string) => syncConfig(base).then((c) => c.url)
+
+/** Asks the mail function to send the code. Returns an error message, or null when it was sent. */
+export async function mailCode(email: string, code: string, base: string): Promise<string | null> {
+  const { mail } = await syncConfig(base)
+  if (!mail) return 'L’envoi par e-mail n’est pas disponible.'
+  try {
+    const r = await fetch(mail, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ email, code }) })
+    if (r.ok) return null
+    return (await r.json().catch(() => null))?.error ?? `Envoi impossible (${r.status}).`
+  } catch {
+    return 'Pas de connexion : réessayez plus tard.'
+  }
 }
 
 /** Downloads the saved progress, merges it with this device's, uploads the result and returns it. */

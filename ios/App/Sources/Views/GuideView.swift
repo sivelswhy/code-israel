@@ -101,6 +101,10 @@ struct SyncView: View {
     @State private var entering = false
     @State private var text = ""
     @State private var copied = false
+    @State private var email = ""
+    @State private var mailing = false
+    @State private var mailMessage: String?
+    @State private var mailSent = false
 
     var body: some View {
         let sync = app.sync
@@ -112,7 +116,28 @@ struct SyncView: View {
                         Spacer()
                         Button(copied ? "Copié" : "Copier") { copy(code) }.buttonStyle(.bordered)
                     }
-                    if let mail = mailURL(code) {
+                    if sync.mailEndpoint != nil {
+                        TextField("Votre adresse e-mail", text: $email)
+                            #if !os(macOS)
+                            .textInputAutocapitalization(.never)
+                            .keyboardType(.emailAddress)
+                            .textContentType(.emailAddress)
+                            #endif
+                            .autocorrectionDisabled()
+                        Button {
+                            mailing = true
+                            Task {
+                                mailMessage = await sync.mailCode(to: email.trimmingCharacters(in: .whitespaces))
+                                mailSent = mailMessage == nil
+                                if mailSent { mailMessage = "E-mail envoyé. Pensez à regarder vos courriers indésirables." }
+                                mailing = false
+                            }
+                        } label: {
+                            HStack { Label("M’envoyer le code par e-mail", systemImage: "envelope"); if mailing { Spacer(); ProgressView() } }
+                        }
+                        .disabled(mailing || !email.contains("@"))
+                        if let mailMessage { Text(mailMessage).font(.footnote).foregroundStyle(mailSent ? Color.secondary : Color.signRed) }
+                    } else if let mail = mailURL(code) {
                         Link(destination: mail) { Label("M’envoyer le code par e-mail", systemImage: "envelope") }
                     }
                     ShareLink(item: code) { Label("Envoyer le code autrement", systemImage: "square.and.arrow.up") }

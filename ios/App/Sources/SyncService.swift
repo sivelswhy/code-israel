@@ -20,6 +20,15 @@ final class SyncService {
             .flatMap { URL(string: $0.url) }
     }()
 
+    /// The function that mails the code, when one has been set up (`mail` in `Data/sync.json`).
+    @ObservationIgnored let mailEndpoint: URL? = {
+        struct Config: Decodable { let mail: String? }
+        return Bundle.main.url(forResource: "sync", withExtension: "json", subdirectory: "Data")
+            .flatMap { try? Data(contentsOf: $0) }
+            .flatMap { try? JSONDecoder().decode(Config.self, from: $0) }
+            .flatMap { $0.mail }.flatMap { URL(string: $0) }
+    }()
+
     @ObservationIgnored private var pending: Task<Void, Never>?
 
     var available: Bool { server != nil }
@@ -92,6 +101,23 @@ final class SyncService {
             error = nil
         } catch {
             self.error = (error as? SyncError)?.message ?? "Pas de connexion : la synchronisation reprendra plus tard."
+        }
+    }
+
+    /// Asks the mail function to send the code. Returns an error message, or nil when it was sent.
+    func mailCode(to email: String) async -> String? {
+        guard let code, let mailEndpoint else { return "L’envoi par e-mail n’est pas disponible." }
+        var request = URLRequest(url: mailEndpoint)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
+        request.httpBody = try? JSONSerialization.data(withJSONObject: ["email": email, "code": code])
+        do {
+            let (data, response) = try await URLSession.shared.data(for: request)
+            let status = (response as? HTTPURLResponse)?.statusCode ?? 0
+            if (200..<300).contains(status) { return nil }
+            return (try? JSONSerialization.jsonObject(with: data) as? [String: Any])?["error"] as? String ?? "Envoi impossible (\(status))."
+        } catch {
+            return "Pas de connexion : réessayez plus tard."
         }
     }
 
