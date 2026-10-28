@@ -71,7 +71,9 @@ export function createHandler({ env = process.env, transport, kv = blobKv } = {}
         subject: 'Votre code de synchronisation Code Israël',
         text: `Votre code de synchronisation Code Israël :\n\n${shown}\n\nPour retrouver votre progression sur un autre appareil : ouvrez l’app ou le site (${SITE}), allez dans Guide, puis « Synchroniser mes appareils » ou « J’ai déjà un code », et saisissez ce code.\n\nGardez-le secret : celui qui le connaît peut lire et modifier votre progression.`,
       })
-    } catch {
+    } catch (e) {
+      // The reason goes to the Vercel logs (never the password), to understand a refusal by the mail account.
+      console.error('SMTP refused:', e?.code, e?.responseCode, e?.command, e?.response ?? e?.message)
       return res.status(502).json({ error: 'L’e-mail n’a pas pu être envoyé. Réessayez plus tard.' })
     }
     return res.status(200).json({ ok: true })
