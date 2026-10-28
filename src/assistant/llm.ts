@@ -154,6 +154,8 @@ export async function* answer(
   sourceText: string,
   history: { role: 'user' | 'assistant'; content: string }[],
   signal: AbortSignal,
+  /** The assistant's previous answer, when the message refers to it ("ça", "plus simplement"). */
+  previousAnswer?: string,
 ) {
   const e = await load(id, () => {})
   const stream = await e.chat.completions.create({
@@ -167,7 +169,7 @@ export async function* answer(
     messages: [
       { role: 'system', content: SYSTEM },
       ...history.slice(-4),
-      { role: 'user', content: `SOURCES :\n${sourceText}\n\nQUESTION DE L'ÉLÈVE :\n${question}` },
+      { role: 'user', content: `SOURCES :\n${sourceText}${previousAnswer ? `\n\nTA RÉPONSE PRÉCÉDENTE (pour comprendre « ça », « cela »…) :\n${previousAnswer}` : ''}\n\nQUESTION DE L'ÉLÈVE :\n${question}` },
     ],
   })
   // Qwen may emit an (empty) <think> block even with thinking disabled: never show it.

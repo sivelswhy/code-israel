@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { loadLaw, type LawExcerpt, type Question } from './data'
-import { kindHint, LawIndex, personalNote, QuestionIndex, questionKind, reply, retrieve, sources, tidyAnswer, tokens, unsupported, vehicleMismatch, type Stat } from './assistant/search'
+import { convertUnits } from './assistant/units'
+import { FOLLOW_UP_HINT, kindHint, LawIndex, personalNote, QuestionIndex, questionKind, REFERS_TO_PREVIOUS, reply, retrieve, sources, tidyAnswer, tokens, unsupported, vehicleMismatch, type Stat } from './assistant/search'
 import { answer, cancel, detect, explain, isCached, load, type Support } from './assistant/llm'
 import type { AssistantTopic } from './assistant-context'
 import { spring } from './App'
@@ -56,6 +57,8 @@ export function Assistant({ questions, stats, topic, onClose }: { questions: Que
   const [messages, setMessages] = useState<Message[]>([])
   const [input, setInput] = useState('')
   const abort = useRef<AbortController | null>(null)
+  // What the last answer was based on, so a follow-up ("et ça fait combien en miles ?") can use the same sources.
+  const carry = useRef<{ sourceText: string; hits: Question[]; answer: string } | null>(null)
   const stopped = useRef(false)
   const scroller = useRef<HTMLDivElement>(null)
   const desktop = useMemo(() => matchMedia('(min-width: 900px)').matches, [])
@@ -105,6 +108,12 @@ export function Assistant({ questions, stats, topic, onClose }: { questions: Que
     if (!clean || messages.some((m) => m.streaming)) return
     setInput('')
     const focus = topic?.question
+    // A unit conversion is answered exactly by the app, from the previous answer or the question in focus.
+    const converted = convertUnits(clean, carry.current?.answer ?? (focus ? `${focus.a[focus.c]} ${focus.e ?? ''}` : undefined))
+    if (converted) {
+      setMessages((m) => [...m, { role: 'user', text: clean }, { role: 'assistant', text: converted, hits: carry.current?.hits ?? [] }])
+      return
+    }
     // A short follow-up ("et pour plus de 125 ?") only makes sense with the previous question.
     const previous = [...messages].reverse().find((m) => m.role === 'user')?.text
     const query = focus ? `${clean} ${focus.q}` : previous && FOLLOW_UP.test(clean) || (previous && tokens(clean).length <= 1) ? `${previous} ${clean}` : clean
@@ -113,33 +122,51 @@ export function Assistant({ questions, stats, topic, onClose }: { questions: Que
     const off = !focus && vehicleMismatch(query, found.hits[0], found.lawHits[0])
     const hits = off ? [] : found.hits
     const lawHits = off ? [] : found.lawHits
-    const shown = focus ? [focus, ...hits.filter((h) => h.id !== focus.id)].slice(0, 4) : hits
+    const found2 = focus ? [focus, ...hits.filter((h) => h.id !== focus.id)].slice(0, 4) : hits
+    // A follow-up keeps the sources and the answer of the previous turn: the new search may find nothing,
+    // or something unrelated, for "plus simplement" or "ça fait combien".
+    const last = carry.current
+    const followUp = !!last && !focus && REFERS_TO_PREVIOUS.test(clean)
+    const extra = last ? found2.filter((h) => !last.hits.some((p) => p.id === h.id)) : found2
+    const shown = followUp ? [...last.hits, ...extra].slice(0, 4) : found2
     // With no matching official source the model would improvise, so it is not asked.
     const ai = engine.state === 'ready' && shown.length > 0
     // Without the on-device model the answer is composed directly from the best official question.
     const kind = questionKind(clean)
-    const direct = reply(shown, law, signs, focus, topic?.chosen, lawHits, query, clean)
+    const direct = followUp
+      ? `Je n’ai pas de source plus précise pour cette demande. Rappel de ma réponse précédente :\n${last.answer}`
+      : reply(shown, law, signs, focus, topic?.chosen, lawHits, query, clean)
     const note = personalNote(topic, shown, stats, questions)
     setMessages((m) => [...m, { role: 'user', text: clean }, { role: 'assistant', text: ai ? '' : direct, hits: shown, streaming: ai, note }])
-    if (!ai) return
+    const sourceText = followUp
+      ? last.sourceText + (extra.length ? `\n\n${sources(extra, law, undefined, signs, [], query)}` : '')
+      : sources(shown, law, focus, signs, lawHits, query)
+    if (!ai) {
+      // Only an answer built on sources becomes the next context (not a reminder).
+      if (!followUp && shown.length && direct) carry.current = { sourceText, hits: shown, answer: direct }
+      return
+    }
 
     const ctl = new AbortController()
     abort.current = ctl
     const context = focus && topic.chosen != null && topic.chosen !== focus.c ? `\n(L'élève avait répondu « ${focus.a[topic.chosen]} », ce qui est faux : explique d'abord en une phrase pourquoi cette réponse est fausse, puis donne la bonne règle.)` : ''
-    const sourceText = sources(shown, law, focus, signs, lawHits, query)
     // Only a follow-up carries the previous question; with a question in focus the focus is the context.
     const asked = !focus && query !== clean ? `${previous} (suite) ${clean}` : clean
     let written = ''
     try {
       // No chat history: the model's earlier (possibly wrong) answers would feed its next ones.
-      for await (const delta of answer(engine.modelId, asked + context + (kindHint(kind) ? `\nTYPE DE DEMANDE : ${kindHint(kind)}` : ''), sourceText, [], ctl.signal)) {
+      for await (const delta of answer(engine.modelId, asked + context + (followUp ? FOLLOW_UP_HINT : kindHint(kind) ? `\nTYPE DE DEMANDE : ${kindHint(kind)}` : ''), sourceText, [], ctl.signal, followUp ? last.answer : undefined)) {
         written += delta
         setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: msg.text + delta } : msg)))
       }
       // A small model sometimes invents figures or law articles. If the answer cites one found neither in the
       // sources nor in the question, fall back to the answer composed from the official text.
       if (unsupported(written, sourceText, query) && !ctl.signal.aborted) setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: direct } : msg)))
-      else setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: tidyAnswer(msg.text) } : msg)))
+      else {
+        const tidy = tidyAnswer(written)
+        setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: tidy } : msg)))
+        carry.current = { sourceText, hits: shown, answer: tidy }
+      }
     } catch {
       setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: msg.text || direct } : msg)))
     } finally {

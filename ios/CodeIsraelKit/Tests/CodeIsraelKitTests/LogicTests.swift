@@ -129,6 +129,49 @@ final class LogicTests: XCTestCase {
         XCTAssertEqual(tidyAnswer(short), short)
     }
 
+    func testUnitConversionIsExact() {
+        let previous = "La vitesse maximale en ville est de 50 km/h ; hors agglomération, 80 km/h."
+        let mph = convertUnits(message: "Et ça fait combien en miles par heure ?", previousAnswer: previous)
+        XCTAssertEqual(mph?.contains("• 50 km/h ≈ 31,1 mph"), true, mph ?? "nil")
+        XCTAssertEqual(mph?.contains("• 80 km/h ≈ 49,7 mph"), true)
+        XCTAssertEqual(convertUnits(message: "ça ferait combien en m/s ?", previousAnswer: "50 km/h")?.contains("13,9 m/s"), true)
+        XCTAssertEqual(convertUnits(message: "combien ça fait en livres ?", previousAnswer: "Le poids maximal est de 3,5 tonnes.")?.contains("• 3,5 t ≈ 7716 lb"), true)
+        XCTAssertEqual(convertUnits(message: "combien en pieds ?", previousAnswer: "à 2 m du passage piéton")?.contains("• 2 m ≈ 6,6 ft"), true)
+        // The value can be in the message itself.
+        XCTAssertEqual(convertUnits(message: "100 km/h ça fait combien en mph ?", previousAnswer: nil)?.contains("• 100 km/h ≈ 62,1 mph"), true)
+        // Not a conversion, or nothing to convert: left to the assistant.
+        XCTAssertNil(convertUnits(message: "Quelle est la vitesse maximale en ville ?", previousAnswer: previous))
+        XCTAssertNil(convertUnits(message: "ça fait combien en miles ?", previousAnswer: "Il faut un permis valide."))
+        XCTAssertNil(convertUnits(message: "combien en mètres ?", previousAnswer: "50 km/h"), "a speed is not a length")
+    }
+
+    func testFollowUpKeepsThePreviousSources() {
+        let library = ParityTests.library
+        let pool = library.pool(for: .B)
+        let brain = AssistantBrain(pool: pool, law: library.law, signs: library.signs)
+        let first = brain.turn(for: "Quelle est la vitesse maximale en ville ?", previous: nil, topic: nil)
+        XCTAssertTrue(first.canUseModel)
+        let carry = AssistantCarry(sourceText: first.sourceText, hits: first.hits, answer: first.direct)
+
+        // A unit conversion is answered by the app, with no model, from the previous answer.
+        let converted = brain.turn(for: "Et ça fait combien en miles par heure ?", previous: "Quelle est la vitesse maximale en ville ?", topic: nil, carry: carry)
+        XCTAssertTrue(converted.exact)
+        XCTAssertFalse(converted.canUseModel)
+        XCTAssertTrue(converted.direct.contains("mph"))
+
+        // A request to rephrase has nothing to search for: it reuses the previous sources and answer.
+        let again = brain.turn(for: "Explique-moi ça plus simplement", previous: "Quelle est la vitesse maximale en ville ?", topic: nil, carry: carry)
+        XCTAssertTrue(again.canUseModel)
+        XCTAssertEqual(again.sourceText.hasPrefix(first.sourceText), true)
+        XCTAssertEqual(again.previousAnswer, first.direct)
+        XCTAssertTrue(AssistantPrompt.user(question: again.prompt, sources: again.sourceText, previousAnswer: again.previousAnswer).contains("TA RÉPONSE PRÉCÉDENTE"))
+        // Without a previous answer the same message finds nothing, as before.
+        XCTAssertFalse(brain.turn(for: "Explique-moi ça plus simplement", previous: nil, topic: nil).canUseModel)
+        // A new subject is searched normally even if it contains "ça".
+        let fresh = brain.turn(for: "ça veut dire quoi le panneau stop ?", previous: "Quelle est la vitesse maximale en ville ?", topic: nil, carry: carry)
+        XCTAssertFalse(fresh.exact)
+    }
+
     func testOnHoldLicenseFallsBack() throws {
         let saved = #"{"license":"C","stats":{},"exams":[],"daily":{}}"#
         XCTAssertEqual(try JSONDecoder().decode(Progress.self, from: Data(saved.utf8)).license, .B)

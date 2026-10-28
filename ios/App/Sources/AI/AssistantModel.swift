@@ -52,6 +52,8 @@ struct ChatMessage: Identifiable {
 final class Conversation {
     private(set) var messages: [ChatMessage] = []
     @ObservationIgnored private var task: Task<Void, Never>?
+    /// What the last answer was based on, for a follow-up ("et ça fait combien en miles ?").
+    @ObservationIgnored private var carry: AssistantCarry?
 
     var isAnswering: Bool { messages.last?.streaming == true }
 
@@ -59,14 +61,20 @@ final class Conversation {
         let clean = text.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !clean.isEmpty, !isAnswering else { return }
         let previous = messages.last { $0.role == .user }?.text
-        let turn = brain.turn(for: clean, previous: previous, topic: topic, learner: learner)
+        let turn = brain.turn(for: clean, previous: previous, topic: topic, learner: learner, carry: carry)
         let engine = engines.current
         let useModel = engine != .none && turn.canUseModel
         messages.append(ChatMessage(role: .user, text: clean))
         messages.append(ChatMessage(role: .assistant, text: useModel ? "" : turn.direct, sources: turn.hits, streaming: useModel, byModel: useModel, note: turn.note))
-        guard useModel else { return }
+        guard useModel else {
+            // A conversion or a reminder is not new knowledge: only an answer built on sources becomes the next context.
+            if !turn.exact, turn.previousAnswer == nil, !turn.hits.isEmpty, !turn.direct.isEmpty {
+                carry = AssistantCarry(sourceText: turn.sourceText, hits: turn.hits, answer: turn.direct)
+            }
+            return
+        }
 
-        let stream = engines.answer(engine, prompt: AssistantPrompt.user(question: turn.prompt, sources: turn.sourceText))
+        let stream = engines.answer(engine, prompt: AssistantPrompt.user(question: turn.prompt, sources: turn.sourceText, previousAnswer: turn.previousAnswer))
         task = Task {
             do {
                 for try await text in stream {
@@ -83,6 +91,7 @@ final class Conversation {
                     $0.byModel = false
                 } else {
                     $0.text = tidyAnswer($0.text)
+                    carry = AssistantCarry(sourceText: turn.sourceText, hits: turn.hits, answer: $0.text)
                 }
                 $0.streaming = false
             }
@@ -95,6 +104,7 @@ final class Conversation {
 
     func clear() {
         task?.cancel()
+        carry = nil
         messages = []
     }
 

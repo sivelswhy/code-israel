@@ -4,7 +4,7 @@
 import fs from 'fs'
 import { pathToFileURL } from 'url'
 
-const { QuestionIndex, LawIndex, sources, reply, retrieve, tokens, unsupported, vehicleMismatch, questionKind, personalNote } = await import(pathToFileURL(process.argv[2]).href)
+const { QuestionIndex, LawIndex, sources, reply, retrieve, tokens, unsupported, vehicleMismatch, questionKind } = await import(pathToFileURL(process.argv[2]).href)
 const read = (p) => JSON.parse(fs.readFileSync(p, 'utf8'))
 const qs = read('public/data/questions.fr.json')
 const law = read('public/data/law.json')

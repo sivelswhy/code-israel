@@ -462,3 +462,10 @@ export function tidyAnswer(text: string): string {
     })
     .join('\n')
 }
+
+/** The message points back at the previous answer rather than asking about a new subject. */
+export const REFERS_TO_PREVIOUS = /(?<!\p{L})(?:ça|cela|ceci|ce chiffre|cette valeur|cette règle|cette réponse|cette limite|ta réponse|ton explication|tu viens de (?:dire|préciser)|tu as dit|plus simplement|plus simple|autrement|reformule|résume|exemple|concret|développe|détaille|précise)(?!\p{L})/iu
+
+/** Given to the model when the learner builds on the last answer: reword it or illustrate it, nothing more. */
+export const FOLLOW_UP_HINT =
+  "\nTYPE DE DEMANDE : l'élève s'appuie sur ta réponse précédente. Fais ce qu'il demande à partir d'elle et des sources : reformule avec des mots plus simples, ou illustre par une courte situation de conduite. N'écris aucun chiffre ni règle qui ne soit dans les sources, et ne répète pas ta réponse mot pour mot."

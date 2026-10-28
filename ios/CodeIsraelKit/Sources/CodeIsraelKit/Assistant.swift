@@ -15,8 +15,9 @@ public enum AssistantPrompt {
     - Réponds en français clair, en 80 mots maximum, avec des phrases courtes.
     """
 
-    public static func user(question: String, sources: String) -> String {
-        "SOURCES :\n\(sources)\n\nQUESTION DE L'ÉLÈVE :\n\(question)"
+    public static func user(question: String, sources: String, previousAnswer: String? = nil) -> String {
+        let before = previousAnswer.map { "\n\nTA RÉPONSE PRÉCÉDENTE (pour comprendre « ça », « cela »…) :\n\($0)" } ?? ""
+        return "SOURCES :\n\(sources)\(before)\n\nQUESTION DE L'ÉLÈVE :\n\(question)"
     }
 }
 
@@ -59,9 +60,13 @@ public struct AssistantTurn: Sendable {
     public let query: String
     /// A remark about the learner's own results (repeated mistake, weak theme), when there is one.
     public let note: String?
+    /// Answered exactly by the app (a unit conversion): no model is asked.
+    public let exact: Bool
+    /// The assistant's previous answer, given to the model when the message refers to it ("ça", "plus simplement").
+    public let previousAnswer: String?
 
     /// With no matching official source a model would improvise, so it is not asked.
-    public var canUseModel: Bool { !hits.isEmpty }
+    public var canUseModel: Bool { !exact && !hits.isEmpty }
 
     /// Whether a model answer may be shown, or must be replaced by `direct`.
     public func accepts(_ answer: String) -> Bool {
@@ -86,9 +91,14 @@ public struct AssistantBrain: Sendable {
     }
 
     /// Prepares the answer to `message`. `previous` is the learner's previous message, if any.
-    public func turn(for message: String, previous: String?, topic: AssistantTopic?, learner: LearnerContext? = nil) -> AssistantTurn {
+    public func turn(for message: String, previous: String?, topic: AssistantTopic?, learner: LearnerContext? = nil, carry: AssistantCarry? = nil) -> AssistantTurn {
         let clean = message.trimmingCharacters(in: .whitespacesAndNewlines)
         let focus = topic?.question
+        // A unit conversion is answered exactly by the app, from the previous answer or the question in focus.
+        let convertible = carry?.answer ?? focus.map { "\($0.correct) \($0.e ?? "")" }
+        if let converted = convertUnits(message: clean, previousAnswer: convertible) {
+            return AssistantTurn(hits: carry?.hits ?? [], lawHits: [], direct: converted, sourceText: "", prompt: clean, query: clean, note: nil, exact: true, previousAnswer: nil)
+        }
         // A follow-up ("et pour plus de 125 ?", "c'est quoi le seuil") only makes sense with the previous question.
         let continues = previous != nil && (followUp.test(clean) || tokens(clean).count <= 1)
         let query = focus.map { "\(clean) \($0.q)" } ?? (continues ? "\(previous!) \(clean)" : clean)
@@ -107,14 +117,39 @@ public struct AssistantBrain: Sendable {
         } else {
             asked = clean
         }
+        let sourceText = sources(hits: shown, law: law, focus: focus, signs: signs, lawHits: lawHits, query: query)
+        let note = learner.flatMap { personalNote(topic: topic, hits: shown, learner: $0) }
+        let prompt = asked + context + (kindHint(questionKind(clean)).isEmpty ? "" : "\nTYPE DE DEMANDE : \(kindHint(questionKind(clean)))")
+        // A follow-up keeps the sources and the answer of the previous turn: the new search may find nothing,
+        // or something unrelated, for "plus simplement" or "ça fait combien".
+        if let carry, focus == nil, refersToPrevious.test(clean) {
+            // The learner builds on the last answer: reword it or illustrate it, but add nothing the sources do not say.
+            let followUpHint = "\nTYPE DE DEMANDE : l'élève s'appuie sur ta réponse précédente. Fais ce qu'il demande à partir d'elle et des sources : reformule avec des mots plus simples, ou illustre par une courte situation de conduite. N'écris aucun chiffre ni règle qui ne soit dans les sources, et ne répète pas ta réponse mot pour mot."
+
+            let extra = shown.filter { s in !carry.hits.contains { $0.id == s.id } }
+            let more = extra.isEmpty ? "" : "\n\n" + sources(hits: extra, law: law, focus: nil, signs: signs, lawHits: [], query: query)
+            return AssistantTurn(
+                hits: Array((carry.hits + extra).prefix(4)),
+                lawHits: lawHits,
+                direct: "Je n’ai pas de source plus précise pour cette demande. Rappel de ma réponse précédente :\n\(carry.answer)",
+                sourceText: carry.sourceText + more,
+                prompt: asked + followUpHint,
+                query: query,
+                note: note,
+                exact: false,
+                previousAnswer: carry.answer
+            )
+        }
         return AssistantTurn(
             hits: shown,
             lawHits: lawHits,
             direct: direct,
-            sourceText: sources(hits: shown, law: law, focus: focus, signs: signs, lawHits: lawHits, query: query),
-            prompt: asked + context + (kindHint(questionKind(clean)).isEmpty ? "" : "\nTYPE DE DEMANDE : \(kindHint(questionKind(clean)))"),
+            sourceText: sourceText,
+            prompt: prompt,
             query: query,
-            note: learner.flatMap { personalNote(topic: topic, hits: shown, learner: $0) }
+            note: note,
+            exact: false,
+            previousAnswer: nil
         )
     }
 }
@@ -149,3 +184,20 @@ public func tidyAnswer(_ text: String) -> String {
         return "Référence : \(ref.trimmingCharacters(in: .whitespaces))."
     }.joined(separator: "\n")
 }
+
+/// What the last answer was based on, so a follow-up ("et ça fait combien en miles ?", "explique-moi ça
+/// plus simplement") can be answered from the same sources.
+public struct AssistantCarry: Sendable {
+    public let sourceText: String
+    public let hits: [Question]
+    public let answer: String
+
+    public init(sourceText: String, hits: [Question], answer: String) {
+        self.sourceText = sourceText
+        self.hits = hits
+        self.answer = answer
+    }
+}
+
+/// The message points back at the previous answer rather than asking about a new subject.
+private let refersToPrevious = Pattern(#"(?<!\p{L})(?:ça|cela|ceci|ce chiffre|cette valeur|cette règle|cette réponse|cette limite|ta réponse|ton explication|tu viens de (?:dire|préciser)|tu as dit|plus simplement|plus simple|autrement|reformule|résume|exemple|concret|développe|détaille|précise)(?!\p{L})"#)
