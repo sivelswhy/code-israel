@@ -24,8 +24,20 @@ enum Sound: String, CaseIterable {
             return
         }
         guard Sound.isOn, let player = player() else { return }
+        Sound.mixWithOtherAudio()
         player.currentTime = 0
         player.play()
+    }
+
+    /// Effects are played over the user's music or podcast instead of stopping it, and follow the silent switch.
+    private static var sessionReady = false
+    private static func mixWithOtherAudio() {
+        #if os(iOS)
+        guard !sessionReady else { return }
+        sessionReady = true
+        try? AVAudioSession.sharedInstance().setCategory(.ambient, mode: .default, options: [.mixWithOthers])
+        try? AVAudioSession.sharedInstance().setActive(true)
+        #endif
     }
 
     private func player() -> AVAudioPlayer? {

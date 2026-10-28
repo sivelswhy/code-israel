@@ -330,9 +330,13 @@ private struct Tear: View {
 
 // MARK: Speech
 
-/// A speech bubble whose tail points down to the left, towards the character that speaks.
+/// A speech bubble whose tail points down, towards the character that speaks.
 struct SpeechBubble: View {
     let text: String
+    /// True when the character is at the right end of the bubble.
+    var tailTrailing = false
+    /// Distance from the bubble's edge to the tail: the middle of the character that speaks.
+    var tailInset: CGFloat = 22
 
     var body: some View {
         Text(text)
@@ -342,12 +346,12 @@ struct SpeechBubble: View {
             .padding(.horizontal, 12).padding(.vertical, 9)
             .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
             .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.primary.opacity(0.12), lineWidth: 1.5))
-            .overlay(alignment: .bottomLeading) {
+            .overlay(alignment: tailTrailing ? .bottomTrailing : .bottomLeading) {
                 Rectangle().fill(Color.cardBackground).frame(width: 12, height: 12).rotationEffect(.degrees(45))
                     .overlay(Rectangle().stroke(Color.primary.opacity(0.12), lineWidth: 1.5).rotationEffect(.degrees(45)).mask(alignment: .bottom) { Rectangle().frame(height: 9) })
-                    .offset(x: 22, y: 6)
+                    .offset(x: tailTrailing ? -tailInset : tailInset, y: 6)
             }
-            .frame(maxWidth: 280, alignment: .leading)
+            .frame(maxWidth: 280, alignment: tailTrailing ? .trailing : .leading)
     }
 }
 
@@ -369,24 +373,28 @@ struct TalkingMascot: View {
 
     var body: some View {
         let text = tip ?? message
+        let trailing = bubbleAlignment == .topTrailing
+        let tail = max(14, size / 2 - 6)
+        // The character jumps by up to a sixth of its height and throws sparkles: the bubble stays clear of both.
+        let gap = max(8, size * 0.24)
         Group {
             if floating {
                 character
                     .overlay(alignment: bubbleAlignment) {
                         if let text {
-                            SpeechBubble(text: text)
-                                .frame(width: 190, alignment: bubbleAlignment == .topTrailing ? .trailing : .leading)
+                            SpeechBubble(text: text, tailTrailing: trailing, tailInset: tail)
+                                .frame(width: 190, alignment: trailing ? .trailing : .leading)
                                 .fixedSize(horizontal: false, vertical: true)
-                                // The bubble sits just above the character.
-                                .alignmentGuide(.top) { $0[.bottom] + 6 }
-                                .transition(.scale(scale: 0.85, anchor: .bottomLeading).combined(with: .opacity))
+                                // The bubble sits above the character, clear of its jumps.
+                                .alignmentGuide(.top) { $0[.bottom] + gap }
+                                .transition(.scale(scale: 0.85, anchor: trailing ? .bottomTrailing : .bottomLeading).combined(with: .opacity))
                                 .id(text)
                         }
                     }
             } else {
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: gap) {
                     if let text {
-                        SpeechBubble(text: text)
+                        SpeechBubble(text: text, tailInset: tail)
                             .transition(.scale(scale: 0.85, anchor: .bottomLeading).combined(with: .opacity))
                             .id(text)
                     }
