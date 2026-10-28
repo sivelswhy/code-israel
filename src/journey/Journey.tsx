@@ -7,6 +7,7 @@ import {
   adaptivePick, buildPath, canOpenChest, completedCount, currentLesson, dueQuestionIDs, isClaimed, isDone, isGold, isUnlocked, level, localDay, memoryStrength,
   QUESTS, questProgress, questsOf, RULES, streakOf, xpInLevel, xpToday, type ChestReward, type JourneyProgress, type JourneyUnit, type Lesson, type QuestKind,
 } from './engine'
+import { ReadinessCard } from '../Preparation'
 import { TalkingMascot } from './Mascots'
 import { canNotify, remindersOn, setReminders } from './reminders'
 import { hebrewExercisesOn, setHebrewExercises } from './options'
@@ -31,13 +32,20 @@ interface Props {
   onDismissNotice: () => void
   onStart: (s: StartLesson) => void
   onMatch: () => void
+  onSignQuiz: () => void
+  onGuide: () => void
+  onPractice: (title: string, questions: Question[], color: string) => void
+  onWeak: (category: Category) => void
+  onExamDate: (date: string | undefined) => void
+  /** The questions the learner keeps getting wrong. */
+  traps: Question[]
   onClaim: (quest: QuestKind) => void
   onChest: () => ChestReward | null
   switcher: React.ReactNode
 }
 
 /** The Parcours: a path of short lessons per theme, XP, a level, daily quests and a daily review of the questions missed. */
-export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart, onMatch, onClaim, onChest, switcher }: Props) {
+export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart, onMatch, onSignQuiz, onGuide, onPractice, onWeak, onExamDate, traps, onClaim, onChest, switcher }: Props) {
   const j = progress.journey
   const units = useMemo(() => buildPath(pool), [pool])
   const byId = useMemo(() => new Map(pool.map((q) => [q.id, q])), [pool])
@@ -111,6 +119,13 @@ export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart
           onReview={() => onStart({ title: 'Révision du jour', lesson: null, questions: questions(dueQuestionIDs(j)).slice(0, RULES.reviewSize), color: 'var(--sign-red)', countsAsReview: true })}
           onTraining={() => onStart({ title: 'Entraînement adapté', lesson: null, questions: questions(adaptivePick(j, pool.map((q) => q.id))), color: 'var(--ring-blue)', countsAsReview: false })}
           onMatch={onMatch}
+          onSignQuiz={onSignQuiz}
+          onGuide={onGuide}
+          onTraps={() => onPractice('Pièges', traps.slice(0, RULES.adaptiveSize), 'var(--sign-red)')}
+          onWeak={onWeak}
+          onExamDate={onExamDate}
+          pool={pool}
+          traps={traps}
           onClaim={onClaim}
           onChest={onChest}
         />
@@ -141,11 +156,18 @@ interface SummaryProps {
   onReview: () => void
   onTraining: () => void
   onMatch: () => void
+  onSignQuiz: () => void
+  onGuide: () => void
+  onTraps: () => void
+  onWeak: (c: Category) => void
+  onExamDate: (d: string | undefined) => void
+  pool: Question[]
+  traps: Question[]
   onClaim: (q: QuestKind) => void
   onChest: () => ChestReward | null
 }
 
-function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTraining, onMatch, onClaim, onChest }: SummaryProps) {
+function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTraining, onMatch, onSignQuiz, onGuide, onTraps, onWeak, onExamDate, pool, traps, onClaim, onChest }: SummaryProps) {
   const today = xpToday(j)
   const days = streakOf(progress.daily, j.frozenDays)
   const due = dueQuestionIDs(j)
@@ -177,6 +199,8 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
         <div className="track"><div className="track-fill" style={{ transform: `scaleX(${Math.max(0.03, xpInLevel(j) / RULES.xpPerLevel)})`, background: 'var(--ring-blue)' }} /></div>
         <p className="muted small">{RULES.xpPerLevel - xpInLevel(j)} XP avant le niveau {level(j) + 1}</p>
       </section>
+
+      <ReadinessCard pool={pool} stats={progress.stats} exams={progress.exams.filter((e) => e.license === progress.license)} examDate={progress.examDate} onPractice={onWeak} onExamDate={onExamDate} />
 
       <div className="pills">
         <Pill icon="🔥" value={String(days)} label={days > 1 ? 'jours' : 'jour'} />
@@ -239,6 +263,27 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
         <span>
           <strong>Entraînement adapté</strong>
           <small>{RULES.adaptiveSize} questions choisies pour que vous en réussissiez environ {Math.round(RULES.targetSuccess * 100)} %.</small>
+        </span>
+      </button>
+      <button className="action-card" onClick={onTraps} disabled={!traps.length}>
+        <span className="action-icon" style={{ background: 'var(--sign-red)' }} aria-hidden="true">⚠️</span>
+        <span>
+          <strong>Pièges</strong>
+          <small>{traps.length ? `${Math.min(traps.length, RULES.adaptiveSize)} questions où vous vous trompez souvent.` : 'Les questions où vous vous trompez le plus apparaîtront ici.'}</small>
+        </span>
+      </button>
+      <button className="action-card" onClick={onSignQuiz}>
+        <span className="action-icon" style={{ background: 'var(--ring-orange)' }} aria-hidden="true">🛑</span>
+        <span>
+          <strong>Quiz des panneaux</strong>
+          <small>Reconnaissez les panneaux : 1 XP par bonne réponse.</small>
+        </span>
+      </button>
+      <button className="action-card" onClick={onGuide}>
+        <span className="action-icon" style={{ background: 'var(--accent)' }} aria-hidden="true">📘</span>
+        <span>
+          <strong>Guide et glossaire</strong>
+          <small>Les étapes du permis en Israël, les mots du code en français et en hébreu.</small>
         </span>
       </button>
       <button className="action-card" onClick={onMatch}>

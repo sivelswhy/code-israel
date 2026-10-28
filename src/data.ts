@@ -54,8 +54,8 @@ export const LICENSES: Record<License, string> = {
  */
 export const ACTIVE_LICENSES: License[] = ['B', 'A']
 
-/** Official computerized test format: 30 questions, 40 minutes, at most 4 mistakes. */
-export const EXAM = { size: 30, minutes: 40, maxErrors: 4 }
+import { EXAM } from './exam.ts'
+export { EXAM }
 
 /** Resolves a path of the site (e.g. `/img/3012.jpg`) against the base URL, since the site may live in a subfolder. */
 export const asset = (path: string) => import.meta.env.BASE_URL + path.replace(/^\//, '')

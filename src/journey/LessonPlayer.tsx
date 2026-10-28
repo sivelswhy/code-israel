@@ -5,6 +5,7 @@ import { useSigns } from '../Signs'
 import { exerciseKind, isFinished, isFirstAttempt, newSession, outcome as sessionOutcome, RULES, sessionProgress, statement, submit, translations, type Lesson, type Outcome, type Session } from './engine'
 import { Mascot, TalkingMascot } from './Mascots'
 import { hebrewExercisesOn } from './options'
+import { ReportLink } from '../Preparation'
 import { play, setSounds, soundsOn } from './sounds'
 
 interface Props {
@@ -190,6 +191,7 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
           {!right && <p className="fb-correct">Bonne réponse : {correctText}</p>}
           {q.e && <p>{q.e}</p>}
           {ref && <p className="muted small">Référence : {ref}</p>}
+          <ReportLink question={q} />
           </div>
           <button className="primary wide" onClick={next} autoFocus>{right ? 'Continuer' : 'Compris'}</button>
         </section>

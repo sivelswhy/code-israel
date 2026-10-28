@@ -32,6 +32,8 @@ export interface Progress {
   daily: Record<string, number>
   /** The Parcours mode: lessons, XP, memory, quests. */
   journey: JourneyProgress
+  /** The date of the learner's exam (YYYY-MM-DD), to plan the revision. */
+  examDate?: string
 }
 
 const KEY = 'code-israel:v1'

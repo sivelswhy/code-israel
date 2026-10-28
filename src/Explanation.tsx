@@ -4,6 +4,7 @@ import { loadLaw, type LawExcerpt, type Question } from './data'
 import { spring } from './App'
 import { citedSigns, SignRow, useSigns } from './Signs'
 import { MagicStar } from 'reicon-react'
+import { ReportLink } from './Preparation'
 
 interface Props {
   question: Question
@@ -69,6 +70,7 @@ export function Explanation({ question, chosen, open: initiallyOpen = false, onA
                 <MagicStar size={18} weight="Filled" /> Poser une question à l'assistant
               </button>
             )}
+            <ReportLink question={question} />
           </motion.div>
         )}
       </AnimatePresence>

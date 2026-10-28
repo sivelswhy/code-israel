@@ -1,9 +1,11 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'motion/react'
 import { ACTIVE_LICENSES, CATEGORIES, EXAM, LICENSES, drawExam, loadQuestions, shuffle, type Category, type License, type Question } from './data'
-import { localDay, streak, useProgress, type ExamRecord } from './store'
+import { localDay, streak, useProgress, type ExamRecord, type Stat } from './store'
 import { addXP, applyStreakFreezes, claim, finish, openChest, RULES, streakOf, xpToday, type ChestReward, type Outcome, type QuestKind } from './journey/engine'
 import { InstallHint } from './InstallHint'
+import { GuideScreen, ReadinessCard, SignQuiz } from './Preparation'
+import { trapIDs, weakestIn } from './readiness'
 import { Journey, type StartLesson } from './journey/Journey'
 import { LessonPlayer } from './journey/LessonPlayer'
 import { MatchGame } from './journey/MatchGame'
@@ -26,6 +28,8 @@ type Screen =
   | { name: 'signs' }
   | { name: 'lesson'; start: StartLesson; xpBefore: number }
   | { name: 'match' }
+  | { name: 'guide' }
+  | { name: 'signquiz' }
 
 const PRACTICE_SIZE = 20
 const Assistant = lazy(() => import('./Assistant').then((m) => ({ default: m.Assistant })))
@@ -100,6 +104,15 @@ export default function App() {
     update((p) => ({ ...p, journey: opened.journey }))
     return opened.reward
   }
+  const setExamDate = (examDate: string | undefined) => update((p) => ({ ...p, examDate }))
+  const practiceWeak = (cat: Category) => start('practice', `Points faibles : ${CATEGORIES[cat].label}`, weakestIn(pool, progress.stats, cat))
+  const traps = pool.filter((q) => trapIDs(pool, progress.stats).includes(q.id))
+  // A sign quiz round counts as practice today, so that it keeps the streak alive.
+  const finishSignQuiz = (correct: number) =>
+    update((p) => {
+      const today = localDay(new Date())
+      return { ...p, daily: { ...p.daily, [today]: (p.daily[today] ?? 0) + 1 }, journey: addXP(p.journey, correct) }
+    })
   const finishMatch = () =>
     update((p) => {
       // A round counts as practice today, so that it keeps the streak alive.
@@ -108,7 +121,7 @@ export default function App() {
     })
 
   const inExam = screen.name === 'quiz' && screen.mode === 'exam'
-  const showFab = screen.name !== 'quiz' && screen.name !== 'results' && screen.name !== 'lesson' && screen.name !== 'match'
+  const showFab = !['quiz', 'results', 'lesson', 'match', 'signquiz'].includes(screen.name)
 
   return (
     <AssistantContext.Provider value={(topic) => setAssistant({ topic })}>
@@ -129,6 +142,12 @@ export default function App() {
             onDismissNotice={() => setFreezeNotice(0)}
             onStart={(start) => setScreen({ name: 'lesson', start, xpBefore: xpToday(progress.journey) })}
             onMatch={() => setScreen({ name: 'match' })}
+            onSignQuiz={() => setScreen({ name: 'signquiz' })}
+            onGuide={() => setScreen({ name: 'guide' })}
+            onPractice={(title, questions, color) => setScreen({ name: 'lesson', start: { title, lesson: null, questions, color, countsAsReview: false }, xpBefore: xpToday(progress.journey) })}
+            onWeak={practiceWeak}
+            onExamDate={setExamDate}
+            traps={traps}
             onClaim={claimQuest}
             onChest={openDailyChest}
             switcher={switcher}
@@ -148,6 +167,8 @@ export default function App() {
           />
         )}
         {screen.name === 'match' && <MatchGame onFinish={finishMatch} onClose={home} />}
+        {screen.name === 'signquiz' && <SignQuiz onFinish={finishSignQuiz} onClose={home} />}
+        {screen.name === 'guide' && <GuideScreen onBack={home} />}
         {screen.name === 'home' && mode === 'classic' && (
           <Home
             switcher={switcher}
@@ -158,6 +179,13 @@ export default function App() {
             favorites={pool.filter((q) => progress.favorites.includes(q.id))}
             daily={progress.daily}
             frozenDays={progress.journey.frozenDays}
+            examDate={progress.examDate}
+            traps={traps}
+            onWeak={practiceWeak}
+            onExamDate={setExamDate}
+            onTraps={(qs) => start('practice', 'Pièges', qs.slice(0, PRACTICE_SIZE))}
+            onSignQuiz={() => setScreen({ name: 'signquiz' })}
+            onGuide={() => setScreen({ name: 'guide' })}
             onLicense={(license) => update((p) => ({ ...p, license }))}
             onExam={() => start('exam', 'Examen blanc', drawExam(pool))}
             onCategory={(cat) =>
@@ -234,11 +262,18 @@ export default function App() {
 interface HomeProps {
   pool: Question[]
   license: License
-  stats: Record<string, { last: boolean }>
+  stats: Record<string, Stat>
   exams: ExamRecord[]
   favorites: Question[]
   daily: Record<string, number>
   frozenDays: string[]
+  examDate?: string
+  traps: Question[]
+  onWeak: (c: Category) => void
+  onExamDate: (d: string | undefined) => void
+  onTraps: (qs: Question[]) => void
+  onSignQuiz: () => void
+  onGuide: () => void
   switcher: React.ReactNode
   onLicense: (l: License) => void
   onExam: () => void
@@ -254,7 +289,7 @@ interface HomeProps {
 
 const DAILY_GOAL = 20
 
-function Home({ pool, license, stats, exams, favorites, daily, frozenDays, switcher, onLicense, onExam, onCategory, onMistakes, onUnseen, onFavorites, onReview, onBrowse, onSources, onSigns }: HomeProps) {
+function Home({ pool, license, stats, exams, favorites, daily, frozenDays, examDate, traps, onWeak, onExamDate, onTraps, onSignQuiz, onGuide, switcher, onLicense, onExam, onCategory, onMistakes, onUnseen, onFavorites, onReview, onBrowse, onSources, onSigns }: HomeProps) {
   const mistakes = pool.filter((q) => stats[q.id] && !stats[q.id].last)
   const unseen = pool.filter((q) => !stats[q.id])
   const mastered = pool.length - unseen.length - mistakes.length
@@ -325,6 +360,8 @@ function Home({ pool, license, stats, exams, favorites, daily, frozenDays, switc
         )}
       </section>
 
+      <ReadinessCard pool={pool} stats={stats} exams={exams} examDate={examDate} onPractice={onWeak} onExamDate={onExamDate} />
+
       <button className="exam-tile" onClick={onExam}>
         <span className="exam-icon" aria-hidden="true">
           <Stopwatch size={28} />
@@ -379,7 +416,10 @@ function Home({ pool, license, stats, exams, favorites, daily, frozenDays, switc
       <ul className="list">
         <Row icon="ko" title="Mes erreurs" hint="Les questions ratées à la dernière tentative" count={mistakes.length} onClick={() => onMistakes(mistakes)} disabled={!mistakes.length} />
         <Row icon="fav" title="Mes favoris" hint="Les questions que vous avez marquées d'une étoile" count={favorites.length} onClick={() => onFavorites(favorites)} disabled={!favorites.length} />
+        <Row icon="ko" title="Pièges" hint="Les questions où vous vous trompez le plus souvent" count={traps.length} onClick={() => onTraps(traps)} disabled={!traps.length} />
         <Row icon="new" title="Jamais vues" hint="Couvrir toute la banque, petit à petit" count={unseen.length} onClick={() => onUnseen(unseen)} disabled={!unseen.length} />
+        <Row icon="signs" title="Quiz des panneaux" hint="Reconnaître les panneaux : 1 XP par bonne réponse" onClick={onSignQuiz} />
+        <Row icon="browse" title="Guide et glossaire" hint="Les étapes du permis en Israël, les mots du code en français et en hébreu" onClick={onGuide} />
         <Row icon="signs" title="Lexique des panneaux" hint="Chaque panneau, son numéro et sa signification officielle" onClick={onSigns} />
         <Row icon="browse" title="Parcourir et rechercher" hint="Toutes les questions avec leur réponse" onClick={onBrowse} />
       </ul>
