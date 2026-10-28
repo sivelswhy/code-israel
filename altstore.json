@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.19",
+          "buildVersion": "19",
+          "date": "2026-10-28",
+          "localizedDescription": "Site : icônes Reicon à la place des emojis, bouton nuage « Synchroniser » ; app : même bouton nuage sur l'accueil",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.19/CodeIsrael.ipa",
+          "size": 27160736,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.18",
           "buildVersion": "18",
           "date": "2026-10-28",
