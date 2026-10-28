@@ -18,8 +18,21 @@
       "tintColor": "0A5AD4",
       "category": "education",
       "screenshotURLs": [],
-      "versions": [],
-      "appPermissions": { "entitlements": [], "privacy": {} }
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "2",
+          "date": "2026-10-28",
+          "localizedDescription": "Première version : mode Parcours, quêtes, rappels, sons.",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.0/CodeIsrael.ipa",
+          "size": 26882304,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": []
