@@ -199,6 +199,7 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
 
       {checked ? (
         <section className={`lesson-feedback ${right ? 'ok' : 'ko'}`} role="status">
+          <div className="fb-text">
           <div className="fb-head">
             <Mascot name={right ? 'rouli' : 'stoppy'} mood={right ? (first ? 'cheer' : 'happy') : 'sad'} size={72} />
             <strong>{right ? PRAISE[[...q.id].reduce((h, c) => h + c.charCodeAt(0), 0) % PRAISE.length] : 'Pas tout à fait'}</strong>
@@ -206,6 +207,7 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
           {!right && <p className="fb-correct">Bonne réponse : {correctText}</p>}
           {q.e && <p>{q.e}</p>}
           {ref && <p className="muted small">Référence : {ref}</p>}
+          </div>
           <button className="primary wide" onClick={next} autoFocus>{right ? 'Continuer' : 'Compris'}</button>
         </section>
       ) : (

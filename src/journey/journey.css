@@ -182,3 +182,9 @@
   .confetti { display: none; }
   .stars span { animation-duration: 0.01s; animation-delay: 0s !important; }
 }
+
+/* The Continue buttons never leave the screen: a long explanation scrolls inside the panel, the button stays below it. */
+.lesson-feedback .fb-text { max-height: 40vh; max-height: 40dvh; overflow-y: auto; overscroll-behavior: contain; }
+.lesson-feedback .primary { margin-top: 12px; }
+.complete-body .primary.wide, .lesson-body > .primary.wide { position: sticky; bottom: calc(12px + env(safe-area-inset-bottom)); box-shadow: 0 -10px 16px var(--bg); }
+.lesson, .lesson-body { overscroll-behavior: contain; }

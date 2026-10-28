@@ -24,6 +24,8 @@ struct LessonView: View {
     @State private var seconds = 0.0
     /// A listening exercise hides the question until the learner asks to read it.
     @State private var textShown = false
+    /// Height of the feedback text, to size its scroll area.
+    @State private var panelTextHeight: CGFloat = 120
     /// False for a free training: it counts as no daily review.
     let isReview: Bool
     /// `-lessonDemo feedback-right | feedback-wrong | complete` on the command line shows that state without
@@ -142,8 +144,9 @@ struct LessonView: View {
                 .frame(maxWidth: .infinity)
             }
 
-            bottom(q)
         }
+        // An inset, not a last row: the panel always stays inside the screen, above the home indicator.
+        .safeAreaInset(edge: .bottom, spacing: 0) { bottom(q) }
     }
 
     private var kindLabel: String {
@@ -246,26 +249,35 @@ struct LessonView: View {
     @ViewBuilder private func bottom(_ q: Question) -> some View {
         if checked {
             let tint: Color = right ? .ringGreen : .signRed
-            VStack(alignment: .leading, spacing: 10) {
-                HStack(alignment: .center, spacing: 14) {
-                    // Rouli is delighted by a right answer at the first try, Stoppy is sorry for a wrong one.
-                    MascotView(mascot: right ? .rouli : .stoppy, mood: right ? (session.isFirstAttempt ? .cheer : .happy) : .sad, size: 76)
-                    Label(right ? Self.praise(for: q.id) : "Pas tout à fait", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
-                        .font(.title2.weight(.bold)).foregroundStyle(tint)
+            VStack(spacing: 12) {
+                // A long explanation scrolls inside the panel: the button below never leaves the screen.
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 10) {
+                        HStack(alignment: .center, spacing: 12) {
+                            // Rouli is delighted by a right answer at the first try, Stoppy is sorry for a wrong one.
+                            MascotView(mascot: right ? .rouli : .stoppy, mood: right ? (session.isFirstAttempt ? .cheer : .happy) : .sad, size: 56)
+                            Label(right ? Self.praise(for: q.id) : "Pas tout à fait", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
+                                .font(.title3.weight(.bold)).foregroundStyle(tint)
+                        }
+                        if !right { Text("Bonne réponse : \(correctText(q))").font(.subheadline.weight(.semibold)) }
+                        if let e = q.e { Text(e).font(.subheadline).fixedSize(horizontal: false, vertical: true) }
+                        if let ref = q.r?.compactMap({ app.law[$0]?.l }).first {
+                            Text("Référence : \(ref)").font(.caption).foregroundStyle(.secondary)
+                        }
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(GeometryReader { Color.clear.preference(key: PanelHeight.self, value: $0.size.height) })
                 }
-                if !right { Text("Bonne réponse : \(correctText(q))").font(.subheadline.weight(.semibold)) }
-                if let e = q.e { Text(e).font(.subheadline).fixedSize(horizontal: false, vertical: true) }
-                if let ref = q.r?.compactMap({ app.law[$0]?.l }).first {
-                    Text("Référence : \(ref)").font(.caption).foregroundStyle(.secondary)
-                }
+                .frame(height: min(panelTextHeight, 230))
+                .scrollBounceBehavior(.basedOnSize)
+                .onPreferenceChange(PanelHeight.self) { panelTextHeight = $0 }
                 Button { next() } label: { Text(right ? "Continuer" : "Compris").frame(maxWidth: .infinity) }
                     .buttonStyle(.borderedProminent).tint(tint).controlSize(.large)
                     .keyboardShortcut(.defaultAction)
-                    .padding(.top, 4)
             }
-            .padding(20)
+            .padding(.horizontal, 20).padding(.top, 14).padding(.bottom, 14)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(tint.opacity(0.14).background(Color.cardBackground))
+            .background { tint.opacity(0.14).background(Color.cardBackground).ignoresSafeArea(edges: .bottom) }
             .transition(.move(edge: .bottom).combined(with: .opacity))
         } else {
             Button { check(q) } label: { Text("Vérifier").frame(maxWidth: .infinity) }
@@ -304,6 +316,11 @@ struct LessonView: View {
         let words = ["Bravo !", "Exact !", "Excellent !", "Bien joué !", "Parfait !"]
         return words[abs(id.hashValue) % words.count]
     }
+}
+
+private struct PanelHeight: PreferenceKey {
+    static let defaultValue: CGFloat = 0
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) { value = max(value, nextValue()) }
 }
 
 /// A rounded progress bar that fills with a spring.
@@ -345,10 +362,10 @@ private struct LessonComplete: View {
     var body: some View {
         ZStack {
             if !reduceMotion { Confetti() }
-            VStack(spacing: 26) {
-                Spacer()
+            ScrollView {
+            VStack(spacing: 18) {
                 HStack(alignment: .bottom, spacing: 18) {
-                    TalkingMascot(mascot: .rouli, mood: outcome.accuracy >= 0.7 ? .cheer : .happy, size: 120, message: cheer)
+                    TalkingMascot(mascot: .rouli, mood: outcome.accuracy >= 0.7 ? .cheer : .happy, size: 96, message: cheer)
                     if goalReached { TalkingMascot(mascot: .feo, mood: .cheer, size: 72, message: "Objectif du jour atteint !") }
                 }
                 HStack(spacing: 12) {
@@ -381,13 +398,22 @@ private struct LessonComplete: View {
                     Label("\(days) jour\(days > 1 ? "s" : "") d’affilée", systemImage: "flame.fill")
                         .font(.headline).foregroundStyle(Color.ringOrange)
                 }
-                Spacer()
-                Button(action: close) { Text("Continuer").frame(maxWidth: .infinity) }
-                    .buttonStyle(.borderedProminent).controlSize(.large)
-                    .keyboardShortcut(.defaultAction)
             }
             .padding(24)
             .frame(maxWidth: 520)
+            .frame(maxWidth: .infinity)
+            }
+            .scrollBounceBehavior(.basedOnSize)
+        }
+        // The button is an inset of the screen: it can never end up below the visible area.
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            Button(action: close) { Text("Continuer").frame(maxWidth: .infinity) }
+                .buttonStyle(.borderedProminent).controlSize(.large)
+                .keyboardShortcut(.defaultAction)
+                .padding(.horizontal, 24).padding(.vertical, 12)
+                .frame(maxWidth: 520)
+                .frame(maxWidth: .infinity)
+                .background(Color.groupedBackground.ignoresSafeArea(edges: .bottom))
         }
         .onAppear {
             shown = true

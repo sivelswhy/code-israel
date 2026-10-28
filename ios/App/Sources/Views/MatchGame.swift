@@ -42,8 +42,6 @@ struct MatchGame: View {
                     if finished {
                         Label("+\(JourneyRules.xpMatch) XP", systemImage: "bolt.fill").font(.title3.weight(.bold)).foregroundStyle(Color.ringOrange)
                         if mistakes > 0 { Text("\(mistakes) erreur\(mistakes > 1 ? "s" : "") : le jeu ne retire rien.").font(.footnote).foregroundStyle(.secondary) }
-                        Button(action: close) { Text("Continuer").frame(maxWidth: .infinity) }
-                            .buttonStyle(.borderedProminent).controlSize(.large).keyboardShortcut(.defaultAction)
                     }
                 }
                 .padding(20)
@@ -52,6 +50,19 @@ struct MatchGame: View {
             }
         }
         .background(Color.groupedBackground)
+        // The button is an inset of the screen, not the last line of the list: it stays in view.
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            if finished {
+                Button(action: close) { Text("Continuer").frame(maxWidth: .infinity) }
+                    .buttonStyle(.borderedProminent).controlSize(.large).keyboardShortcut(.defaultAction)
+                    .padding(.horizontal, 20).padding(.vertical, 12)
+                    .frame(maxWidth: 680)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.groupedBackground.ignoresSafeArea(edges: .bottom))
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
+            }
+        }
+        .animation(.spring(duration: 0.4, bounce: 0.2), value: finished)
         .onAppear {
             pairs = app.matchRound(seed: seed)
             meanings = pairs.shuffled()
