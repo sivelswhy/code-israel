@@ -5,6 +5,7 @@ import { localDay, streak, useProgress, type ExamRecord, type Stat } from './sto
 import { addXP, applyStreakFreezes, claim, finish, openChest, RULES, streakOf, xpToday, type ChestReward, type Outcome, type QuestKind } from './journey/engine'
 import { InstallHint } from './InstallHint'
 import { GuideScreen, ReadinessCard, SignQuiz } from './Preparation'
+import { useSync } from './SyncPanel'
 import { trapIDs, weakestIn } from './readiness'
 import { Journey, type StartLesson } from './journey/Journey'
 import { LessonPlayer } from './journey/LessonPlayer'
@@ -39,7 +40,8 @@ export default function App() {
   const [all, setAll] = useState<Question[] | null>(null)
   const [error, setError] = useState(false)
   const [screen, setScreen] = useState<Screen>({ name: 'home' })
-  const { progress, update, record, toggleFavorite, addExam } = useProgress()
+  const { progress, update, replace, record, toggleFavorite, addExam } = useProgress()
+  const sync = useSync(progress, replace)
   const [assistant, setAssistant] = useState<{ topic?: AssistantTopic } | null>(null)
   const [mode, setMode] = useState<Mode>(() => {
     try {
@@ -168,7 +170,7 @@ export default function App() {
         )}
         {screen.name === 'match' && <MatchGame onFinish={finishMatch} onClose={home} />}
         {screen.name === 'signquiz' && <SignQuiz onFinish={finishSignQuiz} onClose={home} />}
-        {screen.name === 'guide' && <GuideScreen onBack={home} />}
+        {screen.name === 'guide' && <GuideScreen onBack={home} sync={sync} />}
         {screen.name === 'home' && mode === 'classic' && (
           <Home
             switcher={switcher}

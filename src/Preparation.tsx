@@ -5,6 +5,7 @@ import { useSigns, type Sign } from './Signs'
 import { passStreak, plan, readiness, weakest, type Readiness } from './readiness'
 import { play } from './journey/sounds'
 import type { ExamRecord, Stat } from './store'
+import { SyncPanel, type SyncState } from './SyncPanel'
 import './prep.css'
 
 const pct = (p: number) => `${Math.min(99, Math.max(0, Math.round(p * 100)))} %`
@@ -146,7 +147,7 @@ interface GlossaryGroup {
 const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
 /** Practical help around the exam in Israel, and a French ↔ Hebrew glossary of the terms of the road code. */
-export function GuideScreen({ onBack }: { onBack: () => void }) {
+export function GuideScreen({ onBack, sync }: { onBack: () => void; sync: SyncState }) {
   const [guide, setGuide] = useState<GuideData | null>(null)
   const [glossary, setGlossary] = useState<GlossaryGroup[]>([])
   const [query, setQuery] = useState('')
@@ -163,6 +164,7 @@ export function GuideScreen({ onBack }: { onBack: () => void }) {
     <main className="page">
       <BackButton onClick={onBack} />
       <h1 className="title">Guide</h1>
+      <SyncPanel sync={sync} />
       {guide?.sections.map((s) => (
         <section key={s.title} className="card guide-section">
           <h2>{s.title}</h2>

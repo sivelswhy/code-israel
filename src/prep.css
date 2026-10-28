@@ -37,3 +37,11 @@
 .quiz-end { display: grid; justify-items: center; gap: 8px; padding: 24px 0; }
 .quiz-end .score { margin: 0; font-size: 3.4rem; font-weight: 700; font-variant-numeric: tabular-nums; }
 .lesson-body > .primary.wide { margin-top: 16px; }
+
+.sync-card { display: grid; gap: 10px; }
+.sync-card h2 { margin: 0; font-size: 1.125rem; }
+.sync-card p { margin: 0; }
+.sync-code { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; border-radius: 12px; background: var(--fill); }
+.sync-code code { font-size: 1.125rem; font-weight: 700; letter-spacing: 0.04em; user-select: all; }
+.sync-code .secondary { padding: 8px 14px; font-size: 0.9375rem; }
+.sync-error { color: var(--ko); font-size: 0.875rem; }

@@ -41,6 +41,7 @@
 		7E19B5D29C3425B790ACA5FF /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA86694FC5B01E9CD6BC39 /* MatchGame.swift */; };
 		82C7746E75FC2ACFF36E2D9D /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */; };
 		9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
+		9E6338A8CEB4A26CBEA32822 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA3CA6930E41305123D746 /* SyncService.swift */; };
 		9E8722BCB0A6625358C54DF1 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
 		9EE65BE210B0ACD98BBFC034 /* CodeIsraelKit in Frameworks */ = {isa = PBXBuildFile; productRef = 35E68F70A1DD086950412F77 /* CodeIsraelKit */; };
 		A13FB8AD113B41FB94DC13C4 /* SignQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81542DD0D4DF152F1351A638 /* SignQuiz.swift */; };
@@ -52,6 +53,7 @@
 		BA78ACE3C6588DD74AB937B1 /* AssistantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BEA2D51817423AD300236 /* AssistantModel.swift */; };
 		BDD8AC9432BFA24C3E263BC5 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980D549AFC1F6770366F7F3 /* Sounds.swift */; };
 		BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472011E040C9B65E1F05635A /* QuizView.swift */; };
+		C49899765CE6611B977DEA73 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BA3CA6930E41305123D746 /* SyncService.swift */; };
 		C5B6A9223329C1218B0FDB02 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E298C07A33F69731C7E1BD9 /* AppModel.swift */; };
 		CC4BABD43D42717AC694195A /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */; };
 		CE07EABECF156A58BC14C7D5 /* PreparationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C7B7AAF5B6B5603194AAC5 /* PreparationViews.swift */; };
@@ -79,6 +81,7 @@
 		472011E040C9B65E1F05635A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		4F9C49A0A0B17938AB0C1E5B /* Mascots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mascots.swift; sourceTree = "<group>"; };
 		5563690E99E6FEF14BCFCF1A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		58BA3CA6930E41305123D746 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
 		5A6626446988E1538EB6B278 /* CodeIsrael.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CodeIsrael.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68362458393434CECECDD314 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
@@ -165,6 +168,7 @@
 				1E298C07A33F69731C7E1BD9 /* AppModel.swift */,
 				BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */,
 				7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */,
+				58BA3CA6930E41305123D746 /* SyncService.swift */,
 				9C6320A1AED873F691BB46D1 /* AI */,
 				A923E525CBCBF900E93BA20B /* Views */,
 			);
@@ -353,6 +357,7 @@
 				AA1C8773FC9722AA1C865A13 /* SignsView.swift in Sources */,
 				A179DE79BF33A18558A47529 /* Sounds.swift in Sources */,
 				F897743194DF00E837B25A0E /* SourcesView.swift in Sources */,
+				C49899765CE6611B977DEA73 /* SyncService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +389,7 @@
 				1F52A2076D37D84B33B2D065 /* SignsView.swift in Sources */,
 				BDD8AC9432BFA24C3E263BC5 /* Sounds.swift in Sources */,
 				A7CC914C208CC5E4C30913A7 /* SourcesView.swift in Sources */,
+				9E6338A8CEB4A26CBEA32822 /* SyncService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

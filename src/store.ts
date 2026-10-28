@@ -34,6 +34,8 @@ export interface Progress {
   journey: JourneyProgress
   /** The date of the learner's exam (YYYY-MM-DD), to plan the revision. */
   examDate?: string
+  /** When the learner's data last changed on this device (milliseconds), to settle conflicts between devices. */
+  modified?: number
 }
 
 const KEY = 'code-israel:v1'
@@ -66,7 +68,7 @@ export function useProgress() {
 
   const update = useCallback((fn: (p: Progress) => Progress) => {
     setProgress((prev) => {
-      const next = fn(prev)
+      const next = { ...fn(prev), modified: Date.now() }
       try {
         localStorage.setItem(KEY, JSON.stringify(next))
       } catch {
@@ -74,6 +76,16 @@ export function useProgress() {
       }
       return next
     })
+  }, [])
+
+  /** Replaces the progress with what a synchronisation produced: it keeps its own date of change. */
+  const replace = useCallback((next: Progress) => {
+    setProgress(next)
+    try {
+      localStorage.setItem(KEY, JSON.stringify(next))
+    } catch {
+      // Storage unavailable: progress lives for this session only.
+    }
   }, [])
 
   const record = useCallback(
@@ -103,5 +115,5 @@ export function useProgress() {
     [update],
   )
 
-  return { progress, update, record, toggleFavorite, addExam }
+  return { progress, update, replace, record, toggleFavorite, addExam }
 }

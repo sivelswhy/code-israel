@@ -23,7 +23,25 @@ final class AppModel {
     let signs: [String: Sign]
 
     private(set) var progress: Progress {
-        didSet { save() }
+        didSet {
+            // A change made on this device: remember when, to settle conflicts with the other devices.
+            if !applyingSync {
+                progress.modified = Date.now.timeIntervalSince1970
+                sync.scheduleSoon(model: self)
+            }
+            save()
+        }
+    }
+
+    /// Keeps the progress the same on every device that uses the same sync code.
+    let sync = SyncService()
+    @ObservationIgnored private var applyingSync = false
+
+    /// Installs the result of a synchronisation, with its own date of change.
+    func applySynced(_ merged: Progress) {
+        applyingSync = true
+        progress = merged
+        applyingSync = false
     }
 
     /// Questions of the selected license.
@@ -178,6 +196,7 @@ final class AppModel {
         let used = progress.applyStreakFreezes()
         if used > 0 { freezeNotice = used }
         Reminders.refresh(self)
+        sync.scheduleSoon(model: self, after: 0)
     }
 
     /// The questions of the adaptive training: the ones the learner has about 8 chances in 10 to get right.

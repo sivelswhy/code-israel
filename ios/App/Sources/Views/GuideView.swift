@@ -3,10 +3,20 @@ import SwiftUI
 
 /// Practical help around the exam: the steps in Israel, and a French ↔ Hebrew glossary of the terms of the road code.
 struct GuideView: View {
+    @Environment(AppModel.self) private var app
     private let guide = GuideContent.load()
 
     var body: some View {
         List {
+            if app.sync.available {
+                Section {
+                    NavigationLink { SyncView() } label: {
+                        Label(app.sync.code == nil ? "Synchroniser mes appareils" : "Synchronisation active", systemImage: "arrow.triangle.2.circlepath.icloud")
+                    }
+                } footer: {
+                    Text("Garde la même progression sur le site, l’iPhone et le Mac, avec un simple code secret : pas de compte, pas d’e-mail.")
+                }
+            }
             Section {
                 NavigationLink { GlossaryView() } label: { Label("Glossaire français ↔ hébreu", systemImage: "character.book.closed") }
                 NavigationLink { SourcesView() } label: { Label("Sources officielles et licence", systemImage: "info.circle") }
@@ -82,5 +92,82 @@ struct GlossaryView: View {
         }
         .navigationTitle("Glossaire")
         .searchable(text: $query, prompt: "Un mot, en français ou en hébreu")
+    }
+}
+
+/// Create a sync code, or enter the code of another device.
+struct SyncView: View {
+    @Environment(AppModel.self) private var app
+    @State private var entering = false
+    @State private var text = ""
+    @State private var copied = false
+
+    var body: some View {
+        let sync = app.sync
+        List {
+            if let code = sync.code {
+                Section {
+                    HStack {
+                        Text(code).font(.title3.monospaced().weight(.bold)).textSelection(.enabled)
+                        Spacer()
+                        Button(copied ? "Copié" : "Copier") { copy(code) }.buttonStyle(.bordered)
+                    }
+                    ShareLink(item: code) { Label("Envoyer le code", systemImage: "square.and.arrow.up") }
+                } header: {
+                    Text("Votre code")
+                } footer: {
+                    Text("Saisissez ce code sur vos autres appareils (« J’ai déjà un code »). Gardez-le secret : celui qui le connaît peut lire et modifier votre progression.")
+                }
+                Section {
+                    Button { Task { await sync.now(model: app) } } label: {
+                        HStack { Text("Synchroniser maintenant"); if sync.busy { Spacer(); ProgressView() } }
+                    }
+                    .disabled(sync.busy)
+                } footer: {
+                    if let error = sync.error { Text(error).foregroundStyle(Color.signRed) }
+                    else if let last = sync.lastSync { Text("Dernière synchronisation : \(last.formatted(date: .omitted, time: .shortened))") }
+                }
+                Section {
+                    Button("Arrêter la synchronisation", role: .destructive) { sync.stop() }
+                } footer: {
+                    Text("Votre progression reste sur cet appareil. Notez votre code pour la retrouver ailleurs.")
+                }
+            } else {
+                Section {
+                    Text("Un code secret suffit : pas de compte, pas d’e-mail, gratuit. Le même code sur le site, sur l’iPhone et sur le Mac, et la progression est la même partout.")
+                        .font(.subheadline)
+                }
+                if entering {
+                    Section("Votre code") {
+                        TextField("XXXX-XXXX-XXXX-XXXX", text: $text)
+                            #if !os(macOS)
+                            .textInputAutocapitalization(.characters)
+                            #endif
+                            .autocorrectionDisabled()
+                            .font(.body.monospaced())
+                        Button("Rejoindre") { if sync.enable(code: text, model: app) { entering = false } }
+                        Button("Annuler", role: .cancel) { entering = false; text = "" }
+                    }
+                } else {
+                    Section {
+                        Button("Créer mon code") { sync.enable(model: app) }
+                        Button("J’ai déjà un code") { entering = true }
+                    }
+                }
+                if let error = sync.error { Section { Text(error).foregroundStyle(Color.signRed) } }
+            }
+        }
+        .navigationTitle("Synchronisation")
+    }
+
+    private func copy(_ code: String) {
+        #if os(macOS)
+        NSPasteboard.general.clearContents()
+        NSPasteboard.general.setString(code, forType: .string)
+        #else
+        UIPasteboard.general.string = code
+        #endif
+        copied = true
+        Task { try? await Task.sleep(for: .seconds(2)); copied = false }
     }
 }

@@ -364,4 +364,131 @@ final class JourneyTests: XCTestCase {
         XCTAssertEqual(back.examDate, "2026-12-01")
         XCTAssertNil(try JSONDecoder().decode(Progress.self, from: Data(#"{"license":"B"}"#.utf8)).examDate)
     }
+
+    // MARK: Sync
+
+    func testSyncCode() {
+        let code = SyncCode.generate()
+        XCTAssertEqual(code.count, 19, "four groups of four, with dashes")
+        XCTAssertNotNil(SyncCode.normalize(code))
+        XCTAssertEqual(SyncCode.normalize(code.lowercased().replacingOccurrences(of: "-", with: " ")), SyncCode.normalize(code), "case, spaces and dashes do not matter")
+        XCTAssertNil(SyncCode.normalize("ABCD-EFGH"))
+        XCTAssertNil(SyncCode.normalize("0000-0000-0000-0000"), "no zero in a code")
+        XCTAssertEqual(SyncCode.id(for: code), SyncCode.id(for: code.lowercased()))
+        XCTAssertEqual(SyncCode.id(for: code)?.count, 64)
+        XCTAssertNotEqual(SyncCode.id(for: code), SyncCode.id(for: SyncCode.generate()))
+        // Fixed value, shared with the web: SHA-256 of "code-israel:ABCDEFGHJKMNPQRS".
+        XCTAssertEqual(SyncCode.id(for: "ABCD-EFGH-JKMN-PQRS"), "2ddf41b94a7dff048cf091f54aacea8e24057d790d2f22a9ac6ddfad75bc0801")
+        for _ in 0..<50 { XCTAssertEqual(SyncCode.generate().filter { $0 == "-" }.count, 3) }
+    }
+
+    func testMergeBringsTwoDevicesTogether() {
+        var phone = Progress()
+        phone.modified = 2000
+        phone.license = .A
+        phone.favorites = ["f1"]
+        phone.stats = ["q1": Stat(ok: 3, ko: 1, last: true), "q2": Stat(ok: 1, ko: 0, last: true)]
+        phone.daily = ["2026-10-27": 5, "2026-10-28": 2]
+        phone.examDate = "2026-12-01"
+        phone.journey.lessons["rules-1"] = LessonResult(stars: 2, completions: 1)
+        phone.journey.xpByDay = ["2026-10-27": 100]
+        phone.journey.xp = 100
+        phone.journey.review["q1"] = ReviewState(halfLife: 4, last: "2026-10-27")
+        phone.journey.frozenDays = ["2026-10-20"]
+        phone.journey.today = DayCounters(day: "2026-10-28")
+
+        var mac = Progress()
+        mac.modified = 1000
+        mac.license = .B
+        mac.favorites = ["f2"]
+        mac.stats = ["q1": Stat(ok: 1, ko: 1, last: false), "q3": Stat(ok: 0, ko: 2, last: false)]
+        mac.daily = ["2026-10-27": 9, "2026-10-26": 1]
+        mac.journey.lessons["rules-1"] = LessonResult(stars: 3, completions: 1)
+        mac.journey.lessons["rules-2"] = LessonResult(stars: 1, completions: 1)
+        mac.journey.xpByDay = ["2026-10-26": 60]
+        mac.journey.xp = 60
+        mac.journey.review["q1"] = ReviewState(halfLife: 2, last: "2026-10-26")
+        mac.journey.frozenDays = ["2026-10-21"]
+        mac.journey.today = DayCounters(day: "2026-10-26")
+
+        let m = ProgressMerge.merge(phone, mac)
+        XCTAssertEqual(m.license, .A, "the most recently used device decides the settings")
+        XCTAssertEqual(m.favorites, ["f1"])
+        XCTAssertEqual(m.examDate, "2026-12-01")
+        XCTAssertEqual(m.stats["q1"], Stat(ok: 3, ko: 1, last: true), "the one with more answers")
+        XCTAssertEqual(Set(m.stats.keys), ["q1", "q2", "q3"])
+        XCTAssertEqual(m.daily, ["2026-10-26": 1, "2026-10-27": 9, "2026-10-28": 2])
+        XCTAssertEqual(m.journey.lessons["rules-1"], LessonResult(stars: 3, completions: 1))
+        XCTAssertNotNil(m.journey.lessons["rules-2"])
+        XCTAssertEqual(m.journey.xp, 160, "the XP of different days adds up")
+        XCTAssertEqual(m.journey.review["q1"]?.halfLife, 4, "the later review")
+        XCTAssertEqual(m.journey.frozenDays, ["2026-10-20", "2026-10-21"])
+        XCTAssertEqual(m.journey.today.day, "2026-10-28")
+        XCTAssertEqual(m.modified, 2000)
+
+        // Same result from the other side, and nothing changes when the same data is merged again.
+        let back = ProgressMerge.merge(mac, phone)
+        XCTAssertEqual(back.stats, m.stats)
+        XCTAssertEqual(back.daily, m.daily)
+        XCTAssertEqual(back.journey.xp, m.journey.xp)
+        XCTAssertEqual(back.license, m.license)
+        let again = ProgressMerge.merge(m, phone)
+        XCTAssertEqual(again.stats, m.stats)
+        XCTAssertEqual(again.journey.xp, m.journey.xp)
+        XCTAssertEqual(again.daily, m.daily)
+    }
+
+    func testMergeKeepsExamsOnceAndPayloadRoundTrips() throws {
+        let when = Date(timeIntervalSince1970: 1_800_000_000)
+        var a = Progress(); a.modified = 5
+        a.exams = [ExamRecord(date: when, errors: 3, license: .B, ids: ["1", "2"], answers: [0, nil])]
+        var b = Progress(); b.modified = 4
+        b.exams = [ExamRecord(date: when, errors: 3, license: .B), ExamRecord(date: when.addingTimeInterval(60), errors: 7, license: .B)]
+        let m = ProgressMerge.merge(a, b)
+        XCTAssertEqual(m.exams.count, 2)
+        XCTAssertEqual(m.exams[0].ids, ["1", "2"], "the copy with its answers is kept")
+
+        var p = Progress()
+        p.modified = 1_800_000_123
+        p.examDate = "2026-12-01"
+        p.stats["q"] = Stat(ok: 2, ko: 1, last: false)
+        p.exams = m.exams
+        p.journey.review["q"] = ReviewState(halfLife: 8, last: "2026-10-28")
+        let data = try JSONEncoder().encode(SyncPayload(p))
+        let json = try JSONSerialization.jsonObject(with: data) as! [String: Any]
+        XCTAssertEqual(json["modified"] as? Double, 1_800_000_123_000, "milliseconds, like the web")
+        XCTAssertEqual((json["exams"] as! [[String: Any]])[0]["date"] as? Double, 1_800_000_000_000)
+        let back = try JSONDecoder().decode(SyncPayload.self, from: data).progress()
+        XCTAssertEqual(back.modified, p.modified)
+        XCTAssertEqual(back.examDate, "2026-12-01")
+        XCTAssertEqual(back.stats["q"], p.stats["q"])
+        XCTAssertEqual(back.exams, p.exams)
+        XCTAssertEqual(back.journey.review["q"]?.halfLife, 8)
+    }
+
+    /// The JSON below was produced by the web app (`toWire` in src/sync.ts): the apps must read it as is.
+    func testReadsWhatTheWebSends() throws {
+        let web = #"{"v":1,"modified":1800000123000,"license":"A","examDate":"2026-12-01","favorites":["9"],"stats":{"q1":{"ok":2,"ko":1,"last":false}},"exams":[{"date":1800000000000,"errors":3,"license":"B","ids":["1","2"],"answers":[0,null]},{"date":1800000060000,"errors":6,"license":"B"}],"daily":{"2026-10-28":4},"journey":{"lessons":{"rules-1":{"stars":3,"completions":2}},"xp":120,"xpByDay":{"2026-10-28":120},"review":{"q1":{"halfLife":4,"last":"2026-10-28"}},"freezes":1,"frozenDays":["2026-10-20"],"today":{"day":"2026-10-28","lessons":1,"perfect":1,"reviews":0,"bestRun":6,"claimed":["xp","run"],"chestOpened":false},"chestsOpened":2,"ability":1012.5,"difficulty":{"q1":990},"hours":{"19":3}}}"#
+        let p = try JSONDecoder().decode(SyncPayload.self, from: Data(web.utf8)).progress()
+        XCTAssertEqual(p.license, .A)
+        XCTAssertEqual(p.modified, 1_800_000_123)
+        XCTAssertEqual(p.examDate, "2026-12-01")
+        XCTAssertEqual(p.favorites, ["9"])
+        XCTAssertEqual(p.stats["q1"], Stat(ok: 2, ko: 1, last: false))
+        XCTAssertEqual(p.daily["2026-10-28"], 4)
+        XCTAssertEqual(p.exams.count, 2)
+        XCTAssertEqual(p.exams[0].answers, [0, nil])
+        XCTAssertEqual(p.exams[0].date, Date(timeIntervalSince1970: 1_800_000_000))
+        XCTAssertNil(p.exams[1].ids)
+        XCTAssertEqual(p.journey.lessons["rules-1"], LessonResult(stars: 3, completions: 2))
+        XCTAssertEqual(p.journey.xp, 120)
+        XCTAssertEqual(p.journey.review["q1"], ReviewState(halfLife: 4, last: "2026-10-28"))
+        XCTAssertEqual(p.journey.frozenDays, ["2026-10-20"])
+        XCTAssertEqual(p.journey.freezes, 1)
+        XCTAssertEqual(p.journey.ability, 1012.5)
+        XCTAssertEqual(p.journey.difficulty["q1"], 990)
+        XCTAssertEqual(p.journey.hours["19"], 3)
+        XCTAssertEqual(p.journey.today.claimed, ["xp", "run"])
+        XCTAssertEqual(p.journey.today.bestRun, 6)
+    }
 }

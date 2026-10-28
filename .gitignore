@@ -36,3 +36,6 @@ ft/*.log
 
 # IPA built for AltStore
 /build/
+
+# Conflict copies made by file sync ("name 2.ext")
+* 2.*

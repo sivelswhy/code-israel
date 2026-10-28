@@ -42,6 +42,8 @@ public struct Progress: Codable, Sendable {
     public var daily: [String: Int] = [:]
     /// The date of the learner's exam (yyyy-MM-dd), to plan the revision.
     public var examDate: String?
+    /// When the learner's data last changed on this device (seconds since 1970), to settle conflicts between devices.
+    public var modified: Double = 0
 
     public init() {}
 
@@ -56,6 +58,7 @@ public struct Progress: Codable, Sendable {
         journey = (try? c.decode(JourneyProgress.self, forKey: .journey)) ?? JourneyProgress()
         daily = (try? c.decode([String: Int].self, forKey: .daily)) ?? [:]
         examDate = try? c.decode(String.self, forKey: .examDate)
+        modified = (try? c.decode(Double.self, forKey: .modified)) ?? 0
     }
 
     /// Exams whose questions and answers are kept for review.

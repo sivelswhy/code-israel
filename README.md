@@ -60,3 +60,15 @@ https://raw.githubusercontent.com/sivelswhy/code-israel/main/altstore.json
 ```
 
 Les mises à jour sont automatiques : dès qu'un changement du dossier `ios/` arrive sur `main`, le workflow **Version AltStore** s'exécute (ou lancez-le à la main depuis l'onglet **Actions** pour choisir le numéro de version). Le workflow construit l'IPA, la publie dans les *Releases* et ajoute la version au fichier `altstore.json` (à la racine du dépôt) : AltStore propose alors la mise à jour tout seul. `scripts/make-ipa.sh` construit l'IPA en local.
+
+## Synchronisation entre appareils
+
+Un code secret (`XXXX-XXXX-XXXX-XXXX`) garde la même progression sur le site, l'iPhone et le Mac : pas de compte, pas d'e-mail. Le serveur (`sync/worker.js`, sur Cloudflare Workers, plan gratuit) ne voit qu'une empreinte du code et conserve les données un an après la dernière visite.
+
+Mise en ligne, une seule fois (compte Cloudflare gratuit) :
+
+```
+sync/deploy.sh
+```
+
+Le script ouvre le navigateur pour se connecter, crée l'espace de stockage, déploie le serveur et écrit son adresse dans `public/sync.json` et `ios/App/Resources/Data/sync.json`. Il reste à commiter ces deux fichiers : tant qu'ils n'existent pas, la synchronisation reste masquée dans les apps. Tests du serveur : `node --test sync/worker.test.mjs`.
