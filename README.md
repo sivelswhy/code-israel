@@ -50,3 +50,13 @@ poids de certains véhicules). Les explications indiquent la réponse attendue �
 vigueur.
 
 Aucune licence n'est encore définie pour le code de ce dépôt.
+
+## AltStore (iPhone)
+
+L'app iPhone s'installe et se met à jour avec [AltStore](https://altstore.io). Dans AltStore, onglet **Sources** → **+**, puis collez :
+
+```
+https://sivelswhy.github.io/code-israel/altstore.json
+```
+
+Pour publier une nouvelle version : onglet **Actions** du dépôt → **Version AltStore** → **Run workflow** avec le numéro de version (ou poussez un tag `v1.2`). Le workflow construit l'IPA, la publie dans les *Releases* et ajoute la version à la source : AltStore propose alors la mise à jour tout seul. `scripts/make-ipa.sh` construit l'IPA en local.

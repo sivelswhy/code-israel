@@ -1,0 +1,66 @@
+name: Version AltStore
+
+# Builds the iPhone app, publishes it as a GitHub release and adds it to the AltStore source
+# (https://sivelswhy.github.io/code-israel/altstore.json), so that AltStore offers the update by itself.
+# Run it from the Actions tab (enter the version number) or push a tag such as v1.2.
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Numéro de version (par exemple 1.2)
+        required: true
+      notes:
+        description: Nouveautés affichées dans AltStore
+        required: false
+        default: Mise à jour.
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  release:
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Version
+        id: v
+        env:
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+        run: |
+          VERSION="$INPUT_VERSION"
+          [ -n "$VERSION" ] || VERSION="${GITHUB_REF_NAME#v}"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+      - run: brew install xcodegen
+      - name: Build the unsigned IPA
+        run: VERSION="${{ steps.v.outputs.version }}" BUILD="${{ github.run_number }}" scripts/make-ipa.sh build
+      - name: GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOTES: ${{ github.event.inputs.notes || 'Mise à jour.' }}
+        run: |
+          gh release delete "${{ steps.v.outputs.tag }}" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "${{ steps.v.outputs.tag }}" build/CodeIsrael.ipa --target main \
+            --title "Code Israël ${{ steps.v.outputs.version }}" \
+            --notes "$NOTES"
+      - name: AltStore source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NOTES: ${{ github.event.inputs.notes || 'Mise à jour.' }}
+        run: |
+          node scripts/altstore-source.mjs "${{ steps.v.outputs.version }}" "${{ github.run_number }}" build/CodeIsrael.ipa \
+            "https://github.com/${{ github.repository }}/releases/download/${{ steps.v.outputs.tag }}/CodeIsrael.ipa" \
+            "$NOTES"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/altstore.json
+          git commit -m "AltStore : version ${{ steps.v.outputs.version }}"
+          git push origin HEAD:main
+          # A push made with the workflow token does not start the site deployment: start it.
+          gh workflow run pages.yml --ref main

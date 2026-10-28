@@ -33,3 +33,6 @@ xcuserdata/
 # Fine-tuning: trained weights and run logs stay local
 ft/adapters-*/
 ft/*.log
+
+# IPA built for AltStore
+/build/

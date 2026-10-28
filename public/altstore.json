@@ -1,0 +1,25 @@
+{
+  "name": "Code Israël",
+  "identifier": "com.codeisrael.source",
+  "subtitle": "Le code de la route israélien, en français",
+  "description": "Source AltStore de Code Israël : les mises à jour de l'app arrivent toutes seules dans AltStore.",
+  "iconURL": "https://sivelswhy.github.io/code-israel/icon-512.png",
+  "website": "https://sivelswhy.github.io/code-israel/",
+  "tintColor": "0A5AD4",
+  "apps": [
+    {
+      "name": "Code Israël",
+      "bundleIdentifier": "com.codeisrael.app",
+      "developerName": "sivelswhy",
+      "subtitle": "Code de la route israélien, en français",
+      "localizedDescription": "Préparez l'examen théorique israélien du permis de conduire en français : questions officielles traduites, explications ancrées dans le texte de loi, panneaux, examens blancs et un mode Parcours à la Duolingo (leçons, XP, quêtes, révision espacée). Tout fonctionne sur l'appareil, sans compte ni serveur.",
+      "iconURL": "https://sivelswhy.github.io/code-israel/icon-512.png",
+      "tintColor": "0A5AD4",
+      "category": "education",
+      "screenshotURLs": [],
+      "versions": [],
+      "appPermissions": { "entitlements": [], "privacy": {} }
+    }
+  ],
+  "news": []
+}
