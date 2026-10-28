@@ -166,57 +166,25 @@ private struct EngineCard: View {
     @Environment(AIEngines.self) private var engines
 
     var body: some View {
-        let qwen = engines.qwen
-        Group {
-            switch engines.current {
-            case .apple:
-                note("IA Apple Intelligence active sur votre iPhone : gratuite, hors ligne, rien n’est envoyé sur internet.", icon: "apple.intelligence")
-            case .qwen:
-                note("IA Qwen active sur votre iPhone : gratuite, hors ligne, rien n’est envoyé sur internet.", icon: "cpu")
-            case .none:
-                VStack(alignment: .leading, spacing: 10) {
-                    switch qwen.state {
-                    case .downloading(let fraction):
-                        Text("Téléchargement de l’IA… \(Int(fraction * 100)) %").font(.subheadline.weight(.semibold))
-                        ProgressView(value: fraction)
-                        Text("Téléchargement unique, ensuite l’IA fonctionne hors ligne. Vous pouvez déjà poser des questions en mode recherche.")
-                            .font(.footnote).foregroundStyle(.secondary)
-                        Button("Annuler", role: .cancel) { qwen.cancel() }.font(.footnote)
-                    case .loading:
-                        HStack { ProgressView(); Text("Préparation de l’IA…").font(.subheadline) }
-                    case .failed(let message):
-                        Text(message).font(.subheadline)
-                        Button("Réessayer") { qwen.load() }.buttonStyle(.borderedProminent)
-                    case .idle, .ready:
-                        offer
-                    }
+        if engines.current == .apple {
+            note("IA Apple Intelligence active sur cet appareil : gratuite, hors ligne, rien n’est envoyé sur internet.", icon: "apple.intelligence")
+        } else {
+            VStack(alignment: .leading, spacing: 10) {
+                switch engines.appleStatus {
+                case .disabled:
+                    Text("Activez Apple Intelligence dans Réglages pour une IA intégrée, sans téléchargement.").font(.subheadline)
+                case .preparing:
+                    Text("Apple Intelligence se prépare sur cet appareil : l’IA sera disponible dans quelques minutes.").font(.subheadline)
+                default:
+                    Text("Cet appareil n’a pas Apple Intelligence. L’assistant fonctionne en mode recherche : il retrouve les questions officielles, les explications et les articles de loi.")
+                        .font(.subheadline)
                 }
-                .padding(14)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
+                Text("Sans IA, l’assistant répond déjà à partir des textes officiels.").font(.footnote).foregroundStyle(.secondary)
             }
+            .padding(14)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
         }
-    }
-
-    @ViewBuilder private var offer: some View {
-        switch engines.appleStatus {
-        case .disabled:
-            Text("Activez Apple Intelligence dans Réglages pour une IA intégrée, sans téléchargement.").font(.subheadline)
-        case .preparing:
-            Text("Apple Intelligence se prépare sur votre iPhone : l’IA sera disponible dans quelques minutes.").font(.subheadline)
-        default:
-            EmptyView()
-        }
-        if QwenEngine.isSupported {
-            Text("**Activer l’IA gratuite ?** Elle fonctionne entièrement sur votre iPhone et répond à partir des textes officiels.")
-                .font(.subheadline)
-            Text("Qwen3.5 2B : téléchargement unique de \(QwenEngine.downloadSize). Wi-Fi recommandé.").font(.footnote).foregroundStyle(.secondary)
-            Button("Télécharger l’IA") { engines.qwen.load() }.buttonStyle(.borderedProminent)
-        } else if engines.appleStatus == .unsupported {
-            Text("Cet iPhone ne peut pas faire tourner d’IA locale. L’assistant fonctionne en mode recherche : il retrouve les questions officielles, les explications et les articles de loi.")
-                .font(.subheadline)
-        }
-        Text("Sans IA, l’assistant répond déjà à partir des textes officiels.").font(.footnote).foregroundStyle(.secondary)
     }
 
     private func note(_ text: String, icon: String) -> some View {

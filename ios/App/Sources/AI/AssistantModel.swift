@@ -2,31 +2,20 @@ import CodeIsraelKit
 import Foundation
 import Observation
 
-/// Which model answers, chosen automatically: Apple Intelligence when the iPhone has it, Qwen on the
-/// iPhone otherwise, and the search mode (no model) when neither is available.
+/// Which model answers, chosen automatically: Apple Intelligence when the device has it, and the search
+/// mode (no model) otherwise.
 enum Engine: Equatable {
     case apple
-    case qwen
     case none
 }
 
-/// The models of the app, shared by every conversation (Qwen is loaded in memory only once).
+/// The model of the app, shared by every conversation.
 @MainActor
 @Observable
 final class AIEngines {
-    let qwen = QwenEngine()
     private(set) var appleStatus = AppleEngine.status
 
-    init() {
-        // A model downloaded before is loaded right away when Apple Intelligence is not there.
-        if appleStatus != .available, QwenEngine.isSupported, qwen.wasDownloaded { qwen.load() }
-    }
-
-    var current: Engine {
-        if appleStatus == .available { return .apple }
-        if qwen.state == .ready { return .qwen }
-        return .none
-    }
+    var current: Engine { appleStatus == .available ? .apple : .none }
 
     /// Apple Intelligence may have been turned on, or finished preparing, while the app was away.
     func refresh() {
@@ -36,7 +25,6 @@ final class AIEngines {
     func answer(_ engine: Engine, prompt: String) -> AsyncThrowingStream<String, Error> {
         switch engine {
         case .apple: AppleEngine.answer(system: AssistantPrompt.system, prompt: prompt)
-        case .qwen: qwen.answer(system: AssistantPrompt.system, prompt: prompt)
         case .none: AsyncThrowingStream { $0.finish() }
         }
     }
