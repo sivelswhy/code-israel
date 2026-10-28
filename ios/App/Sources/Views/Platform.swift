@@ -16,8 +16,9 @@ extension PlatformImage {
 }
 
 extension Color {
-    static let groupedBackground = Color(.systemGroupedBackground)
-    static let cardBackground = Color(.secondarySystemGroupedBackground)
+    /// Dark mode is a soft graphite like the site, not the system's pure black.
+    static let groupedBackground = Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 0.137, green: 0.137, blue: 0.149, alpha: 1) : .systemGroupedBackground })
+    static let cardBackground = Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 0.188, green: 0.188, blue: 0.204, alpha: 1) : .secondarySystemGroupedBackground })
     static let nestedBackground = Color(.tertiarySystemGroupedBackground)
     static let subtleFill = Color(.tertiarySystemFill)
 }
