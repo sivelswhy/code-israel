@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.12",
+          "buildVersion": "12",
+          "date": "2026-10-28",
+          "localizedDescription": "Envoi du code par e-mail désactivé : brouillon d'e-mail et copie du code",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.12/CodeIsrael.ipa",
+          "size": 27147029,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.11",
           "buildVersion": "11",
           "date": "2026-10-28",
