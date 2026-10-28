@@ -2,10 +2,19 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
+import { MascotGallery } from './journey/Mascots'
+
+// `?mode=journey` opens the Parcours, like `-appMode journey` in the apps: handy to compare screens.
+try {
+  const m = new URLSearchParams(location.search).get('mode')
+  if (m === 'journey' || m === 'classic') localStorage.setItem('code-israel:mode', m)
+} catch {
+  // No storage: the mode stays the default one.
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    {new URLSearchParams(location.search).has('mascots') ? <MascotGallery /> : <App />}
   </StrictMode>,
 )
 

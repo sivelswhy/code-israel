@@ -15,7 +15,7 @@ import { play } from './sounds'
 import { Trophy, Check, Play, Star, Lock, Flame, Snowflake, Bulb, X, Target, Gift, Box, Confetti, Refresh, Danger, Stop, Bolt, Flag } from 'reicon-react'
 
 const COLORS: Record<Category, string> = { rules: 'var(--sign-blue)', safety: 'var(--sign-red)', signs: '#d97706', vehicle: 'var(--sign-green)' }
-const SHORT: Record<Category, string> = { rules: 'Code', safety: 'Sécurité', signs: 'Panneaux', vehicle: 'Véhicule' }
+const SHORT: Record<Category, string> = { rules: 'Code', safety: 'Sécurité', signs: 'Panneaux', vehicle: 'Connaissance' }
 
 export interface StartLesson {
   title: string
@@ -189,7 +189,7 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
           <p className="muted">{Math.min(today, RULES.dailyXP)} / {RULES.dailyXP} XP</p>
           {days > 0 && <p className="streak"><Flame className="ic" size={16} weight="Filled" /> {days} jour{days > 1 ? 's' : ''} d’affilée</p>}
         </div>
-        <div className="goal-feo"><TalkingMascot name="feo" mood={today >= RULES.dailyXP ? 'cheer' : today > 0 ? 'thinking' : 'sad'} size={60} pool={[]} /></div>
+        <div className="goal-feo"><TalkingMascot name="feo" mood={today >= RULES.dailyXP ? 'cheer' : today > 0 ? 'thinking' : 'sad'} size={76} pool={[]} /></div>
       </section>
 
       <section className="card">

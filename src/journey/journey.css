@@ -46,7 +46,17 @@
 .path-guide { position: absolute; top: 0; }
 .path-guide.left { left: 0; }
 .path-guide.right { right: 0; }
-.path-guide .bubble { max-width: 130px; }
+/* The guide's bubble floats up and to the side of the character, its slanted tail pointing back at it: it takes no room on the path. */
+.path-guide .talking { position: relative; }
+.path-guide .bubble { position: absolute; bottom: 100%; margin-bottom: 8px; width: 230px; max-width: none; z-index: 6; }
+.path-guide.left .bubble { left: 55%; }
+.path-guide.right .bubble { right: 55%; }
+.path-guide .bubble::before, .path-guide .bubble::after { content: ''; position: absolute; top: 100%; width: 24px; height: 17px; }
+.path-guide .bubble::before { background: var(--separator); margin-top: -1px; }
+.path-guide .bubble::after { background: var(--surface); margin-top: -2px; }
+.path-guide.left .bubble::before, .path-guide.left .bubble::after { left: 6px; clip-path: polygon(9px 0, 0 100%, 100% 0); }
+.path-guide.right .bubble::before, .path-guide.right .bubble::after { right: 6px; clip-path: polygon(calc(100% - 9px) 0, 100% 100%, 0 0); }
+.path-row:has(.path-guide) { margin-top: 46px; }
 
 /* Characters */
 .mascot { display: block; overflow: visible; }
@@ -75,10 +85,10 @@
 /* Summary */
 .summary { display: grid; gap: 12px; }
 .summary .card { margin: 0; }
-.goal-card { position: relative; display: flex; align-items: center; gap: 14px; padding-right: 84px; }
+.goal-card { position: relative; display: flex; align-items: center; gap: 14px; padding-right: 92px; }
 .goal-card h3, .quests h3 { margin: 0; font-size: 1.0625rem; }
 .goal-card p { margin: 2px 0 0; }
-.goal-feo { position: absolute; top: 8px; right: 10px; }
+.goal-feo { position: absolute; top: 4px; right: 12px; }
 .goal-feo .talking .bubble { position: absolute; right: 0; top: 64px; z-index: 5; width: 220px; }
 .streak { color: var(--ring-orange); font-weight: 600; font-size: 0.875rem; }
 .level-row { display: flex; justify-content: space-between; margin-bottom: 8px; }
