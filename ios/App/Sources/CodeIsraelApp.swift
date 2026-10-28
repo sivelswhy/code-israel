@@ -12,11 +12,12 @@ struct CodeIsraelApp: App {
                 .environment(app)
                 .environment(engines)
                 #if os(macOS)
-                .frame(minWidth: 820, minHeight: 600)
+                .modifier(MacWindowSize())
                 #endif
         }
         #if os(macOS)
         .defaultSize(width: 1080, height: 780)
+        .windowResizability(UserDefaults.standard.double(forKey: "phoneWidth") > 0 ? .contentSize : .automatic)
         #endif
     }
 }
@@ -130,3 +131,17 @@ struct RootView: View {
             .sheetSize()
     }
 }
+
+#if os(macOS)
+/// The window of the Mac app. `-phoneWidth 390` on the command line gives it the size of a phone screen, to check the narrow layout.
+private struct MacWindowSize: ViewModifier {
+    func body(content: Content) -> some View {
+        let phone = UserDefaults.standard.double(forKey: "phoneWidth")
+        if phone > 0 {
+            content.frame(width: phone, height: 800)
+        } else {
+            content.frame(minWidth: 820, minHeight: 600)
+        }
+    }
+}
+#endif

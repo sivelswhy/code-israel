@@ -10,6 +10,13 @@ struct JourneyView: View {
     @State private var matchSeed: Int?
     @State private var reward: ChestReward?
     @State private var remindersOn = Reminders.isOn
+    @State private var sheet: Sheet?
+
+    /// On a phone, the quests and the reminders open in a sheet instead of crowding the path.
+    enum Sheet: String, Identifiable {
+        case quests, reminders
+        var id: String { rawValue }
+    }
 
     /// A lesson or review being played.
     struct ActiveLesson: Identifiable {
@@ -36,7 +43,7 @@ struct JourneyView: View {
                         .frame(width: 330)
                 }
             } else {
-                pathScroll(unit, journey, width: geo.size.width, wide: false, summaryOnTop: summary(journey, showSwitcher: true))
+                pathScroll(unit, journey, width: geo.size.width, wide: false, summaryOnTop: compactHeader(journey))
             }
         }
         .background(Color.groupedBackground)
@@ -51,6 +58,23 @@ struct JourneyView: View {
         .fullScreenCoverCompat(item: Binding(get: { matchSeed.map(MatchRound.init) }, set: { matchSeed = $0?.seed })) { round in
             MatchGame(seed: round.seed) { matchSeed = nil }
                 .environment(app)
+        }
+        .sheet(item: $sheet) { which in
+            NavigationStack {
+                ScrollView {
+                    Group {
+                        if which == .quests { quests(journey) } else { remindersCard }
+                    }
+                    .padding(20)
+                }
+                .background(Color.groupedBackground)
+                .navigationTitle(which == .quests ? "Quêtes du jour" : "Rappels")
+                #if !os(macOS)
+                .navigationBarTitleDisplayMode(.inline)
+                #endif
+                .toolbar { ToolbarItem(placement: .confirmationAction) { Button("Fermer") { sheet = nil } } }
+            }
+            .presentationDetents([.medium, .large])
         }
         .alert("Coffre ouvert !", isPresented: Binding(get: { reward != nil }, set: { if !$0 { reward = nil } })) {
             Button("Super !") { reward = nil }
@@ -94,7 +118,8 @@ struct JourneyView: View {
             }
             .task(id: theme) {
                 // Open the path where the learner stopped.
-                if let unit, let current = journey.currentLesson(in: unit) {
+                // The first lessons are already in view below the header: only a long way in is worth a scroll.
+                if let unit, let current = journey.currentLesson(in: unit), current.number > 3 {
                     try? await Task.sleep(for: .milliseconds(150))
                     withAnimation { proxy.scrollTo(current.id, anchor: .center) }
                 }
@@ -146,10 +171,9 @@ struct JourneyView: View {
         let current = journey.currentLesson(in: unit) == lesson
         // The zigzag and the guide must stay inside the column, from a 320 pt phone to a wide window.
         let amplitude = min(110, max(24, half - 125))
-        let guideReach = min(150, half - 50)
         // The guide stands on the side of the path with the most room.
         let side: Double = sin(Double(index) * 0.9) >= 0 ? -1 : 1
-        return VStack(spacing: 6) {
+        let node = VStack(spacing: 6) {
             PathNode(color: unit.category.color, number: lesson.number, stars: result?.stars, gold: result?.isGold ?? false, unlocked: unlocked, current: current) { start(lesson) }
             if let stars = result?.stars {
                 HStack(spacing: 2) {
@@ -161,13 +185,15 @@ struct JourneyView: View {
             }
         }
         .frame(maxWidth: .infinity)
-        .overlay {
+        .offset(x: sin(Double(index) * 0.9) * amplitude)
+        // The guide stays on the edge of the row, on the side opposite to the node: it can never leave the screen.
+        return ZStack(alignment: side < 0 ? .topLeading : .topTrailing) {
+            node
             if current {
-                TalkingMascot(mascot: .rouli, mood: .happy, size: half < 160 ? 68 : 84, message: "Prêt ? C’est parti !")
-                    .offset(x: side * guideReach, y: -6)
+                TalkingMascot(mascot: .rouli, mood: .happy, size: half < 160 ? 60 : 84, message: half < 170 ? nil : "Prêt ? C’est parti !")
+                    .frame(maxWidth: half < 160 ? 150 : 200, alignment: side < 0 ? .leading : .trailing)
             }
         }
-        .offset(x: sin(Double(index) * 0.9) * amplitude)
         .padding(.vertical, 14)
     }
 
@@ -258,6 +284,62 @@ struct JourneyView: View {
             Text("Les questions ratées reviennent après 1 jour, puis 2, 4, 8 et 16 jours si vous les réussissez.")
                 .font(.footnote).foregroundStyle(.secondary)
         }
+    }
+}
+
+extension JourneyView {
+    /// The top of the path on a phone: the goal, the streak and a few shortcuts. Everything else is one tap away.
+    fileprivate func compactHeader(_ journey: JourneyProgress) -> some View {
+        let today = journey.xpToday()
+        let days = app.progress.streak()
+        let due = app.dueReview
+        let quests = journey.quests()
+        let done = quests.filter { journey.isClaimed($0) }.count
+        let goal = today >= JourneyRules.dailyXP
+        return VStack(spacing: 12) {
+            ModeSwitcher()
+            HStack(spacing: 12) {
+                Rings(rings: [.init(value: min(1, Double(today) / Double(JourneyRules.dailyXP)), color: .ringOrange)], size: 50, stroke: 8)
+                    .overlay(Image(systemName: goal ? "checkmark" : "bolt.fill").font(.caption.bold()).foregroundStyle(Color.ringOrange))
+                VStack(alignment: .leading, spacing: 1) {
+                    Text("Objectif du jour").font(.subheadline.weight(.semibold))
+                    Text("\(min(today, JourneyRules.dailyXP)) / \(JourneyRules.dailyXP) XP · niveau \(journey.level)").font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                }
+                Spacer(minLength: 0)
+                miniStat("flame.fill", .ringOrange, days)
+                miniStat("snowflake", .ringBlue, journey.freezes)
+            }
+            .card()
+            freezeBanner
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 8) {
+                    shortcut("target", "Quêtes \(done)/\(quests.count)", .ringBlue) { sheet = .quests }
+                    shortcut("arrow.triangle.2.circlepath", due.isEmpty ? "Révision" : "Révision (\(due.count))", due.isEmpty ? .gray : .signRed) { startReview(due) }.disabled(due.isEmpty)
+                    shortcut("scope", "Entraînement", .ringBlue) { active = ActiveLesson(title: "Entraînement adapté", lesson: nil, questions: app.adaptiveQuestions, isReview: false) }
+                    shortcut("square.grid.2x2.fill", "Panneaux", .ringGreen) { matchSeed = Int.random(in: 0..<10_000) }
+                    shortcut("bell.fill", "Rappels", .gray) { sheet = .reminders }
+                }
+            }
+        }
+    }
+
+    private func miniStat(_ icon: String, _ color: Color, _ value: Int) -> some View {
+        HStack(spacing: 3) {
+            Image(systemName: icon).foregroundStyle(color)
+            Text("\(value)").font(.subheadline.weight(.bold).monospacedDigit())
+        }
+    }
+
+    private func shortcut(_ icon: String, _ title: String, _ color: Color, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            Label(title, systemImage: icon)
+                .font(.subheadline.weight(.semibold))
+                .padding(.horizontal, 14).padding(.vertical, 9)
+                .background(Capsule().fill(Color.cardBackground))
+                .overlay(Capsule().stroke(Color.primary.opacity(0.08)))
+                .foregroundStyle(color == .gray ? Color.secondary : Color.primary)
+        }
+        .buttonStyle(.plain)
     }
 }
 
@@ -399,33 +481,43 @@ private struct PathNode: View {
     let unlocked: Bool
     let current: Bool
     let action: () -> Void
-    @State private var pressed = false
-
     var body: some View {
         let base = gold ? Color.gold : color
         let fill = unlocked ? base : Color.gray.opacity(0.45)
         let shade = unlocked ? base.opacity(0.55) : Color.gray.opacity(0.3)
         Button(action: action) {
-            ZStack {
-                // The darker disc below gives the button its thickness.
-                Circle().fill(shade).frame(width: 70, height: 70).offset(y: pressed ? 2 : 6)
-                Circle().fill(fill).frame(width: 70, height: 70).offset(y: pressed ? 4 : 0)
-                    .overlay {
-                        Image(systemName: gold ? "trophy.fill" : stars != nil ? "checkmark" : current ? "play.fill" : unlocked ? "star.fill" : "lock.fill")
-                            .font(.system(size: 26, weight: .bold)).foregroundStyle(.white).offset(y: pressed ? 4 : 0)
-                    }
-                if current {
-                    Circle().stroke(base.opacity(0.35), lineWidth: 5).frame(width: 86, height: 86)
-                }
-            }
-            .frame(width: 90, height: 84)
-            .contentShape(Circle())
+            Color.clear.frame(width: 90, height: 84)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(NodeStyle(fill: fill, shade: shade, base: base, icon: gold ? "trophy.fill" : stars != nil ? "checkmark" : current ? "play.fill" : unlocked ? "star.fill" : "lock.fill", current: current))
         .disabled(!unlocked)
-        .simultaneousGesture(DragGesture(minimumDistance: 0).onChanged { _ in pressed = true }.onEnded { _ in pressed = false })
-        .animation(.spring(duration: 0.2), value: pressed)
         .accessibilityLabel(unlocked ? "Leçon \(number)" : "Leçon \(number), verrouillée")
         .accessibilityValue(stars.map { "\($0) étoile\($0 > 1 ? "s" : "")" + (gold ? ", dorée" : "") } ?? (current ? "à faire" : ""))
+    }
+}
+
+/// The 3D look of a lesson button. A button style follows the press by itself, so a drag on the node still scrolls the path.
+private struct NodeStyle: ButtonStyle {
+    let fill: Color
+    let shade: Color
+    let base: Color
+    let icon: String
+    let current: Bool
+
+    func makeBody(configuration: Configuration) -> some View {
+        let pressed = configuration.isPressed
+        ZStack {
+            // The darker disc below gives the button its thickness.
+            Circle().fill(shade).frame(width: 70, height: 70).offset(y: pressed ? 2 : 6)
+            Circle().fill(fill).frame(width: 70, height: 70).offset(y: pressed ? 4 : 0)
+                .overlay {
+                    Image(systemName: icon).font(.system(size: 26, weight: .bold)).foregroundStyle(.white).offset(y: pressed ? 4 : 0)
+                }
+            if current {
+                Circle().stroke(base.opacity(0.35), lineWidth: 5).frame(width: 86, height: 86)
+            }
+        }
+        .frame(width: 90, height: 84)
+        .contentShape(Circle())
+        .animation(.spring(duration: 0.2), value: pressed)
     }
 }
