@@ -58,3 +58,19 @@ struct SoundToggle: View {
         .accessibilityLabel(on ? "Couper les sons" : "Activer les sons")
     }
 }
+
+/// Reads a question aloud, in French, with the voice of the device.
+@MainActor
+enum Speech {
+    private static let synthesizer = AVSpeechSynthesizer()
+
+    static func say(_ text: String) {
+        synthesizer.stopSpeaking(at: .immediate)
+        let utterance = AVSpeechUtterance(string: text)
+        utterance.voice = AVSpeechSynthesisVoice(language: "fr-FR")
+        utterance.rate = 0.48
+        synthesizer.speak(utterance)
+    }
+
+    static func stop() { synthesizer.stopSpeaking(at: .immediate) }
+}

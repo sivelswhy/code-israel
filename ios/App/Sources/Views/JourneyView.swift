@@ -7,6 +7,9 @@ struct JourneyView: View {
     @Environment(AppModel.self) private var app
     @State private var theme: Category = .rules
     @State private var active: ActiveLesson?
+    @State private var matchSeed: Int?
+    @State private var reward: ChestReward?
+    @State private var remindersOn = Reminders.isOn
 
     /// A lesson or review being played.
     struct ActiveLesson: Identifiable {
@@ -14,6 +17,7 @@ struct JourneyView: View {
         let title: String
         let lesson: Lesson?
         let questions: [Question]
+        var isReview = true
     }
 
     var body: some View {
@@ -41,12 +45,23 @@ struct JourneyView: View {
         .toolbarBackground(Color.groupedBackground, for: .windowToolbar)
         #endif
         .fullScreenCoverCompat(item: $active) { a in
-            LessonView(title: a.title, lesson: a.lesson, questions: a.questions) { active = nil }
+            LessonView(title: a.title, lesson: a.lesson, questions: a.questions, isReview: a.isReview) { active = nil }
                 .environment(app)
+        }
+        .fullScreenCoverCompat(item: Binding(get: { matchSeed.map(MatchRound.init) }, set: { matchSeed = $0?.seed })) { round in
+            MatchGame(seed: round.seed) { matchSeed = nil }
+                .environment(app)
+        }
+        .alert("Coffre ouvert !", isPresented: Binding(get: { reward != nil }, set: { if !$0 { reward = nil } })) {
+            Button("Super !") { reward = nil }
+        } message: {
+            Text(reward.map { "+\($0.xp) XP" + ($0.freeze ? "\nEt un gel de série pour sauver un jour manqué." : "") } ?? "")
         }
         .onAppear {
             // `-openLesson 1` on the command line starts that lesson of the first theme: handy to check the screen.
             let n = UserDefaults.standard.integer(forKey: "openLesson")
+            // `-matchGame 1` opens the sign matching game.
+            if UserDefaults.standard.bool(forKey: "matchGame") { UserDefaults.standard.removeObject(forKey: "matchGame"); matchSeed = 1 }
             if active == nil, n > 0, let u = path.units.first, u.lessons.indices.contains(n - 1) {
                 UserDefaults.standard.removeObject(forKey: "openLesson")
                 start(u.lessons[n - 1])
@@ -135,7 +150,7 @@ struct JourneyView: View {
         // The guide stands on the side of the path with the most room.
         let side: Double = sin(Double(index) * 0.9) >= 0 ? -1 : 1
         return VStack(spacing: 6) {
-            PathNode(color: unit.category.color, number: lesson.number, stars: result?.stars, unlocked: unlocked, current: current) { start(lesson) }
+            PathNode(color: unit.category.color, number: lesson.number, stars: result?.stars, gold: result?.isGold ?? false, unlocked: unlocked, current: current) { start(lesson) }
             if let stars = result?.stars {
                 HStack(spacing: 2) {
                     ForEach(1...3, id: \.self) { n in
@@ -204,6 +219,12 @@ struct JourneyView: View {
             }
             .card()
 
+            stats(journey, days: days)
+
+            freezeBanner
+
+            quests(journey)
+
             Button { startReview(due) } label: {
                 HStack(spacing: 14) {
                     Image(systemName: "arrow.triangle.2.circlepath").font(.title2).foregroundStyle(.white)
@@ -221,10 +242,152 @@ struct JourneyView: View {
             .buttonStyle(.plain)
             .disabled(due.isEmpty)
             .card()
+
+            actionCard(icon: "scope", color: .ringBlue, title: "Entraînement adapté",
+                       subtitle: "\(JourneyRules.adaptiveSize) questions choisies pour que vous en réussissiez environ \(Int(JourneyRules.targetSuccess * 100)) %.") {
+                active = ActiveLesson(title: "Entraînement adapté", lesson: nil, questions: app.adaptiveQuestions, isReview: false)
+            }
+
+            actionCard(icon: "square.grid.2x2.fill", color: .ringGreen, title: "Jeu des panneaux",
+                       subtitle: "Associez \(JourneyRules.matchPairs) panneaux à leur sens : +\(JourneyRules.xpMatch) XP.") {
+                matchSeed = Int.random(in: 0..<10_000)
+            }
+
+            remindersCard
+
             Text("Les questions ratées reviennent après 1 jour, puis 2, 4, 8 et 16 jours si vous les réussissez.")
                 .font(.footnote).foregroundStyle(.secondary)
         }
     }
+}
+
+extension JourneyView {
+    /// Streak, freezes in stock and how well the reviewed questions are remembered.
+    fileprivate func stats(_ journey: JourneyProgress, days: Int) -> some View {
+        let memory = journey.memoryStrength()
+        return HStack(spacing: 10) {
+            statPill(icon: "flame.fill", color: .ringOrange, value: "\(days)", label: days > 1 ? "jours" : "jour")
+            statPill(icon: "snowflake", color: .ringBlue, value: "\(journey.freezes)", label: journey.freezes > 1 ? "gels" : "gel")
+            statPill(icon: "brain", color: .ringGreen, value: memory.map { "\(Int(($0 * 100).rounded())) %" } ?? "–", label: "mémoire")
+        }
+        .accessibilityElement(children: .combine)
+    }
+
+    private func statPill(icon: String, color: Color, value: String, label: String) -> some View {
+        VStack(spacing: 2) {
+            Image(systemName: icon).foregroundStyle(color)
+            Text(value).font(.headline.monospacedDigit())
+            Text(label).font(.caption).foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 10)
+        .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
+        .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.primary.opacity(0.06)))
+    }
+
+    /// Tells the learner that a streak freeze saved a missed day.
+    @ViewBuilder fileprivate var freezeBanner: some View {
+        if app.freezeNotice > 0 {
+            HStack(spacing: 10) {
+                Image(systemName: "snowflake").foregroundStyle(Color.ringBlue)
+                Text(app.freezeNotice > 1 ? "\(app.freezeNotice) gels de série ont sauvé votre série." : "Un gel de série a sauvé votre série hier.")
+                    .font(.subheadline.weight(.semibold))
+                Spacer(minLength: 0)
+                Button { app.freezeNotice = 0 } label: { Image(systemName: "xmark.circle.fill").foregroundStyle(.secondary) }.buttonStyle(.plain)
+                    .accessibilityLabel("Fermer")
+            }
+            .card()
+        }
+    }
+
+    /// The three quests of the day, and the chest they open.
+    fileprivate func quests(_ journey: JourneyProgress) -> some View {
+        let list = journey.quests()
+        return VStack(alignment: .leading, spacing: 12) {
+            Label("Quêtes du jour", systemImage: "target").font(.headline)
+            ForEach(list, id: \.self) { quest in
+                let done = journey.isDone(quest)
+                let claimed = journey.isClaimed(quest)
+                HStack(spacing: 12) {
+                    Image(systemName: quest.icon).foregroundStyle(.white)
+                        .frame(width: 34, height: 34).background(Circle().fill(claimed ? Color.ringGreen : Color.ringBlue))
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(quest.title).font(.subheadline.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
+                        ProgressBar(value: Double(journey.questProgress(quest)) / Double(quest.target), color: claimed ? .ringGreen : .ringBlue)
+                    }
+                    if claimed {
+                        Image(systemName: "checkmark.circle.fill").foregroundStyle(Color.ringGreen)
+                    } else if done {
+                        Button("+\(JourneyRules.questXP) XP") {
+                            if app.claim(quest) { Sound.star.play() }
+                        }
+                        .buttonStyle(.borderedProminent).tint(.ringOrange).controlSize(.small)
+                    } else {
+                        Text("\(journey.questProgress(quest))/\(quest.target)").font(.caption.monospacedDigit()).foregroundStyle(.secondary)
+                    }
+                }
+            }
+            Divider()
+            HStack(spacing: 12) {
+                Image(systemName: journey.today.chestOpened && journey.today.day == Progress.day(.now) ? "shippingbox" : "shippingbox.fill")
+                    .font(.title2).foregroundStyle(Color.gold).frame(width: 34)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Coffre du jour").font(.subheadline.weight(.semibold))
+                    Text(chestHint(journey)).font(.caption).foregroundStyle(.secondary)
+                }
+                Spacer(minLength: 0)
+                if journey.canOpenChest() {
+                    Button("Ouvrir") {
+                        if let r = app.openChest() { reward = r; Sound.complete.play() }
+                    }
+                    .buttonStyle(.borderedProminent).tint(Color.gold).controlSize(.small)
+                }
+            }
+        }
+        .card()
+    }
+
+    private func chestHint(_ journey: JourneyProgress) -> String {
+        if journey.today.day == Progress.day(.now), journey.today.chestOpened { return "Ouvert. Revenez demain !" }
+        if journey.canOpenChest() { return "Prêt : +\(JourneyRules.chestXP) XP à gagner." }
+        return "Récupérez les 3 quêtes pour l’ouvrir."
+    }
+
+    fileprivate func actionCard(icon: String, color: Color, title: String, subtitle: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack(spacing: 14) {
+                Image(systemName: icon).font(.title2).foregroundStyle(.white)
+                    .frame(width: 46, height: 46).background(RoundedRectangle(cornerRadius: 12).fill(color))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.headline).foregroundStyle(.primary)
+                    Text(subtitle).font(.subheadline).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").foregroundStyle(.tertiary)
+            }
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .card()
+    }
+
+    fileprivate var remindersCard: some View {
+        Toggle(isOn: Binding(get: { remindersOn }, set: { on in
+            Task { remindersOn = await Reminders.setOn(on, app: app) }
+        })) {
+            VStack(alignment: .leading, spacing: 2) {
+                Label("Rappels", systemImage: "bell.fill").font(.headline)
+                Text("Un rappel à \(Reminders.hour(app)) h, l’heure où vous étudiez d’habitude, et une alerte le soir si votre série est en danger.")
+                    .font(.footnote).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+            }
+        }
+        .card()
+    }
+}
+
+private struct MatchRound: Identifiable {
+    let seed: Int
+    var id: Int { seed }
 }
 
 /// A lesson on the path: done (with its stars), the one to play now, or locked.
@@ -232,25 +395,27 @@ private struct PathNode: View {
     let color: Color
     let number: Int
     let stars: Int?
+    let gold: Bool
     let unlocked: Bool
     let current: Bool
     let action: () -> Void
     @State private var pressed = false
 
     var body: some View {
-        let fill = unlocked ? color : Color.gray.opacity(0.45)
-        let shade = unlocked ? color.opacity(0.55) : Color.gray.opacity(0.3)
+        let base = gold ? Color.gold : color
+        let fill = unlocked ? base : Color.gray.opacity(0.45)
+        let shade = unlocked ? base.opacity(0.55) : Color.gray.opacity(0.3)
         Button(action: action) {
             ZStack {
                 // The darker disc below gives the button its thickness.
                 Circle().fill(shade).frame(width: 70, height: 70).offset(y: pressed ? 2 : 6)
                 Circle().fill(fill).frame(width: 70, height: 70).offset(y: pressed ? 4 : 0)
                     .overlay {
-                        Image(systemName: stars != nil ? "checkmark" : current ? "play.fill" : unlocked ? "star.fill" : "lock.fill")
+                        Image(systemName: gold ? "trophy.fill" : stars != nil ? "checkmark" : current ? "play.fill" : unlocked ? "star.fill" : "lock.fill")
                             .font(.system(size: 26, weight: .bold)).foregroundStyle(.white).offset(y: pressed ? 4 : 0)
                     }
                 if current {
-                    Circle().stroke(color.opacity(0.35), lineWidth: 5).frame(width: 86, height: 86)
+                    Circle().stroke(base.opacity(0.35), lineWidth: 5).frame(width: 86, height: 86)
                 }
             }
             .frame(width: 90, height: 84)
@@ -261,6 +426,6 @@ private struct PathNode: View {
         .simultaneousGesture(DragGesture(minimumDistance: 0).onChanged { _ in pressed = true }.onEnded { _ in pressed = false })
         .animation(.spring(duration: 0.2), value: pressed)
         .accessibilityLabel(unlocked ? "Leçon \(number)" : "Leçon \(number), verrouillée")
-        .accessibilityValue(stars.map { "\($0) étoile\($0 > 1 ? "s" : "")" } ?? (current ? "à faire" : ""))
+        .accessibilityValue(stars.map { "\($0) étoile\($0 > 1 ? "s" : "")" + (gold ? ", dorée" : "") } ?? (current ? "à faire" : ""))
     }
 }

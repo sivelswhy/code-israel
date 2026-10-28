@@ -233,3 +233,8 @@ struct ModeSwitcher: View {
         .accessibilityLabel("Mode de l’application")
     }
 }
+
+extension Color {
+    /// The colour of a lesson played perfectly.
+    static let gold = Color(red: 0.96, green: 0.72, blue: 0.1)
+}

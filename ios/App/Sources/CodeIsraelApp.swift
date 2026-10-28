@@ -43,6 +43,7 @@ struct RootView: View {
     @State private var topic: AssistantTopic?
     @State private var showTopic = false
     @Environment(AppModel.self) private var app
+    @Environment(\.scenePhase) private var scenePhase
 
     @ViewBuilder private var content: some View {
         if UserDefaults.standard.bool(forKey: "mascotGallery") { MascotGallery() } else { layout }
@@ -50,6 +51,8 @@ struct RootView: View {
 
     var body: some View {
         content
+        .task { app.refreshJourney() }
+        .onChange(of: scenePhase) { _, phase in if phase == .active { app.refreshJourney() } }
         .environment(\.askAssistant) { topic in
             self.topic = topic
             showTopic = true

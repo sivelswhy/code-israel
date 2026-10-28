@@ -76,6 +76,11 @@ final class AppModel {
         progress.record(question.id, ok: chosen == question.c)
     }
 
+    /// Records an answer to an exercise other than the plain multiple choice (true or false, for example).
+    func record(_ question: Question, ok: Bool) {
+        progress.record(question.id, ok: ok)
+    }
+
     func recordExam(_ questions: [Question], answers: [Int?]) {
         for (q, a) in zip(questions, answers) { progress.record(q.id, ok: a == q.c) }
         let errors = zip(questions, answers).filter { $0.1 != $0.0.c }.count
@@ -125,10 +130,40 @@ final class AppModel {
 
     /// Saves a finished lesson (or review, when `lesson` is nil). The answers were recorded one by one as they were given.
     @discardableResult
-    func finishJourney(lesson: Lesson?, session: LessonSession) -> SessionOutcome {
+    func finishJourney(lesson: Lesson?, session: LessonSession, review: Bool = true) -> SessionOutcome {
         let outcome = session.outcome(bonus: lesson != nil)
-        progress.journey.finish(lesson: lesson, outcome: outcome)
+        progress.journey.finish(lesson: lesson, outcome: outcome, countsAsReview: review)
+        Reminders.refresh(self)
         return outcome
+    }
+
+    /// Streak freezes spent on the days missed, until the learner has been told.
+    var freezeNotice = 0
+
+    /// To call at launch and whenever the app comes back: spends streak freezes if a day was missed, and plans the reminders.
+    func refreshJourney() {
+        let used = progress.applyStreakFreezes()
+        if used > 0 { freezeNotice = used }
+        Reminders.refresh(self)
+    }
+
+    /// The questions of the adaptive training: the ones the learner has about 8 chances in 10 to get right.
+    var adaptiveQuestions: [Question] {
+        questions(progress.journey.adaptivePick(from: pool.map(\.id)))
+    }
+
+    func claim(_ quest: QuestKind) -> Bool { progress.journey.claim(quest) }
+
+    func openChest() -> ChestReward? { progress.journey.openChest() }
+
+    /// The pairs of one round of the sign matching game.
+    func matchRound(seed: Int) -> [Sign] { ExercisePlanner.matchPairs(signs: library.signs, seed: seed) }
+
+    /// XP of a finished matching round. It also counts as practice today, so that it keeps the streak alive.
+    func finishMatch() {
+        progress.journey.add(xp: JourneyRules.xpMatch)
+        progress.daily[Progress.day(.now), default: 0] += 1
+        Reminders.refresh(self)
     }
 
     func resetProgress() {

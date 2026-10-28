@@ -19,12 +19,20 @@ struct LessonView: View {
     @State private var checked = false
     @State private var confirmQuit = false
     @State private var outcome: SessionOutcome?
+    /// For the speed bonus: when the current question appeared, and how long the answer took.
+    @State private var shownAt = Date()
+    @State private var seconds = 0.0
+    /// A listening exercise hides the question until the learner asks to read it.
+    @State private var textShown = false
+    /// False for a free training: it counts as no daily review.
+    let isReview: Bool
     /// `-lessonDemo feedback-right | feedback-wrong | complete` on the command line shows that state without
     /// saving anything: handy to check the screens.
     private let demo = UserDefaults.standard.string(forKey: "lessonDemo")
 
-    init(title: String, lesson: Lesson?, questions: [Question], close: @escaping () -> Void) {
+    init(title: String, lesson: Lesson?, questions: [Question], isReview: Bool = true, close: @escaping () -> Void) {
         self.title = title
+        self.isReview = isReview
         self.lesson = lesson
         self.questions = questions
         self.close = close
@@ -33,7 +41,45 @@ struct LessonView: View {
     }
 
     private var question: Question? { session.current.flatMap { id in questions.first { $0.id == id } } }
-    private var right: Bool { question.map { chosen == $0.c } ?? false }
+    private var right: Bool { question.map { chosen == correctIndex($0) } ?? false }
+
+    // MARK: Exercise kinds
+
+    private var position: Int { question.flatMap { q in questions.firstIndex { $0.id == q.id } } ?? 0 }
+
+    /// How the current question is asked: the plain choice, true or false, listening, or Hebrew to French.
+    private var kind: ExerciseKind {
+        guard let q = question else { return .choice }
+        return ExercisePlanner.kind(position: position, firstAttempt: session.isFirstAttempt, hasHebrew: app.hebrew(q.id) != nil)
+    }
+
+    private func translations(_ q: Question) -> (options: [String], correct: Int) { ExercisePlanner.translations(for: q, in: app.pool) }
+
+    /// Index of the right choice among the buttons shown.
+    private func correctIndex(_ q: Question) -> Int {
+        switch kind {
+        case .trueFalse: ExercisePlanner.statement(for: q).isTrue ? 0 : 1
+        case .hebrew: translations(q).correct
+        case .choice, .listening: q.c
+        }
+    }
+
+    private func choiceCount(_ q: Question) -> Int {
+        switch kind {
+        case .trueFalse: 2
+        case .hebrew: translations(q).options.count
+        case .choice, .listening: q.a.count
+        }
+    }
+
+    /// The right answer in words, for the feedback.
+    private func correctText(_ q: Question) -> String {
+        switch kind {
+        case .trueFalse: "\(ExercisePlanner.statement(for: q).isTrue ? "Vrai" : "Faux"). La bonne réponse est : \(q.correct)"
+        case .hebrew: translations(q).options[translations(q).correct]
+        case .choice, .listening: q.correct
+        }
+    }
 
     var body: some View {
         Group {
@@ -70,12 +116,17 @@ struct LessonView: View {
                     if session.queue.count == questions.count && session.mistakes == 0 && !checked {
                         TalkingMascot(mascot: .rouli, mood: .happy, size: 72, message: "C’est parti ! \(questions.count) questions.")
                     }
-                    Text(title).font(.footnote.weight(.semibold)).foregroundStyle(.secondary).textCase(.uppercase)
-                    Text(q.q).font(.title2.weight(.bold)).fixedSize(horizontal: false, vertical: true)
+                    HStack {
+                        Text(title).font(.footnote.weight(.semibold)).foregroundStyle(.secondary).textCase(.uppercase)
+                        Spacer()
+                        Label(kindLabel, systemImage: kindIcon).font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                    }
+                    questionHeader(q)
                     if let img = q.img { QuestionPicture(id: img) }
                     VStack(spacing: 10) {
-                        ForEach(Array((orders[q.id] ?? []).enumerated()), id: \.element) { n, ai in
-                            AnswerButton(letter: ["A", "B", "C", "D"][n], question: q, text: q.a[ai], state: state(of: ai, in: q)) {
+                        ForEach(0..<choiceCount(q), id: \.self) { n in
+                            let ai = answerIndex(n, q)
+                            AnswerButton(letter: letter(n), question: q, text: choiceText(ai, q), state: state(of: ai, in: q)) {
                                 guard !checked else { return }
                                 chosen = ai
                                 Sound.tap.play()
@@ -95,15 +146,89 @@ struct LessonView: View {
         }
     }
 
+    private var kindLabel: String {
+        switch kind {
+        case .choice: "Choix"
+        case .trueFalse: "Vrai ou faux"
+        case .listening: "Écoute"
+        case .hebrew: "Hébreu"
+        }
+    }
+
+    private var kindIcon: String {
+        switch kind {
+        case .choice: "list.bullet"
+        case .trueFalse: "checkmark.circle"
+        case .listening: "ear"
+        case .hebrew: "character.book.closed"
+        }
+    }
+
+    /// The order of the buttons: the shuffled answers for a choice, fixed for true or false and Hebrew.
+    private func answerIndex(_ n: Int, _ q: Question) -> Int {
+        switch kind {
+        case .choice, .listening: (orders[q.id] ?? Array(q.a.indices))[n]
+        case .trueFalse, .hebrew: n
+        }
+    }
+
+    private func letter(_ n: Int) -> String {
+        kind == .trueFalse ? ["V", "F"][n] : ["A", "B", "C", "D"][n]
+    }
+
+    private func choiceText(_ ai: Int, _ q: Question) -> String {
+        switch kind {
+        case .choice, .listening: q.a[ai]
+        case .trueFalse: ai == 0 ? "Vrai" : "Faux"
+        case .hebrew: translations(q).options[ai]
+        }
+    }
+
+    @ViewBuilder private func questionHeader(_ q: Question) -> some View {
+        switch kind {
+        case .choice:
+            Text(q.q).font(.title2.weight(.bold)).fixedSize(horizontal: false, vertical: true)
+        case .trueFalse:
+            let st = ExercisePlanner.statement(for: q)
+            Text("Vrai ou faux ?").font(.title2.weight(.bold))
+            Text(q.q).font(.title3.weight(.semibold)).fixedSize(horizontal: false, vertical: true)
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Réponse proposée").font(.caption.weight(.semibold)).foregroundStyle(.secondary).textCase(.uppercase)
+                Text(q.a[st.answerIndex]).font(.body.weight(.medium)).fixedSize(horizontal: false, vertical: true)
+            }
+            .card()
+        case .listening:
+            Text("Écoutez la question").font(.title2.weight(.bold))
+            HStack(spacing: 12) {
+                Button { Speech.say(q.q) } label: { Label("Écouter", systemImage: "speaker.wave.3.fill").frame(maxWidth: .infinity) }
+                    .buttonStyle(.borderedProminent).controlSize(.large)
+                if !textShown {
+                    Button("Lire le texte") { withAnimation { textShown = true } }.buttonStyle(.bordered).controlSize(.large)
+                }
+            }
+            if textShown || checked { Text(q.q).font(.title3.weight(.semibold)).fixedSize(horizontal: false, vertical: true).transition(.opacity) }
+        case .hebrew:
+            Text("Que dit cette question ?").font(.title2.weight(.bold))
+            if let he = app.hebrew(q.id) {
+                Text(he.q).font(.title3.weight(.semibold)).environment(\.layoutDirection, .rightToLeft)
+                    .multilineTextAlignment(.leading).frame(maxWidth: .infinity, alignment: .leading)
+                    .fixedSize(horizontal: false, vertical: true).card()
+            }
+        }
+    }
+
     private func runDemo() {
         guard let demo, let q = question, !checked, outcome == nil else { return }
         switch demo {
         case "feedback-right":
-            chosen = q.c
+            chosen = correctIndex(q)
             check(q)
         case "feedback-wrong":
-            chosen = (q.c + 1) % q.a.count
+            chosen = (correctIndex(q) + 1) % choiceCount(q)
             check(q)
+        case let d where d.hasPrefix("skip-"):
+            // `skip-2` plays the first two questions right, to see the exercise that comes next.
+            for _ in 0..<(Int(d.dropFirst(5)) ?? 0) { session.submit(correct: true) }
         case "complete":
             var done = session
             var first = true
@@ -114,7 +239,7 @@ struct LessonView: View {
     }
 
     private func state(of ai: Int, in q: Question) -> AnswerButton.State {
-        if checked { return ai == q.c ? .correct : ai == chosen ? .wrong : .dimmed }
+        if checked { return ai == correctIndex(q) ? .correct : ai == chosen ? .wrong : .dimmed }
         return ai == chosen ? .selected : .normal
     }
 
@@ -128,7 +253,7 @@ struct LessonView: View {
                     Label(right ? Self.praise(for: q.id) : "Pas tout à fait", systemImage: right ? "checkmark.circle.fill" : "xmark.circle.fill")
                         .font(.title2.weight(.bold)).foregroundStyle(tint)
                 }
-                if !right { Text("Bonne réponse : \(q.correct)").font(.subheadline.weight(.semibold)) }
+                if !right { Text("Bonne réponse : \(correctText(q))").font(.subheadline.weight(.semibold)) }
                 if let e = q.e { Text(e).font(.subheadline).fixedSize(horizontal: false, vertical: true) }
                 if let ref = q.r?.compactMap({ app.law[$0]?.l }).first {
                     Text("Référence : \(ref)").font(.caption).foregroundStyle(.secondary)
@@ -154,19 +279,24 @@ struct LessonView: View {
 
     private func check(_ q: Question) {
         // The first answer to a question counts in the statistics, like in the classic mode.
-        if session.isFirstAttempt, demo == nil { app.record(q, chosen: chosen) }
-        Haptics.answer(chosen == q.c)
-        (chosen == q.c ? Sound.right : Sound.wrong).play()
+        // A Hebrew exercise tests the reading, not the rule, so it stays out of the statistics.
+        if session.isFirstAttempt, demo == nil, kind != .hebrew { app.record(q, ok: right) }
+        seconds = Date().timeIntervalSince(shownAt)
+        Haptics.answer(right)
+        (right ? Sound.right : Sound.wrong).play()
         withAnimation(.spring(duration: 0.4, bounce: 0.25)) { checked = true }
     }
 
     private func next() {
         let ok = right
         withAnimation(.spring(duration: 0.4, bounce: 0.15)) {
-            session.submit(correct: ok)
+            session.submit(correct: ok, seconds: seconds)
             chosen = nil
             checked = false
-            if session.isFinished { outcome = app.finishJourney(lesson: lesson, session: session) }
+            textShown = false
+            shownAt = Date()
+            Speech.stop()
+            if session.isFinished { outcome = app.finishJourney(lesson: lesson, session: session, review: isReview) }
         }
     }
 
@@ -238,6 +368,13 @@ private struct LessonComplete: View {
                     stat("XP gagnés", "+\(outcome.xp)", .ringOrange)
                     stat("Précision", "\(Int((outcome.accuracy * 100).rounded())) %", .ringGreen)
                     stat("Erreurs", "\(outcome.mistakes)", outcome.mistakes == 0 ? .ringGreen : .signRed)
+                }
+                if outcome.speedBonus {
+                    Label("Bonus de vitesse : +\(JourneyRules.xpSpeedBonus) XP", systemImage: "bolt.fill")
+                        .font(.headline).foregroundStyle(Color.ringOrange)
+                }
+                if outcome.stars == 3 {
+                    Label("Leçon dorée !", systemImage: "trophy.fill").font(.headline).foregroundStyle(Color.gold)
                 }
                 let days = app.progress.streak()
                 if days > 0 {

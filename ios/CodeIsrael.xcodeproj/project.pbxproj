@@ -15,6 +15,7 @@
 		24436085476382793375B237 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 209050857647D17551B65998 /* Data */; };
 		2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68362458393434CECECDD314 /* Platform.swift */; };
 		2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68362458393434CECECDD314 /* Platform.swift */; };
+		31E99CCBC91A0B9FFA6E4536 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */; };
 		33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472011E040C9B65E1F05635A /* QuizView.swift */; };
 		3863FD1D34383C0CF16E8837 /* HomeDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44050C87C956206090B85 /* HomeDashboard.swift */; };
 		3916761C8BC45E9BD47A92F2 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1D3AC44C5F83C775ECB35 /* Components.swift */; };
@@ -32,8 +33,11 @@
 		61348FA160207BD48C8D4628 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */; };
 		620CEC3D95078ABDE5DFC0EA /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F2F037FA5937632EC3654B5B /* Sounds */; };
 		6AA1097757518DAD9BB3A944 /* AppleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F73B5B328C82DFE702D8E6 /* AppleEngine.swift */; };
+		6F6F295A8CD6703D8C5A7358 /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA86694FC5B01E9CD6BC39 /* MatchGame.swift */; };
 		72EE6AB8E15F76C2469AB208 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */; };
 		7C007968628C8AA43BD2AAF3 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A401FBD7E140FEBC617296D /* LessonView.swift */; };
+		7E19B5D29C3425B790ACA5FF /* MatchGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA86694FC5B01E9CD6BC39 /* MatchGame.swift */; };
+		82C7746E75FC2ACFF36E2D9D /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */; };
 		9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
 		9E8722BCB0A6625358C54DF1 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
 		9EE65BE210B0ACD98BBFC034 /* CodeIsraelKit in Frameworks */ = {isa = PBXBuildFile; productRef = 35E68F70A1DD086950412F77 /* CodeIsraelKit */; };
@@ -70,7 +74,9 @@
 		5563690E99E6FEF14BCFCF1A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		5A6626446988E1538EB6B278 /* CodeIsrael.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CodeIsrael.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68362458393434CECECDD314 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
 		92F1D3AC44C5F83C775ECB35 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		95BA86694FC5B01E9CD6BC39 /* MatchGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchGame.swift; sourceTree = "<group>"; };
 		9C17453A713BDAC2D1B837FF /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = App/Resources/Images; sourceTree = SOURCE_ROOT; };
 		A980D549AFC1F6770366F7F3 /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
@@ -149,6 +155,7 @@
 			children = (
 				1E298C07A33F69731C7E1BD9 /* AppModel.swift */,
 				BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */,
+				7F9F02BB2A7AD23F9A2D1EE8 /* Reminders.swift */,
 				9C6320A1AED873F691BB46D1 /* AI */,
 				A923E525CBCBF900E93BA20B /* Views */,
 			);
@@ -176,6 +183,7 @@
 				AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */,
 				1A401FBD7E140FEBC617296D /* LessonView.swift */,
 				4F9C49A0A0B17938AB0C1E5B /* Mascots.swift */,
+				95BA86694FC5B01E9CD6BC39 /* MatchGame.swift */,
 				68362458393434CECECDD314 /* Platform.swift */,
 				472011E040C9B65E1F05635A /* QuizView.swift */,
 				F802FB7CCEB6EC481119EC3D /* ResultsView.swift */,
@@ -322,8 +330,10 @@
 				61348FA160207BD48C8D4628 /* JourneyView.swift in Sources */,
 				D7E09D83381D5334CB7C22DA /* LessonView.swift in Sources */,
 				B2D320A19ED2F5D0D624EA19 /* Mascots.swift in Sources */,
+				7E19B5D29C3425B790ACA5FF /* MatchGame.swift in Sources */,
 				2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */,
 				33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */,
+				31E99CCBC91A0B9FFA6E4536 /* Reminders.swift in Sources */,
 				476D4400C2574FEDE3A840C4 /* ResultsView.swift in Sources */,
 				AA1C8773FC9722AA1C865A13 /* SignsView.swift in Sources */,
 				A179DE79BF33A18558A47529 /* Sounds.swift in Sources */,
@@ -348,8 +358,10 @@
 				72EE6AB8E15F76C2469AB208 /* JourneyView.swift in Sources */,
 				7C007968628C8AA43BD2AAF3 /* LessonView.swift in Sources */,
 				5A5AD5317377256B28EA7B0D /* Mascots.swift in Sources */,
+				6F6F295A8CD6703D8C5A7358 /* MatchGame.swift in Sources */,
 				2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */,
 				BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */,
+				82C7746E75FC2ACFF36E2D9D /* Reminders.swift in Sources */,
 				A6671CF113B1222D4E2FE2EA /* ResultsView.swift in Sources */,
 				1F52A2076D37D84B33B2D065 /* SignsView.swift in Sources */,
 				BDD8AC9432BFA24C3E263BC5 /* Sounds.swift in Sources */,

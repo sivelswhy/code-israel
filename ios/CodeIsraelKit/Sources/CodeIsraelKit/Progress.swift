@@ -83,16 +83,39 @@ public struct Progress: Codable, Sendable {
         daily[Self.day(date, calendar: calendar)] ?? 0
     }
 
-    /// Consecutive days of practice ending today (or yesterday, so the streak survives until tonight).
+    /// Consecutive days of practice ending today (or yesterday, so the streak survives until tonight). A day saved by a
+    /// streak freeze keeps the streak going without adding to it.
     public func streak(_ date: Date = .now, calendar: Calendar = .current) -> Int {
+        let frozen = Set(journey.frozenDays)
+        func covered(_ d: Date) -> Bool { JourneyProgress.covered(Self.day(d, calendar: calendar), daily: daily, frozen: frozen) }
         var d = date
-        if daily[Self.day(d, calendar: calendar)] == nil { d = calendar.date(byAdding: .day, value: -1, to: d)! }
+        if !covered(d) { d = calendar.date(byAdding: .day, value: -1, to: d)! }
         var n = 0
-        while daily[Self.day(d, calendar: calendar)] != nil {
-            n += 1
+        while covered(d) {
+            if daily[Self.day(d, calendar: calendar)] != nil { n += 1 }
             d = calendar.date(byAdding: .day, value: -1, to: d)!
         }
         return n
+    }
+
+    /// Spends streak freezes on the days missed since the last practice, but only when there are enough of them to keep
+    /// the streak alive (at most three days). Returns how many were used.
+    @discardableResult
+    public mutating func applyStreakFreezes(_ date: Date = .now, calendar: Calendar = .current) -> Int {
+        guard journey.freezes > 0 else { return 0 }
+        let frozen = Set(journey.frozenDays)
+        func covered(_ d: Date) -> Bool { JourneyProgress.covered(Self.day(d, calendar: calendar), daily: daily, frozen: frozen) }
+        guard !covered(date) else { return 0 }
+        var missed: [String] = []
+        var d = calendar.date(byAdding: .day, value: -1, to: date)!
+        while !covered(d), missed.count < 3 {
+            missed.append(Self.day(d, calendar: calendar))
+            d = calendar.date(byAdding: .day, value: -1, to: d)!
+        }
+        guard covered(d), !missed.isEmpty, missed.count <= journey.freezes else { return 0 }
+        journey.freezes -= missed.count
+        journey.frozenDays += missed
+        return missed.count
     }
 
     public static func day(_ date: Date, calendar: Calendar = .current) -> String {
