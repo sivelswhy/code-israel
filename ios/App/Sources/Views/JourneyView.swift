@@ -20,17 +20,20 @@ struct JourneyView: View {
         let path = app.path
         let journey = app.progress.journey
         let unit = path.unit(theme) ?? path.units.first
-        Group {
-            #if os(macOS)
-            HStack(alignment: .top, spacing: 0) {
-                pathScroll(unit, journey)
-                Divider()
-                ScrollView { summary(journey).padding(20) }
-                    .frame(width: 330)
+        // The layout follows the room available, not the device: a wide window (Mac, iPad, a browser-sized
+        // split view) puts the summary beside the path, a narrow one (iPhone, a small window) puts it on top.
+        GeometryReader { geo in
+            let wide = geo.size.width >= 760
+            if wide {
+                HStack(alignment: .top, spacing: 0) {
+                    pathScroll(unit, journey, width: geo.size.width - 331, wide: true)
+                    Divider()
+                    ScrollView { summary(journey, showSwitcher: false).padding(20) }
+                        .frame(width: 330)
+                }
+            } else {
+                pathScroll(unit, journey, width: geo.size.width, wide: false, summaryOnTop: summary(journey, showSwitcher: true))
             }
-            #else
-            pathScroll(unit, journey, summaryOnTop: summary(journey))
-            #endif
         }
         .background(Color.groupedBackground)
         .navigationTitle("Parcours")
@@ -53,20 +56,18 @@ struct JourneyView: View {
 
     // MARK: Path
 
-    private func pathScroll(_ unit: JourneyUnit?, _ journey: JourneyProgress, summaryOnTop: (some View)? = Optional<EmptyView>.none) -> some View {
+    private func pathScroll(_ unit: JourneyUnit?, _ journey: JourneyProgress, width: Double, wide: Bool, summaryOnTop: (some View)? = Optional<EmptyView>.none) -> some View {
         ScrollViewReader { proxy in
             ScrollView {
                 VStack(spacing: 18) {
                     if let summaryOnTop { summaryOnTop }
-                    #if os(macOS)
-                    HStack { ModeSwitcher().frame(width: 230); Spacer() }
-                    #endif
+                    if wide { HStack { ModeSwitcher().frame(width: 230); Spacer() } }
                     themePicker
                     if let unit {
                         unitBanner(unit, journey)
                         LazyVStack(spacing: 0) {
                             ForEach(Array(unit.lessons.enumerated()), id: \.element.id) { i, lesson in
-                                node(lesson, index: i, unit: unit, journey: journey).id(lesson.id)
+                                node(lesson, index: i, unit: unit, journey: journey, half: (min(640, width) - 40) / 2).id(lesson.id)
                             }
                         }
                         .padding(.vertical, 8)
@@ -124,15 +125,13 @@ struct JourneyView: View {
         .background(RoundedRectangle(cornerRadius: 18).fill(unit.category.color))
     }
 
-    private func node(_ lesson: Lesson, index: Int, unit: JourneyUnit, journey: JourneyProgress) -> some View {
+    private func node(_ lesson: Lesson, index: Int, unit: JourneyUnit, journey: JourneyProgress, half: Double) -> some View {
         let result = journey.lessons[lesson.id]
         let unlocked = journey.isUnlocked(lesson, in: unit)
         let current = journey.currentLesson(in: unit) == lesson
-        #if os(macOS)
-        let amplitude = 110.0
-        #else
-        let amplitude = 70.0
-        #endif
+        // The zigzag and the guide must stay inside the column, from a 320 pt phone to a wide window.
+        let amplitude = min(110, max(24, half - 125))
+        let guideReach = min(150, half - 50)
         // The guide stands on the side of the path with the most room.
         let side: Double = sin(Double(index) * 0.9) >= 0 ? -1 : 1
         return VStack(spacing: 6) {
@@ -149,8 +148,8 @@ struct JourneyView: View {
         .frame(maxWidth: .infinity)
         .overlay {
             if current {
-                TalkingMascot(mascot: .rouli, mood: .happy, size: 84, message: "Prêt ? C’est parti !")
-                    .offset(x: side * 150, y: -6)
+                TalkingMascot(mascot: .rouli, mood: .happy, size: half < 160 ? 68 : 84, message: "Prêt ? C’est parti !")
+                    .offset(x: side * guideReach, y: -6)
             }
         }
         .offset(x: sin(Double(index) * 0.9) * amplitude)
@@ -167,14 +166,12 @@ struct JourneyView: View {
 
     // MARK: Summary
 
-    private func summary(_ journey: JourneyProgress) -> some View {
+    private func summary(_ journey: JourneyProgress, showSwitcher: Bool) -> some View {
         let due = app.dueReview
         let today = journey.xpToday()
         let days = app.progress.streak()
         return VStack(alignment: .leading, spacing: 14) {
-            #if !os(macOS)
-            ModeSwitcher()
-            #endif
+            if showSwitcher { ModeSwitcher() }
             HStack(spacing: 14) {
                 Rings(rings: [.init(value: min(1, Double(today) / Double(JourneyRules.dailyXP)), color: .ringOrange)], size: 76, stroke: 11)
                     .overlay(Image(systemName: today >= JourneyRules.dailyXP ? "checkmark" : "bolt.fill").foregroundStyle(Color.ringOrange))
@@ -188,6 +185,7 @@ struct JourneyView: View {
                 }
                 Spacer(minLength: 0)
             }
+            .padding(.trailing, 48)
             .card()
             .overlay(alignment: .topTrailing) {
                 // The traffic light shows how the day is going: red, orange, then green once the goal is reached.
