@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.10",
+          "buildVersion": "10",
+          "date": "2026-10-28",
+          "localizedDescription": "deploy.sh écrit aussi l'adresse de la fonction d'envoi d'e-mail",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.10/CodeIsrael.ipa",
+          "size": 27146789,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.7",
           "buildVersion": "7",
           "date": "2026-10-28",
