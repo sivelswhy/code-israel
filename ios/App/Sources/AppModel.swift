@@ -26,7 +26,8 @@ final class AppModel {
         didSet {
             // A change made on this device: remember when, to settle conflicts with the other devices.
             if !applyingSync {
-                progress.modified = Date.now.timeIntervalSince1970
+                // Straight to the stored value: going through `progress` would run this observer again, forever.
+                _progress.modified = Date.now.timeIntervalSince1970
                 sync.scheduleSoon(model: self)
             }
             save()

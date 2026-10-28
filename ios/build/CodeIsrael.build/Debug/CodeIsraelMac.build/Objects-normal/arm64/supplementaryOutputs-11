@@ -1,0 +1,23 @@
+{
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/Views/LessonView.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/LessonView.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/LessonView.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/LessonView.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/LessonView.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/LessonView.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/Views/Mascots.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/Mascots.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/Mascots.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/Mascots.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/Mascots.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/Mascots.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/Views/MatchGame.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/MatchGame.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/MatchGame.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/MatchGame.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/MatchGame.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/MatchGame.swiftdeps"
+  }
+}

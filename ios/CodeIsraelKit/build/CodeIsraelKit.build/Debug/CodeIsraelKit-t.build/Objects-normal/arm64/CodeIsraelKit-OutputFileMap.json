@@ -1,0 +1,159 @@
+{
+  "" : {
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/CodeIsraelKit-primary.dia",
+    "emit-module-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/CodeIsraelKit-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/CodeIsraelKit-primary-emit-module.dia",
+    "pch" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/CodeIsraelKit-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/CodeIsraelKit-primary.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Assistant.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Assistant~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Exam.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exam~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Exercise.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Exercise~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Grounding.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Grounding~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Journey.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Journey~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Library.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Library~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Models.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Models~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Personal.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Personal~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Preparation.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Preparation~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Progress.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Progress~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Reminders.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Reminders~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Search.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Search~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Sync.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Sync~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Text.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Text~partial.swiftmodule"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/Sources/CodeIsraelKit/Units.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.dia",
+    "index-unit-output-path" : "/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.o",
+    "llvm-bc" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.bc",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units.swiftdeps",
+    "swiftmodule" : "/Users/nem/Documents/dev/codemodern/ios/CodeIsraelKit/build/CodeIsraelKit.build/Debug/CodeIsraelKit-t.build/Objects-normal/arm64/Units~partial.swiftmodule"
+  }
+}

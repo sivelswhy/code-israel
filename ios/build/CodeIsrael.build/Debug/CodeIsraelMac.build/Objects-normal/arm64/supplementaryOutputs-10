@@ -1,0 +1,23 @@
+{
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/Views/HomeDashboard.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeDashboard.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeDashboard.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeDashboard.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeDashboard.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeDashboard.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/Views/HomeView.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeView.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/HomeView.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/Views/JourneyView.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/JourneyView.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/JourneyView.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/JourneyView.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/JourneyView.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/arm64/JourneyView.swiftdeps"
+  }
+}

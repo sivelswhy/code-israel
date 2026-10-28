@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'CodeIsraelMac' in project 'CodeIsrael'
+➜ Explicit dependency on target 'CodeIsraelKit-product' in project 'CodeIsraelKit'
+Target 'CodeIsraelKit-product' in project 'CodeIsraelKit'
+➜ Explicit dependency on target 'CodeIsraelKit' in project 'CodeIsraelKit'
+Target 'CodeIsraelKit' in project 'CodeIsraelKit' (no dependencies)

@@ -1,0 +1,23 @@
+{
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/AI/AppleEngine.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppleEngine.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppleEngine.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppleEngine.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppleEngine.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppleEngine.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/AI/AssistantModel.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AssistantModel.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AssistantModel.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AssistantModel.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AssistantModel.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AssistantModel.swiftdeps"
+  },
+  "/Users/nem/Documents/dev/codemodern/ios/App/Sources/AppModel.swift" : {
+    "const-values" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppModel.swiftconstvalues",
+    "dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppModel.d",
+    "diagnostics" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppModel.dia",
+    "object" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppModel.o",
+    "swift-dependencies" : "/Users/nem/Documents/dev/codemodern/ios/build/CodeIsrael.build/Debug/CodeIsraelMac.build/Objects-normal/x86_64/AppModel.swiftdeps"
+  }
+}

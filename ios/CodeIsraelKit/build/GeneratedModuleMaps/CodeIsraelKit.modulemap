@@ -1,0 +1,4 @@
+module CodeIsraelKit {
+header "CodeIsraelKit-Swift.h"
+export *
+}
