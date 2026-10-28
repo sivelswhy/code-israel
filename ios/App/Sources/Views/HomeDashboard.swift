@@ -51,12 +51,15 @@ struct HomeDashboard: View {
                     .font(.title3).foregroundStyle(.secondary)
             }
             Spacer()
-            Picker("Permis", selection: $app.license) {
-                ForEach(License.active, id: \.self) { Text($0.label).tag($0) }
+            VStack(alignment: .trailing, spacing: 8) {
+                ModeSwitcher().frame(width: 230)
+                Picker("Permis", selection: $app.license) {
+                    ForEach(License.active, id: \.self) { Text($0.label).tag($0) }
+                }
+                .pickerStyle(.segmented)
+                .labelsHidden()
+                .frame(width: 230)
             }
-            .pickerStyle(.segmented)
-            .labelsHidden()
-            .frame(width: 230)
         }
     }
 

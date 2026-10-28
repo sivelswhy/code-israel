@@ -25,21 +25,27 @@
 		54066280D865A5C38D0068B0 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
 		541579A2D7558E008B3DD76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EB5656EB3257FD02C5A82C /* Assets.xcassets */; };
 		57AA48A29EE861F0CC35A406 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9C17453A713BDAC2D1B837FF /* Images */; };
+		5A5AD5317377256B28EA7B0D /* Mascots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49A0A0B17938AB0C1E5B /* Mascots.swift */; };
 		5DFE98A0DE51AD935545CEBD /* HomeDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44050C87C956206090B85 /* HomeDashboard.swift */; };
 		609C7C6DEA0D0DD90C192824 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9C17453A713BDAC2D1B837FF /* Images */; };
+		61348FA160207BD48C8D4628 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */; };
 		6AA1097757518DAD9BB3A944 /* AppleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F73B5B328C82DFE702D8E6 /* AppleEngine.swift */; };
+		72EE6AB8E15F76C2469AB208 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */; };
+		7C007968628C8AA43BD2AAF3 /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A401FBD7E140FEBC617296D /* LessonView.swift */; };
 		9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
 		9E8722BCB0A6625358C54DF1 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
 		9EE65BE210B0ACD98BBFC034 /* CodeIsraelKit in Frameworks */ = {isa = PBXBuildFile; productRef = 35E68F70A1DD086950412F77 /* CodeIsraelKit */; };
 		A6671CF113B1222D4E2FE2EA /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802FB7CCEB6EC481119EC3D /* ResultsView.swift */; };
 		A7CC914C208CC5E4C30913A7 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967388ABAF091F067274DC4 /* SourcesView.swift */; };
 		AA1C8773FC9722AA1C865A13 /* SignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156352260F686793536CB387 /* SignsView.swift */; };
+		B2D320A19ED2F5D0D624EA19 /* Mascots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9C49A0A0B17938AB0C1E5B /* Mascots.swift */; };
 		BA78ACE3C6588DD74AB937B1 /* AssistantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BEA2D51817423AD300236 /* AssistantModel.swift */; };
 		BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472011E040C9B65E1F05635A /* QuizView.swift */; };
 		C5B6A9223329C1218B0FDB02 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E298C07A33F69731C7E1BD9 /* AppModel.swift */; };
 		CC4BABD43D42717AC694195A /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */; };
 		D0133E0F4CFC2AAA00ED1E9A /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
 		D129FFC5D8F471A043BD6EFC /* CodeIsraelKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95E2DBC8E27F9C44D6BD8A96 /* CodeIsraelKit */; };
+		D7E09D83381D5334CB7C22DA /* LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A401FBD7E140FEBC617296D /* LessonView.swift */; };
 		DDF7ACE3CC0510ABB93D1032 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 209050857647D17551B65998 /* Data */; };
 		DE19EC5E272B5D9F02BA6B5B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E298C07A33F69731C7E1BD9 /* AppModel.swift */; };
 		EE9E8772C58CEE0C25A008DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EB5656EB3257FD02C5A82C /* Assets.xcassets */; };
@@ -50,16 +56,19 @@
 /* Begin PBXFileReference section */
 		121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplanationView.swift; sourceTree = "<group>"; };
 		156352260F686793536CB387 /* SignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsView.swift; sourceTree = "<group>"; };
+		1A401FBD7E140FEBC617296D /* LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonView.swift; sourceTree = "<group>"; };
 		1C48CB2091A10DE65BF0584A /* CodeIsraelKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CodeIsraelKit; path = CodeIsraelKit; sourceTree = SOURCE_ROOT; };
 		1E298C07A33F69731C7E1BD9 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		209050857647D17551B65998 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Data; path = App/Resources/Data; sourceTree = SOURCE_ROOT; };
 		23EB5656EB3257FD02C5A82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		472011E040C9B65E1F05635A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		4F9C49A0A0B17938AB0C1E5B /* Mascots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mascots.swift; sourceTree = "<group>"; };
 		5563690E99E6FEF14BCFCF1A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		5A6626446988E1538EB6B278 /* CodeIsrael.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CodeIsrael.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68362458393434CECECDD314 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		92F1D3AC44C5F83C775ECB35 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		9C17453A713BDAC2D1B837FF /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = App/Resources/Images; sourceTree = SOURCE_ROOT; };
+		AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
 		BCEC9894031BF541DD628EB2 /* CodeIsraelMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeIsraelMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeIsraelApp.swift; sourceTree = "<group>"; };
 		C45BEA2D51817423AD300236 /* AssistantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantModel.swift; sourceTree = "<group>"; };
@@ -157,6 +166,9 @@
 				121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */,
 				E4B44050C87C956206090B85 /* HomeDashboard.swift */,
 				F20993FE834022C47B7F340E /* HomeView.swift */,
+				AA77BCB7ECD42379C90A9EE1 /* JourneyView.swift */,
+				1A401FBD7E140FEBC617296D /* LessonView.swift */,
+				4F9C49A0A0B17938AB0C1E5B /* Mascots.swift */,
 				68362458393434CECECDD314 /* Platform.swift */,
 				472011E040C9B65E1F05635A /* QuizView.swift */,
 				F802FB7CCEB6EC481119EC3D /* ResultsView.swift */,
@@ -297,6 +309,9 @@
 				4D90F2822F8DAC1808B40585 /* ExplanationView.swift in Sources */,
 				3863FD1D34383C0CF16E8837 /* HomeDashboard.swift in Sources */,
 				4BF5DDB5AA419B6735C55F99 /* HomeView.swift in Sources */,
+				61348FA160207BD48C8D4628 /* JourneyView.swift in Sources */,
+				D7E09D83381D5334CB7C22DA /* LessonView.swift in Sources */,
+				B2D320A19ED2F5D0D624EA19 /* Mascots.swift in Sources */,
 				2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */,
 				33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */,
 				476D4400C2574FEDE3A840C4 /* ResultsView.swift in Sources */,
@@ -319,6 +334,9 @@
 				CC4BABD43D42717AC694195A /* ExplanationView.swift in Sources */,
 				5DFE98A0DE51AD935545CEBD /* HomeDashboard.swift in Sources */,
 				206AB66C096D2A60A96A83E1 /* HomeView.swift in Sources */,
+				72EE6AB8E15F76C2469AB208 /* JourneyView.swift in Sources */,
+				7C007968628C8AA43BD2AAF3 /* LessonView.swift in Sources */,
+				5A5AD5317377256B28EA7B0D /* Mascots.swift in Sources */,
 				2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */,
 				BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */,
 				A6671CF113B1222D4E2FE2EA /* ResultsView.swift in Sources */,

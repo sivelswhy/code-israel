@@ -71,13 +71,6 @@ extension View {
     func dragIndicator() -> some View { self }
     /// A sheet on the Mac has no size of its own: give it room for a question and its explanation.
     func sheetSize() -> some View { frame(minWidth: 640, idealWidth: 760, minHeight: 680, idealHeight: 820) }
-    /// A rounded white card on the grey page. `stretch` makes it as tall as its row.
-    func card(stretch: Bool = false) -> some View {
-        padding(16)
-            .frame(maxWidth: .infinity, maxHeight: stretch ? .infinity : nil, alignment: .topLeading)
-            .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
-            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.primary.opacity(0.06)))
-    }
 }
 
 enum Haptics {
@@ -86,6 +79,14 @@ enum Haptics {
 #endif
 
 extension View {
+    /// A rounded white card on the grey page. `stretch` makes it as tall as its row.
+    func card(stretch: Bool = false) -> some View {
+        padding(16)
+            .frame(maxWidth: .infinity, maxHeight: stretch ? .infinity : nil, alignment: .topLeading)
+            .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
+            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.primary.opacity(0.06)))
+    }
+
     /// Keeps content at a readable width, centred, on wide windows (Mac, iPad). No effect on an iPhone.
     func readableWidth(_ width: CGFloat = 720) -> some View {
         frame(maxWidth: width).frame(maxWidth: .infinity)

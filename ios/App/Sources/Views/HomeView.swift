@@ -44,6 +44,7 @@ struct HomeView: View {
         List {
             Section {
                 VStack(alignment: .leading, spacing: 6) {
+                    ModeSwitcher().padding(.bottom, 6)
                     Text("Examen théorique · Israël").font(.footnote.weight(.semibold)).foregroundStyle(.secondary).textCase(.uppercase)
                     Text("\(m.total) questions officielles, expliquées en français avec le texte de loi.")
                         .font(.subheadline).foregroundStyle(.secondary)

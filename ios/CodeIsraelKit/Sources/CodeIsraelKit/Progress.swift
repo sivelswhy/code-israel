@@ -36,6 +36,8 @@ public struct Progress: Codable, Sendable {
     public var exams: [ExamRecord] = []
     /// Ids of the questions the learner starred.
     public var favorites: [String] = []
+    /// The Parcours mode: lessons done, XP and questions to review.
+    public var journey = JourneyProgress()
     /// Questions answered per local date (yyyy-MM-dd).
     public var daily: [String: Int] = [:]
 
@@ -49,6 +51,7 @@ public struct Progress: Codable, Sendable {
         stats = (try? c.decode([String: Stat].self, forKey: .stats)) ?? [:]
         exams = (try? c.decode([ExamRecord].self, forKey: .exams)) ?? []
         favorites = (try? c.decode([String].self, forKey: .favorites)) ?? []
+        journey = (try? c.decode(JourneyProgress.self, forKey: .journey)) ?? JourneyProgress()
         daily = (try? c.decode([String: Int].self, forKey: .daily)) ?? [:]
     }
 

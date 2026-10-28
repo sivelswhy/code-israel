@@ -44,8 +44,12 @@ struct RootView: View {
     @State private var showTopic = false
     @Environment(AppModel.self) private var app
 
+    @ViewBuilder private var content: some View {
+        if UserDefaults.standard.bool(forKey: "mascotGallery") { MascotGallery() } else { layout }
+    }
+
     var body: some View {
-        layout
+        content
         .environment(\.askAssistant) { topic in
             self.topic = topic
             showTopic = true
@@ -61,7 +65,15 @@ struct RootView: View {
         .sheet(isPresented: Binding(get: { showTopic && series == nil }, set: { showTopic = $0 })) { topicSheet }
     }
 
-    private var home: some View { NavigationStack { HomeView(start: { series = $0 }) } }
+    private var home: some View {
+        NavigationStack {
+            if app.mode == .journey { JourneyView() } else { HomeView(start: { series = $0 }) }
+        }
+    }
+
+    private var homeLabel: (title: String, icon: String) {
+        app.mode == .journey ? ("Parcours", "map.fill") : ("Accueil", "house.fill")
+    }
     private var browse: some View { NavigationStack { BrowseView() } }
     private var signs: some View { NavigationStack { SignsView() } }
     private var assistant: some View { NavigationStack { AssistantView(topic: nil) } }
@@ -71,7 +83,7 @@ struct RootView: View {
         // A sidebar, like a Mac app, and content kept to a readable width instead of stretched.
         NavigationSplitView {
             List(selection: Binding(get: { tab }, set: { if let t = $0 { tab = t } })) {
-                Label("Accueil", systemImage: "house.fill").tag(Tab.home)
+                Label(homeLabel.title, systemImage: homeLabel.icon).tag(Tab.home)
                 Label("Questions", systemImage: "magnifyingglass").tag(Tab.browse)
                 Label("Panneaux", systemImage: "exclamationmark.triangle").tag(Tab.signs)
                 Label("Assistant", systemImage: "sparkles").tag(Tab.assistant)
@@ -94,7 +106,7 @@ struct RootView: View {
         #else
         TabView(selection: $tab) {
             home
-                .tabItem { Label("Accueil", systemImage: "house.fill") }
+                .tabItem { Label(homeLabel.title, systemImage: homeLabel.icon) }
                 .tag(Tab.home)
             browse
                 .tabItem { Label("Questions", systemImage: "magnifyingglass") }

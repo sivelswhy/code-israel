@@ -7,6 +7,13 @@ typealias Progress = CodeIsraelKit.Progress
 // On the Mac, the Objective-C runtime also defines a `Category`.
 typealias Category = CodeIsraelKit.Category
 
+/// The two ways to use the app: the classic home (practice, exam) or the Parcours (lessons, XP, review).
+enum AppMode: String, CaseIterable {
+    case classic, journey
+
+    var label: String { self == .classic ? "Classique" : "Parcours" }
+}
+
 /// App-wide state: the bundled data and the learner's progress, saved on the device only.
 @MainActor
 @Observable
@@ -20,7 +27,17 @@ final class AppModel {
     }
 
     /// Questions of the selected license.
-    private(set) var pool: [Question]
+    private(set) var pool: [Question] {
+        didSet { poolByID = nil }
+    }
+
+    /// Classic home or Parcours: remembered between launches.
+    var mode: AppMode = .classic {
+        didSet { UserDefaults.standard.set(mode.rawValue, forKey: "appMode") }
+    }
+
+    @ObservationIgnored private var poolByID: [String: Question]?
+    @ObservationIgnored private var paths: [License: LearningPath] = [:]
 
     /// Search index for the assistant, built on first use and per license.
     @ObservationIgnored private var brains: [License: AssistantBrain] = [:]
@@ -39,6 +56,7 @@ final class AppModel {
         let saved = (try? Data(contentsOf: Self.progressURL)).flatMap { try? JSONDecoder().decode(Progress.self, from: $0) }
         progress = saved ?? Progress()
         pool = library.pool(for: (saved ?? Progress()).license)
+        mode = AppMode(rawValue: UserDefaults.standard.string(forKey: "appMode") ?? "") ?? .classic
     }
 
     var license: License {
@@ -77,6 +95,40 @@ final class AppModel {
         let byId = Dictionary(uniqueKeysWithValues: pool.map { ($0.id, $0) })
         let questions = ids.compactMap { byId[$0] }
         return questions.count == ids.count ? (questions, answers) : nil
+    }
+
+    // MARK: Parcours
+
+    /// The lessons of the selected license.
+    var path: LearningPath {
+        if let cached = paths[license] { return cached }
+        let built = LearningPath(pool: pool)
+        paths[license] = built
+        return built
+    }
+
+    func questions(_ ids: [String]) -> [Question] {
+        let byId = poolByID ?? Dictionary(pool.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
+        poolByID = byId
+        return ids.compactMap { byId[$0] }
+    }
+
+    /// A short rule taken from the official explanations, told by the characters of the Parcours.
+    func tip() -> String {
+        let candidates = pool.compactMap(\.e).filter { (40...170).contains($0.count) }
+        guard let e = candidates.randomElement() else { return "Gardez toujours vos distances de sécurité !" }
+        return "Le saviez-vous ? " + e
+    }
+
+    /// Questions whose review is due today.
+    var dueReview: [Question] { questions(progress.journey.dueQuestionIDs()) }
+
+    /// Saves a finished lesson (or review, when `lesson` is nil). The answers were recorded one by one as they were given.
+    @discardableResult
+    func finishJourney(lesson: Lesson?, session: LessonSession) -> SessionOutcome {
+        let outcome = session.outcome(bonus: lesson != nil)
+        progress.journey.finish(lesson: lesson, outcome: outcome)
+        return outcome
     }
 
     func resetProgress() {

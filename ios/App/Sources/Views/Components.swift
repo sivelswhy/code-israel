@@ -196,3 +196,40 @@ struct AnswerText: View {
     }
 }
 
+
+
+extension Category {
+    /// The colour of the theme in the Parcours.
+    var color: Color {
+        switch self {
+        case .rules: Color(red: 0.04, green: 0.35, blue: 0.83)
+        case .safety: .signRed
+        case .signs: .ringOrange
+        case .vehicle: .ringGreen
+        }
+    }
+
+    var icon: String {
+        switch self {
+        case .rules: "arrow.up.circle.fill"
+        case .safety: "exclamationmark.triangle.fill"
+        case .signs: "octagon.fill"
+        case .vehicle: "car.fill"
+        }
+    }
+}
+
+/// Chooses between the classic home and the Parcours.
+struct ModeSwitcher: View {
+    @Environment(AppModel.self) private var app
+
+    var body: some View {
+        @Bindable var app = app
+        Picker("Mode", selection: $app.mode) {
+            ForEach(AppMode.allCases, id: \.self) { Text($0.label).tag($0) }
+        }
+        .pickerStyle(.segmented)
+        .labelsHidden()
+        .accessibilityLabel("Mode de l’application")
+    }
+}
