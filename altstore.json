@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.7",
+          "buildVersion": "7",
+          "date": "2026-10-28",
+          "localizedDescription": "Projet Xcode régénéré (nouveaux fichiers)",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.7/CodeIsrael.ipa",
+          "size": 27061131,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.5",
           "buildVersion": "5",
           "date": "2026-10-28",
