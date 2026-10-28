@@ -186,3 +186,12 @@
 .lesson-feedback .primary { margin-top: 12px; }
 .complete-body .primary.wide, .lesson-body > .primary.wide { position: sticky; bottom: calc(12px + env(safe-area-inset-bottom)); box-shadow: 0 -10px 16px var(--bg); }
 .lesson, .lesson-body { overscroll-behavior: contain; }
+
+/* The mode switch and the "my devices" button side by side. */
+.top-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 0 0 14px; }
+.top-actions .mode-switch, .hero .top-actions .mode-switch { margin: 0; }
+.hero .top-actions { margin-top: 8px; }
+.sync-btn { display: inline-flex; align-items: center; gap: 6px; border: 0; border-radius: 12px; padding: 8px 14px; background: var(--fill); color: var(--accent); font-weight: 600; font-size: 0.9375rem; }
+.sync-btn.on { color: var(--ok); }
+.sync-btn:active { transform: scale(0.97); }
+@media (max-width: 380px) { .sync-btn span { display: none; } }

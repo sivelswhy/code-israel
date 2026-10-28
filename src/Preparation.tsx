@@ -5,8 +5,8 @@ import { useSigns, type Sign } from './Signs'
 import { passStreak, plan, readiness, weakest, type Readiness } from './readiness'
 import { play } from './journey/sounds'
 import type { ExamRecord, Stat } from './store'
-import { SyncPanel, type SyncState } from './SyncPanel'
 import './prep.css'
+import { Flag, TickCircle, CalendarDay, X, Bolt, Check } from 'reicon-react'
 
 const pct = (p: number) => `${Math.min(99, Math.max(0, Math.round(p * 100)))} %`
 const gaugeColor = (p: number) => (p >= 0.8 ? 'var(--ring-green)' : p >= 0.5 ? 'var(--ring-orange)' : 'var(--sign-red)')
@@ -60,7 +60,7 @@ export function ReadinessCard({ pool, stats, exams, examDate, onPractice, onExam
       )}
 
       <p className={`streak-line ${streak >= 3 ? 'ok' : ''}`}>
-        {streak === 0 ? '🏁 Réussissez 3 examens blancs de suite avant le jour J.' : `${streak >= 3 ? '✅' : '🏁'} ${streak} examen${streak > 1 ? 's' : ''} blanc${streak > 1 ? 's' : ''} réussi${streak > 1 ? 's' : ''} d’affilée · visez 3`}
+        {streak >= 3 ? <TickCircle className="ic" size={16} weight="Filled" /> : <Flag className="ic" size={16} />} {streak === 0 ? 'Réussissez 3 examens blancs de suite avant le jour J.' : `${streak} examen${streak > 1 ? 's' : ''} blanc${streak > 1 ? 's' : ''} réussi${streak > 1 ? 's' : ''} d’affilée · visez 3`}
       </p>
 
       {last.length >= 2 && (
@@ -80,10 +80,10 @@ export function ReadinessCard({ pool, stats, exams, examDate, onPractice, onExam
       {p && !editing ? (
         <div className="exam-date">
           {p.isPast ? (
-            <strong>📅 La date de votre examen est passée.</strong>
+            <strong><CalendarDay className="ic" size={16} /> La date de votre examen est passée.</strong>
           ) : (
             <>
-              <strong>📅 {p.daysLeft === 0 ? 'Votre examen est aujourd’hui. Bon courage !' : `Examen dans ${p.daysLeft} jour${p.daysLeft > 1 ? 's' : ''}`}</strong>
+              <strong><CalendarDay className="ic" size={16} /> {p.daysLeft === 0 ? 'Votre examen est aujourd’hui. Bon courage !' : `Examen dans ${p.daysLeft} jour${p.daysLeft > 1 ? 's' : ''}`}</strong>
               <p className="muted small">
                 {p.toLearn === 0
                   ? 'Tout est acquis : gardez le rythme avec un examen blanc de temps en temps.'
@@ -107,7 +107,7 @@ export function ReadinessCard({ pool, stats, exams, examDate, onPractice, onExam
               </div>
             </form>
           ) : (
-            <button className="link strong" onClick={() => setEditing(true)}>📅 Définir la date de mon examen</button>
+            <button className="link strong" onClick={() => setEditing(true)}><CalendarDay className="ic" size={16} /> Définir la date de mon examen</button>
           )}
         </div>
       ) : null}
@@ -127,7 +127,7 @@ export function ReportLink({ question }: { question: Question }) {
   url.searchParams.set('body', `Question n° ${question.id}\n\n> ${question.q}\n\nCe qui n’est pas correct (traduction, réponse, explication, image…) :\n`)
   return (
     <a className="report-link" href={url.toString()} target="_blank" rel="noreferrer">
-      🚩 Signaler une erreur dans cette question
+      <Flag className="ic" size={16} /> Signaler une erreur dans cette question
     </a>
   )
 }
@@ -147,7 +147,7 @@ interface GlossaryGroup {
 const fold = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
 /** Practical help around the exam in Israel, and a French ↔ Hebrew glossary of the terms of the road code. */
-export function GuideScreen({ onBack, sync }: { onBack: () => void; sync: SyncState }) {
+export function GuideScreen({ onBack }: { onBack: () => void }) {
   const [guide, setGuide] = useState<GuideData | null>(null)
   const [glossary, setGlossary] = useState<GlossaryGroup[]>([])
   const [query, setQuery] = useState('')
@@ -164,7 +164,6 @@ export function GuideScreen({ onBack, sync }: { onBack: () => void; sync: SyncSt
     <main className="page">
       <BackButton onClick={onBack} />
       <h1 className="title">Guide</h1>
-      <SyncPanel sync={sync} />
       {guide?.sections.map((s) => (
         <section key={s.title} className="card guide-section">
           <h2>{s.title}</h2>
@@ -248,7 +247,7 @@ export function SignQuiz({ onFinish, onClose }: { onFinish: (correct: number) =>
   return (
     <div className="lesson">
       <header className="lesson-bar">
-        <button className="icon-btn" onClick={onClose} aria-label="Fermer">✕</button>
+        <button className="icon-btn" onClick={onClose} aria-label="Fermer"><X size={18} /></button>
         <div className="track lesson-track" aria-hidden="true">
           <div className="track-fill" style={{ transform: `scaleX(${Math.max(0.04, rounds.length ? index / rounds.length : 0)})`, background: 'var(--ring-orange)' }} />
         </div>
@@ -258,7 +257,7 @@ export function SignQuiz({ onFinish, onClose }: { onFinish: (correct: number) =>
         {finished ? (
           <div className="quiz-end">
             <p className="score">{correct} / {rounds.length}</p>
-            <p className="bonus">⚡ +{correct} XP</p>
+            <p className="bonus"><Bolt className="ic" size={18} weight="Filled" /> +{correct} XP</p>
           </div>
         ) : round ? (
           <>
@@ -272,8 +271,8 @@ export function SignQuiz({ onFinish, onClose }: { onFinish: (correct: number) =>
                     <button className={`answer ${state}`} onClick={() => pick(option)} disabled={chosen !== null}>
                       <span className="letter">{'ABCD'[n]}</span>
                       <span>{option}</span>
-                      {state === 'correct' && <span className="mark ok">✓</span>}
-                      {state === 'wrong' && <span className="mark ko">✕</span>}
+                      {state === 'correct' && <span className="mark ok"><Check size={18} /></span>}
+                      {state === 'wrong' && <span className="mark ko"><X size={18} /></span>}
                     </button>
                   </li>
                 )

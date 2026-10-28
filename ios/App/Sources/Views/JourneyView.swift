@@ -49,6 +49,7 @@ struct JourneyView: View {
         }
         .background(Color.groupedBackground)
         .navigationTitle("Parcours")
+        .toolbar { ToolbarItem(placement: .primaryAction) { SyncButton() } }
         #if os(macOS)
         .toolbarBackground(Color.groupedBackground, for: .windowToolbar)
         #endif

@@ -8,15 +8,6 @@ struct GuideView: View {
 
     var body: some View {
         List {
-            if app.sync.available {
-                Section {
-                    NavigationLink { SyncView() } label: {
-                        Label(app.sync.code == nil ? "Synchroniser mes appareils" : "Synchronisation active", systemImage: "arrow.triangle.2.circlepath.icloud")
-                    }
-                } footer: {
-                    Text("Garde la même progression sur le site, l’iPhone et le Mac, avec un simple code secret : pas de compte, pas d’e-mail.")
-                }
-            }
             Section {
                 NavigationLink { GlossaryView() } label: { Label("Glossaire français ↔ hébreu", systemImage: "character.book.closed") }
                 NavigationLink { SourcesView() } label: { Label("Sources officielles et licence", systemImage: "info.circle") }
@@ -92,6 +83,21 @@ struct GlossaryView: View {
         }
         .navigationTitle("Glossaire")
         .searchable(text: $query, prompt: "Un mot, en français ou en hébreu")
+    }
+}
+
+/// The cloud button of the home screens: opens the sync code of the devices. Hidden when no sync server is set up.
+struct SyncButton: View {
+    @Environment(AppModel.self) private var app
+
+    var body: some View {
+        if app.sync.available {
+            NavigationLink { SyncView() } label: {
+                Image(systemName: app.sync.code == nil ? "icloud.and.arrow.down" : "checkmark.icloud")
+            }
+            .accessibilityLabel(app.sync.code == nil ? "Synchroniser mes appareils" : "Synchronisation active : mes appareils")
+            .help("Synchroniser mes appareils")
+        }
     }
 }
 

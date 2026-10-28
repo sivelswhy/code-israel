@@ -4,6 +4,7 @@ import { useSigns, type Sign } from '../Signs'
 import { matchPairs, RULES } from './engine'
 import { Mascot } from './Mascots'
 import { play } from './sounds'
+import { X, Check, Bolt } from 'reicon-react'
 
 /** A round of the sign matching game: pick a sign, then its meaning. Five pairs; mistakes are counted but cost nothing. */
 export function MatchGame({ onFinish, onClose }: { onFinish: () => void; onClose: () => void }) {
@@ -44,7 +45,7 @@ export function MatchGame({ onFinish, onClose }: { onFinish: () => void; onClose
   return (
     <div className="lesson">
       <header className="lesson-bar">
-        <button className="icon-btn" onClick={onClose} aria-label="Fermer">✕</button>
+        <button className="icon-btn" onClick={onClose} aria-label="Fermer"><X size={18} /></button>
         <div className="track lesson-track" aria-hidden="true">
           <div className="track-fill" style={{ transform: `scaleX(${Math.max(0.04, pairs.length ? matched.length / pairs.length : 0)})`, background: 'var(--ring-green)' }} />
         </div>
@@ -68,14 +69,14 @@ export function MatchGame({ onFinish, onClose }: { onFinish: () => void; onClose
             {meanings.map((s) => (
               <button key={s.n} className={`match-tile meaning ${wrong === s.n ? 'wrong' : ''} ${matched.includes(s.n) ? 'done' : ''}`} onClick={() => pickMeaning(s.n)}>
                 <span>{s.fr}</span>
-                {matched.includes(s.n) && <span className="mark ok">✓</span>}
+                {matched.includes(s.n) && <span className="mark ok"><Check size={18} /></span>}
               </button>
             ))}
           </div>
         </div>
         {done && (
           <>
-            <p className="bonus">⚡ +{RULES.xpMatch} XP</p>
+            <p className="bonus"><Bolt className="ic" size={18} weight="Filled" /> +{RULES.xpMatch} XP</p>
             {mistakes > 0 && <p className="muted small">{mistakes} erreur{mistakes > 1 ? 's' : ''} : le jeu ne retire rien.</p>}
             <button className="primary wide" onClick={onClose} autoFocus>Continuer</button>
           </>

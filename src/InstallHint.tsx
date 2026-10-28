@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './install.css'
+import { Mobile } from 'reicon-react'
 
 /** The browser's install prompt (Chrome on Android), not in the standard typings. */
 interface InstallPrompt extends Event {
@@ -86,7 +87,7 @@ export function InstallHint() {
   return (
     <aside className="install-hint" aria-label="Installer l’application">
       <div className="install-head">
-        <span className="install-icon" aria-hidden="true">📲</span>
+        <span className="install-icon" aria-hidden="true"><Mobile size={28} /></span>
         <div>
           <strong>Installez l’app sur votre téléphone</strong>
           <p>Elle s’ouvre comme une vraie app, en plein écran, et marche aussi sans connexion.</p>

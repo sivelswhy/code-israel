@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import './journey.css'
 import { CATEGORIES, type Category, type Question } from '../data'
 import { Rings } from '../App'
@@ -12,6 +12,7 @@ import { TalkingMascot } from './Mascots'
 import { canNotify, remindersOn, setReminders } from './reminders'
 import { hebrewExercisesOn, setHebrewExercises } from './options'
 import { play } from './sounds'
+import { Trophy, Check, Play, Star, Lock, Flame, Snowflake, Bulb, X, Target, Gift, Box, Confetti, Refresh, Danger, Stop, Bolt, Flag } from 'reicon-react'
 
 const COLORS: Record<Category, string> = { rules: 'var(--sign-blue)', safety: 'var(--sign-red)', signs: '#d97706', vehicle: 'var(--sign-green)' }
 const SHORT: Record<Category, string> = { rules: 'Code', safety: 'Sécurité', signs: 'Panneaux', vehicle: 'Véhicule' }
@@ -90,11 +91,11 @@ export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart
                         onClick={() => onStart({ title: `${CATEGORIES[unit.category].label} · leçon ${lesson.number}`, lesson, questions: questions(lesson.questionIDs), color: COLORS[unit.category], countsAsReview: true })}
                         aria-label={`Leçon ${lesson.number}${unlocked ? '' : ', verrouillée'}${result ? `, ${result.stars} étoile${result.stars > 1 ? 's' : ''}${gold ? ', dorée' : ''}` : isCurrent ? ', à faire' : ''}`}
                       >
-                        <span aria-hidden="true">{gold ? '🏆' : result ? '✓' : isCurrent ? '▶' : unlocked ? '★' : '🔒'}</span>
+                        <span aria-hidden="true">{gold ? <Trophy size={30} weight="Filled" /> : result ? <Check size={32} /> : isCurrent ? <Play size={30} weight="Filled" /> : unlocked ? <Star size={30} weight="Filled" /> : <Lock size={28} weight="Filled" />}</span>
                       </button>
                       {result && (
                         <span className="path-stars" aria-hidden="true">
-                          {[1, 2, 3].map((n) => <span key={n} className={n <= result.stars ? 'on' : ''}>★</span>)}
+                          {[1, 2, 3].map((n) => <span key={n} className={n <= result.stars ? 'on' : ''}><Star size={14} weight="Filled" /></span>)}
                         </span>
                       )}
                     </div>
@@ -186,14 +187,14 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
         <div>
           <h3>Objectif du jour</h3>
           <p className="muted">{Math.min(today, RULES.dailyXP)} / {RULES.dailyXP} XP</p>
-          {days > 0 && <p className="streak">🔥 {days} jour{days > 1 ? 's' : ''} d’affilée</p>}
+          {days > 0 && <p className="streak"><Flame className="ic" size={16} weight="Filled" /> {days} jour{days > 1 ? 's' : ''} d’affilée</p>}
         </div>
         <div className="goal-feo"><TalkingMascot name="feo" mood={today >= RULES.dailyXP ? 'cheer' : today > 0 ? 'thinking' : 'sad'} size={60} pool={[]} /></div>
       </section>
 
       <section className="card">
         <div className="level-row">
-          <strong style={{ color: 'var(--ring-blue)' }}>🏆 Niveau {level(j)}</strong>
+          <strong style={{ color: 'var(--ring-blue)' }}><Trophy className="ic" size={16} weight="Filled" /> Niveau {level(j)}</strong>
           <span className="muted mono">{j.xp} XP</span>
         </div>
         <div className="track"><div className="track-fill" style={{ transform: `scaleX(${Math.max(0.03, xpInLevel(j) / RULES.xpPerLevel)})`, background: 'var(--ring-blue)' }} /></div>
@@ -203,39 +204,39 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
       <ReadinessCard pool={pool} stats={progress.stats} exams={progress.exams.filter((e) => e.license === progress.license)} examDate={progress.examDate} onPractice={onWeak} onExamDate={onExamDate} />
 
       <div className="pills">
-        <Pill icon="🔥" value={String(days)} label={days > 1 ? 'jours' : 'jour'} />
-        <Pill icon="❄️" value={String(j.freezes)} label={j.freezes > 1 ? 'gels' : 'gel'} />
-        <Pill icon="🧠" value={memory === null ? '–' : `${Math.round(memory * 100)} %`} label="mémoire" />
+        <Pill icon={<Flame size={22} weight="Filled" />} value={String(days)} label={days > 1 ? 'jours' : 'jour'} />
+        <Pill icon={<Snowflake size={22} />} value={String(j.freezes)} label={j.freezes > 1 ? 'gels' : 'gel'} />
+        <Pill icon={<Bulb size={22} />} value={memory === null ? '–' : `${Math.round(memory * 100)} %`} label="mémoire" />
       </div>
 
       {freezeNotice > 0 && (
         <section className="card notice" role="status">
-          <span>❄️ {freezeNotice > 1 ? `${freezeNotice} gels de série ont sauvé votre série.` : 'Un gel de série a sauvé votre série hier.'}</span>
-          <button className="icon-btn" onClick={onDismissNotice} aria-label="Fermer">✕</button>
+          <span><Snowflake className="ic" size={16} /> {freezeNotice > 1 ? `${freezeNotice} gels de série ont sauvé votre série.` : 'Un gel de série a sauvé votre série hier.'}</span>
+          <button className="icon-btn" onClick={onDismissNotice} aria-label="Fermer"><X size={18} /></button>
         </section>
       )}
 
       <section className="card quests">
-        <h3>🎯 Quêtes du jour</h3>
+        <h3><Target className="ic" size={18} /> Quêtes du jour</h3>
         {quests.map((quest) => {
           const done = isDone(j, quest)
           const claimed = isClaimed(j, quest)
           const value = questProgress(j, quest)
           return (
             <div className="quest" key={quest}>
-              <span className={`quest-icon ${claimed ? 'claimed' : ''}`} aria-hidden="true">{claimed ? '✓' : QUEST_ICON[quest]}</span>
+              <span className={`quest-icon ${claimed ? 'claimed' : ''}`} aria-hidden="true">{claimed ? <Check size={18} /> : QUEST_ICON[quest]}</span>
               <div>
                 <strong>{QUESTS[quest].title}</strong>
                 <div className="track"><div className="track-fill" style={{ transform: `scaleX(${Math.max(0.04, value / QUESTS[quest].target)})`, background: claimed ? 'var(--ring-green)' : 'var(--ring-blue)' }} /></div>
               </div>
-              {claimed ? <span className="mark ok">✓</span> : done ? (
+              {claimed ? <span className="mark ok"><Check size={18} /></span> : done ? (
                 <button className="claim" onClick={() => { onClaim(quest); play('star') }}>+{RULES.questXP} XP</button>
               ) : <span className="muted small mono">{value}/{QUESTS[quest].target}</span>}
             </div>
           )
         })}
         <div className="chest">
-          <span className="chest-icon" aria-hidden="true">{chestDone ? '📭' : '🎁'}</span>
+          <span className="chest-icon" aria-hidden="true">{chestDone ? <Box size={30} /> : <Gift size={30} />}</span>
           <div>
             <strong>Coffre du jour</strong>
             <small className="muted">{chestDone ? 'Ouvert. Revenez demain !' : canOpenChest(j) ? `Prêt : +${RULES.chestXP} XP à gagner.` : 'Récupérez les 3 quêtes pour l’ouvrir.'}</small>
@@ -246,34 +247,34 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
         </div>
         {reward && (
           <p className="reward" role="status">
-            🎉 Coffre ouvert : +{reward.xp} XP{reward.freeze ? ' et un gel de série pour sauver un jour manqué.' : '.'}
+            <Confetti className="ic" size={18} /> Coffre ouvert : +{reward.xp} XP{reward.freeze ? ' et un gel de série pour sauver un jour manqué.' : '.'}
           </p>
         )}
       </section>
 
       <button className="action-card" onClick={onReview} disabled={!due.length}>
-        <span className="action-icon" style={{ background: due.length ? 'var(--sign-red)' : 'var(--new)' }} aria-hidden="true">🔁</span>
+        <span className="action-icon" style={{ background: due.length ? 'var(--sign-red)' : 'var(--new)' }} aria-hidden="true"><Refresh size={24} /></span>
         <span>
           <strong>Révision du jour</strong>
           <small>{due.length ? `${due.length} question${due.length > 1 ? 's' : ''} à revoir` : 'Rien à revoir : revenez demain.'}</small>
         </span>
       </button>
       <button className="action-card" onClick={onTraining}>
-        <span className="action-icon" style={{ background: 'var(--ring-blue)' }} aria-hidden="true">🎯</span>
+        <span className="action-icon" style={{ background: 'var(--ring-blue)' }} aria-hidden="true"><Target size={24} /></span>
         <span>
           <strong>Entraînement adapté</strong>
           <small>{RULES.adaptiveSize} questions choisies pour que vous en réussissiez environ {Math.round(RULES.targetSuccess * 100)} %.</small>
         </span>
       </button>
       <button className="action-card" onClick={onTraps} disabled={!traps.length}>
-        <span className="action-icon" style={{ background: 'var(--sign-red)' }} aria-hidden="true">⚠️</span>
+        <span className="action-icon" style={{ background: 'var(--sign-red)' }} aria-hidden="true"><Danger size={24} /></span>
         <span>
           <strong>Pièges</strong>
           <small>{traps.length ? `${Math.min(traps.length, RULES.adaptiveSize)} questions où vous vous trompez souvent.` : 'Les questions où vous vous trompez le plus apparaîtront ici.'}</small>
         </span>
       </button>
       <button className="action-card" onClick={onSignQuiz}>
-        <span className="action-icon" style={{ background: 'var(--ring-orange)' }} aria-hidden="true">🛑</span>
+        <span className="action-icon" style={{ background: 'var(--ring-orange)' }} aria-hidden="true"><Stop size={24} /></span>
         <span>
           <strong>Quiz des panneaux</strong>
           <small>Reconnaissez les panneaux : 1 XP par bonne réponse.</small>
@@ -315,9 +316,11 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
   )
 }
 
-const QUEST_ICON: Record<QuestKind, string> = { xp: '⚡', lessons: '🏁', perfect: '⭐', run: '🔥', review: '🔁' }
+const QUEST_ICON: Record<QuestKind, ReactNode> = {
+  xp: <Bolt size={18} weight="Filled" />, lessons: <Flag size={18} weight="Filled" />, perfect: <Star size={18} weight="Filled" />, run: <Flame size={18} weight="Filled" />, review: <Refresh size={18} />,
+}
 
-function Pill({ icon, value, label }: { icon: string; value: string; label: string }) {
+function Pill({ icon, value, label }: { icon: ReactNode; value: string; label: string }) {
   return (
     <div className="pill">
       <span aria-hidden="true">{icon}</span>

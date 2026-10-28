@@ -5,7 +5,7 @@ import { localDay, streak, useProgress, type ExamRecord, type Stat } from './sto
 import { addXP, applyStreakFreezes, claim, finish, openChest, RULES, streakOf, xpToday, type ChestReward, type Outcome, type QuestKind } from './journey/engine'
 import { InstallHint } from './InstallHint'
 import { GuideScreen, ReadinessCard, SignQuiz } from './Preparation'
-import { useSync } from './SyncPanel'
+import { SyncPanel, useSync } from './SyncPanel'
 import { trapIDs, weakestIn } from './readiness'
 import { Journey, type StartLesson } from './journey/Journey'
 import { LessonPlayer } from './journey/LessonPlayer'
@@ -18,7 +18,7 @@ import { Browse } from './Browse'
 import { Sources } from './Sources'
 import { SignLexicon } from './Signs'
 import { AssistantContext, type AssistantTopic } from './assistant-context'
-import { Car, CloseCircle, AddCircle, Danger, Search, Stopwatch, Flame as FlameIcon, MagicStar, Star } from 'reicon-react'
+import { CloudDownload, Car, CloseCircle, AddCircle, Danger, Search, Stopwatch, Flame as FlameIcon, MagicStar, Star } from 'reicon-react'
 
 type Screen =
   | { name: 'home' }
@@ -30,6 +30,7 @@ type Screen =
   | { name: 'lesson'; start: StartLesson; xpBefore: number }
   | { name: 'match' }
   | { name: 'guide' }
+  | { name: 'sync' }
   | { name: 'signquiz' }
 
 const PRACTICE_SIZE = 20
@@ -97,7 +98,16 @@ export default function App() {
   const start = (mode: 'exam' | 'practice', title: string, questions: Question[]) =>
     setScreen({ name: 'quiz', mode, title, questions })
   const home = () => setScreen({ name: 'home' })
-  const switcher = <ModeSwitch mode={mode} onChange={changeMode} />
+  const switcher = (
+    <div className="top-actions">
+      <ModeSwitch mode={mode} onChange={changeMode} />
+      {sync.available && (
+        <button className={`sync-btn ${sync.code ? 'on' : ''}`} onClick={() => setScreen({ name: 'sync' })} aria-label={sync.code ? 'Synchronisation active : mes appareils' : 'Synchroniser mes appareils'}>
+          <CloudDownload size={20} /> <span>{sync.code ? 'Synchronisé' : 'Synchroniser'}</span>
+        </button>
+      )}
+    </div>
+  )
   const finishLesson = (s: StartLesson, result: Outcome) => update((p) => ({ ...p, journey: finish(p.journey, s.lesson, result, s.countsAsReview) }))
   const claimQuest = (quest: QuestKind) => update((p) => ({ ...p, journey: claim(p.journey, quest) }))
   const openDailyChest = (): ChestReward | null => {
@@ -170,7 +180,14 @@ export default function App() {
         )}
         {screen.name === 'match' && <MatchGame onFinish={finishMatch} onClose={home} />}
         {screen.name === 'signquiz' && <SignQuiz onFinish={finishSignQuiz} onClose={home} />}
-        {screen.name === 'guide' && <GuideScreen onBack={home} sync={sync} />}
+        {screen.name === 'guide' && <GuideScreen onBack={home} />}
+        {screen.name === 'sync' && (
+          <main className="page">
+            <BackButton onClick={home} />
+            <h1 className="title">Mes appareils</h1>
+            <SyncPanel sync={sync} />
+          </main>
+        )}
         {screen.name === 'home' && mode === 'classic' && (
           <Home
             switcher={switcher}

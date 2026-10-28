@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import type { Progress } from './store'
 import { codeId, displayCode, generateCode, lastSync, mailCode, normalizeCode, saveCode, savedCode, syncConfig, syncNow } from './sync'
 import './prep.css'
+import { Check, Sms } from 'reicon-react'
 
 export interface SyncState {
   /** False when no sync server has been set up: the feature stays hidden. */
@@ -157,7 +158,7 @@ export function SyncPanel({ sync }: { sync: SyncState }) {
       <div className="sync-code" aria-label={`Votre code : ${sync.code}`}>
         <code>{sync.code}</code>
         <button className="secondary" onClick={() => navigator.clipboard?.writeText(sync.code!).then(() => { setCopied(true); setTimeout(() => setCopied(false), 2000) })}>
-          {copied ? 'Copié ✓' : 'Copier'}
+          {copied ? <><Check className="ic" size={16} /> Copié</> : 'Copier'}
         </button>
       </div>
       {sync.canMail ? (
@@ -178,7 +179,7 @@ export function SyncPanel({ sync }: { sync: SyncState }) {
           {mailState.message && <p className={mailState.ok ? 'muted small' : 'sync-error'} role="status">{mailState.message}</p>}
         </form>
       ) : (
-        <a className="report-link mail-code" href={mailtoCode(sync.code)}>✉️ M’envoyer ce code par e-mail</a>
+        <a className="report-link mail-code" href={mailtoCode(sync.code)}><Sms className="ic" size={16} /> M’envoyer ce code par e-mail</a>
       )}
       <p className="muted small" role="status">
         {sync.busy ? 'Synchronisation…' : sync.error ? '' : sync.at ? `Dernière synchronisation : ${new Date(sync.at).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}` : ''}

@@ -7,6 +7,7 @@ import { Mascot, TalkingMascot } from './Mascots'
 import { hebrewExercisesOn } from './options'
 import { ReportLink } from '../Preparation'
 import { play, setSounds, soundsOn } from './sounds'
+import { X, Check, VolumeSlash, VolumeHigh, Star, Bolt, Trophy } from 'reicon-react'
 
 interface Props {
   title: string
@@ -128,11 +129,11 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
   return (
     <div className="lesson" style={{ ['--lesson' as string]: color }}>
       <header className="lesson-bar">
-        <button className="icon-btn" onClick={quit} aria-label="Quitter la leçon">✕</button>
+        <button className="icon-btn" onClick={quit} aria-label="Quitter la leçon"><X size={18} /></button>
         <div className="track lesson-track" role="progressbar" aria-valuenow={Math.round(sessionProgress(session) * 100)} aria-valuemin={0} aria-valuemax={100} aria-label="Avancement">
           <div className="track-fill" style={{ transform: `scaleX(${Math.max(0.04, sessionProgress(session))})` }} />
         </div>
-        <button className="icon-btn" onClick={toggleSound} aria-label={muted ? 'Activer les sons' : 'Couper les sons'}>{muted ? '🔇' : '🔊'}</button>
+        <button className="icon-btn" onClick={toggleSound} aria-label={muted ? 'Activer les sons' : 'Couper les sons'}>{muted ? <VolumeSlash size={18} /> : <VolumeHigh size={18} />}</button>
       </header>
 
       <main className="lesson-body">
@@ -172,8 +173,8 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
                 <button className={`answer ${s}`} onClick={() => select(ai)} aria-pressed={ai === chosen} disabled={checked}>
                   <span className="letter">{kind === 'trueFalse' ? 'VF'[n] : 'ABCD'[n]}</span>
                   {kind === 'choice' ? <AnswerText q={q} text={q.a[ai]} signs={signs} revealed={checked} /> : <span>{choiceText(ai)}</span>}
-                  {s === 'correct' && <span className="mark ok" aria-label="Bonne réponse">✓</span>}
-                  {s === 'wrong' && <span className="mark ko" aria-label="Votre réponse, incorrecte">✕</span>}
+                  {s === 'correct' && <span className="mark ok" aria-label="Bonne réponse"><Check size={18} /></span>}
+                  {s === 'wrong' && <span className="mark ko" aria-label="Votre réponse, incorrecte"><X size={18} /></span>}
                 </button>
               </li>
             )
@@ -227,7 +228,7 @@ function LessonComplete({ title, result, xpBefore, onClose }: { title: string; r
         </div>
         <div className="stars" aria-label={`${result.stars} étoile${result.stars > 1 ? 's' : ''} sur 3`}>
           {[1, 2, 3].map((n) => (
-            <span key={n} className={n <= result.stars ? 'on' : ''} style={{ animationDelay: `${0.15 * n}s` }}>★</span>
+            <span key={n} className={n <= result.stars ? 'on' : ''} style={{ animationDelay: `${0.15 * n}s` }}><Star size={44} weight="Filled" /></span>
           ))}
         </div>
         <h1 className="title">{title}</h1>
@@ -237,8 +238,8 @@ function LessonComplete({ title, result, xpBefore, onClose }: { title: string; r
           <div><dt>Précision</dt><dd style={{ color: 'var(--ring-green)' }}>{Math.round(result.accuracy * 100)} %</dd></div>
           <div><dt>Erreurs</dt><dd style={{ color: result.mistakes ? 'var(--sign-red)' : 'var(--ring-green)' }}>{result.mistakes}</dd></div>
         </dl>
-        {result.speedBonus && <p className="bonus">⚡ Bonus de vitesse : +{RULES.xpSpeedBonus} XP</p>}
-        {result.stars === 3 && <p className="bonus gold">🏆 Leçon dorée !</p>}
+        {result.speedBonus && <p className="bonus"><Bolt className="ic" size={18} weight="Filled" /> Bonus de vitesse : +{RULES.xpSpeedBonus} XP</p>}
+        {result.stars === 3 && <p className="bonus gold"><Trophy className="ic" size={18} weight="Filled" /> Leçon dorée !</p>}
         <button className="primary wide" onClick={onClose} autoFocus>Continuer</button>
       </div>
     </div>
