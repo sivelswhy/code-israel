@@ -4,9 +4,20 @@ import SwiftUI
 /// The official Israeli sign chart, with the numbers used in the exam questions.
 struct SignsView: View {
     @State private var query = ""
+    @State private var quiz = false
     @Environment(AppModel.self) private var app
 
     var body: some View {
+        list
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button { quiz = true } label: { Label("Quiz", systemImage: "questionmark.square.dashed") }
+                }
+            }
+            .sheet(isPresented: $quiz) { SignQuizView { quiz = false }.environment(app) }
+    }
+
+    @ViewBuilder private var list: some View {
         let n = query.trimmingCharacters(in: .whitespaces).folding(options: [.diacriticInsensitive, .caseInsensitive], locale: nil)
         let signs = app.library.signs.filter {
             n.isEmpty || $0.n.contains(n) || $0.fr.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: nil).contains(n)

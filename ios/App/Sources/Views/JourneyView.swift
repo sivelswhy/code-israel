@@ -11,10 +11,11 @@ struct JourneyView: View {
     @State private var reward: ChestReward?
     @State private var remindersOn = Reminders.isOn
     @State private var sheet: Sheet?
+    @State private var signQuiz = false
 
     /// On a phone, the quests and the reminders open in a sheet instead of crowding the path.
     enum Sheet: String, Identifiable {
-        case quests, settings
+        case quests, settings, readiness
         var id: String { rawValue }
     }
 
@@ -63,12 +64,16 @@ struct JourneyView: View {
             NavigationStack {
                 ScrollView {
                     Group {
-                        if which == .quests { quests(journey) } else { VStack(spacing: 12) { remindersCard; hebrewCard } }
+                        switch which {
+                        case .quests: quests(journey)
+                        case .readiness: ReadinessCard { startWeak($0) }
+                        case .settings: VStack(spacing: 12) { remindersCard; hebrewCard }
+                        }
                     }
                     .padding(20)
                 }
                 .background(Color.groupedBackground)
-                .navigationTitle(which == .quests ? "Quêtes du jour" : "Réglages")
+                .navigationTitle(which == .quests ? "Quêtes du jour" : which == .readiness ? "Préparation" : "Réglages")
                 #if !os(macOS)
                 .navigationBarTitleDisplayMode(.inline)
                 #endif
@@ -76,6 +81,7 @@ struct JourneyView: View {
             }
             .presentationDetents([.medium, .large])
         }
+        .fullScreenCoverCompat(isPresented: $signQuiz) { SignQuizView { signQuiz = false }.environment(app) }
         .alert("Coffre ouvert !", isPresented: Binding(get: { reward != nil }, set: { if !$0 { reward = nil } })) {
             Button("Super !") { reward = nil }
         } message: {
@@ -204,6 +210,15 @@ struct JourneyView: View {
         active = ActiveLesson(title: "\(lesson.category.label) · leçon \(lesson.number)", lesson: lesson, questions: app.questions(lesson.questionIDs))
     }
 
+    private func startWeak(_ category: Category) {
+        sheet = nil
+        active = ActiveLesson(title: "Points faibles : \(category.label)", lesson: nil, questions: app.weakest(in: category, count: JourneyRules.adaptiveSize), isReview: false)
+    }
+
+    private func startTraps() {
+        active = ActiveLesson(title: "Pièges", lesson: nil, questions: Array(app.trapQuestions.prefix(JourneyRules.adaptiveSize)), isReview: false)
+    }
+
     private func startReview(_ due: [Question]) {
         active = ActiveLesson(title: "Révision du jour", lesson: nil, questions: Array(due.prefix(JourneyRules.reviewSize)))
     }
@@ -248,6 +263,8 @@ struct JourneyView: View {
             }
             .card()
 
+            ReadinessCard { startWeak($0) }
+
             stats(journey, days: days)
 
             freezeBanner
@@ -275,6 +292,16 @@ struct JourneyView: View {
             actionCard(icon: "scope", color: .ringBlue, title: "Entraînement adapté",
                        subtitle: "\(JourneyRules.adaptiveSize) questions choisies pour que vous en réussissiez environ \(Int(JourneyRules.targetSuccess * 100)) %.") {
                 active = ActiveLesson(title: "Entraînement adapté", lesson: nil, questions: app.adaptiveQuestions, isReview: false)
+            }
+
+            actionCard(icon: "exclamationmark.triangle.fill", color: .signRed, title: "Pièges",
+                       subtitle: app.trapQuestions.isEmpty ? "Les questions où vous vous trompez le plus apparaîtront ici." : "\(min(app.trapQuestions.count, JourneyRules.adaptiveSize)) questions où vous vous trompez souvent.") {
+                startTraps()
+            }
+
+            actionCard(icon: "questionmark.square.dashed", color: .ringOrange, title: "Quiz des panneaux",
+                       subtitle: "Reconnaissez 10 panneaux : 1 XP par bonne réponse.") {
+                signQuiz = true
             }
 
             actionCard(icon: "square.grid.2x2.fill", color: .ringGreen, title: "Jeu des panneaux",
@@ -318,10 +345,13 @@ extension JourneyView {
             freezeBanner
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 8) {
+                    shortcut("checkmark.seal.fill", "Préparation", .ringGreen) { sheet = .readiness }
                     shortcut("target", "Quêtes \(done)/\(quests.count)", .ringBlue) { sheet = .quests }
                     shortcut("arrow.triangle.2.circlepath", due.isEmpty ? "Révision" : "Révision (\(due.count))", due.isEmpty ? .gray : .signRed) { startReview(due) }.disabled(due.isEmpty)
                     shortcut("scope", "Entraînement", .ringBlue) { active = ActiveLesson(title: "Entraînement adapté", lesson: nil, questions: app.adaptiveQuestions, isReview: false) }
+                    shortcut("exclamationmark.triangle.fill", "Pièges", .signRed) { startTraps() }.disabled(app.trapQuestions.isEmpty)
                     shortcut("square.grid.2x2.fill", "Panneaux", .ringGreen) { matchSeed = Int.random(in: 0..<10_000) }
+                    shortcut("questionmark.square.dashed", "Quiz panneaux", .ringOrange) { signQuiz = true }
                     shortcut("gearshape.fill", "Réglages", .gray) { sheet = .settings }
                 }
             }

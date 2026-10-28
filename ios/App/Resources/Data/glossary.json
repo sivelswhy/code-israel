@@ -1,0 +1,395 @@
+[
+ {
+  "title": "Documents et démarches",
+  "terms": [
+   {
+    "fr": "permis de conduire",
+    "he": "רישיון נהיגה"
+   },
+   {
+    "fr": "permis de circulation du véhicule",
+    "he": "רישיון רכב"
+   },
+   {
+    "fr": "assurance",
+    "he": "ביטוח"
+   },
+   {
+    "fr": "assurance obligatoire",
+    "he": "ביטוח חובה"
+   },
+   {
+    "fr": "contrôle technique annuel (« test »)",
+    "he": "טסט"
+   },
+   {
+    "fr": "examen théorique",
+    "he": "מבחן תיאוריה"
+   },
+   {
+    "fr": "examen pratique",
+    "he": "מבחן מעשי"
+   },
+   {
+    "fr": "moniteur d’auto-école",
+    "he": "מורה נהיגה"
+   },
+   {
+    "fr": "auto-école",
+    "he": "בית ספר לנהיגה"
+   },
+   {
+    "fr": "conducteur novice",
+    "he": "נהג חדש"
+   },
+   {
+    "fr": "accompagnateur",
+    "he": "מלווה"
+   },
+   {
+    "fr": "plaque d’immatriculation",
+    "he": "לוחית רישוי"
+   },
+   {
+    "fr": "points du permis",
+    "he": "נקודות"
+   },
+   {
+    "fr": "amende",
+    "he": "קנס"
+   },
+   {
+    "fr": "procès-verbal, contravention",
+    "he": "דו״ח"
+   },
+   {
+    "fr": "retrait du permis",
+    "he": "פסילה"
+   }
+  ]
+ },
+ {
+  "title": "La route",
+  "terms": [
+   {
+    "fr": "route",
+    "he": "כביש"
+   },
+   {
+    "fr": "chaussée",
+    "he": "מסעה"
+   },
+   {
+    "fr": "trottoir",
+    "he": "מדרכה"
+   },
+   {
+    "fr": "passage piéton",
+    "he": "מעבר חציה"
+   },
+   {
+    "fr": "carrefour",
+    "he": "צומת"
+   },
+   {
+    "fr": "rond-point",
+    "he": "כיכר"
+   },
+   {
+    "fr": "feu tricolore",
+    "he": "רמזור"
+   },
+   {
+    "fr": "panneau de signalisation",
+    "he": "תמרור"
+   },
+   {
+    "fr": "marquage au sol",
+    "he": "סימון על הכביש"
+   },
+   {
+    "fr": "ligne continue",
+    "he": "קו רצוף"
+   },
+   {
+    "fr": "ligne discontinue",
+    "he": "קו מקווקו"
+   },
+   {
+    "fr": "accotement",
+    "he": "שול הדרך"
+   },
+   {
+    "fr": "voie, file",
+    "he": "נתיב"
+   },
+   {
+    "fr": "voie rapide",
+    "he": "דרך מהירה"
+   },
+   {
+    "fr": "en agglomération",
+    "he": "בעיר"
+   },
+   {
+    "fr": "hors agglomération",
+    "he": "בין עירוני"
+   },
+   {
+    "fr": "virage",
+    "he": "עקומה"
+   },
+   {
+    "fr": "descente",
+    "he": "ירידה"
+   },
+   {
+    "fr": "montée",
+    "he": "עלייה"
+   },
+   {
+    "fr": "tunnel",
+    "he": "מנהרה"
+   },
+   {
+    "fr": "pont",
+    "he": "גשר"
+   },
+   {
+    "fr": "voie ferrée",
+    "he": "מסילת ברזל"
+   },
+   {
+    "fr": "sens unique",
+    "he": "חד סטרי"
+   },
+   {
+    "fr": "sens interdit, entrée interdite",
+    "he": "אין כניסה"
+   }
+  ]
+ },
+ {
+  "title": "Règles de conduite",
+  "terms": [
+   {
+    "fr": "priorité",
+    "he": "זכות קדימה"
+   },
+   {
+    "fr": "céder le passage",
+    "he": "תן זכות קדימה"
+   },
+   {
+    "fr": "stop",
+    "he": "עצור"
+   },
+   {
+    "fr": "stationnement",
+    "he": "חניה"
+   },
+   {
+    "fr": "stationnement interdit",
+    "he": "אסור לחנות"
+   },
+   {
+    "fr": "arrêt",
+    "he": "עצירה"
+   },
+   {
+    "fr": "dépassement",
+    "he": "עקיפה"
+   },
+   {
+    "fr": "dépassement interdit",
+    "he": "אסור לעקוף"
+   },
+   {
+    "fr": "distance de sécurité",
+    "he": "מרחק בטיחות"
+   },
+   {
+    "fr": "vitesse",
+    "he": "מהירות"
+   },
+   {
+    "fr": "limitation de vitesse",
+    "he": "הגבלת מהירות"
+   },
+   {
+    "fr": "freinage",
+    "he": "בלימה"
+   },
+   {
+    "fr": "distance de freinage",
+    "he": "מרחק בלימה"
+   },
+   {
+    "fr": "interdit",
+    "he": "אסור"
+   },
+   {
+    "fr": "obligatoire",
+    "he": "חובה"
+   },
+   {
+    "fr": "danger",
+    "he": "סכנה"
+   },
+   {
+    "fr": "attention",
+    "he": "זהירות"
+   }
+  ]
+ },
+ {
+  "title": "Le véhicule",
+  "terms": [
+   {
+    "fr": "feux de croisement",
+    "he": "אורות נמוכים"
+   },
+   {
+    "fr": "feux de route",
+    "he": "אורות גבוהים"
+   },
+   {
+    "fr": "clignotant",
+    "he": "איתות"
+   },
+   {
+    "fr": "feux de détresse",
+    "he": "אורות חירום"
+   },
+   {
+    "fr": "klaxon",
+    "he": "צופר"
+   },
+   {
+    "fr": "ceinture de sécurité",
+    "he": "חגורת בטיחות"
+   },
+   {
+    "fr": "casque",
+    "he": "קסדה"
+   },
+   {
+    "fr": "siège enfant",
+    "he": "מושב בטיחות לילדים"
+   },
+   {
+    "fr": "pneu",
+    "he": "צמיג"
+   },
+   {
+    "fr": "frein",
+    "he": "בלם"
+   },
+   {
+    "fr": "volant",
+    "he": "הגה"
+   },
+   {
+    "fr": "embrayage",
+    "he": "מצמד"
+   },
+   {
+    "fr": "boîte de vitesses",
+    "he": "תיבת הילוכים"
+   },
+   {
+    "fr": "moteur",
+    "he": "מנוע"
+   },
+   {
+    "fr": "batterie",
+    "he": "מצבר"
+   },
+   {
+    "fr": "essuie-glace",
+    "he": "מגב"
+   },
+   {
+    "fr": "rétroviseur",
+    "he": "מראה"
+   },
+   {
+    "fr": "phare",
+    "he": "פנס"
+   }
+  ]
+ },
+ {
+  "title": "Usagers et situations",
+  "terms": [
+   {
+    "fr": "piéton",
+    "he": "הולך רגל"
+   },
+   {
+    "fr": "cycliste",
+    "he": "רוכב אופניים"
+   },
+   {
+    "fr": "motocycliste",
+    "he": "אופנוען"
+   },
+   {
+    "fr": "autobus",
+    "he": "אוטובוס"
+   },
+   {
+    "fr": "camion",
+    "he": "משאית"
+   },
+   {
+    "fr": "remorque",
+    "he": "גרור"
+   },
+   {
+    "fr": "véhicule d’urgence",
+    "he": "רכב חירום"
+   },
+   {
+    "fr": "accident",
+    "he": "תאונה"
+   },
+   {
+    "fr": "blessé",
+    "he": "פצוע"
+   },
+   {
+    "fr": "ambulance",
+    "he": "אמבולנס"
+   },
+   {
+    "fr": "police",
+    "he": "משטרה"
+   },
+   {
+    "fr": "alcool",
+    "he": "אלכוהול"
+   },
+   {
+    "fr": "fatigue",
+    "he": "עייפות"
+   },
+   {
+    "fr": "brouillard",
+    "he": "ערפל"
+   },
+   {
+    "fr": "pluie",
+    "he": "גשם"
+   },
+   {
+    "fr": "route glissante",
+    "he": "כביש חלקלק"
+   },
+   {
+    "fr": "visibilité",
+    "he": "ראות"
+   }
+  ]
+ }
+]

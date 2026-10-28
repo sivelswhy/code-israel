@@ -1,0 +1,49 @@
+{
+ "sections": [
+  {
+   "title": "L’examen théorique",
+   "items": [
+    "30 questions à choix multiple, sur ordinateur, avec 40 minutes. Il faut au moins 26 bonnes réponses : 4 erreurs au plus.",
+    "L’examen existe en plusieurs langues, dont le français, d’après plusieurs guides (à confirmer au moment de la réservation).",
+    "Le mode « Examen blanc » de l’app reprend ce format. Une bonne règle : réussir plusieurs examens blancs de suite avant de réserver."
+   ]
+  },
+  {
+   "title": "Les étapes du permis",
+   "items": [
+    "Examen médical et de la vue : la vue est contrôlée par un optométriste agréé.",
+    "Examen théorique, puis leçons pratiques avec un moniteur d’auto-école, puis examen pratique.",
+    "Ces étapes viennent de guides pour les nouveaux immigrants, pas du ministère : vérifiez les conditions à jour avant toute démarche."
+   ]
+  },
+  {
+   "title": "Vous avez déjà un permis étranger",
+   "items": [
+    "Selon votre situation, l’échange peut exiger de passer l’examen théorique : un guide cite par exemple moins de deux ans d’expérience de conduite.",
+    "Les conditions dépendent du pays d’origine et de l’ancienneté du permis : renseignez-vous auprès du ministère des Transports."
+   ]
+  },
+  {
+   "title": "Questions et tarifs",
+   "items": [
+    "Les tarifs changent et les sources divergent : l’app n’en donne pas. Consultez le site officiel gov.il.",
+    "Ministère des Transports : *5678 depuis Israël (numéro cité par un guide tiers)."
+   ]
+  }
+ ],
+ "links": [
+  {
+   "label": "Permis de conduire en Israël (Wikipédia, anglais)",
+   "url": "https://en.wikipedia.org/wiki/Driving_licence_in_Israel"
+  },
+  {
+   "label": "Guide pour convertir un permis étranger (EasyAliyah, anglais)",
+   "url": "https://help.easyaliyah.com/en/article/converting-your-foreign-drivers-license-to-an-israeli-license-complete-guide-2l79v3"
+  },
+  {
+   "label": "Site officiel du gouvernement israélien",
+   "url": "https://www.gov.il"
+  }
+ ],
+ "note": "Informations indicatives, recueillies auprès de guides non officiels. L’app n’est pas affiliée au ministère des Transports."
+}

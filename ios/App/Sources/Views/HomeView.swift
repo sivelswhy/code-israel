@@ -80,6 +80,11 @@ struct HomeView: View {
             }
 
             Section {
+                ReadinessCard { cat in start(Series(mode: .practice, title: "Points faibles : \(cat.label)", questions: app.weakest(in: cat))) }
+                    .listRowInsets(EdgeInsets()).listRowBackground(Color.clear)
+            }
+
+            Section {
                 Button {
                     start(Series(mode: .exam, title: "Examen blanc", questions: drawExam(app.pool)))
                 } label: {
@@ -147,6 +152,9 @@ struct HomeView: View {
                 }
                 ReviseRow(title: "Mes favoris", hint: "Les questions que vous avez marquées d’une étoile", icon: "star.fill", color: .ringOrange, count: app.favorites.count) {
                     start(Series(mode: .practice, title: "Mes favoris", questions: Array(app.favorites.shuffled().prefix(ExamRules.practiceSize))))
+                }
+                ReviseRow(title: "Pièges", hint: "Les questions où vous vous trompez le plus souvent", icon: "exclamationmark.triangle.fill", color: .signRed, count: app.trapQuestions.count) {
+                    start(Series(mode: .practice, title: "Pièges", questions: Array(app.trapQuestions.prefix(ExamRules.practiceSize))))
                 }
                 ReviseRow(title: "Jamais vues", hint: "Couvrir toute la banque, petit à petit", icon: "plus.circle.fill", color: .ringBlue, count: m.unseen.count) {
                     start(Series(mode: .practice, title: "Jamais vues", questions: Array(m.unseen.shuffled().prefix(ExamRules.practiceSize))))

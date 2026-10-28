@@ -293,4 +293,75 @@ final class JourneyTests: XCTestCase {
         XCTAssertGreaterThan(trues, pool.count / 3)
         XCTAssertLessThan(trues, pool.count * 2 / 3)
     }
+
+    func testPassProbabilityIsExact() {
+        // 30 questions, each right with chance 1: always passes; each right with chance 0: never.
+        XCTAssertEqual(Preparation.passProbability(chances: Array(repeating: 1, count: 30)), 1, accuracy: 1e-12)
+        XCTAssertEqual(Preparation.passProbability(chances: Array(repeating: 0, count: 30)), 0, accuracy: 1e-12)
+        // 3 coin flips, at most 1 mistake: P(0 or 1 mistakes) = 4/8.
+        XCTAssertEqual(Preparation.passProbability(chances: [0.5, 0.5, 0.5], maxErrors: 1), 0.5, accuracy: 1e-12)
+        // A better learner passes more often than a weaker one.
+        let strong = Preparation.passProbability(chances: Array(repeating: 0.95, count: 30))
+        let weak = Preparation.passProbability(chances: Array(repeating: 0.8, count: 30))
+        XCTAssertGreaterThan(strong, 0.9)
+        XCTAssertLessThan(weak, 0.5)
+    }
+
+    func testReadinessGrowsWithGoodAnswers() {
+        let fresh = Preparation.readiness(pool: pool, stats: [:])
+        XCTAssertFalse(fresh.enoughData)
+        XCTAssertEqual(fresh.coverage, 0)
+        XCTAssertLessThan(fresh.passChance, 0.01, "nothing seen: unlikely to pass")
+        XCTAssertEqual(Set(fresh.themes.map(\.category)), Set(pool.map(\.cat)))
+        var good: [String: Stat] = [:]
+        for q in pool { good[q.id] = Stat(ok: 4, ko: 0, last: true) }
+        let ready = Preparation.readiness(pool: pool, stats: good)
+        XCTAssertTrue(ready.enoughData)
+        XCTAssertEqual(ready.coverage, 1)
+        XCTAssertGreaterThan(ready.passChance, 0.8, "four right answers each, no mistake")
+        var bad: [String: Stat] = [:]
+        for q in pool { bad[q.id] = Stat(ok: 0, ko: 3, last: false) }
+        XCTAssertLessThan(Preparation.readiness(pool: pool, stats: bad).passChance, 0.01)
+        // The weakest theme comes first.
+        var mixed = good
+        for q in pool where q.cat == .signs { mixed[q.id] = Stat(ok: 0, ko: 3, last: false) }
+        XCTAssertEqual(Preparation.readiness(pool: pool, stats: mixed).weakest.first?.category, .signs)
+    }
+
+    func testTrapQuestionsAndExamPlan() {
+        let ids = pool.prefix(5).map(\.id)
+        let stats = [
+            ids[0]: Stat(ok: 1, ko: 3, last: false),   // 75 % wrong
+            ids[1]: Stat(ok: 5, ko: 2, last: true),    // 2 mistakes
+            ids[2]: Stat(ok: 0, ko: 1, last: false),   // one mistake, none right: a trap
+            ids[3]: Stat(ok: 3, ko: 1, last: false),   // one mistake only, more right: not a trap
+            ids[4]: Stat(ok: 9, ko: 0, last: true),
+        ]
+        XCTAssertEqual(Preparation.trapIDs(pool: pool, stats: stats), [ids[2], ids[0], ids[1]])
+        XCTAssertEqual(Preparation.trapIDs(pool: pool, stats: stats, limit: 1), [ids[2]])
+
+        var calendar = Calendar(identifier: .gregorian)
+        calendar.timeZone = TimeZone(identifier: "Asia/Jerusalem")!
+        let now = calendar.date(from: DateComponents(year: 2026, month: 10, day: 28, hour: 9))!
+        XCTAssertNil(Preparation.plan(examDate: nil, pool: pool, stats: [:], now: now, calendar: calendar))
+        XCTAssertNil(Preparation.plan(examDate: "bientôt", pool: pool, stats: [:], now: now, calendar: calendar))
+        let plan = Preparation.plan(examDate: "2026-11-07", pool: pool, stats: [:], now: now, calendar: calendar)!
+        XCTAssertEqual(plan.daysLeft, 10)
+        XCTAssertEqual(plan.toLearn, pool.count, "nothing is known yet")
+        XCTAssertEqual(plan.perDay, Int((Double(pool.count) / 9).rounded(.up)), "the last day is kept for a review")
+        XCTAssertTrue(Preparation.plan(examDate: "2026-10-20", pool: pool, stats: [:], now: now, calendar: calendar)!.isPast)
+        XCTAssertEqual(Preparation.plan(examDate: "2026-10-29", pool: pool, stats: [:], now: now, calendar: calendar)!.perDay, pool.count)
+    }
+
+    func testPassStreakAndExamDateSaved() throws {
+        func exam(_ errors: Int) -> ExamRecord { ExamRecord(date: .now, errors: errors, license: .B) }
+        XCTAssertEqual(Preparation.passStreak([]), 0)
+        XCTAssertEqual(Preparation.passStreak([exam(9), exam(2), exam(4)]), 2)
+        XCTAssertEqual(Preparation.passStreak([exam(2), exam(5)]), 0)
+        var p = Progress()
+        p.examDate = "2026-12-01"
+        let back = try JSONDecoder().decode(Progress.self, from: JSONEncoder().encode(p))
+        XCTAssertEqual(back.examDate, "2026-12-01")
+        XCTAssertNil(try JSONDecoder().decode(Progress.self, from: Data(#"{"license":"B"}"#.utf8)).examDate)
+    }
 }

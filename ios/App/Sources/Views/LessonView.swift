@@ -250,6 +250,7 @@ struct LessonView: View {
                         if let ref = q.r?.compactMap({ app.law[$0]?.l }).first {
                             Text("Référence : \(ref)").font(.caption).foregroundStyle(.secondary)
                         }
+                        ReportLink(question: q)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(GeometryReader { Color.clear.preference(key: PanelHeight.self, value: $0.size.height) })

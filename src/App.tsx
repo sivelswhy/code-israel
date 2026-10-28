@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'motion/react'
 import { ACTIVE_LICENSES, CATEGORIES, EXAM, LICENSES, drawExam, loadQuestions, shuffle, type Category, type License, type Question } from './data'
 import { localDay, streak, useProgress, type ExamRecord } from './store'
 import { addXP, applyStreakFreezes, claim, finish, openChest, RULES, streakOf, xpToday, type ChestReward, type Outcome, type QuestKind } from './journey/engine'
+import { InstallHint } from './InstallHint'
 import { Journey, type StartLesson } from './journey/Journey'
 import { LessonPlayer } from './journey/LessonPlayer'
 import { MatchGame } from './journey/MatchGame'
@@ -111,6 +112,7 @@ export default function App() {
 
   return (
     <AssistantContext.Provider value={(topic) => setAssistant({ topic })}>
+    {screen.name === 'home' && <InstallHint />}
     <AnimatePresence mode="wait" initial={false}>
       <motion.div
         key={screen.name}

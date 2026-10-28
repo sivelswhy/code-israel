@@ -64,6 +64,7 @@ struct ExplanationView: View {
                         }
                         .buttonStyle(.bordered)
                     }
+                    ReportLink(question: question)
                 }
                 .padding([.horizontal, .bottom], 14)
                 .transition(.opacity.combined(with: .move(edge: .top)))

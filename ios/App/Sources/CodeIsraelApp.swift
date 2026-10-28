@@ -34,7 +34,7 @@ struct Series: Identifiable {
 
 struct RootView: View {
     enum Tab: String, Hashable {
-        case home, browse, signs, assistant
+        case home, browse, signs, guide, assistant
         init?(argument: String?) { self.init(rawValue: argument ?? "") }
     }
 
@@ -80,6 +80,7 @@ struct RootView: View {
     }
     private var browse: some View { NavigationStack { BrowseView() } }
     private var signs: some View { NavigationStack { SignsView() } }
+    private var guide: some View { NavigationStack { GuideView() } }
     private var assistant: some View { NavigationStack { AssistantView(topic: nil) } }
 
     @ViewBuilder private var layout: some View {
@@ -90,6 +91,7 @@ struct RootView: View {
                 Label(homeLabel.title, systemImage: homeLabel.icon).tag(Tab.home)
                 Label("Questions", systemImage: "magnifyingglass").tag(Tab.browse)
                 Label("Panneaux", systemImage: "exclamationmark.triangle").tag(Tab.signs)
+                Label("Guide", systemImage: "book.closed").tag(Tab.guide)
                 Label("Assistant", systemImage: "sparkles").tag(Tab.assistant)
             }
             .navigationSplitViewColumnWidth(min: 170, ideal: 190, max: 240)
@@ -101,6 +103,7 @@ struct RootView: View {
                     case .home: home
                     case .browse: browse
                     case .signs: signs
+                    case .guide: guide
                     case .assistant: assistant
                     }
                 }
@@ -118,6 +121,9 @@ struct RootView: View {
             signs
                 .tabItem { Label("Panneaux", systemImage: "exclamationmark.triangle") }
                 .tag(Tab.signs)
+            guide
+                .tabItem { Label("Guide", systemImage: "book.closed") }
+                .tag(Tab.guide)
             assistant
                 .tabItem { Label("Assistant", systemImage: "sparkles") }
                 .tag(Tab.assistant)

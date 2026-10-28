@@ -1,0 +1,11 @@
+.install-hint { max-width: 680px; margin: max(12px, env(safe-area-inset-top)) auto 0; padding: 14px 16px; border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); border: 1px solid var(--separator); display: grid; gap: 12px; }
+@media (max-width: 712px) { .install-hint { margin-left: 16px; margin-right: 16px; } }
+.install-head { display: flex; gap: 12px; align-items: flex-start; }
+.install-head strong { display: block; font-size: 1rem; }
+.install-head p { margin: 2px 0 0; color: var(--text-2); font-size: 0.875rem; line-height: 1.4; }
+.install-icon { font-size: 1.6rem; line-height: 1; }
+.install-steps { margin: 0; padding: 12px 12px 12px 34px; border-radius: 12px; background: var(--fill); display: grid; gap: 8px; font-size: 0.9375rem; line-height: 1.4; }
+.share-icon { vertical-align: -4px; color: var(--accent); }
+.install-actions { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.install-actions .primary, .install-actions .secondary { padding: 10px 16px; font-size: 0.9375rem; }
+.install-actions .link { border: 0; background: none; color: var(--text-2); font-size: 0.875rem; padding: 6px 2px; }

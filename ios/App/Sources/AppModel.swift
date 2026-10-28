@@ -130,6 +130,34 @@ final class AppModel {
         return "Le saviez-vous ? " + e
     }
 
+    // MARK: Preparation
+
+    /// How ready the learner is for the exam, estimated from their answers.
+    var readiness: Readiness { Preparation.readiness(pool: pool, stats: progress.stats) }
+
+    var examPlan: ExamPlan? { Preparation.plan(examDate: progress.examDate, pool: pool, stats: progress.stats) }
+
+    func setExamDate(_ date: Date?) { progress.examDate = date.map { Progress.day($0) } }
+
+    /// Questions the learner keeps getting wrong, the worst first.
+    var trapQuestions: [Question] { questions(Preparation.trapIDs(pool: pool, stats: progress.stats)) }
+
+    /// The questions of a theme the learner is least likely to answer right, for the exercise "work on a weak theme".
+    func weakest(in category: Category, count: Int = ExamRules.practiceSize) -> [Question] {
+        pool.filter { $0.cat == category }
+            .sorted { (Preparation.chance(progress.stats[$0.id]), $0.id) < (Preparation.chance(progress.stats[$1.id]), $1.id) }
+            .prefix(count).map { $0 }
+    }
+
+    var examPassStreak: Int { Preparation.passStreak(exams) }
+
+    /// XP of a finished sign quiz (one per right answer). It counts as practice today, so that it keeps the streak alive.
+    func finishSignQuiz(correct: Int) {
+        progress.journey.add(xp: correct)
+        progress.daily[Progress.day(.now), default: 0] += 1
+        Reminders.refresh(self)
+    }
+
     /// Questions whose review is due today.
     var dueReview: [Question] { questions(progress.journey.dueQuestionIDs()) }
 

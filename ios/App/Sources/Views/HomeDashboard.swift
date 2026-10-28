@@ -23,6 +23,7 @@ struct HomeDashboard: View {
                     examCard
                 }
                 .fixedSize(horizontal: false, vertical: true)
+                ReadinessCard { cat in start(Series(mode: .practice, title: "Points faibles : \(cat.label)", questions: app.weakest(in: cat))) }
                 section("S’entraîner par thème") {
                     LazyVGrid(columns: themeColumns, spacing: 14) {
                         ForEach(Category.allCases, id: \.self) { themeCard($0) }
@@ -32,6 +33,7 @@ struct HomeDashboard: View {
                     LazyVGrid(columns: columns, spacing: 14) {
                         reviseCard("Mes erreurs", "Les questions ratées à la dernière tentative", "xmark.circle.fill", .signRed, m.mistakes)
                         reviseCard("Mes favoris", "Les questions marquées d’une étoile", "star.fill", .ringOrange, app.favorites)
+                        reviseCard("Pièges", "Les questions où vous vous trompez le plus souvent", "exclamationmark.triangle.fill", .signRed, app.trapQuestions)
                         reviseCard("Jamais vues", "Couvrir toute la banque, petit à petit", "plus.circle.fill", .ringBlue, m.unseen)
                     }
                 }

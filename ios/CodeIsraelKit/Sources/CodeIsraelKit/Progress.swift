@@ -40,6 +40,8 @@ public struct Progress: Codable, Sendable {
     public var journey = JourneyProgress()
     /// Questions answered per local date (yyyy-MM-dd).
     public var daily: [String: Int] = [:]
+    /// The date of the learner's exam (yyyy-MM-dd), to plan the revision.
+    public var examDate: String?
 
     public init() {}
 
@@ -53,6 +55,7 @@ public struct Progress: Codable, Sendable {
         favorites = (try? c.decode([String].self, forKey: .favorites)) ?? []
         journey = (try? c.decode(JourneyProgress.self, forKey: .journey)) ?? JourneyProgress()
         daily = (try? c.decode([String: Int].self, forKey: .daily)) ?? [:]
+        examDate = try? c.decode(String.self, forKey: .examDate)
     }
 
     /// Exams whose questions and answers are kept for review.

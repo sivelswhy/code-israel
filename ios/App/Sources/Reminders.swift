@@ -36,7 +36,13 @@ enum Reminders {
 
         let reminder = UNMutableNotificationContent()
         reminder.title = "C’est l’heure de votre leçon"
-        reminder.body = "Quelques minutes suffisent pour avancer vers le permis."
+        if let plan = app.examPlan, plan.daysLeft > 0 {
+            // With an exam date set, the reminder counts down and says how much to do today.
+            reminder.title = "Examen dans \(plan.daysLeft) jour\(plan.daysLeft > 1 ? "s" : "")"
+            reminder.body = plan.toLearn > 0 ? "Environ \(plan.perDay) question\(plan.perDay > 1 ? "s" : "") à travailler aujourd’hui." : "Tout est acquis : un examen blanc pour garder le rythme ?"
+        } else {
+            reminder.body = "Quelques minutes suffisent pour avancer vers le permis."
+        }
         reminder.sound = .default
         center.add(UNNotificationRequest(identifier: daily, content: reminder, trigger: UNCalendarNotificationTrigger(dateMatching: DateComponents(hour: hour(app)), repeats: true)))
 
