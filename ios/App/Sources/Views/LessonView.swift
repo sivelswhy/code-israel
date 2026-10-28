@@ -61,6 +61,7 @@ struct LessonView: View {
                     .accessibilityLabel("Quitter la leçon")
                     .keyboardShortcut(.cancelAction)
                 ProgressBar(value: session.progress, color: lesson?.category.color ?? .ringBlue)
+                SoundToggle()
             }
             .padding(.horizontal, 20).padding(.top, 14).padding(.bottom, 8)
 
@@ -77,6 +78,7 @@ struct LessonView: View {
                             AnswerButton(letter: ["A", "B", "C", "D"][n], question: q, text: q.a[ai], state: state(of: ai, in: q)) {
                                 guard !checked else { return }
                                 chosen = ai
+                                Sound.tap.play()
                             }
                             // On a keyboard, 1 to 4 pick an answer.
                             .keyboardShortcut(KeyEquivalent(Character("\(n + 1)")), modifiers: [])
@@ -154,6 +156,7 @@ struct LessonView: View {
         // The first answer to a question counts in the statistics, like in the classic mode.
         if session.isFirstAttempt, demo == nil { app.record(q, chosen: chosen) }
         Haptics.answer(chosen == q.c)
+        (chosen == q.c ? Sound.right : Sound.wrong).play()
         withAnimation(.spring(duration: 0.4, bounce: 0.25)) { checked = true }
     }
 
@@ -249,7 +252,11 @@ private struct LessonComplete: View {
             .padding(24)
             .frame(maxWidth: 520)
         }
-        .onAppear { shown = true }
+        .onAppear {
+            shown = true
+            Sound.complete.play()
+            for n in 0..<outcome.stars { Sound.star.play(after: 0.9 + 0.35 * Double(n)) }
+        }
     }
 
     private func stat(_ label: String, _ value: String, _ color: Color) -> some View {

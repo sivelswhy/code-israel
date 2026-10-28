@@ -379,6 +379,7 @@ struct TalkingMascot: View {
 
     private func poke() {
         Haptics.answer(true)
+        Sound.tap.play()
         reaction = .cheer
         tip = app.tip()
         reset?.cancel()
