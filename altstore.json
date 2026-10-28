@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.13",
+          "buildVersion": "13",
+          "date": "2026-10-28",
+          "localizedDescription": "AltStore : version 1.12",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.13/CodeIsrael.ipa",
+          "size": 27148122,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.12",
           "buildVersion": "12",
           "date": "2026-10-28",
