@@ -52,7 +52,7 @@ struct LessonView: View {
     /// How the current question is asked: the plain choice, true or false, listening, or Hebrew to French.
     private var kind: ExerciseKind {
         guard let q = question else { return .choice }
-        return ExercisePlanner.kind(position: position, firstAttempt: session.isFirstAttempt, hasHebrew: app.hebrew(q.id) != nil)
+        return ExercisePlanner.kind(position: position, firstAttempt: session.isFirstAttempt, hasHebrew: app.hebrewExercises && app.hebrew(q.id) != nil)
     }
 
     private func translations(_ q: Question) -> (options: [String], correct: Int) { ExercisePlanner.translations(for: q, in: app.pool) }
@@ -275,9 +275,10 @@ struct LessonView: View {
                     .buttonStyle(.borderedProminent).tint(tint).controlSize(.large)
                     .keyboardShortcut(.defaultAction)
             }
-            .padding(.horizontal, 20).padding(.top, 14).padding(.bottom, 14)
+            .padding(.horizontal, 20).padding(.top, 14).padding(.bottom, 8)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background { tint.opacity(0.14).background(Color.cardBackground).ignoresSafeArea(edges: .bottom) }
+            // The colour runs down to the edge of the screen, under the home indicator: no band below the button.
+            .background(alignment: .bottom) { tint.opacity(0.14).background(Color.cardBackground).padding(.bottom, -200) }
             .transition(.move(edge: .bottom).combined(with: .opacity))
         } else {
             Button { check(q) } label: { Text("Vérifier").frame(maxWidth: .infinity) }
@@ -410,10 +411,10 @@ private struct LessonComplete: View {
             Button(action: close) { Text("Continuer").frame(maxWidth: .infinity) }
                 .buttonStyle(.borderedProminent).controlSize(.large)
                 .keyboardShortcut(.defaultAction)
-                .padding(.horizontal, 24).padding(.vertical, 12)
+                .padding(.horizontal, 24).padding(.top, 12).padding(.bottom, 8)
                 .frame(maxWidth: 520)
                 .frame(maxWidth: .infinity)
-                .background(Color.groupedBackground.ignoresSafeArea(edges: .bottom))
+                .background(alignment: .bottom) { Color.groupedBackground.padding(.bottom, -200) }
         }
         .onAppear {
             shown = true

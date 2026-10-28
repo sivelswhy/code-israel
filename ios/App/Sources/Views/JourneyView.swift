@@ -14,7 +14,7 @@ struct JourneyView: View {
 
     /// On a phone, the quests and the reminders open in a sheet instead of crowding the path.
     enum Sheet: String, Identifiable {
-        case quests, reminders
+        case quests, settings
         var id: String { rawValue }
     }
 
@@ -63,12 +63,12 @@ struct JourneyView: View {
             NavigationStack {
                 ScrollView {
                     Group {
-                        if which == .quests { quests(journey) } else { remindersCard }
+                        if which == .quests { quests(journey) } else { VStack(spacing: 12) { remindersCard; hebrewCard } }
                     }
                     .padding(20)
                 }
                 .background(Color.groupedBackground)
-                .navigationTitle(which == .quests ? "Quêtes du jour" : "Rappels")
+                .navigationTitle(which == .quests ? "Quêtes du jour" : "Réglages")
                 #if !os(macOS)
                 .navigationBarTitleDisplayMode(.inline)
                 #endif
@@ -110,6 +110,7 @@ struct JourneyView: View {
                             }
                         }
                         .padding(.vertical, 8)
+                        .zIndex(1)
                     }
                 }
                 .padding(.horizontal, 20).padding(.vertical, 16)
@@ -190,11 +191,13 @@ struct JourneyView: View {
         return ZStack(alignment: side < 0 ? .topLeading : .topTrailing) {
             node
             if current {
-                TalkingMascot(mascot: .rouli, mood: .happy, size: half < 160 ? 60 : 84, message: half < 170 ? nil : "Prêt ? C’est parti !")
+                TalkingMascot(mascot: .rouli, mood: .happy, size: half < 160 ? 60 : 84, message: half < 170 ? nil : "Prêt ? C’est parti !", floating: true, bubbleAlignment: side < 0 ? .topLeading : .topTrailing)
                     .frame(maxWidth: half < 160 ? 150 : 200, alignment: side < 0 ? .leading : .trailing)
             }
         }
         .padding(.vertical, 14)
+        // A tip told by the guide may reach over the rows around it: it is drawn above them.
+        .zIndex(current ? 1 : 0)
     }
 
     private func start(_ lesson: Lesson) {
@@ -281,6 +284,8 @@ struct JourneyView: View {
 
             remindersCard
 
+            hebrewCard
+
             Text("Les questions ratées reviennent après 1 jour, puis 2, 4, 8 et 16 jours si vous les réussissez.")
                 .font(.footnote).foregroundStyle(.secondary)
         }
@@ -317,7 +322,7 @@ extension JourneyView {
                     shortcut("arrow.triangle.2.circlepath", due.isEmpty ? "Révision" : "Révision (\(due.count))", due.isEmpty ? .gray : .signRed) { startReview(due) }.disabled(due.isEmpty)
                     shortcut("scope", "Entraînement", .ringBlue) { active = ActiveLesson(title: "Entraînement adapté", lesson: nil, questions: app.adaptiveQuestions, isReview: false) }
                     shortcut("square.grid.2x2.fill", "Panneaux", .ringGreen) { matchSeed = Int.random(in: 0..<10_000) }
-                    shortcut("bell.fill", "Rappels", .gray) { sheet = .reminders }
+                    shortcut("gearshape.fill", "Réglages", .gray) { sheet = .settings }
                 }
             }
         }
@@ -450,6 +455,18 @@ extension JourneyView {
             .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
+        .card()
+    }
+
+    /// The Hebrew reading exercises are an option: they are never forced on the learner.
+    fileprivate var hebrewCard: some View {
+        Toggle(isOn: Binding(get: { app.hebrewExercises }, set: { app.hebrewExercises = $0 })) {
+            VStack(alignment: .leading, spacing: 2) {
+                Label("Exercices en hébreu", systemImage: "character.book.closed").font(.headline)
+                Text("Ajoute de temps en temps un texte hébreu de l’examen à retrouver en français. Désactivé par défaut.")
+                    .font(.footnote).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+            }
+        }
         .card()
     }
 

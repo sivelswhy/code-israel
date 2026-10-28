@@ -358,23 +358,49 @@ struct TalkingMascot: View {
     var size: CGFloat = 90
     /// What it says on its own.
     var message: String?
+    /// True when the bubble must not take any room: it floats above the character instead of pushing the layout
+    /// around (on the path, a tip would otherwise change the spacing between the lesson buttons).
+    var floating = false
+    var bubbleAlignment: Alignment = .topLeading
     @Environment(AppModel.self) private var app
     @State private var reaction: Mood?
     @State private var tip: String?
     @State private var reset: Task<Void, Never>?
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            if let text = tip ?? message {
-                SpeechBubble(text: text)
-                    .transition(.scale(scale: 0.85, anchor: .bottomLeading).combined(with: .opacity))
-                    .id(text)
+        let text = tip ?? message
+        Group {
+            if floating {
+                character
+                    .overlay(alignment: bubbleAlignment) {
+                        if let text {
+                            SpeechBubble(text: text)
+                                .frame(width: 190, alignment: bubbleAlignment == .topTrailing ? .trailing : .leading)
+                                .fixedSize(horizontal: false, vertical: true)
+                                // The bubble sits just above the character.
+                                .alignmentGuide(.top) { $0[.bottom] + 6 }
+                                .transition(.scale(scale: 0.85, anchor: .bottomLeading).combined(with: .opacity))
+                                .id(text)
+                        }
+                    }
+            } else {
+                VStack(alignment: .leading, spacing: 6) {
+                    if let text {
+                        SpeechBubble(text: text)
+                            .transition(.scale(scale: 0.85, anchor: .bottomLeading).combined(with: .opacity))
+                            .id(text)
+                    }
+                    character
+                }
             }
-            Button(action: poke) { MascotView(mascot: mascot, mood: reaction ?? mood, size: size) }
-                .buttonStyle(.plain)
-                .accessibilityHint("Touchez pour une astuce")
         }
-        .animation(.spring(duration: 0.4, bounce: 0.3), value: tip ?? message)
+        .animation(.spring(duration: 0.4, bounce: 0.3), value: text)
+    }
+
+    private var character: some View {
+        Button(action: poke) { MascotView(mascot: mascot, mood: reaction ?? mood, size: size) }
+            .buttonStyle(.plain)
+            .accessibilityHint("Touchez pour une astuce")
     }
 
     private func poke() {

@@ -55,10 +55,10 @@ struct MatchGame: View {
             if finished {
                 Button(action: close) { Text("Continuer").frame(maxWidth: .infinity) }
                     .buttonStyle(.borderedProminent).controlSize(.large).keyboardShortcut(.defaultAction)
-                    .padding(.horizontal, 20).padding(.vertical, 12)
+                    .padding(.horizontal, 20).padding(.top, 12).padding(.bottom, 8)
                     .frame(maxWidth: 680)
                     .frame(maxWidth: .infinity)
-                    .background(Color.groupedBackground.ignoresSafeArea(edges: .bottom))
+                    .background(alignment: .bottom) { Color.groupedBackground.padding(.bottom, -200) }
                     .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }

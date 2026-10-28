@@ -4,6 +4,7 @@ import { AnswerText, Picture } from '../Quiz'
 import { useSigns } from '../Signs'
 import { exerciseKind, isFinished, isFirstAttempt, newSession, outcome as sessionOutcome, RULES, sessionProgress, statement, submit, translations, type Lesson, type Outcome, type Session } from './engine'
 import { Mascot, TalkingMascot } from './Mascots'
+import { hebrewExercisesOn } from './options'
 import { play, setSounds, soundsOn, speak, stopSpeaking, canSpeak } from './sounds'
 
 interface Props {
@@ -42,8 +43,9 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
   const byId = useMemo(() => new Map(questions.map((q) => [q.id, q])), [questions])
 
   useEffect(() => {
-    // The Hebrew exercises need the official Hebrew wording; without it they are skipped.
-    loadQuestions('he').then((all) => setHebrew(new Map(all.map((q) => [q.id, q]))), () => setHebrew(new Map()))
+    // The Hebrew exercises are an option, and need the official Hebrew wording: without either they are skipped.
+    if (hebrewExercisesOn()) loadQuestions('he').then((all) => setHebrew(new Map(all.map((q) => [q.id, q]))), () => setHebrew(new Map()))
+    else setHebrew(new Map())
     loadLaw().then(setLaw, () => {})
     return stopSpeaking
   }, [])

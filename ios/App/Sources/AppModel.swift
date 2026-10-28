@@ -36,6 +36,11 @@ final class AppModel {
         didSet { UserDefaults.standard.set(mode.rawValue, forKey: "appMode") }
     }
 
+    /// Hebrew reading exercises in the lessons: off unless the learner turns them on.
+    var hebrewExercises = UserDefaults.standard.bool(forKey: "hebrewExercises") {
+        didSet { UserDefaults.standard.set(hebrewExercises, forKey: "hebrewExercises") }
+    }
+
     @ObservationIgnored private var poolByID: [String: Question]?
     @ObservationIgnored private var paths: [License: LearningPath] = [:]
 

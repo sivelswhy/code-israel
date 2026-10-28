@@ -9,6 +9,7 @@ import {
 } from './engine'
 import { TalkingMascot } from './Mascots'
 import { canNotify, remindersOn, setReminders } from './reminders'
+import { hebrewExercisesOn, setHebrewExercises } from './options'
 import { play } from './sounds'
 
 const COLORS: Record<Category, string> = { rules: 'var(--sign-blue)', safety: 'var(--sign-red)', signs: '#d97706', vehicle: 'var(--sign-green)' }
@@ -152,6 +153,7 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
   const quests = questsOf()
   const [reward, setReward] = useState<ChestReward | null>(null)
   const [reminders, setReminderState] = useState(remindersOn())
+  const [hebrew, setHebrew] = useState(hebrewExercisesOn())
   const hour = Object.keys(j.hours).length ? Number(Object.entries(j.hours).sort((a, b) => b[1] - a[1] || Number(a[0]) - Number(b[0]))[0][0]) : 19
   const chestDone = j.today.day === localDay(new Date()) && j.today.chestOpened
 
@@ -256,6 +258,13 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
           <input type="checkbox" role="switch" checked={reminders} onChange={async (e) => setReminderState(await setReminders(e.target.checked))} />
         </label>
       )}
+      <label className="card reminders">
+        <span>
+          <strong>📖 Exercices en hébreu</strong>
+          <small className="muted">Ajoute de temps en temps un texte hébreu de l’examen à retrouver en français. Désactivé par défaut.</small>
+        </span>
+        <input type="checkbox" role="switch" checked={hebrew} onChange={(e) => { setHebrew(e.target.checked); setHebrewExercises(e.target.checked) }} />
+      </label>
       <p className="muted small">Les questions ratées reviennent quand la mémoire s’affaiblit : après environ 1 jour, puis de plus en plus tard si vous les réussissez.</p>
     </div>
   )
