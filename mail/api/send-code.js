@@ -5,7 +5,7 @@
 //   SMTP_HOST, SMTP_PORT (465 for SSL, 587 otherwise), SMTP_USER, SMTP_PASS   the mail account that sends
 //   MAIL_FROM            the sender shown, e.g. "Code Israël <moi@exemple.fr>" (defaults to SMTP_USER)
 //   ALLOWED_RECIPIENTS   comma-separated addresses that may receive a code, e.g. "moi@exemple.fr", or "*" for anyone
-//   SYNC_URL             address of the sync server: a code is only mailed when it already exists there
+//   SYNC_URL             address of the sync server: it allows or refuses each e-mail (code in use, once an hour, daily limit)
 //   ALLOWED_ORIGIN       the site allowed to call this function from a browser (default https://sivelswhy.github.io)
 import { createHash } from 'node:crypto'
 import nodemailer from 'nodemailer'
@@ -43,11 +43,14 @@ export function createHandler({ env = process.env, transport, fetchImpl = fetch 
     if (!allowed.length) return res.status(503).json({ error: 'Envoi par e-mail non configuré.' })
     if (!allowed.includes('*') && !allowed.includes(email.toLowerCase())) return res.status(403).json({ error: 'Cette adresse n’est pas autorisée.' })
 
-    // Only a code that is really in use is mailed: this cannot be used to send anything else to anyone.
+    // The sync server decides whether this code may be mailed: it must be in use (so nothing else can be sent to
+    // anyone), at most once an hour, and within a daily limit for everyone.
     if (!env.SYNC_URL) return res.status(503).json({ error: 'Serveur de synchronisation non configuré.' })
     const id = createHash('sha256').update(`code-israel:${raw}`).digest('hex')
-    const known = await fetchImpl(`${env.SYNC_URL.replace(/\/$/, '')}/p/${id}`).then((r) => r.ok, () => false)
-    if (!known) return res.status(404).json({ error: 'Ce code n’est pas encore synchronisé : touchez « Synchroniser maintenant » puis réessayez.' })
+    const permission = await fetchImpl(`${env.SYNC_URL.replace(/\/$/, '')}/p/${id}/mail`, { method: 'POST' }).then((r) => r.status, () => 0)
+    if (permission === 404) return res.status(404).json({ error: 'Ce code n’est pas encore synchronisé : touchez « Synchroniser maintenant » puis réessayez.' })
+    if (permission === 429) return res.status(429).json({ error: 'Un e-mail a déjà été envoyé pour ce code il y a peu (ou la limite du jour est atteinte). Réessayez dans une heure.' })
+    if (permission !== 200) return res.status(502).json({ error: 'Serveur de synchronisation injoignable.' })
 
     const mailer = transport ?? nodemailer.createTransport({
       host: env.SMTP_HOST,

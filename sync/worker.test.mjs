@@ -29,6 +29,21 @@ test('refuses what it should', async () => {
   assert.equal((await call(`/p/${id}`, { method: 'OPTIONS' })).status, 204)
 })
 
+test('allows one e-mail an hour for a code in use, and a daily limit', async () => {
+  const mailId = 'c'.repeat(64)
+  assert.equal((await call(`/p/${mailId}/mail`, { method: 'POST' })).status, 404, 'unknown code')
+  assert.equal((await call(`/p/${mailId}/mail`)).status, 405)
+  await call(`/p/${mailId}`, { method: 'PUT', body: JSON.stringify({ v: 1 }) })
+  assert.equal((await call(`/p/${mailId}/mail`, { method: 'POST' })).status, 200)
+  assert.equal((await call(`/p/${mailId}/mail`, { method: 'POST' })).status, 429, 'once an hour')
+  // The cooldown ends after an hour: the key is stored with that lifetime.
+  assert.ok(ttl.includes(3600))
+  const limited = { PROGRESS: env.PROGRESS, DAILY_MAIL_LIMIT: '1' }
+  const other = 'd'.repeat(64)
+  await worker.fetch(new Request(`https://sync.test/p/${other}`, { method: 'PUT', body: JSON.stringify({ v: 1 }) }), limited)
+  assert.equal((await worker.fetch(new Request(`https://sync.test/p/${other}/mail`, { method: 'POST' }), limited)).status, 429, 'daily limit reached')
+})
+
 test('different codes never see each other', async () => {
   const other = 'b'.repeat(64)
   await call(`/p/${other}`, { method: 'PUT', body: JSON.stringify({ v: 1, who: 'other' }) })

@@ -19,9 +19,11 @@ function run(handler, { method = 'POST', body, headers = {} } = {}) {
   return handler({ method, body, headers }, res).then(() => out)
 }
 
-const known = (url) => Promise.resolve({ ok: url === `https://sync.test/p/${id}` })
+// The sync server: knows one code, allows a single e-mail for it.
+let allowed = 1
+const known = (url, init) => Promise.resolve({ status: url === `https://sync.test/p/${id}/mail` && init?.method === 'POST' ? (allowed-- > 0 ? 200 : 429) : 404 })
 
-test('mails a code that exists, to an allowed address', async () => {
+test('mails a code that exists, to an allowed address, once', async () => {
   const sent = []
   const handler = createHandler({ env, fetchImpl: known, transport: { sendMail: async (m) => sent.push(m) } })
   const r = await run(handler, { body: { email: 'Moi@exemple.fr', code } })
@@ -30,6 +32,17 @@ test('mails a code that exists, to an allowed address', async () => {
   assert.equal(sent[0].to, 'Moi@exemple.fr')
   assert.equal(sent[0].from, 'robot@exemple.fr')
   assert.ok(sent[0].text.includes(code))
+  assert.equal((await run(handler, { body: { email: 'moi@exemple.fr', code } })).status, 429, 'the sync server refuses a second e-mail')
+  assert.equal(sent.length, 1)
+  allowed = 1
+})
+
+test('anyone may receive their own code when the function is open', async () => {
+  const sent = []
+  const open = createHandler({ env: { ...env, ALLOWED_RECIPIENTS: '*' }, fetchImpl: known, transport: { sendMail: async (m) => sent.push(m) } })
+  assert.equal((await run(open, { body: { email: 'quelquun@autre.org', code } })).status, 200)
+  assert.equal(sent[0].to, 'quelquun@autre.org')
+  allowed = 1
 })
 
 test('refuses what it should', async () => {
@@ -50,6 +63,7 @@ test('the site may call it, and a failing mail account is reported', async () =>
   const r = await run(ok, { body: { email: 'moi@exemple.fr', code }, headers: { origin: 'https://sivelswhy.github.io' } })
   assert.equal(r.status, 200)
   assert.equal(r.headers['access-control-allow-origin'], 'https://sivelswhy.github.io')
+  allowed = 1
   const broken = createHandler({ env, fetchImpl: known, transport: { sendMail: async () => { throw new Error('auth') } } })
   assert.equal((await run(broken, { body: { email: 'moi@exemple.fr', code } })).status, 502)
 })

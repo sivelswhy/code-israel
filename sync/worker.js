@@ -16,7 +16,24 @@ const reply = (body, status = 200, extra = {}) => new Response(body, { status, h
 export default {
   async fetch(request, env) {
     if (request.method === 'OPTIONS') return reply(null, 204)
-    const match = new URL(request.url).pathname.match(/^\/p\/([0-9a-f]{64})$/)
+    const path = new URL(request.url).pathname
+
+    // Permission to e-mail a code: only a code in use, once an hour, and a limited number a day for everyone.
+    const mailMatch = path.match(/^\/p\/([0-9a-f]{64})\/mail$/)
+    if (mailMatch) {
+      if (request.method !== 'POST') return reply('Method not allowed', 405)
+      const id = mailMatch[1]
+      if ((await env.PROGRESS.get(id)) === null) return reply('Unknown code', 404)
+      if ((await env.PROGRESS.get(`mail-${id}`)) !== null) return reply('Already sent', 429)
+      const day = `mailday-${new Date().toISOString().slice(0, 10)}`
+      const sent = Number((await env.PROGRESS.get(day)) ?? 0)
+      if (sent >= Number(env.DAILY_MAIL_LIMIT ?? 100)) return reply('Daily limit reached', 429)
+      await env.PROGRESS.put(`mail-${id}`, '1', { expirationTtl: 3600 })
+      await env.PROGRESS.put(day, String(sent + 1), { expirationTtl: 2 * 24 * 3600 })
+      return reply(null, 200)
+    }
+
+    const match = path.match(/^\/p\/([0-9a-f]{64})$/)
     if (!match) return reply('Not found', 404)
     const key = match[1]
 
