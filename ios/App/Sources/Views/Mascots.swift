@@ -380,13 +380,14 @@ struct TalkingMascot: View {
         Group {
             if floating {
                 character
-                    .overlay(alignment: bubbleAlignment) {
+                    // Lined up with the bottom of the character, then lifted by its height: the bubble ends up just above it,
+                    // wherever its text makes it grow.
+                    .overlay(alignment: trailing ? .bottomTrailing : .bottomLeading) {
                         if let text {
                             SpeechBubble(text: text, tailTrailing: trailing, tailInset: tail)
                                 .frame(width: 190, alignment: trailing ? .trailing : .leading)
                                 .fixedSize(horizontal: false, vertical: true)
-                                // The bubble sits above the character, clear of its jumps.
-                                .alignmentGuide(.top) { $0[.bottom] + gap }
+                                .offset(y: -(size + gap))
                                 .transition(.scale(scale: 0.85, anchor: trailing ? .bottomTrailing : .bottomLeading).combined(with: .opacity))
                                 .id(text)
                         }
@@ -402,7 +403,7 @@ struct TalkingMascot: View {
                 }
             }
         }
-        .animation(.spring(duration: 0.4, bounce: 0.3), value: text)
+        .animation(.easeOut(duration: 0.25), value: text)
     }
 
     private var character: some View {
