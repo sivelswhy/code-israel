@@ -1,4 +1,4 @@
-// Adds a version to the AltStore source (public/altstore.json) so that AltStore offers the update.
+// Adds a version to the AltStore source (altstore.json, at the root of the repository) so that AltStore offers the update.
 // Usage: node scripts/altstore-source.mjs <version> <build> <ipaPath> <downloadURL> [notes]
 import { readFileSync, statSync, writeFileSync } from 'node:fs'
 
@@ -8,7 +8,7 @@ if (!version || !build || !ipa || !downloadURL) {
   process.exit(1)
 }
 
-const file = new URL('../public/altstore.json', import.meta.url)
+const file = new URL('../altstore.json', import.meta.url)
 const source = JSON.parse(readFileSync(file, 'utf8'))
 const app = source.apps[0]
 const entry = {
