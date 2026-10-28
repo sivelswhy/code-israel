@@ -63,23 +63,18 @@ Les mises à jour sont automatiques : dès qu'un changement du dossier `ios/` ar
 
 ## Synchronisation entre appareils
 
-Un code secret (`XXXX-XXXX-XXXX-XXXX`) garde la même progression sur le site, l'iPhone et le Mac : pas de compte, pas d'e-mail. Le serveur (`sync/worker.js`, sur Cloudflare Workers, plan gratuit) ne voit qu'une empreinte du code et conserve les données un an après la dernière visite.
+Un code secret (`XXXX-XXXX-XXXX-XXXX`) garde la même progression sur le site, l'iPhone et le Mac : pas de compte, pas d'e-mail. Tout tourne dans le projet Vercel `code-israel-mail` (dossier `mail/`, plan gratuit) : `api/p.js` garde la progression de chacun sous l'empreinte (SHA-256) de son code, dans un espace de stockage Vercel Blob **privé**. Le serveur ne voit jamais le code, ni une adresse e-mail, ni un nom.
 
-Mise en ligne, une seule fois (compte Cloudflare gratuit) :
+Mise en route, une seule fois (dans le tableau de bord Vercel) :
 
-```
-sync/deploy.sh
-```
+1. Projet `code-israel-mail` → onglet **Storage** → **Create** → **Blob** → accès **Private**, relié au projet (tous les environnements).
+2. Redéployer le projet.
+3. Les apps lisent l'adresse du serveur dans `public/sync.json` et `ios/App/Resources/Data/sync.json` (déjà présents) : tant qu'ils n'existent pas, la synchronisation reste masquée.
 
-Le script ouvre le navigateur pour se connecter, crée l'espace de stockage, déploie le serveur et écrit son adresse dans `public/sync.json` et `ios/App/Resources/Data/sync.json`. Il reste à commiter ces deux fichiers : tant qu'ils n'existent pas, la synchronisation reste masquée dans les apps. Tests du serveur : `node --test sync/worker.test.mjs`.
+Tests : `cd mail && npm install && node --test send-code.test.mjs sync.test.mjs`.
 
 ### Envoyer le code par e-mail (facultatif)
 
-`mail/` est une fonction Vercel qui envoie le code par e-mail avec ton compte SMTP. Les identifiants ne sont jamais dans le dépôt : tu les saisis toi-même dans les variables d'environnement du projet Vercel.
+`mail/api/send-code.js` envoie le code par e-mail avec un compte SMTP. Les identifiants ne sont jamais dans le dépôt : ils sont saisis dans les variables d'environnement du projet Vercel (*Settings → Environment Variables*) : `SMTP_HOST`, `SMTP_PORT` (465 ou 587), `SMTP_USER`, `SMTP_PASS`, `MAIL_FROM` (par exemple `Code Israël <toi@exemple.fr>`). `ALLOWED_RECIPIENTS` vaut `*` : chaque utilisateur reçoit son propre code.
 
-1. Le projet Vercel `code-israel-mail` existe déjà (dépôt lié, **Root Directory : `mail`**, adresse `https://code-israel-mail.vercel.app/api/send-code`). `ALLOWED_RECIPIENTS` vaut `*` : chaque utilisateur reçoit son propre code.
-2. Dans *Settings → Environment Variables* : `SMTP_HOST`, `SMTP_PORT` (465 ou 587), `SMTP_USER`, `SMTP_PASS`, `MAIL_FROM` (par exemple `Code Israël <toi@exemple.fr>`), `ALLOWED_RECIPIENTS` (ton adresse, ou `*` pour tout le monde), `SYNC_URL` (l'adresse du serveur de synchronisation).
-3. Déployer, puis ajouter l'adresse de la fonction dans `public/sync.json` et `ios/App/Resources/Data/sync.json` :
-   `{ "url": "https://…workers.dev", "mail": "https://….vercel.app/api/send-code" }`
-
-Sans cela, les apps proposent un brouillon d'e-mail à envoyer soi-même. La fonction n'envoie que le code d'une synchronisation qui existe, jamais un autre texte, et refuse toute adresse absente de `ALLOWED_RECIPIENTS`. Tests : `cd mail && npm install && node --test send-code.test.mjs`.
+La fonction n'envoie que le code d'une synchronisation qui existe, jamais un autre texte, au plus une fois par heure et par code, avec un plafond quotidien (`DAILY_MAIL_LIMIT`, 100 par défaut). Sans elle, les apps proposent un brouillon d'e-mail à envoyer soi-même.

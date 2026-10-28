@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "description": "Envoie le code de synchronisation par e-mail (fonction Vercel, identifiants SMTP dans les variables d'environnement).",
   "dependencies": {
-    "nodemailer": "^6.9.16"
+    "nodemailer": "^6.9.16",
+    "@vercel/blob": "^2.0.0"
   }
 }

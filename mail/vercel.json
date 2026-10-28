@@ -1,4 +1,21 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "functions": { "api/send-code.js": { "maxDuration": 15 } }
+  "functions": {
+    "api/send-code.js": {
+      "maxDuration": 15
+    },
+    "api/p.js": {
+      "maxDuration": 15
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/p/:id/mail",
+      "destination": "/api/p?id=:id&action=mail"
+    },
+    {
+      "source": "/p/:id",
+      "destination": "/api/p?id=:id"
+    }
+  ]
 }
