@@ -90,10 +90,10 @@ struct QuizView: View {
             }
             .onChange(of: index) { proxy.scrollTo("top", anchor: .top) }
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Color.groupedBackground)
         .safeAreaInset(edge: .bottom) { actions }
         .navigationTitle(series.title)
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineTitle()
         .toolbar {
             ToolbarItem(placement: .cancellationAction) {
                 Button("Quitter") {
@@ -154,7 +154,7 @@ struct QuizView: View {
                                 Button("\(i + 1)") { go(i) }
                                     .font(.caption.monospacedDigit().weight(i == index ? .bold : .regular))
                                     .frame(width: 30, height: 30)
-                                    .background(Circle().fill(answers[i] != nil ? Color.accentColor.opacity(0.18) : Color(.tertiarySystemFill)))
+                                    .background(Circle().fill(answers[i] != nil ? Color.accentColor.opacity(0.18) : Color.subtleFill))
                                     .overlay(Circle().stroke(i == index ? Color.accentColor : .clear, lineWidth: 2))
                                     .buttonStyle(.plain)
                                     .id(i)
@@ -240,7 +240,7 @@ struct AnswerButton: View {
 
     private var badge: Color {
         switch state {
-        case .normal, .dimmed: Color(.tertiarySystemFill)
+        case .normal, .dimmed: Color.subtleFill
         case .selected: .accentColor
         case .correct: .ringGreen
         case .wrong: .signRed
@@ -252,7 +252,7 @@ struct AnswerButton: View {
         case .correct: Color.ringGreen.opacity(0.12)
         case .wrong: Color.signRed.opacity(0.1)
         case .selected: Color.accentColor.opacity(0.1)
-        default: Color(.secondarySystemGroupedBackground)
+        default: Color.cardBackground
         }
     }
 

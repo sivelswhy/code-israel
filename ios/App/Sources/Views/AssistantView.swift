@@ -31,7 +31,7 @@ struct AssistantView: View {
                         }
                         .padding(12)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(RoundedRectangle(cornerRadius: 12).fill(Color(.secondarySystemGroupedBackground)))
+                        .background(RoundedRectangle(cornerRadius: 12).fill(Color.cardBackground))
                     }
                     ForEach(conversation.messages) { message in
                         MessageView(message: message).id(message.id)
@@ -57,10 +57,10 @@ struct AssistantView: View {
                 if let id = conversation.messages.last?.id { withAnimation { proxy.scrollTo(id, anchor: .bottom) } }
             }
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Color.groupedBackground)
         .safeAreaInset(edge: .bottom) { inputBar }
         .navigationTitle("Assistant")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineTitle()
         .toolbar {
             if topic != nil {
                 ToolbarItem(placement: .cancellationAction) { Button("Fermer") { dismiss() } }
@@ -82,7 +82,7 @@ struct AssistantView: View {
                 .submitLabel(.send)
                 .onSubmit { send(input) }
                 .padding(.horizontal, 14).padding(.vertical, 10)
-                .background(RoundedRectangle(cornerRadius: 20).fill(Color(.secondarySystemGroupedBackground)))
+                .background(RoundedRectangle(cornerRadius: 20).fill(Color.cardBackground))
             if conversation.isAnswering {
                 Button { conversation.stop() } label: { Image(systemName: "stop.circle.fill").font(.system(size: 34)) }
                     .accessibilityLabel("Arrêter")
@@ -138,7 +138,7 @@ private struct MessageView: View {
                 }
             }
             .padding(14)
-            .background(RoundedRectangle(cornerRadius: 18).fill(Color(.secondarySystemGroupedBackground)))
+            .background(RoundedRectangle(cornerRadius: 18).fill(Color.cardBackground))
             .padding(.trailing, 24)
         }
     }
@@ -193,7 +193,7 @@ private struct EngineCard: View {
                 }
                 .padding(14)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .background(RoundedRectangle(cornerRadius: 14).fill(Color(.secondarySystemGroupedBackground)))
+                .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
             }
         }
     }

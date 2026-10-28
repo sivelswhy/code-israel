@@ -2,6 +2,11 @@ import CodeIsraelKit
 import Foundation
 import Observation
 
+// Foundation also has a `Progress`: this names the learner's one from CodeIsraelKit.
+typealias Progress = CodeIsraelKit.Progress
+// On the Mac, the Objective-C runtime also defines a `Category`.
+typealias Category = CodeIsraelKit.Category
+
 /// App-wide state: the bundled data and the learner's progress, saved on the device only.
 @MainActor
 @Observable

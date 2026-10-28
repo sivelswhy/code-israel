@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00102D878CA5485DDF269765 /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0D772E3DBF657AE0F9415 /* AssistantView.swift */; };
 		03D0F378AB6657DB49DD243F /* AssistantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BEA2D51817423AD300236 /* AssistantModel.swift */; };
 		0626BA0F34B77EB957DF0BD7 /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 1A1D013B0407FB5DE5C6701B /* HuggingFace */; };
 		0F59CE8E1426E92CD27D85E3 /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = 5DCBA10222CF45E25D5416F5 /* Tokenizers */; };
@@ -15,20 +16,44 @@
 		206AB66C096D2A60A96A83E1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20993FE834022C47B7F340E /* HomeView.swift */; };
 		24436085476382793375B237 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 209050857647D17551B65998 /* Data */; };
 		28FDF5BE5697A3736D69CE48 /* QwenEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362C8DD607EA9AC90DF9D11 /* QwenEngine.swift */; };
+		2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68362458393434CECECDD314 /* Platform.swift */; };
+		2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68362458393434CECECDD314 /* Platform.swift */; };
+		33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472011E040C9B65E1F05635A /* QuizView.swift */; };
+		3456E97D4D4732791ADE99C8 /* HuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 8662D470D0EBADC683250CF6 /* HuggingFace */; };
+		3916761C8BC45E9BD47A92F2 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1D3AC44C5F83C775ECB35 /* Components.swift */; };
 		3C52A0E6F3B4B867CF61514C /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = E46D25FC7F249F0C8E7E70EA /* MLXLMCommon */; };
+		476D4400C2574FEDE3A840C4 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802FB7CCEB6EC481119EC3D /* ResultsView.swift */; };
+		497516132C9C8B5EEF1F521B /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 4B367B0BC8E6D365818A5654 /* MLXLMCommon */; };
+		4BF5DDB5AA419B6735C55F99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20993FE834022C47B7F340E /* HomeView.swift */; };
 		4D5783D1F80CCAF0CD5BBCC9 /* AssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0D772E3DBF657AE0F9415 /* AssistantView.swift */; };
+		4D90F2822F8DAC1808B40585 /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */; };
 		52B58B1A543A1426DB9FB433 /* MLXHuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 847751B1A49898DD2782DEA1 /* MLXHuggingFace */; };
 		54066280D865A5C38D0068B0 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
 		541579A2D7558E008B3DD76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EB5656EB3257FD02C5A82C /* Assets.xcassets */; };
 		57AA48A29EE861F0CC35A406 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9C17453A713BDAC2D1B837FF /* Images */; };
+		609C7C6DEA0D0DD90C192824 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9C17453A713BDAC2D1B837FF /* Images */; };
+		6AA1097757518DAD9BB3A944 /* AppleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F73B5B328C82DFE702D8E6 /* AppleEngine.swift */; };
+		7FCC011670A386397BF9A13F /* Tokenizers in Frameworks */ = {isa = PBXBuildFile; productRef = 0E29C351A493E52472663897 /* Tokenizers */; };
+		9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
+		9E8722BCB0A6625358C54DF1 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
+		9EE65BE210B0ACD98BBFC034 /* CodeIsraelKit in Frameworks */ = {isa = PBXBuildFile; productRef = 35E68F70A1DD086950412F77 /* CodeIsraelKit */; };
 		A6671CF113B1222D4E2FE2EA /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802FB7CCEB6EC481119EC3D /* ResultsView.swift */; };
 		A7CC914C208CC5E4C30913A7 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967388ABAF091F067274DC4 /* SourcesView.swift */; };
+		AA1C8773FC9722AA1C865A13 /* SignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156352260F686793536CB387 /* SignsView.swift */; };
+		AE408FF57BCE904EADFD23E4 /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 952B5EACDD774B42F65FF096 /* MLXLLM */; };
+		BA78ACE3C6588DD74AB937B1 /* AssistantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45BEA2D51817423AD300236 /* AssistantModel.swift */; };
+		BB77A18A85E796A3BC2F26F8 /* MLXHuggingFace in Frameworks */ = {isa = PBXBuildFile; productRef = 528434F08B77D81B2E575F85 /* MLXHuggingFace */; };
 		BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472011E040C9B65E1F05635A /* QuizView.swift */; };
+		C5B6A9223329C1218B0FDB02 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E298C07A33F69731C7E1BD9 /* AppModel.swift */; };
 		CC3A01D76829591F74436D23 /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = BC07071DEBC618D72052D26B /* MLXLLM */; };
 		CC4BABD43D42717AC694195A /* ExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */; };
 		D0133E0F4CFC2AAA00ED1E9A /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
 		D129FFC5D8F471A043BD6EFC /* CodeIsraelKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95E2DBC8E27F9C44D6BD8A96 /* CodeIsraelKit */; };
+		D3B0BA132632F7CF4F5236A9 /* QwenEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1362C8DD607EA9AC90DF9D11 /* QwenEngine.swift */; };
+		DDF7ACE3CC0510ABB93D1032 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 209050857647D17551B65998 /* Data */; };
 		DE19EC5E272B5D9F02BA6B5B /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E298C07A33F69731C7E1BD9 /* AppModel.swift */; };
+		EE9E8772C58CEE0C25A008DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EB5656EB3257FD02C5A82C /* Assets.xcassets */; };
+		F897743194DF00E837B25A0E /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967388ABAF091F067274DC4 /* SourcesView.swift */; };
 		FF4E3BBD66B1AF211B5D0DF7 /* AppleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F73B5B328C82DFE702D8E6 /* AppleEngine.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +68,10 @@
 		472011E040C9B65E1F05635A /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		5563690E99E6FEF14BCFCF1A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		5A6626446988E1538EB6B278 /* CodeIsrael.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CodeIsrael.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68362458393434CECECDD314 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		92F1D3AC44C5F83C775ECB35 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		9C17453A713BDAC2D1B837FF /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Images; path = App/Resources/Images; sourceTree = SOURCE_ROOT; };
+		BCEC9894031BF541DD628EB2 /* CodeIsraelMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeIsraelMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeIsraelApp.swift; sourceTree = "<group>"; };
 		C45BEA2D51817423AD300236 /* AssistantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantModel.swift; sourceTree = "<group>"; };
 		D967388ABAF091F067274DC4 /* SourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
@@ -55,6 +82,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		25E36630A2474D575045E11C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE65BE210B0ACD98BBFC034 /* CodeIsraelKit in Frameworks */,
+				AE408FF57BCE904EADFD23E4 /* MLXLLM in Frameworks */,
+				497516132C9C8B5EEF1F521B /* MLXLMCommon in Frameworks */,
+				BB77A18A85E796A3BC2F26F8 /* MLXHuggingFace in Frameworks */,
+				3456E97D4D4732791ADE99C8 /* HuggingFace in Frameworks */,
+				7FCC011670A386397BF9A13F /* Tokenizers in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A31F57F1DD2884639C964BB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -75,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				5A6626446988E1538EB6B278 /* CodeIsrael.app */,
+				BCEC9894031BF541DD628EB2 /* CodeIsraelMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,6 +177,7 @@
 				92F1D3AC44C5F83C775ECB35 /* Components.swift */,
 				121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */,
 				F20993FE834022C47B7F340E /* HomeView.swift */,
+				68362458393434CECECDD314 /* Platform.swift */,
 				472011E040C9B65E1F05635A /* QuizView.swift */,
 				F802FB7CCEB6EC481119EC3D /* ResultsView.swift */,
 				156352260F686793536CB387 /* SignsView.swift */,
@@ -155,6 +197,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8098EF816F43F63ECDD86F35 /* CodeIsraelMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CEA414D9731D8692B2CC19E /* Build configuration list for PBXNativeTarget "CodeIsraelMac" */;
+			buildPhases = (
+				5693591B2C21CF09C843DF3B /* Sources */,
+				6DD75CB9D5A7B82862DD840E /* Resources */,
+				25E36630A2474D575045E11C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeIsraelMac;
+			packageProductDependencies = (
+				35E68F70A1DD086950412F77 /* CodeIsraelKit */,
+				952B5EACDD774B42F65FF096 /* MLXLLM */,
+				4B367B0BC8E6D365818A5654 /* MLXLMCommon */,
+				528434F08B77D81B2E575F85 /* MLXHuggingFace */,
+				8662D470D0EBADC683250CF6 /* HuggingFace */,
+				0E29C351A493E52472663897 /* Tokenizers */,
+			);
+			productName = CodeIsraelMac;
+			productReference = BCEC9894031BF541DD628EB2 /* CodeIsraelMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C4F3F1F8D678F95CA0FD4A6E /* CodeIsrael */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BD7735B3A1D15C2FD6424B1 /* Build configuration list for PBXNativeTarget "CodeIsrael" */;
@@ -189,6 +256,10 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					8098EF816F43F63ECDD86F35 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
 					C4F3F1F8D678F95CA0FD4A6E = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
@@ -216,11 +287,22 @@
 			projectRoot = "";
 			targets = (
 				C4F3F1F8D678F95CA0FD4A6E /* CodeIsrael */,
+				8098EF816F43F63ECDD86F35 /* CodeIsraelMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6DD75CB9D5A7B82862DD840E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9E8772C58CEE0C25A008DC /* Assets.xcassets in Resources */,
+				DDF7ACE3CC0510ABB93D1032 /* Data in Resources */,
+				609C7C6DEA0D0DD90C192824 /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1A1E8C1309D9777C42CC319 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +316,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5693591B2C21CF09C843DF3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B6A9223329C1218B0FDB02 /* AppModel.swift in Sources */,
+				6AA1097757518DAD9BB3A944 /* AppleEngine.swift in Sources */,
+				BA78ACE3C6588DD74AB937B1 /* AssistantModel.swift in Sources */,
+				00102D878CA5485DDF269765 /* AssistantView.swift in Sources */,
+				9E8722BCB0A6625358C54DF1 /* BrowseView.swift in Sources */,
+				9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */,
+				3916761C8BC45E9BD47A92F2 /* Components.swift in Sources */,
+				4D90F2822F8DAC1808B40585 /* ExplanationView.swift in Sources */,
+				4BF5DDB5AA419B6735C55F99 /* HomeView.swift in Sources */,
+				2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */,
+				33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */,
+				D3B0BA132632F7CF4F5236A9 /* QwenEngine.swift in Sources */,
+				476D4400C2574FEDE3A840C4 /* ResultsView.swift in Sources */,
+				AA1C8773FC9722AA1C865A13 /* SignsView.swift in Sources */,
+				F897743194DF00E837B25A0E /* SourcesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AF878D9CCC32DB3743362370 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,6 +351,7 @@
 				1CFD66D3BB28C35698BB32FF /* Components.swift in Sources */,
 				CC4BABD43D42717AC694195A /* ExplanationView.swift in Sources */,
 				206AB66C096D2A60A96A83E1 /* HomeView.swift in Sources */,
+				2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */,
 				BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */,
 				28FDF5BE5697A3736D69CE48 /* QwenEngine.swift in Sources */,
 				A6671CF113B1222D4E2FE2EA /* ResultsView.swift in Sources */,
@@ -275,6 +380,27 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeisrael.app;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6862398A0D9C412227DE8810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/CodeIsraelMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "App/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeisrael.mac;
+				PRODUCT_NAME = "Code Israël";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -352,17 +478,38 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
+		};
+		B5F1DCFC2145642FCCF1D72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/CodeIsraelMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "App/Info-macOS.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeisrael.mac;
+				PRODUCT_NAME = "Code Israël";
+				SDKROOT = macosx;
+			};
+			name = Release;
 		};
 		EDFC27899CAD64D06EAA84AC /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -412,11 +559,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
@@ -440,6 +587,15 @@
 			buildConfigurations = (
 				8E81B60F90A7F8B79EE464F8 /* Debug */,
 				EDFC27899CAD64D06EAA84AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9CEA414D9731D8692B2CC19E /* Build configuration list for PBXNativeTarget "CodeIsraelMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6862398A0D9C412227DE8810 /* Debug */,
+				B5F1DCFC2145642FCCF1D72D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -481,10 +637,29 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0E29C351A493E52472663897 /* Tokenizers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 016BA3634887D96118C02DB4 /* XCRemoteSwiftPackageReference "swift-transformers" */;
+			productName = Tokenizers;
+		};
 		1A1D013B0407FB5DE5C6701B /* HuggingFace */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 454668F6C4CD769F388D52DE /* XCRemoteSwiftPackageReference "swift-huggingface" */;
 			productName = HuggingFace;
+		};
+		35E68F70A1DD086950412F77 /* CodeIsraelKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CodeIsraelKit;
+		};
+		4B367B0BC8E6D365818A5654 /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CB0F2F24F4F983B721ABA4 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLMCommon;
+		};
+		528434F08B77D81B2E575F85 /* MLXHuggingFace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CB0F2F24F4F983B721ABA4 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXHuggingFace;
 		};
 		5DCBA10222CF45E25D5416F5 /* Tokenizers */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -495,6 +670,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 21CB0F2F24F4F983B721ABA4 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
 			productName = MLXHuggingFace;
+		};
+		8662D470D0EBADC683250CF6 /* HuggingFace */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454668F6C4CD769F388D52DE /* XCRemoteSwiftPackageReference "swift-huggingface" */;
+			productName = HuggingFace;
+		};
+		952B5EACDD774B42F65FF096 /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21CB0F2F24F4F983B721ABA4 /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLLM;
 		};
 		95E2DBC8E27F9C44D6BD8A96 /* CodeIsraelKit */ = {
 			isa = XCSwiftPackageProductDependency;

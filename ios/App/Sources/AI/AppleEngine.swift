@@ -19,7 +19,7 @@ enum AppleEngine {
 
     static var status: Status {
         #if canImport(FoundationModels)
-        if #available(iOS 26.0, *) {
+        if #available(iOS 26.0, macOS 26.0, *) {
             let model = SystemLanguageModel.default
             switch model.availability {
             case .available:
@@ -41,7 +41,7 @@ enum AppleEngine {
         AsyncThrowingStream { continuation in
             let task = Task {
                 #if canImport(FoundationModels)
-                if #available(iOS 26.0, *) {
+                if #available(iOS 26.0, macOS 26.0, *) {
                     do {
                         let session = LanguageModelSession(instructions: system)
                         let options = GenerationOptions(temperature: 0.1, maximumResponseTokens: 300)

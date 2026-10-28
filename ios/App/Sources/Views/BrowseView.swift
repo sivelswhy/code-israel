@@ -81,7 +81,7 @@ struct QuestionDetail: View {
             }
             .padding()
         }
-        .background(Color(.systemGroupedBackground))
-        .navigationBarTitleDisplayMode(.inline)
+        .background(Color.groupedBackground)
+        .inlineTitle()
     }
 }

@@ -11,7 +11,13 @@ struct CodeIsraelApp: App {
             RootView()
                 .environment(app)
                 .environment(engines)
+                #if os(macOS)
+                .frame(minWidth: 520, minHeight: 680)
+                #endif
         }
+        #if os(macOS)
+        .defaultSize(width: 720, height: 860)
+        #endif
     }
 }
 
@@ -53,7 +59,7 @@ struct RootView: View {
             self.topic = topic
             showTopic = true
         }
-        .fullScreenCover(item: $series) { s in
+        .fullScreenCoverCompat(item: $series) { s in
             QuizFlow(series: s, start: { series = $0 })
                 .environment(\.askAssistant) { topic in
                     self.topic = topic
@@ -66,6 +72,6 @@ struct RootView: View {
 
     private var topicSheet: some View {
         NavigationStack { AssistantView(topic: topic) }
-            .presentationDragIndicator(.visible)
+            .dragIndicator()
     }
 }

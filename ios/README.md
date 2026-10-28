@@ -1,4 +1,4 @@
-# Code Israël — app iPhone (SwiftUI)
+# Code Israël — apps iPhone et Mac (SwiftUI)
 
 App native : SwiftUI, aucune page web. La logique (recherche, texte de loi, garde-fous de l’IA,
 examen, progression) est dans le paquet `CodeIsraelKit`, testé pour donner exactement les mêmes
@@ -13,6 +13,17 @@ résultats que l’app web.
    puis lancer sur l’iPhone.
    - Au premier build, Xcode demande d’autoriser les macros de `mlx-swift-lm` : « Trust & Enable ».
    - Le Qwen local n’est pas disponible dans le simulateur (MLX a besoin du GPU de l’iPhone).
+
+## App Mac
+
+Même code SwiftUI que l’iPhone, cible `CodeIsraelMac` (macOS 14 minimum). Dans Xcode, choisir le schéma
+**CodeIsraelMac** et « My Mac ». Les différences entre iPhone et Mac sont réunies dans
+`App/Sources/Views/Platform.swift` (images, couleurs, fenêtres modales, retour haptique).
+Sur Mac, l’app est dans le bac à sable (`App/CodeIsraelMac.entitlements`) avec l’accès réseau sortant, utilisé
+une seule fois pour télécharger le Qwen local.
+
+Construire en ligne de commande demande le composant Metal Toolchain de Xcode (MLX compile ses shaders) :
+`xcodebuild -downloadComponent MetalToolchain`.
 
 ## IA de l’assistant (toujours sur l’iPhone, gratuite)
 

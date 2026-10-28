@@ -1,6 +1,5 @@
 import CodeIsraelKit
 import SwiftUI
-import UIKit
 
 extension Color {
     static let ringGreen = Color(red: 0.20, green: 0.78, blue: 0.35)
@@ -93,14 +92,14 @@ struct QuestionPicture: View {
     let id: String
     @State private var zoomed = false
 
-    static func image(_ id: String) -> UIImage? {
-        Bundle.main.url(forResource: id, withExtension: "jpg", subdirectory: "Images").flatMap { UIImage(contentsOfFile: $0.path) }
+    static func image(_ id: String) -> PlatformImage? {
+        Bundle.main.url(forResource: id, withExtension: "jpg", subdirectory: "Images").flatMap { PlatformImage(contentsOfFile: $0.path) }
     }
 
     var body: some View {
         if let image = Self.image(id) {
             Button { zoomed = true } label: {
-                Image(uiImage: image)
+                Image(platformImage: image)
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: .infinity, maxHeight: 260)
@@ -108,13 +107,13 @@ struct QuestionPicture: View {
             }
             .buttonStyle(.plain)
             .accessibilityLabel("Illustration officielle de la question, toucher pour agrandir")
-            .fullScreenCover(isPresented: $zoomed) { ZoomedPicture(image: image) }
+            .fullScreenCoverCompat(isPresented: $zoomed) { ZoomedPicture(image: image) }
         }
     }
 }
 
 private struct ZoomedPicture: View {
-    let image: UIImage
+    let image: PlatformImage
     @Environment(\.dismiss) private var dismiss
     @State private var scale: CGFloat = 1
     @GestureState private var pinch: CGFloat = 1
@@ -122,7 +121,7 @@ private struct ZoomedPicture: View {
     var body: some View {
         ZStack(alignment: .topTrailing) {
             Color.black.ignoresSafeArea()
-            Image(uiImage: image)
+            Image(platformImage: image)
                 .resizable()
                 .scaledToFit()
                 .scaleEffect(scale * pinch)
@@ -145,7 +144,7 @@ struct SignImage: View {
     var size: CGFloat = 56
 
     var body: some View {
-        if let asset = sign?.asset, UIImage(named: asset) != nil {
+        if let asset = sign?.asset, PlatformImage.inCatalog(asset) {
             Image(asset).resizable().scaledToFit().frame(width: size, height: size)
                 .accessibilityLabel("Panneau \(number)")
         } else {
@@ -197,9 +196,3 @@ struct AnswerText: View {
     }
 }
 
-/// Plays a success or error haptic.
-enum Haptics {
-    static func answer(_ ok: Bool) {
-        UINotificationFeedbackGenerator().notificationOccurred(ok ? .success : .error)
-    }
-}

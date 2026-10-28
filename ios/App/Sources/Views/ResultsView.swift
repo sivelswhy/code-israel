@@ -81,7 +81,7 @@ struct ResultsView: View {
             }
         }
         .navigationTitle("Résultats")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineTitle()
         .navigationBarBackButtonHidden()
         .toolbar {
             ToolbarItem(placement: .cancellationAction) { Button("Fermer") { dismiss() } }

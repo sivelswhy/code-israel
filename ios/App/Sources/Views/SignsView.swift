@@ -57,6 +57,6 @@ struct SignDetail: View {
             .padding()
             .frame(maxWidth: .infinity)
         }
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineTitle()
     }
 }

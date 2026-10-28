@@ -69,7 +69,7 @@ struct ExplanationView: View {
                 .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
-        .background(RoundedRectangle(cornerRadius: 14).fill(wrong ? Color.signRed.opacity(0.07) : Color(.secondarySystemGroupedBackground)))
+        .background(RoundedRectangle(cornerRadius: 14).fill(wrong ? Color.signRed.opacity(0.07) : Color.cardBackground))
         .onAppear { open = startsOpen }
     }
 }
@@ -102,7 +102,7 @@ struct LawCard: View {
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(RoundedRectangle(cornerRadius: 12).fill(Color(.tertiarySystemGroupedBackground)))
+        .background(RoundedRectangle(cornerRadius: 12).fill(Color.nestedBackground))
     }
 }
 
