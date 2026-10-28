@@ -56,6 +56,25 @@ final class LogicTests: XCTestCase {
         XCTAssertFalse(loaded.exams[0].canReview)
     }
 
+    func testAskingAboutAQuestionNeedsNoPreviousMessage() {
+        let library = ParityTests.library
+        let pool = library.pool(for: .B)
+        let brain = AssistantBrain(pool: pool, law: library.law, signs: library.signs)
+        let q = pool[0]
+        // The assistant opened from a question: first message, so nothing came before it.
+        for chosen in [nil, q.c, (q.c + 1) % q.a.count] {
+            let turn = brain.turn(for: "Pourquoi ?", previous: nil, topic: AssistantTopic(question: q, chosen: chosen))
+            XCTAssertEqual(turn.prompt.hasPrefix("Pourquoi ?"), true)
+            XCTAssertFalse(turn.prompt.contains("(suite)"))
+        }
+        // With a question in focus, an earlier message is not glued to the prompt either.
+        let again = brain.turn(for: "Et alors ?", previous: "Pourquoi ?", topic: AssistantTopic(question: q))
+        XCTAssertFalse(again.prompt.contains("(suite)"))
+        // A follow-up without a question in focus still carries the previous question.
+        let followUp = brain.turn(for: "et pour 90 ?", previous: "Quelle est la vitesse maximale ?", topic: nil)
+        XCTAssertTrue(followUp.prompt.contains("(suite)"))
+    }
+
     func testOnHoldLicenseFallsBack() throws {
         let saved = #"{"license":"C","stats":{},"exams":[],"daily":{}}"#
         XCTAssertEqual(try JSONDecoder().decode(Progress.self, from: Data(saved.utf8)).license, .B)

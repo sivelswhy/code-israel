@@ -97,7 +97,13 @@ public struct AssistantBrain: Sendable {
         let shown = focus.map { f in Array(([f] + hits.filter { $0.id != f.id }).prefix(4)) } ?? hits
         let direct = reply(hits: shown, law: law, signs: signs, focus: focus, chosen: topic?.chosen, lawHits: lawHits, query: query)
         let context = topic?.wasWrong == true ? "\n(L'élève avait répondu : « \(focus!.a[topic!.chosen!]) ».)" : ""
-        let asked = query == clean ? clean : "\(previous!) (suite) \(clean)"
+        // Only a follow-up carries the previous question; with a question in focus the focus is the context.
+        let asked: String
+        if focus == nil, continues, let previous {
+            asked = "\(previous) (suite) \(clean)"
+        } else {
+            asked = clean
+        }
         return AssistantTurn(
             hits: shown,
             lawHits: lawHits,

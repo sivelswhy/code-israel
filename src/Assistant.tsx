@@ -123,7 +123,8 @@ export function Assistant({ questions, topic, onClose }: { questions: Question[]
     abort.current = ctl
     const context = focus && topic.chosen != null && topic.chosen !== focus.c ? `\n(L'élève avait répondu : « ${focus.a[topic.chosen]} ».)` : ''
     const sourceText = sources(shown, law, focus, signs, lawHits, query)
-    const asked = query === clean ? clean : `${previous} (suite) ${clean}`
+    // Only a follow-up carries the previous question; with a question in focus the focus is the context.
+    const asked = !focus && query !== clean ? `${previous} (suite) ${clean}` : clean
     let written = ''
     try {
       // No chat history: the model's earlier (possibly wrong) answers would feed its next ones.
