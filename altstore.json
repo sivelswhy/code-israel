@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.11",
+          "buildVersion": "11",
+          "date": "2026-10-28",
+          "localizedDescription": "Synchronisation activée : adresse du serveur et de l'envoi d'e-mail",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.11/CodeIsrael.ipa",
+          "size": 27147062,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10",
           "buildVersion": "10",
           "date": "2026-10-28",
