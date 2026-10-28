@@ -31,6 +31,7 @@ extension View {
         fullScreenCover(isPresented: isPresented, content: content)
     }
     func dragIndicator() -> some View { presentationDragIndicator(.visible) }
+    func sheetSize() -> some View { self }
 }
 
 enum Haptics {
@@ -62,15 +63,31 @@ extension View {
     func inlineTitle() -> some View { self }
     // A Mac has no full-screen cover: a sheet is the closest thing.
     func fullScreenCoverCompat<Item: Identifiable, Content: View>(item: Binding<Item?>, @ViewBuilder content: @escaping (Item) -> Content) -> some View {
-        sheet(item: item, content: content)
+        sheet(item: item) { content($0).sheetSize() }
     }
     func fullScreenCoverCompat<Content: View>(isPresented: Binding<Bool>, @ViewBuilder content: @escaping () -> Content) -> some View {
-        sheet(isPresented: isPresented, content: content)
+        sheet(isPresented: isPresented) { content().sheetSize() }
     }
     func dragIndicator() -> some View { self }
+    /// A sheet on the Mac has no size of its own: give it room for a question and its explanation.
+    func sheetSize() -> some View { frame(minWidth: 640, idealWidth: 760, minHeight: 680, idealHeight: 820) }
+    /// A rounded white card on the grey page. `stretch` makes it as tall as its row.
+    func card(stretch: Bool = false) -> some View {
+        padding(16)
+            .frame(maxWidth: .infinity, maxHeight: stretch ? .infinity : nil, alignment: .topLeading)
+            .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
+            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Color.primary.opacity(0.06)))
+    }
 }
 
 enum Haptics {
     static func answer(_ ok: Bool) {}
 }
 #endif
+
+extension View {
+    /// Keeps content at a readable width, centred, on wide windows (Mac, iPad). No effect on an iPhone.
+    func readableWidth(_ width: CGFloat = 720) -> some View {
+        frame(maxWidth: width).frame(maxWidth: .infinity)
+    }
+}

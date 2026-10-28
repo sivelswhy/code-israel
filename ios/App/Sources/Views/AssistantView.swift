@@ -60,6 +60,9 @@ struct AssistantView: View {
         .background(Color.groupedBackground)
         .safeAreaInset(edge: .bottom) { inputBar }
         .navigationTitle("Assistant")
+        #if os(macOS)
+        .toolbarBackground(Color.groupedBackground, for: .windowToolbar)
+        #endif
         .inlineTitle()
         .toolbar {
             if topic != nil {

@@ -12,11 +12,11 @@ struct CodeIsraelApp: App {
                 .environment(app)
                 .environment(engines)
                 #if os(macOS)
-                .frame(minWidth: 520, minHeight: 680)
+                .frame(minWidth: 820, minHeight: 600)
                 #endif
         }
         #if os(macOS)
-        .defaultSize(width: 720, height: 860)
+        .defaultSize(width: 1080, height: 780)
         #endif
     }
 }
@@ -32,29 +32,20 @@ struct Series: Identifiable {
 }
 
 struct RootView: View {
-    enum Tab: Hashable { case home, browse, signs, assistant }
+    enum Tab: String, Hashable {
+        case home, browse, signs, assistant
+        init?(argument: String?) { self.init(rawValue: argument ?? "") }
+    }
 
-    @State private var tab: Tab = .home
+    /// `-initialTab browse` (or signs, assistant) on the command line opens that tab: handy to check each screen.
+    @State private var tab: Tab = Tab(argument: UserDefaults.standard.string(forKey: "initialTab")) ?? .home
     @State private var series: Series?
     @State private var topic: AssistantTopic?
     @State private var showTopic = false
     @Environment(AppModel.self) private var app
 
     var body: some View {
-        TabView(selection: $tab) {
-            NavigationStack { HomeView(start: { series = $0 }) }
-                .tabItem { Label("Accueil", systemImage: "house.fill") }
-                .tag(Tab.home)
-            NavigationStack { BrowseView() }
-                .tabItem { Label("Questions", systemImage: "magnifyingglass") }
-                .tag(Tab.browse)
-            NavigationStack { SignsView() }
-                .tabItem { Label("Panneaux", systemImage: "exclamationmark.triangle") }
-                .tag(Tab.signs)
-            NavigationStack { AssistantView(topic: nil) }
-                .tabItem { Label("Assistant", systemImage: "sparkles") }
-                .tag(Tab.assistant)
-        }
+        layout
         .environment(\.askAssistant) { topic in
             self.topic = topic
             showTopic = true
@@ -70,8 +61,57 @@ struct RootView: View {
         .sheet(isPresented: Binding(get: { showTopic && series == nil }, set: { showTopic = $0 })) { topicSheet }
     }
 
+    private var home: some View { NavigationStack { HomeView(start: { series = $0 }) } }
+    private var browse: some View { NavigationStack { BrowseView() } }
+    private var signs: some View { NavigationStack { SignsView() } }
+    private var assistant: some View { NavigationStack { AssistantView(topic: nil) } }
+
+    @ViewBuilder private var layout: some View {
+        #if os(macOS)
+        // A sidebar, like a Mac app, and content kept to a readable width instead of stretched.
+        NavigationSplitView {
+            List(selection: Binding(get: { tab }, set: { if let t = $0 { tab = t } })) {
+                Label("Accueil", systemImage: "house.fill").tag(Tab.home)
+                Label("Questions", systemImage: "magnifyingglass").tag(Tab.browse)
+                Label("Panneaux", systemImage: "exclamationmark.triangle").tag(Tab.signs)
+                Label("Assistant", systemImage: "sparkles").tag(Tab.assistant)
+            }
+            .navigationSplitViewColumnWidth(min: 170, ideal: 190, max: 240)
+        } detail: {
+            ZStack {
+                Color.groupedBackground.ignoresSafeArea()
+                Group {
+                    switch tab {
+                    case .home: home
+                    case .browse: browse
+                    case .signs: signs
+                    case .assistant: assistant
+                    }
+                }
+                .readableWidth(tab == .home || tab == .assistant ? 1180 : .infinity)
+            }
+        }
+        #else
+        TabView(selection: $tab) {
+            home
+                .tabItem { Label("Accueil", systemImage: "house.fill") }
+                .tag(Tab.home)
+            browse
+                .tabItem { Label("Questions", systemImage: "magnifyingglass") }
+                .tag(Tab.browse)
+            signs
+                .tabItem { Label("Panneaux", systemImage: "exclamationmark.triangle") }
+                .tag(Tab.signs)
+            assistant
+                .tabItem { Label("Assistant", systemImage: "sparkles") }
+                .tag(Tab.assistant)
+        }
+        #endif
+    }
+
     private var topicSheet: some View {
         NavigationStack { AssistantView(topic: topic) }
             .dragIndicator()
+            .sheetSize()
     }
 }

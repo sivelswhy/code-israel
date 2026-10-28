@@ -19,35 +19,85 @@ struct BrowseView: View {
         }
     }
 
+    @ViewBuilder private func row(_ q: Question) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            if let s = app.progress.stats[q.id] {
+                Circle().fill(s.last ? Color.ringGreen : Color.signRed).frame(width: 8, height: 8).padding(.top, 6)
+                    .accessibilityLabel(s.last ? "Réussie" : "Ratée")
+            } else {
+                Circle().fill(.clear).frame(width: 8, height: 8)
+            }
+            VStack(alignment: .leading, spacing: 4) {
+                Text(q.q).lineLimit(3)
+                Text("n° \(q.id) · \(q.correct)").font(.footnote).foregroundStyle(.secondary).lineLimit(1)
+            }
+        }
+    }
+
+    private var categoryPicker: some View {
+        Picker("Thème", selection: $category) {
+            Text("Tout").tag(Category?.none)
+            ForEach(Category.allCases, id: \.self) { Text($0.label.components(separatedBy: " ").first!).tag(Category?.some($0)) }
+        }
+        #if os(macOS)
+        .pickerStyle(.menu)
+        #else
+        .pickerStyle(.segmented)
+        #endif
+    }
+
     var body: some View {
+        #if os(macOS)
+        macBody
+        #else
+        listBody
+        #endif
+    }
+
+    #if os(macOS)
+    @State private var selected: Question?
+
+    /// On the Mac: the list on the left, the chosen question on the right.
+    private var macBody: some View {
+        let results = results
+        return HStack(spacing: 0) {
+            VStack(spacing: 0) {
+                HStack { Text("Thème").foregroundStyle(.secondary); categoryPicker.labelsHidden(); Spacer() }.padding(12)
+                List(results, selection: $selected) { q in
+                    row(q).tag(q)
+                }
+                .listStyle(.inset)
+                Text("\(results.count) résultat(s)").font(.footnote).foregroundStyle(.secondary).padding(8)
+            }
+            .frame(width: 380)
+            Divider()
+            Group {
+                if let q = selected {
+                    QuestionDetail(question: q).id(q.id)
+                } else {
+                    ContentUnavailableView("Choisissez une question", systemImage: "list.bullet.rectangle", description: Text("Sa réponse, son explication et le texte de loi s’affichent ici."))
+                }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
+        .background(Color.groupedBackground)
+        .navigationTitle("Toutes les questions")
+        .searchable(text: $query, prompt: "Rechercher un mot ou un numéro")
+    }
+    #endif
+
+    @ViewBuilder private var listBody: some View {
         let results = results
         List {
             Section {
-                Picker("Thème", selection: $category) {
-                    Text("Tout").tag(Category?.none)
-                    ForEach(Category.allCases, id: \.self) { Text($0.label.components(separatedBy: " ").first!).tag(Category?.some($0)) }
-                }
-                .pickerStyle(.segmented)
+                categoryPicker
                 .listRowBackground(Color.clear)
                 .listRowInsets(EdgeInsets())
             } footer: {
                 Text("\(results.count) résultat(s)")
             }
             ForEach(results) { q in
-                NavigationLink(value: q) {
-                    HStack(alignment: .top, spacing: 10) {
-                        if let s = app.progress.stats[q.id] {
-                            Circle().fill(s.last ? Color.ringGreen : Color.signRed).frame(width: 8, height: 8).padding(.top, 6)
-                                .accessibilityLabel(s.last ? "Réussie" : "Ratée")
-                        } else {
-                            Circle().fill(.clear).frame(width: 8, height: 8)
-                        }
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(q.q).lineLimit(3)
-                            Text("n° \(q.id) · \(q.correct)").font(.footnote).foregroundStyle(.secondary).lineLimit(1)
-                        }
-                    }
-                }
+                NavigationLink(value: q) { row(q) }
             }
         }
         .navigationTitle("Toutes les questions")

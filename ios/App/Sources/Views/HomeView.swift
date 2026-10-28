@@ -9,6 +9,32 @@ struct HomeView: View {
     @State private var reviewedAnswers: [Int?] = []
 
     var body: some View {
+        Group {
+            #if os(macOS)
+            HomeDashboard(start: start) { series, answers in
+                reviewedAnswers = answers
+                reviewed = series
+            }
+            #else
+            listBody
+            #endif
+        }
+        .navigationTitle("Code de la route")
+        #if os(macOS)
+        .toolbarBackground(Color.groupedBackground, for: .windowToolbar)
+        #endif
+        .sheet(item: $reviewed) { series in
+            NavigationStack {
+                ResultsView(series: series, answers: reviewedAnswers) { next in
+                    reviewed = nil
+                    start(next)
+                }
+            }
+        }
+    }
+
+    /// The iPhone home: a grouped list.
+    @ViewBuilder private var listBody: some View {
         @Bindable var app = app
         let m = app.mastery
         let today = app.progress.answeredToday()
@@ -136,19 +162,10 @@ struct HomeView: View {
                 Text("Questions et images : ministère des Transports d’Israël, via data.gov.il (CC BY). Application non officielle.")
             }
         }
-        .navigationTitle("Code de la route")
-        .sheet(item: $reviewed) { series in
-            NavigationStack {
-                ResultsView(series: series, answers: reviewedAnswers) { next in
-                    reviewed = nil
-                    start(next)
-                }
-            }
-        }
     }
 }
 
-private struct RingLegend: View {
+struct RingLegend: View {
     let title: String
     let value: Int
     let total: Int
@@ -163,7 +180,7 @@ private struct RingLegend: View {
     }
 }
 
-private struct ReviseRow: View {
+struct ReviseRow: View {
     let title: String
     let hint: String
     let icon: String

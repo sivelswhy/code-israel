@@ -16,6 +16,7 @@
 		2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68362458393434CECECDD314 /* Platform.swift */; };
 		2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68362458393434CECECDD314 /* Platform.swift */; };
 		33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472011E040C9B65E1F05635A /* QuizView.swift */; };
+		3863FD1D34383C0CF16E8837 /* HomeDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44050C87C956206090B85 /* HomeDashboard.swift */; };
 		3916761C8BC45E9BD47A92F2 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F1D3AC44C5F83C775ECB35 /* Components.swift */; };
 		476D4400C2574FEDE3A840C4 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802FB7CCEB6EC481119EC3D /* ResultsView.swift */; };
 		4BF5DDB5AA419B6735C55F99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20993FE834022C47B7F340E /* HomeView.swift */; };
@@ -24,6 +25,7 @@
 		54066280D865A5C38D0068B0 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563690E99E6FEF14BCFCF1A /* BrowseView.swift */; };
 		541579A2D7558E008B3DD76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EB5656EB3257FD02C5A82C /* Assets.xcassets */; };
 		57AA48A29EE861F0CC35A406 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9C17453A713BDAC2D1B837FF /* Images */; };
+		5DFE98A0DE51AD935545CEBD /* HomeDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B44050C87C956206090B85 /* HomeDashboard.swift */; };
 		609C7C6DEA0D0DD90C192824 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9C17453A713BDAC2D1B837FF /* Images */; };
 		6AA1097757518DAD9BB3A944 /* AppleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F73B5B328C82DFE702D8E6 /* AppleEngine.swift */; };
 		9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */; };
@@ -62,6 +64,7 @@
 		BF96A1395FD7F5EAEDBB6426 /* CodeIsraelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeIsraelApp.swift; sourceTree = "<group>"; };
 		C45BEA2D51817423AD300236 /* AssistantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantModel.swift; sourceTree = "<group>"; };
 		D967388ABAF091F067274DC4 /* SourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
+		E4B44050C87C956206090B85 /* HomeDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboard.swift; sourceTree = "<group>"; };
 		EFA0D772E3DBF657AE0F9415 /* AssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantView.swift; sourceTree = "<group>"; };
 		F20993FE834022C47B7F340E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F2F73B5B328C82DFE702D8E6 /* AppleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleEngine.swift; sourceTree = "<group>"; };
@@ -152,6 +155,7 @@
 				5563690E99E6FEF14BCFCF1A /* BrowseView.swift */,
 				92F1D3AC44C5F83C775ECB35 /* Components.swift */,
 				121BF25C6C8FB72E5FCE58B3 /* ExplanationView.swift */,
+				E4B44050C87C956206090B85 /* HomeDashboard.swift */,
 				F20993FE834022C47B7F340E /* HomeView.swift */,
 				68362458393434CECECDD314 /* Platform.swift */,
 				472011E040C9B65E1F05635A /* QuizView.swift */,
@@ -291,6 +295,7 @@
 				9E17A838F5684DAAF36ECF17 /* CodeIsraelApp.swift in Sources */,
 				3916761C8BC45E9BD47A92F2 /* Components.swift in Sources */,
 				4D90F2822F8DAC1808B40585 /* ExplanationView.swift in Sources */,
+				3863FD1D34383C0CF16E8837 /* HomeDashboard.swift in Sources */,
 				4BF5DDB5AA419B6735C55F99 /* HomeView.swift in Sources */,
 				2FE0B54BEB4FA9347970FF89 /* Platform.swift in Sources */,
 				33A4D2C0AA01559CC4C459C5 /* QuizView.swift in Sources */,
@@ -312,6 +317,7 @@
 				D0133E0F4CFC2AAA00ED1E9A /* CodeIsraelApp.swift in Sources */,
 				1CFD66D3BB28C35698BB32FF /* Components.swift in Sources */,
 				CC4BABD43D42717AC694195A /* ExplanationView.swift in Sources */,
+				5DFE98A0DE51AD935545CEBD /* HomeDashboard.swift in Sources */,
 				206AB66C096D2A60A96A83E1 /* HomeView.swift in Sources */,
 				2CAFAA72CA91CC47A461DE7E /* Platform.swift in Sources */,
 				BE5923E040CA69C0CCB2DA3D /* QuizView.swift in Sources */,
