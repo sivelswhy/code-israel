@@ -12,6 +12,9 @@ if grep -q REPLACE_WITH_NAMESPACE_ID wrangler.toml; then
   sed -i.bak "s/REPLACE_WITH_NAMESPACE_ID/$id/" wrangler.toml && rm -f wrangler.toml.bak
 fi
 
+# First deployment, in the terminal itself: Cloudflare may ask for a free workers.dev name (answer yes and pick any name).
+npx --yes wrangler deploy
+
 url=$(npx --yes wrangler deploy 2>&1 | tee /dev/stderr | grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' | head -1)
 [ -n "$url" ] || { echo "Could not read the address of the server from the output above." >&2; exit 1; }
 
