@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.5",
+          "buildVersion": "5",
+          "date": "2026-10-28",
+          "localizedDescription": "Retrait des exercices d'écoute (iPhone, Mac et site)",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.5/CodeIsrael.ipa",
+          "size": 26920680,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4",
           "buildVersion": "4",
           "date": "2026-10-28",
