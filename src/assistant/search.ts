@@ -454,7 +454,9 @@ const LAW_QUOTE = /^\s*\[?((?:Règlement|Ordonnance) de la circulation, art\. [^
  * reference alone: the text of the law stays available through the sources.
  */
 export function tidyAnswer(text: string): string {
-  return text
+  // The invented example starts its own paragraph, so it cannot be mistaken for the rule above it.
+  const labelled = text.replace(new RegExp(EXAMPLE_LABEL.source, 'giu'), 'Exemple imaginé :').replace(/\s*Exemple imaginé :/g, '\n\nExemple imaginé :').replace(/^\n+/, '')
+  return labelled
     .split('\n')
     .map((line) => {
       const ref = LAW_QUOTE.exec(line)?.[1]
@@ -469,3 +471,38 @@ export const REFERS_TO_PREVIOUS = /(?<!\p{L})(?:ça|cela|ceci|ce chiffre|cette v
 /** Given to the model when the learner builds on the last answer: reword it or illustrate it, nothing more. */
 export const FOLLOW_UP_HINT =
   "\nTYPE DE DEMANDE : l'élève s'appuie sur ta réponse précédente. Fais ce qu'il demande à partir d'elle et des sources : reformule avec des mots plus simples, ou illustre par une courte situation de conduite. N'écris aucun chiffre ni règle qui ne soit dans les sources, et ne répète pas ta réponse mot pour mot."
+
+const ILLUSTRATION_REQUEST = /(?<!\p{L})(?:exemples?|concret|imaginons|imagine|analogie|métaphore|scénario|mise en situation|vulgaris\p{L}*|explication imagée|eli5|comme (?:un|une|à un|à une) (?:enfant|gamin|bébé|débutant|petit)|(?:pour|à) un enfant|comme si j['’]avais \d+ ans)(?!\p{L})/giu
+
+/**
+ * The learner wants an example or an image ("donne-moi un exemple", "explique-moi comme à un enfant"):
+ * the answer may then contain a clearly labelled invented example.
+ */
+export const asksForIllustration = (text: string) => new RegExp(ILLUSTRATION_REQUEST.source, 'iu').test(text)
+
+/** The message without the words that only ask for an example, so "comme si j'avais 5 ans" is not searched for. */
+export const withoutIllustrationWords = (text: string) => text.replace(ILLUSTRATION_REQUEST, ' ').split(/\s+/).filter(Boolean).join(' ')
+
+/** Asked of the model when the learner wants an example or an image. */
+export const ILLUSTRATION_HINT =
+  "\nTYPE DE DEMANDE : l'élève veut un exemple ou une explication imagée (peut-être « comme à un enfant »). Écris d'abord la règle en une phrase simple, exactement comme dans les sources. Puis écris « Exemple imaginé : » suivi d'une courte situation inventée de conduite ou d'une comparaison simple, avec des mots d'enfant si on te le demande. L'exemple peut utiliser des prénoms et des valeurs d'illustration, mais il doit appliquer la règle des sources sans la changer, sans la compléter et sans citer d'article ni de numéro de panneau."
+
+/** The label as a model may write it ("Exemple imaginé", sometimes "Example inventé"…). */
+const EXAMPLE_LABEL = /(?:exemple|example)\s+(?:imaginé|imaginée|imaginaire|inventé|inventée)\s*:?/iu
+const INVENTED_REFERENCE = /(?:art(?:icle|\.)?|panneau)\s*\d/iu
+
+/**
+ * Like `unsupported`, for an answer that may contain an invented example. The rule before the label is held
+ * to the sources as usual. The example after it is invented on purpose and may use figures of its own, but may
+ * not cite an article or a sign number: that would pass for the law. Without the label, the whole answer is
+ * held to the sources.
+ */
+export function unsupportedIllustrated(answer: string, sourceText: string, query: string): boolean {
+  const label = EXAMPLE_LABEL.exec(answer)
+  if (!label) return unsupported(answer, sourceText, query)
+  const rule = answer.slice(0, label.index).trim()
+  // The rule comes first: an answer that opens with the example is not trusted.
+  if (!rule) return unsupported(answer, sourceText, query)
+  if (unsupported(rule, sourceText, query)) return true
+  return INVENTED_REFERENCE.test(answer.slice(label.index + label[0].length))
+}

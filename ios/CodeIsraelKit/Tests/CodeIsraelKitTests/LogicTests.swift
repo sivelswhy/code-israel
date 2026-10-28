@@ -172,6 +172,42 @@ final class LogicTests: XCTestCase {
         XCTAssertFalse(fresh.exact)
     }
 
+    func testIllustratedExampleIsAcceptedOnlyWhenClearlyLabelled() {
+        XCTAssertTrue(asksForIllustration("Donne-moi un exemple concret"))
+        XCTAssertTrue(asksForIllustration("Explique-moi ça comme à un enfant"))
+        XCTAssertTrue(asksForIllustration("explique comme si j'avais 5 ans"))
+        XCTAssertFalse(asksForIllustration("Quelle est la vitesse maximale en ville ?"))
+
+        let library = ParityTests.library
+        let pool = library.pool(for: .B)
+        let brain = AssistantBrain(pool: pool, law: library.law, signs: library.signs)
+        let first = brain.turn(for: "Quelle est la vitesse maximale en ville ?", previous: nil, topic: nil)
+        let carry = AssistantCarry(sourceText: first.sourceText, hits: first.hits, answer: first.direct)
+        let turn = brain.turn(for: "Explique-moi ça comme à un enfant", previous: "Quelle est la vitesse maximale en ville ?", topic: nil, carry: carry)
+        XCTAssertTrue(turn.illustrate)
+        XCTAssertTrue(turn.prompt.contains("Exemple imaginé"))
+
+        let rule = "La vitesse maximale en ville est de 50 km/h."
+        // Rule from the sources, then a labelled example with figures of its own: accepted.
+        XCTAssertTrue(turn.accepts(rule + "\nExemple imaginé : Léa roule à 70 km/h devant son école, alors qu'elle devrait ralentir à 50 km/h."))
+        // The rule itself must still come from the sources.
+        XCTAssertFalse(turn.accepts("La vitesse maximale en ville est de 73 km/h.\nExemple imaginé : Léa roule vite."))
+        // An invented example may not cite an article or a sign.
+        XCTAssertFalse(turn.accepts(rule + "\nExemple imaginé : selon l'art. 999, Léa doit ralentir."))
+        XCTAssertFalse(turn.accepts(rule + "\nExemple imaginé : Léa voit le panneau 999."))
+        // Without the label, invented figures are refused as before.
+        XCTAssertFalse(turn.accepts(rule + " Par exemple, Léa roule à 70 km/h."))
+        // An answer that opens with the example is not trusted either.
+        XCTAssertFalse(turn.accepts("Exemple imaginé : Léa roule à 70 km/h."))
+        // For an ordinary question the strict guard applies, label or not.
+        XCTAssertFalse(first.accepts(rule + "\nExemple imaginé : Léa roule à 70 km/h."))
+        // A model that writes the label slightly wrong is still understood, and the label is put right.
+        XCTAssertTrue(turn.accepts(rule + "\nExample imaginé : Léa roule à 70 km/h."))
+        XCTAssertEqual(tidyAnswer(rule + "\nExample imaginé : Léa."), rule + "\n\nExemple imaginé : Léa.")
+        // The label starts its own paragraph.
+        XCTAssertEqual(tidyAnswer(rule + " Exemple imaginé : Léa."), rule + "\n\nExemple imaginé : Léa.")
+    }
+
     func testOnHoldLicenseFallsBack() throws {
         let saved = #"{"license":"C","stats":{},"exams":[],"daily":{}}"#
         XCTAssertEqual(try JSONDecoder().decode(Progress.self, from: Data(saved.utf8)).license, .B)

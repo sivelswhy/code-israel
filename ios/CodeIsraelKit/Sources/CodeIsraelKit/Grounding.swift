@@ -47,6 +47,27 @@ public func unsupported(answer: String, sourceText: String, query: String) -> Bo
     return numbers || articles || ungrounded
 }
 
+/// The label a model must put before an invented example, so the learner can tell it from the official texts.
+public let exampleMarker = "Exemple imaginé"
+private let inventedReference = Pattern(#"(?:art(?:icle|\.)?|panneau)\s*\d"#)
+/// The label as a model may write it ("Exemple imaginé", sometimes "Example inventé"…).
+let exampleLabel = Pattern(#"(?:exemple|example)\s+(?:imaginé|imaginée|imaginaire|inventé|inventée)\s*:?"#)
+
+/// Like `unsupported`, for an answer that may contain an invented example (the learner asked for one, or
+/// for an explanation "like to a child"). The rule before the label is held to the sources as usual. The
+/// example after it is invented on purpose and may use figures of its own, but may not cite an article or a
+/// sign number: that would pass for the law. Without the label, the whole answer is held to the sources.
+public func unsupportedIllustrated(answer: String, sourceText: String, query: String) -> Bool {
+    guard let label = exampleLabel.firstMatchRange(in: answer) else {
+        return unsupported(answer: answer, sourceText: sourceText, query: query)
+    }
+    let rule = String(answer[..<label.lowerBound]).trimmingCharacters(in: .whitespacesAndNewlines)
+    // The rule comes first: an answer that opens with the example is not trusted.
+    if rule.isEmpty { return unsupported(answer: answer, sourceText: sourceText, query: query) }
+    if unsupported(answer: rule, sourceText: sourceText, query: query) { return true }
+    return inventedReference.test(String(answer[label.upperBound...]))
+}
+
 /// Shortens a legal passage to `max` characters, keeping the lines that best match the query (a long
 /// article lists many rules: the model should see the one that was asked about, not just the start).
 func focusClip(_ text: String, query: String, max: Int) -> String {

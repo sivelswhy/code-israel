@@ -44,6 +44,8 @@ struct ChatMessage: Identifiable {
     var byModel = false
     /// A remark about the learner's own results, composed by the app.
     var note: String?
+    /// Contains an invented example, which is not from the official texts.
+    var illustrated = false
 }
 
 /// A conversation: the learner's messages and the answers, checked against the official texts.
@@ -91,7 +93,12 @@ final class Conversation {
                     $0.byModel = false
                 } else {
                     $0.text = tidyAnswer($0.text)
-                    carry = AssistantCarry(sourceText: turn.sourceText, hits: turn.hits, answer: $0.text)
+                    if turn.illustrate, $0.text.contains("Exemple imaginé") {
+                        // An invented example is not the next context: a conversion or a follow-up uses the rule.
+                        $0.illustrated = true
+                    } else {
+                        carry = AssistantCarry(sourceText: turn.sourceText, hits: turn.hits, answer: $0.text)
+                    }
                 }
                 $0.streaming = false
             }

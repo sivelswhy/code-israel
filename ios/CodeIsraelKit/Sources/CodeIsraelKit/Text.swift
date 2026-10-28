@@ -128,6 +128,10 @@ struct Pattern: @unchecked Sendable {
         }
     }
 
+    func firstMatchRange(in text: String) -> Range<String.Index>? {
+        regex.firstMatch(in: text, range: NSRange(text.startIndex..., in: text)).flatMap { Range($0.range, in: text) }
+    }
+
     func replacing(in text: String, with template: String) -> String {
         regex.stringByReplacingMatches(in: text, range: NSRange(text.startIndex..., in: text), withTemplate: template)
     }
@@ -193,4 +197,16 @@ public func kindHint(_ kind: QuestionKind) -> String {
     case .how: "l'élève demande « comment » : commence par la manière indiquée dans les sources."
     case .other: ""
     }
+}
+
+private let illustrationRequest = Pattern(#"(?<!\p{L})(?:exemples?|concret|imaginons|imagine|analogie|métaphore|scénario|mise en situation|vulgaris\p{L}*|explication imagée|eli5|comme (?:un|une|à un|à une) (?:enfant|gamin|bébé|débutant|petit)|(?:pour|à) un enfant|comme si j['’]avais \d+ ans)(?!\p{L})"#)
+
+/// The learner wants an example or an image ("donne-moi un exemple", "explique-moi comme à un enfant"):
+/// the answer may then contain a clearly labelled invented example.
+public func asksForIllustration(_ text: String) -> Bool { illustrationRequest.test(text) }
+
+/// The message without the words that only ask for an example or an image, so that "comme si j'avais 5 ans"
+/// is not searched for as if it were a subject.
+public func withoutIllustrationWords(_ text: String) -> String {
+    illustrationRequest.replacing(in: text, with: " ").split(whereSeparator: \.isWhitespace).joined(separator: " ")
 }

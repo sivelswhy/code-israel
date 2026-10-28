@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { motion } from 'motion/react'
 import { loadLaw, type LawExcerpt, type Question } from './data'
 import { convertUnits } from './assistant/units'
-import { FOLLOW_UP_HINT, kindHint, LawIndex, personalNote, QuestionIndex, questionKind, REFERS_TO_PREVIOUS, reply, retrieve, sources, tidyAnswer, tokens, unsupported, vehicleMismatch, type Stat } from './assistant/search'
+import { asksForIllustration, FOLLOW_UP_HINT, ILLUSTRATION_HINT, kindHint, LawIndex, personalNote, QuestionIndex, questionKind, REFERS_TO_PREVIOUS, reply, retrieve, sources, tidyAnswer, tokens, unsupported, unsupportedIllustrated, vehicleMismatch, withoutIllustrationWords, type Stat } from './assistant/search'
 import { answer, cancel, detect, explain, isCached, load, type Support } from './assistant/llm'
 import type { AssistantTopic } from './assistant-context'
 import { spring } from './App'
@@ -16,6 +16,8 @@ interface Message {
   streaming?: boolean
   /** A remark about the learner's own results, composed by the app. */
   note?: string | null
+  /** Contains an invented example, which is not from the official texts. */
+  illustrated?: boolean
 }
 
 type Engine =
@@ -116,7 +118,10 @@ export function Assistant({ questions, stats, topic, onClose }: { questions: Que
     }
     // A short follow-up ("et pour plus de 125 ?") only makes sense with the previous question.
     const previous = [...messages].reverse().find((m) => m.role === 'user')?.text
-    const query = focus ? `${clean} ${focus.q}` : previous && FOLLOW_UP.test(clean) || (previous && tokens(clean).length <= 1) ? `${previous} ${clean}` : clean
+    const illustrate = asksForIllustration(clean)
+    // What is searched for: the subject, without the words that only ask for an example or an image.
+    const subject = illustrate ? withoutIllustrationWords(clean) : clean
+    const query = focus ? `${subject} ${focus.q}` : previous && FOLLOW_UP.test(clean) || (previous && tokens(subject).length <= 1) ? `${previous} ${subject}` : subject
     const found = retrieve(index, lawIndex, query)
     // Sources about another kind of vehicle than the one asked about are not an answer.
     const off = !focus && vehicleMismatch(query, found.hits[0], found.lawHits[0])
@@ -155,17 +160,19 @@ export function Assistant({ questions, stats, topic, onClose }: { questions: Que
     let written = ''
     try {
       // No chat history: the model's earlier (possibly wrong) answers would feed its next ones.
-      for await (const delta of answer(engine.modelId, asked + context + (followUp ? FOLLOW_UP_HINT : kindHint(kind) ? `\nTYPE DE DEMANDE : ${kindHint(kind)}` : ''), sourceText, [], ctl.signal, followUp ? last.answer : undefined)) {
+      for await (const delta of answer(engine.modelId, asked + context + (illustrate ? ILLUSTRATION_HINT : followUp ? FOLLOW_UP_HINT : kindHint(kind) ? `\nTYPE DE DEMANDE : ${kindHint(kind)}` : ''), sourceText, [], ctl.signal, followUp ? last.answer : undefined)) {
         written += delta
         setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: msg.text + delta } : msg)))
       }
       // A small model sometimes invents figures or law articles. If the answer cites one found neither in the
       // sources nor in the question, fall back to the answer composed from the official text.
-      if (unsupported(written, sourceText, query) && !ctl.signal.aborted) setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: direct } : msg)))
+      if ((illustrate ? unsupportedIllustrated : unsupported)(written, sourceText, query) && !ctl.signal.aborted) setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: direct } : msg)))
       else {
         const tidy = tidyAnswer(written)
-        setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: tidy } : msg)))
-        carry.current = { sourceText, hits: shown, answer: tidy }
+        // An invented example is not the next context: a conversion or a follow-up uses the rule.
+        const illustrated = illustrate && tidy.includes('Exemple imaginé')
+        setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: tidy, illustrated } : msg)))
+        if (!illustrated) carry.current = { sourceText, hits: shown, answer: tidy }
       }
     } catch {
       setMessages((m) => m.map((msg, i) => (i === m.length - 1 ? { ...msg, text: msg.text || direct } : msg)))
@@ -223,6 +230,7 @@ export function Assistant({ questions, stats, topic, onClose }: { questions: Que
               <div key={i} className="bubble bot">
                 {m.note && <p className="bot-note">{m.note}</p>}
                 {m.text && <p className="bot-text">{m.text}</p>}
+                {m.illustrated && !m.streaming && <p className="muted small illustrated">L’exemple imaginé est une illustration : seule la règle vient des textes officiels.</p>}
                 {m.streaming && !m.text && <p className="muted">Réflexion…</p>}
                 {!m.streaming && m.hits?.length === 0 && !m.text && (
                   <p className="muted">Je n'ai rien trouvé à ce sujet dans la banque officielle. Essayez d'autres mots.</p>

@@ -155,6 +155,10 @@ private struct MessageView: View {
                         Text("Voir les \(message.sources.count) questions officielles utilisées").font(.footnote)
                     }
                 }
+                if message.illustrated && !message.streaming {
+                    Label("L’exemple imaginé est une illustration : seule la règle vient des textes officiels.", systemImage: "lightbulb")
+                        .font(.caption2).foregroundStyle(Color.ringOrange)
+                }
                 if message.byModel && !message.streaming {
                     Label("Rédigé par l’IA à partir des textes officiels", systemImage: "sparkles").font(.caption2).foregroundStyle(.secondary)
                 }

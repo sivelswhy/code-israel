@@ -11,9 +11,13 @@ public enum AssistantPrompt {
     - Reprends les mots des sources sans rien interpréter. Ne commence jamais par « oui » ou « non » : énonce d'abord la règle des sources, puis seulement ensuite la conclusion si elle en découle directement.
     - Quand tu t'appuies sur une règle, cite la référence telle qu'elle apparaît dans les sources (par exemple « Règlement de la circulation, art. 47(d) »).
     - Chaque chiffre, unité ou numéro de panneau que tu écris doit apparaître tel quel dans les SOURCES. N'ajoute aucune condition, exception ou catégorie de véhicule qui n'y figure pas.
+    - Exception : si l'élève demande un exemple ou une explication imagée (par exemple « comme à un enfant »), tu peux inventer une situation d'illustration, mais seulement après le mot « Exemple imaginé : » et sans jamais modifier, compléter ou citer autrement la règle des sources.
     - Réponds directement à ce que l'élève demande : ne répète jamais sa question, commence par la réponse en une phrase (la raison, le chiffre, la personne, le moment ou la manière demandés), puis cite seulement la référence de l'article, sans recopier son texte.
     - Réponds en français clair, en 80 mots maximum, avec des phrases courtes.
     """
+
+    /// Asked of the model when the learner wants an example or an image.
+    public static let illustrationHint = "\nTYPE DE DEMANDE : l'élève veut un exemple ou une explication imagée (peut-être « comme à un enfant »). Écris d'abord la règle en une phrase simple, exactement comme dans les sources. Puis écris « Exemple imaginé : » suivi d'une courte situation inventée de conduite ou d'une comparaison simple, avec des mots d'enfant si on te le demande. L'exemple peut utiliser des prénoms et des valeurs d'illustration, mais il doit appliquer la règle des sources sans la changer, sans la compléter et sans citer d'article ni de numéro de panneau."
 
     public static func user(question: String, sources: String, previousAnswer: String? = nil) -> String {
         let before = previousAnswer.map { "\n\nTA RÉPONSE PRÉCÉDENTE (pour comprendre « ça », « cela »…) :\n\($0)" } ?? ""
@@ -64,13 +68,17 @@ public struct AssistantTurn: Sendable {
     public let exact: Bool
     /// The assistant's previous answer, given to the model when the message refers to it ("ça", "plus simplement").
     public let previousAnswer: String?
+    /// The learner asked for an example or an image: the answer may contain a labelled invented example.
+    public let illustrate: Bool
 
     /// With no matching official source a model would improvise, so it is not asked.
     public var canUseModel: Bool { !exact && !hits.isEmpty }
 
     /// Whether a model answer may be shown, or must be replaced by `direct`.
     public func accepts(_ answer: String) -> Bool {
-        !unsupported(answer: answer, sourceText: sourceText, query: query)
+        illustrate
+            ? !unsupportedIllustrated(answer: answer, sourceText: sourceText, query: query)
+            : !unsupported(answer: answer, sourceText: sourceText, query: query)
     }
 }
 
@@ -97,11 +105,14 @@ public struct AssistantBrain: Sendable {
         // A unit conversion is answered exactly by the app, from the previous answer or the question in focus.
         let convertible = carry?.answer ?? focus.map { "\($0.correct) \($0.e ?? "")" }
         if let converted = convertUnits(message: clean, previousAnswer: convertible) {
-            return AssistantTurn(hits: carry?.hits ?? [], lawHits: [], direct: converted, sourceText: "", prompt: clean, query: clean, note: nil, exact: true, previousAnswer: nil)
+            return AssistantTurn(hits: carry?.hits ?? [], lawHits: [], direct: converted, sourceText: "", prompt: clean, query: clean, note: nil, exact: true, previousAnswer: nil, illustrate: false)
         }
+        let illustrate = asksForIllustration(clean)
+        // What is searched for: the subject, without the words that only ask for an example or an image.
+        let subject = illustrate ? withoutIllustrationWords(clean) : clean
         // A follow-up ("et pour plus de 125 ?", "c'est quoi le seuil") only makes sense with the previous question.
-        let continues = previous != nil && (followUp.test(clean) || tokens(clean).count <= 1)
-        let query = focus.map { "\(clean) \($0.q)" } ?? (continues ? "\(previous!) \(clean)" : clean)
+        let continues = previous != nil && (followUp.test(clean) || tokens(subject).count <= 1)
+        let query = focus.map { "\(subject) \($0.q)" } ?? (continues ? "\(previous!) \(subject)" : subject)
         let found = retrieve(questions, lawIndex, query: query)
         // Sources about another kind of vehicle than the one asked about are not an answer.
         let off = focus == nil && vehicleMismatch(query: query, best: found.hits.first, bestLaw: found.lawHits.first)
@@ -119,7 +130,8 @@ public struct AssistantBrain: Sendable {
         }
         let sourceText = sources(hits: shown, law: law, focus: focus, signs: signs, lawHits: lawHits, query: query)
         let note = learner.flatMap { personalNote(topic: topic, hits: shown, learner: $0) }
-        let prompt = asked + context + (kindHint(questionKind(clean)).isEmpty ? "" : "\nTYPE DE DEMANDE : \(kindHint(questionKind(clean)))")
+        let kindLine = kindHint(questionKind(clean)).isEmpty ? "" : "\nTYPE DE DEMANDE : \(kindHint(questionKind(clean)))"
+        let prompt = asked + context + (illustrate ? AssistantPrompt.illustrationHint : kindLine)
         // A follow-up keeps the sources and the answer of the previous turn: the new search may find nothing,
         // or something unrelated, for "plus simplement" or "ça fait combien".
         if let carry, focus == nil, refersToPrevious.test(clean) {
@@ -133,11 +145,12 @@ public struct AssistantBrain: Sendable {
                 lawHits: lawHits,
                 direct: "Je n’ai pas de source plus précise pour cette demande. Rappel de ma réponse précédente :\n\(carry.answer)",
                 sourceText: carry.sourceText + more,
-                prompt: asked + followUpHint,
+                prompt: asked + (illustrate ? AssistantPrompt.illustrationHint : followUpHint),
                 query: query,
                 note: note,
                 exact: false,
-                previousAnswer: carry.answer
+                previousAnswer: carry.answer,
+                illustrate: illustrate
             )
         }
         return AssistantTurn(
@@ -149,7 +162,8 @@ public struct AssistantBrain: Sendable {
             query: query,
             note: note,
             exact: false,
-            previousAnswer: nil
+            previousAnswer: nil,
+            illustrate: illustrate
         )
     }
 }
@@ -178,7 +192,11 @@ private let lawQuote = Pattern(#"^\s*\[?((?:Règlement|Ordonnance) de la circula
 /// A model sometimes pastes a whole article after its answer. A long quotation is replaced by the
 /// reference alone: the text of the law stays available through the sources.
 public func tidyAnswer(_ text: String) -> String {
-    text.split(separator: "\n", omittingEmptySubsequences: false).map { line in
+    // The invented example starts its own paragraph, so it cannot be mistaken for the rule above it.
+    let text = exampleLabel.replacing(in: text, with: "Exemple imaginé :")
+        .replacingOccurrences(of: "\\s*Exemple imaginé :", with: "\n\nExemple imaginé :", options: .regularExpression)
+        .replacingOccurrences(of: "^\\n+", with: "", options: .regularExpression)
+    return text.split(separator: "\n", omittingEmptySubsequences: false).map { line in
         let line = String(line)
         guard let ref = lawQuote.matches(in: line, group: 1).first else { return line }
         return "Référence : \(ref.trimmingCharacters(in: .whitespaces))."
