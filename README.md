@@ -77,7 +77,7 @@ Le script ouvre le navigateur pour se connecter, crée l'espace de stockage, dé
 
 `mail/` est une fonction Vercel qui envoie le code par e-mail avec ton compte SMTP. Les identifiants ne sont jamais dans le dépôt : tu les saisis toi-même dans les variables d'environnement du projet Vercel.
 
-1. Vercel → *Add New… Project* → importer ce dépôt, **Root Directory : `mail`**.
+1. Le projet Vercel `code-israel-mail` existe déjà (dépôt lié, **Root Directory : `mail`**, adresse `https://code-israel-mail.vercel.app/api/send-code`). `ALLOWED_RECIPIENTS` vaut `*` : chaque utilisateur reçoit son propre code.
 2. Dans *Settings → Environment Variables* : `SMTP_HOST`, `SMTP_PORT` (465 ou 587), `SMTP_USER`, `SMTP_PASS`, `MAIL_FROM` (par exemple `Code Israël <toi@exemple.fr>`), `ALLOWED_RECIPIENTS` (ton adresse, ou `*` pour tout le monde), `SYNC_URL` (l'adresse du serveur de synchronisation).
 3. Déployer, puis ajouter l'adresse de la fonction dans `public/sync.json` et `ios/App/Resources/Data/sync.json` :
    `{ "url": "https://…workers.dev", "mail": "https://….vercel.app/api/send-code" }`

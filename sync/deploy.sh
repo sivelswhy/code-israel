@@ -15,8 +15,10 @@ fi
 url=$(npx --yes wrangler deploy 2>&1 | tee /dev/stderr | grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' | head -1)
 [ -n "$url" ] || { echo "Could not read the address of the server from the output above." >&2; exit 1; }
 
-printf '{ "url": "%s" }\n' "$url" > ../public/sync.json
+# The function that mails the code (Vercel project "code-israel-mail") is already online.
+printf '{ "url": "%s", "mail": "https://code-israel-mail.vercel.app/api/send-code" }\n' "$url" > ../public/sync.json
 cp ../public/sync.json ../ios/App/Resources/Data/sync.json
 echo
 echo "Server online: $url"
 echo "Written to public/sync.json and ios/App/Resources/Data/sync.json: commit and push them, the apps pick it up."
+echo "Last step: in Vercel (project code-israel-mail), set SYNC_URL to $url and redeploy."
