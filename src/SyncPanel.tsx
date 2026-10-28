@@ -99,6 +99,12 @@ export function useSync(progress: Progress, replace: (p: Progress) => void): Syn
   }
 }
 
+/** A draft e-mail with the code, that opens in the learner's mail app: they choose the address, nothing goes through our servers. */
+function mailtoCode(code: string) {
+  const body = `Votre code de synchronisation Code Israël :\n\n${code}\n\nPour retrouver votre progression sur un autre appareil : ouvrez l’app ou le site (${location.origin}${BASE}), allez dans Guide, puis « Synchroniser mes appareils » ou « J’ai déjà un code », et saisissez ce code.\n\nGardez-le secret : celui qui le connaît peut lire et modifier votre progression.`
+  return `mailto:?subject=${encodeURIComponent('Mon code de synchronisation Code Israël')}&body=${encodeURIComponent(body)}`
+}
+
 /** The "keep my progress on all my devices" card of the guide. */
 export function SyncPanel({ sync }: { sync: SyncState }) {
   const [entering, setEntering] = useState(false)
@@ -145,6 +151,7 @@ export function SyncPanel({ sync }: { sync: SyncState }) {
           {copied ? 'Copié ✓' : 'Copier'}
         </button>
       </div>
+      <a className="report-link mail-code" href={mailtoCode(sync.code)}>✉️ M’envoyer ce code par e-mail</a>
       <p className="muted small" role="status">
         {sync.busy ? 'Synchronisation…' : sync.error ? '' : sync.at ? `Dernière synchronisation : ${new Date(sync.at).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}` : ''}
       </p>

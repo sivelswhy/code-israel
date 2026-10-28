@@ -112,7 +112,10 @@ struct SyncView: View {
                         Spacer()
                         Button(copied ? "Copié" : "Copier") { copy(code) }.buttonStyle(.bordered)
                     }
-                    ShareLink(item: code) { Label("Envoyer le code", systemImage: "square.and.arrow.up") }
+                    if let mail = mailURL(code) {
+                        Link(destination: mail) { Label("M’envoyer le code par e-mail", systemImage: "envelope") }
+                    }
+                    ShareLink(item: code) { Label("Envoyer le code autrement", systemImage: "square.and.arrow.up") }
                 } header: {
                     Text("Votre code")
                 } footer: {
@@ -158,6 +161,17 @@ struct SyncView: View {
             }
         }
         .navigationTitle("Synchronisation")
+    }
+
+    /// A draft e-mail with the code, that opens in the mail app: the learner chooses the address, nothing goes through our servers.
+    private func mailURL(_ code: String) -> URL? {
+        var c = URLComponents()
+        c.scheme = "mailto"
+        c.queryItems = [
+            URLQueryItem(name: "subject", value: "Mon code de synchronisation Code Israël"),
+            URLQueryItem(name: "body", value: "Votre code de synchronisation Code Israël :\n\n\(code)\n\nPour retrouver votre progression sur un autre appareil : ouvrez l’app ou le site (https://sivelswhy.github.io/code-israel/), allez dans Guide, puis « Synchroniser mes appareils » ou « J’ai déjà un code », et saisissez ce code.\n\nGardez-le secret : celui qui le connaît peut lire et modifier votre progression."),
+        ]
+        return c.url
     }
 
     private func copy(_ code: String) {
