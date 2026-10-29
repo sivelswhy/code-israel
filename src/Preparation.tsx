@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { asset, CATEGORIES, EXAM, shuffle, type Category, type Question } from './data'
 import { BackButton, Rings } from './App'
 import { useSigns, type Sign } from './Signs'
@@ -7,6 +7,7 @@ import { play } from './journey/sounds'
 import type { ExamRecord, Stat } from './store'
 import './prep.css'
 import { Flag, TickCircle, CalendarDay, X, Bolt, Check } from 'reicon-react'
+import { focusFirstAnswer, moveBetweenAnswers } from './keyboard'
 
 const pct = (p: number) => `${Math.min(99, Math.max(0, Math.round(p * 100)))} %`
 const gaugeColor = (p: number) => (p >= 0.8 ? 'var(--ring-green)' : p >= 0.5 ? 'var(--ring-orange)' : 'var(--sign-red)')
@@ -244,6 +245,13 @@ export function SignQuiz({ onFinish, onClose }: { onFinish: (correct: number) =>
     if (index + 1 >= rounds.length) play('complete')
   }
 
+  // Keyboard: the first answer has the focus on each new sign (arrows and Tab move, Enter picks).
+  const answersRef = useRef<HTMLOListElement>(null)
+  useEffect(() => {
+    const t = window.setTimeout(() => focusFirstAnswer(answersRef.current), 60)
+    return () => window.clearTimeout(t)
+  }, [index])
+
   return (
     <div className="lesson">
       <header className="lesson-bar">
@@ -263,7 +271,7 @@ export function SignQuiz({ onFinish, onClose }: { onFinish: (correct: number) =>
           <>
             <h1 className="qtext">Que signifie ce panneau ?</h1>
             <div className="card sign-big"><img src={asset(round.sign.img!)} alt={`Panneau ${round.sign.n}`} width="150" height="150" /></div>
-            <ol className="answers">
+            <ol className="answers" ref={answersRef} onKeyDown={moveBetweenAnswers}>
               {round.options.map((option, n) => {
                 const state = chosen === null ? '' : option === round.sign.fr ? 'correct' : option === chosen ? 'wrong' : 'dim'
                 return (

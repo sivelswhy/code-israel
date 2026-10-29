@@ -28,6 +28,9 @@ struct QuizView: View {
     @State private var orders: [[Int]]
     @State private var confirmQuit = false
     @State private var confirmFinish = false
+    /// The answer the keyboard is on, as a position in the order shown.
+    @State private var cursor: Int?
+    @FocusState private var keysFocused: Bool
     @State private var end = Date.now.addingTimeInterval(TimeInterval(ExamRules.minutes * 60))
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
@@ -73,7 +76,8 @@ struct QuizView: View {
                                 letter: ["A", "B", "C", "D"][n],
                                 question: question,
                                 text: question.a[ai],
-                                state: state(of: ai)
+                                state: state(of: ai),
+                                highlighted: !revealed && cursor == n
                             ) { choose(ai) }
                         }
                     }
@@ -88,9 +92,19 @@ struct QuizView: View {
                 .id(index)
                 .transition(.asymmetric(insertion: .move(edge: .trailing).combined(with: .opacity), removal: .opacity))
             }
-            .onChange(of: index) { proxy.scrollTo("top", anchor: .top) }
+            .onChange(of: index) {
+                proxy.scrollTo("top", anchor: .top)
+                cursor = nil
+                keysFocused = true
+            }
         }
         .background(Color.groupedBackground)
+        // Keyboard: arrows or Tab move between the answers, Return validates, then goes to the next question.
+        .focusable()
+        .focused($keysFocused)
+        .focusEffectDisabled()
+        .onKeyPress { handleKey($0) }
+        .onAppear { keysFocused = true }
         .safeAreaInset(edge: .bottom) { actions }
         .navigationTitle(series.title)
         .inlineTitle()
@@ -133,6 +147,29 @@ struct QuizView: View {
             app.record(question, chosen: answer)
             Haptics.answer(answer == question.c)
         }
+    }
+
+    private func handleKey(_ press: KeyPress) -> KeyPress.Result {
+        if press.key == .return {
+            if let c = cursor, !revealed, orders[index][c] != chosen {
+                choose(orders[index][c])
+            } else if chosen != nil {
+                // Answered (in an exam, the answer can still be changed with the arrows): on to the next question.
+                if last {
+                    if exam { if answers.contains(where: { $0 == nil }) { confirmFinish = true } else { submit() } } else { submit() }
+                } else {
+                    go(index + 1)
+                }
+            } else {
+                return .ignored
+            }
+            return .handled
+        }
+        guard !revealed else { return .ignored }
+        let from = cursor ?? chosen.flatMap { orders[index].firstIndex(of: $0) }
+        guard let n = ChoiceKeys.move(press, from: from, count: question.a.count) else { return .ignored }
+        cursor = n
+        return .handled
     }
 
     private func go(_ to: Int) {
@@ -204,6 +241,8 @@ struct AnswerButton: View {
     let question: Question
     let text: String
     let state: State
+    /// The answer the keyboard is on (arrow keys, Tab): outlined, not chosen yet.
+    var highlighted = false
     let action: () -> Void
     @SwiftUI.State private var shake = 0.0
 
@@ -252,6 +291,7 @@ struct AnswerButton: View {
         case .correct: Color.ringGreen.opacity(0.12)
         case .wrong: Color.signRed.opacity(0.1)
         case .selected: Color.accentColor.opacity(0.1)
+        case .normal where highlighted: Color.accentColor.opacity(0.06)
         default: Color.cardBackground
         }
     }
@@ -261,6 +301,7 @@ struct AnswerButton: View {
         case .correct: .ringGreen
         case .wrong: .signRed
         case .selected: .accentColor
+        case .normal where highlighted: Color.accentColor.opacity(0.7)
         default: .clear
         }
     }

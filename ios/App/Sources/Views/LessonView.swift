@@ -17,6 +17,7 @@ struct LessonView: View {
     @State private var orders: [String: [Int]]
     @State private var chosen: Int?
     @State private var checked = false
+    @FocusState private var keysFocused: Bool
     @State private var confirmQuit = false
     /// Changes the true and false statements of the true/false exercises each time a lesson starts.
     @State private var statementSalt = Int.random(in: 0..<1_000_000)
@@ -147,6 +148,21 @@ struct LessonView: View {
         }
         // An inset, not a last row: the panel always stays inside the screen, above the home indicator.
         .safeAreaInset(edge: .bottom, spacing: 0) { bottom(q) }
+        // Keyboard: arrows or Tab move the choice (Shift-Tab goes back), Return checks it.
+        .focusable()
+        .focused($keysFocused)
+        .focusEffectDisabled()
+        .onKeyPress { press in
+            guard !checked else { return .ignored }
+            let from = (0..<choiceCount(q)).first { answerIndex($0, q) == chosen }
+            guard let n = ChoiceKeys.move(press, from: from, count: choiceCount(q)) else { return .ignored }
+            chosen = answerIndex(n, q)
+            Sound.tap.play()
+            return .handled
+        }
+        .onAppear { keysFocused = true }
+        .onChange(of: q.id) { keysFocused = true }
+        .onChange(of: checked) { keysFocused = true }
     }
 
     private var kindLabel: String {

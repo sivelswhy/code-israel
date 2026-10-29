@@ -92,17 +92,28 @@ export function LessonPlayer({ title, lesson, questions, pool, color, xpBefore, 
     }
   }
 
-  const keys = useRef({ select, check, next })
-  keys.current = { select, check, next }
+  const keys = useRef({ select, check, next, chosen })
+  keys.current = { select, check, next, chosen }
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.metaKey || e.ctrlKey || e.altKey || !q) return
+      const target = e.target as HTMLElement
       if (e.key === 'Enter') {
         e.preventDefault()
-        if (checked) keys.current.next()
+        // On an answer reached with Tab, Enter picks it first; Enter again checks.
+        if (!checked && target.matches?.('.answer') && target.getAttribute('aria-pressed') !== 'true') target.click()
+        else if (checked) keys.current.next()
         else keys.current.check()
       } else if (!checked && /^[1-9]$/.test(e.key) && Number(e.key) <= count) {
         keys.current.select(choiceAt(Number(e.key) - 1))
+      } else if (!checked && ['ArrowDown', 'ArrowRight', 'ArrowUp', 'ArrowLeft'].includes(e.key)) {
+        // The arrows move the choice from one answer to the next.
+        e.preventDefault()
+        const step = e.key === 'ArrowDown' || e.key === 'ArrowRight' ? 1 : -1
+        const at = Array.from({ length: count }, (_, n) => choiceAt(n)).indexOf(keys.current.chosen ?? -1)
+        const to = at === -1 ? (step > 0 ? 0 : count - 1) : (at + step + count) % count
+        keys.current.select(choiceAt(to))
+        document.querySelectorAll<HTMLButtonElement>('.lesson-body .answer')[to]?.focus({ preventScroll: true })
       }
     }
     window.addEventListener('keydown', onKey)

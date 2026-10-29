@@ -10,6 +10,9 @@ struct SignQuizView: View {
     @State private var chosen: String?
     @State private var correct = 0
     @State private var paid = false
+    /// The answer the keyboard is on (arrows, Tab), as a position among the four.
+    @State private var cursor: Int?
+    @FocusState private var keysFocused: Bool
 
     struct Round { let sign: Sign; let options: [Sign] }
 
@@ -43,13 +46,8 @@ struct SignQuizView: View {
                             .frame(maxWidth: .infinity).padding(16).background(RoundedRectangle(cornerRadius: 16).fill(Color.cardBackground))
                             .accessibilityLabel("Panneau \(round.sign.n)")
                         ForEach(Array(round.options.enumerated()), id: \.element.n) { n, option in
-                            AnswerButton(letter: ["A", "B", "C", "D"][n], question: Question.placeholder, text: option.fr, state: state(of: option, in: round)) {
-                                guard chosen == nil else { return }
-                                chosen = option.n
-                                let ok = option.n == round.sign.n
-                                if ok { correct += 1 }
-                                Haptics.answer(ok)
-                                (ok ? Sound.right : Sound.wrong).play()
+                            AnswerButton(letter: ["A", "B", "C", "D"][n], question: Question.placeholder, text: option.fr, state: state(of: option, in: round), highlighted: chosen == nil && cursor == n) {
+                                pick(option, in: round)
                             }
                             .disabled(chosen != nil)
                         }
@@ -72,6 +70,35 @@ struct SignQuizView: View {
             }
         }
         .onAppear { if rounds.isEmpty { rounds = Self.makeRounds(app.library.signs) } }
+        // Keyboard: arrows or Tab move between the meanings, Return picks one; the button below goes on with Return.
+        .focusable()
+        .focused($keysFocused)
+        .focusEffectDisabled()
+        .onKeyPress { press in
+            guard chosen == nil, !finished, index < rounds.count else { return .ignored }
+            let round = rounds[index]
+            if press.key == .return, let c = cursor, c < round.options.count {
+                pick(round.options[c], in: round)
+                return .handled
+            }
+            guard let n = ChoiceKeys.move(press, from: cursor, count: round.options.count) else { return .ignored }
+            cursor = n
+            return .handled
+        }
+        .onAppear { keysFocused = true }
+        .onChange(of: index) {
+            cursor = nil
+            keysFocused = true
+        }
+    }
+
+    private func pick(_ option: Sign, in round: Round) {
+        guard chosen == nil else { return }
+        chosen = option.n
+        let ok = option.n == round.sign.n
+        if ok { correct += 1 }
+        Haptics.answer(ok)
+        (ok ? Sound.right : Sound.wrong).play()
     }
 
     private func state(of option: Sign, in round: Round) -> AnswerButton.State {

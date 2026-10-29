@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react'
 import { asset, EXAM, loadQuestions, shuffle, type Question } from './data'
 import { BackButton, spring } from './App'
@@ -6,6 +6,7 @@ import { Explanation } from './Explanation'
 import { useAssistant } from './assistant-context'
 import { answerSign, SignImage, useSigns } from './Signs'
 import { Star } from 'reicon-react'
+import { confirmsAnswer, focusFirstAnswer, moveBetweenAnswers } from './keyboard'
 
 /** Index chosen in `question.a`, or null when unanswered. */
 export type Answer = number | null
@@ -33,6 +34,18 @@ export function Quiz({ mode, title, questions, onRecord, favorites, onFavorite, 
   const ask = useAssistant()
   const signs = useSigns()
   const still = useReducedMotion()
+  const answersRef = useRef<HTMLOListElement>(null)
+  const nextRef = useRef<HTMLButtonElement>(null)
+
+  // Keyboard: on a new question the first answer has the focus (arrows and Tab move, Enter picks); once the answer is shown,
+  // the button to go on has it.
+  useEffect(() => {
+    const t = window.setTimeout(() => focusFirstAnswer(answersRef.current), 60)
+    return () => window.clearTimeout(t)
+  }, [index])
+  useEffect(() => {
+    if (revealed) nextRef.current?.focus({ preventScroll: true })
+  }, [revealed])
 
   const go = (to: number) => {
     setDirection(to > index ? 1 : -1)
@@ -86,7 +99,18 @@ export function Quiz({ mode, title, questions, onRecord, favorites, onFavorite, 
           <h1 className="qtext">{q.q}</h1>
           {q.img && <Picture id={q.img} />}
 
-          <ol className="answers">
+          <ol
+            className="answers"
+            ref={answersRef}
+            onKeyDown={(e) => {
+              if (moveBetweenAnswers(e)) return
+              // In an exam the answer can still be changed: Enter on the chosen one goes on to the next question.
+              if (mode === 'exam' && confirmsAnswer(e)) {
+                e.preventDefault()
+                if (!last) go(index + 1)
+              }
+            }}
+          >
             {orders[index].map((ai, n) => {
               const state = revealed
                 ? ai === q.c
@@ -148,7 +172,7 @@ export function Quiz({ mode, title, questions, onRecord, favorites, onFavorite, 
             )}
           </>
         ) : (
-          <button className="primary wide" disabled={!revealed} onClick={() => (last ? submit() : go(index + 1))}>
+          <button ref={nextRef} className="primary wide" disabled={!revealed} onClick={() => (last ? submit() : go(index + 1))}>
             {last ? 'Voir le bilan' : 'Continuer'}
           </button>
         )}

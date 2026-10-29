@@ -238,3 +238,22 @@ extension Color {
     /// The colour of a lesson played perfectly.
     static let gold = Color(red: 0.96, green: 0.72, blue: 0.1)
 }
+
+/// Keyboard control of a list of answers: the arrow keys and Tab (Shift-Tab goes back) move from one answer to the next, 1 to 4
+/// pick one. Return is left to each screen, which validates the answer or goes to the next question.
+enum ChoiceKeys {
+    /// The answer reached from `current` among `count` answers, or nil when the key moves nothing.
+    static func move(_ press: KeyPress, from current: Int?, count: Int) -> Int? {
+        guard count > 0 else { return nil }
+        if let digit = Int(press.characters), (1...count).contains(digit), press.modifiers.isEmpty { return digit - 1 }
+        let step: Int
+        switch press.key {
+        case .downArrow, .rightArrow: step = 1
+        case .upArrow, .leftArrow: step = -1
+        case .tab: step = press.modifiers.contains(.shift) ? -1 : 1
+        default: return nil
+        }
+        guard let current else { return step > 0 ? 0 : count - 1 }
+        return (current + step + count) % count
+    }
+}
