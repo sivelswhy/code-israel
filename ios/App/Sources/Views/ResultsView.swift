@@ -4,7 +4,8 @@ import SwiftUI
 struct ResultsView: View {
     let series: Series
     let answers: [Int?]
-    let start: (Series) -> Void
+    /// Starts the next series. Nil when the results are shown where no series can be started (the Parcours): no button then.
+    let start: ((Series) -> Void)?
     @Environment(AppModel.self) private var app
     @Environment(\.dismiss) private var dismiss
 
@@ -39,7 +40,7 @@ struct ResultsView: View {
                     .multilineTextAlignment(.center)
                     HStack {
                         Button("Accueil") { dismiss() }.buttonStyle(.bordered)
-                        if series.mode == .exam || !wrong.isEmpty {
+                        if let start, series.mode == .exam || !wrong.isEmpty {
                             Button(series.mode == .exam ? "Nouvel examen" : "Refaire les erreurs") {
                                 let next = series.mode == .exam
                                     ? Series(mode: .exam, title: "Examen blanc", questions: drawExam(app.pool))

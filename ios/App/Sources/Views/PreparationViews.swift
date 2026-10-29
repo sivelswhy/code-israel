@@ -5,6 +5,8 @@ import SwiftUI
 /// "Am I ready?": the estimated chance of passing a mock exam, the weakest themes, the exam date and the history of mock exams.
 /// An estimate from the learner's answers, never a promise.
 struct ReadinessCard: View {
+    /// Starts a new series from the history of exams ("Nouvel examen"). Nil where no series can be started.
+    var startSeries: ((Series) -> Void)?
     /// Starts a series on a weak theme.
     let practice: (Category) -> Void
     @Environment(AppModel.self) private var app
@@ -50,6 +52,18 @@ struct ReadinessCard: View {
                 .font(.footnote).foregroundStyle(streak >= 3 ? Color.ringGreen : .secondary)
 
             examHistory
+            if !app.exams.isEmpty {
+                NavigationLink { ExamHistoryView(start: startSeries) } label: {
+                    HStack {
+                        Label("Mes examens blancs (\(app.exams.count))", systemImage: "list.bullet.rectangle")
+                        Spacer()
+                        Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(.tertiary)
+                    }
+                    .font(.subheadline.weight(.semibold))
+                    .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+            }
             Divider()
             examDate
         }
@@ -183,6 +197,85 @@ struct ReportLink: View {
             Link(destination: url) { Label("Signaler une erreur dans cette question", systemImage: "flag") }
                 .font(.caption)
                 .foregroundStyle(.secondary)
+        }
+    }
+}
+
+/// Every mock exam of the current license, the latest first: a tap shows its questions and the answers given again.
+struct ExamHistoryView: View {
+    var start: ((Series) -> Void)?
+    @Environment(AppModel.self) private var app
+    @State private var reviewed: Series?
+    @State private var reviewedAnswers: [Int?] = []
+
+    var body: some View {
+        let exams = Array(app.exams.reversed())
+        let passed = exams.filter(\.passed).count
+        let best = exams.map { ExamRules.size - $0.errors }.max() ?? 0
+        List {
+            Section {
+                HStack(spacing: 0) {
+                    stat("\(exams.count)", "examen\(exams.count > 1 ? "s" : "")")
+                    stat("\(passed)", "réussi\(passed > 1 ? "s" : "")")
+                    stat("\(best)/\(ExamRules.size)", "meilleur score")
+                }
+                .padding(.vertical, 4)
+            }
+            Section("Du plus récent au plus ancien") {
+                ForEach(Array(exams.enumerated()), id: \.offset) { _, e in row(e) }
+            }
+            if exams.contains(where: { !$0.canReview }) {
+                Section {} footer: {
+                    Text("Seuls les derniers examens gardent le détail de leurs questions : pour les plus anciens, on ne voit que le score.")
+                }
+            }
+        }
+        .navigationTitle("Mes examens blancs")
+        .sheet(item: $reviewed) { series in
+            NavigationStack {
+                ResultsView(series: series, answers: reviewedAnswers) { next in
+                    reviewed = nil
+                    start?(next)
+                }
+                .toolbar { ToolbarItem(placement: .cancellationAction) { Button("Fermer") { reviewed = nil } } }
+            }
+        }
+    }
+
+    private func stat(_ value: String, _ label: String) -> some View {
+        VStack(spacing: 2) {
+            Text(value).font(.title3.weight(.bold).monospacedDigit())
+            Text(label).font(.caption).foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+    }
+
+    @ViewBuilder private func row(_ e: ExamRecord) -> some View {
+        let color = e.passed ? Color.ringGreen : Color.signRed
+        let content = HStack(spacing: 12) {
+            Text("\(ExamRules.size - e.errors)/\(ExamRules.size)")
+                .font(.headline.monospacedDigit())
+                .frame(width: 64).padding(.vertical, 6)
+                .background(Capsule().fill(color.opacity(0.15))).foregroundStyle(color)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(e.passed ? "Réussi" : "Raté").font(.subheadline.weight(.semibold))
+                Text("\(e.errors) erreur\(e.errors > 1 ? "s" : "") · \(e.date.formatted(date: .abbreviated, time: .shortened))")
+                    .font(.footnote).foregroundStyle(.secondary)
+            }
+            Spacer()
+        }
+        if let r = app.review(e) {
+            Button {
+                reviewedAnswers = r.answers
+                reviewed = Series(mode: .exam, title: "Examen blanc", questions: r.questions)
+            } label: {
+                HStack { content; Image(systemName: "chevron.right").font(.caption.weight(.semibold)).foregroundStyle(.tertiary) }
+                    .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("Revoir l’examen du \(e.date.formatted(date: .long, time: .shortened)), \(ExamRules.size - e.errors) sur \(ExamRules.size)")
+        } else {
+            content
         }
     }
 }

@@ -6,7 +6,7 @@ import { passStreak, plan, readiness, weakest, type Readiness } from './readines
 import { play } from './journey/sounds'
 import type { ExamRecord, Stat } from './store'
 import './prep.css'
-import { Flag, TickCircle, CalendarDay, X, Bolt, Check } from 'reicon-react'
+import { Flag, TickCircle, CalendarDay, X, Bolt, Check, Checklist } from 'reicon-react'
 import { focusFirstAnswer, moveBetweenAnswers } from './keyboard'
 
 const pct = (p: number) => `${Math.min(99, Math.max(0, Math.round(p * 100)))} %`
@@ -16,13 +16,15 @@ const gaugeColor = (p: number) => (p >= 0.8 ? 'var(--ring-green)' : p >= 0.5 ? '
  * "Am I ready?": the estimated chance of passing a mock exam, the weakest themes, the exam date and the history of mock
  * exams. An estimate from the learner's answers, never a promise.
  */
-export function ReadinessCard({ pool, stats, exams, examDate, onPractice, onExamDate }: {
+export function ReadinessCard({ pool, stats, exams, examDate, onPractice, onExamDate, onHistory }: {
   pool: Question[]
   stats: Record<string, Stat>
   exams: ExamRecord[]
   examDate?: string
   onPractice: (category: Category) => void
   onExamDate: (date: string | undefined) => void
+  /** Opens the list of all the mock exams. */
+  onHistory?: () => void
 }) {
   const r = useMemo(() => readiness(pool, stats), [pool, stats])
   const p = plan(examDate, pool, stats)
@@ -63,6 +65,11 @@ export function ReadinessCard({ pool, stats, exams, examDate, onPractice, onExam
       <p className={`streak-line ${streak >= 3 ? 'ok' : ''}`}>
         {streak >= 3 ? <TickCircle className="ic" size={16} weight="Filled" /> : <Flag className="ic" size={16} />} {streak === 0 ? 'Réussissez 3 examens blancs de suite avant le jour J.' : `${streak} examen${streak > 1 ? 's' : ''} blanc${streak > 1 ? 's' : ''} réussi${streak > 1 ? 's' : ''} d’affilée · visez 3`}
       </p>
+      {onHistory && exams.length > 0 && (
+        <button className="link strong" onClick={onHistory}>
+          <Checklist className="ic" size={16} /> Mes examens blancs ({exams.length})
+        </button>
+      )}
 
       {last.length >= 2 && (
         <figure className="exam-bars" aria-label="Résultats des derniers examens blancs">
@@ -291,5 +298,53 @@ export function SignQuiz({ onFinish, onClose }: { onFinish: (correct: number) =>
         {(finished || chosen !== null) && <button className="primary wide" onClick={next} autoFocus>{finished ? 'Terminer' : 'Continuer'}</button>}
       </main>
     </div>
+  )
+}
+
+/** Every mock exam of the current license, the latest first: a click shows its questions and the answers given again. */
+export function ExamHistoryScreen({ exams, onBack, onReview }: { exams: ExamRecord[]; onBack: () => void; onReview: (exam: ExamRecord) => void }) {
+  const list = [...exams].reverse()
+  const passed = list.filter((e) => e.errors <= EXAM.maxErrors).length
+  const best = list.length ? Math.max(...list.map((e) => EXAM.size - e.errors)) : 0
+  const reviewable = (e: ExamRecord) => !!e.ids && e.ids.length === e.answers?.length
+  const fmt = new Intl.DateTimeFormat('fr-FR', { dateStyle: 'medium', timeStyle: 'short' })
+  return (
+    <main className="page">
+      <BackButton onClick={onBack} />
+      <h1 className="title">Mes examens blancs</h1>
+      <section className="card exam-stats">
+        <div><strong className="mono">{list.length}</strong><small>examen{list.length > 1 ? 's' : ''}</small></div>
+        <div><strong className="mono">{passed}</strong><small>réussi{passed > 1 ? 's' : ''}</small></div>
+        <div><strong className="mono">{best}/{EXAM.size}</strong><small>meilleur score</small></div>
+      </section>
+      <h2 className="section-title">Du plus récent au plus ancien</h2>
+      <ul className="list exam-list">
+        {list.map((e) => {
+          const ok = e.errors <= EXAM.maxErrors
+          const body = (
+            <>
+              <span className={`exam-score ${ok ? 'pass' : 'fail'}`}>{EXAM.size - e.errors}/{EXAM.size}</span>
+              <span className="exam-info">
+                <strong>{ok ? 'Réussi' : 'Raté'}</strong>
+                <small className="muted">{e.errors} erreur{e.errors > 1 ? 's' : ''} · {fmt.format(new Date(e.date))}</small>
+              </span>
+            </>
+          )
+          return (
+            <li key={e.date}>
+              {reviewable(e) ? (
+                <button className="exam-row" onClick={() => onReview(e)} aria-label={`Revoir l'examen du ${fmt.format(new Date(e.date))}, ${EXAM.size - e.errors} sur ${EXAM.size}`}>
+                  {body}
+                  <span className="chevron-end" aria-hidden="true">›</span>
+                </button>
+              ) : (
+                <div className="exam-row">{body}</div>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+      {list.some((e) => !reviewable(e)) && <p className="muted small footer">Seuls les derniers examens gardent le détail de leurs questions : pour les plus anciens, on ne voit que le score.</p>}
+    </main>
   )
 }

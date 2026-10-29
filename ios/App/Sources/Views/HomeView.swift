@@ -81,7 +81,7 @@ struct HomeView: View {
             }
 
             Section {
-                ReadinessCard { cat in start(Series(mode: .practice, title: "Points faibles : \(cat.label)", questions: app.weakest(in: cat))) }
+                ReadinessCard(startSeries: start) { cat in start(Series(mode: .practice, title: "Points faibles : \(cat.label)", questions: app.weakest(in: cat))) }
                     .listRowInsets(EdgeInsets()).listRowBackground(Color.clear)
             }
 

@@ -4,7 +4,7 @@ import { ACTIVE_LICENSES, CATEGORIES, EXAM, LICENSES, drawExam, loadQuestions, s
 import { localDay, streak, useProgress, type ExamRecord, type Stat } from './store'
 import { addXP, applyStreakFreezes, claim, finish, openChest, RULES, streakOf, xpToday, type ChestReward, type Outcome, type QuestKind } from './journey/engine'
 import { InstallHint } from './InstallHint'
-import { GuideScreen, ReadinessCard, SignQuiz } from './Preparation'
+import { ExamHistoryScreen, GuideScreen, ReadinessCard, SignQuiz } from './Preparation'
 import { SyncPanel, useSync } from './SyncPanel'
 import { trapIDs, weakestIn } from './readiness'
 import { Journey, type StartLesson } from './journey/Journey'
@@ -31,6 +31,7 @@ type Screen =
   | { name: 'match' }
   | { name: 'guide' }
   | { name: 'sync' }
+  | { name: 'exams' }
   | { name: 'signquiz' }
 
 const PRACTICE_SIZE = 20
@@ -98,6 +99,12 @@ export default function App() {
   const start = (mode: 'exam' | 'practice', title: string, questions: Question[]) =>
     setScreen({ name: 'quiz', mode, title, questions })
   const home = () => setScreen({ name: 'home' })
+  const reviewExam = (exam: ExamRecord) => {
+    const byId = new Map((all ?? []).map((q) => [q.id, q]))
+    const questions = exam.ids!.map((id) => byId.get(id)).filter((q): q is Question => !!q)
+    // A question missing from the bank would shift the answers: show nothing rather than a wrong review.
+    if (questions.length === exam.ids!.length) setScreen({ name: 'results', mode: 'exam', questions, answers: exam.answers! })
+  }
   const switcher = (
     <div className="top-actions">
       <ModeSwitch mode={mode} onChange={changeMode} />
@@ -156,6 +163,7 @@ export default function App() {
             onMatch={() => setScreen({ name: 'match' })}
             onSignQuiz={() => setScreen({ name: 'signquiz' })}
             onGuide={() => setScreen({ name: 'guide' })}
+            onExams={() => setScreen({ name: 'exams' })}
             onPractice={(title, questions, color) => setScreen({ name: 'lesson', start: { title, lesson: null, questions, color, countsAsReview: false }, xpBefore: xpToday(progress.journey) })}
             onWeak={practiceWeak}
             onExamDate={setExamDate}
@@ -181,6 +189,9 @@ export default function App() {
         {screen.name === 'match' && <MatchGame onFinish={finishMatch} onClose={home} />}
         {screen.name === 'signquiz' && <SignQuiz onFinish={finishSignQuiz} onClose={home} />}
         {screen.name === 'guide' && <GuideScreen onBack={home} />}
+        {screen.name === 'exams' && (
+          <ExamHistoryScreen exams={progress.exams.filter((e) => e.license === progress.license)} onBack={home} onReview={reviewExam} />
+        )}
         {screen.name === 'sync' && (
           <main className="page">
             <BackButton onClick={home} />
@@ -213,12 +224,8 @@ export default function App() {
             onMistakes={(qs) => start('practice', 'Mes erreurs', shuffle(qs).slice(0, PRACTICE_SIZE))}
             onUnseen={(qs) => start('practice', 'Jamais vues', shuffle(qs).slice(0, PRACTICE_SIZE))}
             onFavorites={(qs) => start('practice', 'Mes favoris', shuffle(qs).slice(0, PRACTICE_SIZE))}
-            onReview={(exam) => {
-              const byId = new Map(all.map((q) => [q.id, q]))
-              const questions = exam.ids!.map((id) => byId.get(id)).filter((q): q is Question => !!q)
-              // A question missing from the bank would shift the answers: show nothing rather than a wrong review.
-              if (questions.length === exam.ids!.length) setScreen({ name: 'results', mode: 'exam', questions, answers: exam.answers! })
-            }}
+            onReview={reviewExam}
+            onExams={() => setScreen({ name: 'exams' })}
             onBrowse={() => setScreen({ name: 'browse' })}
             onSources={() => setScreen({ name: 'sources' })}
             onSigns={() => setScreen({ name: 'signs' })}
@@ -301,6 +308,7 @@ interface HomeProps {
   onUnseen: (qs: Question[]) => void
   onFavorites: (qs: Question[]) => void
   onReview: (exam: ExamRecord) => void
+  onExams: () => void
   onBrowse: () => void
   onSources: () => void
   onSigns: () => void
@@ -308,7 +316,7 @@ interface HomeProps {
 
 const DAILY_GOAL = 20
 
-function Home({ pool, license, stats, exams, favorites, daily, frozenDays, examDate, traps, onWeak, onExamDate, onTraps, onSignQuiz, onGuide, switcher, onLicense, onExam, onCategory, onMistakes, onUnseen, onFavorites, onReview, onBrowse, onSources, onSigns }: HomeProps) {
+function Home({ pool, license, stats, exams, favorites, daily, frozenDays, examDate, traps, onWeak, onExamDate, onTraps, onSignQuiz, onGuide, switcher, onLicense, onExam, onCategory, onMistakes, onUnseen, onFavorites, onReview, onExams, onBrowse, onSources, onSigns }: HomeProps) {
   const mistakes = pool.filter((q) => stats[q.id] && !stats[q.id].last)
   const unseen = pool.filter((q) => !stats[q.id])
   const mastered = pool.length - unseen.length - mistakes.length
@@ -379,7 +387,7 @@ function Home({ pool, license, stats, exams, favorites, daily, frozenDays, examD
         )}
       </section>
 
-      <ReadinessCard pool={pool} stats={stats} exams={exams} examDate={examDate} onPractice={onWeak} onExamDate={onExamDate} />
+      <ReadinessCard pool={pool} stats={stats} exams={exams} examDate={examDate} onPractice={onWeak} onExamDate={onExamDate} onHistory={onExams} />
 
       <button className="exam-tile" onClick={onExam}>
         <span className="exam-icon" aria-hidden="true">

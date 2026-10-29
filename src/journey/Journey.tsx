@@ -35,6 +35,7 @@ interface Props {
   onMatch: () => void
   onSignQuiz: () => void
   onGuide: () => void
+  onExams: () => void
   onPractice: (title: string, questions: Question[], color: string) => void
   onWeak: (category: Category) => void
   onExamDate: (date: string | undefined) => void
@@ -46,7 +47,7 @@ interface Props {
 }
 
 /** The Parcours: a path of short lessons per theme, XP, a level, daily quests and a daily review of the questions missed. */
-export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart, onMatch, onSignQuiz, onGuide, onPractice, onWeak, onExamDate, traps, onClaim, onChest, switcher }: Props) {
+export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart, onMatch, onSignQuiz, onGuide, onExams, onPractice, onWeak, onExamDate, traps, onClaim, onChest, switcher }: Props) {
   const j = progress.journey
   const units = useMemo(() => buildPath(pool), [pool])
   const byId = useMemo(() => new Map(pool.map((q) => [q.id, q])), [pool])
@@ -122,6 +123,7 @@ export function Journey({ pool, progress, freezeNotice, onDismissNotice, onStart
           onMatch={onMatch}
           onSignQuiz={onSignQuiz}
           onGuide={onGuide}
+          onExams={onExams}
           onTraps={() => onPractice('Pièges', traps.slice(0, RULES.adaptiveSize), 'var(--sign-red)')}
           onWeak={onWeak}
           onExamDate={onExamDate}
@@ -159,6 +161,7 @@ interface SummaryProps {
   onMatch: () => void
   onSignQuiz: () => void
   onGuide: () => void
+  onExams: () => void
   onTraps: () => void
   onWeak: (c: Category) => void
   onExamDate: (d: string | undefined) => void
@@ -168,7 +171,7 @@ interface SummaryProps {
   onChest: () => ChestReward | null
 }
 
-function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTraining, onMatch, onSignQuiz, onGuide, onTraps, onWeak, onExamDate, pool, traps, onClaim, onChest }: SummaryProps) {
+function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTraining, onMatch, onSignQuiz, onGuide, onExams, onTraps, onWeak, onExamDate, pool, traps, onClaim, onChest }: SummaryProps) {
   const today = xpToday(j)
   const days = streakOf(progress.daily, j.frozenDays)
   const due = dueQuestionIDs(j)
@@ -201,7 +204,7 @@ function Summary({ j, progress, freezeNotice, onDismissNotice, onReview, onTrain
         <p className="muted small">{RULES.xpPerLevel - xpInLevel(j)} XP avant le niveau {level(j) + 1}</p>
       </section>
 
-      <ReadinessCard pool={pool} stats={progress.stats} exams={progress.exams.filter((e) => e.license === progress.license)} examDate={progress.examDate} onPractice={onWeak} onExamDate={onExamDate} />
+      <ReadinessCard pool={pool} stats={progress.stats} exams={progress.exams.filter((e) => e.license === progress.license)} examDate={progress.examDate} onPractice={onWeak} onExamDate={onExamDate} onHistory={onExams} />
 
       <div className="pills">
         <Pill icon={<Flame size={22} weight="Filled" />} value={String(days)} label={days > 1 ? 'jours' : 'jour'} />

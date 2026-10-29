@@ -23,7 +23,7 @@ struct HomeDashboard: View {
                     examCard
                 }
                 .fixedSize(horizontal: false, vertical: true)
-                ReadinessCard { cat in start(Series(mode: .practice, title: "Points faibles : \(cat.label)", questions: app.weakest(in: cat))) }
+                ReadinessCard(startSeries: start) { cat in start(Series(mode: .practice, title: "Points faibles : \(cat.label)", questions: app.weakest(in: cat))) }
                 section("S’entraîner par thème") {
                     LazyVGrid(columns: themeColumns, spacing: 14) {
                         ForEach(Category.allCases, id: \.self) { themeCard($0) }
