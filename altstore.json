@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.22",
+          "buildVersion": "22",
+          "date": "2026-10-29",
+          "localizedDescription": "Historique « Mes examens blancs » : tous les examens avec date et score, détail à revoir (app et site)",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.22/CodeIsrael.ipa",
+          "size": 27211246,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.21",
           "buildVersion": "21",
           "date": "2026-10-29",
