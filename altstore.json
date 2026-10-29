@@ -20,6 +20,15 @@
       "screenshotURLs": [],
       "versions": [
         {
+          "version": "1.21",
+          "buildVersion": "21",
+          "date": "2026-10-29",
+          "localizedDescription": "Questions au clavier : flèches ou Tab pour choisir une réponse, Entrée pour valider (app et site)",
+          "downloadURL": "https://github.com/sivelswhy/code-israel/releases/download/v1.21/CodeIsrael.ipa",
+          "size": 27185207,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.20",
           "buildVersion": "20",
           "date": "2026-10-28",
